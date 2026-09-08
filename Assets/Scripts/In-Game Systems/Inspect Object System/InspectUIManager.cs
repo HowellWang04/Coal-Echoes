@@ -7,6 +7,7 @@ using Controller.FinalCharacterController;
 public class InspectUIManager : MonoBehaviour
 {
     [Header("Object Ref")]
+    [SerializeField] private PlayerInputProvider inputProvider;
     [SerializeField] private GameObject inspectPanel;
     [SerializeField] private PlayerMovementManager playerMovementManager;
 
@@ -78,7 +79,8 @@ public class InspectUIManager : MonoBehaviour
     {
         if (!IsInspecting) return;
 
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
+        if (inputProvider != null
+            && inputProvider.Controls.Gameplay.Cancel.WasPressedThisFrame())
             StopInspect();
     }
 
@@ -113,7 +115,7 @@ public class InspectUIManager : MonoBehaviour
 
         // Add rotation control
         var rotator = inspectClone.AddComponent<InspectRotator>();
-        rotator.Activate(currentCamera, item.inspectDistance);
+        rotator.Activate(currentCamera, item.inspectDistance, inputProvider);
     }
 
     private void SetLayerRecursive(GameObject obj, int layer)

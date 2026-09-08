@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e72b9e6fce85e349a6e27bac9e1093a, type: 3}
+  m_Name: ProjectUIAnimationProfile
+  m_EditorClassIdentifier: Assembly-CSharp::UIAnimationProfile
+  hoverDuration: 0.12
+  hoverScale: 1.04
+  hoverEase: 6
+  pressDuration: 0.07
+  pressScale: 0.96
+  pressEase: 6
+  sidebarHoverDuration: 0.12
+  sidebarHoverScale: 1.12
+  sidebarHoverEase: 6
+  sidebarPressDuration: 0.07
+  sidebarPressScale: 1.08
+  sidebarPressEase: 6
+  sidebarActiveBrightness: 0.85
+  panelDuration: 0.36
+  panelStartAlpha: 0.88
+  panelEase: 12
+  tabDuration: 0.18
+  tabOffset: 24
+  tabEase: 9
+  scrapbookFlyDuration: 0.56
+  scrapbookArcHeight: 110
+  scrapbookEndScale: 0.16
+  scrapbookFlyEase: 10
+  scrapbookIconPunchDuration: 0.2
+  scrapbookIconPunchScale: 0.08
+  photoDeleteDuration: 0.22
+  photoDeleteStagger: 0.025
+  photoDeleteDrop: 18
+  photoDeleteEndScale: 0.82
+  photoDeleteRotation: 3
+  photoDeleteEase: 8
+  photoReflowDuration: 0.24
+  photoReflowEase: 9

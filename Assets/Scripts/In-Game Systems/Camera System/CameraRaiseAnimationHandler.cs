@@ -6,11 +6,17 @@ using UnityEngine.Rendering.Universal;
 
 public sealed class CameraRaiseAnimationHandler : MonoBehaviour
 {
+    public Transform CameraModelTransform => cameraModel != null ? cameraModel.transform : null;
+
     [Header("Camera Model Ref")]
     [SerializeField] private GameObject cameraModel;
+    [SerializeField] private Transform focusTarget;
 
-    [Header("Post Processing Volume Ref")]
-    [SerializeField] private Volume globalVolume;
+    [Header("Preview Camera Ref")]
+    [SerializeField] private Camera previewCamera;
+
+    [Header("Handheld Focus Volume Ref")]
+    [SerializeField] private Volume handheldFocusVolume;
 
     [Header("Start State (below screen)")]
     [SerializeField] private Vector3 startLocalPosition = new Vector3(0f, -0.6f, 1.2f);
@@ -31,23 +37,24 @@ public sealed class CameraRaiseAnimationHandler : MonoBehaviour
 
     private void Awake()
     {
-        if (cameraModel != null) cameraModel.SetActive(false);
-        if (globalVolume != null) globalVolume.profile.TryGet(out dof);
+        if (handheldFocusVolume != null)
+            handheldFocusVolume.profile.TryGet(out dof);
+        SetCameraModelVisible(false);
     }
 
     public void PlayRaise(Action onComplete)
     {
         if (current != null) StopCoroutine(current);
-        cameraModel.SetActive(true);
+        SetCameraModelVisible(true);
         current = StartCoroutine(AnimateRoutine(startLocalPosition, startLocalRotation, startLocalScale,
                                                 endLocalPosition,   endLocalRotation,   endLocalScale,
-                                                hideOnComplete: true, onComplete));
+                                                hideOnComplete: false, onComplete));
     }
 
     public void PlayLower(Action onComplete)
     {
         if (current != null) StopCoroutine(current);
-        cameraModel.SetActive(true);
+        SetCameraModelVisible(true);
         hideCameraModelShadows();
         cameraModel.transform.localPosition    = endLocalPosition;
         cameraModel.transform.localEulerAngles = endLocalRotation;
@@ -57,17 +64,23 @@ public sealed class CameraRaiseAnimationHandler : MonoBehaviour
                                                 hideOnComplete: true, onComplete));
     }
 
+    public void SetCameraModelVisible(bool visible)
+    {
+        if (cameraModel != null) cameraModel.SetActive(visible);
+        if (previewCamera != null) previewCamera.enabled = visible;
+        if (handheldFocusVolume != null) handheldFocusVolume.weight = visible ? 1f : 0f;
+        if (visible) UpdateHandheldFocus();
+    }
+
     private IEnumerator AnimateRoutine(
         Vector3 fromPos, Vector3 fromRot, Vector3 fromScale,
         Vector3 toPos,   Vector3 toRot,   Vector3 toScale,
         bool hideOnComplete, Action onComplete)
     {
-        if (dof != null) dof.active = false;
-        
-
         cameraModel.transform.localPosition    = fromPos;
         cameraModel.transform.localEulerAngles = fromRot;
         cameraModel.transform.localScale       = fromScale;
+        UpdateHandheldFocus();
 
         float elapsed = 0f;
         while (elapsed < duration)
@@ -78,14 +91,26 @@ public sealed class CameraRaiseAnimationHandler : MonoBehaviour
             cameraModel.transform.localPosition    = Vector3.Lerp(fromPos,   toPos,   t);
             cameraModel.transform.localEulerAngles = Vector3.Lerp(fromRot,   toRot,   t);
             cameraModel.transform.localScale       = Vector3.Lerp(fromScale, toScale, t);
+            UpdateHandheldFocus();
 
             yield return null;
         }
 
-        if (hideOnComplete) cameraModel.SetActive(false);
-        if (dof != null) dof.active = true;
+        if (hideOnComplete) SetCameraModelVisible(false);
         current = null;
         onComplete?.Invoke();
+    }
+
+    private void UpdateHandheldFocus()
+    {
+        Camera mainCamera = Camera.main;
+        Transform target = focusTarget != null ? focusTarget : cameraModel?.transform;
+        if (dof == null || mainCamera == null || target == null) return;
+
+        float focusDistance = Vector3.Dot(
+            target.position - mainCamera.transform.position,
+            mainCamera.transform.forward);
+        dof.focusDistance.Override(Mathf.Max(0.1f, focusDistance));
     }
 
     private void hideCameraModelShadows()

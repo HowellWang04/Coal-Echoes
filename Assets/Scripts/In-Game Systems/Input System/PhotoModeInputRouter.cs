@@ -5,47 +5,52 @@ using Controller.FinalCharacterController;
 public sealed class PhotoModeInputRouter : MonoBehaviour
 {
     [Header("Object Refs")]
-    [SerializeField] private PlayerLocomotionInput locomotionInput;
+    [SerializeField] private PlayerInputProvider inputProvider;
     [SerializeField] private CameraSystemManager cameraSystemManager;
     [SerializeField] private PlayerPanelUIManager playerPanel;
     [SerializeField] private PlayerMovementManager playerMovementManager;
     [SerializeField] private CameraRaiseAnimationHandler cameraRaiseAnimationHandler;
     
-    private InputAction cameraToggle;   
+    private InputAction cameraToggle;
+    private InputAction cameraViewToggle;
     private InputAction shutter;
-    private InputAction cursorHold;
+    private InputAction cursorToggle;
 
     private bool cursorMode = false;
     private float enterTime;
 
     private void OnEnable()
     {
-        if (locomotionInput == null) return;
+        if (inputProvider == null) return;
         if (cameraSystemManager == null) return;
         if (playerPanel == null) return;
 
-        var map = locomotionInput.PlayerControls.PlayerLocomotionMap;
+        var map = inputProvider.Controls.Gameplay;
 
         cameraToggle = map.CameraModeToggle;
+        cameraViewToggle = map.CameraViewToggle;
         shutter = map.PhotoShutter;
-        cursorHold = map.CursorHold;
+        cursorToggle = map.CursorToggle;
         cameraToggle.performed += OnCameraTogglePerformed;
+        cameraViewToggle.performed += OnCameraViewTogglePerformed;
         shutter.performed += OnShutterPerformed;
-        cursorHold.started += OnCursorToggle;
+        cursorToggle.performed += OnCursorToggle;
         shutter.Disable();
     }
 
     private void OnDisable()
     {
         if (cameraToggle != null) cameraToggle.performed -= OnCameraTogglePerformed;
+        if (cameraViewToggle != null) cameraViewToggle.performed -= OnCameraViewTogglePerformed;
         if (shutter != null) shutter.performed -= OnShutterPerformed;
-        if (cursorHold != null)
-            cursorHold.started -= OnCursorToggle;
+        if (cursorToggle != null)
+            cursorToggle.performed -= OnCursorToggle;
     }
 
     private void OnCameraTogglePerformed(InputAction.CallbackContext ctx)
     {
         if (cameraSystemManager == null) return;
+        if (cameraSystemManager.IsViewTransitioning) return;
         if (playerPanel.IsOpen) return;
 
         if (cameraSystemManager.CurrentState == CameraModeState.Reviewing) return;
@@ -78,6 +83,15 @@ public sealed class PhotoModeInputRouter : MonoBehaviour
         }
     }
 
+    private void OnCameraViewTogglePerformed(InputAction.CallbackContext ctx)
+    {
+        if (!cameraSystemManager.ToggleViewMode()) return;
+        if (cursorMode) ExitCursorMode();
+        if (!cameraSystemManager.UsesAnimatedViewTransition && cameraRaiseAnimationHandler != null)
+            cameraRaiseAnimationHandler.SetCameraModelVisible(
+                cameraSystemManager.CurrentViewMode == CameraViewMode.Handheld);
+    }
+
     private void OnShutterPerformed(InputAction.CallbackContext ctx)
     {
         if (cameraSystemManager == null) return;
@@ -103,7 +117,9 @@ public sealed class PhotoModeInputRouter : MonoBehaviour
 
     private void OnCursorToggle(InputAction.CallbackContext ctx)
     {
+        if (cameraSystemManager.IsViewTransitioning) return;
         if (cameraSystemManager.CurrentState != CameraModeState.Active) return;
+        if (cameraSystemManager.CurrentViewMode != CameraViewMode.Fullscreen) return;
 
         if (!cursorMode)
         {

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Controller.FinalCharacterController
 {
@@ -27,7 +28,11 @@ namespace Controller.FinalCharacterController
         private float yaw;                   
         private float pitch;                 
 
-        private PlayerLocomotionInput input;
+        private PlayerInputProvider inputProvider;
+        private InputAction movementAction;
+        private InputAction lookAction;
+        private Vector2 movementInput;
+        private Vector2 lookInput;
 
         public bool AllowControl
         {
@@ -40,9 +45,38 @@ namespace Controller.FinalCharacterController
 
         private void Awake()
         {
-            input = GetComponent<PlayerLocomotionInput>();
+            inputProvider = GetComponent<PlayerInputProvider>();
 
             yaw = transform.eulerAngles.y;
+        }
+
+        private void OnEnable()
+        {
+            movementAction = inputProvider.Controls.Gameplay.Movement;
+            lookAction = inputProvider.Controls.Gameplay.Look;
+
+            movementAction.performed += OnMovement;
+            movementAction.canceled += OnMovement;
+            lookAction.performed += OnLook;
+            lookAction.canceled += OnLook;
+        }
+
+        private void OnDisable()
+        {
+            movementAction.performed -= OnMovement;
+            movementAction.canceled -= OnMovement;
+            lookAction.performed -= OnLook;
+            lookAction.canceled -= OnLook;
+        }
+
+        private void OnMovement(InputAction.CallbackContext context)
+        {
+            movementInput = context.ReadValue<Vector2>();
+        }
+
+        private void OnLook(InputAction.CallbackContext context)
+        {
+            lookInput = context.ReadValue<Vector2>();
         }
 
         private void Update()
@@ -65,11 +99,8 @@ namespace Controller.FinalCharacterController
             Vector3 forward = Vector3.ProjectOnPlane(playerCamera.transform.forward, Vector3.up).normalized;
             Vector3 right   = Vector3.ProjectOnPlane(playerCamera.transform.right,   Vector3.up).normalized;
 
-            // Get input from PlayerLocomotionInput
-            Vector2 moveInput = input.MovementInput;
-
             // Get direction by input and camera orientation
-            Vector3 wishDir = right * moveInput.x + forward * moveInput.y;
+            Vector3 wishDir = right * movementInput.x + forward * movementInput.y;
             wishDir = wishDir.sqrMagnitude > 1f ? wishDir.normalized : wishDir;
 
             Vector3 targetVelocity = wishDir * maxSpeed;
@@ -101,10 +132,8 @@ namespace Controller.FinalCharacterController
 
         private void HandleLook()
         {
-            Vector2 look = input.LookInput;
-
-            yaw   += look.x * lookSensitivity;
-            pitch -= look.y * lookSensitivity;
+            yaw   += lookInput.x * lookSensitivity;
+            pitch -= lookInput.y * lookSensitivity;
             pitch = Mathf.Clamp(pitch, -lookLimit, lookLimit);
 
             // Apply rotations to player, whole body turns Y (left/right)

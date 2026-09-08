@@ -12,7 +12,8 @@ public class ScrapBookUIManager : MonoBehaviour
     [SerializeField] private Transform elementContent;
 
     [Header("Photo Element Size")]
-    [SerializeField] private Vector2 photoElementSize = new Vector2(80, 80);
+    [SerializeField] private Vector2 photoElementSize = new Vector2(142, 80);
+    [SerializeField] private GameObject photoElementPrefab;
 
     [Header("ScrapBook Canvas")]
     [SerializeField] private ScrapBookCanvas scrapBookCanvas;
@@ -37,6 +38,9 @@ public class ScrapBookUIManager : MonoBehaviour
 
     private void OnEnable()
     {
+        if (scrapBookCanvas != null)
+            scrapBookCanvas.SetPhotoElementPrefab(photoElementPrefab);
+
         if (photoCategoryBtn != null) photoCategoryBtn.onClick.AddListener(() => SwitchCategory(Category.Photo));
         if (decoCategoryBtn != null) decoCategoryBtn.onClick.AddListener(() => SwitchCategory(Category.Decoration));
 
@@ -118,18 +122,18 @@ public class ScrapBookUIManager : MonoBehaviour
             Texture2D thumb = GetOrCreateThumbnail(fileName);
             if (thumb == null) continue;
 
-            GameObject go = new GameObject(fileName);
-            go.transform.SetParent(elementContent, false);
+            if (photoElementPrefab == null) return;
 
-            var rt = go.AddComponent<RectTransform>();
-            rt.sizeDelta = photoElementSize;
+            GameObject go = Instantiate(photoElementPrefab, elementContent);
+            go.name = fileName;
 
-            var le = go.AddComponent<LayoutElement>();
-            le.preferredWidth = photoElementSize.x;
-            le.preferredHeight = photoElementSize.y;
+            Vector2 elementSize = GetAlbumPhotoElementSize();
+            ScrapBookPhotoVisual.Configure(go, thumb, elementSize);
 
-            var rawImage = go.AddComponent<RawImage>();
-            rawImage.texture = thumb;
+            var le = go.GetComponent<LayoutElement>();
+            if (le == null) le = go.AddComponent<LayoutElement>();
+            le.preferredWidth = elementSize.x;
+            le.preferredHeight = elementSize.y;
 
             // Glow outline if this photo carries Echo content.
             if (EchoPhotoStorage.Load(fileName).Count > 0)
@@ -140,10 +144,17 @@ public class ScrapBookUIManager : MonoBehaviour
             }
 
             var draggable = go.AddComponent<ScrapBookDraggable>();
-            draggable.SetupPhoto(fileName, thumb, scrapBookCanvas);
+            draggable.SetupPhoto(fileName, thumb, photoElementPrefab, scrapBookCanvas);
 
             spawnedElements.Add(go);
         }
+    }
+
+    private Vector2 GetAlbumPhotoElementSize()
+    {
+        const float aspect = 16f / 9f;
+        float width = Mathf.Max(photoElementSize.x, photoElementSize.y * aspect);
+        return new Vector2(width, width / aspect);
     }
 
     private void PopulateDecorations()

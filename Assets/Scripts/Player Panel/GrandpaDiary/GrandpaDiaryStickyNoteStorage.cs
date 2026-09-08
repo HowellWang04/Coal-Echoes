@@ -7,6 +7,14 @@ using UnityEngine;
 public class GrandpaDiaryUnlockedStickyNoteManifest
 {
     public List<string> unlockedSlotIds = new();
+    public List<GrandpaDiaryStickyNoteStyleAssignment> styleAssignments = new();
+}
+
+[Serializable]
+public class GrandpaDiaryStickyNoteStyleAssignment
+{
+    public string slotId;
+    public int styleIndex;
 }
 
 public static class GrandpaDiaryStickyNoteStorage
@@ -20,7 +28,12 @@ public static class GrandpaDiaryStickyNoteStorage
             return new GrandpaDiaryUnlockedStickyNoteManifest();
 
         var manifest = JsonUtility.FromJson<GrandpaDiaryUnlockedStickyNoteManifest>(File.ReadAllText(ManifestPath));
-        return manifest ?? new GrandpaDiaryUnlockedStickyNoteManifest();
+        if (manifest == null)
+            return new GrandpaDiaryUnlockedStickyNoteManifest();
+
+        manifest.unlockedSlotIds ??= new List<string>();
+        manifest.styleAssignments ??= new List<GrandpaDiaryStickyNoteStyleAssignment>();
+        return manifest;
     }
 
     private static void SaveManifest(GrandpaDiaryUnlockedStickyNoteManifest manifest)
@@ -53,5 +66,27 @@ public static class GrandpaDiaryStickyNoteStorage
 
         manifest.unlockedSlotIds.Add(slotId);
         SaveManifest(manifest);
+    }
+
+    public static int GetOrCreateStyleIndex(string slotId, int styleCount)
+    {
+        if (string.IsNullOrEmpty(slotId) || styleCount <= 0)
+            return 0;
+
+        var manifest = LoadManifest();
+        var assignment = manifest.styleAssignments.Find(item => item.slotId == slotId);
+        if (assignment != null && assignment.styleIndex >= 0 && assignment.styleIndex < styleCount)
+            return assignment.styleIndex;
+
+        int styleIndex = UnityEngine.Random.Range(0, styleCount);
+        if (assignment == null)
+        {
+            assignment = new GrandpaDiaryStickyNoteStyleAssignment { slotId = slotId };
+            manifest.styleAssignments.Add(assignment);
+        }
+
+        assignment.styleIndex = styleIndex;
+        SaveManifest(manifest);
+        return styleIndex;
     }
 }

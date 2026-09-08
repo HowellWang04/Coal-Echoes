@@ -2,10 +2,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-/// <summary>
-/// Editable text element on the ScrapBookCanvas.
-/// Double-click to enter edit mode, click outside to confirm.
-/// </summary>
 public class ScrapBookTextBox : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private TMP_InputField inputField;

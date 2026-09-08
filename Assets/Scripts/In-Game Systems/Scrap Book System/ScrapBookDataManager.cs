@@ -61,14 +61,15 @@ public class ScrapBookDataManager : MonoBehaviour
     }
 
     // Add a photo to ScrapBook by file name (consistent with CameraPhotoStorage).
-    public void RegisterPhoto(string fileName)
+    public bool RegisterPhoto(string fileName)
     {
-        if (string.IsNullOrEmpty(fileName)) return;
-        if (photos.Contains(fileName)) return; // Prevent duplicate entries
+        if (string.IsNullOrEmpty(fileName)) return false;
+        if (photos.Contains(fileName)) return false; // Prevent duplicate entries
 
         photos.Add(fileName);
         SavePhotos();
         OnPhotosChanged?.Invoke();
+        return true;
     }
 
     public void RemovePhoto(string fileName)

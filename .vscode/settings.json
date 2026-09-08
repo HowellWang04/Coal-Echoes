@@ -56,7 +56,7 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "0101-WGH.slnx",
+    "dotnet.defaultSolution": "Project Coal.slnx",
     "r.lsp.promptToInstall": false,
     "dotnet.preferCSharpExtension": true,
     "git.ignoreLimitWarning": true

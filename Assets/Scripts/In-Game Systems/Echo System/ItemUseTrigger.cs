@@ -8,10 +8,12 @@ public class ItemUseTrigger : MonoBehaviour
     [SerializeField] private UnityEvent onUse;
 
     private bool playerInRange;
+    private PlayerInputProvider inputProvider;
 
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player")) return;
+        inputProvider = other.GetComponentInParent<PlayerInputProvider>();
         playerInRange = true;
     }
 
@@ -19,6 +21,7 @@ public class ItemUseTrigger : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         playerInRange = false;
+        inputProvider = null;
         if (promptUI != null) promptUI.SetActive(false);
     }
 
@@ -29,7 +32,9 @@ public class ItemUseTrigger : MonoBehaviour
         bool hasItem = HasRequiredItem();
         if (promptUI != null) promptUI.SetActive(hasItem);
 
-        if (hasItem && Input.GetKeyDown(KeyCode.F))
+        if (hasItem
+            && inputProvider != null
+            && inputProvider.Controls.Gameplay.Interact.WasPressedThisFrame())
         {
             if (promptUI != null) promptUI.SetActive(false);
             onUse.Invoke();

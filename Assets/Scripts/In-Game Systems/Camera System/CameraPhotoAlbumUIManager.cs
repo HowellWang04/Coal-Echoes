@@ -27,11 +27,6 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
     [Header("Thumbnail Settings")]
     [SerializeField] private int thumbMaxSize = 256;
 
-    [Header("Echo Indicator")]
-    [SerializeField] private Color echoGlowColor = new Color(1f, 0.82f, 0.25f, 1f);
-    [SerializeField] private float echoGlowThickness = 4f;
-
-
     private List<string> fileNames;
     private readonly List<GameObject> spawned = new();
     private int pageIndex = 0;
@@ -42,6 +37,7 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
     private readonly HashSet<string> selectedForDeletion = new();
 
     private bool initialized = false;
+    private UIAnimationScope uiAnimationScope;
 
     private void EnsureInitialized()
     {
@@ -64,14 +60,15 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
             deleteButton.onClick.AddListener(OnDeleteConfirmed);
         }
         if (deleteAllButton != null)
-{
-        deleteAllButton.gameObject.SetActive(false);
-        deleteAllButton.onClick.AddListener(OnDeleteAllConfirmed);
-}
+        {
+            deleteAllButton.gameObject.SetActive(false);
+            deleteAllButton.onClick.AddListener(OnDeleteAllConfirmed);
+        }
     }
 
     private void Awake()
     {
+        uiAnimationScope = GetComponentInParent<UIAnimationScope>();
         EnsureInitialized();
         Refresh();
     }
@@ -137,7 +134,22 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
 
     public void Refresh()
     {
-        foreach (var go in spawned) Destroy(go);
+        Refresh(null);
+    }
+
+    private void Refresh(Dictionary<string, Vector3> reflowPositions)
+    {
+        if (uiAnimationScope == null)
+            uiAnimationScope = GetComponentInParent<UIAnimationScope>();
+
+        var gridLayout = gridParent.GetComponent<GridLayoutGroup>();
+        gridLayout.enabled = true;
+
+        foreach (var go in spawned)
+        {
+            go.SetActive(false);
+            Destroy(go);
+        }
         spawned.Clear();
 
         int start = pageIndex * pageSize;
@@ -153,8 +165,7 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
 
             GameObject go = Instantiate(thumbPrefab, gridParent);
             spawned.Add(go);
-
-            ApplyEchoIndicator(go, fileName);
+            uiAnimationScope.RegisterButton(go.GetComponent<Button>());
 
             var item = go.GetComponent<PhotoThumbItem>();
             if (item != null)
@@ -183,18 +194,52 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
         }
 
         pageText.text = $"{pageIndex + 1} / {TotalPages}";
+
+        if (reflowPositions != null)
+            PlayReflowAnimations(reflowPositions, gridLayout);
     }
 
-    private void ApplyEchoIndicator(GameObject thumbGo, string fileName)
+    private void PlayReflowAnimations(
+        Dictionary<string, Vector3> reflowPositions,
+        GridLayoutGroup gridLayout)
     {
-        if (thumbGo == null) return;
-        if (EchoPhotoStorage.Load(fileName).Count == 0) return;
+        LayoutRebuilder.ForceRebuildLayoutImmediate(gridParent as RectTransform);
+        gridLayout.enabled = false;
 
-        var shimmer = thumbGo.GetComponent<EchoSimpleShimmer>();
-        if (shimmer == null)
-            shimmer = thumbGo.AddComponent<EchoSimpleShimmer>();
+        if (spawned.Count == 0)
+        {
+            gridLayout.enabled = true;
+            return;
+        }
 
-        shimmer.SetStyle(echoGlowColor, echoGlowThickness);
+        int remaining = spawned.Count;
+        void CompleteItem()
+        {
+            remaining--;
+            if (remaining == 0)
+            {
+                gridLayout.enabled = true;
+                LayoutRebuilder.ForceRebuildLayoutImmediate(gridParent as RectTransform);
+            }
+        }
+
+        foreach (var go in spawned)
+        {
+            var item = go.GetComponent<PhotoThumbItem>();
+            if (reflowPositions.TryGetValue(item.FileName, out var oldWorldPosition))
+            {
+                item.PlayReflowAnimation(
+                    uiAnimationScope.AnimationProfile,
+                    oldWorldPosition,
+                    CompleteItem);
+            }
+            else
+            {
+                item.PlayReflowEnterAnimation(
+                    uiAnimationScope.AnimationProfile,
+                    CompleteItem);
+            }
+        }
     }
 
     private void OpenPhotoFromThumbnail(int index)
@@ -250,11 +295,12 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
 
         return dst;
     }
+
     private void OnDeleteModeChanged(bool on)
     {
         isDeleteMode = on;
         if (deleteButton != null) deleteButton.gameObject.SetActive(on);
-        if (deleteAllButton != null) deleteAllButton.gameObject.SetActive(on); 
+        if (deleteAllButton != null) deleteAllButton.gameObject.SetActive(on);
         if (!on) selectedForDeletion.Clear();
         Refresh();
     }
@@ -263,14 +309,18 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
     {
         if (selectedForDeletion.Count == 0) return;
 
+        List<PhotoThumbItem> deletingItems = GetVisibleDeletingItems(false);
+        Dictionary<string, Vector3> reflowPositions = CaptureRemainingItemPositions(false);
+        var deletedTextures = new List<Texture2D>();
+
         foreach (string fileName in selectedForDeletion)
         {
             fileNames.Remove(fileName);
 
             if (thumbCache.TryGetValue(fileName, out var tex))
             {
-                Object.Destroy(tex);
                 thumbCache.Remove(fileName);
+                deletedTextures.Add(tex);
             }
 
             string path = Path.Combine(CameraPhotoStorage.PhotosDir, fileName);
@@ -283,19 +333,23 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
         int totalPages = Mathf.Max(1, Mathf.CeilToInt(fileNames.Count / (float)pageSize));
         if (pageIndex >= totalPages) pageIndex = totalPages - 1;
 
-        Refresh();
+        PlayDeleteAnimations(deletingItems, deletedTextures, reflowPositions);
     }
 
     private void OnDeleteAllConfirmed()
     {
         if (fileNames.Count == 0) return;
 
+        List<PhotoThumbItem> deletingItems = GetVisibleDeletingItems(true);
+        Dictionary<string, Vector3> reflowPositions = CaptureRemainingItemPositions(true);
+        var deletedTextures = new List<Texture2D>();
+
         foreach (string fileName in fileNames)
         {
             if (thumbCache.TryGetValue(fileName, out var tex))
             {
-                Object.Destroy(tex);
                 thumbCache.Remove(fileName);
+                deletedTextures.Add(tex);
             }
 
             string path = Path.Combine(CameraPhotoStorage.PhotosDir, fileName);
@@ -307,6 +361,65 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
         CameraPhotoStorage.SaveManifest(fileNames);
 
         pageIndex = 0;
-        Refresh();
+        PlayDeleteAnimations(deletingItems, deletedTextures, reflowPositions);
+    }
+
+    private List<PhotoThumbItem> GetVisibleDeletingItems(bool deleteAll)
+    {
+        var items = new List<PhotoThumbItem>();
+        foreach (var go in spawned)
+        {
+            var item = go.GetComponent<PhotoThumbItem>();
+            if (deleteAll || selectedForDeletion.Contains(item.FileName))
+                items.Add(item);
+        }
+        return items;
+    }
+
+    private Dictionary<string, Vector3> CaptureRemainingItemPositions(bool deleteAll)
+    {
+        var positions = new Dictionary<string, Vector3>();
+        if (deleteAll) return positions;
+
+        foreach (var go in spawned)
+        {
+            var item = go.GetComponent<PhotoThumbItem>();
+            if (!selectedForDeletion.Contains(item.FileName))
+                positions[item.FileName] = item.transform.position;
+        }
+        return positions;
+    }
+
+    private void PlayDeleteAnimations(
+        List<PhotoThumbItem> items,
+        List<Texture2D> textures,
+        Dictionary<string, Vector3> reflowPositions)
+    {
+        void Finish()
+        {
+            foreach (var texture in textures)
+                Object.Destroy(texture);
+            Refresh(reflowPositions);
+        }
+
+        if (items.Count == 0)
+        {
+            Finish();
+            return;
+        }
+
+        int remaining = items.Count;
+        for (int i = 0; i < items.Count; i++)
+        {
+            items[i].PlayDeleteAnimation(
+                uiAnimationScope.AnimationProfile,
+                i * uiAnimationScope.AnimationProfile.photoDeleteStagger,
+                () =>
+                {
+                    remaining--;
+                    if (remaining == 0)
+                        Finish();
+                });
+        }
     }
 }

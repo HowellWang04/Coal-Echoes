@@ -2,14 +2,11 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-/// <summary>
-/// Attach to elements in EditTopBar scroll area.
-/// Drag to create a copy on the ScrapBookCanvas.
-/// </summary>
 public class ScrapBookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     private string photoFileName;
     private Texture2D photoThumb;
+    private GameObject photoElementPrefab;
     private ScrapBookDecoPreset decoPreset;
 
     private GameObject dragGhost;
@@ -18,10 +15,11 @@ public class ScrapBookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler
     private ScrapBookCanvas scrapBookCanvas;
 
     // Setup for photo elements: thumb for ghost preview, fileName for loading full res on drop
-    public void SetupPhoto(string fileName, Texture2D thumb, ScrapBookCanvas canvas)
+    public void SetupPhoto(string fileName, Texture2D thumb, GameObject prefab, ScrapBookCanvas canvas)
     {
         photoFileName = fileName;
         photoThumb = thumb;
+        photoElementPrefab = prefab;
         decoPreset = null;
         scrapBookCanvas = canvas;
         CacheRefs();
@@ -33,6 +31,7 @@ public class ScrapBookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler
         decoPreset = preset;
         photoFileName = null;
         photoThumb = null;
+        photoElementPrefab = null;
         scrapBookCanvas = canvas;
         CacheRefs();
     }
@@ -62,17 +61,26 @@ public class ScrapBookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler
         dragGhost.transform.SetParent(rootCanvas.transform, false);
 
         var rt = dragGhost.AddComponent<RectTransform>();
-        rt.sizeDelta = new Vector2(80, 80);
+        rt.anchorMin = new Vector2(0.5f, 0.5f);
+        rt.anchorMax = new Vector2(0.5f, 0.5f);
+        rt.pivot = new Vector2(0.5f, 0.5f);
 
         // Build ghost visual
         if (photoThumb != null)
         {
-            var raw = dragGhost.AddComponent<RawImage>();
-            raw.texture = photoThumb;
-            raw.raycastTarget = false;
+            rt.sizeDelta = (transform as RectTransform).rect.size;
+
+            GameObject photoVisual = Instantiate(photoElementPrefab, dragGhost.transform);
+            var photoVisualRect = photoVisual.GetComponent<RectTransform>();
+            photoVisualRect.anchorMin = new Vector2(0.5f, 0.5f);
+            photoVisualRect.anchorMax = new Vector2(0.5f, 0.5f);
+            photoVisualRect.pivot = new Vector2(0.5f, 0.5f);
+            photoVisualRect.anchoredPosition = Vector2.zero;
+            ScrapBookPhotoVisual.Configure(photoVisual, photoThumb, rt.sizeDelta);
         }
         else if (decoPreset != null && decoPreset.icon != null)
         {
+            rt.sizeDelta = new Vector2(80, 80);
             var img = dragGhost.AddComponent<Image>();
             img.sprite = decoPreset.icon;
             img.preserveAspect = true;

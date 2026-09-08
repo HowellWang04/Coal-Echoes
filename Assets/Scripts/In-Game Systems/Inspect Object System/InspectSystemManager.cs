@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class InspectSystemManager : MonoBehaviour
 {
     [Header("Object Refs")]
+    [SerializeField] private PlayerInputProvider inputProvider;
     [SerializeField] private Camera playerCamera;
     [SerializeField] private CameraSystemManager cameraSystemManager;
     [SerializeField] private PlayerPanelUIManager playerPanel;
@@ -102,7 +103,9 @@ public class InspectSystemManager : MonoBehaviour
             bool inInspectRange = bestDist <= maxDistance;
             ShowPrompt(inInspectRange);
 
-            if (inInspectRange && Input.GetKeyDown(KeyCode.F))
+            if (inInspectRange
+                && inputProvider != null
+                && inputProvider.Controls.Gameplay.Interact.WasPressedThisFrame())
             {
                 HidePrompt();
                 inspectUI.StartInspect(best, playerCamera);

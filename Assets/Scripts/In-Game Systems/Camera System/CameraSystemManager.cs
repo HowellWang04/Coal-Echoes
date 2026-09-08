@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public sealed class CameraSystemManager : MonoBehaviour
 {
@@ -10,10 +11,16 @@ public sealed class CameraSystemManager : MonoBehaviour
     [Header("UI Root Ref")]
     [SerializeField] private GameObject CameraUIRoot;
 
+    [Header("View Transition Ref")]
+    [SerializeField] private CameraViewTransitionHandler viewTransitionHandler;
+
     [Header("UI Manager Refs")]
     [SerializeField] private CameraTweakUIManager cameraTweakingUIManager;
     [SerializeField] private CameraPhotoPreviewUIManager cameraPhotoPreviewUIManager;
     [SerializeField] private CameraPhotoAlbumUIManager cameraPhotoAlbumUIManager;
+
+    [Header("Fullscreen Photo Volume Ref")]
+    [SerializeField] private Volume fullscreenPhotoVolume;
 
     [Header("Photo Capture Function Provider")]
     [SerializeField] private CameraPhotoCapture cameraPhotoCapture;
@@ -28,6 +35,11 @@ public sealed class CameraSystemManager : MonoBehaviour
     private CameraStateMachine stateMachine;
     // Expose the current state for external reference
     public CameraModeState CurrentState => stateMachine.State;
+    public CameraViewMode CurrentViewMode { get; private set; } = CameraViewMode.Handheld;
+    public bool UsesAnimatedViewTransition =>
+        viewTransitionHandler != null && viewTransitionHandler.IsConfigured;
+    public bool IsViewTransitioning =>
+        UsesAnimatedViewTransition && viewTransitionHandler.IsTransitioning;
 
     private Coroutine captureRoutine;
     private List<CameraHighlightObject> captureSnapshot;
@@ -38,7 +50,8 @@ public sealed class CameraSystemManager : MonoBehaviour
         stateMachine = new CameraStateMachine();
         stateMachine.OnStateChanged += HandleStateChanged;
 
-        if (CameraUIRoot != null) CameraUIRoot.SetActive(false);
+        HideCameraUIImmediate();
+        SetFullscreenPhotoVolume(false);
         if (cameraPhotoPreviewUIManager != null) cameraPhotoPreviewUIManager.HidePreviewImmediate();
     }
 
@@ -50,7 +63,9 @@ public sealed class CameraSystemManager : MonoBehaviour
 
     public void EnterCameraMode()
     {
-        if (!stateMachine.EnterCameraMode()) return;
+        if (stateMachine.State != CameraModeState.Disabled) return;
+        CurrentViewMode = CameraViewMode.Handheld;
+        stateMachine.EnterCameraMode();
     }
 
     public void ExitCameraMode()
@@ -58,33 +73,89 @@ public sealed class CameraSystemManager : MonoBehaviour
         if (!stateMachine.ExitCameraMode()) return;
     }
 
+    public bool ToggleViewMode()
+    {
+        if (CurrentState != CameraModeState.Active) return false;
+        if (IsViewTransitioning) return false;
+
+        CameraViewMode targetMode = CurrentViewMode == CameraViewMode.Handheld
+            ? CameraViewMode.Fullscreen
+            : CameraViewMode.Handheld;
+
+        if (UsesAnimatedViewTransition)
+        {
+            if (!viewTransitionHandler.PlayTransition(targetMode, () =>
+                {
+                    SetFullscreenPhotoVolume(targetMode == CameraViewMode.Fullscreen);
+                }))
+                return false;
+            CurrentViewMode = targetMode;
+        }
+        else
+        {
+            CurrentViewMode = targetMode;
+            ApplyActiveViewMode();
+        }
+        return true;
+    }
+
+    private void ApplyActiveViewMode()
+    {
+        bool fullscreen = CurrentViewMode == CameraViewMode.Fullscreen;
+        if (UsesAnimatedViewTransition)
+            viewTransitionHandler.SetImmediate(CurrentViewMode);
+        else if (CameraUIRoot != null)
+            CameraUIRoot.SetActive(fullscreen);
+        SetFullscreenPhotoVolume(fullscreen);
+    }
+
+    private void HideCameraUIImmediate()
+    {
+        if (UsesAnimatedViewTransition)
+            viewTransitionHandler.HideFullscreenUIImmediate();
+        else if (CameraUIRoot != null)
+            CameraUIRoot.SetActive(false);
+    }
+
+    private void SetFullscreenPhotoVolume(bool enabled)
+    {
+        if (fullscreenPhotoVolume != null)
+            fullscreenPhotoVolume.weight = enabled ? 1f : 0f;
+    }
+
     private void HandleStateChanged(CameraModeState prev, CameraModeState next)
     {
         switch (next)
         {
             case CameraModeState.Disabled:
-                if (CameraUIRoot != null) CameraUIRoot.SetActive(false);
+                HideCameraUIImmediate();
+                SetFullscreenPhotoVolume(false);
                 if (cameraPhotoPreviewUIManager != null) cameraPhotoPreviewUIManager.HidePreviewImmediate();
                 if (cameraTweakingUIManager != null) cameraTweakingUIManager.ResetCameraTweaks();
                 break;
 
             case CameraModeState.Active:
-                if (CameraUIRoot != null) CameraUIRoot.SetActive(true);
+                ApplyActiveViewMode();
                 if (cameraPhotoPreviewUIManager != null) cameraPhotoPreviewUIManager.HidePreviewImmediate();
                 break;
 
             case CameraModeState.Capturing:
-                if (CameraUIRoot != null) CameraUIRoot.SetActive(true);
+                ApplyActiveViewMode();
                 break;
 
             case CameraModeState.Reviewing:
-                if (CameraUIRoot != null) CameraUIRoot.SetActive(true);
+                if (UsesAnimatedViewTransition)
+                    viewTransitionHandler.ShowFullscreenUIImmediate();
+                else if (CameraUIRoot != null)
+                    CameraUIRoot.SetActive(true);
+                SetFullscreenPhotoVolume(false);
                 break;
         }
     }
 
     public void Capture()
     {
+        if (IsViewTransitioning) return;
         if (!stateMachine.RequestCapture()) return;
 
         if (highlightObjectDetector != null)
@@ -103,10 +174,24 @@ public sealed class CameraSystemManager : MonoBehaviour
 
     private IEnumerator CaptureFlow()
     {
+        bool capturingFromHandheld =
+            CurrentViewMode == CameraViewMode.Handheld && UsesAnimatedViewTransition;
+        if (capturingFromHandheld)
+        {
+            viewTransitionHandler.SetCameraModelVisibleImmediate(false);
+            SetFullscreenPhotoVolume(true);
+        }
+
         if (cameraTweakingUIManager != null) CameraUIRoot.SetActive(false);
 
         Texture2D captured = null;
         yield return cameraPhotoCapture.Capture(tex => captured = tex);
+
+        if (capturingFromHandheld)
+        {
+            SetFullscreenPhotoVolume(false);
+            viewTransitionHandler.SetCameraModelVisibleImmediate(true);
+        }
 
         if (cameraTweakingUIManager != null) CameraUIRoot.SetActive(true);
 

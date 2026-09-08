@@ -1,4 +1,6 @@
 using System;
+using Coffee.UIEffects;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -14,9 +16,22 @@ public sealed class PhotoThumbItem : MonoBehaviour, IPointerClickHandler
     private string fileName;
     private Action onClick;
     private AlbumPhotoContextMenu contextMenu;
+    private Sequence deleteTween;
+    private Tween reflowTween;
+    private UIEffectBase[] deleteEffects;
+
+    public string FileName => fileName;
+
+    private void Awake()
+    {
+        deleteEffects = GetComponentsInChildren<UIEffectBase>(true);
+        SetDeleteEffectRate(0f);
+    }
 
     private void OnDestroy()
     {
+        deleteTween?.Kill();
+        reflowTween?.Kill();
         if (button != null) button.onClick.RemoveAllListeners();
         if (selectToggle != null) selectToggle.onValueChanged.RemoveAllListeners();
     }
@@ -41,7 +56,7 @@ public sealed class PhotoThumbItem : MonoBehaviour, IPointerClickHandler
         if (eventData.button == PointerEventData.InputButton.Right)
         {
             if (contextMenu != null && !string.IsNullOrEmpty(fileName))
-                contextMenu.Show(fileName, eventData.position);
+                contextMenu.Show(fileName, sourceTexture, transform as RectTransform, eventData.position);
         }
     }
 
@@ -62,4 +77,78 @@ public sealed class PhotoThumbItem : MonoBehaviour, IPointerClickHandler
     {
         if (selectToggle != null) selectToggle.isOn = selected;
     }
+
+    public void PlayDeleteAnimation(UIAnimationProfile profile, float delay, Action onComplete)
+    {
+        var buttonFeedback = GetComponent<UIButtonTweenFeedback>();
+        if (buttonFeedback != null)
+            buttonFeedback.enabled = false;
+
+        var canvasGroup = GetComponent<CanvasGroup>();
+        if (canvasGroup == null)
+            canvasGroup = gameObject.AddComponent<CanvasGroup>();
+
+        canvasGroup.blocksRaycasts = false;
+        SetDeleteEffectRate(0f);
+
+        deleteTween?.Kill();
+        deleteTween = DOTween.Sequence()
+            .SetDelay(delay)
+            .Append(DOTween.To(
+                    () => 0f,
+                    SetDeleteEffectRate,
+                    1f,
+                    profile.photoDeleteDuration)
+                .SetEase(profile.photoDeleteEase))
+            .SetUpdate(true)
+            .OnComplete(() => onComplete?.Invoke());
+    }
+
+    private void SetDeleteEffectRate(float rate)
+    {
+        if (deleteEffects == null) return;
+
+        foreach (var effect in deleteEffects)
+            if (effect != null)
+                effect.SetRate(rate, UIEffectTweener.CullingMask.Transition);
+    }
+
+    public void PlayReflowAnimation(
+        UIAnimationProfile profile,
+        Vector3 oldWorldPosition,
+        Action onComplete)
+    {
+        var rectTransform = transform as RectTransform;
+        Vector3 targetWorldPosition = rectTransform.position;
+        rectTransform.position = oldWorldPosition;
+
+        reflowTween?.Kill();
+        reflowTween = rectTransform
+            .DOMove(targetWorldPosition, profile.photoReflowDuration)
+            .SetEase(profile.photoReflowEase)
+            .SetUpdate(true)
+            .OnComplete(() => onComplete?.Invoke());
+    }
+
+    public void PlayReflowEnterAnimation(UIAnimationProfile profile, Action onComplete)
+    {
+        var rectTransform = transform as RectTransform;
+        var canvasGroup = GetComponent<CanvasGroup>();
+        if (canvasGroup == null)
+            canvasGroup = gameObject.AddComponent<CanvasGroup>();
+
+        float targetY = rectTransform.anchoredPosition.y;
+        rectTransform.anchoredPosition += Vector2.down * profile.photoDeleteDrop * 0.75f;
+        canvasGroup.alpha = 0f;
+
+        reflowTween?.Kill();
+        reflowTween = DOTween.Sequence()
+            .Join(rectTransform.DOAnchorPosY(targetY, profile.photoReflowDuration)
+                .SetEase(profile.photoReflowEase))
+            .Join(canvasGroup.DOFade(1f, profile.photoReflowDuration)
+                .SetEase(profile.photoReflowEase))
+            .SetUpdate(true)
+            .OnComplete(() => onComplete?.Invoke());
+    }
+
 }
