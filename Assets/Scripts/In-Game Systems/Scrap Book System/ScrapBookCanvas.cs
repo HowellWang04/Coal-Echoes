@@ -3,12 +3,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// The canvas area where scrapbook elements are placed.
-/// Handles creating photo/decoration elements from drag-and-drop.
-/// </summary>
 public class ScrapBookCanvas : MonoBehaviour
 {
+    private const float AlbumPhotoAspect = 16f / 9f;
+
     [Header("Prefabs")]
     [SerializeField] private GameObject textBoxPrefab;
 
@@ -23,26 +21,34 @@ public class ScrapBookCanvas : MonoBehaviour
 
     private RectTransform rect;
 
+    private GameObject photoElementPrefab;
+
     private void Awake()
     {
         rect = GetComponent<RectTransform>();
     }
 
+    public void SetPhotoElementPrefab(GameObject prefab)
+    {
+        photoElementPrefab = prefab;
+    }
+
     public GameObject AddPhotoElement(Texture2D tex, Vector2 localPos, string fileName)
     {
-        GameObject go = CreateElementBase(localPos);
+        GameObject go = Instantiate(photoElementPrefab, transform);
+        go.name = "ScrapElement";
 
-        var rawImage = go.AddComponent<RawImage>();
-        rawImage.texture = tex;
-        rawImage.raycastTarget = true;
-
-        // Adjust size to match photo aspect ratio
-        float aspect = (float)tex.width / tex.height;
         var elRect = go.GetComponent<RectTransform>();
-        if (aspect >= 1f)
-            elRect.sizeDelta = new Vector2(defaultPhotoSize.x, defaultPhotoSize.x / aspect);
-        else
-            elRect.sizeDelta = new Vector2(defaultPhotoSize.y * aspect, defaultPhotoSize.y);
+        elRect.anchorMin = new Vector2(0.5f, 0.5f);
+        elRect.anchorMax = new Vector2(0.5f, 0.5f);
+        elRect.pivot = new Vector2(0.5f, 0.5f);
+        elRect.anchoredPosition = localPos;
+        Vector2 photoSize = new Vector2(defaultPhotoSize.x, defaultPhotoSize.x / AlbumPhotoAspect);
+        ScrapBookPhotoVisual.Configure(go, tex, photoSize);
+
+        var element = go.GetComponent<ScrapBookElement>();
+        if (element == null) element = go.AddComponent<ScrapBookElement>();
+        element.Init(rect);
 
         var meta = go.AddComponent<ScrapBookElementMeta>();
         meta.type = "photo";
@@ -186,7 +192,7 @@ public class ScrapBookCanvas : MonoBehaviour
         tmp.fontSize = 18;
         tmp.color = Color.black;
         tmp.alignment = TextAlignmentOptions.Center;
-        tmp.enableWordWrapping = true;
+        tmp.textWrappingMode = TextWrappingModes.Normal;
 
         // Input field (hidden by default)
         GameObject inputGo = new GameObject("InputField");

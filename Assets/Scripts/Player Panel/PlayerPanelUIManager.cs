@@ -28,7 +28,13 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
     [FormerlySerializedAs("grandpaDiaryMarkdown")]
     [SerializeField] private TextAsset grandpaDiaryJson;
     [SerializeField] private GrandpaDiaryPageData[] grandpaDiaryPages;
+    [SerializeField] private GrandpaDiaryPageView grandpaDiaryPagePrefab;
+    [SerializeField] private RectTransform grandpaDiaryPagesRoot;
     [SerializeField] private GrandpaDiaryPageView[] grandpaDiaryPageViews;
+
+    [Header("Grandpa Diary Sticky Note Positions")]
+    [SerializeField] private GrandpaDiaryStickyNotePositionOverride[] grandpaDiaryStickyNotePositionOverrides;
+
     [FormerlySerializedAs("grandpaNotesPrevPageButton")]
     [SerializeField] private Button grandpaDiaryPrevPageButton;
     [FormerlySerializedAs("grandpaNotesNextPageButton")]
@@ -50,10 +56,21 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
     private bool prevCursorVisible;
     private bool cachedCursor;
     private int currentGrandpaDiaryPageIndex;
+    private UITabTransition albumTabTransition;
+    private UITabTransition scrapBookTabTransition;
+    private UITabTransition grandpaDiaryTabTransition;
+    private UITabTransition backpackTabTransition;
+    private UITabTransition activeTabTransition;
+    private UIPanelSlideTransition panelTransition;
+    private Canvas grandpaDiaryCanvas;
+    private GrandpaDiaryPageTurnTransition grandpaDiaryPageTurnTransition;
 
     private void Awake()
     {
         LoadGrandpaDiaryJson();
+        CreateGrandpaDiaryPageViews();
+        ConfigureGrandpaDiaryPageTurnTransition();
+        ConfigurePanelTransition();
         IsOpen = false;
         ApplyOpenState();
     }
@@ -61,7 +78,10 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
     private void Start()
     {
         InitBtnListeners();
-        ShowAlbum();
+        ConfigureSidebarButtonFeedback();
+        ConfigureGrandpaDiarySorting();
+        ConfigureTabTransitions();
+        ShowInitialAlbum();
     }
 
 
@@ -91,7 +111,19 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
     {
         bool open = IsOpen;
 
-        if (playerPanelUI != null) playerPanelUI.SetActive(open);
+        if (!open && activeTabTransition != null)
+            CompleteTabTransitionState();
+
+        if (open)
+        {
+            playerPanelUI.SetActive(true);
+            panelTransition.Show();
+        }
+        else
+        {
+            panelTransition.HideImmediate();
+            playerPanelUI.SetActive(false);
+        }
         if (playerMovementManager != null) playerMovementManager.SetPlayerMovementControl(!open);
         if (!open && cameraPhotoAlbumUIManager != null) cameraPhotoAlbumUIManager.OnPanelClosed();
 
@@ -125,20 +157,17 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
 
     public void ShowAlbum()
     {
-        HideAllTabs();
-        if (Albumtab != null) Albumtab.SetActive(true);
+        SwitchTab(albumTabTransition, albumButton);
     }
 
     public void ShowScrapBook()
     {
-        HideAllTabs();
-        if (ScrapBooktab != null) ScrapBooktab.SetActive(true);
+        SwitchTab(scrapBookTabTransition, scrapBookButton);
     }
 
     public void ShowGrandpaDiary()
     {
-        HideAllTabs();
-        if (GrandpaDiaryTab != null) GrandpaDiaryTab.SetActive(true);
+        SwitchTab(grandpaDiaryTabTransition, grandpaDiaryButton);
         ShowGrandpaDiaryPage(currentGrandpaDiaryPageIndex);
     }
 
@@ -174,26 +203,124 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
 
     private void ShowPreviousGrandpaDiaryPage()
     {
-        ShowGrandpaDiaryPage(currentGrandpaDiaryPageIndex - 1);
+        TurnGrandpaDiaryPage(currentGrandpaDiaryPageIndex - 1);
     }
 
     private void ShowNextGrandpaDiaryPage()
     {
-        ShowGrandpaDiaryPage(currentGrandpaDiaryPageIndex + 1);
+        TurnGrandpaDiaryPage(currentGrandpaDiaryPageIndex + 1);
     }
 
     public void ShowBackpack()
     {
-        HideAllTabs();
-        if (BackpackTab != null) BackpackTab.SetActive(true);
+        SwitchTab(backpackTabTransition, backpackButton);
     }
 
-    private void HideAllTabs()
+    private void ConfigurePanelTransition()
     {
-        if (Albumtab != null) Albumtab.SetActive(false);
-        if (ScrapBooktab != null) ScrapBooktab.SetActive(false);
-        if (GrandpaDiaryTab != null) GrandpaDiaryTab.SetActive(false);
-        if (BackpackTab != null) BackpackTab.SetActive(false);
+        var animationScope = GetComponentInParent<UIAnimationScope>();
+        var sidebarRoot = albumButton.transform.parent as RectTransform;
+        var tabsRoot = Albumtab.transform.parent as RectTransform;
+        panelTransition = animationScope.RegisterPanel(playerPanelUI, sidebarRoot, tabsRoot);
+    }
+
+    private void ConfigureGrandpaDiaryPageTurnTransition()
+    {
+        grandpaDiaryPageTurnTransition = GetComponent<GrandpaDiaryPageTurnTransition>();
+        if (grandpaDiaryPageTurnTransition == null)
+            grandpaDiaryPageTurnTransition = gameObject.AddComponent<GrandpaDiaryPageTurnTransition>();
+    }
+
+    private void ConfigureTabTransitions()
+    {
+        var animationScope = GetComponentInParent<UIAnimationScope>();
+        albumTabTransition = animationScope.RegisterTab(Albumtab);
+        scrapBookTabTransition = animationScope.RegisterTab(ScrapBooktab);
+        grandpaDiaryTabTransition = animationScope.RegisterTab(GrandpaDiaryTab);
+        backpackTabTransition = animationScope.RegisterTab(BackpackTab);
+
+        albumTabTransition.HideImmediate();
+        scrapBookTabTransition.HideImmediate();
+        grandpaDiaryTabTransition.HideImmediate();
+        backpackTabTransition.HideImmediate();
+    }
+
+    private void ShowInitialAlbum()
+    {
+        albumTabTransition.ShowImmediate();
+        activeTabTransition = albumTabTransition;
+        SetActiveSidebarButton(albumButton);
+    }
+
+    private void SwitchTab(UITabTransition nextTab, Button activeButton)
+    {
+        if (activeTabTransition == nextTab) return;
+
+        activeTabTransition?.Hide();
+        nextTab.Show();
+        activeTabTransition = nextTab;
+        SetActiveSidebarButton(activeButton);
+    }
+
+    private void CompleteTabTransitionState()
+    {
+        albumTabTransition.HideImmediate();
+        scrapBookTabTransition.HideImmediate();
+        grandpaDiaryTabTransition.HideImmediate();
+        backpackTabTransition.HideImmediate();
+        activeTabTransition.ShowImmediate();
+    }
+
+    private void ConfigureSidebarButtonFeedback()
+    {
+        UseSidebarSettings(albumButton);
+        UseSidebarSettings(scrapBookButton);
+        UseSidebarSettings(grandpaDiaryButton);
+        UseSidebarSettings(backpackButton);
+    }
+
+    private static void UseSidebarSettings(Button button)
+    {
+        if (button != null)
+            button.GetComponent<UIButtonTweenFeedback>()?.UseSidebarSettings();
+    }
+
+    private void SetActiveSidebarButton(Button activeButton)
+    {
+        SetTabActive(albumButton, albumButton == activeButton);
+        SetTabActive(scrapBookButton, scrapBookButton == activeButton);
+        SetTabActive(grandpaDiaryButton, grandpaDiaryButton == activeButton);
+        SetTabActive(backpackButton, backpackButton == activeButton);
+        KeepGrandpaDiaryAboveSidebarButtons();
+    }
+
+    private void ConfigureGrandpaDiarySorting()
+    {
+        grandpaDiaryCanvas = GrandpaDiaryTab.GetComponent<Canvas>();
+        if (grandpaDiaryCanvas == null)
+            grandpaDiaryCanvas = GrandpaDiaryTab.AddComponent<Canvas>();
+
+        grandpaDiaryCanvas.overrideSorting = true;
+        grandpaDiaryCanvas.sortingLayerID = albumButton.GetComponent<Canvas>().sortingLayerID;
+
+        if (GrandpaDiaryTab.GetComponent<GraphicRaycaster>() == null)
+            GrandpaDiaryTab.AddComponent<GraphicRaycaster>();
+    }
+
+    private void KeepGrandpaDiaryAboveSidebarButtons()
+    {
+        int highestButtonOrder = Mathf.Max(
+            albumButton.GetComponent<Canvas>().sortingOrder,
+            scrapBookButton.GetComponent<Canvas>().sortingOrder,
+            grandpaDiaryButton.GetComponent<Canvas>().sortingOrder,
+            backpackButton.GetComponent<Canvas>().sortingOrder);
+        grandpaDiaryCanvas.sortingOrder = highestButtonOrder + 1;
+    }
+
+    private static void SetTabActive(Button button, bool active)
+    {
+        if (button != null)
+            button.GetComponent<UIButtonTweenFeedback>()?.SetTabActive(active);
     }
 
     private int GetGrandpaDiaryPageCount()
@@ -221,6 +348,27 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
         }
     }
 
+    private void CreateGrandpaDiaryPageViews()
+    {
+        if (grandpaDiaryPagePrefab == null || grandpaDiaryPagesRoot == null
+            || grandpaDiaryPages == null || grandpaDiaryPages.Length == 0)
+            return;
+
+        HideAllGrandpaDiaryPageViews();
+        grandpaDiaryPageViews = new GrandpaDiaryPageView[grandpaDiaryPages.Length];
+
+        for (int index = 0; index < grandpaDiaryPages.Length; index++)
+        {
+            var pageData = grandpaDiaryPages[index];
+            var pageView = Instantiate(grandpaDiaryPagePrefab, grandpaDiaryPagesRoot, false);
+            pageView.name = $"DiaryPage_Runtime_{pageData.pageId}";
+            pageView.SetPageId(pageData.pageId);
+            pageView.SetStickyNotePositionOverrides(grandpaDiaryStickyNotePositionOverrides);
+            pageView.Hide();
+            grandpaDiaryPageViews[index] = pageView;
+        }
+    }
+
     private bool ShowGrandpaDiaryPageView(GrandpaDiaryPageData pageData, int pageIndex)
     {
         HideAllGrandpaDiaryPageViews();
@@ -234,6 +382,55 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
 
         pageView.Show(pageData);
         return true;
+    }
+
+    private void TurnGrandpaDiaryPage(int pageIndex)
+    {
+        int pageCount = GetGrandpaDiaryPageCount();
+        if (pageCount <= 0)
+            return;
+
+        int targetPageIndex = Mathf.Clamp(pageIndex, 0, pageCount - 1);
+        if (targetPageIndex == currentGrandpaDiaryPageIndex)
+            return;
+
+        var currentPageView = FindGrandpaDiaryPageView(
+            grandpaDiaryPages[currentGrandpaDiaryPageIndex],
+            currentGrandpaDiaryPageIndex);
+        var targetPageView = FindGrandpaDiaryPageView(
+            grandpaDiaryPages[targetPageIndex],
+            targetPageIndex);
+
+        if (currentPageView == null || targetPageView == null)
+        {
+            ShowGrandpaDiaryPage(targetPageIndex);
+            return;
+        }
+
+        targetPageView.Show(grandpaDiaryPages[targetPageIndex]);
+        SetGrandpaDiaryPageButtons(false, false);
+
+        bool started = grandpaDiaryPageTurnTransition.Play(
+            currentPageView,
+            targetPageView,
+            targetPageIndex > currentGrandpaDiaryPageIndex,
+            () =>
+            {
+                currentGrandpaDiaryPageIndex = targetPageIndex;
+                if (grandpaDiaryPageText != null)
+                    grandpaDiaryPageText.text = $"{currentGrandpaDiaryPageIndex + 1} / {pageCount}";
+                SetGrandpaDiaryPageButtons(false, false);
+            },
+            () =>
+            {
+                currentPageView.Hide();
+                SetGrandpaDiaryPageButtons(
+                    currentGrandpaDiaryPageIndex > 0,
+                    currentGrandpaDiaryPageIndex < pageCount - 1);
+            });
+
+        if (!started)
+            ShowGrandpaDiaryPage(targetPageIndex);
     }
 
     private GrandpaDiaryPageView FindGrandpaDiaryPageView(GrandpaDiaryPageData pageData, int pageIndex)

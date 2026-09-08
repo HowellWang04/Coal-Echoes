@@ -9,7 +9,6 @@ public sealed class CameraPhotoPreviewUIManager : MonoBehaviour
     [Header("Preview UI")]
     [SerializeField] private Image photoDisplayArea;
     [SerializeField] private GameObject photoFrame;
-    [SerializeField] private Button closePhotoBtn;
     [SerializeField] private Button photoClickArea; 
 
     [Header("Flash UI")]
@@ -25,8 +24,6 @@ public sealed class CameraPhotoPreviewUIManager : MonoBehaviour
     private void Awake()
     {
         HidePreviewImmediate();
-        if (closePhotoBtn != null)
-            closePhotoBtn.onClick.AddListener(ClosePreview);
         if (photoClickArea != null)
             photoClickArea.onClick.AddListener(OnPhotoClicked);
     }
@@ -37,7 +34,6 @@ public sealed class CameraPhotoPreviewUIManager : MonoBehaviour
         ApplyTexture(texture);
         SetPreviewVisible(true);
 
-        if (closePhotoBtn != null) closePhotoBtn.gameObject.SetActive(false);
         if (cameraFlash != null) StartCoroutine(Flash());
         if (photoFadingAnimation != null && !string.IsNullOrEmpty(fadeAnimStateName))
             photoFadingAnimation.Play(fadeAnimStateName);
@@ -49,7 +45,6 @@ public sealed class CameraPhotoPreviewUIManager : MonoBehaviour
         ApplyTexture(texture);
         SetPreviewVisible(true);
 
-        if (closePhotoBtn != null) closePhotoBtn.gameObject.SetActive(true);
     }
 
     public void ClosePreview()
@@ -66,7 +61,6 @@ public sealed class CameraPhotoPreviewUIManager : MonoBehaviour
     {
         currentMode = PreviewMode.None;
         SetPreviewVisible(false);
-        if (closePhotoBtn != null) closePhotoBtn.gameObject.SetActive(false);
     }
 
     private void ApplyTexture(Texture2D texture)

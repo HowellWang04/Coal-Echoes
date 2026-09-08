@@ -1,12 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-/// <summary>
-/// Element placed on the ScrapBookCanvas. Supports move, resize, and rotate.
-/// - Left drag: move
-/// - Scroll wheel: resize
-/// - Right drag: rotate
-/// </summary>
 public class ScrapBookElement : MonoBehaviour, IBeginDragHandler, IDragHandler, IPointerClickHandler, IScrollHandler
 {
     [Header("Constraints")]
