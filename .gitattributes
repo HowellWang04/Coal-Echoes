@@ -213,3 +213,13 @@
 /Assets/Plugins/MapMagic/Manual.pdf filter=lfs diff=lfs merge=lfs -text
 /Assets/Scenes/Camera[[:space:]]Funciton[[:space:]]Scene.unity filter=lfs diff=lfs merge=lfs -text
 /Assets/Scenes/Main[[:space:]]Game[[:space:]]Scene.unity filter=lfs diff=lfs merge=lfs -text
+
+# Current factory assets and persisted terrain data
+/ArtSource/FactoryBoundary/FactoryBoundary.blend filter=lfs diff=lfs merge=lfs -text
+/ArtSource/FactoryGate/FactoryGate_Rebuilt.blend filter=lfs diff=lfs merge=lfs -text
+/Assets/Art[[:space:]]Resources/Environment/Gate[[:space:]]Area/FactoryBoundary/Models/*.glb filter=lfs diff=lfs merge=lfs -text
+/Assets/Art[[:space:]]Resources/Environment/Gate[[:space:]]Area/FactoryGate_Rebuilt/*.glb filter=lfs diff=lfs merge=lfs -text
+/Assets/Art[[:space:]]Resources/Environment/Gate[[:space:]]Area/FactoryGate_Rebuilt/*.fbx filter=lfs diff=lfs merge=lfs -text
+/Assets/Art[[:space:]]Resources/Environment/Gate[[:space:]]Area/FactoryGate_Rebuilt/Textures/*.png filter=lfs diff=lfs merge=lfs -text
+/Assets/Art[[:space:]]Resources/Environment/Skyboxes/kloofendal_48d_partly_cloudy_puresky_4k.exr filter=lfs diff=lfs merge=lfs -text
+/Assets/TerrainData/MainGameScene/*.asset filter=lfs diff=lfs merge=lfs -text

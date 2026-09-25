@@ -1,0 +1,888 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "isDirty": false,
+  "source": "Assets/Art Resources/Environment/Gate Area/FactoryGate_Rebuilt/FactoryGate_Rebuilt.glb",
+  "gate": {
+    "name": "FactoryGate",
+    "path": "In-scene Objects/Factory Entrance/FactoryGate",
+    "id": "-537054",
+    "active": true,
+    "position": [
+      -1213.30408,
+      -710.1199,
+      -1317.26355
+    ],
+    "rotation": [
+      0.0,
+      349.6615,
+      0.0
+    ],
+    "localPosition": [
+      145.320892,
+      22.880127,
+      214.46051
+    ],
+    "localRotation": [
+      0.0,
+      266.770264,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "worldScale": [
+      1.00000024,
+      1.0,
+      1.00000024
+    ],
+    "components": [
+      "UnityEngine.Transform"
+    ],
+    "renderers": [
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Chain_And_Padlock/Chain_And_Padlock_FramePaint",
+        "bounds": {
+          "center": [
+            -1213.36926,
+            -708.829834,
+            -1316.90649
+          ],
+          "size": [
+            0.129325151,
+            0.13,
+            0.0312003437
+          ]
+        },
+        "localBounds": {
+          "center": [
+            0.0,
+            1.32999992,
+            0.346000016
+          ],
+          "size": [
+            0.13,
+            0.13,
+            0.007999986
+          ]
+        },
+        "materials": [
+          "FramePaint | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Chain_And_Padlock/Chain_And_Padlock_Iron",
+        "bounds": {
+          "center": [
+            -1213.352,
+            -708.6449,
+            -1317.00024
+          ],
+          "size": [
+            0.5359905,
+            0.549960852,
+            0.309681118
+          ]
+        },
+        "localBounds": {
+          "center": [
+            3.322959E-05,
+            1.51498044,
+            0.25059244
+          ],
+          "size": [
+            0.5041889,
+            0.549960852,
+            0.2228151
+          ]
+        },
+        "materials": [
+          "Iron | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_GateLeaf/Left_GateLeaf_FramePaint",
+        "bounds": {
+          "center": [
+            -1211.967,
+            -708.049866,
+            -1317.01965
+          ],
+          "size": [
+            2.67309427,
+            3.86000013,
+            0.671187639
+          ]
+        },
+        "localBounds": {
+          "center": [
+            1.1920929E-07,
+            1.28,
+            0.0689999
+          ],
+          "size": [
+            2.68200016,
+            3.86000013,
+            0.193000212
+          ]
+        },
+        "materials": [
+          "FramePaint | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_GateLeaf/Left_GateLeaf_GatePaint",
+        "bounds": {
+          "center": [
+            -1211.96826,
+            -708.493347,
+            -1317.01331
+          ],
+          "size": [
+            2.542851,
+            2.83699918,
+            0.478023261
+          ]
+        },
+        "localBounds": {
+          "center": [
+            1.35902691,
+            1.62650728,
+            0.00647205859
+          ],
+          "size": [
+            2.58210278,
+            2.83699918,
+            0.0148718357
+          ]
+        },
+        "materials": [
+          "GatePaint | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_GateLeaf/Left_GateLeaf_Iron",
+        "bounds": {
+          "center": [
+            -1211.91931,
+            -707.877563,
+            -1316.91248
+          ],
+          "size": [
+            2.6919713,
+            3.344598,
+            0.7569833
+          ]
+        },
+        "localBounds": {
+          "center": [
+            1.42530382,
+            2.242299,
+            0.09679647
+          ],
+          "size": [
+            2.68539214,
+            3.344598,
+            0.279592931
+          ]
+        },
+        "materials": [
+          "Iron | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_Pier/Left_Pier_Brick",
+        "bounds": {
+          "center": [
+            -1210.18555,
+            -707.875,
+            -1316.6947
+          ],
+          "size": [
+            0.907839358,
+            3.722187,
+            0.8997896
+          ]
+        },
+        "localBounds": {
+          "center": [
+            3.16999674,
+            2.244865,
+            -3.1888485E-06
+          ],
+          "size": [
+            0.7819922,
+            3.722187,
+            0.7719838
+          ]
+        },
+        "materials": [
+          "Brick | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_Pier/Left_Pier_BrickWeathered",
+        "bounds": {
+          "center": [
+            -1210.18555,
+            -707.874634,
+            -1316.6947
+          ],
+          "size": [
+            0.90773654,
+            3.72318053,
+            0.8997058
+          ]
+        },
+        "localBounds": {
+          "center": [
+            3.16995239,
+            2.24524736,
+            3.963709E-06
+          ],
+          "size": [
+            0.781900167,
+            3.72318053,
+            0.7719155
+          ]
+        },
+        "materials": [
+          "BrickWeathered | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_Pier/Left_Pier_Concrete",
+        "bounds": {
+          "center": [
+            -1210.18384,
+            -707.9283,
+            -1316.693
+          ],
+          "size": [
+            1.22764087,
+            4.38784456,
+            1.18101716
+          ]
+        },
+        "localBounds": {
+          "center": [
+            3.171971,
+            2.191582,
+            0.00129556656
+          ],
+          "size": [
+            1.06431723,
+            4.38784456,
+            1.00634933
+          ]
+        },
+        "materials": [
+          "Concrete | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_Pier/Left_Pier_Iron",
+        "bounds": {
+          "center": [
+            -1210.5791,
+            -708.0199,
+            -1316.76648
+          ],
+          "size": [
+            0.11911346,
+            3.04,
+            0.288016647
+          ]
+        },
+        "localBounds": {
+          "center": [
+            2.77,
+            2.1,
+            0.0
+          ],
+          "size": [
+            0.07000017,
+            3.04,
+            0.28
+          ]
+        },
+        "materials": [
+          "Iron | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_Pier/Left_Pier_Mortar",
+        "bounds": {
+          "center": [
+            -1210.18555,
+            -707.8749,
+            -1316.6947
+          ],
+          "size": [
+            0.8915646,
+            3.73,
+            0.8835217
+          ]
+        },
+        "localBounds": {
+          "center": [
+            3.17,
+            2.245,
+            0.0
+          ],
+          "size": [
+            0.7679999,
+            3.73,
+            0.758
+          ]
+        },
+        "materials": [
+          "Mortar | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_WingWall/Left_WingWall_Brick",
+        "bounds": {
+          "center": [
+            -1209.465,
+            -708.1598,
+            -1316.56323
+          ],
+          "size": [
+            0.7791589,
+            3.35386086,
+            0.6898189
+          ]
+        },
+        "localBounds": {
+          "center": [
+            3.90251327,
+            1.96009743,
+            1.01923943E-05
+          ],
+          "size": [
+            0.686961651,
+            3.35386086,
+            0.575884
+          ]
+        },
+        "materials": [
+          "Brick | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_WingWall/Left_WingWall_BrickWeathered",
+        "bounds": {
+          "center": [
+            -1209.465,
+            -708.2498,
+            -1316.56311
+          ],
+          "size": [
+            0.7657681,
+            3.173602,
+            0.6169953
+          ]
+        },
+        "localBounds": {
+          "center": [
+            3.90243,
+            1.8700633,
+            4.017353E-05
+          ],
+          "size": [
+            0.6868503,
+            3.173602,
+            0.501878858
+          ]
+        },
+        "materials": [
+          "BrickWeathered | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_WingWall/Left_WingWall_Concrete",
+        "bounds": {
+          "center": [
+            -1209.46826,
+            -708.281433,
+            -1316.5625
+          ],
+          "size": [
+            0.813669741,
+            3.682148,
+            0.748185635
+          ]
+        },
+        "localBounds": {
+          "center": [
+            3.89936662,
+            1.83846509,
+            0.00121948123
+          ],
+          "size": [
+            0.7120538,
+            3.682148,
+            0.630636454
+          ]
+        },
+        "materials": [
+          "Concrete | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_WingWall/Left_WingWall_Mortar",
+        "bounds": {
+          "center": [
+            -1209.465,
+            -708.2499,
+            -1316.56323
+          ],
+          "size": [
+            0.7496518,
+            3.18,
+            0.6008561
+          ]
+        },
+        "localBounds": {
+          "center": [
+            3.9025,
+            1.87,
+            0.0
+          ],
+          "size": [
+            0.672999859,
+            3.18,
+            0.488
+          ]
+        },
+        "materials": [
+          "Mortar | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Left_WingWall/Left_WingWall_Whitewash",
+        "bounds": {
+          "center": [
+            -1209.465,
+            -708.7601,
+            -1316.56323
+          ],
+          "size": [
+            0.760579646,
+            0.785619,
+            0.629478335
+          ]
+        },
+        "localBounds": {
+          "center": [
+            3.90250015,
+            1.35980892,
+            0.0
+          ],
+          "size": [
+            0.679000139,
+            0.785619,
+            0.516
+          ]
+        },
+        "materials": [
+          "Whitewash | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_GateLeaf/Right_GateLeaf_FramePaint",
+        "bounds": {
+          "center": [
+            -1214.64087,
+            -708.049866,
+            -1317.50745
+          ],
+          "size": [
+            2.67309427,
+            3.86000013,
+            0.6711875
+          ]
+        },
+        "localBounds": {
+          "center": [
+            0.0,
+            1.28,
+            0.06899994
+          ],
+          "size": [
+            2.68200016,
+            3.86000013,
+            0.193000123
+          ]
+        },
+        "materials": [
+          "FramePaint | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_GateLeaf/Right_GateLeaf_GatePaint",
+        "bounds": {
+          "center": [
+            -1214.64209,
+            -708.4932,
+            -1317.5011
+          ],
+          "size": [
+            2.54285669,
+            2.83675766,
+            0.478054
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -1.35897326,
+            1.626628,
+            0.006440793
+          ],
+          "size": [
+            2.58210278,
+            2.83675766,
+            0.0149030508
+          ]
+        },
+        "materials": [
+          "GatePaint | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_GateLeaf/Right_GateLeaf_Iron",
+        "bounds": {
+          "center": [
+            -1214.72363,
+            -707.877563,
+            -1317.42407
+          ],
+          "size": [
+            2.6919713,
+            3.344598,
+            0.7569833
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -1.42530382,
+            2.242299,
+            0.09679647
+          ],
+          "size": [
+            2.68539214,
+            3.344598,
+            0.279592931
+          ]
+        },
+        "materials": [
+          "Iron | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_Pier/Right_Pier_Brick",
+        "bounds": {
+          "center": [
+            -1216.42261,
+            -707.8742,
+            -1317.8324
+          ],
+          "size": [
+            0.9078276,
+            3.72139859,
+            0.8997912
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -3.1699903,
+            2.245652,
+            -1.1920929E-06
+          ],
+          "size": [
+            0.781979561,
+            3.72139859,
+            0.771987736
+          ]
+        },
+        "materials": [
+          "Brick | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_Pier/Right_Pier_BrickWeathered",
+        "bounds": {
+          "center": [
+            -1216.42261,
+            -707.8749,
+            -1317.83252
+          ],
+          "size": [
+            0.9077937,
+            3.72397518,
+            0.8996762
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -3.16998529,
+            2.2449975,
+            -5.74588776E-05
+          ],
+          "size": [
+            0.781966,
+            3.72397518,
+            0.771873355
+          ]
+        },
+        "materials": [
+          "BrickWeathered | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_Pier/Right_Pier_Concrete",
+        "bounds": {
+          "center": [
+            -1216.42444,
+            -707.9362,
+            -1317.83459
+          ],
+          "size": [
+            1.21311986,
+            4.37829542,
+            1.16486168
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -3.172173,
+            2.18365836,
+            -0.001810044
+          ],
+          "size": [
+            1.05214739,
+            4.37829542,
+            0.992147267
+          ]
+        },
+        "materials": [
+          "Concrete | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_Pier/Right_Pier_Iron",
+        "bounds": {
+          "center": [
+            -1216.029,
+            -708.0199,
+            -1317.76062
+          ],
+          "size": [
+            0.11911346,
+            3.04,
+            0.288016647
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -2.77,
+            2.1,
+            0.0
+          ],
+          "size": [
+            0.07000017,
+            3.04,
+            0.28
+          ]
+        },
+        "materials": [
+          "Iron | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_Pier/Right_Pier_Mortar",
+        "bounds": {
+          "center": [
+            -1216.42261,
+            -707.8749,
+            -1317.8324
+          ],
+          "size": [
+            0.8915646,
+            3.73,
+            0.8835217
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -3.17,
+            2.245,
+            0.0
+          ],
+          "size": [
+            0.7679999,
+            3.73,
+            0.758
+          ]
+        },
+        "materials": [
+          "Mortar | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_WingWall/Right_WingWall_Brick",
+        "bounds": {
+          "center": [
+            -1217.14307,
+            -708.079346,
+            -1317.96448
+          ],
+          "size": [
+            0.7789152,
+            3.19462585,
+            0.6884273
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -3.90250444,
+            2.04054356,
+            -0.0006186068
+          ],
+          "size": [
+            0.6869724,
+            3.19462585,
+            0.5744675
+          ]
+        },
+        "materials": [
+          "Brick | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_WingWall/Right_WingWall_BrickWeathered",
+        "bounds": {
+          "center": [
+            -1217.14319,
+            -708.2498,
+            -1317.96387
+          ],
+          "size": [
+            0.765780449,
+            3.17383838,
+            0.6169881
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -3.90243864,
+            1.87005365,
+            2.10702419E-05
+          ],
+          "size": [
+            0.6868646,
+            3.17383838,
+            0.501868963
+          ]
+        },
+        "materials": [
+          "BrickWeathered | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_WingWall/Right_WingWall_Concrete",
+        "bounds": {
+          "center": [
+            -1217.14258,
+            -708.2805,
+            -1317.96509
+          ],
+          "size": [
+            0.8196622,
+            3.679966,
+            0.7517029
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -3.90202761,
+            1.83933926,
+            -0.001244098
+          ],
+          "size": [
+            0.7176802,
+            3.679966,
+            0.6331854
+          ]
+        },
+        "materials": [
+          "Concrete | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_WingWall/Right_WingWall_Mortar",
+        "bounds": {
+          "center": [
+            -1217.14319,
+            -708.2499,
+            -1317.96387
+          ],
+          "size": [
+            0.7496518,
+            3.18,
+            0.6008561
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -3.9025,
+            1.87,
+            0.0
+          ],
+          "size": [
+            0.672999859,
+            3.18,
+            0.488
+          ]
+        },
+        "materials": [
+          "Mortar | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      },
+      {
+        "path": "In-scene Objects/Factory Entrance/FactoryGate/Right_WingWall/Right_WingWall_Whitewash",
+        "bounds": {
+          "center": [
+            -1217.14319,
+            -708.961243,
+            -1317.96387
+          ],
+          "size": [
+            0.7605799,
+            0.7575175,
+            0.629478335
+          ]
+        },
+        "localBounds": {
+          "center": [
+            -3.9025,
+            1.158601,
+            0.0
+          ],
+          "size": [
+            0.6790004,
+            0.7575175,
+            0.516
+          ]
+        },
+        "materials": [
+          "Whitewash | Shader Graphs/glTF-pbrMetallicRoughness | supported=True"
+        ]
+      }
+    ],
+    "colliders": [],
+    "behaviours": []
+  }
+}

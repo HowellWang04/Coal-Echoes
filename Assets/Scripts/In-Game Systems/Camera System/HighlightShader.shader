@@ -8,20 +8,23 @@ Shader "Custom/HighlightOverlay"
     }
     SubShader
     {
-        Tags { "RenderType"="Transparent" "Queue"="Transparent+1" "RenderPipeline"="UniversalPipeline" }
+        Tags { "RenderType"="Transparent" "Queue"="Transparent+1" "RenderPipeline"="HDRenderPipeline" }
 
         Pass
         {
             Name "HighlightOverlay"
+            Tags { "LightMode"="ForwardOnly" }
             Cull Back
             ZWrite Off 
             ZTest LEqual
             Blend SrcAlpha OneMinusSrcAlpha
 
             HLSLPROGRAM
+            #pragma target 4.5
             #pragma vertex vert
             #pragma fragment frag
-            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+            #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
+            #include "Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/ShaderVariables.hlsl"
 
             CBUFFER_START(UnityPerMaterial)
                 float4 _HighlightColor;
@@ -49,8 +52,8 @@ Shader "Custom/HighlightOverlay"
                 output.positionCS = TransformObjectToHClip(input.positionOS.xyz);
                 output.normalWS = TransformObjectToWorldNormal(input.normalOS);
                 float3 worldPos = TransformObjectToWorld(input.positionOS.xyz);
-                output.viewDirWS = normalize(GetCameraPositionWS() - worldPos);
-                output.positionWS = worldPos; 
+                output.viewDirWS = GetWorldSpaceNormalizeViewDir(worldPos);
+                output.positionWS = GetAbsolutePositionWS(worldPos);
                 return output;
             }
 

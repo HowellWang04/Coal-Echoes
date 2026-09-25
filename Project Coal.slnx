@@ -8,6 +8,7 @@
   <Project Path="Unity.Multiplayer.Center.Editor.csproj" />
   <Project Path="Unity.RenderPipelines.HighDefinition.Editor.csproj" />
   <Project Path="Unity.TerrainTools.Editor.csproj" />
+  <Project Path="Unity.Pipeline.csproj" />
   <Project Path="Unity.InferenceEngine.Microsoft.Msagl.csproj" />
   <Project Path="Unity.VisualScripting.Core.Editor.csproj" />
   <Project Path="Unity.RenderPipelines.Universal.Editor.csproj" />
@@ -38,6 +39,7 @@
   <Project Path="Unity.RenderPipelines.Universal.Runtime.csproj" />
   <Project Path="Unity.Burst.CodeGen.csproj" />
   <Project Path="Unity.InputSystem.csproj" />
+  <Project Path="Unity.Pipeline.Editor.csproj" />
   <Project Path="Unity.VisualScripting.Flow.csproj" />
   <Project Path="UnityEngine.TestRunner.csproj" />
   <Project Path="Unity.PerformanceTesting.csproj" />
@@ -88,6 +90,7 @@
   <Project Path="Unity.Collections.CodeGen.csproj" />
   <Project Path="Unity.AI.Assistant.AssetGenerators.Editor.csproj" />
   <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="Unity.Pipeline.IlInterpreter.csproj" />
   <Project Path="MapMagic.Editor.csproj" />
   <Project Path="Unity.AI.Assistant.Annotations.Editor.csproj" />
   <Project Path="Unity.AppUI.Editor.csproj" />
@@ -133,6 +136,7 @@
   <Project Path="Unity.AI.Toolkit.GenerationObjectPicker.csproj" />
   <Project Path="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj" />
   <Project Path="Unity.RenderPipelines.Core.ShaderLibrary.csproj" />
+  <Project Path="Unity.Pipeline.Attributes.csproj" />
   <Project Path="Unity.AI.Toolkit.Compliance.csproj" />
   <Project Path="Unity.RenderPipelines.Core.Runtime.Shared.csproj" />
   <Project Path="Unity.AI.MCP.Runtime.csproj" />
@@ -143,6 +147,7 @@
   <Project Path="Unity.InferenceEngine.ONNX.Editor.csproj" />
   <Project Path="MapMagic.Settings.csproj" />
   <Project Path="Unity.InferenceEngine.iOSBLAS.csproj" />
+  <Project Path="Unity.Pipeline.CodeGen.csproj" />
   <Project Path="Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj" />
   <Project Path="Unity.RenderPipelines.Universal.Config.Runtime.csproj" />
 </Solution>

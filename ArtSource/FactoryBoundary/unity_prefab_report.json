@@ -1,0 +1,52 @@
+[
+  {
+    "name": "FactoryGate",
+    "path": "Assets/Art Resources/Environment/Gate Area/FactoryBoundary/Prefabs/FactoryGate.prefab",
+    "triangles": 61551,
+    "colliderCount": 5,
+    "allMaterialsShared": true,
+    "missingScripts": 0,
+    "sockets": [
+      {
+        "name": "Snap_OuterPillar",
+        "position": "(-3.17, 0.00, 0.00)"
+      },
+      {
+        "name": "Snap_GuardWallEnd",
+        "position": "(4.25, 0.00, 0.00)"
+      }
+    ]
+  },
+  {
+    "name": "FactoryPillar",
+    "path": "Assets/Art Resources/Environment/Gate Area/FactoryBoundary/Prefabs/FactoryPillar.prefab",
+    "triangles": 4352,
+    "colliderCount": 3,
+    "allMaterialsShared": true,
+    "missingScripts": 0,
+    "sockets": [
+      {
+        "name": "Snap_Centre",
+        "position": "(0.00, 0.00, 0.00)"
+      }
+    ]
+  },
+  {
+    "name": "FactoryWall_3m",
+    "path": "Assets/Art Resources/Environment/Gate Area/FactoryBoundary/Prefabs/FactoryWall_3m.prefab",
+    "triangles": 14226,
+    "colliderCount": 2,
+    "allMaterialsShared": true,
+    "missingScripts": 0,
+    "sockets": [
+      {
+        "name": "Snap_Start",
+        "position": "(0.00, 0.00, 0.00)"
+      },
+      {
+        "name": "Snap_End",
+        "position": "(3.00, 0.00, 0.00)"
+      }
+    ]
+  }
+]

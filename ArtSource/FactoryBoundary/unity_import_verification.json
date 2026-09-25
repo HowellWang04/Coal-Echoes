@@ -1,0 +1,562 @@
+{
+  "assets": [
+    {
+      "name": "FactoryGate",
+      "meshes": [
+        {
+          "name": "Chain_And_Padlock_FramePaint",
+          "vertices": 96,
+          "uv": 96,
+          "normals": 96,
+          "tangents": 96,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "FramePaint",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Chain_And_Padlock_Iron",
+          "vertices": 5563,
+          "uv": 5563,
+          "normals": 5563,
+          "tangents": 5563,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Iron",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_GateLeaf_FramePaint",
+          "vertices": 1824,
+          "uv": 1824,
+          "normals": 1824,
+          "tangents": 1824,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "FramePaint",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_GateLeaf_GatePaint",
+          "vertices": 36959,
+          "uv": 36959,
+          "normals": 36959,
+          "tangents": 36959,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "GatePaint",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_GateLeaf_Iron",
+          "vertices": 2497,
+          "uv": 2497,
+          "normals": 2497,
+          "tangents": 2497,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Iron",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_Pier_Brick",
+          "vertices": 8482,
+          "uv": 8482,
+          "normals": 8482,
+          "tangents": 8482,
+          "colors": 8482,
+          "materials": [
+            {
+              "name": "Brick",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_Pier_BrickWeathered",
+          "vertices": 3612,
+          "uv": 3612,
+          "normals": 3612,
+          "tangents": 3612,
+          "colors": 3612,
+          "materials": [
+            {
+              "name": "BrickWeathered",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_Pier_Concrete",
+          "vertices": 697,
+          "uv": 697,
+          "normals": 697,
+          "tangents": 697,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Concrete",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_Pier_Iron",
+          "vertices": 288,
+          "uv": 288,
+          "normals": 288,
+          "tangents": 288,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Iron",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_Pier_Mortar",
+          "vertices": 296,
+          "uv": 296,
+          "normals": 296,
+          "tangents": 296,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Mortar",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_WingWall_Brick",
+          "vertices": 5004,
+          "uv": 5004,
+          "normals": 5004,
+          "tangents": 5004,
+          "colors": 5004,
+          "materials": [
+            {
+              "name": "Brick",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_WingWall_BrickWeathered",
+          "vertices": 2772,
+          "uv": 2772,
+          "normals": 2772,
+          "tangents": 2772,
+          "colors": 2772,
+          "materials": [
+            {
+              "name": "BrickWeathered",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_WingWall_Concrete",
+          "vertices": 396,
+          "uv": 396,
+          "normals": 396,
+          "tangents": 396,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Concrete",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_WingWall_Mortar",
+          "vertices": 296,
+          "uv": 296,
+          "normals": 296,
+          "tangents": 296,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Mortar",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Left_WingWall_Whitewash",
+          "vertices": 15400,
+          "uv": 15400,
+          "normals": 15400,
+          "tangents": 15400,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Whitewash",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Right_GateLeaf_FramePaint",
+          "vertices": 1824,
+          "uv": 1824,
+          "normals": 1824,
+          "tangents": 1824,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "FramePaint",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Right_GateLeaf_GatePaint",
+          "vertices": 35116,
+          "uv": 35116,
+          "normals": 35116,
+          "tangents": 35116,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "GatePaint",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Right_GateLeaf_Iron",
+          "vertices": 2499,
+          "uv": 2499,
+          "normals": 2499,
+          "tangents": 2499,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Iron",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Right_Pier_Brick",
+          "vertices": 8400,
+          "uv": 8400,
+          "normals": 8400,
+          "tangents": 8400,
+          "colors": 8400,
+          "materials": [
+            {
+              "name": "Brick",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Right_Pier_BrickWeathered",
+          "vertices": 3696,
+          "uv": 3696,
+          "normals": 3696,
+          "tangents": 3696,
+          "colors": 3696,
+          "materials": [
+            {
+              "name": "BrickWeathered",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Right_Pier_Concrete",
+          "vertices": 624,
+          "uv": 624,
+          "normals": 624,
+          "tangents": 624,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Concrete",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Right_Pier_Iron",
+          "vertices": 288,
+          "uv": 288,
+          "normals": 288,
+          "tangents": 288,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Iron",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "Right_Pier_Mortar",
+          "vertices": 294,
+          "uv": 294,
+          "normals": 294,
+          "tangents": 294,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Mortar",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        }
+      ],
+      "colliders": [
+        {
+          "name": "FactoryGate",
+          "center": "(-3.170, 2.195, 0.000)",
+          "size": "(0.960, 4.390, 0.950)"
+        },
+        {
+          "name": "FactoryGate",
+          "center": "(3.170, 2.195, 0.000)",
+          "size": "(0.960, 4.390, 0.950)"
+        },
+        {
+          "name": "FactoryGate",
+          "center": "(3.903, 1.840, 0.000)",
+          "size": "(0.685, 3.680, 0.500)"
+        },
+        {
+          "name": "Left_GateLeaf",
+          "center": "(-1.341, 2.070, 0.000)",
+          "size": "(2.682, 3.860, 0.120)"
+        },
+        {
+          "name": "Right_GateLeaf",
+          "center": "(1.341, 2.070, 0.000)",
+          "size": "(2.682, 3.860, 0.120)"
+        }
+      ]
+    },
+    {
+      "name": "FactoryPillar",
+      "meshes": [
+        {
+          "name": "FactoryPillar_Brick",
+          "vertices": 8400,
+          "uv": 8400,
+          "normals": 8400,
+          "tangents": 8400,
+          "colors": 8400,
+          "materials": [
+            {
+              "name": "Brick",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "FactoryPillar_BrickWeathered",
+          "vertices": 3696,
+          "uv": 3696,
+          "normals": 3696,
+          "tangents": 3696,
+          "colors": 3696,
+          "materials": [
+            {
+              "name": "BrickWeathered",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "FactoryPillar_Concrete",
+          "vertices": 624,
+          "uv": 624,
+          "normals": 624,
+          "tangents": 624,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Concrete",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "FactoryPillar_Mortar",
+          "vertices": 288,
+          "uv": 288,
+          "normals": 288,
+          "tangents": 288,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Mortar",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        }
+      ],
+      "colliders": [
+        {
+          "name": "FactoryPillar",
+          "center": "(0.000, 2.245, 0.000)",
+          "size": "(0.780, 3.730, 0.770)"
+        },
+        {
+          "name": "FactoryPillar",
+          "center": "(0.000, 0.190, 0.000)",
+          "size": "(0.960, 0.380, 0.950)"
+        },
+        {
+          "name": "FactoryPillar",
+          "center": "(0.000, 4.245, 0.000)",
+          "size": "(1.050, 0.270, 0.990)"
+        }
+      ]
+    },
+    {
+      "name": "FactoryWall_3m",
+      "meshes": [
+        {
+          "name": "FactoryWall_3m_Brick",
+          "vertices": 10610,
+          "uv": 10610,
+          "normals": 10610,
+          "tangents": 10610,
+          "colors": 10610,
+          "materials": [
+            {
+              "name": "Brick",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "FactoryWall_3m_BrickWeathered",
+          "vertices": 5922,
+          "uv": 5922,
+          "normals": 5922,
+          "tangents": 5922,
+          "colors": 5922,
+          "materials": [
+            {
+              "name": "BrickWeathered",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "FactoryWall_3m_Concrete",
+          "vertices": 537,
+          "uv": 537,
+          "normals": 537,
+          "tangents": 537,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Concrete",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "FactoryWall_3m_Mortar",
+          "vertices": 100,
+          "uv": 100,
+          "normals": 100,
+          "tangents": 100,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Mortar",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        },
+        {
+          "name": "FactoryWall_3m_Whitewash",
+          "vertices": 14850,
+          "uv": 14850,
+          "normals": 14850,
+          "tangents": 14850,
+          "colors": 0,
+          "materials": [
+            {
+              "name": "Whitewash",
+              "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+              "isSupported": true
+            }
+          ]
+        }
+      ],
+      "colliders": [
+        {
+          "name": "FactoryWall_3m",
+          "center": "(1.500, 1.840, 0.000)",
+          "size": "(2.250, 3.680, 0.500)"
+        },
+        {
+          "name": "FactoryWall_3m",
+          "center": "(1.500, 0.140, 0.000)",
+          "size": "(2.250, 0.280, 0.620)"
+        }
+      ]
+    }
+  ],
+  "liveGate": {
+    "position": "(-1213.304, -710.120, -1317.264)",
+    "scale": "(1.00, 1.00, 1.00)",
+    "removedWingAbsent": true,
+    "guardhouseWingPresent": true
+  },
+  "playMode": false
+}

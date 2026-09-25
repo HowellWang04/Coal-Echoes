@@ -1,0 +1,67 @@
+{
+  "gate": {
+    "triangles": 61551,
+    "mesh_count": 23,
+    "bounds_min_blender": [
+      -4.2553935050964355,
+      -0.5044702887535095,
+      -0.005489269271492958
+    ],
+    "bounds_max_blender": [
+      3.698246717453003,
+      0.501879096031189,
+      4.385504245758057
+    ],
+    "missing_uv": []
+  },
+  "pillar": {
+    "triangles": 4352,
+    "mesh_count": 4,
+    "bounds_min_blender": [
+      -0.5239007472991943,
+      -0.49426358938217163,
+      -0.005489269271492958
+    ],
+    "bounds_max_blender": [
+      0.5282466411590576,
+      0.497883677482605,
+      4.372806072235107
+    ],
+    "missing_uv": []
+  },
+  "wall": {
+    "triangles": 14226,
+    "mesh_count": 5,
+    "bounds_min_blender": [
+      -2.639814615249634,
+      -0.3164620101451874,
+      -0.0020828130654990673
+    ],
+    "bounds_max_blender": [
+      -0.35861361026763916,
+      0.3157079517841339,
+      3.679400682449341
+    ],
+    "missing_uv": []
+  },
+  "pillar_centre_spacing": 3.0,
+  "wall_body_thickness": 0.5,
+  "removed_gate_group": "Right_WingWall",
+  "retained_gate_group": "Left_WingWall",
+  "gate_free_pillar_centre_unity": [
+    -3.17,
+    0,
+    0
+  ],
+  "wall_start_socket_unity": [
+    0,
+    0,
+    0
+  ],
+  "wall_end_socket_unity": [
+    3,
+    0,
+    0
+  ],
+  "material_randomization_implemented": false
+}

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "file": "ArtSource/FactoryGate/RefreshBrickMaterial.cs",
+      "entry": "RefreshBrickMaterial.Main"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 27,
+      "executeMs": 2140,
+      "assemblyName": "PipelineRunScript_RefreshBrickMaterial_76be31adfec443bcb38d056384273938",
+      "success": true,
+      "result": "{\r\n  \"playing\": false,\r\n  \"scene\": \"Assets/Scenes/Main Game Scene.unity\",\r\n  \"sceneDirty\": false,\r\n  \"position\": \"(-1213.3040, -710.1199, -1317.2640)\",\r\n  \"rotation\": \"(0.0000, 349.6615, 0.0000)\",\r\n  \"scale\": \"(1.00, 1.00, 1.00)\",\r\n  \"materials\": [\r\n    {\r\n      \"name\": \"Brick\",\r\n      \"shader\": \"Shader Graphs/glTF-pbrMetallicRoughness\",\r\n      \"texture\": \"Brick_BaseColor\",\r\n      \"matchesImportedAsset\": true\r\n    },\r\n    {\r\n      \"name\": \"BrickWeathered\",\r\n      \"shader\": \"Shader Graphs/glTF-pbrMetallicRoughness\",\r\n      \"texture\": \"BrickWeathered_BaseColor\",\r\n      \"matchesImportedAsset\": true\r\n    }\r\n  ],\r\n  \"triangles\": 72331,\r\n  \"brickVertexColors\": [\r\n    {\r\n      \"name\": \"Left_Pier_Brick\",\r\n      \"hasColor\": true\r\n    },\r\n    {\r\n      \"name\": \"Left_Pier_BrickWeathered\",\r\n      \"hasColor\": true\r\n    },\r\n    {\r\n      \"name\": \"Left_WingWall_Brick\",\r\n      \"hasColor\": true\r\n    },\r\n    {\r\n      \"name\": \"Left_WingWall_BrickWeathered\",\r\n      \"hasColor\": true\r\n    },\r\n    {\r\n      \"name\": \"Right_Pier_Brick\",\r\n      \"hasColor\": true\r\n    },\r\n    {\r\n      \"name\": \"Right_Pier_BrickWeathered\",\r\n      \"hasColor\": true\r\n    },\r\n    {\r\n      \"name\": \"Right_WingWall_Brick\",\r\n      \"hasColor\": true\r\n    },\r\n    {\r\n      \"name\": \"Right_WingWall_BrickWeathered\",\r\n      \"hasColor\": true\r\n    }\r\n  ]\r\n}"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

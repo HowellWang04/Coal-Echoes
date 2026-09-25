@@ -4935,14 +4935,7 @@
     "m_OutputNode": {
         "m_Id": ""
     },
-    "m_ActiveTargets": [
-        {
-            "m_Id": "0cb0c99e656b41db9ec516d496e09bbc"
-        },
-        {
-            "m_Id": "338651fa4b3941a4af17bebc9ac0542f"
-        }
-    ]
+    "m_ActiveTargets": [{"m_Id": "0cb0c99e656b41db9ec516d496e09bbc"}]
 }
 
 {

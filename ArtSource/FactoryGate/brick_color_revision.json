@@ -1,0 +1,21 @@
+{
+  "mesh_and_uv_unchanged": true,
+  "mesh_count": 28,
+  "data_maps_unchanged": true,
+  "changed_materials": [
+    "Brick",
+    "BrickWeathered"
+  ],
+  "individual_brick_tints": {
+    "pale_neutral": 360,
+    "grey_brown": 320,
+    "dusty_brown": 135,
+    "orange_red": 133,
+    "orange_red_fraction": 0.14029535864978904
+  },
+  "backup": "Previous\\Before_Individual_Brick_Colors",
+  "play_mode_verified": false,
+  "unity_editor_verified": true,
+  "gltf_brick_vertex_color_meshes": 8,
+  "source_vs_glb_render_mean_absolute_difference": 0.0002309755509486422
+}

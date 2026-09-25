@@ -371,11 +371,7 @@
     "m_OutputNode": {
         "m_Id": ""
     },
-    "m_ActiveTargets": [
-        {
-            "m_Id": "05428c481bad464caac65b1eae42aece"
-        }
-    ]
+    "m_ActiveTargets": [{"m_Id": "2941b2a3611e4d61a2f5f7dc85304959"}]
 }
 
 {
@@ -2868,3 +2864,29 @@
     }
 }
 
+
+
+{
+  "m_SGVersion": 0,
+  "m_Type": "UnityEditor.Rendering.HighDefinition.ShaderGraph.HDTarget",
+  "m_ObjectId": "2941b2a3611e4d61a2f5f7dc85304959",
+  "m_ActiveSubTarget": {
+    "m_Id": "e7f6a48f121b44dd8260a560d8253ae9"
+  },
+  "m_Datas": [
+    {
+      "m_Id": "111dba7b63fd42838066df1f38eb4438"
+    },
+    {
+      "m_Id": "29c29b30650e451bac5aeb1628a902b8"
+    },
+    {
+      "m_Id": "6c2b208980014e4c8bd69128bd24a669"
+    },
+    {
+      "m_Id": "6cbd97cb556d45eea247a50833fa4f59"
+    }
+  ],
+  "m_CustomEditorGUI": "",
+  "m_SupportVFX": false
+}

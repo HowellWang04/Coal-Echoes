@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "file": "ArtSource/FactoryGate/RefreshBrickMaterial.cs",
+      "entry": "RefreshBrickMaterial.Frame"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 25,
+      "executeMs": 4,
+      "assemblyName": "PipelineRunScript_RefreshBrickMaterial_5d9904d30fb242ae954f8fb9b7f9cc97",
+      "success": true,
+      "result": "Framed the updated gate from the lit rear side"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

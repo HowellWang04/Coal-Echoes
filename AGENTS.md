@@ -1,10 +1,11 @@
 # 0101-WGH Unity Project
 
-USC 游戏设计硕士申请作品集项目。叙事探索游戏，主人公前往废弃选矿厂完成爷爷的遗愿。
+USC 游戏设计硕士申请作品集项目。叙事探索游戏，主人公前往废弃选煤厂完成爷爷的遗愿。厂区采用煤炭洗选工艺，人物日常称为洗煤厂。
 
 ## 文档索引
 
 ### 设计
+- [项目术语](CONTEXT.md) — 选煤厂、洗煤厂与矿区的空间归属
 - [游戏设计](Assets/For%20AI%20Agent/Design/game-design.md) — 故事、玩法机制、回响系统、物品分类、世界观
 - [关卡设计](Assets/For%20AI%20Agent/Design/level-design.md) — 第一关及后续关卡设计
 - [关卡物品清单](Assets/For%20AI%20Agent/Design/level-items.md) — 三大关卡 × 三类物品 × 叙事帮助 × 美术状态整合表

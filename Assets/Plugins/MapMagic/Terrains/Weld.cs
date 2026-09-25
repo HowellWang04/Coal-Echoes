@@ -302,10 +302,10 @@ namespace MapMagic.Terrains
 				int sizeX = splats.GetLength(1);
 				int sizeZ = splats.GetLength(0);
 
-				if (arr_x.Length != sizeX) arr_x = new float[sizeX];
-				if (arr_X.Length != sizeX) arr_X = new float[sizeX];
-				if (arr_z.Length != sizeZ) arr_z = new float[sizeZ];
-				if (arr_Z.Length != sizeZ) arr_Z = new float[sizeZ];
+				if (arr_x == null || arr_x.Length != sizeX) arr_x = new float[sizeX];
+				if (arr_X == null || arr_X.Length != sizeX) arr_X = new float[sizeX];
+				if (arr_z == null || arr_z.Length != sizeZ) arr_z = new float[sizeZ];
+				if (arr_Z == null || arr_Z.Length != sizeZ) arr_Z = new float[sizeZ];
 
 				for (int x=0; x<sizeX; x++)
 				{
