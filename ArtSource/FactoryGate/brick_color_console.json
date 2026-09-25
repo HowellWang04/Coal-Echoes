@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "error",
+      "since": "990",
+      "since_session": "68f057622d8145d2b85f5e096c790340"
+    },
+    "result": {
+      "entries": [],
+      "cursor": 1183,
+      "session": "68f057622d8145d2b85f5e096c790340",
+      "returned": 0,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 6,
+        "warn": 1165,
+        "log": 12
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-09-24T14:09:54.4850445Z",
+        "ageMs": 39,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 192,
+        "consoleLogs": 1,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

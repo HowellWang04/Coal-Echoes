@@ -1,0 +1,42 @@
+{
+  "chain_links": 21,
+  "adjacent_ring_linking_numbers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "terminal_links_threaded_by_shackle": [
+    1,
+    1
+  ],
+  "closed_route_through_handle_apertures": [
+    1,
+    1
+  ],
+  "minimum_neighbor_wire_clearance_m": 0.0006721007894752006,
+  "terminal_shackle_clearance_m": [
+    0.0019999858043089694,
+    0.00199998580430894
+  ],
+  "handle_wire_clearance_m": [
+    0.00016379064621497783,
+    0.0002897507550417705
+  ]
+}

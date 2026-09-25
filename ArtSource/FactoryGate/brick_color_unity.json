@@ -1,0 +1,57 @@
+{
+  "playing": false,
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "sceneDirty": false,
+  "position": "(-1213.3040, -710.1199, -1317.2640)",
+  "rotation": "(0.0000, 349.6615, 0.0000)",
+  "scale": "(1.00, 1.00, 1.00)",
+  "materials": [
+    {
+      "name": "Brick",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "texture": "Brick_BaseColor",
+      "matchesImportedAsset": true
+    },
+    {
+      "name": "BrickWeathered",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "texture": "BrickWeathered_BaseColor",
+      "matchesImportedAsset": true
+    }
+  ],
+  "triangles": 72331,
+  "brickVertexColors": [
+    {
+      "name": "Left_Pier_Brick",
+      "hasColor": true
+    },
+    {
+      "name": "Left_Pier_BrickWeathered",
+      "hasColor": true
+    },
+    {
+      "name": "Left_WingWall_Brick",
+      "hasColor": true
+    },
+    {
+      "name": "Left_WingWall_BrickWeathered",
+      "hasColor": true
+    },
+    {
+      "name": "Right_Pier_Brick",
+      "hasColor": true
+    },
+    {
+      "name": "Right_Pier_BrickWeathered",
+      "hasColor": true
+    },
+    {
+      "name": "Right_WingWall_Brick",
+      "hasColor": true
+    },
+    {
+      "name": "Right_WingWall_BrickWeathered",
+      "hasColor": true
+    }
+  ]
+}

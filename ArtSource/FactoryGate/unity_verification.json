@@ -1,0 +1,438 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "isDirty": false,
+  "source": "Assets/Art Resources/Environment/Gate Area/FactoryGate_Rebuilt/FactoryGate_Rebuilt.glb",
+  "triangles": 72331,
+  "materialCount": 8,
+  "materials": [
+    {
+      "name": "FramePaint",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "unity_Lightmaps",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_LightmapsInd",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_ShadowMasks",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "baseColorTexture",
+          "texture": "FramePaint_BaseColor",
+          "width": 1024
+        },
+        {
+          "property": "normalTexture",
+          "texture": "FramePaint_Normal",
+          "width": 1024
+        },
+        {
+          "property": "occlusionTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "texture": "FramePaint_ORM",
+          "width": 1024
+        },
+        {
+          "property": "emissiveTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "transmissionTexture",
+          "texture": null,
+          "width": 0
+        }
+      ]
+    },
+    {
+      "name": "Iron",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "unity_Lightmaps",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_LightmapsInd",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_ShadowMasks",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "baseColorTexture",
+          "texture": "Iron_BaseColor",
+          "width": 1024
+        },
+        {
+          "property": "normalTexture",
+          "texture": "Iron_Normal",
+          "width": 1024
+        },
+        {
+          "property": "occlusionTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "texture": "Iron_ORM",
+          "width": 1024
+        },
+        {
+          "property": "emissiveTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "transmissionTexture",
+          "texture": null,
+          "width": 0
+        }
+      ]
+    },
+    {
+      "name": "GatePaint",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "unity_Lightmaps",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_LightmapsInd",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_ShadowMasks",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "baseColorTexture",
+          "texture": "GatePaint_BaseColor",
+          "width": 4096
+        },
+        {
+          "property": "normalTexture",
+          "texture": "GatePaint_Normal",
+          "width": 4096
+        },
+        {
+          "property": "occlusionTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "texture": "GatePaint_ORM",
+          "width": 4096
+        },
+        {
+          "property": "emissiveTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "transmissionTexture",
+          "texture": null,
+          "width": 0
+        }
+      ]
+    },
+    {
+      "name": "Brick",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "unity_Lightmaps",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_LightmapsInd",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_ShadowMasks",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "baseColorTexture",
+          "texture": "Brick_BaseColor",
+          "width": 2048
+        },
+        {
+          "property": "normalTexture",
+          "texture": "Brick_Normal",
+          "width": 2048
+        },
+        {
+          "property": "occlusionTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "texture": "Brick_ORM",
+          "width": 2048
+        },
+        {
+          "property": "emissiveTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "transmissionTexture",
+          "texture": null,
+          "width": 0
+        }
+      ]
+    },
+    {
+      "name": "BrickWeathered",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "unity_Lightmaps",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_LightmapsInd",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_ShadowMasks",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "baseColorTexture",
+          "texture": "BrickWeathered_BaseColor",
+          "width": 2048
+        },
+        {
+          "property": "normalTexture",
+          "texture": "Brick_Normal",
+          "width": 2048
+        },
+        {
+          "property": "occlusionTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "texture": "Brick_ORM",
+          "width": 2048
+        },
+        {
+          "property": "emissiveTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "transmissionTexture",
+          "texture": null,
+          "width": 0
+        }
+      ]
+    },
+    {
+      "name": "Concrete",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "unity_Lightmaps",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_LightmapsInd",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_ShadowMasks",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "baseColorTexture",
+          "texture": "Concrete_BaseColor",
+          "width": 2048
+        },
+        {
+          "property": "normalTexture",
+          "texture": "Concrete_Normal",
+          "width": 2048
+        },
+        {
+          "property": "occlusionTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "texture": "Concrete_ORM",
+          "width": 2048
+        },
+        {
+          "property": "emissiveTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "transmissionTexture",
+          "texture": null,
+          "width": 0
+        }
+      ]
+    },
+    {
+      "name": "Mortar",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "unity_Lightmaps",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_LightmapsInd",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_ShadowMasks",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "baseColorTexture",
+          "texture": "Mortar_BaseColor",
+          "width": 512
+        },
+        {
+          "property": "normalTexture",
+          "texture": "Mortar_Normal",
+          "width": 512
+        },
+        {
+          "property": "occlusionTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "texture": "Mortar_ORM",
+          "width": 512
+        },
+        {
+          "property": "emissiveTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "transmissionTexture",
+          "texture": null,
+          "width": 0
+        }
+      ]
+    },
+    {
+      "name": "Whitewash",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "unity_Lightmaps",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_LightmapsInd",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "unity_ShadowMasks",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "baseColorTexture",
+          "texture": "Whitewash_BaseColor",
+          "width": 512
+        },
+        {
+          "property": "normalTexture",
+          "texture": "Whitewash_Normal",
+          "width": 512
+        },
+        {
+          "property": "occlusionTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "texture": "Whitewash_ORM",
+          "width": 512
+        },
+        {
+          "property": "emissiveTexture",
+          "texture": null,
+          "width": 0
+        },
+        {
+          "property": "transmissionTexture",
+          "texture": null,
+          "width": 0
+        }
+      ]
+    }
+  ],
+  "externalConcreteTextures": [
+    {
+      "name": "Concrete_Normal.png",
+      "loaded": true
+    },
+    {
+      "name": "Concrete_ORM.png",
+      "loaded": true
+    }
+  ],
+  "colliderCount": 0,
+  "missingScripts": 0,
+  "oldInstances": 0
+}

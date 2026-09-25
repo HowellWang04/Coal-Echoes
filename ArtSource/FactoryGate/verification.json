@@ -1,0 +1,140 @@
+{
+  "glb_container_valid": true,
+  "all_gltf_primitives_have_uv_and_normals": true,
+  "gltf_materials": [
+    {
+      "name": "FramePaint",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "normal": true,
+      "metallicRoughness": true
+    },
+    {
+      "name": "Iron",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "normal": true,
+      "metallicRoughness": true
+    },
+    {
+      "name": "GatePaint",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "normal": true,
+      "metallicRoughness": true
+    },
+    {
+      "name": "Brick",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "normal": true,
+      "metallicRoughness": true
+    },
+    {
+      "name": "BrickWeathered",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "normal": true,
+      "metallicRoughness": true
+    },
+    {
+      "name": "Concrete",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "normal": true,
+      "metallicRoughness": true
+    },
+    {
+      "name": "Mortar",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "normal": true,
+      "metallicRoughness": true
+    },
+    {
+      "name": "Whitewash",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "normal": true,
+      "metallicRoughness": true
+    }
+  ],
+  "glb_bytes": 82410632,
+  "all_gltf_primitives_have_tangents": true,
+  "weathered_brick_texture_is_distinct": true,
+  "glb": {
+    "size_xyz_blender": [
+      8.516261100769043,
+      1.0063493847846985,
+      4.39099351502955
+    ],
+    "triangles": 72331,
+    "mesh_objects": 28,
+    "missing_uv": [],
+    "bad_vertex_normals": [],
+    "missing_image_files": [],
+    "corrosion_geometry": {
+      "tested_hole_centers": 16,
+      "clear_through_hole_centers": 16,
+      "solid_sheet_control_rays_hit": true,
+      "raised_paint_vertices": 13039
+    },
+    "dimensions_match": true,
+    "triangle_count_matches": true
+  },
+  "fbx": {
+    "size_xyz_blender": [
+      8.516261100769043,
+      1.0063501000404358,
+      4.390993596054614
+    ],
+    "triangles": 72331,
+    "mesh_objects": 28,
+    "missing_uv": [],
+    "bad_vertex_normals": [],
+    "missing_image_files": [],
+    "corrosion_geometry": {
+      "tested_hole_centers": 16,
+      "clear_through_hole_centers": 16,
+      "solid_sheet_control_rays_hit": true,
+      "raised_paint_vertices": 2716
+    },
+    "dimensions_match": true,
+    "triangle_count_matches": true
+  },
+  "source_vs_glb_render_mean_absolute_difference": 0.0002309755509486422,
+  "glb_roundtrip_render": "Previews/Gate_GLB_Roundtrip.png",
+  "unity_editor_verified": false
+}

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Rendering;
-using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering.HighDefinition;
 
 public class CameraTweakUIManager : MonoBehaviour
 {
@@ -36,6 +36,12 @@ public class CameraTweakUIManager : MonoBehaviour
     [SerializeField] private float minAperture = 1.4f;
     [SerializeField] private float maxAperture = 16f;
 
+    [Header("Focus Distance")]
+    [SerializeField] private Slider focusDistanceSlider;
+    [SerializeField] private TMP_Text focusDistanceText;
+    [SerializeField] private float minFocusDistance = 0.1f;
+    [SerializeField] private float maxFocusDistance = 1000f;
+
     [Header("Vignette")]
     [SerializeField] private Slider vignetteSlider;
     [SerializeField] private TMP_Text vignetteText;
@@ -60,8 +66,10 @@ public class CameraTweakUIManager : MonoBehaviour
     [SerializeField] private float minSaturation = -100f;
     [SerializeField] private float maxSaturation = 100f;
 
-    private DepthOfField previewDof;
-    private DepthOfField fullscreenDof;
+    private DepthOfField previewDepthOfField;
+    private DepthOfField fullscreenDepthOfField;
+    private float defaultFocusDistance;
+
     private Vignette previewVignette;
     private Vignette fullscreenVignette;
     private ColorAdjustments previewColorAdjustments;
@@ -96,17 +104,23 @@ public class CameraTweakUIManager : MonoBehaviour
 
         if (previewVolume != null)
         {
-            previewVolume.profile.TryGet(out previewDof);
+            previewVolume.profile.TryGet(out previewDepthOfField);
             previewVolume.profile.TryGet(out previewVignette);
             previewVolume.profile.TryGet(out previewColorAdjustments);
             previewVolume.profile.TryGet(out previewBloom);
         }
         if (fullscreenVolume != null)
         {
-            fullscreenVolume.profile.TryGet(out fullscreenDof);
+            fullscreenVolume.profile.TryGet(out fullscreenDepthOfField);
             fullscreenVolume.profile.TryGet(out fullscreenVignette);
             fullscreenVolume.profile.TryGet(out fullscreenColorAdjustments);
             fullscreenVolume.profile.TryGet(out fullscreenBloom);
+        }
+        if (photoCamera != null)
+        {
+            float fieldOfView = photoCamera.fieldOfView;
+            photoCamera.focalLength = FocalLengthFromFov(fieldOfView);
+            photoCamera.fieldOfView = fieldOfView;
         }
         SaveDefaults();
     }
@@ -115,18 +129,29 @@ public class CameraTweakUIManager : MonoBehaviour
     {
         if (focalLengthSlider != null)
         {
-            focalLengthSlider.minValue = minFocalLength;
-            focalLengthSlider.maxValue = maxFocalLength;
+            focalLengthSlider.minValue = 0f;
+            focalLengthSlider.maxValue = 1f;
+            focalLengthSlider.wholeNumbers = false;
             focalLengthSlider.onValueChanged.AddListener(OnFocalLengthChanged);
             SyncFocalLengthSlider();
         }
 
         if (apertureSlider != null)
         {
-            apertureSlider.minValue = minAperture;
-            apertureSlider.maxValue = maxAperture;
+            apertureSlider.minValue = 0f;
+            apertureSlider.maxValue = 1f;
+            apertureSlider.wholeNumbers = false;
             apertureSlider.onValueChanged.AddListener(OnApertureChanged);
             SyncApertureSlider();
+        }
+
+        if (focusDistanceSlider != null)
+        {
+            focusDistanceSlider.minValue = 0f;
+            focusDistanceSlider.maxValue = 1f;
+            focusDistanceSlider.wholeNumbers = false;
+            focusDistanceSlider.onValueChanged.AddListener(OnFocusDistanceChanged);
+            SyncFocusDistanceSlider();
         }
 
         if (vignetteSlider != null)
@@ -176,6 +201,7 @@ public class CameraTweakUIManager : MonoBehaviour
 
         if (focalLengthSlider != null) focalLengthSlider.onValueChanged.RemoveListener(OnFocalLengthChanged);
         if (apertureSlider != null)    apertureSlider.onValueChanged.RemoveListener(OnApertureChanged);
+        if (focusDistanceSlider != null) focusDistanceSlider.onValueChanged.RemoveListener(OnFocusDistanceChanged);
         if (vignetteSlider != null)    vignetteSlider.onValueChanged.RemoveListener(OnVignetteChanged);
         if (exposureSlider != null)    exposureSlider.onValueChanged.RemoveListener(OnExposureChanged);
         if (bloomSlider != null)       bloomSlider.onValueChanged.RemoveListener(OnBloomChanged);
@@ -194,9 +220,11 @@ public class CameraTweakUIManager : MonoBehaviour
     private float FocalLengthFromFov(float fov) =>
         SensorHalfHeight / Mathf.Tan(fov * 0.5f * Mathf.Deg2Rad);
 
-    private void OnFocalLengthChanged(float mm)
+    private void OnFocalLengthChanged(float value)
     {
         if (photoCamera == null) return;
+        float mm = minFocalLength * Mathf.Pow(maxFocalLength / minFocalLength, value);
+        photoCamera.focalLength = mm;
         photoCamera.fieldOfView = FovFromFocalLength(mm);
         if (focalLengthText != null) focalLengthText.text = $"{mm:F0}mm";
     }
@@ -205,7 +233,8 @@ public class CameraTweakUIManager : MonoBehaviour
     {
         if (photoCamera == null || focalLengthSlider == null) return;
         float mm = Mathf.Clamp(FocalLengthFromFov(photoCamera.fieldOfView), minFocalLength, maxFocalLength);
-        focalLengthSlider.SetValueWithoutNotify(mm);
+        float value = Mathf.Log(mm / minFocalLength) / Mathf.Log(maxFocalLength / minFocalLength);
+        focalLengthSlider.SetValueWithoutNotify(value);
         if (focalLengthText != null) focalLengthText.text = $"{mm:F0}mm";
     }
 
@@ -213,26 +242,50 @@ public class CameraTweakUIManager : MonoBehaviour
 
     private void OnApertureChanged(float value)
     {
-        if (previewDof != null) previewDof.aperture.Override(value);
-        if (fullscreenDof != null) fullscreenDof.aperture.Override(value);
-        if (apertureText != null) apertureText.text = $"{value:F1}";
+        float aperture = minAperture * Mathf.Pow(maxAperture / minAperture, value);
+        if (photoCamera != null) photoCamera.aperture = aperture;
+        if (apertureText != null) apertureText.text = $"{aperture:F1}";
     }
 
     private void SyncApertureSlider()
     {
-        DepthOfField dof = previewDof != null ? previewDof : fullscreenDof;
-        if (dof == null || apertureSlider == null) return;
-        apertureSlider.SetValueWithoutNotify(dof.aperture.value);
-        if (apertureText != null) apertureText.text = $"{dof.aperture.value:F1}";
+        if (photoCamera == null || apertureSlider == null) return;
+        float aperture = Mathf.Clamp(photoCamera.aperture, minAperture, maxAperture);
+        float value = Mathf.Log(aperture / minAperture) / Mathf.Log(maxAperture / minAperture);
+        apertureSlider.SetValueWithoutNotify(value);
+        if (apertureText != null) apertureText.text = $"{photoCamera.aperture:F1}";
     }
 
     // ── Vignette ──────────────────────────────────────────────────
+
+    private void OnFocusDistanceChanged(float value)
+    {
+        float distance = minFocusDistance * Mathf.Pow(maxFocusDistance / minFocusDistance, value);
+        SetFocusDistance(distance);
+        if (focusDistanceText != null) focusDistanceText.text = distance >= 100f ? $"{distance:F0} m" : $"{distance:F1} m";
+    }
+
+    private void SetFocusDistance(float distance)
+    {
+        if (previewDepthOfField != null) previewDepthOfField.focusDistance.Override(distance);
+        if (fullscreenDepthOfField != null) fullscreenDepthOfField.focusDistance.Override(distance);
+    }
+
+    private void SyncFocusDistanceSlider()
+    {
+        DepthOfField dof = previewDepthOfField != null ? previewDepthOfField : fullscreenDepthOfField;
+        if (dof == null || focusDistanceSlider == null) return;
+        float distance = Mathf.Clamp(dof.focusDistance.value, minFocusDistance, maxFocusDistance);
+        float value = Mathf.Log(distance / minFocusDistance) / Mathf.Log(maxFocusDistance / minFocusDistance);
+        focusDistanceSlider.SetValueWithoutNotify(value);
+        if (focusDistanceText != null) focusDistanceText.text = distance >= 100f ? $"{distance:F0} m" : $"{distance:F1} m";
+    }
 
     private void OnVignetteChanged(float value)
     {
         if (previewVignette != null) previewVignette.intensity.Override(value);
         if (fullscreenVignette != null) fullscreenVignette.intensity.Override(value);
-        if (vignetteText != null) vignetteText.text = $"{value * 100f:F0}%";
+        if (vignetteText != null) vignetteText.text = value <= 0f ? "Off" : $"{value * 100f:F0}%";
     }
 
     private void SyncVignetteSlider()
@@ -240,7 +293,7 @@ public class CameraTweakUIManager : MonoBehaviour
         Vignette vignette = previewVignette != null ? previewVignette : fullscreenVignette;
         if (vignette == null || vignetteSlider == null) return;
         vignetteSlider.SetValueWithoutNotify(vignette.intensity.value);
-        if (vignetteText != null) vignetteText.text = $"{vignette.intensity.value * 100f:F0}%";
+        if (vignetteText != null) vignetteText.text = vignette.intensity.value <= 0f ? "Off" : $"{vignette.intensity.value * 100f:F0}%";
     }
 
     // ── Exposure ──────────────────────────────────────────────────
@@ -249,7 +302,7 @@ public class CameraTweakUIManager : MonoBehaviour
     {
         if (previewColorAdjustments != null) previewColorAdjustments.postExposure.Override(value);
         if (fullscreenColorAdjustments != null) fullscreenColorAdjustments.postExposure.Override(value);
-        if (exposureText != null) exposureText.text = $"{value:F1}";
+        if (exposureText != null) exposureText.text = $"{value:+0.0;−0.0;0.0} EV";
     }
 
     private void SyncExposureSlider()
@@ -259,24 +312,25 @@ public class CameraTweakUIManager : MonoBehaviour
             : fullscreenColorAdjustments;
         if (colorAdjustments == null || exposureSlider == null) return;
         exposureSlider.SetValueWithoutNotify(colorAdjustments.postExposure.value);
-        if (exposureText != null) exposureText.text = $"{colorAdjustments.postExposure.value:F1}";
+        if (exposureText != null) exposureText.text = $"{colorAdjustments.postExposure.value:+0.0;−0.0;0.0} EV";
     }
 
     // ── Bloom ─────────────────────────────────────────────────────
 
     private void OnBloomChanged(float value)
     {
-        if (previewBloom != null) previewBloom.intensity.Override(value);
-        if (fullscreenBloom != null) fullscreenBloom.intensity.Override(value);
-        if (bloomText != null) bloomText.text = $"{value:F1}";
+        if (previewBloom != null) previewBloom.intensity.Override(Mathf.InverseLerp(minBloom, maxBloom, value));
+        if (fullscreenBloom != null) fullscreenBloom.intensity.Override(Mathf.InverseLerp(minBloom, maxBloom, value));
+        if (bloomText != null) bloomText.text = value <= minBloom ? "Off" : $"{Mathf.InverseLerp(minBloom, maxBloom, value) * 100f:F0}%";
     }
 
     private void SyncBloomSlider()
     {
         Bloom bloom = previewBloom != null ? previewBloom : fullscreenBloom;
         if (bloom == null || bloomSlider == null) return;
-        bloomSlider.SetValueWithoutNotify(bloom.intensity.value);
-        if (bloomText != null) bloomText.text = $"{bloom.intensity.value:F1}";
+        float value = Mathf.Lerp(minBloom, maxBloom, bloom.intensity.value);
+        bloomSlider.SetValueWithoutNotify(value);
+        if (bloomText != null) bloomText.text = value <= minBloom ? "Off" : $"{Mathf.InverseLerp(minBloom, maxBloom, value) * 100f:F0}%";
     }
 
     // ── Saturation ────────────────────────────────────────────────
@@ -285,7 +339,7 @@ public class CameraTweakUIManager : MonoBehaviour
     {
         if (previewColorAdjustments != null) previewColorAdjustments.saturation.Override(value);
         if (fullscreenColorAdjustments != null) fullscreenColorAdjustments.saturation.Override(value);
-        if (saturationText != null) saturationText.text = $"{value:F0}%";
+        if (saturationText != null) saturationText.text = Mathf.RoundToInt(value) == 0 ? "Normal" : $"{value:+0;−0;0}";
     }
 
     private void SyncSaturationSlider()
@@ -295,7 +349,7 @@ public class CameraTweakUIManager : MonoBehaviour
             : fullscreenColorAdjustments;
         if (colorAdjustments == null || saturationSlider == null) return;
         saturationSlider.SetValueWithoutNotify(colorAdjustments.saturation.value);
-        if (saturationText != null) saturationText.text = $"{colorAdjustments.saturation.value:F0}%";
+        if (saturationText != null) saturationText.text = Mathf.RoundToInt(colorAdjustments.saturation.value) == 0 ? "Normal" : $"{colorAdjustments.saturation.value:+0;−0;0}";
     }
 
     // ── Tabs & Grid ───────────────────────────────────────────────
@@ -347,16 +401,18 @@ public class CameraTweakUIManager : MonoBehaviour
         if (defaultsSaved) return;
         defaultsSaved = true;
 
+        DepthOfField dof = previewDepthOfField != null ? previewDepthOfField : fullscreenDepthOfField;
+        if (dof != null) defaultFocusDistance = dof.focusDistance.value;
+
         if (photoCamera != null)
             defaultFocalLength = FocalLengthFromFov(photoCamera.fieldOfView);
-        DepthOfField dof = previewDof != null ? previewDof : fullscreenDof;
         Vignette vignette = previewVignette != null ? previewVignette : fullscreenVignette;
         ColorAdjustments colorAdjustments = previewColorAdjustments != null
             ? previewColorAdjustments
             : fullscreenColorAdjustments;
         Bloom bloom = previewBloom != null ? previewBloom : fullscreenBloom;
-        if (dof != null)
-            defaultAperture = dof.aperture.value;
+        if (photoCamera != null)
+            defaultAperture = photoCamera.aperture;
         if (vignette != null)
             defaultVignetteIntensity = vignette.intensity.value;
         if (colorAdjustments != null)
@@ -373,9 +429,12 @@ public class CameraTweakUIManager : MonoBehaviour
         Initialize();
 
         if (photoCamera != null)
+        {
+            photoCamera.focalLength = defaultFocalLength;
             photoCamera.fieldOfView = FovFromFocalLength(defaultFocalLength);
-        if (previewDof != null) previewDof.aperture.Override(defaultAperture);
-        if (fullscreenDof != null) fullscreenDof.aperture.Override(defaultAperture);
+        }
+        if (photoCamera != null) photoCamera.aperture = defaultAperture;
+        SetFocusDistance(defaultFocusDistance);
         if (previewVignette != null) previewVignette.intensity.Override(defaultVignetteIntensity);
         if (fullscreenVignette != null) fullscreenVignette.intensity.Override(defaultVignetteIntensity);
         if (previewColorAdjustments != null)
@@ -393,6 +452,7 @@ public class CameraTweakUIManager : MonoBehaviour
 
         SyncFocalLengthSlider();
         SyncApertureSlider();
+        SyncFocusDistanceSlider();
         SyncVignetteSlider();
         SyncExposureSlider();
         SyncBloomSlider();
