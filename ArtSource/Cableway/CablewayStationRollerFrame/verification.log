@@ -1,0 +1,227 @@
+D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\CablewayStationRollerFrame\Scripts\verify_roller_frame.py:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  images={n.image for m in mats if m.use_nodes for n in m.node_tree.nodes if n.type=='TEX_IMAGE' and n.image}
+FBX version: 7400
+IMAGE_CHECK [('RollerFrame_Concrete_BaseColor.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_Concrete_BaseColor.png', True, [2048, 2048]), ('RollerFrame_Steel_BaseColor.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_Steel_BaseColor.png', True, [2048, 2048]), ('RollerFrame_Steel_Normal.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_Steel_Normal.png', True, [2048, 2048]), ('RollerFrame_Steel_Roughness.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_Steel_Roughness.png', True, [2048, 2048]), ('RollerFrame_Steel_Metallic.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_Steel_Metallic.png', True, [2048, 2048]), ('RollerFrame_DarkSteel_BaseColor.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_DarkSteel_BaseColor.png', True, [2048, 2048]), ('RollerFrame_DarkSteel_Metallic.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_DarkSteel_Metallic.png', True, [2048, 2048]), ('RollerFrame_DarkSteel_BaseColor.png.001', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_DarkSteel_BaseColor.png', True, [2048, 2048]), ('RollerFrame_DarkSteel_Roughness.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_DarkSteel_Roughness.png', True, [2048, 2048]), ('RollerFrame_DarkSteel_Normal.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_DarkSteel_Normal.png', True, [2048, 2048]), ('RollerFrame_Concrete_Normal.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_Concrete_Normal.png', True, [2048, 2048]), ('RollerFrame_Concrete_Roughness.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_Concrete_Roughness.png', True, [2048, 2048]), ('RollerFrame_Concrete_Metallic.png', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_Concrete_Metallic.png', True, [2048, 2048]), ('RollerFrame_Steel_BaseColor.png.001', 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbm\\RollerFrame_Steel_BaseColor.png', True, [2048, 2048])]
+00:01.281  blend            | Read blend: "D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\CablewayStationRollerFrame\Blender\CablewayStationRollerFrame.blend"
+20:39:03 | INFO: Data are loaded, start creating Blender stuff
+20:39:03 | INFO: Blender create Mesh node AxleHardware_Mesh
+20:39:03 | INFO: Blender create Mesh node BearingHousings_Mesh
+20:39:03 | INFO: Blender create Mesh node ConcreteFooting_Front_Mesh
+20:39:03 | INFO: Blender create Mesh node ConcreteFooting_Rear_Mesh
+20:39:03 | INFO: Blender create Mesh node ConnectionPlates_Mesh
+20:39:03 | INFO: Blender create Mesh node Fasteners_Mesh
+20:39:04 | INFO: Blender create Mesh node PortalSteelwork_Mesh
+20:39:04 | INFO: Blender create Mesh node RollerCradle_Mesh
+20:39:04 | INFO: Blender create Mesh node Sheave_01_Mesh
+20:39:04 | INFO: Blender create Mesh node Sheave_02_Mesh
+20:39:04 | INFO: Blender create Mesh node Sheave_03_Mesh
+20:39:04 | INFO: glTF import finished in 0.08s
+IMAGE_CHECK [('RollerFrame_DarkSteel_BaseColor', '', True, [2048, 2048]), ('RollerFrame_DarkSteel_Metallic-RollerFrame_DarkSteel_Roughness', '', True, [2048, 2048]), ('RollerFrame_Steel_Normal', '', True, [2048, 2048]), ('RollerFrame_DarkSteel_Normal', '', True, [2048, 2048]), ('RollerFrame_Concrete_Metallic-RollerFrame_Concrete_Roughness', '', True, [2048, 2048]), ('RollerFrame_Concrete_BaseColor', '', True, [2048, 2048]), ('RollerFrame_Concrete_Normal', '', True, [2048, 2048]), ('RollerFrame_Steel_BaseColor', '', True, [2048, 2048]), ('RollerFrame_Steel_Metallic-RollerFrame_Steel_Roughness', '', True, [2048, 2048])]
+00:31.219  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\CablewayStationRollerFrame\Previews\RollerFrame_GLB_Roundtrip.png'
+{
+  "asset": "CablewayStationRollerFrame",
+  "blender_version": "5.2.2 LTS",
+  "source": {
+    "mesh_count": 11,
+    "dimensions_xyz_m": [
+      0.8799999952316284,
+      3.619999885559082,
+      4.835000038146973
+    ],
+    "objects": [
+      {
+        "name": "Fasteners",
+        "triangles": 8680,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "PortalSteelwork",
+        "triangles": 1188,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "ConnectionPlates",
+        "triangles": 2376,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "RollerCradle",
+        "triangles": 1188,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "BearingHousings",
+        "triangles": 4224,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "AxleHardware",
+        "triangles": 1020,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "ConcreteFooting_Front",
+        "triangles": 108,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "ConcreteFooting_Rear",
+        "triangles": 108,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Sheave_01",
+        "triangles": 3712,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Sheave_02",
+        "triangles": 3712,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Sheave_03",
+        "triangles": 3712,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      }
+    ],
+    "triangles": 30028
+  },
+  "method": "Background Python, no MCP",
+  "unity_modified": false,
+  "clearance_verified": false,
+  "cable_geometry_included": false,
+  "notes": [
+    "User-corrected alignment: lower frame and wheel row both extend along Y.",
+    "Existing Unity bucket height in saved report is 12.3699512 m; assembly scale unresolved.",
+    "Three sheaves independently editable around local X. Rope will be configured separately."
+  ],
+  "fbx_reimport": {
+    "meshes": 11,
+    "triangles": 30028,
+    "dimensions_xyz_m": [
+      0.8799999952316284,
+      3.6200000047683716,
+      4.835000333033378
+    ],
+    "frame_wheel_parallel_cosine": 1.0,
+    "maximum_dimension_error_m": 2.948864050722477e-07,
+    "all_meshes_have_uv": true,
+    "materials": [
+      "RollerFrame_Concrete",
+      "RollerFrame_DarkSteel",
+      "RollerFrame_OxidizedEdges",
+      "RollerFrame_Steel"
+    ],
+    "images": 14,
+    "all_images_loaded": true,
+    "wheel_origins": {
+      "Sheave_01": [
+        0.0,
+        -0.8199999928474426,
+        4.449999809265137
+      ],
+      "Sheave_02": [
+        0.0,
+        0.0,
+        4.449999809265137
+      ],
+      "Sheave_03": [
+        0.0,
+        0.8199999928474426,
+        4.449999809265137
+      ]
+    }
+  },
+  "glb_reimport": {
+    "meshes": 11,
+    "triangles": 30028,
+    "dimensions_xyz_m": [
+      0.8799999952316284,
+      3.619999885559082,
+      4.835000038146973
+    ],
+    "frame_wheel_parallel_cosine": 1.0,
+    "maximum_dimension_error_m": 0.0,
+    "all_meshes_have_uv": true,
+    "materials": [
+      "RollerFrame_Concrete.001",
+      "RollerFrame_DarkSteel.001",
+      "RollerFrame_OxidizedEdges.001",
+      "RollerFrame_Steel.001"
+    ],
+    "images": 9,
+    "all_images_loaded": true,
+    "wheel_origins": {
+      "Sheave_01": [
+        0.0,
+        -0.8199999928474426,
+        4.449999809265137
+      ],
+      "Sheave_02": [
+        0.0,
+        0.0,
+        4.449999809265137
+      ],
+      "Sheave_03": [
+        0.0,
+        0.8199999928474426,
+        4.449999809265137
+      ]
+    }
+  },
+  "glb_render_mean_absolute_rgb_error": 0.00018130586249753833,
+  "file_sha256": {
+    "Blender/CablewayStationRollerFrame.blend": "bdab27e41a2c921d240f611c45f2bbc6e5e2a57849fa2358fd36309ab74e687c",
+    "Exports/CablewayStationRollerFrame.fbx": "4deb1e871be2281e12031daf2aad4a0908dac936417686ef8fb50d23c16b3c1e",
+    "Exports/CablewayStationRollerFrame.glb": "e1a2d981eb904709f0dd3308dfcd7a47e110cebf7e467851ae5cc866f5d24190",
+    "Textures/RollerFrame_Concrete_BaseColor.png": "fe3d75a31ae7d9b1d23b1ea4828e6e205a5dd398b48d4aaf36b3535c6f5db231",
+    "Textures/RollerFrame_Concrete_HDRP_Mask.png": "25efd821d0c9b2079fdb8b192fb2fa78e0fc159d1a8655db012d3522bb5595d5",
+    "Textures/RollerFrame_Concrete_Metallic.png": "5630edf42913f842e57308503a7e0977e721d09027a12c453b8878c22108cd37",
+    "Textures/RollerFrame_Concrete_Normal.png": "58a6d73f7418aae4bce34289b09e803edd534af14770987f9f6bea65565cbb6e",
+    "Textures/RollerFrame_Concrete_ORM.png": "e731e618e60971b5e75bfe3e8103b69c3efeac802e56f1d9d127b65787ba061b",
+    "Textures/RollerFrame_Concrete_Roughness.png": "b6ddc19ab5cce8609a798630c2d70db92adc35646c2672ba487411398ba688dc",
+    "Textures/RollerFrame_DarkSteel_BaseColor.png": "769d799c165b4d4460b966b30ed7adfefa36e141f8d61a24182c97d4dec50dd3",
+    "Textures/RollerFrame_DarkSteel_HDRP_Mask.png": "352e3ebba28c50b6d04edf07342f8098f303446e41ebfddaa0fe25b3a11887ff",
+    "Textures/RollerFrame_DarkSteel_Metallic.png": "30099dd5009be2b53af18861b721e4ea6a407e13400681bbe826b77ee7036c37",
+    "Textures/RollerFrame_DarkSteel_Normal.png": "14718e712a3fdfb4749ab51f488f2678afec0ec307e788a8663c6eb02248af6b",
+    "Textures/RollerFrame_DarkSteel_ORM.png": "cbf2ef609e700026e6f8c5be2d6da4634ac26e42ce283bc730b434c8e885dcc7",
+    "Textures/RollerFrame_DarkSteel_Roughness.png": "e5d67025a775c316812e5718126bc91af99d873ef10275465a9dcc5fcc6e3719",
+    "Textures/RollerFrame_Steel_BaseColor.png": "29d1f708f8af705e90fafa8ae7bf1f11df102ff8c89863523c291fe0eeaae7dd",
+    "Textures/RollerFrame_Steel_HDRP_Mask.png": "6e9d5e8f731a007ade274891fc10e5d0e4286f03d50700b10311d40b4e69c9b7",
+    "Textures/RollerFrame_Steel_Metallic.png": "b4efb9692db8c0f03e68013b3b1e9032352ba14233992ae1ffdcb2ab588345c4",
+    "Textures/RollerFrame_Steel_Normal.png": "02d7072da18cc9fdcf4abb674f624daf068c482f2032ee6e22f10759b0856f26",
+    "Textures/RollerFrame_Steel_ORM.png": "570206810bfe07ed01c5f6eed55cae4a4133fc25977c07fc3db2e2c9a5e9b796",
+    "Textures/RollerFrame_Steel_Roughness.png": "f0005e82bf4524c84ef86f252259434ef341c3a5a43c02d280c394ca96e4709d",
+    "Previews/RollerFrame_Front.png": "093c7d900d39f3734e2b70d81ff1ea0ffbd5d7c98ca99d2900b850a0331a73a4",
+    "Previews/RollerFrame_GLB_Roundtrip.png": "2fbe427885759c2211acf4d30da3737409085ce365397e0a6d260d81b3382326",
+    "Previews/RollerFrame_Overall.png": "1585776e34947c5df985a72ac63467e9f34a4e92b1e67d903efa58db30c4ef02",
+    "Previews/RollerFrame_WheelDetail.png": "9b64b3a755f4447e6b9c97f7422d3eae00583761256372059a367c9f0478fa8a"
+  },
+  "verification_passed": true
+}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

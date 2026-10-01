@@ -1,0 +1,7 @@
+{
+  "outside_pads_max_diff_m": 0.0152587890625,
+  "outside_pads_pixels_over_2cm": 0,
+  "inside_pads_max_diff_m": 18.4173583984375,
+  "inside_pads_mean_diff_m": 3.106677431934852,
+  "pads": 11
+}

@@ -45,3 +45,15 @@ sysinfo.txt
 # OS generated
 .DS_Store
 Thumbs.db
+
+# Local backups and intermediate data from art and terrain pipelines (kept on disk, not in Git)
+*.blend1
+ArtSource/**/Before/
+ArtSource/**/Previous/
+ArtSource/**/UnityIntegration/*.before*.unity
+ArtSource/**/UnityIntegration/*.before*.asset
+ArtSource/**/UnityIntegration/Main Game Scene.before.unity
+ArtSource/Cableway/FoothillStationPlacement/RestoredFactory_Height.raw
+TerrainReferences/**/RestoreTowerPads_Before/
+TerrainReferences/**/*.npy
+TerrainReferences/**/*.raw

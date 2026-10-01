@@ -1,0 +1,216 @@
+{
+  "saved": true,
+  "dirty": false,
+  "restoredDistances": 36,
+  "towers": [
+    {
+      "name": "CablewayTower_01",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.5655479
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.3699512
+        }
+      ],
+      "missingScripts": 0
+    },
+    {
+      "name": "CablewayTower_02",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.565546
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.36995
+        }
+      ],
+      "missingScripts": 0
+    },
+    {
+      "name": "CablewayTower_03",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.565546
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.36995
+        }
+      ],
+      "missingScripts": 0
+    },
+    {
+      "name": "CablewayTower_04",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.565546
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.36995
+        }
+      ],
+      "missingScripts": 0
+    },
+    {
+      "name": "CablewayTower_05",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.5655479
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.3699512
+        }
+      ],
+      "missingScripts": 0
+    },
+    {
+      "name": "CablewayTower_06",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.5655479
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.3699512
+        }
+      ],
+      "missingScripts": 0
+    },
+    {
+      "name": "CablewayTower_07",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.565546
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.36995
+        }
+      ],
+      "missingScripts": 0
+    },
+    {
+      "name": "CablewayTower_08",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.5655479
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.3699512
+        }
+      ],
+      "missingScripts": 0
+    },
+    {
+      "name": "CablewayTower_09",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.2893982
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.2617331
+        }
+      ],
+      "missingScripts": 0
+    },
+    {
+      "name": "CablewayTower_10",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.5655479
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.3699512
+        }
+      ],
+      "missingScripts": 0
+    },
+    {
+      "name": "CablewayTower_11",
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+      "renderers": [
+        {
+          "name": "CablewayTower",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CablewayTower.mat",
+          "height": 31.565546
+        },
+        {
+          "name": "CoalBucket",
+          "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CoalBucket_v01.fbx",
+          "material": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/Materials/CoalBucket.mat",
+          "height": 12.36995
+        }
+      ],
+      "missingScripts": 0
+    }
+  ]
+}

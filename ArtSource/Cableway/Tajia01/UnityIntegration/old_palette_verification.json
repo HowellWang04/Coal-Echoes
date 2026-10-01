@@ -1,0 +1,9 @@
+{
+  "sceneDirty": false,
+  "oldTowersRemaining": 10,
+  "shader": "HDRP/Lit",
+  "baseColorMap": "Assets/Art Resources/Environment/Cableway/Tajia01_Rebuilt/Textures/Tower_BaseColor.png",
+  "metallicRemapMax": 0.414,
+  "smoothnessRemapMax": 0.0,
+  "textureWidth": 4096
+}

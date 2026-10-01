@@ -1,0 +1,27 @@
+var scene=UnityEngine.SceneManagement.SceneManager.GetSceneByPath("Assets/Scenes/Main Game Scene.unity");
+var mm=UnityEngine.Object.FindObjectsByType<MapMagic.Core.MapMagicObject>(UnityEngine.FindObjectsInactive.Include).Single(x=>x.gameObject.scene==scene);
+if(mm.IsGenerating()||Den.Tools.Tasks.CoroutineManager.IsWorking)return new{waiting=true};
+var dir="TerrainReferences/SheepRange_USGS_1m/";
+var plan=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(dir+"ridge_revision.json"));
+var old=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(dir+"layout_config.json"));
+var before=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(dir+"ridge_revision_before.json"))["result"];
+var group=scene.GetRootGameObjects().Single(x=>x.name=="In-scene Objects").GetComponentsInChildren<UnityEngine.Transform>(true).Single(x=>x.name=="索道群");
+var tiles=mm.tiles.All().Where(t=>t.main?.terrain!=null&&t.main.applyReady).ToArray();
+float Ground(float x,float z){var t=tiles.Select(t=>t.main.terrain).First(t=>x>=t.transform.position.x&&x<=t.transform.position.x+t.terrainData.size.x&&z>=t.transform.position.z&&z<=t.transform.position.z+t.terrainData.size.z);return t.SampleHeight(new UnityEngine.Vector3(x,0,z))+t.transform.position.y;}
+int seams=0;float seamMax=0;
+foreach(var a in tiles)foreach(var b in tiles){bool east=b.coord.x==a.coord.x+1&&b.coord.z==a.coord.z;bool north=b.coord.z==a.coord.z+1&&b.coord.x==a.coord.x;if(!east&&!north)continue;
+    var ad=a.main.terrain.terrainData;var bd=b.main.terrain.terrainData;int r=ad.heightmapResolution;if(bd.heightmapResolution!=r)continue;
+    var aa=ad.GetHeights(east?r-1:0,north?r-1:0,east?1:r,north?1:r);var bb=bd.GetHeights(0,0,east?1:r,north?1:r);
+    for(int i=0;i<r;i++){float ah=(east?aa[i,0]:aa[0,i])*ad.size.y+a.main.terrain.transform.position.y;float bh=(east?bb[i,0]:bb[0,i])*bd.size.y+b.main.terrain.transform.position.y;seamMax=UnityEngine.Mathf.Max(seamMax,UnityEngine.Mathf.Abs(ah-bh));}seams++;
+}
+var towerChecks=plan["towers"].Select(p=>{var tr=group.Cast<UnityEngine.Transform>().Single(t=>t.name==(string)p["name"]);var original=before["towers"].Single(t=>(string)t["name"]==tr.name);float dx=tr.position.x-(float)original["pos"][0],dz=tr.position.z-(float)original["pos"][2];float ground=Ground(tr.position.x,tr.position.z);return new{name=tr.name,fixedXZ=(bool)p["fixed_xz"],horizontalChange=UnityEngine.Mathf.Sqrt(dx*dx+dz*dz),verticalChange=tr.position.y-(float)original["pos"][1],footError=tr.GetComponentsInChildren<UnityEngine.Renderer>().Min(r=>r.bounds.min.y)-ground};}).ToArray();
+var probes=new System.Collections.Generic.List<object>();
+var oldRect=old["factory_rect_local"];float ox=(float)old["core_world_origin_xz"][0],oz=(float)old["core_world_origin_xz"][1];
+for(int i=0;i<12;i++)for(int j=0;j<9;j++){float x=ox+UnityEngine.Mathf.Lerp((float)oldRect[0]+10,(float)oldRect[1]-10,i/11f),z=oz+UnityEngine.Mathf.Lerp((float)oldRect[2]+10,(float)oldRect[3]-10,j/8f);probes.Add(new{kind="old factory",x,z,y=Ground(x,z)});}
+foreach(var p in old["towers"]){float x=(float)p["world_xz"][0],z=(float)p["world_xz"][1];probes.Add(new{kind=(string)p["name"],x,z,y=Ground(x,z)});}
+float factoryMax=0;int factorySamples=0;var c=plan["factory"]["center"];float a60=60*UnityEngine.Mathf.Deg2Rad;
+for(int i=0;i<20;i++)for(int j=0;j<15;j++){float u=UnityEngine.Mathf.Lerp(-260,260,i/19f),v=UnityEngine.Mathf.Lerp(-178,178,j/14f);float x=(float)c[0]+u*UnityEngine.Mathf.Cos(a60)-v*UnityEngine.Mathf.Sin(a60),z=(float)c[1]+u*UnityEngine.Mathf.Sin(a60)+v*UnityEngine.Mathf.Cos(a60);factoryMax=UnityEngine.Mathf.Max(factoryMax,UnityEngine.Mathf.Abs(Ground(x,z)-(float)plan["factory"]["y"]));factorySamples++;}
+var result=new{waiting=false,mainTiles=tiles.Length,seams,seamMax,towerChecks,factorySamples,factoryMax,probes,enabledLocks=mm.locks.Count(l=>l.locked),disabledLocks=mm.locks.Count(l=>!l.locked)};
+System.IO.File.WriteAllText(dir+"ridge_verification.json",Newtonsoft.Json.JsonConvert.SerializeObject(result,Newtonsoft.Json.Formatting.Indented));
+var sv=UnityEditor.SceneView.lastActiveSceneView;sv.LookAt(new UnityEngine.Vector3(-2310,-375,-1670),UnityEngine.Quaternion.Euler(45,-15,0),560,false,true);UnityEditor.Selection.activeObject=null;sv.Repaint();
+return new{waiting=false,mainTiles=tiles.Length,seams,seamMax,towerChecks,factorySamples,factoryMax,enabledLocks=mm.locks.Count(l=>l.locked)};

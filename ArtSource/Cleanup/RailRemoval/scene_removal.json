@@ -1,0 +1,69 @@
+[
+  {
+    "path": "Assets/Scenes/Main Game Scene.unity",
+    "instancesRemoved": 78,
+    "matchingObjectsRemoved": 392,
+    "removedGroups": [
+      "In-scene Objects/工厂建筑群/SM_Rails",
+      "In-scene Objects/工厂建筑群/SM_Rails (1)"
+    ],
+    "remaining": 0,
+    "saved": true
+  },
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/Scene/URP_Overview.unity",
+    "instancesRemoved": 1,
+    "matchingObjectsRemoved": 5,
+    "removedGroups": [
+      "Meshes/SM_Rails40"
+    ],
+    "remaining": 0,
+    "saved": true
+  },
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Scene/HDRP_Overview.unity",
+    "instancesRemoved": 1,
+    "matchingObjectsRemoved": 5,
+    "removedGroups": [
+      "Meshes/SM_Rails40"
+    ],
+    "remaining": 0,
+    "saved": true
+  },
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/Scene/URP_Industrial_Harbour.unity",
+    "instancesRemoved": 39,
+    "matchingObjectsRemoved": 196,
+    "removedGroups": [
+      "Meshes/SM_Rails",
+      "Meshes/rails/SM_Rails34",
+      "Meshes/rails/SM_Rails33",
+      "Meshes/rails/SM_Rails32",
+      "Meshes/rails/SM_Rails31",
+      "Meshes/SM_Rails18",
+      "Meshes/SM_Rails30",
+      "Meshes/SM_Rails29",
+      "Meshes/SM_Rails28"
+    ],
+    "remaining": 0,
+    "saved": true
+  },
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Scene/HDRP_Industrial_Harbour.unity",
+    "instancesRemoved": 39,
+    "matchingObjectsRemoved": 196,
+    "removedGroups": [
+      "Meshes/SM_Rails",
+      "Meshes/rails/SM_Rails34",
+      "Meshes/rails/SM_Rails33",
+      "Meshes/rails/SM_Rails32",
+      "Meshes/rails/SM_Rails31",
+      "Meshes/SM_Rails18",
+      "Meshes/SM_Rails30",
+      "Meshes/SM_Rails29",
+      "Meshes/SM_Rails28"
+    ],
+    "remaining": 0,
+    "saved": true
+  }
+]

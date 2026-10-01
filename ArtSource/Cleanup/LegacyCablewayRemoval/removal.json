@@ -1,0 +1,61 @@
+{
+  "removedObjects": [
+    {
+      "name": "suodao-S",
+      "path": "In-scene Objects/索道群/suodao-S"
+    },
+    {
+      "name": "suodao-S (1)",
+      "path": "In-scene Objects/索道群/suodao-S (1)"
+    }
+  ],
+  "removedAssets": [
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/suodao-S.fbx",
+      "guid": "39edea40a0e8f6c4c89f52843ca8e2af"
+    },
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/house 1.fbx",
+      "guid": "8470a28a25f11a248898003b0841a648"
+    },
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/Material/Material.002.mat",
+      "guid": "13d8df88e91156b42afc5a3f02f1e024"
+    },
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/Material/Material.001.mat",
+      "guid": "27986cf626a2ba944804d1a496d0eb44"
+    },
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/Material/Material.009.mat",
+      "guid": "cae3bc2b83c01da4ba1829319bec1814"
+    },
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/texture/texture_pbr_20250901.004.png",
+      "guid": "e38ad6b7009023c4a84d0c4e601a16a6"
+    },
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/texture/texture_pbr_20250901_normal.004.png",
+      "guid": "4acde47855828534a99803c616df94c6"
+    },
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/texture/texture_pbr_20250901.png",
+      "guid": "1d20cd0f6cb10354890748b72a82833f"
+    },
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/texture/texture_pbr_20250901_normal.001.png",
+      "guid": "84a8fb4f25678894583d0b34c9aeb7dc"
+    },
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/texture/texture_pbr_20250901.001.png",
+      "guid": "8bf109b9e996ddf44aa7febf42deddcc"
+    },
+    {
+      "path": "Assets/Art Resources/Environment/Cableway/texture/texture_pbr_20250901_normal.png",
+      "guid": "0c3de5b75f39dd2488cd8de962f142fe"
+    }
+  ],
+  "scanned": 3525,
+  "sceneSaved": true,
+  "playModeTested": false
+}

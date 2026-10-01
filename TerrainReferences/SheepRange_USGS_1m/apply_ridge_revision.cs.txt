@@ -1,0 +1,49 @@
+var scene=UnityEngine.SceneManagement.SceneManager.GetSceneByPath("Assets/Scenes/Main Game Scene.unity");
+var mm=UnityEngine.Object.FindObjectsByType<MapMagic.Core.MapMagicObject>(UnityEngine.FindObjectsInactive.Include).Single(x=>x.gameObject.scene==scene);
+if(mm.IsGenerating() || Den.Tools.Tasks.CoroutineManager.IsWorking) throw new System.Exception("Wait for terrain generation");
+var dir="TerrainReferences/SheepRange_USGS_1m/";
+var plan=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(dir+"ridge_revision.json"));
+if((string)plan["status"]!="prepared") throw new System.Exception("Revision already started");
+var before=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(dir+"ridge_revision_before.json"))["result"];
+var roots=scene.GetRootGameObjects();
+var group=roots.Single(x=>x.name=="In-scene Objects").GetComponentsInChildren<UnityEngine.Transform>(true).Single(x=>x.name=="索道群");
+UnityEngine.Vector3 Vec(Newtonsoft.Json.Linq.JToken a)=>new UnityEngine.Vector3((float)a[0],(float)a[1],(float)a[2]);
+UnityEngine.Quaternion Rot(Newtonsoft.Json.Linq.JToken a)=>new UnityEngine.Quaternion((float)a[0],(float)a[1],(float)a[2],(float)a[3]);
+foreach(var name in new[]{"tajia03 (10)","tajia03 (7)","tajia03 (11)"}){
+    var saved=before["towers"].Single(t=>(string)t["name"]==name);var now=group.Cast<UnityEngine.Transform>().Single(t=>t.name==name);
+    if(UnityEngine.Vector3.Distance(now.position,Vec(saved["pos"]))>.01f) throw new System.Exception("Anchor changed since survey: "+name);
+}
+UnityEditor.Undo.RecordObject(mm,"Relocate factory and ridge terrain locks");
+foreach(var lk in mm.locks) lk.locked=false;
+var oldCenter=new UnityEngine.Vector3((float)plan["old_factory_center"][0],(float)plan["old_factory_y"],(float)plan["old_factory_center"][1]);
+var newCenter=new UnityEngine.Vector3((float)plan["factory"]["center"][0],(float)plan["factory"]["y"],(float)plan["factory"]["center"][1]);
+var rotation=UnityEngine.Quaternion.Euler(0,(float)plan["unity_yaw_delta"],0);
+foreach(var entry in before["roots"]){
+    var tr=roots.Single(x=>x.name==(string)entry["name"]).transform;
+    UnityEditor.Undo.RecordObject(tr,"Move factory group to ridge foot");
+    tr.position=newCenter+rotation*(Vec(entry["pos"])-oldCenter);tr.rotation=rotation*Rot(entry["rot"]);
+}
+var points=plan["towers"].ToArray();
+for(int i=0;i<points.Length;i++){
+    var p=points[i];var name=(string)p["name"];var tr=group.Cast<UnityEngine.Transform>().Single(t=>t.name==name);
+    var saved=before["towers"].Single(t=>(string)t["name"]==name);
+    var prev=points[System.Math.Max(0,i-1)]["xz"];var next=points[System.Math.Min(points.Length-1,i+1)]["xz"];
+    float heading=UnityEngine.Mathf.Atan2((float)next[0]-(float)prev[0],(float)next[1]-(float)prev[1])*UnityEngine.Mathf.Rad2Deg;
+    UnityEditor.Undo.RecordObject(tr,"Place cableway tower along marked ridge");
+    tr.rotation=UnityEngine.Quaternion.Euler(0,heading+75,0)*Rot(saved["rotation"]);
+    tr.position=new UnityEngine.Vector3((float)p["xz"][0],(float)p["ground_y"],(float)p["xz"][1]);
+    float bottom=tr.GetComponentsInChildren<UnityEngine.Renderer>().Min(r=>r.bounds.min.y);
+    tr.position+=UnityEngine.Vector3.up*((float)p["ground_y"]-bottom);
+}
+// Existing route meshes are temporarily hidden until their vertices are rebuilt.
+foreach(var t in group.Cast<UnityEngine.Transform>().Where(t=>t.name.StartsWith("Cable route"))) t.gameObject.SetActive(false);
+System.IO.File.Copy(dir+"ridge_height_staged.raw","Assets/TerrainData/SheepRangeDEM/SheepRange_Height.raw",true);
+var asset=UnityEditor.AssetDatabase.LoadAssetAtPath<Den.Tools.MatrixAsset>("Assets/TerrainData/SheepRangeDEM/SheepRange_Height.asset");
+Den.Tools.MatrixAsset.ImportRaw(ref asset.matrix,asset.rawPath);
+UnityEditor.EditorUtility.SetDirty(asset);
+foreach(var node in mm.graph.GeneratorsOfType<MapMagic.Nodes.MatrixGenerators.Import200>()) if(node.matrixAsset==asset) node.version++;
+UnityEditor.EditorUtility.SetDirty(mm.graph);UnityEditor.EditorUtility.SetDirty(mm);
+UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(scene);
+plan["status"]="objects moved and regeneration requested";System.IO.File.WriteAllText(dir+"ridge_revision.json",plan.ToString());
+mm.Refresh(true);
+return new { towers=points.Length,disabledLocks=mm.locks.Count(l=>!l.locked),fixedHorizontalPositions=3,generationRequested=true };

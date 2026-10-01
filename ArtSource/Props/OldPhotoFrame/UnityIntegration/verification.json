@@ -1,0 +1,41 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "saved": true,
+  "sceneDirty": false,
+  "objectPath": "In-scene Objects/Factory Entrance/OldPhotoFrame_StreetMarket",
+  "position": "(-1750.31500, -473.24390, -1534.98500)",
+  "rotation": "(270.00000, 210.89120, 0.00000)",
+  "scale": "(1.00000, 1.00000, 1.00000)",
+  "rendererCount": 17,
+  "enabledRenderers": 16,
+  "visibleTriangles": 2772,
+  "boundsSize": "(0.40356, 0.02795, 0.38037)",
+  "corners": [
+    {
+      "hit": true,
+      "tableHeight": -473.25882,
+      "lowestFrameGap": 0.00100708008
+    },
+    {
+      "hit": true,
+      "tableHeight": -473.25882,
+      "lowestFrameGap": 0.00100708008
+    },
+    {
+      "hit": true,
+      "tableHeight": -473.25882,
+      "lowestFrameGap": 0.00100708008
+    },
+    {
+      "hit": true,
+      "tableHeight": -473.25882,
+      "lowestFrameGap": 0.00100708008
+    }
+  ],
+  "glassMaterial": "Assets/Art Resources/Props/OldPhotoFrame/Materials/Glass_LocalCracks.mat",
+  "glassQueue": 3000,
+  "photoTexture": "Assets/Art Resources/Props/OldPhotoFrame/Textures/StreetMarket_Original.png",
+  "compileFailed": false,
+  "playModeTested": false,
+  "sceneLightingUsed": true
+}

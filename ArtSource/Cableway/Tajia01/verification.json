@@ -1,0 +1,60 @@
+{
+  "name": "Tajia01_Tower_Standalone.016",
+  "vertices": 26144,
+  "triangles": 48776,
+  "material_slots": 1,
+  "uv_layers": [
+    "TowerUV"
+  ],
+  "nonmanifold_edges": 0,
+  "zero_area_faces": 0,
+  "authoring_to_export_scale": 0.10034278072840624,
+  "original_fbx_height": 1.035035741108004,
+  "bucket_included": false,
+  "unity_inspector_verified": false,
+  "normal_strength": 0.44999998807907104,
+  "texture_resolution": 4096,
+  "export_dimensions_xyz": [
+    0.6381800770759583,
+    0.268647700548172,
+    1.0350357294082642
+  ],
+  "glb_scenes": 1,
+  "glb_meshes": 1,
+  "glb_materials": 1,
+  "glb_embedded_images": [
+    "Tower_Normal",
+    "Tower_OcclusionRoughnessMetallic",
+    "Tower_BaseColor"
+  ],
+  "fbx_roundtrip": {
+    "mesh_count": 1,
+    "triangles": 48776,
+    "material_slots": 1,
+    "dimensions_xyz": [
+      0.6381800770759583,
+      0.26864777505397797,
+      1.035035739207391
+    ],
+    "maximum_dimension_error": 7.450580596923828e-08,
+    "uv_present": true
+  },
+  "glb_roundtrip": {
+    "mesh_count": 1,
+    "triangles": 48776,
+    "material_slots": 1,
+    "dimensions_xyz": [
+      0.6381800770759583,
+      0.268647700548172,
+      1.0350357294082642
+    ],
+    "maximum_dimension_error": 0.0,
+    "uv_present": true
+  },
+  "render_roundtrip_mean_absolute_rgb_error": 2.944289008155465e-05,
+  "render_roundtrip_p99_rgb_error": 0.0,
+  "saved_blend_scenes": [
+    "Tajia01_Tower_Rebuilt"
+  ],
+  "saved_blend_objects": 884
+}

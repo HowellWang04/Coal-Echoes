@@ -1,0 +1,34 @@
+{
+  "source_sha256": "d175d3ee6852735455c0cb56e5c7baa5cf057298cd4333b4864aa12e2b2e9560",
+  "source_file": "C:\\Users\\Guanhao\\.codex\\visualizations\\2026\\09\\24\\01a0d175-ef82-7c92-9f0f-5700f0227578\\cop30\\output_hh.tif",
+  "crop_bounds_degrees_W_S_E_N": [
+    106.14537192375447,
+    39.16416667777777,
+    106.21482810191291,
+    39.21821136054122
+  ],
+  "nominal_dimensions_m": [
+    6000,
+    6000
+  ],
+  "source_offset_m_from_southwest": [
+    800.0,
+    0.0
+  ],
+  "distance_method": "WGS84 local meters per degree at source center latitude; approximate metric square, not a projected survey grid",
+  "elevation_min_m": 1535.3194580078125,
+  "elevation_max_m": 2254.36669921875,
+  "elevation_range_m": 719.0472412109375,
+  "raw_resolution": 3073,
+  "raw_format": "Unsigned 16 bit little endian, no header, row-major, north row first",
+  "raw_normalization": "(elevation - elevation_min_m) / elevation_range_m",
+  "raw_sha256": "2dbea7d349d6fbb59e21799d002bba2667c35f15d3bb1e7625c0c1e99bc218a1",
+  "raw_grid_spacing_m": 1.953125,
+  "geotiff_resolution": 251,
+  "resampling": "Bilinear, no new surveyed detail",
+  "source_sampling_m": [
+    23.995945513508516,
+    30.83867980059726
+  ],
+  "mapmagic_note": "MatrixAsset ImportRaw performs vertical flip internally. Import scale 6 corresponds to 6000m on a 1000m tile. Offset and world height mapping not assigned. This is prepared data only."
+}

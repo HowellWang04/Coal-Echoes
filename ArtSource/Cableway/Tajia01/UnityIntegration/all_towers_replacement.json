@@ -1,0 +1,107 @@
+{
+  "saved": false,
+  "prefab": "Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/CablewayTower_Rebuilt.prefab",
+  "backup": "C:\\Users\\Guanhao\\AppData\\Local\\Temp\\CoalTowerReplacement_20260927_052341.unity",
+  "replaced": [
+    {
+      "name": "CablewayTower_01",
+      "oldHeight": 31.5655479,
+      "newHeight": 31.5655479,
+      "baseError": 0.0,
+      "rootTransformPreserved": true,
+      "rootIdPreserved": false,
+      "towerLocalPosition": "(-0.000236045, -0.000002534, -0.000068222)",
+      "towerLocalScale": "(0.010159770, 0.010159770, 0.010159770)"
+    },
+    {
+      "name": "CablewayTower_02",
+      "oldHeight": 31.565546,
+      "newHeight": 31.565546,
+      "baseError": 0.0,
+      "rootTransformPreserved": true,
+      "rootIdPreserved": false,
+      "towerLocalPosition": "(-0.000236045, -0.000002534, -0.000068222)",
+      "towerLocalScale": "(0.010159770, 0.010159770, 0.010159770)"
+    },
+    {
+      "name": "CablewayTower_03",
+      "oldHeight": 31.565546,
+      "newHeight": 31.565546,
+      "baseError": 0.0,
+      "rootTransformPreserved": true,
+      "rootIdPreserved": false,
+      "towerLocalPosition": "(-0.000236045, -0.000002534, -0.000068222)",
+      "towerLocalScale": "(0.010159770, 0.010159770, 0.010159770)"
+    },
+    {
+      "name": "CablewayTower_04",
+      "oldHeight": 31.565546,
+      "newHeight": 31.565546,
+      "baseError": 0.0,
+      "rootTransformPreserved": true,
+      "rootIdPreserved": false,
+      "towerLocalPosition": "(-0.000236045, -0.000002534, -0.000068222)",
+      "towerLocalScale": "(0.010159770, 0.010159770, 0.010159770)"
+    },
+    {
+      "name": "CablewayTower_05",
+      "oldHeight": 31.5655479,
+      "newHeight": 31.5655479,
+      "baseError": 0.0,
+      "rootTransformPreserved": true,
+      "rootIdPreserved": false,
+      "towerLocalPosition": "(-0.000236045, -0.000002534, -0.000068222)",
+      "towerLocalScale": "(0.010159770, 0.010159770, 0.010159770)"
+    },
+    {
+      "name": "CablewayTower_06",
+      "oldHeight": 31.5655479,
+      "newHeight": 31.5655479,
+      "baseError": 0.0,
+      "rootTransformPreserved": true,
+      "rootIdPreserved": false,
+      "towerLocalPosition": "(-0.000236045, -0.000002534, -0.000068222)",
+      "towerLocalScale": "(0.010159770, 0.010159770, 0.010159770)"
+    },
+    {
+      "name": "CablewayTower_07",
+      "oldHeight": 31.565546,
+      "newHeight": 31.565546,
+      "baseError": 0.0,
+      "rootTransformPreserved": true,
+      "rootIdPreserved": false,
+      "towerLocalPosition": "(-0.000236045, -0.000002534, -0.000068222)",
+      "towerLocalScale": "(0.010159770, 0.010159770, 0.010159770)"
+    },
+    {
+      "name": "CablewayTower_08",
+      "oldHeight": 31.5655479,
+      "newHeight": 31.5655479,
+      "baseError": 0.0,
+      "rootTransformPreserved": true,
+      "rootIdPreserved": false,
+      "towerLocalPosition": "(-0.000236045, -0.000002534, -0.000068222)",
+      "towerLocalScale": "(0.010159770, 0.010159770, 0.010159770)"
+    },
+    {
+      "name": "CablewayTower_10",
+      "oldHeight": 31.5655479,
+      "newHeight": 31.5655479,
+      "baseError": 0.0,
+      "rootTransformPreserved": true,
+      "rootIdPreserved": false,
+      "towerLocalPosition": "(-0.000236045, -0.000002534, -0.000068222)",
+      "towerLocalScale": "(0.010159770, 0.010159770, 0.010159770)"
+    },
+    {
+      "name": "CablewayTower_11",
+      "oldHeight": 31.565546,
+      "newHeight": 31.565546,
+      "baseError": 0.0,
+      "rootTransformPreserved": true,
+      "rootIdPreserved": false,
+      "towerLocalPosition": "(-0.000236045, -0.000002534, -0.000068222)",
+      "towerLocalScale": "(0.010159770, 0.010159770, 0.010159770)"
+    }
+  ]
+}

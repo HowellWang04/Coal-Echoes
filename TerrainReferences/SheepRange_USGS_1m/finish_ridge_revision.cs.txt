@@ -1,0 +1,55 @@
+var scene=UnityEngine.SceneManagement.SceneManager.GetSceneByPath("Assets/Scenes/Main Game Scene.unity");
+var mm=UnityEngine.Object.FindObjectsByType<MapMagic.Core.MapMagicObject>(UnityEngine.FindObjectsInactive.Include).Single(x=>x.gameObject.scene==scene);
+if(mm.IsGenerating() || Den.Tools.Tasks.CoroutineManager.IsWorking) return new{waiting=true};
+var dir="TerrainReferences/SheepRange_USGS_1m/";
+var plan=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(dir+"ridge_revision.json"));
+if((string)plan["status"]!="objects moved and regeneration requested") throw new System.Exception("Unexpected revision stage");
+var before=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(dir+"ridge_revision_before.json"))["result"];
+var group=scene.GetRootGameObjects().Single(x=>x.name=="In-scene Objects").GetComponentsInChildren<UnityEngine.Transform>(true).Single(x=>x.name=="索道群");
+var terrains=mm.tiles.All().Where(t=>t.main?.terrain!=null && t.main.applyReady).Select(t=>t.main.terrain).ToArray();
+float Ground(UnityEngine.Vector3 p){var t=terrains.First(t=>p.x>=t.transform.position.x && p.x<=t.transform.position.x+t.terrainData.size.x && p.z>=t.transform.position.z && p.z<=t.transform.position.z+t.terrainData.size.z);return t.SampleHeight(p)+t.transform.position.y;}
+UnityEngine.Vector3 Vec(Newtonsoft.Json.Linq.JToken a)=>new UnityEngine.Vector3((float)a[0],(float)a[1],(float)a[2]);
+UnityEngine.Quaternion Rot(Newtonsoft.Json.Linq.JToken a)=>new UnityEngine.Quaternion((float)a[0],(float)a[1],(float)a[2],(float)a[3]);
+var towers=plan["towers"].Select(p=>group.Cast<UnityEngine.Transform>().Single(t=>t.name==(string)p["name"])).ToArray();
+foreach(var tr in towers){float y=Ground(tr.position);float bottom=tr.GetComponentsInChildren<UnityEngine.Renderer>().Min(r=>r.bounds.min.y);tr.position+=UnityEngine.Vector3.up*(y-bottom);}
+var oldFirst=before["towers"].Single(t=>(string)t["name"]=="tajia03");
+var oldRotation=Rot(oldFirst["rotation"]);var oldPos=Vec(oldFirst["pos"]);
+var allPoints=new System.Collections.Generic.List<UnityEngine.Vector3[]>();
+float minClearance=float.PositiveInfinity;int sampleCount=0;
+for(int wire=0;wire<2;wire++){
+    var cable=group.Cast<UnityEngine.Transform>().Single(t=>t.name=="Cable route "+(wire+1));
+    var mesh=UnityEditor.AssetDatabase.LoadAssetAtPath<UnityEngine.Mesh>("Assets/TerrainData/SheepRangeDEM/Cable_"+wire+".asset");
+    var oldHead=mesh.vertices.Take(6).Aggregate(UnityEngine.Vector3.zero,(sum,v)=>sum+v)/6;
+    var localOffset=UnityEngine.Quaternion.Inverse(oldRotation)*(oldHead-oldPos);localOffset.y=0;
+    var heads=towers.Select(t=>{var p=t.position+t.rotation*localOffset;p.y=t.GetComponentsInChildren<UnityEngine.Renderer>().Max(r=>r.bounds.max.y)-.7f;return p;}).ToArray();
+    var path=new System.Collections.Generic.List<UnityEngine.Vector3>();
+    for(int span=0;span<heads.Length-1;span++)for(int j=0;j<=(span==heads.Length-2?40:39);j++){
+        float t=j/40f;var p=UnityEngine.Vector3.Lerp(heads[span],heads[span+1],t);p.y-=3*4*t*(1-t);path.Add(p);
+    }
+    // Sample the same piecewise parabola more densely for terrain clearance.
+    for(int span=0;span<heads.Length-1;span++)for(int j=0;j<=240;j++){
+        float t=j/240f;var p=UnityEngine.Vector3.Lerp(heads[span],heads[span+1],t);p.y-=3*4*t*(1-t);
+        minClearance=UnityEngine.Mathf.Min(minClearance,p.y-Ground(p));sampleCount++;
+    }
+    var vertices=new UnityEngine.Vector3[path.Count*6];var triangles=new int[(path.Count-1)*6*6];
+    for(int i=0;i<path.Count;i++){
+        var forward=(path[System.Math.Min(i+1,path.Count-1)]-path[System.Math.Max(i-1,0)]).normalized;
+        var right=UnityEngine.Vector3.Cross(forward,UnityEngine.Vector3.up).normalized;var up=UnityEngine.Vector3.Cross(right,forward).normalized;
+        for(int j=0;j<6;j++){float angle=j*UnityEngine.Mathf.PI/3;vertices[i*6+j]=cable.InverseTransformPoint(path[i]+.10f*(right*UnityEngine.Mathf.Cos(angle)+up*UnityEngine.Mathf.Sin(angle)));}
+    }
+    int k=0;for(int i=0;i<path.Count-1;i++)for(int j=0;j<6;j++){int a=i*6+j,b=i*6+(j+1)%6,c=a+6,d=b+6;triangles[k++]=a;triangles[k++]=c;triangles[k++]=b;triangles[k++]=b;triangles[k++]=c;triangles[k++]=d;}
+    mesh.Clear();mesh.vertices=vertices;mesh.triangles=triangles;mesh.RecalculateNormals();mesh.RecalculateBounds();UnityEditor.EditorUtility.SetDirty(mesh);cable.gameObject.SetActive(true);allPoints.Add(path.ToArray());
+}
+if(minClearance<2) throw new System.Exception("Insufficient actual cable clearance: "+minClearance);
+for(int i=0;i<2;i++){
+    var bucket=group.Cast<UnityEngine.Transform>().Single(t=>t.name==(i==0?"suodao-S":"suodao-S (1)"));var path=allPoints[i];int index=i==0?125:245;var p=path[index];
+    var rs=bucket.GetComponentsInChildren<UnityEngine.Renderer>();var b=rs[0].bounds;foreach(var r in rs.Skip(1))b.Encapsulate(r.bounds);
+    bucket.position+=new UnityEngine.Vector3(p.x-b.center.x,p.y-.25f-b.max.y,p.z-b.center.z);
+}
+var locks=mm.locks.ToList();
+locks.Add(new MapMagic.Locks.Lock{guiName="Ridge factory",locked=true,worldPos=new UnityEngine.Vector3((float)plan["factory"]["center"][0],(float)plan["factory"]["y"],(float)plan["factory"]["center"][1]),worldRadius=335,worldTransition=40,rescaleDraft=true});
+foreach(var tr in towers)locks.Add(new MapMagic.Locks.Lock{guiName="Ridge footing "+tr.name,locked=true,worldPos=new UnityEngine.Vector3(tr.position.x,Ground(tr.position),tr.position.z),worldRadius=14,worldTransition=22,rescaleDraft=true});
+mm.locks=locks.ToArray();UnityEditor.EditorUtility.SetDirty(mm);UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(scene);
+plan["status"]="placed and locked, verification pending";plan["actual_cable_min_clearance_m"]=minClearance;plan["cable_samples"]=sampleCount;
+System.IO.File.WriteAllText(dir+"ridge_revision.json",plan.ToString());
+return new{waiting=false,minimumCableClearance=minClearance,samples=sampleCount,enabledLocks=mm.locks.Count(l=>l.locked)};

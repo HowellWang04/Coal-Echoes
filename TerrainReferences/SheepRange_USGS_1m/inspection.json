@@ -1,0 +1,49 @@
+{
+  "tiles": [
+    {
+      "file": "C:\\Users\\Guanhao\\Downloads\\USGS_1M_11_x65y408_NV_Southern_D23.tif",
+      "shape": [
+        10012,
+        10012
+      ],
+      "pixel_size_m": [
+        1.0,
+        1.0
+      ],
+      "top_left_utm": [
+        649993.9997049042,
+        4080006.0000301567
+      ],
+      "crs": "EPSG:26911",
+      "valid_percent": 54.59384316127878,
+      "min_m": 1245.7564697265625,
+      "max_m": 2156.619873046875
+    },
+    {
+      "file": "C:\\Users\\Guanhao\\Downloads\\USGS_1M_11_x65y407_NV_Southern_D23.tif",
+      "shape": [
+        10012,
+        10012
+      ],
+      "pixel_size_m": [
+        1.0,
+        1.0
+      ],
+      "top_left_utm": [
+        649993.9997049042,
+        4070006.0000387193
+      ],
+      "crs": "EPSG:26911",
+      "valid_percent": 52.78169692174425,
+      "min_m": 1485.15185546875,
+      "max_m": 2821.245361328125
+    }
+  ],
+  "overview_bounds_utm": [
+    650000,
+    4060000,
+    660000,
+    4080000
+  ],
+  "preview_sample_spacing_m": 10
+}

@@ -1,0 +1,35 @@
+{
+  "name": "CablewayTower_Metric15",
+  "vertices": 21276,
+  "triangles": 37528,
+  "material_slots": 1,
+  "uv_layers": [
+    "TowerUV"
+  ],
+  "zero_area_faces": 152,
+  "bounds_min": [
+    -2.8315000534057617,
+    -2.1846923828125,
+    -0.125
+  ],
+  "bounds_max": [
+    2.8315000534057617,
+    1.3600000143051147,
+    15.0
+  ],
+  "units": "metres, export scale 1",
+  "total_height_m": 15.0,
+  "rope_head_points_blender": [
+    [
+      -2.0,
+      0.0,
+      15.0
+    ],
+    [
+      2.0,
+      0.0,
+      15.0
+    ]
+  ],
+  "ladder": "rung pitch 0.297 m, 450 mm clear width, 22 mm rungs, cage from 2.4 m"
+}

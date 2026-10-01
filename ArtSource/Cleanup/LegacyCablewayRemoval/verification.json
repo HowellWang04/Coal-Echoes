@@ -1,0 +1,41 @@
+{
+  "RemovedInstances": 2,
+  "DeletedAssets": 11,
+  "RemainingFiles": 0,
+  "RemainingGuidReferences": [],
+  "RemainingNamedFiles": [],
+  "RemovedSceneBlocks": 4,
+  "AddedSceneBlocks": 0,
+  "ChangedSceneBlocks": [
+    {
+      "Id": "1035760305",
+      "Changes": [
+        {
+          "InputObject": "  - {fileID: 1492776922}",
+          "SideIndicator": "<="
+        },
+        {
+          "InputObject": "  - {fileID: 786271975}",
+          "SideIndicator": "<="
+        }
+      ]
+    }
+  ],
+  "NewStationFiles": [
+    {
+      "Path": "Exports\\CablewayStationShell.glb",
+      "Unchanged": true
+    },
+    {
+      "Path": "Exports\\CablewayStationShell.fbx",
+      "Unchanged": true
+    },
+    {
+      "Path": "Blender/CablewayStationShell.blend",
+      "Unchanged": true
+    }
+  ],
+  "PlayModeTested": false,
+  "StationHashNote": "Compared against the latest session save hash. Normalized slash variants of duplicate source paths.",
+  "NewConsoleErrors": 0
+}

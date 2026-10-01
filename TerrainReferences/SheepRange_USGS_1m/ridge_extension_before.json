@@ -1,0 +1,311 @@
+{
+  "generating": false,
+  "towers": [
+    {
+      "name": "tajia03",
+      "pos": [
+        -2426.041,
+        -427.32135,
+        -1941.993
+      ],
+      "rotation": [
+        0.0,
+        0.9863703,
+        0.0,
+        0.16454114
+      ],
+      "active": true,
+      "bottom": -427.328949
+    },
+    {
+      "name": "tajia03 (1)",
+      "pos": [
+        -2439.0,
+        -427.931732,
+        -1899.0
+      ],
+      "rotation": [
+        0.0,
+        0.9856687,
+        0.0,
+        0.168693319
+      ],
+      "active": true,
+      "bottom": -427.939331
+    },
+    {
+      "name": "tajia03 (3)",
+      "pos": [
+        -2509.0,
+        -356.027924,
+        -1698.0
+      ],
+      "rotation": [
+        0.0,
+        0.996061444,
+        0.0,
+        0.08866608
+      ],
+      "active": true,
+      "bottom": -356.035522
+    },
+    {
+      "name": "tajia03 (4)",
+      "pos": [
+        -2510.0,
+        -338.113,
+        -1510.0
+      ],
+      "rotation": [
+        0.0,
+        0.992581,
+        0.0,
+        0.121585533
+      ],
+      "active": true,
+      "bottom": -338.1206
+    },
+    {
+      "name": "tajia03 (5)",
+      "pos": [
+        -2540.0,
+        -315.437073,
+        -1430.0
+      ],
+      "rotation": [
+        0.0,
+        0.951027155,
+        0.0,
+        0.309107423
+      ],
+      "active": true,
+      "bottom": -315.444672
+    },
+    {
+      "name": "tajia03 (6)",
+      "pos": [
+        -2603.586,
+        -296.240356,
+        -1370.433
+      ],
+      "rotation": [
+        0.0,
+        0.9098296,
+        0.0,
+        0.41498214
+      ],
+      "active": true,
+      "bottom": -296.247955
+    },
+    {
+      "name": "tajia03 (8)",
+      "pos": [
+        -2768.246,
+        -186.901733,
+        -815.963
+      ],
+      "rotation": [
+        0.0,
+        0.9098296,
+        0.0,
+        0.41498214
+      ],
+      "active": true,
+      "bottom": -186.909348
+    },
+    {
+      "name": "tajia03 (7)",
+      "pos": [
+        -2481.59814,
+        -368.266235,
+        -1763.14124
+      ],
+      "rotation": [
+        0.0,
+        0.995063245,
+        0.0,
+        0.0992433
+      ],
+      "active": true,
+      "bottom": -368.273834
+    },
+    {
+      "name": "tajia03 (10)",
+      "pos": [
+        -2452.7395,
+        -408.368774,
+        -1856.044
+      ],
+      "rotation": [
+        0.0,
+        0.9577448,
+        0.0,
+        0.28761965
+      ],
+      "active": true,
+      "bottom": -408.376373
+    },
+    {
+      "name": "tajia03 (11)",
+      "pos": [
+        -2504.668,
+        -327.644836,
+        -1599.12537
+      ],
+      "rotation": [
+        0.0,
+        0.999767363,
+        0.0,
+        0.0215708762
+      ],
+      "active": true,
+      "bottom": -327.652435
+    },
+    {
+      "name": "tajia01",
+      "pos": [
+        -2490.0,
+        -402.803345,
+        -1815.0
+      ],
+      "rotation": [
+        0.0,
+        0.9856685,
+        0.0,
+        0.16869396
+      ],
+      "active": true,
+      "bottom": -402.821838
+    }
+  ],
+  "locks": [
+    {
+      "name": "Factory transition",
+      "enabled": false
+    },
+    {
+      "name": "Cableway branch ridge",
+      "enabled": false
+    },
+    {
+      "name": "Cableway upper ridge",
+      "enabled": false
+    },
+    {
+      "name": "Cableway footing 02",
+      "enabled": false
+    },
+    {
+      "name": "Cableway footing 03",
+      "enabled": false
+    },
+    {
+      "name": "Cableway footing 04",
+      "enabled": false
+    },
+    {
+      "name": "Cableway footing 05",
+      "enabled": false
+    },
+    {
+      "name": "Cableway footing 06",
+      "enabled": false
+    },
+    {
+      "name": "Cableway footing 07",
+      "enabled": false
+    },
+    {
+      "name": "Cableway footing 08",
+      "enabled": false
+    },
+    {
+      "name": "Cableway footing 09",
+      "enabled": false
+    },
+    {
+      "name": "Cableway footing 10",
+      "enabled": false
+    },
+    {
+      "name": "Sheep Range factory",
+      "enabled": false
+    },
+    {
+      "name": "Sheep Range footing 03",
+      "enabled": false
+    },
+    {
+      "name": "Sheep Range footing 04",
+      "enabled": false
+    },
+    {
+      "name": "Sheep Range footing 05",
+      "enabled": false
+    },
+    {
+      "name": "Sheep Range footing 06",
+      "enabled": false
+    },
+    {
+      "name": "Sheep Range footing 07",
+      "enabled": false
+    },
+    {
+      "name": "Sheep Range footing 08",
+      "enabled": false
+    },
+    {
+      "name": "Sheep Range footing 09",
+      "enabled": false
+    },
+    {
+      "name": "Sheep Range footing 10",
+      "enabled": false
+    },
+    {
+      "name": "Ridge factory",
+      "enabled": true
+    },
+    {
+      "name": "Ridge footing tajia03",
+      "enabled": true
+    },
+    {
+      "name": "Ridge footing tajia03 (1)",
+      "enabled": true
+    },
+    {
+      "name": "Ridge footing tajia03 (10)",
+      "enabled": true
+    },
+    {
+      "name": "Ridge footing tajia01",
+      "enabled": true
+    },
+    {
+      "name": "Ridge footing tajia03 (7)",
+      "enabled": true
+    },
+    {
+      "name": "Ridge footing tajia03 (3)",
+      "enabled": true
+    },
+    {
+      "name": "Ridge footing tajia03 (11)",
+      "enabled": true
+    },
+    {
+      "name": "Ridge footing tajia03 (4)",
+      "enabled": true
+    },
+    {
+      "name": "Ridge footing tajia03 (5)",
+      "enabled": true
+    },
+    {
+      "name": "Ridge footing tajia03 (6)",
+      "enabled": true
+    }
+  ]
+}

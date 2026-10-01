@@ -1,0 +1,26 @@
+{
+  "sceneDirty": false,
+  "triangles": 48776,
+  "shader": "HDRP/Lit",
+  "normalStrength": 1.0,
+  "metallicMax": 0.414,
+  "smoothnessMax": 0.0,
+  "textures": [
+    {
+      "name": "_BaseColorMap",
+      "path": "Assets/Art Resources/Environment/Cableway/Tajia01_Rebuilt/Textures/Tower_BaseColor.png",
+      "width": 4096
+    },
+    {
+      "name": "_NormalMap",
+      "path": "Assets/Art Resources/Environment/Cableway/Tajia01_Rebuilt/Textures/Tower_Normal.png",
+      "width": 4096
+    },
+    {
+      "name": "_MaskMap",
+      "path": "Assets/Art Resources/Environment/Cableway/Tajia01_Rebuilt/Textures/Tower_HDRP_Mask.png",
+      "width": 4096
+    }
+  ],
+  "oldTowersRemaining": 10
+}

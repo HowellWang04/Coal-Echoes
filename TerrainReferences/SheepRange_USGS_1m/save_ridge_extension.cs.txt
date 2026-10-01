@@ -1,0 +1,25 @@
+var scene=UnityEngine.SceneManagement.SceneManager.GetSceneByPath("Assets/Scenes/Main Game Scene.unity");
+var mm=UnityEngine.Object.FindObjectsByType<MapMagic.Core.MapMagicObject>(UnityEngine.FindObjectsInactive.Include).Single(x=>x.gameObject.scene==scene);
+if(mm.IsGenerating()||Den.Tools.Tasks.CoroutineManager.IsWorking)return new{waiting=true};
+UnityEditor.EditorApplication.delayCall+=()=>{
+    try{
+        var weld=mm.GetComponent<MapMagicTerrainSeamWeld>();weld.WeldNow();
+        int saved=0;var folder="Assets/TerrainData/SheepRangeGenerated";
+        if(!UnityEditor.AssetDatabase.IsValidFolder(folder))UnityEditor.AssetDatabase.CreateFolder("Assets/TerrainData","SheepRangeGenerated");
+        foreach(var tile in mm.tiles.All())foreach(var item in new[]{(tile.main,"Main"),(tile.draft,"Draft")}){
+            if(item.Item1?.terrain==null)continue;var td=item.Item1.terrain.terrainData;
+            if(string.IsNullOrEmpty(UnityEditor.AssetDatabase.GetAssetPath(td))){
+                string path=UnityEditor.AssetDatabase.GenerateUniqueAssetPath(folder+"/Tile_"+tile.coord.x+"_"+tile.coord.z+"_"+item.Item2+".asset");
+                var splats=td.GetAlphamaps(0,0,td.alphamapWidth,td.alphamapHeight);UnityEditor.AssetDatabase.CreateAsset(td,path);td.SetAlphamaps(0,0,splats);
+            }
+            UnityEditor.EditorUtility.SetDirty(td);UnityEditor.AssetDatabase.SaveAssetIfDirty(td);saved++;
+        }
+        foreach(string path in new[]{"Assets/TerrainData/SheepRangeDEM/SheepRange_Height.asset","Assets/TerrainData/SheepRangeDEM/Cable_0.asset","Assets/TerrainData/SheepRangeDEM/Cable_1.asset"})UnityEditor.AssetDatabase.SaveAssetIfDirty(UnityEditor.AssetDatabase.LoadMainAssetAtPath(path));
+        UnityEditor.AssetDatabase.SaveAssetIfDirty(mm.graph);
+        UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(scene);
+        if(!UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene))throw new System.Exception("Scene save failed");
+        var file="TerrainReferences/SheepRange_USGS_1m/ridge_extension.json";var plan=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(file));plan["status"]="applied and saved";plan["terrain_assets_saved"]=saved;System.IO.File.WriteAllText(file,plan.ToString());
+        System.IO.File.WriteAllText("TerrainReferences/SheepRange_USGS_1m/ridge_extension_save_result.json",Newtonsoft.Json.JsonConvert.SerializeObject(new{success=true,terrains=saved,sceneDirty=scene.isDirty}));
+    }catch(System.Exception e){System.IO.File.WriteAllText("TerrainReferences/SheepRange_USGS_1m/ridge_extension_save_result.json",Newtonsoft.Json.JsonConvert.SerializeObject(new{success=false,error=e.ToString()}));}
+};
+return new{waiting=false,saveScheduled=true};

@@ -1,0 +1,347 @@
+{
+  "source": "Original USGS DEM using the same crop and elevation conversion as the saved layout",
+  "restored_region": "Only the recorded 545 by 380 metre factory grading and 90 metre transition",
+  "raw_changed_samples": 416060,
+  "raw_max_change_m": 34.8358154296875,
+  "raw_before_sha256": "26ac96f02879975260098b14602cc20e481007e0179514f43803366dcbb9a1d7",
+  "raw_after_sha256": "dd9a1a46607ea7b5fda907b52b05c4421ee45b793e0afba359c5e1b17adcdaaa",
+  "patches": [
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Main.asset",
+      "pos": [
+        -2924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "resolution": 1025,
+      "affected": true,
+      "sha256": "4DF5025DC28C3D2C70970AAEDB536BE7F1CF5648D227762D106E888C0C2A7CCD",
+      "file": "Tile_0_-2_Main",
+      "changed_samples": 33820,
+      "max_change_m": 30.84276580810547,
+      "tower_footing_changes": 0,
+      "patch": "Tile_0_-2_Main_restored.f32"
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Draft.asset",
+      "pos": [
+        -2924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "resolution": 129,
+      "affected": true,
+      "sha256": "C0989BBA4CAF7DD3059AF223A37D20A362D8CB98302BF68104CEC376DA20619C",
+      "file": "Tile_0_-2_Draft",
+      "changed_samples": 558,
+      "max_change_m": 30.84276580810547,
+      "tower_footing_changes": 0,
+      "patch": "Tile_0_-2_Draft_restored.f32"
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Main.asset",
+      "pos": [
+        -2924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "resolution": 1025,
+      "affected": true,
+      "sha256": "C2989CE3E2422FA632B83B26BF87F933D47524750818ED04D708010E887D0719",
+      "file": "Tile_0_-1_Main",
+      "changed_samples": 240356,
+      "max_change_m": 34.814476013183594,
+      "tower_footing_changes": 0,
+      "patch": "Tile_0_-1_Main_restored.f32"
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Draft.asset",
+      "pos": [
+        -2924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "resolution": 129,
+      "affected": true,
+      "sha256": "498C252BD6A847C362DDEE23A765EF0EE483825D33E6949D9EEF96C2B81DD780",
+      "file": "Tile_0_-1_Draft",
+      "changed_samples": 3811,
+      "max_change_m": 34.502403259277344,
+      "tower_footing_changes": 0,
+      "patch": "Tile_0_-1_Draft_restored.f32"
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Main.asset",
+      "pos": [
+        -1924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "resolution": 1025,
+      "affected": true,
+      "sha256": "A3CDCA31B2BB3C814E70FB5D4C659F6331ACE3A509E921D6408BCBFA65FD9436",
+      "file": "Tile_1_-2_Main",
+      "changed_samples": 8003,
+      "max_change_m": 10.24898910522461,
+      "tower_footing_changes": 0,
+      "patch": "Tile_1_-2_Main_restored.f32"
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Draft.asset",
+      "pos": [
+        -1924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "resolution": 129,
+      "affected": true,
+      "sha256": "CBC1E3CE433A487544F3B3A1D0ED258BA4899BE8EECC0CC0BC30AABBEE9DE52D",
+      "file": "Tile_1_-2_Draft",
+      "changed_samples": 139,
+      "max_change_m": 10.100841522216797,
+      "tower_footing_changes": 0,
+      "patch": "Tile_1_-2_Draft_restored.f32"
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Main.asset",
+      "pos": [
+        -1924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "resolution": 1025,
+      "affected": true,
+      "sha256": "EF778D643C43ECC0DD679460B5AC952AA1A5B2840BDF27306A2AE9693A766805",
+      "file": "Tile_1_-1_Main",
+      "changed_samples": 137032,
+      "max_change_m": 29.62130355834961,
+      "tower_footing_changes": 0,
+      "patch": "Tile_1_-1_Main_restored.f32"
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Draft.asset",
+      "pos": [
+        -1924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "resolution": 129,
+      "affected": true,
+      "sha256": "408FA8698D8FFC4A46E4CCF4D1E5D79DDC2AF73E38DE4D9BE9506234AAA08A5D",
+      "file": "Tile_1_-1_Draft",
+      "changed_samples": 2182,
+      "max_change_m": 29.361486434936523,
+      "tower_footing_changes": 0,
+      "patch": "Tile_1_-1_Draft_restored.f32"
+    }
+  ],
+  "station_candidates": [
+    {
+      "xz": [
+        -2415.658275958861,
+        -1975.4175275431912
+      ],
+      "distance_from_first_tower": 35.0,
+      "lateral_offset": 0,
+      "height_span": 2.2736307868688073,
+      "native_ground": -424.26069051856416,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2412.691783375678,
+        -1984.9673925555314
+      ],
+      "distance_from_first_tower": 45.0,
+      "lateral_offset": 0,
+      "height_span": 2.507924271303409,
+      "native_ground": -422.1877822328536,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2419.4782219637973,
+        -1976.6041245764643
+      ],
+      "distance_from_first_tower": 35.0,
+      "lateral_offset": -4,
+      "height_span": 2.0088943935111274,
+      "native_ground": -424.2721680257987,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2417.994975672206,
+        -1981.3790570826343
+      ],
+      "distance_from_first_tower": 40.0,
+      "lateral_offset": -4,
+      "height_span": 2.239775206160857,
+      "native_ground": -423.33732108751224,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2414.1750296672694,
+        -1980.1924600493612
+      ],
+      "distance_from_first_tower": 40.0,
+      "lateral_offset": 0,
+      "height_span": 2.736437400167233,
+      "native_ground": -423.281752147456,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2411.8383299539246,
+        -1974.2309305099182
+      ],
+      "distance_from_first_tower": 35.0,
+      "lateral_offset": 4,
+      "height_span": 2.3985940323452724,
+      "native_ground": -424.36584250890064,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2423.298167968733,
+        -1977.7907216097374
+      ],
+      "distance_from_first_tower": 35.0,
+      "lateral_offset": -8,
+      "height_span": 1.956619969991607,
+      "native_ground": -424.0670924626834,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2416.5117293806143,
+        -1986.1539895888045
+      ],
+      "distance_from_first_tower": 45.0,
+      "lateral_offset": -4,
+      "height_span": 2.5309930881273885,
+      "native_ground": -422.4797186378828,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2411.208537084087,
+        -1989.7423250617016
+      ],
+      "distance_from_first_tower": 50.0,
+      "lateral_offset": 0,
+      "height_span": 3.1683654035050495,
+      "native_ground": -421.4708804551319,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2421.8149216771417,
+        -1982.5656541159074
+      ],
+      "distance_from_first_tower": 40.0,
+      "lateral_offset": -8,
+      "height_span": 2.435542766292201,
+      "native_ground": -423.3189188028641,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2410.355083662333,
+        -1979.0058630160881
+      ],
+      "distance_from_first_tower": 40.0,
+      "lateral_offset": 4,
+      "height_span": 3.009255946368512,
+      "native_ground": -423.1798351769503,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2408.0183839489887,
+        -1973.044333476645
+      ],
+      "distance_from_first_tower": 35.0,
+      "lateral_offset": 8,
+      "height_span": 2.6704601813353293,
+      "native_ground": -424.65574413049626,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2408.8718373707416,
+        -1983.7807955222584
+      ],
+      "distance_from_first_tower": 45.0,
+      "lateral_offset": 4,
+      "height_span": 3.4310012079643,
+      "native_ground": -421.71107128720837,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2407.3885910791505,
+        -1988.5557280284286
+      ],
+      "distance_from_first_tower": 50.0,
+      "lateral_offset": 4,
+      "height_span": 3.487502031842496,
+      "native_ground": -420.5052179126599,
+      "heading_degrees": -17.25646050286146
+    },
+    {
+      "xz": [
+        -2402.9388522043764,
+        -2002.880525546939
+      ],
+      "distance_from_first_tower": 65.0,
+      "lateral_offset": 4,
+      "height_span": 3.613326110810476,
+      "native_ground": -416.1633419758905,
+      "heading_degrees": -17.25646050286146
+    }
+  ],
+  "tower_footings_preserved": true,
+  "method": "Live terrain plus restored-minus-current input-map delta; no graph regeneration or new leveling"
+}

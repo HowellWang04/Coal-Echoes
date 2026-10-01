@@ -1,0 +1,43 @@
+{
+  "saved": true,
+  "path": "Assets/Scenes/Main Game Scene.unity",
+  "isDirty": false,
+  "prefab": "Assets/Art Resources/Environment/Cableway/Tajia01_Rebuilt/Tajia01_Rebuilt.prefab",
+  "name": "tajia01",
+  "parent": "索道群",
+  "localPosition": "(-1186.512000000, 230.371200000, 724.408600000)",
+  "localRotation": "(0.000000000, 0.919216500, 0.000000000, 0.393752600)",
+  "localScale": "(3023.026000000, 3023.027000000, 3023.027000000)",
+  "renderers": [
+    {
+      "name": "Tower",
+      "material": "Assets/Art Resources/Environment/Cableway/Tajia01_Rebuilt/Materials/Tajia01_Tower.mat",
+      "shader": "HDRP/Lit",
+      "keywords": [
+        "_DISABLE_SSR_TRANSPARENT",
+        "_MASKMAP",
+        "_NORMALMAP",
+        "_NORMALMAP_TANGENT_SPACE"
+      ],
+      "mesh": "Assets/Art Resources/Environment/Cableway/Tajia01_Rebuilt/Tajia01_Tower_v01.fbx",
+      "triangles": 48776,
+      "height": 31.2893982
+    },
+    {
+      "name": "CoalBucket",
+      "material": "Assets/Art Resources/Environment/Cableway/Tajia01_Rebuilt/Materials/Tajia01_CoalBucket.mat",
+      "shader": "HDRP/Lit",
+      "keywords": [
+        "_DISABLE_SSR_TRANSPARENT",
+        "_MASKMAP",
+        "_NORMALMAP",
+        "_NORMALMAP_TANGENT_SPACE"
+      ],
+      "mesh": "Assets/Art Resources/Environment/Cableway/Tajia01_Rebuilt/Tajia01_CoalBucket_v01.fbx",
+      "triangles": 27516,
+      "height": 12.2617331
+    }
+  ],
+  "missingScripts": 0,
+  "colliders": 0
+}

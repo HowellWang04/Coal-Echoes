@@ -1,0 +1,167 @@
+{
+  "status": "alignment proposal only; no terrain modified",
+  "anchor_world_xz": [
+    -1342.0,
+    -1104.0
+  ],
+  "anchor_source_east_north_m": [
+    2464.9351585422914,
+    1777.771945620486
+  ],
+  "world_to_source_rotation_deg": 9.934207401336906,
+  "assumed_global_height_m": 250,
+  "tower_height_rms_error_m": 26.72979089366394,
+  "factory_unadjusted_height_above_base_m": 57.9668003297477,
+  "towers": [
+    {
+      "name": "tajia03",
+      "world_position": [
+        -1483.90564,
+        -709.9924,
+        -1105.05933
+      ],
+      "source_east_north_m": [
+        2325.339932922783,
+        1752.2473334178092
+      ],
+      "target_ground_y": -710.0,
+      "unadjusted_dem_y": -647.1709808062174,
+      "height_difference_m": 62.82141919378267
+    },
+    {
+      "name": "tajia03 (1)",
+      "world_position": [
+        -1567.15491,
+        -677.9,
+        -1112.25708
+      ],
+      "source_east_north_m": [
+        2244.5805963217344,
+        1730.7955709644834
+      ],
+      "target_ground_y": -677.907654,
+      "unadjusted_dem_y": -644.2952822644229,
+      "height_difference_m": 33.60471773557711
+    },
+    {
+      "name": "tajia01",
+      "world_position": [
+        -1647.58459,
+        -659.93,
+        -1127.75964
+      ],
+      "source_east_north_m": [
+        2168.0312968683315,
+        1701.6499444546748
+      ],
+      "target_ground_y": -659.9485,
+      "unadjusted_dem_y": -640.2008531289883,
+      "height_difference_m": 19.729146871011594
+    },
+    {
+      "name": "tajia03 (3)",
+      "world_position": [
+        -1768.58569,
+        -624.49,
+        -1150.37793
+      ],
+      "source_east_north_m": [
+        2052.7464707556605,
+        1658.4960093860698
+      ],
+      "target_ground_y": -624.4976,
+      "unadjusted_dem_y": -629.3939975053801,
+      "height_difference_m": -4.903997505380062
+    },
+    {
+      "name": "tajia03 (4)",
+      "world_position": [
+        -1851.5271,
+        -580.67,
+        -1147.92334
+      ],
+      "source_east_north_m": [
+        1970.625183478614,
+        1646.6049757549285
+      ],
+      "target_ground_y": -580.6776,
+      "unadjusted_dem_y": -618.6101716422088,
+      "height_difference_m": -37.94017164220878
+    },
+    {
+      "name": "tajia03 (5)",
+      "world_position": [
+        -2098.104,
+        -562.7,
+        -1177.16284
+      ],
+      "source_east_north_m": [
+        1732.7896503733132,
+        1575.265118968015
+      ],
+      "target_ground_y": -562.707642,
+      "unadjusted_dem_y": -553.0187889567017,
+      "height_difference_m": 9.681211043298418
+    },
+    {
+      "name": "tajia03 (6)",
+      "world_position": [
+        -2102.56128,
+        -527.8,
+        -1324.04346
+      ],
+      "source_east_north_m": [
+        1753.7386355242409,
+        1429.8177955215897
+      ],
+      "target_ground_y": -527.909851,
+      "unadjusted_dem_y": -525.1056865872107,
+      "height_difference_m": 2.6943134127892847
+    },
+    {
+      "name": "tajia03 (7)",
+      "world_position": [
+        -2194.299,
+        -509.3,
+        -1461.15039
+      ],
+      "source_east_north_m": [
+        1687.0296899090984,
+        1278.9402421886327
+      ],
+      "target_ground_y": -509.409821,
+      "unadjusted_dem_y": -498.8479195112168,
+      "height_difference_m": 10.452080488783224
+    },
+    {
+      "name": "tajia03 (10)",
+      "world_position": [
+        -2226.72119,
+        -492.2,
+        -1634.2937
+      ],
+      "source_east_north_m": [
+        1684.963822878374,
+        1102.7995700099348
+      ],
+      "target_ground_y": -492.331,
+      "unadjusted_dem_y": -489.82080004326946,
+      "height_difference_m": 2.379199956730531
+    },
+    {
+      "name": "tajia03 (11)",
+      "world_position": [
+        -2276.83813,
+        -487.400024,
+        -1789.99268
+      ],
+      "source_east_north_m": [
+        1662.459064858168,
+        940.7890274071276
+      ],
+      "target_ground_y": -487.531,
+      "unadjusted_dem_y": -488.01047100089943,
+      "height_difference_m": -0.6104470008994838
+    }
+  ]
+}

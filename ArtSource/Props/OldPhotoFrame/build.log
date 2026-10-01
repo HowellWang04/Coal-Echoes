@@ -1,0 +1,62 @@
+D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Props\OldPhotoFrame\Scripts\build_frame.py:67: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.use_nodes=True
+D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Props\OldPhotoFrame\Scripts\build_frame.py:303: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('SoftStudio');world.use_nodes=True;scene.world=world
+
+FBX export starting... 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Props\\OldPhotoFrame\\Exports\\OldPhotoFrame.fbx'
+export finished in 0.0361 sec.
+INFO Draco is available, use library at D:\Application\Steam\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Application\Steam\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+22:55:13 | INFO: Starting glTF 2.0 export
+22:55:13 | INFO: Extracting primitive: Cube.001
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Cube.004
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Cube.005
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Cube.006
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Cube.007
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: FineFractureEdges_Mesh
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Frame_Bottom_Mesh
+22:55:13 | INFO: Primitives created: 2
+22:55:13 | INFO: Extracting primitive: Frame_Left_Mesh
+22:55:13 | INFO: Primitives created: 2
+22:55:13 | INFO: Extracting primitive: Frame_Right_Mesh
+22:55:13 | INFO: Primitives created: 2
+22:55:13 | INFO: Extracting primitive: Frame_Top_Mesh
+22:55:13 | INFO: Primitives created: 2
+22:55:13 | INFO: Extracting primitive: Cube.003
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Torus
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Cube.002
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Sphere
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Sphere.001
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Sphere.002
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Extracting primitive: Sphere.003
+22:55:13 | INFO: Primitives created: 1
+22:55:13 | INFO: Finished glTF 2.0 export in 0.6218981742858887 s
+00:04.656  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_87540_b06ef0b995cee0bb71a6e050491ef5f3.png.png"
+
+Info: Saved as "OldPhotoFrame.blend"
+ASSET_SAVED {"asset": "OldPhotoFrame", "blender_version": "5.2.2 LTS", "source": {"mesh_count": 17, "dimensions_xyz_m": [0.3199999928474426, 0.027973300777375698, 0.2518833875656128], "objects": [{"name": "Frame_Bottom", "triangles": 312, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "Frame_Right", "triangles": 312, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "Frame_Top", "triangles": 312, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "Frame_Left", "triangles": 312, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "Backboard", "triangles": 108, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "Photograph", "triangles": 108, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "GlassPane", "triangles": 108, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "FineFractureEdges", "triangles": 864, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "BackingTab_1", "triangles": 108, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "TabRivet_1", "triangles": 120, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "BackingTab_2", "triangles": 108, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "TabRivet_2", "triangles": 120, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "BackingTab_3", "triangles": 108, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "TabRivet_3", "triangles": 120, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "BackingTab_4", "triangles": 108, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "TabRivet_4", "triangles": 120, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "HangingLoop", "triangles": 288, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}], "triangles": 3636}, "photo_size_px": [686, 509], "photo_sha256": "0bbcded671a0f72f2099ff45a011835936f99482168891b023191180dcf42d1a", "photo_copy_identical": true, "photo_opening_m": [0.264, 0.19588338192419827], "unity_verified": false, "damage": "Localized upper-right cracks with intact pane; photo remains legible", "method": "Independent background Blender process"}
+00:06.156  cycles           | WARNING Could not open database file: C:\Users\Guanhao\AppData\Local/NVIDIA/OptixCache/optix7cache.db
+                            | Unable to initialize the OptiX cache database at path C:\Users\Guanhao\AppData\Local/NVIDIA/OptixCache/optix7cache.db. Delete or rename the file if this problem persists.
+00:11.828  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Props\OldPhotoFrame\Previews\OldPhotoFrame_Overall.png'
+00:13.297  cycles           | WARNING Could not open database file: C:\Users\Guanhao\AppData\Local/NVIDIA/OptixCache/optix7cache.db
+                            | Unable to initialize the OptiX cache database at path C:\Users\Guanhao\AppData\Local/NVIDIA/OptixCache/optix7cache.db. Delete or rename the file if this problem persists.
+00:19.156  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Props\OldPhotoFrame\Previews\OldPhotoFrame_Front.png'
+00:20.625  cycles           | WARNING Could not open database file: C:\Users\Guanhao\AppData\Local/NVIDIA/OptixCache/optix7cache.db
+                            | Unable to initialize the OptiX cache database at path C:\Users\Guanhao\AppData\Local/NVIDIA/OptixCache/optix7cache.db. Delete or rename the file if this problem persists.
+00:26.312  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Props\OldPhotoFrame\Previews\OldPhotoFrame_GlassDetail.png'
+BUILD_COMPLETE
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

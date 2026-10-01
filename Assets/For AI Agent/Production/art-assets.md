@@ -19,6 +19,10 @@
 | 门卫室（外+内） | 第一关 | 模型 | 缺 | 内含值班本放置点 |
 | 地形 | 第一关 | 地形 | 临时 | MapMagic，参考石炭井地貌（不用冬季积雪） |
 | 远景山体（含山顶） | 全局 | 模型/地形 | 缺 | 贯穿主线的视觉目标 |
+| 索道塔架 CablewayTower | 第二关 | 模型 | 全部11座已替换，待Play Mode验收 | 统一使用最新重建预制体，塔架48,776个三角面，一个HDRP材质，4K贴图。保留原布局，已删除全部旧塔架FBX和8份归档旧模型，见[替换检查](../../../../ArtSource/Cableway/Tajia01/UnityIntegration/all_towers_verification.json) |
+| 索道运煤吊斗 | 第二关 | 模型 | 全部11座已替换，待Play Mode验收 | 独立CoalBucket子对象27,516个三角面，一个HDRP材质，4K贴图。吊点对齐横梁下方，轮组沿索道方向摆放。可与CablewayTower分别调整，尚无碰撞与动画，见[吊斗说明](../../../../ArtSource/Cableway/Tajia01/CoalBucket/README.md) |
+| 索道站棚 CablewayStationShell | 第二关 | 模型 | 已导入并在山脚始发站落位，待游戏内验收 | 紧凑单坡屋顶，仅一侧包墙，另一侧及两端敞开，无敞开侧栏杆。20,308个三角面，三套2K材质。Blender源文件与FBX、GLB已保存并通过重新导入检查，已在主场景CablewayFoothillStation中放置，保留周围地形，见[资源说明](../../../../ArtSource/Cableway/CablewayStationShell/Design.md) |
+| 站口滚轮架 CablewayStationRollerFrame | 第二关 | 模型 | 已导入并在山脚始发站落位，待线路装配验收 | 双柱架与三只独立槽轮沿线路平行布置，不含绳索，11个网格，30,028个三角面。后台Blender制作，源文件与FBX、GLB已保存并重新导入检查。已在主场景站棚敞开侧放置并绑定HDRP材质，未连接绳索或核验吊斗通行，见[资源说明](../../../../ArtSource/Cableway/CablewayStationRollerFrame/README.md) |
 
 ---
 

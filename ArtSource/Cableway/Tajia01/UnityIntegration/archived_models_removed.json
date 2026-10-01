@@ -1,0 +1,42 @@
+[
+  {
+    "path": "ArtSource\\Cableway\\Tajia01\\Previous\\Before_Corrosion_Detail\\Blender\\Tajia01_Tower_v01.blend",
+    "sha256": "121744E32FF46F4229A2DF91779924ED42066D98F5FF961B8DF4C008D29BC09F",
+    "bytes": 42552382
+  },
+  {
+    "path": "ArtSource\\Cableway\\Tajia01\\Previous\\Before_Corrosion_Detail\\Exports\\Tajia01_Tower_v01.fbx",
+    "sha256": "A6C845EDDA01366392991510A8EDC32C056DA7429E8F3B0B921C3647A8AFA403",
+    "bytes": 4240908
+  },
+  {
+    "path": "ArtSource\\Cableway\\Tajia01\\Previous\\Before_Corrosion_Detail\\Exports\\Tajia01_Tower_v01.glb",
+    "sha256": "E577078BB81FCB46BD9DA0CBB991A58086548096FF9DD277C0C20B981F6B5B42",
+    "bytes": 43328556
+  },
+  {
+    "path": "ArtSource\\Cableway\\Tajia01\\Previous\\Before_Legacy_Surface_Transfer\\Blender\\Tajia01_Tower_v01.blend",
+    "sha256": "E65ED89BBC94E4B63C8B30EC2F5633CA8F1F5FBE2358A3FDDE21B82642E9833A",
+    "bytes": 98994513
+  },
+  {
+    "path": "ArtSource\\Cableway\\Tajia01\\Previous\\Before_Legacy_Surface_Transfer\\Exports\\Tajia01_Tower_v01.fbx",
+    "sha256": "C88EAD40B57182A5765E21882A6D3876E2B5BDB993415B7BA011BC0849579676",
+    "bytes": 4241212
+  },
+  {
+    "path": "ArtSource\\Cableway\\Tajia01\\Previous\\Before_Legacy_Surface_Transfer\\Exports\\Tajia01_Tower_v01.glb",
+    "sha256": "22E23E3C8D0DCB2A0BF822BB53B11FEBCD744E35057439F7F901F3EBB42C1502",
+    "bytes": 50354704
+  },
+  {
+    "path": "ArtSource\\Cableway\\Tajia01\\Previous\\Before_OldTower_Palette\\Tajia01_Tower_v01.blend",
+    "sha256": "E378566EFC28767B521C7987E88CC3C741427F85747CC2994774859543F136AD",
+    "bytes": 42180692
+  },
+  {
+    "path": "ArtSource\\Cableway\\Tajia01\\Previous\\Before_OldTower_Palette\\Tajia01_Tower_v01.glb",
+    "sha256": "A3C05403FA4A5C37D84621DE84AD42948B65B02A397F18D2E0156C8D17F413E4",
+    "bytes": 42961608
+  }
+]

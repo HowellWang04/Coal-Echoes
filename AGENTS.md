@@ -34,7 +34,7 @@ USC 游戏设计硕士申请作品集项目。叙事探索游戏，主人公前�
 ## Unity 编辑器协作分工
 
 1. AI 负责修改代码和项目文档，并在交付前完成必要的静态检查。
-2. 需要 Unity Inspector、Hierarchy、场景对象或资源引用配置时，AI 提供清晰的逐步操作指引。
-3. 用户负责 Unity 场景操作、资源绑定、Console 编译确认和 Play Mode 运行测试，并向 AI 反馈结果或截图。
-4. AI 不主动控制 Unity 编辑器，也不主动使用 Windows GUI 自动化操作 Unity，除非用户在当前对话中明确授权。
+2. 需要 Unity Inspector、Hierarchy、场景对象或资源引用配置时，AI 可以通过 Unity MCP 直接修改场景和资源，完成后说明改了什么。
+3. 用户负责 Play Mode 运行测试和最终效果确认，并向 AI 反馈结果或截图。
+4. AI 可以主动通过 Unity MCP 控制 Unity 编辑器，包括读取 Console、截图和修改场景；不主动使用 Windows GUI 自动化操作 Unity，除非用户在当前对话中明确授权。
 5. Unity 运行验证以用户在编辑器中的 Console 和 Play Mode 结果为准，不为了常规验证运行完整解决方案的命令行编译。

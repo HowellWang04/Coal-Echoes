@@ -1,0 +1,33 @@
+{
+  "size": 4096,
+  "samples": 10316360,
+  "seconds": 48.45343065261841,
+  "source_texture": "D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\Assets\\Art Resources\\Environment\\Cableway\\texture\\texture_pbr_20250901.002 1.png",
+  "nearest_distance_p50_p95": [
+    0.010278730653226376,
+    0.08902508243918347
+  ],
+  "maps_sha256": {
+    "Tower_AO.png": "4dc534a84894ec85192f59d48ed365d7ef1235a879c0d115c486694b84055e79",
+    "Tower_BaseColor.png": "2768c2e11c815e8379c8cd298fa3e1818d4a22c579d64a915cd43a0da3190842",
+    "Tower_CorrosionMask.png": "d7b79f3166c7494de220aaad71c110aa6e110fb01c923bfc129807db469b2021",
+    "Tower_HDRP_Mask.png": "ca29d0913ef461a263cd60f0f7d30f05f5aa58c14c26b92fe0b68f0f6a8ab00f",
+    "Tower_MemberRefined_1024.png": "62f8a8361f1aa4b8c2c73f42c873f1a2aa0fb3abd22e8c036875ad76566f65ef",
+    "Tower_MemberRefined_4096.png": "2768c2e11c815e8379c8cd298fa3e1818d4a22c579d64a915cd43a0da3190842",
+    "Tower_Metallic.png": "780ef8a2bd62432524ea13b0f8898d7105920a7a25d1ff6da2e68b5b2855915a",
+    "Tower_Normal.png": "3b69c1e24fe7129197d7d2a454e856721bc233319c5d44e572428e8bf6fdc440",
+    "Tower_OcclusionRoughnessMetallic.png": "f5dad9843460aaa78b070fb694c2597a0969abe42fc71f2f3c040981665a8c7f",
+    "Tower_Roughness.png": "767cbd63494d1fabbe2d7ee4e9b79204262a9f8c08f55002c88d700349105468"
+  },
+  "normal_strength": 0.45,
+  "uv_and_geometry_modified": false,
+  "member_refinement": "Steel uses longitudinal mapping within an inspected original column texture strip, with broad warm-brown weathering variation. Concrete preserves its baseline. This supersedes closest-surface projection to avoid stretching between structural members.",
+  "original_atlas_region_pixels": [
+    1044,
+    280,
+    1124,
+    728
+  ],
+  "mesh_uv_sha256": "352754165d26becae296ceb8b7bceb92875cf692771ea2d816e6972e5b8eae87",
+  "geometry_matches_prior_revision": true
+}

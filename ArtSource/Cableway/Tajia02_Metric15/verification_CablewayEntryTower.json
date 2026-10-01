@@ -1,0 +1,35 @@
+{
+  "name": "CablewayEntryTower",
+  "vertices": 12140,
+  "triangles": 21536,
+  "material_slots": 1,
+  "uv_layers": [
+    "TowerUV"
+  ],
+  "zero_area_faces": 152,
+  "bounds_min": [
+    -2.5,
+    -1.934692144393921,
+    -0.125
+  ],
+  "bounds_max": [
+    2.5,
+    1.3743927478790283,
+    8.0
+  ],
+  "units": "metres, export scale 1",
+  "total_height_m": 8.0,
+  "rope_head_points_blender": [
+    [
+      -2.0,
+      0.0,
+      8.0
+    ],
+    [
+      2.0,
+      0.0,
+      8.0
+    ]
+  ],
+  "ladder": "rung pitch 0.292 m, 450 mm clear width, 22 mm rungs, cage from 2.4 m"
+}
