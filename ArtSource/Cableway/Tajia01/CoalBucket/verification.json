@@ -1,0 +1,62 @@
+{
+  "triangles": 27516,
+  "vertices": 14096,
+  "material_slots": 1,
+  "uv_layers": [
+    "CoalBucketUV"
+  ],
+  "nonmanifold_edges": 0,
+  "zero_area_faces": 0,
+  "export_dimensions_xyz": [
+    0.25436896085739136,
+    0.17098410427570343,
+    0.4056112766265869
+  ],
+  "authoring_to_export_scale": 0.10034278072840624,
+  "attachment_pivot_authoring": [
+    0.0,
+    0.0,
+    3.7200000286102295
+  ],
+  "origin": "Cable contact center beneath trolley wheels",
+  "texture_resolution": 4096,
+  "normal_strength": 0.45,
+  "tower_included": false,
+  "cable_included": false,
+  "unity_verified": false,
+  "glb_meshes": 1,
+  "glb_materials": 1,
+  "embedded_images": [
+    "CoalBucket_Normal",
+    "CoalBucket_OcclusionRoughnessMetallic",
+    "CoalBucket_BaseColor"
+  ],
+  "fbx_roundtrip": {
+    "mesh_count": 1,
+    "triangles": 27516,
+    "material_slots": 1,
+    "dimensions_xyz": [
+      0.25436896085739136,
+      0.17098411917686462,
+      0.4056112505495548
+    ],
+    "maximum_dimension_error": 2.60770320892334e-08,
+    "uv_present": true
+  },
+  "glb_roundtrip": {
+    "mesh_count": 1,
+    "triangles": 27516,
+    "material_slots": 1,
+    "dimensions_xyz": [
+      0.25436896085739136,
+      0.17098410427570343,
+      0.4056112766265869
+    ],
+    "maximum_dimension_error": 0.0,
+    "uv_present": true
+  },
+  "render_roundtrip_mean_absolute_rgb_error": 3.5084035516774748e-06,
+  "saved_blend_scenes": [
+    "Tajia01_CoalBucket_Rebuilt"
+  ]
+}

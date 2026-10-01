@@ -1,0 +1,463 @@
+{
+  "asset": "CablewayStationShell",
+  "variant": "Compact single slope open shelter",
+  "source": {
+    "mesh_count": 6,
+    "dimensions_xyz_m": [
+      3.6559613943099976,
+      11.349999904632568,
+      4.9313555881381035
+    ],
+    "objects": [
+      {
+        "name": "StructuralSteel",
+        "triangles": 1332,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1,
+        "materials": [
+          "Station_Steel"
+        ]
+      },
+      {
+        "name": "PlatesAndFasteners",
+        "triangles": 3840,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1,
+        "materials": [
+          "Station_Steel"
+        ]
+      },
+      {
+        "name": "CorrugatedWalls",
+        "triangles": 4888,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1,
+        "materials": [
+          "Station_Cladding"
+        ]
+      },
+      {
+        "name": "SingleSlopeRoof",
+        "triangles": 5148,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1,
+        "materials": [
+          "Station_Cladding"
+        ]
+      },
+      {
+        "name": "WalkwayGrating",
+        "triangles": 3588,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1,
+        "materials": [
+          "Station_Steel"
+        ]
+      },
+      {
+        "name": "ConcretePlinth",
+        "triangles": 1512,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1,
+        "materials": [
+          "Station_Concrete"
+        ]
+      }
+    ],
+    "total_triangles": 20308
+  },
+  "unity_modified": false,
+  "unity_runtime_tested": false,
+  "open_side_railing": false,
+  "blender_version": "5.2.2 LTS",
+  "roundtrip": {
+    "fbx": {
+      "mesh_count": 6,
+      "dimensions_xyz_m": [
+        3.6559613943099976,
+        11.350000858306885,
+        4.931357465684414
+      ],
+      "objects": [
+        {
+          "name": "WalkwayGrating.001",
+          "triangles": 3588,
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Steel.003"
+          ]
+        },
+        {
+          "name": "ConcretePlinth.001",
+          "triangles": 1512,
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Concrete.003"
+          ]
+        },
+        {
+          "name": "SingleSlopeRoof.001",
+          "triangles": 5148,
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Cladding.003"
+          ]
+        },
+        {
+          "name": "StructuralSteel.001",
+          "triangles": 1332,
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Steel.003"
+          ]
+        },
+        {
+          "name": "PlatesAndFasteners.001",
+          "triangles": 3840,
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Steel.003"
+          ]
+        },
+        {
+          "name": "CorrugatedWalls.001",
+          "triangles": 4888,
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Cladding.003"
+          ]
+        }
+      ],
+      "total_triangles": 20308,
+      "dimension_error_m": 1.8775463104248047e-06,
+      "texture_references": [
+        {
+          "material": "Station_Steel.003",
+          "images": [
+            {
+              "name": "Station_Steel_BaseColor.003",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Steel_Normal.003",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Steel_Roughness.002",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Steel_Metallic.002",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "material": "Station_Concrete.003",
+          "images": [
+            {
+              "name": "Station_Concrete_BaseColor.003",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Concrete_Normal.003",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Concrete_Roughness.002",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Concrete_Metallic.002",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "material": "Station_Cladding.003",
+          "images": [
+            {
+              "name": "Station_Cladding_BaseColor.003",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Cladding_Normal.003",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Cladding_Roughness.002",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Cladding_Metallic.002",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "passed": true
+    },
+    "glb": {
+      "mesh_count": 6,
+      "dimensions_xyz_m": [
+        3.6559613943099976,
+        11.349999904632568,
+        4.9313555881381035
+      ],
+      "objects": [
+        {
+          "name": "StructuralSteel.001",
+          "triangles": 1332,
+          "nonmanifold_edges": 2684,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Steel.004"
+          ]
+        },
+        {
+          "name": "CorrugatedWalls.001",
+          "triangles": 4888,
+          "nonmanifold_edges": 13510,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Cladding.004"
+          ]
+        },
+        {
+          "name": "WalkwayGrating.001",
+          "triangles": 3588,
+          "nonmanifold_edges": 7176,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Steel.004"
+          ]
+        },
+        {
+          "name": "SingleSlopeRoof.001",
+          "triangles": 5148,
+          "nonmanifold_edges": 14450,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Cladding.004"
+          ]
+        },
+        {
+          "name": "ConcretePlinth.001",
+          "triangles": 1512,
+          "nonmanifold_edges": 4368,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Concrete.004"
+          ]
+        },
+        {
+          "name": "PlatesAndFasteners.001",
+          "triangles": 3840,
+          "nonmanifold_edges": 6736,
+          "zero_area_faces": 0,
+          "uv_layers": 1,
+          "materials": [
+            "Station_Steel.004"
+          ]
+        }
+      ],
+      "total_triangles": 20308,
+      "dimension_error_m": 0.0,
+      "texture_references": [
+        {
+          "material": "Station_Steel.004",
+          "images": [
+            {
+              "name": "Station_Steel_BaseColor.004",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Steel_Metallic-Station_Steel_Roughness.001",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Steel_Normal.004",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "material": "Station_Cladding.004",
+          "images": [
+            {
+              "name": "Station_Cladding_BaseColor.004",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Cladding_Metallic-Station_Cladding_Roughness.001",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Cladding_Normal.004",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "material": "Station_Concrete.004",
+          "images": [
+            {
+              "name": "Station_Concrete_BaseColor.004",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Concrete_Metallic-Station_Concrete_Roughness.001",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            },
+            {
+              "name": "Station_Concrete_Normal.004",
+              "size": [
+                2048,
+                2048
+              ],
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "passed": true
+    }
+  },
+  "glb_render_mean_absolute_rgb_error": 2.393503746134229e-05,
+  "packed_images_match_texture_files": {
+    "Station_Steel_BaseColor": true,
+    "Station_Steel_Metallic": true,
+    "Station_Steel_Normal": true,
+    "Station_Steel_ORM": true,
+    "Station_Steel_HDRP_Mask": true,
+    "Station_Cladding_Normal": true,
+    "Station_Cladding_ORM": true,
+    "Station_Concrete_Metallic": true,
+    "Station_Concrete_Normal": true,
+    "Station_Concrete_ORM": true,
+    "Station_Concrete_HDRP_Mask": true,
+    "Station_Steel_Roughness": true,
+    "Station_Cladding_BaseColor": true,
+    "Station_Cladding_Roughness": true,
+    "Station_Cladding_Metallic": true,
+    "Station_Cladding_HDRP_Mask": true,
+    "Station_Concrete_BaseColor": true,
+    "Station_Concrete_Roughness": true
+  },
+  "file_sha256": {
+    "Blender\\CablewayStationShell.blend": "9eba8fb0aaa9ff56f2efce3cc339b1718c9f9c9a591638623214c09a58d227c4",
+    "Exports\\CablewayStationShell.fbx": "609a5e31ff47f24d3543bf2e2d2bd9ef4d9bfe15a2c4cbad83160bc88ba33d78",
+    "Exports\\CablewayStationShell.glb": "054962803b1ca8b94b9f0d0a52c56e530e9a22665027baa2c71577c7a6943957",
+    "Blender/CablewayStationShell.blend": "6e76316a2dbca725141d6dafcd756185e7dcf751c308260e64b76fe76cfd2553"
+  },
+  "session_save": {
+    "time": "2026-09-27T01:43:56.820931",
+    "render_engine": "BLENDER_EEVEE",
+    "cycles_device": "GPU",
+    "backup": "Previous\\BeforeSessionSave_20260927_014356\\CablewayStationShell.blend",
+    "note": "Saved the full current editing session and user rendering settings. Existing export verification applies to the earlier geometry export."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "group": "In-scene Objects/索道群/CablewayFoothillStation",
+  "models": [
+    {
+      "name": "CablewayStationShell",
+      "position": [
+        -2418.42969,
+        -427.153748,
+        -1956.38293
+      ],
+      "rotation": [
+        0.0,
+        162.743561,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "boundsMin": [
+        -2421.84351,
+        -427.273743,
+        -1962.32654
+      ],
+      "boundsMax": [
+        -2415.01733,
+        -422.3424,
+        -1950.403
+      ],
+      "groundMin": -427.328949,
+      "groundMax": -426.903748,
+      "groundSpan": 0.425201416,
+      "maximumFoundationGap": 0.0552063,
+      "maximumFoundationEmbed": 0.369995117,
+      "firstTowerRendererBoundsIntersections": [],
+      "rendererCount": 6
+    },
+    {
+      "name": "CablewayStationRollerFrame",
+      "position": [
+        -2421.59131,
+        -427.4057,
+        -1956.31787
+      ],
+      "rotation": [
+        0.0,
+        342.743561,
+        0.0
+      ],
+      "scale": [
+        1.00000012,
+        1.0,
+        1.00000012
+      ],
+      "boundsMin": [
+        -2422.54834,
+        -427.4057,
+        -1958.177
+      ],
+      "boundsMax": [
+        -2420.63428,
+        -422.570679,
+        -1954.45874
+      ],
+      "groundMin": -427.328949,
+      "groundMax": -427.2857,
+      "groundSpan": 0.04324341,
+      "maximumFoundationGap": -0.07675171,
+      "maximumFoundationEmbed": 0.119995117,
+      "firstTowerRendererBoundsIntersections": [],
+      "rendererCount": 11
+    }
+  ],
+  "terrainModifiedDuringPlacement": false,
+  "cablesCreated": false
+}

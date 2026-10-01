@@ -1,0 +1,50 @@
+{
+  "deleted": true,
+  "scanned": 3536,
+  "assets": [
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Art/Prefabs/SM_Rails.prefab",
+      "guid": "abc00000000003131122131253365392",
+      "success": true
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Art/Meshes/SM_Rails.fbx",
+      "guid": "abc00000000006068067014534057388",
+      "success": true
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Art/Materials/M_Rails.mat",
+      "guid": "e732f41246f40fb41a93356b5094542a",
+      "success": true
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/Art/Meshes/Materials/MI_Rails.mat",
+      "guid": "4909fab81b83d354bb1b10a1a7c6a397",
+      "success": true
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Art/Meshes/Materials/MI_Rails.mat",
+      "guid": "016d55e65b496bd4fa8b0bb494b5e99c",
+      "success": true
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Art/Textures/T_Rails_ORM.PNG",
+      "guid": "a1d09dd92e2f80b45bbc9b895ca14d15",
+      "success": true
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Art/Textures/T_Rails_N.PNG",
+      "guid": "dca1f35398e508747b9808668e609956",
+      "success": true
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Art/Textures/T_Rails_B.PNG",
+      "guid": "3ab13016242ff3d45ad4f9432b51c521",
+      "success": true
+    }
+  ],
+  "preserved": [
+    "M_DirtRails_3.mat",
+    "T_DirtRails_B.PNG"
+  ]
+}

@@ -1,0 +1,48 @@
+D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\CablewayStationRollerFrame\Scripts\build_roller_frame.py:70: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\CablewayStationRollerFrame\Scripts\build_roller_frame.py:101: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  rust.use_nodes = True
+D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\CablewayStationRollerFrame\Scripts\build_roller_frame.py:271: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('RollerFrameStudioWorld');scene.world=world;world.use_nodes=True
+
+FBX export starting... 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\ArtSource\\Cableway\\CablewayStationRollerFrame\\Exports\\CablewayStationRollerFrame.fbx'
+export finished in 0.0672 sec.
+INFO Draco is available, use library at D:\Application\Steam\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Application\Steam\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+20:38:10 | INFO: Starting glTF 2.0 export
+20:38:10 | INFO: Extracting primitive: AxleHardware_Mesh
+20:38:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:38:10 | INFO: Primitives created: 1
+20:38:10 | INFO: Extracting primitive: BearingHousings_Mesh
+20:38:10 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:38:10 | INFO: Primitives created: 2
+20:38:10 | INFO: Extracting primitive: ConcreteFooting_Front_Mesh
+20:38:11 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:38:11 | INFO: Primitives created: 1
+20:38:11 | INFO: Extracting primitive: ConcreteFooting_Rear_Mesh
+20:38:11 | INFO: Primitives created: 1
+20:38:11 | INFO: Extracting primitive: ConnectionPlates_Mesh
+20:38:11 | INFO: Primitives created: 2
+20:38:11 | INFO: Extracting primitive: Fasteners_Mesh
+20:38:11 | INFO: Primitives created: 1
+20:38:11 | INFO: Extracting primitive: PortalSteelwork_Mesh
+20:38:11 | INFO: Primitives created: 2
+20:38:11 | INFO: Extracting primitive: RollerCradle_Mesh
+20:38:11 | INFO: Primitives created: 2
+20:38:11 | INFO: Extracting primitive: Sheave_01_Mesh
+20:38:11 | INFO: Primitives created: 1
+20:38:11 | INFO: Extracting primitive: Sheave_02_Mesh
+20:38:11 | INFO: Primitives created: 1
+20:38:11 | INFO: Extracting primitive: Sheave_03_Mesh
+20:38:11 | INFO: Primitives created: 1
+20:38:11 | INFO: Finished glTF 2.0 export in 1.245769739151001 s
+
+Info: Saved as "CablewayStationRollerFrame.blend"
+MODEL_SAVED {"mesh_count": 11, "dimensions_xyz_m": [0.8799999952316284, 3.619999885559082, 4.835000038146973], "objects": [{"name": "Fasteners", "triangles": 8680, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "PortalSteelwork", "triangles": 1188, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "ConnectionPlates", "triangles": 2376, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "RollerCradle", "triangles": 1188, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "BearingHousings", "triangles": 4224, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "AxleHardware", "triangles": 1020, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "ConcreteFooting_Front", "triangles": 108, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "ConcreteFooting_Rear", "triangles": 108, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "Sheave_01", "triangles": 3712, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "Sheave_02", "triangles": 3712, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "Sheave_03", "triangles": 3712, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}], "triangles": 30028}
+00:10.484  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\CablewayStationRollerFrame\Previews\RollerFrame_Overall.png'
+00:15.765  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\CablewayStationRollerFrame\Previews\RollerFrame_WheelDetail.png'
+00:20.906  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\CablewayStationRollerFrame\Previews\RollerFrame_Front.png'
+BUILD_AND_RENDERS_COMPLETE
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

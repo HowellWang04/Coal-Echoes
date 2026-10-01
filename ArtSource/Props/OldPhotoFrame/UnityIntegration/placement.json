@@ -1,0 +1,55 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "objectName": "OldPhotoFrame_StreetMarket",
+  "position": "(-1750.31500, -473.24390, -1534.98500)",
+  "rotation": "(270.00000, 210.89120, 0.00000)",
+  "tabletop": "(-1750.31500, -473.27430, -1534.98500)",
+  "normal": "(0.00000, 1.99975, 0.00000)",
+  "sourceFront": "(0.00000, 0.00000, 1.00000)",
+  "sourceUp": "(0.00000, 1.00000, 0.00000)",
+  "materials": [
+    {
+      "name": "Frame_AgedWalnut",
+      "shader": "HDRP/Lit",
+      "queue": 2225,
+      "transparent": 0.0
+    },
+    {
+      "name": "WornWood_Edges",
+      "shader": "HDRP/Lit",
+      "queue": 2225,
+      "transparent": 0.0
+    },
+    {
+      "name": "Backboard_Fiberboard",
+      "shader": "HDRP/Lit",
+      "queue": 2225,
+      "transparent": 0.0
+    },
+    {
+      "name": "Photo_OriginalBlackAndWhite",
+      "shader": "HDRP/Lit",
+      "queue": 2225,
+      "transparent": 0.0
+    },
+    {
+      "name": "Hardware_OxidizedIron",
+      "shader": "HDRP/Lit",
+      "queue": 2225,
+      "transparent": 0.0
+    },
+    {
+      "name": "Glass_FractureEdges",
+      "shader": "HDRP/Lit",
+      "queue": 2225,
+      "transparent": 0.0
+    },
+    {
+      "name": "Glass_LocalCracks",
+      "shader": "HDRP/Lit",
+      "queue": 3000,
+      "transparent": 1.0
+    }
+  ],
+  "finalVerification": "verification.json"
+}

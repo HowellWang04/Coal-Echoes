@@ -1,0 +1,48 @@
+{
+  "status": "compact silhouette approved; open-side rails removed",
+  "dimensions_xyz_m": [
+    3.6559613943099976,
+    11.349999904632568,
+    4.9313555881381035
+  ],
+  "parts": [
+    {
+      "name": "StructuralSteel",
+      "triangles": 1332,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "PlatesAndFasteners",
+      "triangles": 3840,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "CorrugatedWalls",
+      "triangles": 4888,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "SingleSlopeRoof",
+      "triangles": 5148,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "WalkwayGrating",
+      "triangles": 3588,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "ConcretePlinth",
+      "triangles": 168,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    }
+  ],
+  "unity_modified": false,
+  "removed_rail_components": 7
+}

@@ -1,0 +1,25 @@
+{
+  "mesh_before": "352754165d26becae296ceb8b7bceb92875cf692771ea2d816e6972e5b8eae87",
+  "palette_preserved": true,
+  "maps_before": {
+    "Tower_AO.png": "4dc534a84894ec85192f59d48ed365d7ef1235a879c0d115c486694b84055e79",
+    "Tower_BaseColor.png": "1557fa47361bd57fca4d59d6c84bb4dd3a7f7cc57fbfaf74256e9a9f42373965",
+    "Tower_HDRP_Mask.png": "11b63e3f1db115a5953d39b8a25ad40bb923b5457e74bc5b6abd01426b0d1196",
+    "Tower_Metallic.png": "7b01d06c5f7528abda6ebe28f829e0d6f455efae9cf0fbc0f689d704251f760e",
+    "Tower_Normal.png": "3b69c1e24fe7129197d7d2a454e856721bc233319c5d44e572428e8bf6fdc440",
+    "Tower_OcclusionRoughnessMetallic.png": "8499ca7d227ac92e0777fba5ef45e449fb08312f16451146ad282727f58c8e1e",
+    "Tower_Roughness.png": "88e7f722906f0f348950a2532c492a8c6232582f96f836ccdc42de0cf80d4e85"
+  },
+  "mesh_after": "352754165d26becae296ceb8b7bceb92875cf692771ea2d816e6972e5b8eae87",
+  "normal_strength": 1.0,
+  "maps_after": {
+    "Tower_AO.png": "4dc534a84894ec85192f59d48ed365d7ef1235a879c0d115c486694b84055e79",
+    "Tower_BaseColor.png": "27725f7244a51e00361a4d9e2836d92ab0f122aa1eeabdc12280698fcbbb1356",
+    "Tower_CorrosionMask.png": "478ddb01a5cdb1756afc0e5010aab77e5f4b932c150e47396a6c9e86e01b0a23",
+    "Tower_HDRP_Mask.png": "65fccf51a515c962de0a1a05367e105c20d3b70e4858aad5ee91639af9d34afd",
+    "Tower_Metallic.png": "47dc30b628cbd089cc9ad839f41a18bd36b80901b9aa04f7cddc49438e85ed78",
+    "Tower_Normal.png": "ce13169af7e98f5ead23e203e5c883212a923eb5f929bcc43e49158c17a69632",
+    "Tower_OcclusionRoughnessMetallic.png": "4180b5e89a236956f307d1136efadf8d3958421bd15dc5d637507d010edff5cd",
+    "Tower_Roughness.png": "7f554d307950541f2b96132c59868fd6feb0e2e0876907b22c1e3fef797d1d30"
+  }
+}

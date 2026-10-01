@@ -1,0 +1,128 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "count": 11,
+  "saved": true,
+  "checks": [
+    {
+      "name": "CablewayTower_01",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.6188641
+    },
+    {
+      "name": "CablewayTower_02",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.6188641
+    },
+    {
+      "name": "CablewayTower_03",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.6188641
+    },
+    {
+      "name": "CablewayTower_04",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.6188641
+    },
+    {
+      "name": "CablewayTower_05",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.6188641
+    },
+    {
+      "name": "CablewayTower_06",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.6188641
+    },
+    {
+      "name": "CablewayTower_07",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.6188641
+    },
+    {
+      "name": "CablewayTower_08",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.6188641
+    },
+    {
+      "name": "CablewayTower_09",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.4204254
+    },
+    {
+      "name": "CablewayTower_10",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.6188641
+    },
+    {
+      "name": "CablewayTower_11",
+      "localScale": [
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "positionUnchanged": true,
+      "rotationUnchanged": true,
+      "towerHeight": 12.6188641
+    }
+  ]
+}

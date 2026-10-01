@@ -1,0 +1,543 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "saved": true,
+  "activeScene": "Assets/SmokePortalTest/SmokePortal_Test.unity",
+  "stationRootCount": 1,
+  "stationChildren": 2,
+  "terrainChecks": [
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_0_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_0_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-2_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-1_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_0_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_0_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_0_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_1_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_1_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-2_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-1_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_0_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_0_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-3_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-3_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-3_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-3_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_0_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-3_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_1_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_1_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_1_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-3_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_0_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_0_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_2_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_2_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_2_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_2_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_2_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_2_Draft.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_2_Main.asset",
+      "matchesRestoredSnapshot": true
+    },
+    {
+      "path": "Assets/TerrainData/MainGameScene/Terrain_11_c64c588a.asset",
+      "matchesRestoredSnapshot": true
+    }
+  ],
+  "transformChecks": [
+    {
+      "name": "CablewayTower_01",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "CablewayTower_10",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "CablewayTower_08",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "CablewayTower_05",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "CablewayTower_06",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "CablewayTower_07",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "CablewayTower_11",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "CablewayTower_03",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "CablewayTower_02",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "CablewayTower_04",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "CablewayTower_09",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "Cable route 1",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "Cable route 2",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    },
+    {
+      "name": "工厂建筑群",
+      "positionDelta": 0.0,
+      "rotationDelta": 0.0,
+      "scaleDelta": 0.0
+    }
+  ],
+  "assetChecks": [
+    {
+      "name": "ConcretePlinth",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "Station_Concrete",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "CorrugatedWalls",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "Station_Cladding",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "PlatesAndFasteners",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "Station_Steel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "SingleSlopeRoof",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "Station_Cladding",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "StructuralSteel",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "Station_Steel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "WalkwayGrating",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "Station_Steel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "AxleHardware",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_DarkSteel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "BearingHousings",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_OxidizedEdges",
+          "shader": "HDRP/Lit",
+          "valid": true
+        },
+        {
+          "name": "RollerFrame_Steel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "ConcreteFooting_Front",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_Concrete",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "ConcreteFooting_Rear",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_Concrete",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "ConnectionPlates",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_OxidizedEdges",
+          "shader": "HDRP/Lit",
+          "valid": true
+        },
+        {
+          "name": "RollerFrame_Steel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "Fasteners",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_Steel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "PortalSteelwork",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_OxidizedEdges",
+          "shader": "HDRP/Lit",
+          "valid": true
+        },
+        {
+          "name": "RollerFrame_Steel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "RollerCradle",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_OxidizedEdges",
+          "shader": "HDRP/Lit",
+          "valid": true
+        },
+        {
+          "name": "RollerFrame_Steel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "Sheave_01",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_DarkSteel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "Sheave_02",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_DarkSteel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "Sheave_03",
+      "hasMesh": true,
+      "materials": [
+        {
+          "name": "RollerFrame_DarkSteel",
+          "shader": "HDRP/Lit",
+          "valid": true
+        }
+      ]
+    }
+  ],
+  "playModeTested": false,
+  "collidersAdded": false,
+  "cablesAdded": false
+}

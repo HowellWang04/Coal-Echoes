@@ -1,0 +1,26 @@
+{
+  "mesh_before": "352754165d26becae296ceb8b7bceb92875cf692771ea2d816e6972e5b8eae87",
+  "palette": {
+    "steel": "#4B4945",
+    "rust": "#5B4B3F",
+    "old_paint": "#58453F"
+  },
+  "lighting_exposure_changed": false,
+  "unchanged_maps_before": {
+    "Tower_AO.png": "4dc534a84894ec85192f59d48ed365d7ef1235a879c0d115c486694b84055e79",
+    "Tower_HDRP_Mask.png": "11b63e3f1db115a5953d39b8a25ad40bb923b5457e74bc5b6abd01426b0d1196",
+    "Tower_Metallic.png": "7b01d06c5f7528abda6ebe28f829e0d6f455efae9cf0fbc0f689d704251f760e",
+    "Tower_Normal.png": "3b69c1e24fe7129197d7d2a454e856721bc233319c5d44e572428e8bf6fdc440",
+    "Tower_OcclusionRoughnessMetallic.png": "8499ca7d227ac92e0777fba5ef45e449fb08312f16451146ad282727f58c8e1e",
+    "Tower_Roughness.png": "88e7f722906f0f348950a2532c492a8c6232582f96f836ccdc42de0cf80d4e85"
+  },
+  "mesh_after": "352754165d26becae296ceb8b7bceb92875cf692771ea2d816e6972e5b8eae87",
+  "unchanged_maps_after": {
+    "Tower_AO.png": "4dc534a84894ec85192f59d48ed365d7ef1235a879c0d115c486694b84055e79",
+    "Tower_HDRP_Mask.png": "11b63e3f1db115a5953d39b8a25ad40bb923b5457e74bc5b6abd01426b0d1196",
+    "Tower_Metallic.png": "7b01d06c5f7528abda6ebe28f829e0d6f455efae9cf0fbc0f689d704251f760e",
+    "Tower_Normal.png": "3b69c1e24fe7129197d7d2a454e856721bc233319c5d44e572428e8bf6fdc440",
+    "Tower_OcclusionRoughnessMetallic.png": "8499ca7d227ac92e0777fba5ef45e449fb08312f16451146ad282727f58c8e1e",
+    "Tower_Roughness.png": "88e7f722906f0f348950a2532c492a8c6232582f96f836ccdc42de0cf80d4e85"
+  }
+}

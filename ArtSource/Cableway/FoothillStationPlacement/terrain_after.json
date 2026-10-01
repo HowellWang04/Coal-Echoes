@@ -1,0 +1,592 @@
+[
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Main.asset",
+    "affected": true,
+    "unchanged": false,
+    "sha256": "16A96DDDAB3C600A86ED7E20B5B3E81A080CF0FA33594137ED48C457C3B9D2BF",
+    "changed": 33420,
+    "outsideChanges": 0,
+    "maxChangeMetres": 30.8551636,
+    "patchErrorMetres": 0.01527369
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Draft.asset",
+    "affected": true,
+    "unchanged": false,
+    "sha256": "D7A4F8EBF9C064587DFC290817113CD7EED57E3D92E316A5B4A9798A1EB0235B",
+    "changed": 551,
+    "outsideChanges": 0,
+    "maxChangeMetres": 30.8551636,
+    "patchErrorMetres": 0.0152289867
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Main.asset",
+    "affected": true,
+    "unchanged": false,
+    "sha256": "6553A5AD46E70468B4347CC4A23F4E58D32FFB288F50DD8E6EEC092BF0082E3B",
+    "changed": 239097,
+    "outsideChanges": 0,
+    "maxChangeMetres": 34.8227,
+    "patchErrorMetres": 0.01527369
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Draft.asset",
+    "affected": true,
+    "unchanged": false,
+    "sha256": "0D754C9240EE824843086ACE6B56E59DFA7681529913695418AD06BCE58F0FFD",
+    "changed": 3793,
+    "outsideChanges": 0,
+    "maxChangeMetres": 34.5174828,
+    "patchErrorMetres": 0.0152587891
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Main.asset",
+    "affected": true,
+    "unchanged": false,
+    "sha256": "16CB3E8DF7CA3CD603FBA4A41EFAEED8CAFEDA062CF5CD8CF84B548483000277",
+    "changed": 7801,
+    "outsideChanges": 0,
+    "maxChangeMetres": 10.2545319,
+    "patchErrorMetres": 0.0152587891
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Draft.asset",
+    "affected": true,
+    "unchanged": false,
+    "sha256": "8A0CFED3BEE039ECD76249473E87F2182E066968591CC198AC1B3CBD5DB1CD0F",
+    "changed": 136,
+    "outsideChanges": 0,
+    "maxChangeMetres": 10.10193,
+    "patchErrorMetres": 0.01513958
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Main.asset",
+    "affected": true,
+    "unchanged": false,
+    "sha256": "18E00DA8E47859DEE0EFE2E7457641C86E261AEAF38342D18837AA1A6D75671A",
+    "changed": 136139,
+    "outsideChanges": 0,
+    "maxChangeMetres": 29.6343861,
+    "patchErrorMetres": 0.01527369
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Draft.asset",
+    "affected": true,
+    "unchanged": false,
+    "sha256": "CA228255F7B36CAFE5DF6480FA30468847F3E570AAB5D3BB5502442AD732B704",
+    "changed": 2169,
+    "outsideChanges": 0,
+    "maxChangeMetres": 29.3597,
+    "patchErrorMetres": 0.0152587891
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_0_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "0BB0B6179E67E8F635870731BD37FEE42DC73D87B23329AF9DAA6FA7FEA53455",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_0_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "A655E7B6654CED8A78FFB33134AB0431F87A4020331F43206EAFE7C0A73B2BF7",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-2_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "A30D555316E7C3FB1B95985708BCE4778146065857903772D931AE54D8876211",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-2_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "984DB3B7648DD9A31FA50CEFF09A803D68F4CF0784E33C3F6E3399B5915A76C7",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-1_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "A5769EAAD3B24734643A87FEE3245789B3E370384516C3E2D64CDE73A7476D1A",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-1_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "04BCC0E6F3820A3DFFB945F1EC86BE9FB0E7D3CA9E799BA63D0B53E5CDA095B2",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_0_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "69D565292F63F7707FDF892A789E5E46401DE97CE770EF8EBA8ECD11FAF868D1",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_0_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "EE9F9CFFFDFFE0BC3B2E5FE6E8886D3355D8F1D6150EAB0BF8EB31EF20597F0D",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_0_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "67FE75B3DBCDCCA7E235828EC03CA7C51402AE3AB43FC5B6BFA21C21286EA016",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_1_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "76E924A94E3917AD1BB08233E393794EA18B384685AC1300238A4194CCDA9202",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_1_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "70B8CC7300114BCCF738F622551F2C844CE2842A8AA289E490438CF58E7D4431",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_1_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "A9211B6BE1385F4353DAA4D9D98F289EE518FBB6A7F0D9125198592A27C9D0AA",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_1_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "BEA180860DAF3360F65A68F550258BEE5C565ED0C9D4ED0CB869412F0D9F4879",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_1_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "1C4EB6A250CA07DA564E8DD2961D17DBF45B2E3A91675991AE91BCF1CC9EC3C5",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-2_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "BFDB64319C77948D6CB4CA0197B366E02E1B3A7F054069919758684E841D845E",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-2_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "3951AA45B4E50DE5732CFD1AB841455FAF28E0A4E6308B27D5B75F4AE333BBC4",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-1_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "659A9E08245DCF2C11488EF8F99BA360874494C43ED4BA87E00AB2114EE04F9B",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-1_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "1F685E9017D43F67160D95BFF4BF85E120DA8FF6284238336D3E7D59775EF91F",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_0_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "5E504AAE371A3A9006F1EF26117C20855639EDF2A9AEB8119B89C6B2A0A85FC7",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_0_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "81F3D8C26797A8B1185D3FABC171CF5E074168CB389E318DD7E0F181EDE3AE72",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-3_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "3310FBEE5619C8BA8D36372071AEB27E0FBFF9E7AED540C13595D3F5FBD45FA5",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-3_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "874B07FAA7AB837D1FD92FF6A0F5FD1A8E7D6A9CA136BED00ADB1011AFDA8B8F",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-3_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "C2C30397B891263168E3F24C72CF580174F963BC69CBE64AE85B2D0DFE33B1F0",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-1_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "09ADE8EE32620B8D248C899B26E784BD6ADCC84325FC6983BDB2596A538F001F",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-3_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "15D8B997BD695E9D8565E4C57DFDE24F959F9FD63D746EF20827EA987F185C54",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_1_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "231CDF910B59FC33B0F36F58140780F47E52B5615CEA8D109B80AF7D6F97F8B2",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_0_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "39B15E538C9C37BD8FAC3BFEBC1114B90B5248196769B455032205092026A1A5",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-1_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "0B8FE60CAD23BF74FA4B5447FDDF3EB39116A0C848F75E6595E93468CFC36A57",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-2_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "6A7009FDDC9D69D93818DA8818E157CC9599B4DED3CDC74754AE8BD3C1B33FBC",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-3_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "3534B0DA7E60337202F8F3F4B6D27D0DA7471B2B1E275E3EAF5747AA12097876",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_1_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "4900AD465F004EF55F0E76F0FCF9E23AEDB38FAC885EB3D2809DFC7D3C209BB1",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_1_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "FE94F5660E2AECC95F74042D05B6AFD66F37EC46A1EFE7AE567376C7A46254D9",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_1_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "9D53A25C7528088D88E3C7681F12C755F59DDC6EA5D5761BD7C1EA16AE2CC8BA",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_1_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "C727BC8B3170363ED3991922E69F8F3E1693AE5FF99220403A92B38E600635ED",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-2_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "B7213DB0D1A2BF60C6054CC501FFEC926D17AB18EC0C6EB59AB8717ADF4353E8",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-3_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "1F67A4C088E5C58BCF767CE6A106AF19B4C509C396EB6D1B6192856B25F27310",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_0_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "4CBB54CA94259A100A6D5616FAED240A02C7C315915D83EBEBCA50E7DB0933DA",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_0_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "23E74AB6A232E5C44B12D4C2E6702CE8C68B7F8D7AB5231EC80662655A2356F1",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_2_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "43CBAF4911E696A69F23B4B0BA05A5A74D65A8CD8BDB0566344282255A399F0B",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_2_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "B1C3631179475681B726269670ABD27C145EBA864CB20E758B284C7FC7738D9A",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_2_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "031A62B15EFBE6CED5ABD684692E824E8B3C8373D817582E99B78EB7E6BA88C0",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_2_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "F9AA052343F053EE31662024AC17D73CF6FC1E4F1AE708A3E2EAF7C2C126BBD2",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_2_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "1FE217DBDBB7D2C82201615031858C8BCB1F69B20A4C794088D7EF10867987C4",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_2_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "0CBADC8F3B2F75FA30906DB7D5FD72B40C970A3BC5E89540A5B10C6097BA6F21",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_2_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "5C0E5AFB4372395577BF8F5760140644F9AAD106B818B97BD3AFDCADD98F8BEF",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_2_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "62F7C05A1058A786930A28F26986BD45757E32421E02F358DD9743A3ADEFD9AF",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_2_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "3B4835B7FCD1D115B175146970889B363FD4824DBA5F9188212B4053FF0DFF73",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_2_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "E8B97850278D2D0012C19538C2EFC3B20FE395128AEA704E1F597132893AF3F8",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_2_Draft.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "87BDA734DE2B6FD77DF59CD9AA9A2B83E1E3F8901C804DDF9D244EE86C82B6EB",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_2_Main.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "E85BF6185EF747DB84CA8FCAFDEA9A468BB4533840C0F34C29F087410FFDB030",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  },
+  {
+    "path": "Assets/TerrainData/MainGameScene/Terrain_11_c64c588a.asset",
+    "affected": false,
+    "unchanged": true,
+    "sha256": "632632A0971B30716AE72BBC94802888D69C71E3D55DDF51601D118784CA73E9",
+    "changed": 0,
+    "outsideChanges": 0,
+    "maxChangeMetres": 0.0,
+    "patchErrorMetres": 0.0
+  }
+]

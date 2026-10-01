@@ -1,0 +1,17 @@
+{
+  "bounds_utm_W_S_E_N": [
+    655800,
+    4073000,
+    659800,
+    4077000
+  ],
+  "dimensions_m": [
+    4000,
+    4000
+  ],
+  "valid_percent": 100.0,
+  "min_m": 1363.599609375,
+  "max_m": 2077.572998046875,
+  "status": "Preview candidate only; no Unity import",
+  "comparison": "30m panel is a downsampled simulation of this same USGS patch, not the previous COP30 dataset"
+}

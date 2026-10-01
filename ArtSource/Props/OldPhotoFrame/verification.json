@@ -1,0 +1,223 @@
+{
+  "asset": "OldPhotoFrame",
+  "blender_version": "5.2.2 LTS",
+  "source": {
+    "mesh_count": 17,
+    "dimensions_xyz_m": [
+      0.3199999928474426,
+      0.027973300777375698,
+      0.2518833875656128
+    ],
+    "objects": [
+      {
+        "name": "Frame_Bottom",
+        "triangles": 312,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Frame_Right",
+        "triangles": 312,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Frame_Top",
+        "triangles": 312,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Frame_Left",
+        "triangles": 312,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Backboard",
+        "triangles": 108,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Photograph",
+        "triangles": 108,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "GlassPane",
+        "triangles": 108,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "FineFractureEdges",
+        "triangles": 864,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "BackingTab_1",
+        "triangles": 108,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "TabRivet_1",
+        "triangles": 120,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "BackingTab_2",
+        "triangles": 108,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "TabRivet_2",
+        "triangles": 120,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "BackingTab_3",
+        "triangles": 108,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "TabRivet_3",
+        "triangles": 120,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "BackingTab_4",
+        "triangles": 108,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "TabRivet_4",
+        "triangles": 120,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "HangingLoop",
+        "triangles": 288,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      }
+    ],
+    "triangles": 3636
+  },
+  "photo_size_px": [
+    686,
+    509
+  ],
+  "photo_sha256": "0bbcded671a0f72f2099ff45a011835936f99482168891b023191180dcf42d1a",
+  "photo_copy_identical": true,
+  "photo_opening_m": [
+    0.264,
+    0.19588338192419827
+  ],
+  "unity_verified": false,
+  "damage": "Localized upper-right cracks with intact pane; photo remains legible",
+  "method": "Independent background Blender process",
+  "packed_source_images": 9,
+  "all_source_images_packed": true,
+  "fbx_roundtrip": {
+    "mesh_count": 17,
+    "triangles": 3636,
+    "dimensions_xyz_m": [
+      0.3199999928474426,
+      0.027973338030278683,
+      0.2518833895206596
+    ],
+    "all_meshes_have_uvs": true,
+    "triangles_match": true,
+    "dimensions_match": true,
+    "mesh_count_matches": true,
+    "materials": [
+      "Backboard_Fiberboard.001",
+      "Frame_AgedWalnut.001",
+      "Glass_FractureEdges.001",
+      "Glass_LocalCracks.001",
+      "Hardware_OxidizedIron.001",
+      "Photo_OriginalBlackAndWhite.001",
+      "WornWood_Edges.001"
+    ],
+    "missing_texture_nodes": []
+  },
+  "glb_roundtrip": {
+    "mesh_count": 17,
+    "triangles": 3636,
+    "dimensions_xyz_m": [
+      0.3199999928474426,
+      0.027973300777375698,
+      0.2518833875656128
+    ],
+    "all_meshes_have_uvs": true,
+    "triangles_match": true,
+    "dimensions_match": true,
+    "mesh_count_matches": true,
+    "materials": [
+      "Backboard_Fiberboard.002",
+      "Frame_AgedWalnut.002",
+      "Glass_FractureEdges.002",
+      "Glass_LocalCracks.002",
+      "Hardware_OxidizedIron.002",
+      "Photo_OriginalBlackAndWhite.002",
+      "WornWood_Edges.002"
+    ],
+    "missing_texture_nodes": []
+  },
+  "glb_extensions": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_transmission",
+    "KHR_materials_ior"
+  ],
+  "glb_images_embedded": true,
+  "delivery_sha256": {
+    "Blender\\OldPhotoFrame.blend": "ad63df66801407211d0a5d0e5d82f93d3e3902fed557c40388ef2add198ea3b2",
+    "Exports\\OldPhotoFrame.fbx": "573561a1787f4679212144826dc32566c4a369c5f732d1cc9739a3767823d65b",
+    "Exports\\OldPhotoFrame.glb": "e2100517475b24400db047c453c99640cf1fdf281d5556c7455566c90c23c3c4",
+    "Textures\\Backboard_BaseColor.png": "3c3fbf0ca233574844d1d564c65ba7b3adb9fe8e8c5878965de7bd5eec8bc33b",
+    "Textures\\Glass_BaseColorOpacity.png": "32de115e693666864a1de1141c2622f4e27e05f7458c6fd0332b544f49ee1f59",
+    "Textures\\Glass_CrackMask.png": "3cda3282472f4a52345d665766e77eab22f5c3d46a2be35659d12e01368da079",
+    "Textures\\Glass_HDRP_Mask.png": "723287a77627b954818905e0c15429e2b71a3ba092d51141b65634e9c7abc20b",
+    "Textures\\Glass_Normal.png": "cbedd99b3b0eeff0ad72fd4a301950d34ba551c49197641d5ea21c8b62d17353",
+    "Textures\\Glass_Roughness.png": "0451f48ab4344c4a4615fec9fd8b19cb74610ad76952b1259214a0542c18c153",
+    "Textures\\Glass_Transmission.png": "f60ce7a581aee09abc3b318660144d52f6872ca18e00e05cf943afafb11df31d",
+    "Textures\\StreetMarket_Original.png": "0bbcded671a0f72f2099ff45a011835936f99482168891b023191180dcf42d1a",
+    "Textures\\Wood_BaseColor.png": "adf5ef2ebc3f53d889e5c08883fd9c23514da3e36ec05fd765abd1f5ef777d5d",
+    "Textures\\Wood_EdgeColor.png": "003328fc8c28ba10096d03be508f11063438fa051f0f69f7dc49f2b422449eba",
+    "Textures\\Wood_HDRP_Mask.png": "b74279cac2f917bf043177353e4b9c29f215725d62ce189ee9c8896681617b54",
+    "Textures\\Wood_Normal.png": "cfb5e896080088c54ac525511e5bef6a75ab96c63586e972374a86107784c139",
+    "Textures\\Wood_Roughness.png": "19a47398bb03214e8ee924530fbfd106cfeb16cd4ad5ef6540c527a4c6d05ad2",
+    "Previews\\OldPhotoFrame_Front.png": "32231bd1b277031a15255296ea2d57edb1c5b59cf72be1769cbe4227fba03f51",
+    "Previews\\OldPhotoFrame_GlassDetail.png": "109d92dc245086e52655bbe6a29887d09bed24dd474f7ac33760e3301efa431b",
+    "Previews\\OldPhotoFrame_GLB_Roundtrip.png": "d8d307a40a3f0e8c08cc708c451717871c59b35f326c0c5b2eb1f19f36fd077c",
+    "Previews\\OldPhotoFrame_Overall.png": "8d6d2da75acf12aa22b250bd8fd4fdb15e2aa722f2d87d1b5f3d15e53818644f"
+  }
+}

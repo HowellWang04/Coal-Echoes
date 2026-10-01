@@ -1,0 +1,120 @@
+[
+  {
+    "name": "CablewayStationShell",
+    "scale": "(1.00, 1.00, 1.00)",
+    "renderers": [
+      {
+        "name": "ConcretePlinth",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationShell/Materials/Station_Concrete.mat"
+        ]
+      },
+      {
+        "name": "CorrugatedWalls",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationShell/Materials/Station_Cladding.mat"
+        ]
+      },
+      {
+        "name": "PlatesAndFasteners",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationShell/Materials/Station_Steel.mat"
+        ]
+      },
+      {
+        "name": "SingleSlopeRoof",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationShell/Materials/Station_Cladding.mat"
+        ]
+      },
+      {
+        "name": "StructuralSteel",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationShell/Materials/Station_Steel.mat"
+        ]
+      },
+      {
+        "name": "WalkwayGrating",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationShell/Materials/Station_Steel.mat"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "CablewayStationRollerFrame",
+    "scale": "(1.00, 1.00, 1.00)",
+    "renderers": [
+      {
+        "name": "AxleHardware",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_DarkSteel.mat"
+        ]
+      },
+      {
+        "name": "BearingHousings",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_OxidizedEdges.mat",
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_Steel.mat"
+        ]
+      },
+      {
+        "name": "ConcreteFooting_Front",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_Concrete.mat"
+        ]
+      },
+      {
+        "name": "ConcreteFooting_Rear",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_Concrete.mat"
+        ]
+      },
+      {
+        "name": "ConnectionPlates",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_OxidizedEdges.mat",
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_Steel.mat"
+        ]
+      },
+      {
+        "name": "Fasteners",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_Steel.mat"
+        ]
+      },
+      {
+        "name": "PortalSteelwork",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_OxidizedEdges.mat",
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_Steel.mat"
+        ]
+      },
+      {
+        "name": "RollerCradle",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_OxidizedEdges.mat",
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_Steel.mat"
+        ]
+      },
+      {
+        "name": "Sheave_01",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_DarkSteel.mat"
+        ]
+      },
+      {
+        "name": "Sheave_02",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_DarkSteel.mat"
+        ]
+      },
+      {
+        "name": "Sheave_03",
+        "materials": [
+          "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/Materials/RollerFrame_DarkSteel.mat"
+        ]
+      }
+    ]
+  }
+]

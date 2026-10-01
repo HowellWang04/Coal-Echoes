@@ -1,0 +1,59 @@
+{
+  "resolution": 1537,
+  "size_m": 6000.0,
+  "import_scale": 6,
+  "import_offset": [
+    -2000.0,
+    -3000.0
+  ],
+  "world_origin": [
+    -4924.00049,
+    -3913.9999390000003
+  ],
+  "world_base_y": -710.0,
+  "height_range_m": 250.0,
+  "dem_rotation_degrees": 9.934207401336906,
+  "cableway_preserve_halfwidth_m": 65,
+  "cableway_outer_blend_m": 200,
+  "dem_boundary_blend_m": 600,
+  "factory_core_rect": [
+    -1520,
+    -1170,
+    -1215,
+    -985
+  ],
+  "railway_core_rect": [
+    -1690,
+    -1430,
+    -1250,
+    -1180
+  ],
+  "edits": [
+    {
+      "index": 8,
+      "filename": "adjusted_8.f32",
+      "changed_samples": 40695,
+      "max_delta_m": 125.09918212890625
+    },
+    {
+      "index": 9,
+      "filename": "adjusted_9.f32",
+      "changed_samples": 785,
+      "max_delta_m": 127.97563934326172
+    },
+    {
+      "index": 10,
+      "filename": "adjusted_10.f32",
+      "changed_samples": 4809,
+      "max_delta_m": 37.21361541748047
+    },
+    {
+      "index": 11,
+      "filename": "adjusted_11.f32",
+      "changed_samples": 90,
+      "max_delta_m": 36.15252685546875
+    }
+  ],
+  "dem_full_weight_fraction": 0.37930314866136494,
+  "status": "prepared, not yet applied"
+}

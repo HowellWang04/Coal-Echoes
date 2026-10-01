@@ -1,0 +1,51 @@
+var scene=UnityEngine.SceneManagement.SceneManager.GetSceneByPath("Assets/Scenes/Main Game Scene.unity");
+var mm=UnityEngine.Object.FindObjectsByType<MapMagic.Core.MapMagicObject>(UnityEngine.FindObjectsInactive.Include).Single(x=>x.gameObject.scene==scene);
+if(mm.IsGenerating() || Den.Tools.Tasks.CoroutineManager.IsWorking) throw new System.Exception("Wait for terrain generation");
+var dir="TerrainReferences/SheepRange_USGS_1m/";
+var plan=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(dir+"ridge_extension.json"));
+if((string)plan["status"]!="prepared") throw new System.Exception("Extension already started");
+var before=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(dir+"ridge_extension_before.json"));
+var original=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(dir+"ridge_revision_before.json"))["result"];
+var group=scene.GetRootGameObjects().Single(x=>x.name=="In-scene Objects").GetComponentsInChildren<UnityEngine.Transform>(true).Single(x=>x.name=="索道群");
+UnityEngine.Vector3 Vec(Newtonsoft.Json.Linq.JToken a)=>new UnityEngine.Vector3((float)a[0],(float)a[1],(float)a[2]);
+UnityEngine.Quaternion Rot(Newtonsoft.Json.Linq.JToken a)=>new UnityEngine.Quaternion((float)a[0],(float)a[1],(float)a[2],(float)a[3]);
+foreach(var p in plan["towers"]){
+    var name=(string)p["name"];var saved=before["towers"].Single(t=>(string)t["name"]==name);var now=group.Cast<UnityEngine.Transform>().Single(t=>t.name==name);
+    if(UnityEngine.Vector3.Distance(now.position,Vec(saved["pos"]))>.01f) throw new System.Exception("Tower changed since survey "+name);
+}
+// Record actual cable offsets before moving any tower. Mesh vertices are local to cable objects.
+var first=group.Cast<UnityEngine.Transform>().Single(t=>t.name=="tajia03");
+var offsets=new Newtonsoft.Json.Linq.JArray();
+for(int i=0;i<2;i++){
+    var cable=group.Cast<UnityEngine.Transform>().Single(t=>t.name=="Cable route "+(i+1));
+    var mesh=UnityEditor.AssetDatabase.LoadAssetAtPath<UnityEngine.Mesh>("Assets/TerrainData/SheepRangeDEM/Cable_"+i+".asset");
+    var localHead=mesh.vertices.Take(6).Aggregate(UnityEngine.Vector3.zero,(sum,v)=>sum+v)/6;
+    var offset=UnityEngine.Quaternion.Inverse(first.rotation)*(cable.TransformPoint(localHead)-first.position);offset.y=0;
+    offsets.Add(new Newtonsoft.Json.Linq.JArray(offset.x,offset.y,offset.z));
+}
+plan["cable_local_offsets"]=offsets;
+UnityEditor.Undo.RecordObject(mm,"Extend ridge cableway locks");
+foreach(var lk in mm.locks) if(lk.guiName.StartsWith("Ridge footing ")) lk.locked=false;
+var points=plan["towers"].ToArray();
+for(int i=0;i<points.Length;i++){
+    var p=points[i];var name=(string)p["name"];var tr=group.Cast<UnityEngine.Transform>().Single(t=>t.name==name);
+    var saved=original["towers"].FirstOrDefault(t=>(string)t["name"]==name) ?? original["towers"].Single(t=>(string)t["name"]=="tajia03");
+    var prev=points[System.Math.Max(0,i-1)]["xz"];var next=points[System.Math.Min(points.Length-1,i+1)]["xz"];
+    float heading=UnityEngine.Mathf.Atan2((float)next[0]-(float)prev[0],(float)next[1]-(float)prev[1])*UnityEngine.Mathf.Rad2Deg;
+    UnityEditor.Undo.RecordObject(tr,"Redistribute cableway tower along ridge");
+    tr.rotation=UnityEngine.Quaternion.Euler(0,heading+75,0)*Rot(saved["rotation"]);
+    tr.position=new UnityEngine.Vector3((float)p["xz"][0],(float)p["ground_y"],(float)p["xz"][1]);
+    float bottom=tr.GetComponentsInChildren<UnityEngine.Renderer>().Min(r=>r.bounds.min.y);
+    tr.position+=UnityEngine.Vector3.up*((float)p["ground_y"]-bottom);
+}
+foreach(var t in group.Cast<UnityEngine.Transform>().Where(t=>t.name.StartsWith("Cable route"))) t.gameObject.SetActive(false);
+System.IO.File.Copy(dir+"ridge_extension_height.raw","Assets/TerrainData/SheepRangeDEM/SheepRange_Height.raw",true);
+var asset=UnityEditor.AssetDatabase.LoadAssetAtPath<Den.Tools.MatrixAsset>("Assets/TerrainData/SheepRangeDEM/SheepRange_Height.asset");
+Den.Tools.MatrixAsset.ImportRaw(ref asset.matrix,asset.rawPath);
+UnityEditor.EditorUtility.SetDirty(asset);
+foreach(var node in mm.graph.GeneratorsOfType<MapMagic.Nodes.MatrixGenerators.Import200>()) if(node.matrixAsset==asset) node.version++;
+UnityEditor.EditorUtility.SetDirty(mm.graph);UnityEditor.EditorUtility.SetDirty(mm);
+UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(scene);
+plan["status"]="objects moved and regeneration requested";System.IO.File.WriteAllText(dir+"ridge_extension.json",plan.ToString());
+mm.Refresh(true);
+return new { towers=points.Length,fixedHorizontalPositions=4,generationRequested=true };

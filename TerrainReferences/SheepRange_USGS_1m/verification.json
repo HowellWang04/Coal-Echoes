@@ -1,0 +1,19 @@
+{
+  "main_seams_checked": 24,
+  "max_main_seam_error_m": 0,
+  "cable_ground_samples": 4320,
+  "min_cable_clearance_m": 18.197815860152275,
+  "factory_sample_count": 600,
+  "factory_elevation_range_m": [
+    -566.3754882812501,
+    -566.3754882812499
+  ],
+  "factory_max_deviation_m": 0.011596679687613687,
+  "final_scene_saved": true,
+  "saved_terrain_assets": 46,
+  "unsaved_terrain_assets": 0,
+  "final_console_errors": 0,
+  "final_compilation_failed": false,
+  "play_mode_verified": false,
+  "save_note": "CLI timed out after 5 seconds, but saving continued and was independently confirmed complete. No repeat save was needed."
+}

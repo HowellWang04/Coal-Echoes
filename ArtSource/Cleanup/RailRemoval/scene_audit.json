@@ -1,0 +1,178 @@
+[
+  {
+    "path": "Assets/Scenes/Main Game Scene.unity",
+    "dirty": true,
+    "matchingObjects": 392,
+    "instances": 78,
+    "roots": [
+      {
+        "name": "SM_Rails",
+        "hierarchy": "In-scene Objects/工厂建筑群/SM_Rails",
+        "descendants": 197,
+        "nonMatchingDescendants": [
+          "rails"
+        ]
+      },
+      {
+        "name": "SM_Rails (1)",
+        "hierarchy": "In-scene Objects/工厂建筑群/SM_Rails (1)",
+        "descendants": 197,
+        "nonMatchingDescendants": [
+          "rails"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/Scene/URP_Overview.unity",
+    "dirty": false,
+    "matchingObjects": 5,
+    "instances": 1,
+    "roots": [
+      {
+        "name": "SM_Rails40",
+        "hierarchy": "Meshes/SM_Rails40",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      }
+    ]
+  },
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Scene/HDRP_Overview.unity",
+    "dirty": false,
+    "matchingObjects": 5,
+    "instances": 1,
+    "roots": [
+      {
+        "name": "SM_Rails40",
+        "hierarchy": "Meshes/SM_Rails40",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      }
+    ]
+  },
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/Scene/URP_Industrial_Harbour.unity",
+    "dirty": false,
+    "matchingObjects": 196,
+    "instances": 39,
+    "roots": [
+      {
+        "name": "SM_Rails",
+        "hierarchy": "Meshes/SM_Rails",
+        "descendants": 156,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails34",
+        "hierarchy": "Meshes/rails/SM_Rails34",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails33",
+        "hierarchy": "Meshes/rails/SM_Rails33",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails32",
+        "hierarchy": "Meshes/rails/SM_Rails32",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails31",
+        "hierarchy": "Meshes/rails/SM_Rails31",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails18",
+        "hierarchy": "Meshes/SM_Rails18",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails30",
+        "hierarchy": "Meshes/SM_Rails30",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails29",
+        "hierarchy": "Meshes/SM_Rails29",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails28",
+        "hierarchy": "Meshes/SM_Rails28",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      }
+    ]
+  },
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/Industrial_Harbour/HDRP/Scene/HDRP_Industrial_Harbour.unity",
+    "dirty": false,
+    "matchingObjects": 196,
+    "instances": 39,
+    "roots": [
+      {
+        "name": "SM_Rails",
+        "hierarchy": "Meshes/SM_Rails",
+        "descendants": 156,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails34",
+        "hierarchy": "Meshes/rails/SM_Rails34",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails33",
+        "hierarchy": "Meshes/rails/SM_Rails33",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails32",
+        "hierarchy": "Meshes/rails/SM_Rails32",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails31",
+        "hierarchy": "Meshes/rails/SM_Rails31",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails18",
+        "hierarchy": "Meshes/SM_Rails18",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails30",
+        "hierarchy": "Meshes/SM_Rails30",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails29",
+        "hierarchy": "Meshes/SM_Rails29",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      },
+      {
+        "name": "SM_Rails28",
+        "hierarchy": "Meshes/SM_Rails28",
+        "descendants": 5,
+        "nonMatchingDescendants": []
+      }
+    ]
+  }
+]
