@@ -1,0 +1,2002 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "dirty": true,
+  "objects": [
+    {
+      "name": "CablewayTower_01",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_01",
+      "pos": [
+        -2426.041,
+        -426.752319,
+        -1941.993
+      ],
+      "rot": [
+        0.0,
+        160.5763,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2431.10913,
+        -430.549927,
+        -1944.64893
+      ],
+      "max": [
+        -2423.03979,
+        -416.919739,
+        -1934.04248
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_01/CablewayTower",
+      "pos": [
+        -2426.041,
+        -426.752319,
+        -1941.993
+      ],
+      "rot": [
+        0.0,
+        160.5763,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2428.85571,
+        -426.877319,
+        -1944.64893
+      ],
+      "max": [
+        -2423.03979,
+        -418.752319,
+        -1939.86548
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayEntryTower.fbx",
+      "vertices": 29605
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_01/CoalBucket",
+      "pos": [
+        -2430.30054,
+        -416.979736,
+        -1935.01831
+      ],
+      "rot": [
+        0.0,
+        342.7437,
+        0.0
+      ],
+      "scale": [
+        1.00000024,
+        1.0,
+        1.00000024
+      ],
+      "min": [
+        -2431.10913,
+        -419.596741,
+        -1935.99426
+      ],
+      "max": [
+        -2429.492,
+        -416.919739,
+        -1934.04236
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayTower_10",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_10",
+      "pos": [
+        -2750.0,
+        -209.487183,
+        -915.0
+      ],
+      "rot": [
+        0.0,
+        159.33873,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2754.05176,
+        -213.855774,
+        -918.0433
+      ],
+      "max": [
+        -2746.58,
+        -193.018433,
+        -906.9063
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_10/CablewayTower",
+      "pos": [
+        -2750.0,
+        -209.487183,
+        -915.0
+      ],
+      "rot": [
+        0.0,
+        159.33873,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2753.12915,
+        -209.612183,
+        -918.0433
+      ],
+      "max": [
+        -2746.57983,
+        -194.487183,
+        -912.728455
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "vertices": 52732
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_10/CoalBucket",
+      "pos": [
+        -2753.32324,
+        -193.07843,
+        -907.8387
+      ],
+      "rot": [
+        0.0,
+        349.543884,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -2754.05176,
+        -195.695435,
+        -908.771057
+      ],
+      "max": [
+        -2752.59473,
+        -193.018433,
+        -906.9063
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayTower_08",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_08",
+      "pos": [
+        -2670.0,
+        -274.5232,
+        -1120.0
+      ],
+      "rot": [
+        0.0,
+        170.067566,
+        0.0
+      ],
+      "scale": [
+        1.00000036,
+        1.0,
+        1.00000036
+      ],
+      "min": [
+        -2675.07153,
+        -281.3438,
+        -1122.64014
+      ],
+      "max": [
+        -2666.83423,
+        -256.1524,
+        -1111.70947
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_08/CablewayTower",
+      "pos": [
+        -2670.0,
+        -274.5232,
+        -1120.0
+      ],
+      "rot": [
+        0.0,
+        170.067566,
+        0.0
+      ],
+      "scale": [
+        1.00000036,
+        1.0,
+        1.00000036
+      ],
+      "min": [
+        -2673.02368,
+        -274.6482,
+        -1122.64026
+      ],
+      "max": [
+        -2666.83423,
+        -259.5232,
+        -1118.172
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "vertices": 52732
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_08/CoalBucket",
+      "pos": [
+        -2674.269,
+        -256.2124,
+        -1112.68237
+      ],
+      "rot": [
+        0.0,
+        343.300842,
+        0.0
+      ],
+      "scale": [
+        1.00000036,
+        1.0,
+        1.00000036
+      ],
+      "min": [
+        -2675.07153,
+        -258.8294,
+        -1113.65527
+      ],
+      "max": [
+        -2673.46655,
+        -256.1524,
+        -1111.70947
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayTower_05",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_05",
+      "pos": [
+        -2520.0,
+        -326.7932,
+        -1480.0
+      ],
+      "rot": [
+        0.0,
+        153.064224,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2527.731,
+        -332.6148,
+        -1483.23022
+      ],
+      "max": [
+        -2516.48584,
+        -311.10376,
+        -1473.61255
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_05/CablewayTower",
+      "pos": [
+        -2520.0,
+        -326.7932,
+        -1480.0
+      ],
+      "rot": [
+        0.0,
+        153.064224,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2523.14038,
+        -326.9182,
+        -1483.23022
+      ],
+      "max": [
+        -2516.486,
+        -311.7932,
+        -1477.50488
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "vertices": 52732
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_05/CoalBucket",
+      "pos": [
+        -2526.75024,
+        -311.163757,
+        -1474.63477
+      ],
+      "rot": [
+        0.0,
+        321.619659,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2527.731,
+        -313.780762,
+        -1475.65686
+      ],
+      "max": [
+        -2525.76953,
+        -311.10376,
+        -1473.61267
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayTower_06",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_06",
+      "pos": [
+        -2615.0,
+        -302.4101,
+        -1360.0
+      ],
+      "rot": [
+        0.0,
+        145.827347,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2620.87061,
+        -309.086121,
+        -1363.398
+      ],
+      "max": [
+        -2611.43018,
+        -287.4101,
+        -1352.84326
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_06/CablewayTower",
+      "pos": [
+        -2615.0,
+        -302.4101,
+        -1360.0
+      ],
+      "rot": [
+        0.0,
+        145.827347,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2618.10645,
+        -302.5351,
+        -1363.398
+      ],
+      "max": [
+        -2611.43018,
+        -287.4101,
+        -1357.28442
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "vertices": 52732
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_06/CoalBucket",
+      "pos": [
+        -2619.988,
+        -287.603973,
+        -1353.851
+      ],
+      "rot": [
+        0.0,
+        335.3765,
+        0.0
+      ],
+      "scale": [
+        1.00000024,
+        1.0,
+        1.00000024
+      ],
+      "min": [
+        -2620.87036,
+        -290.220978,
+        -1354.85864
+      ],
+      "max": [
+        -2619.10571,
+        -287.543976,
+        -1352.84326
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayTower_07",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_07",
+      "pos": [
+        -2670.0,
+        -294.9862,
+        -1240.0
+      ],
+      "rot": [
+        0.0,
+        164.925323,
+        0.0
+      ],
+      "scale": [
+        1.00000072,
+        1.0,
+        1.00000072
+      ],
+      "min": [
+        -2673.088,
+        -300.4615,
+        -1242.846
+      ],
+      "max": [
+        -2666.69775,
+        -279.2011,
+        -1231.67993
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_07/CablewayTower",
+      "pos": [
+        -2670.0,
+        -294.9862,
+        -1240.0
+      ],
+      "rot": [
+        0.0,
+        164.925323,
+        0.0
+      ],
+      "scale": [
+        1.00000072,
+        1.0,
+        1.00000072
+      ],
+      "min": [
+        -2673.088,
+        -295.1112,
+        -1242.846
+      ],
+      "max": [
+        -2666.69775,
+        -279.9862,
+        -1237.95044
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "vertices": 52732
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_07/CoalBucket",
+      "pos": [
+        -2671.93384,
+        -279.2611,
+        -1232.52014
+      ],
+      "rot": [
+        0.0,
+        359.981384,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2672.51978,
+        -281.8781,
+        -1233.36035
+      ],
+      "max": [
+        -2671.348,
+        -279.2011,
+        -1231.67993
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayTower_11",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_11",
+      "pos": [
+        -2768.246,
+        -183.774719,
+        -815.963
+      ],
+      "rot": [
+        0.0,
+        167.393875,
+        0.0
+      ],
+      "scale": [
+        1.0000006,
+        1.0,
+        1.0000006
+      ],
+      "min": [
+        -2771.30615,
+        -188.548615,
+        -825.199
+      ],
+      "max": [
+        -2765.00586,
+        -168.774719,
+        -813.856445
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_11/CablewayTower",
+      "pos": [
+        -2768.246,
+        -183.774719,
+        -815.963
+      ],
+      "rot": [
+        0.0,
+        167.393875,
+        0.0
+      ],
+      "scale": [
+        1.0000006,
+        1.0,
+        1.0000006
+      ],
+      "min": [
+        -2771.30615,
+        -183.899719,
+        -818.713
+      ],
+      "max": [
+        -2765.00586,
+        -168.774719,
+        -814.0178
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "vertices": 52732
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_11/CoalBucket",
+      "pos": [
+        -2768.746,
+        -171.439941,
+        -824.266663
+      ],
+      "rot": [
+        0.0,
+        169.5439,
+        0.0
+      ],
+      "scale": [
+        1.000001,
+        1.0,
+        1.000001
+      ],
+      "min": [
+        -2769.47461,
+        -174.056946,
+        -825.199
+      ],
+      "max": [
+        -2768.01758,
+        -171.379944,
+        -823.3342
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayTower_03",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_03",
+      "pos": [
+        -2481.59814,
+        -368.4083,
+        -1763.14124
+      ],
+      "rot": [
+        0.0,
+        166.406036,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2485.354,
+        -373.169617,
+        -1765.93018
+      ],
+      "max": [
+        -2478.33252,
+        -351.931946,
+        -1754.77588
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_03/CablewayTower",
+      "pos": [
+        -2481.59814,
+        -368.4083,
+        -1763.14124
+      ],
+      "rot": [
+        0.0,
+        166.406036,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2484.67,
+        -368.5333,
+        -1765.93018
+      ],
+      "max": [
+        -2478.33252,
+        -353.4083,
+        -1761.15381
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "vertices": 52732
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_03/CoalBucket",
+      "pos": [
+        -2484.65674,
+        -351.991943,
+        -1755.68933
+      ],
+      "rot": [
+        0.0,
+        351.9906,
+        0.0
+      ],
+      "scale": [
+        1.00000012,
+        1.0,
+        1.00000012
+      ],
+      "min": [
+        -2485.35376,
+        -354.608948,
+        -1756.60278
+      ],
+      "max": [
+        -2483.95972,
+        -351.931946,
+        -1754.77588
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayTower_02",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_02",
+      "pos": [
+        -2452.7395,
+        -406.8198,
+        -1856.044
+      ],
+      "rot": [
+        0.0,
+        160.576248,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2457.80713,
+        -426.266785,
+        -1965.55444
+      ],
+      "max": [
+        -2427.83643,
+        -389.233826,
+        -1848.09326
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "CoalBucket (1)",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_02/CablewayTower",
+      "pos": [
+        -2452.7395,
+        -406.8198,
+        -1856.044
+      ],
+      "rot": [
+        0.0,
+        160.576248,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2455.862,
+        -406.9448,
+        -1859.0459
+      ],
+      "max": [
+        -2449.34253,
+        -391.8198,
+        -1853.81982
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "vertices": 52732
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_02/CoalBucket",
+      "pos": [
+        -2456.99854,
+        -389.293854,
+        -1849.06921
+      ],
+      "rot": [
+        0.0,
+        342.745026,
+        0.0
+      ],
+      "scale": [
+        1.00000012,
+        1.0,
+        1.00000012
+      ],
+      "min": [
+        -2457.80713,
+        -391.910858,
+        -1850.04517
+      ],
+      "max": [
+        -2456.19,
+        -389.233856,
+        -1848.09326
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayTower_04",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_04",
+      "pos": [
+        -2504.668,
+        -326.1514,
+        -1599.12537
+      ],
+      "rot": [
+        0.0,
+        170.108948,
+        0.0
+      ],
+      "scale": [
+        1.0000006,
+        1.0,
+        1.0000006
+      ],
+      "min": [
+        -2508.33936,
+        -331.927429,
+        -1601.76416
+      ],
+      "max": [
+        -2501.50342,
+        -311.151428,
+        -1590.626
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_04/CablewayTower",
+      "pos": [
+        -2504.668,
+        -326.1514,
+        -1599.12537
+      ],
+      "rot": [
+        0.0,
+        170.108948,
+        0.0
+      ],
+      "scale": [
+        1.0000006,
+        1.0,
+        1.0000006
+      ],
+      "min": [
+        -2507.691,
+        -326.2764,
+        -1601.764
+      ],
+      "max": [
+        -2501.50342,
+        -311.1514,
+        -1597.29919
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "vertices": 52732
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_04/CoalBucket",
+      "pos": [
+        -2507.65186,
+        -311.831268,
+        -1591.53345
+      ],
+      "rot": [
+        0.0,
+        352.720551,
+        0.0
+      ],
+      "scale": [
+        1.00000036,
+        1.0,
+        1.00000036
+      ],
+      "min": [
+        -2508.33936,
+        -314.448273,
+        -1592.44092
+      ],
+      "max": [
+        -2506.96436,
+        -311.771271,
+        -1590.626
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayTower_09",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_09",
+      "pos": [
+        -2700.0,
+        -223.3298,
+        -1019.99988
+      ],
+      "rot": [
+        0.0,
+        156.514816,
+        0.0
+      ],
+      "scale": [
+        1.00000036,
+        1.0,
+        1.00000036
+      ],
+      "min": [
+        -2706.16357,
+        -230.1691,
+        -1023.13196
+      ],
+      "max": [
+        -2696.53271,
+        -207.953979,
+        -1012.5636
+      ],
+      "children": [
+        "CablewayTower",
+        "CoalBucket",
+        "LegExtensions",
+        "Piers"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayTower",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_09/CablewayTower",
+      "pos": [
+        -2700.0,
+        -223.3298,
+        -1019.99988
+      ],
+      "rot": [
+        0.0,
+        156.514816,
+        0.0
+      ],
+      "scale": [
+        1.00000036,
+        1.0,
+        1.00000036
+      ],
+      "min": [
+        -2703.139,
+        -223.4548,
+        -1023.13196
+      ],
+      "max": [
+        -2696.53247,
+        -208.3298,
+        -1017.62415
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "vertices": 52732
+    },
+    {
+      "name": "CoalBucket",
+      "path": "In-scene Objects/索道群/塔架/CablewayTower_09/CoalBucket",
+      "pos": [
+        -2705.27368,
+        -208.013977,
+        -1013.57379
+      ],
+      "rot": [
+        0.0,
+        334.539551,
+        0.0
+      ],
+      "scale": [
+        1.00000012,
+        1.0,
+        1.00000012
+      ],
+      "min": [
+        -2706.16357,
+        -210.630981,
+        -1014.584
+      ],
+      "max": [
+        -2704.38379,
+        -207.953979,
+        -1012.5636
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayCoalBucket.fbx",
+      "vertices": 2286
+    },
+    {
+      "name": "CablewayFoothillStation",
+      "path": "In-scene Objects/索道群/站房/CablewayFoothillStation",
+      "pos": [
+        -2412.692,
+        -423.765839,
+        -1984.96741
+      ],
+      "rot": [
+        0.0,
+        22.89122,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -2421.80176,
+        -424.250183,
+        -1988.81616
+      ],
+      "max": [
+        -2405.567,
+        -418.7752,
+        -1972.7395
+      ],
+      "children": [
+        "CablewayStationShell_LineA",
+        "CablewayStationShell_LineB",
+        "CablewayStationRollerFrame_LineA",
+        "CablewayStationRollerFrame_LineB",
+        "CablewayReturnTerminal"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayStationShell_LineA",
+      "path": "In-scene Objects/索道群/站房/CablewayFoothillStation/CablewayStationShell_LineA",
+      "pos": [
+        -2418.38721,
+        -423.935852,
+        -1981.61816
+      ],
+      "rot": [
+        0.0,
+        342.715118,
+        0.0
+      ],
+      "scale": [
+        1.00000012,
+        1.0,
+        1.00000012
+      ],
+      "min": [
+        -2421.802,
+        -424.055847,
+        -1987.59814
+      ],
+      "max": [
+        -2414.971,
+        -419.1245,
+        -1975.67432
+      ],
+      "children": [
+        "ConcretePlinth",
+        "CorrugatedWalls",
+        "PlatesAndFasteners",
+        "SingleSlopeRoof",
+        "StructuralSteel",
+        "WalkwayGrating"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayStationShell_LineB",
+      "path": "In-scene Objects/索道群/站房/CablewayFoothillStation/CablewayStationShell_LineB",
+      "pos": [
+        -2408.97925,
+        -423.935852,
+        -1978.7196
+      ],
+      "rot": [
+        0.0,
+        162.743561,
+        0.0
+      ],
+      "scale": [
+        1.00000048,
+        1.0,
+        1.00000048
+      ],
+      "min": [
+        -2412.393,
+        -424.055847,
+        -1984.66309
+      ],
+      "max": [
+        -2405.567,
+        -419.1245,
+        -1972.7395
+      ],
+      "children": [
+        "ConcretePlinth",
+        "CorrugatedWalls",
+        "PlatesAndFasteners",
+        "SingleSlopeRoof",
+        "StructuralSteel",
+        "WalkwayGrating"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "CablewayStationRollerFrame_LineA",
+      "path": "In-scene Objects/索道群/站房/CablewayFoothillStation/CablewayStationRollerFrame_LineA",
+      "pos": [
+        -2416.975,
+        -423.8502,
+        -1977.9209
+      ],
+      "rot": [
+        0.0,
+        342.743561,
+        0.0
+      ],
+      "scale": [
+        1.00000012,
+        1.0,
+        1.00000012
+      ],
+      "min": [
+        -2417.93213,
+        -423.850159,
+        -1979.78
+      ],
+      "max": [
+        -2416.018,
+        -419.0152,
+        -1976.06177
+      ],
+      "children": [
+        "AxleHardware",
+        "BearingHousings",
+        "ConcreteFooting_Front",
+        "ConcreteFooting_Rear",
+        "ConnectionPlates",
+        "Fasteners",
+        "PortalSteelwork",
+        "RollerCradle",
+        "Sheave_01",
+        "Sheave_02",
+        "Sheave_03"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "ConcreteFooting_Front",
+      "path": "In-scene Objects/索道群/站房/CablewayFoothillStation/CablewayStationRollerFrame_LineA/ConcreteFooting_Front",
+      "pos": [
+        -2416.975,
+        -423.8502,
+        -1977.9209
+      ],
+      "rot": [
+        270.0,
+        342.743561,
+        0.0
+      ],
+      "scale": [
+        100.000008,
+        100.000023,
+        100.000015
+      ],
+      "min": [
+        -2417.93213,
+        -423.8502,
+        -1977.106
+      ],
+      "max": [
+        -2416.84863,
+        -423.390167,
+        -1976.06177
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/CablewayStationRollerFrame.fbx",
+      "vertices": 264
+    },
+    {
+      "name": "ConcreteFooting_Rear",
+      "path": "In-scene Objects/索道群/站房/CablewayFoothillStation/CablewayStationRollerFrame_LineA/ConcreteFooting_Rear",
+      "pos": [
+        -2416.975,
+        -423.8502,
+        -1977.9209
+      ],
+      "rot": [
+        270.0,
+        342.743561,
+        0.0
+      ],
+      "scale": [
+        100.000008,
+        100.000023,
+        100.000015
+      ],
+      "min": [
+        -2417.10156,
+        -423.8502,
+        -1979.78
+      ],
+      "max": [
+        -2416.018,
+        -423.390167,
+        -1978.73584
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/CablewayStationRollerFrame.fbx",
+      "vertices": 264
+    },
+    {
+      "name": "CablewayStationRollerFrame_LineB",
+      "path": "In-scene Objects/索道群/站房/CablewayFoothillStation/CablewayStationRollerFrame_LineB",
+      "pos": [
+        -2413.15527,
+        -423.8502,
+        -1976.73438
+      ],
+      "rot": [
+        0.0,
+        342.743561,
+        0.0
+      ],
+      "scale": [
+        1.00000012,
+        1.0,
+        1.00000012
+      ],
+      "min": [
+        -2414.1123,
+        -423.850159,
+        -1978.59351
+      ],
+      "max": [
+        -2412.19824,
+        -419.0152,
+        -1974.87524
+      ],
+      "children": [
+        "AxleHardware",
+        "BearingHousings",
+        "ConcreteFooting_Front",
+        "ConcreteFooting_Rear",
+        "ConnectionPlates",
+        "Fasteners",
+        "PortalSteelwork",
+        "RollerCradle",
+        "Sheave_01",
+        "Sheave_02",
+        "Sheave_03"
+      ],
+      "mesh": null,
+      "vertices": 0
+    },
+    {
+      "name": "ConcreteFooting_Front",
+      "path": "In-scene Objects/索道群/站房/CablewayFoothillStation/CablewayStationRollerFrame_LineB/ConcreteFooting_Front",
+      "pos": [
+        -2413.15527,
+        -423.8502,
+        -1976.73438
+      ],
+      "rot": [
+        270.0,
+        342.743561,
+        0.0
+      ],
+      "scale": [
+        100.000008,
+        100.000008,
+        99.99999
+      ],
+      "min": [
+        -2414.1123,
+        -423.8502,
+        -1975.91943
+      ],
+      "max": [
+        -2413.02881,
+        -423.390167,
+        -1974.87524
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/CablewayStationRollerFrame.fbx",
+      "vertices": 264
+    },
+    {
+      "name": "ConcreteFooting_Rear",
+      "path": "In-scene Objects/索道群/站房/CablewayFoothillStation/CablewayStationRollerFrame_LineB/ConcreteFooting_Rear",
+      "pos": [
+        -2413.15527,
+        -423.8502,
+        -1976.73438
+      ],
+      "rot": [
+        270.0,
+        342.743561,
+        0.0
+      ],
+      "scale": [
+        100.000008,
+        100.000008,
+        99.99999
+      ],
+      "min": [
+        -2413.28174,
+        -423.8502,
+        -1978.59351
+      ],
+      "max": [
+        -2412.19824,
+        -423.390167,
+        -1977.54932
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayStationRollerFrame/CablewayStationRollerFrame.fbx",
+      "vertices": 264
+    },
+    {
+      "name": "CablewayReturnTerminal",
+      "path": "In-scene Objects/索道群/站房/CablewayFoothillStation/CablewayReturnTerminal",
+      "pos": [
+        -2415.06519,
+        -423.8502,
+        -1977.32764
+      ],
+      "rot": [
+        0.0,
+        162.743881,
+        0.0
+      ],
+      "scale": [
+        1.00000012,
+        1.0,
+        1.00000012
+      ],
+      "min": [
+        -2417.8833,
+        -424.250183,
+        -1988.81628
+      ],
+      "max": [
+        -2408.84326,
+        -418.7752,
+        -1976.79749
+      ],
+      "children": [],
+      "mesh": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayReturnTerminal.fbx",
+      "vertices": 12504
+    }
+  ],
+  "terrains": [
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Main.asset",
+      "pos": [
+        -2924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_2_Main.asset",
+      "pos": [
+        -4924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-3_Draft.asset",
+      "pos": [
+        -3924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_1_Main.asset",
+      "pos": [
+        -3924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_0_2_Main.asset",
+      "pos": [
+        -2924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-1_Main.asset",
+      "pos": [
+        -924.0005,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-2_Main.asset",
+      "pos": [
+        -3924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-2_Draft.asset",
+      "pos": [
+        75.99951,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_3_1_Draft.asset",
+      "pos": [
+        75.99951,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-3_Draft.asset",
+      "pos": [
+        -4924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-3_Draft.asset",
+      "pos": [
+        75.99951,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_2_1_Main.asset",
+      "pos": [
+        -924.0005,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Vanilla Terrain",
+      "asset": "Assets/TerrainData/MainGameScene/Terrain_11_c64c588a.asset",
+      "pos": [
+        0.000122070313,
+        0.0,
+        0.000366210938
+      ],
+      "size": [
+        1000.0,
+        600.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-2_Draft.asset",
+      "pos": [
+        -4924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_3_2_Main.asset",
+      "pos": [
+        75.99951,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_2_2_Main.asset",
+      "pos": [
+        -924.0005,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_2_0_Main.asset",
+      "pos": [
+        -924.0005,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-1_Main.asset",
+      "pos": [
+        -3924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_0_Draft.asset",
+      "pos": [
+        -4924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_0_0_Main.asset",
+      "pos": [
+        -2924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-3_Draft.asset",
+      "pos": [
+        -1924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_1_0_Main.asset",
+      "pos": [
+        -1924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_1_1_Main.asset",
+      "pos": [
+        -1924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_3_0_Draft.asset",
+      "pos": [
+        75.99951,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-3_Draft.asset",
+      "pos": [
+        -924.0005,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_1_Draft.asset",
+      "pos": [
+        -4924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Main.asset",
+      "pos": [
+        -1924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-3_Draft.asset",
+      "pos": [
+        -2924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Main.asset",
+      "pos": [
+        -2924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-1_Draft.asset",
+      "pos": [
+        75.99951,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Draft Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-1_Draft.asset",
+      "pos": [
+        -4924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_1_2_Main.asset",
+      "pos": [
+        -1924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_0_Main.asset",
+      "pos": [
+        -3924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_0_1_Main.asset",
+      "pos": [
+        -2924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-2_Main.asset",
+      "pos": [
+        -924.0005,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_2_Main.asset",
+      "pos": [
+        -3924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "name": "Main Terrain",
+      "asset": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Main.asset",
+      "pos": [
+        -1924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    }
+  ]
+}

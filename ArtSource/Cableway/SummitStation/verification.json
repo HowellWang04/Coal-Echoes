@@ -1,0 +1,51 @@
+{
+  "station": "In-scene Objects/索道群/站房/CablewaySummitStation",
+  "oldTowerAbsent": true,
+  "towerCount": 10,
+  "originalBucketCount": 12,
+  "bucketCount": 12,
+  "stationRenderers": 37,
+  "missingScripts": 0,
+  "unexpectedSceneChanges": [],
+  "terrainAssetsChecked": 58,
+  "terrainChanges": [],
+  "badAssets": [],
+  "cables": [
+    {
+      "asset": "Assets/TerrainData/SheepRangeDEM/Cable_0.asset",
+      "preservedVertexCount": 3408,
+      "maximumPreservedVertexDisplacement": 0.0,
+      "rollerErrors": [
+        0.000122070313,
+        0.000122070313,
+        0.000305175781
+      ],
+      "vertexCount": 5720
+    },
+    {
+      "asset": "Assets/TerrainData/SheepRangeDEM/Cable_1.asset",
+      "preservedVertexCount": 3216,
+      "maximumPreservedVertexDisplacement": 0.0,
+      "rollerErrors": [
+        0.000122070313,
+        0.000272957521,
+        0.000183105469
+      ],
+      "vertexCount": 5128
+    }
+  ],
+  "summitJoinDistance": 6.10351563E-05,
+  "foothillJoinDistance": 0.000122070313,
+  "buckets": [
+    {
+      "name": "In-scene Objects/索道群/塔架/CablewayTower_10/CoalBucket",
+      "ropeOffset": 6.10351563E-05
+    },
+    {
+      "name": "In-scene Objects/索道群/站房/CablewaySummitStation/CoalBucket_Approach",
+      "ropeOffset": 0.000258950226
+    }
+  ],
+  "sceneSaved": true,
+  "playModeRun": false
+}

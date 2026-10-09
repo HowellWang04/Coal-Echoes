@@ -1,0 +1,15 @@
+var scene = UnityEngine.SceneManagement.SceneManager.GetSceneByPath("Assets/Scenes/Main Game Scene.unity");
+if (!scene.isLoaded || EditorApplication.isPlaying) throw new Exception("Main scene must be in edit mode.");
+var dir = "ArtSource/Cableway/SummitStation/Before";
+System.IO.Directory.CreateDirectory(dir);
+if (System.IO.File.Exists(dir + "/Main Game Scene.live.unity")) throw new Exception("Backup already exists.");
+System.IO.File.Copy(scene.path, dir + "/Main Game Scene.disk.unity");
+if (!UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene, dir + "/Main Game Scene.live.unity", true)) throw new Exception("Live scene backup failed.");
+foreach (var name in new[] { "Cable_0.asset", "Cable_1.asset" }) System.IO.File.Copy("Assets/TerrainData/SheepRangeDEM/" + name, dir + "/" + name);
+var all = scene.GetRootGameObjects().SelectMany(g => g.GetComponentsInChildren<Transform>(true)).ToArray();
+float[] V(Vector3 p) => new[] {p.x,p.y,p.z};
+var transforms = all.Select(t => new { id=GlobalObjectId.GetGlobalObjectIdSlow(t).ToString(),path=AnimationUtility.CalculateTransformPath(t,null),pos=V(t.position),rot=V(t.eulerAngles),scale=V(t.lossyScale),active=t.gameObject.activeSelf }).ToArray();
+var renderers = all.SelectMany(t=>t.GetComponents<Renderer>()).Select(r=>new {path=AnimationUtility.CalculateTransformPath(r.transform,null), materials=r.sharedMaterials.Select(m=>AssetDatabase.GetAssetPath(m)).ToArray()}).ToArray();
+var terrains=System.IO.Directory.GetFiles("Assets/TerrainData/SheepRangeGenerated","*.asset").Select(p=>new {path=p,hash=BitConverter.ToString(System.Security.Cryptography.SHA256.Create().ComputeHash(System.IO.File.ReadAllBytes(p))).Replace("-","")}).ToArray();
+System.IO.File.WriteAllText(dir+"/baseline.json",Newtonsoft.Json.JsonConvert.SerializeObject(new {scene=scene.path,transforms,renderers,terrains},Newtonsoft.Json.Formatting.Indented));
+return new { scene=scene.path, backup=dir, transforms=transforms.Length, terrainAssets=terrains.Length };

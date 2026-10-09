@@ -1,0 +1,46 @@
+[
+  {
+    "asset": "CablewayTower_Metric15",
+    "rotated_source_parts": 38,
+    "rotated_connected_components": 38,
+    "changed_vertices": 1024,
+    "total_vertices": 21276,
+    "unchanged_tower_maximum_displacement": 0.0,
+    "uv_hash_unchanged": true,
+    "rotation_degrees": 90,
+    "subassembly_pivots": [
+      [
+        -2,
+        0,
+        15.0
+      ],
+      [
+        2,
+        0,
+        15.0
+      ]
+    ]
+  },
+  {
+    "asset": "CablewayEntryTower",
+    "rotated_source_parts": 38,
+    "rotated_connected_components": 38,
+    "changed_vertices": 1024,
+    "total_vertices": 12140,
+    "unchanged_tower_maximum_displacement": 0.0,
+    "uv_hash_unchanged": true,
+    "rotation_degrees": 90,
+    "subassembly_pivots": [
+      [
+        -2,
+        0,
+        8.0
+      ],
+      [
+        2,
+        0,
+        8.0
+      ]
+    ]
+  }
+]

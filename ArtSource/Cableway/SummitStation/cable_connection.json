@@ -1,0 +1,51 @@
+{
+  "removedTower": "CablewayTower_11",
+  "remainingTowers": 10,
+  "minimumLastSpanRopeGroundClearance": 7.09613037,
+  "minimumLastSpanBucketGroundClearance": 4.47913027,
+  "summitJoinDistance": 0.0,
+  "meshes": [
+    {
+      "asset": "Assets/TerrainData/SheepRangeDEM/Cable_0.asset",
+      "preservedRings": 426,
+      "rings": 715,
+      "unchangedPrefix": true,
+      "first": [
+        -2410.782,
+        -419.000244,
+        -1984.37463
+      ],
+      "last": [
+        -2767.004,
+        -179.136719,
+        -811.6668
+      ]
+    },
+    {
+      "asset": "Assets/TerrainData/SheepRangeDEM/Cable_1.asset",
+      "preservedRings": 402,
+      "rings": 641,
+      "unchangedPrefix": true,
+      "first": [
+        -2410.782,
+        -419.000244,
+        -1984.37476
+      ],
+      "last": [
+        -2767.004,
+        -179.136719,
+        -811.6668
+      ]
+    }
+  ],
+  "bucket10": [
+    -2753.30566,
+    -193.841675,
+    -907.937439
+  ],
+  "bucket11": [
+    -2767.837,
+    -181.037964,
+    -829.2077
+  ]
+}

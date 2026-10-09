@@ -1,0 +1,10 @@
+{
+  "hierarchy": "场景内Object/索道群/索道移动管理",
+  "routePoints": 1354,
+  "routeLength": 2581.13184,
+  "buckets": 12,
+  "speed": 1.0,
+  "automaticStart": true,
+  "saved": true,
+  "editorPreviewRunning": false
+}

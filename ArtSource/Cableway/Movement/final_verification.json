@@ -1,0 +1,13 @@
+{
+  "hierarchy": "场景内Object/索道群/索道移动管理",
+  "buckets": 12,
+  "configured": true,
+  "auto": true,
+  "speed": 1.0,
+  "routeLength": 2581.13184,
+  "points": 1354,
+  "sceneSaved": true,
+  "preview": false,
+  "playMode": false,
+  "compileFailed": false
+}

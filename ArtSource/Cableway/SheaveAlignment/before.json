@@ -1,0 +1,182 @@
+[
+  {
+    "file": "Tajia02_Tower_Metric15.blend",
+    "scene": "Tajia02_Tower_Metric15",
+    "total_height": 15.0,
+    "sheaves": [
+      {
+        "name": "Rope sheave",
+        "position": [
+          -2.2799999713897705,
+          0.0,
+          14.779999732971191
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "axle_dot_rope": 1.0
+      },
+      {
+        "name": "Rope sheave.001",
+        "position": [
+          -1.7200000286102295,
+          0.0,
+          14.779999732971191
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "axle_dot_rope": 1.0
+      },
+      {
+        "name": "Rope sheave.002",
+        "position": [
+          1.7200000286102295,
+          0.0,
+          14.779999732971191
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "axle_dot_rope": 1.0
+      },
+      {
+        "name": "Rope sheave.003",
+        "position": [
+          2.2799999713897705,
+          0.0,
+          14.779999732971191
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "axle_dot_rope": 1.0
+      }
+    ],
+    "axles_perpendicular_to_rope": false,
+    "exports": [
+      {
+        "name": "CablewayTower_Metric15",
+        "vertices": 21276,
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "source_collections": [
+      "Tower_Fabricated_Parts",
+      "Preview_Stage",
+      "Tajia02_Tower_Export"
+    ]
+  },
+  {
+    "file": "Tajia02_EntryTower.blend",
+    "scene": "Tajia02_EntryTower",
+    "total_height": 8.0,
+    "sheaves": [
+      {
+        "name": "Rope sheave",
+        "position": [
+          -2.2799999713897705,
+          0.0,
+          7.78000020980835
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "axle_dot_rope": 1.0
+      },
+      {
+        "name": "Rope sheave.001",
+        "position": [
+          -1.7200000286102295,
+          0.0,
+          7.78000020980835
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "axle_dot_rope": 1.0
+      },
+      {
+        "name": "Rope sheave.002",
+        "position": [
+          1.7200000286102295,
+          0.0,
+          7.78000020980835
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "axle_dot_rope": 1.0
+      },
+      {
+        "name": "Rope sheave.003",
+        "position": [
+          2.2799999713897705,
+          0.0,
+          7.78000020980835
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "axle_dot_rope": 1.0
+      }
+    ],
+    "axles_perpendicular_to_rope": false,
+    "exports": [
+      {
+        "name": "CablewayEntryTower",
+        "vertices": 12140,
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "source_collections": [
+      "Tower_Fabricated_Parts",
+      "Preview_Stage",
+      "Tajia02_EntryTower_Export"
+    ]
+  }
+]
