@@ -1,0 +1,12 @@
+{
+  "passed": 5,
+  "checks": [
+    "Scene preview starts through the actual Inspector",
+    "Preview moves every bound bucket",
+    "Stopping restores every original local pose and serialized transform",
+    "Saving while previewing stops preview and restores authored poses",
+    "Closing the Inspector restores authored poses"
+  ],
+  "sceneSaved": false,
+  "playModeRun": false
+}

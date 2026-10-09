@@ -8,7 +8,7 @@ wide top crosshead, ladder on the -Y face).
 """
 import bpy
 import math
-from mathutils import Vector
+from mathutils import Matrix, Vector
 
 ROOT = r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia02_Metric15'
 
@@ -381,6 +381,7 @@ for x in (-ends_x + .05, -.75, 0, .75, ends_x - .05):
 sheave_z = TOTAL_HEIGHT - SHEAVE_R
 for sx in (-1, 1):
     cx = sx * CROSSHEAD_HALF
+    existing_parts = set(parts.objects)
     for y in (-.09, .09):
         mesh_obj('Sheave bracket plate', [(cx + dx, y + dy, zz) for dy in (-.006, .006) for dx, zz in
                                           [(-.20, CROSSHEAD_TOP), (.20, CROSSHEAD_TOP), (.12, sheave_z - .12), (-.12, sheave_z - .12)]],
@@ -395,6 +396,10 @@ for sx in (-1, 1):
             box('Sheave axle block', (cx + dx, y, sheave_z), (.10, .02, .09), bare, .002)
     bolt((cx, -.10, CROSSHEAD_TOP + .06), (0, -1, 0))
     bolt((cx, .10, CROSSHEAD_TOP + .06), (0, 1, 0))
+    # The rope runs along Y. Rotate each complete bogie so its wheel axles run along X.
+    bogie_turn = Matrix.Translation((cx, 0, 0)) @ Matrix.Rotation(math.pi / 2, 4, 'Z') @ Matrix.Translation((-cx, 0, 0))
+    for part in set(parts.objects) - existing_parts:
+        part.matrix_world = bogie_turn @ part.matrix_world
 
 # Tajia01's outer vertical tie on +X is omitted: it sat in the path of the hanging buckets.
 

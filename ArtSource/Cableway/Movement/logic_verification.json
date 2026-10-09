@@ -1,0 +1,17 @@
+{
+  "passed": 10,
+  "checks": [
+    "Manual mode waits for a level action",
+    "Speed uses distance across unequal and sloping segments",
+    "Multiple buckets preserve their spacing along the route",
+    "Buckets stay upright on slopes",
+    "Stop holds the current position",
+    "Restart continues from the stopped position",
+    "A full loop preserves position and heading",
+    "Near-seam negative lookbehind does not overflow the route index",
+    "Distance is independent of frame subdivision",
+    "Automatic mode starts at component startup"
+  ],
+  "playModeRun": false,
+  "method": "Actual component methods invoked in a temporary editor preview scene"
+}

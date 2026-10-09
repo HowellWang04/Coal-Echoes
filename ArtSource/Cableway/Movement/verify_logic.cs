@@ -1,0 +1,40 @@
+var previewScene=UnityEditor.SceneManagement.EditorSceneManager.NewPreviewScene();
+var checks=new List<string>();
+var flags=System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance;
+void Check(bool condition,string message){if(!condition)throw new Exception(message);checks.Add(message);}
+try {
+    var root=new GameObject("CablewayLogicTest");UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(root,previewScene);
+    var manager=root.AddComponent<CablewayMovementManager>();
+    var first=new GameObject("First bucket").transform;first.SetParent(root.transform,false);first.position=new Vector3(0,0,.5f);
+    var second=new GameObject("Second bucket").transform;second.SetParent(root.transform,false);second.position=new Vector3(5,4,6);
+    var points=new[]{Vector3.zero,new Vector3(0,0,3),new Vector3(0,4,6),new Vector3(10,4,6),new Vector3(10,0,0)};
+    var so=new SerializedObject(manager);var route=so.FindProperty("routePoints");route.arraySize=points.Length;
+    for(int i=0;i<points.Length;i++)route.GetArrayElementAtIndex(i).vector3Value=points[i];
+    var buckets=so.FindProperty("buckets");buckets.arraySize=2;buckets.GetArrayElementAtIndex(0).objectReferenceValue=first;buckets.GetArrayElementAtIndex(1).objectReferenceValue=second;
+    so.FindProperty("startAutomatically").boolValue=false;so.FindProperty("speed").floatValue=1;so.ApplyModifiedPropertiesWithoutUndo();
+    var type=typeof(CablewayMovementManager);var start=type.GetMethod("Start",flags);var advance=type.GetMethod("AdvanceMovement",flags);
+    void Tick(float dt)=>advance.Invoke(manager,new object[]{dt});
+    start.Invoke(manager,null);Tick(4);
+    Check(!manager.IsMoving && first.position==new Vector3(0,0,.5f),"Manual mode waits for a level action");
+    manager.StartMovement();Tick(4);
+    Check(Vector3.Distance(first.position,new Vector3(0,1.2f,3.9f))<.0001f,"Speed uses distance across unequal and sloping segments");
+    Check(Vector3.Distance(second.position,new Vector3(9,4,6))<.0001f,"Multiple buckets preserve their spacing along the route");
+    Check(Vector3.Angle(first.up,Vector3.up)<.001f && Vector3.Angle(second.up,Vector3.up)<.001f,"Buckets stay upright on slopes");
+    var held=first.position;manager.StopMovement();Tick(100);
+    Check(first.position==held,"Stop holds the current position");
+    manager.StartMovement();Tick(1);
+    Check(Vector3.Distance(first.position,new Vector3(0,2,4.5f))<.0001f,"Restart continues from the stopped position");
+    manager.SampleMovement(7.123f);var loopPosition=first.position;var loopRotation=first.rotation;
+    manager.SampleMovement(manager.RouteLength+7.123f);
+    Check(Vector3.Distance(first.position,loopPosition)<.0001f && Quaternion.Angle(first.rotation,loopRotation)<.01f,"A full loop preserves position and heading");
+    manager.SampleMovement(-.75f-.000001f);
+    Check(!float.IsNaN(first.position.x),"Near-seam negative lookbehind does not overflow the route index");
+    manager.SampleMovement(0);Tick(2);var singleStep=first.position;
+    manager.SampleMovement(0);for(int i=0;i<20;i++)Tick(.1f);
+    Check(Vector3.Distance(first.position,singleStep)<.0001f,"Distance is independent of frame subdivision");
+    manager.StopMovement();so.Update();so.FindProperty("startAutomatically").boolValue=true;so.ApplyModifiedPropertiesWithoutUndo();start.Invoke(manager,null);
+    Check(manager.IsMoving,"Automatic mode starts at component startup");
+    var report=new {passed=checks.Count,checks,playModeRun=false,method="Actual component methods invoked in a temporary editor preview scene"};
+    System.IO.File.WriteAllText("ArtSource/Cableway/Movement/logic_verification.json",Newtonsoft.Json.JsonConvert.SerializeObject(report,Newtonsoft.Json.Formatting.Indented));
+    return report;
+} finally {UnityEditor.SceneManagement.EditorSceneManager.ClosePreviewScene(previewScene);}

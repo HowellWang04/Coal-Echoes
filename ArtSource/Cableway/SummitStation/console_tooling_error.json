@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "error",
+      "tail": "20"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 10,
+          "timestampUtc": "2026-10-04T23:35:08.19405Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Command 'capture_scene_view' failed: Path '../ArtSource/Cableway/SummitStation/after.png' must not contain '..'.",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer:ExecuteCommandDirect (Unity.Pipeline.Commands.CommandInfo,object[]) (at ./Library/PackageCache/com.unity.pipeline@ab05e9cd7f74/Runtime/Common/BasePipelineServer.cs:2642)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass134_0:<ExecuteCommand>b__1 () (at ./Library/PackageCache/com.unity.pipeline@ab05e9cd7f74/Runtime/Common/BasePipelineServer.cs:2508)\nUnity.Pipeline.Threading.Dispatcher/WorkItem`1<object>:ExecuteCore () (at ./Library/PackageCache/com.unity.pipeline@ab05e9cd7f74/Runtime/Common/Dispatcher.cs:284)\nUnity.Pipeline.Threading.Dispatcher/WorkItem:Execute () (at ./Library/PackageCache/com.unity.pipeline@ab05e9cd7f74/Runtime/Common/Dispatcher.cs:229)\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue (int) (at ./Library/PackageCache/com.unity.pipeline@ab05e9cd7f74/Runtime/Common/Dispatcher.cs:195)\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue () (at ./Library/PackageCache/com.unity.pipeline@ab05e9cd7f74/Runtime/Common/Dispatcher.cs:210)\nUnityEditor.EditorApplication:Internal_CallUpdateFunctions ()\n",
+          "seeded": false
+        }
+      ],
+      "cursor": 11,
+      "session": "1973145bc231423db161e8ac1ba86d63",
+      "returned": 1,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 1,
+        "warn": 1,
+        "log": 9
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-04T23:42:41.3584715Z",
+        "ageMs": 23,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 0,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

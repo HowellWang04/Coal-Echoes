@@ -1,0 +1,71 @@
+{
+  "routeLength": 2581.13184,
+  "routeSamples": 10325,
+  "maxStep": 0.2502102,
+  "seamGap": 0.00201323512,
+  "fullLoopPassed": true,
+  "snaps": [
+    {
+      "parent": "CablewayTower_01",
+      "name": "CoalBucket",
+      "meters": 0.00126859185
+    },
+    {
+      "parent": "CablewayTower_02",
+      "name": "CoalBucket",
+      "meters": 0.00128173828
+    },
+    {
+      "parent": "CablewayTower_02",
+      "name": "CoalBucket (1)",
+      "meters": 8.209323
+    },
+    {
+      "parent": "CablewayTower_03",
+      "name": "CoalBucket",
+      "meters": 0.000696576666
+    },
+    {
+      "parent": "CablewayTower_04",
+      "name": "CoalBucket",
+      "meters": 0.001409106
+    },
+    {
+      "parent": "CablewayTower_05",
+      "name": "CoalBucket",
+      "meters": 0.000742524746
+    },
+    {
+      "parent": "CablewayTower_06",
+      "name": "CoalBucket",
+      "meters": 0.00180053711
+    },
+    {
+      "parent": "CablewayTower_07",
+      "name": "CoalBucket",
+      "meters": 0.00150033552
+    },
+    {
+      "parent": "CablewayTower_08",
+      "name": "CoalBucket",
+      "meters": 0.00055939646
+    },
+    {
+      "parent": "CablewayTower_09",
+      "name": "CoalBucket",
+      "meters": 0.00125084852
+    },
+    {
+      "parent": "CablewayTower_10",
+      "name": "CoalBucket",
+      "meters": 0.00027969823
+    },
+    {
+      "parent": "CablewaySummitStation",
+      "name": "CoalBucket_Approach",
+      "meters": 0.000492081163
+    }
+  ],
+  "buckets": 12,
+  "staticObjects": 0
+}

@@ -1,0 +1,22 @@
+{
+  "assets": [
+    {
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayTower_Metric15.fbx",
+      "guid": "58b48bd89d8a7dc4da267f271e42122d",
+      "vertices": 52732,
+      "triangles": 37256,
+      "maximumWheelVertexError": 3.57627869E-07
+    },
+    {
+      "asset": "Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/CablewayEntryTower.fbx",
+      "guid": "ed330465da546b64485dbd9a94c44a1f",
+      "vertices": 29605,
+      "triangles": 21264,
+      "maximumWheelVertexError": 3.57627869E-07
+    }
+  ],
+  "towerCount": 10,
+  "badTowerAssets": [],
+  "mainSceneDirty": false,
+  "playModeRun": false
+}

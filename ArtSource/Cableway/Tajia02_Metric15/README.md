@@ -27,10 +27,12 @@
 
 FBX导出到Unity后，Blender坐标 (x, y, z) 对应Unity本地坐标 (-x, z, -y)。
 
+2026年10月4日修正两种塔架顶部轮组方向，轮轴横跨绳索，两个轮心沿绳索前后排列。完整轮组绕各自中心转90度，模型、源文件及建模脚本已同步，见[修正记录](../SheaveAlignment/README.md)。
+
 ## 备份
 
 `UnityIntegration` 保存每一轮修改前的场景和缆线网格，文件名注明对应修改。地形恢复前的数据在 `TerrainReferences/SheepRange_USGS_1m/RestoreTowerPads_Before`。
 
 ## 未完成
 
-站棚新位置地面有坡，局部埋入地面，待整平。线路另一端11号塔之后尚无山上装煤站。未进行Play Mode验证。
+山脚站棚新位置地面有坡，局部埋入地面，待整平。2026年10月4日已将11号塔替换为与始发站相同配置的山顶终点站，并完成末端绳索回转连接，见[终点站装配记录](../SummitStation/README.md)。装卸煤与吊斗移动尚未实现，未进行Play Mode验证。
