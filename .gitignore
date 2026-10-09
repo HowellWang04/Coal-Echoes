@@ -58,3 +58,14 @@ ArtSource/Cableway/FoothillStationPlacement/RestoredFactory_Height.raw
 TerrainReferences/**/RestoreTowerPads_Before/
 TerrainReferences/**/*.npy
 TerrainReferences/**/*.raw
+
+# Large third-party packs kept only on the local machine (too big for LFS quota)
+/Assets/Art Resources/ThirdPartyPacks/RocksGobi/
+/Assets/Art Resources/ThirdPartyPacks/RocksGobi.meta
+/Assets/Art Resources/ThirdPartyPacks/Lands/
+/Assets/Art Resources/ThirdPartyPacks/Lands.meta
+/Assets/Art Resources/ThirdPartyPacks/RockyDesert/
+/Assets/Art Resources/ThirdPartyPacks/RockyDesert.meta
+/ArtSource/RocksGobi/
+/ArtSource/Lands/
+/ArtSource/RockyDesert/

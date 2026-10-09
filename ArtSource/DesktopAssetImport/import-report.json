@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-10-04T20:09:41.7782627Z",
+  "compiling": false,
+  "compilationFailed": false,
+  "packs": [
+    {
+      "root": "Assets/Art Resources/ThirdPartyPacks/Lands",
+      "materials": 274,
+      "prefabs": 154,
+      "models": 27,
+      "textures": 665,
+      "problems": []
+    },
+    {
+      "root": "Assets/Art Resources/ThirdPartyPacks/RockyDesert",
+      "materials": 10,
+      "prefabs": 14,
+      "models": 49,
+      "textures": 28,
+      "problems": []
+    },
+    {
+      "root": "Assets/Art Resources/ThirdPartyPacks/RocksGobi",
+      "materials": 18,
+      "prefabs": 17,
+      "models": 22,
+      "textures": 127,
+      "problems": []
+    }
+  ],
+  "limitations": [
+    "Play Mode and final appearance not tested",
+    "Legacy RockyDesert slope/sand blending and Tree Creator wind are not reproduced by HDRP/Lit",
+    "Original Lands BRANCH14A source material references an absent texture; rendered tree prefabs use supplied baked atlas materials",
+    "Original Lands 35mm Aliens lens flare references an absent texture; retained as an unused source asset",
+    "Demo scenes, legacy Standard Assets scripts and old pipeline settings were excluded"
+  ],
+  "followUpCorrection": "Initial checks only confirmed non-null material slots and valid shaders. Sixteen RocksGobi prefabs still used DefaultHDMaterial. Explicit material overrides were subsequently repaired and all 17 prefabs passed texture binding checks after reimport. See rocksgobi-binding-verification.json. Colliders and LOD Groups are not configured."
+}

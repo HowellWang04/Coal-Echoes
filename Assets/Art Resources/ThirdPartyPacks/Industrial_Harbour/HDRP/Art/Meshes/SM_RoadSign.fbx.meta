@@ -63,12 +63,22 @@ ModelImporter:
   - first:
       205: 20500000
     second: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_MetalTile3
+    second: {fileID: 2100000, guid: c4bff25207254c6478e09daf259a61d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_OldPaintSteel
+    second: {fileID: 2100000, guid: 272931be44912614cbcbaf0669c8948c, type: 2}
   materials:
     materialImportMode: 1
     materialName: 1
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

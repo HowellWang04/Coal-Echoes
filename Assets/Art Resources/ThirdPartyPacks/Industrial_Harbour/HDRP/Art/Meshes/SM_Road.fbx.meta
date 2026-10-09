@@ -81,12 +81,27 @@ ModelImporter:
   - first:
       205: 20500000
     second: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Road
+    second: {fileID: 2100000, guid: c5b49ffd024b5ff4a986dfb212a3d2b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MM_Ground
+    second: {fileID: 2100000, guid: ad18a9ea4bd278049a78ad9455ca78c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: f6565d02c253070478ba89c5383708f2, type: 2}
   materials:
     materialImportMode: 1
     materialName: 1
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

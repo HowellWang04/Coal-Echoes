@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "error",
+      "tail": "4"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 82,
+          "timestampUtc": "2026-10-04T20:10:56.0169777Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "DirectoryNotFoundException: Could not find a part of the path \"D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal\\Temp\\ArtImport20261004\\RocksFailed.txt\".",
+          "stackTrace": "System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) (at <f713e1c3c5f545ce9b1df47230f4f853>:0)\nSystem.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) (at <f713e1c3c5f545ce9b1df47230f4f853>:0)\n(wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)\nSystem.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) (at <f713e1c3c5f545ce9b1df47230f4f853>:0)\nSystem.IO.StreamWriter..ctor (System.String path) (at <f713e1c3c5f545ce9b1df47230f4f853>:0)\n(wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)\nSystem.IO.File.WriteAllText (System.String path, System.String contents) (at <f713e1c3c5f545ce9b1df47230f4f853>:0)\nPipelineEvaluation.PipelineEval_9a4d8143+<>c.<Execute>b__0_0 () (at <1dafa7e47b524d778304f02872ef7b88>:0)\nUnityEditor.EditorApplication.Internal_CallDelayFunctions () (at <5fef58e500dd4224983b2c076ac56b86>:0)\n",
+          "seeded": false
+        }
+      ],
+      "cursor": 82,
+      "session": "d01e98df21f444e08073c226b92f0f53",
+      "returned": 1,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 1,
+        "warn": 0,
+        "log": 0
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-04T20:11:23.0560916Z",
+        "ageMs": 32,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 1,
+        "consoleWarnings": 0,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\Development\\Game Dev\\Project\\Grad App Project\\Project Coal"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,112 @@
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land4 data/land4 mat bis.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/SUNFLOWER.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land15 data/LAND15MAT.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH5A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk10_diffuse.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH16.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH9.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH8A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land1 data/land 1 mat bis.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK18.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK17.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BARK0A.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/PALM3.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH7.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH3.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH11A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH4A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH13.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK13.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk6_diffuse.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land2 data/land2 mat bis.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/PALM5.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK0.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK1.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH1A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk4_diffuse A.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land13 data/LAND13MAT.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK4.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BARK5A.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK6.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH11.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH14.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK2.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK10.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/FERN2.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH6.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk3_diffuse.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk10_diffuse A.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BARK1A.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BAMBOO2.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk1_diffuse A.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BAMBOO1.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk5_diffuse A.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk6_diffuse A.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK12.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH1.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH7A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH12.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land12 data/LAND12MAT.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk4_diffuse.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK8.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH0.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land7 data/land 7 mat bis.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk5_diffuse.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH10.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land3 data/land3 mat bis.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK16.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BARK3A.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK7.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk9_diffuse.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK9.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/FERN.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk8_diffuse.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH14A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/WHEAT1.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK3.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk8_diffuse A.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk2_diffuse A.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land5 data/land5 mat bis.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land9 data/land 9 mat.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk2_diffuse.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK15.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH15.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK19.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BROOM.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land10 data/land 10 mat.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH5.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk9_diffuse A.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk3_diffuse A.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK14.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/WHEAT2.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH12A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK11.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BARK5.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH13A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BARK4A.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH6A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Peak/Materials/pk1_diffuse.mat | Standard -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH3A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH2A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH9A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land11 data/LAND11MAT.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH2.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land6 data/land6 mat bis.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land14 data/LAND14MAT.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH4.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/PALM1.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/PALM2.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/RUSH.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/material/BRANCH8.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BRANCH10A.mat | Nature/Tree Creator Leaves Fast -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/Lands/Land data/land8 data/land 8 mat.mat | Hidden/InternalErrorShader -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/Lands/Tree&Plants/alien trees - plants/material/BARK2A.mat | Nature/Tree Creator Bark -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/RockyDesert/Materials/M_Terrain_01.mat | HDRP/TerrainLit -> HDRP/TerrainLit
+Assets/Art Resources/ThirdPartyPacks/RockyDesert/Materials/MI_Clouds.mat | New Amplify Shader -> HDRP/Unlit
+Assets/Art Resources/ThirdPartyPacks/RockyDesert/Materials/MI_DeadTree_A.mat | HDRP/Lit -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/RockyDesert/Materials/MI_DeadGrass_A.mat | M_Foliage -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/RockyDesert/Materials/MI_Small_Rock.mat | Master_Side_Rock -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/RockyDesert/Materials/MI_DeadGrass_A1.mat | M_Foliage -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/RockyDesert/Materials/MI_Side_Rock_A1.mat | Master_Side_Rock -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/RockyDesert/Materials/MI_Side_Rock_A2.mat | Master_Side_Rock -> HDRP/Lit
+Assets/Art Resources/ThirdPartyPacks/RockyDesert/Materials/MI_Small_Rock_A.mat | Master_Side_Rock -> HDRP/Lit

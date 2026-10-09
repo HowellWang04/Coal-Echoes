@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-10-04T21:07:20.6782938Z",
+  "note": "Explicit prefab material overrides verified after reimport. Collider and LOD setup not included.",
+  "prefabs": [
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi01.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi01/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi02.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi02/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi03.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi03/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi04.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi04/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi05.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi05/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi06.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi06/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi07.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi07/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi08.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi08/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi09.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi09/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi10.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi10/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi11.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi11/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi12.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi12/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi13.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi13/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi14.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi14/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi15.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi15/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi16.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi16/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    },
+    {
+      "path": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/Prefabs/yanshi17.prefab",
+      "passed": true,
+      "expectedMaterial": "Assets/Art Resources/ThirdPartyPacks/RocksGobi/yanshi17/Rock_HDRP.mat",
+      "colliders": 0,
+      "lodGroups": 0
+    }
+  ]
+}
