@@ -50,6 +50,7 @@ Thumbs.db
 *.blend1
 ArtSource/**/Before/
 ArtSource/**/Previous/
+ArtSource/**/BeforeReplacement/
 ArtSource/**/UnityIntegration/*.before*.unity
 ArtSource/**/UnityIntegration/*.before*.asset
 ArtSource/**/UnityIntegration/Main Game Scene.before.unity

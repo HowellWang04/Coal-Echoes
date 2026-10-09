@@ -1,0 +1,34 @@
+00:00.062  reports          | WARNING Unable to open 'C:\Users\Guanhao\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+00:00.828  blend            | Read blend: "D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\WorkersDormitory\WorkersDormitory.blend"
+14:10:42 | INFO: Data are loaded, start creating Blender stuff
+14:10:42 | INFO: Blender create Mesh node RearMasonry__BuffBrick.003
+14:10:42 | INFO: Blender create Mesh node Sills__Concrete.003
+14:10:42 | INFO: Blender create Mesh node BalconyInnerWindows__FrameBrown.003
+14:10:42 | INFO: Blender create Mesh node BalconyInnerWindows__FrameGreen.003
+14:10:42 | INFO: Blender create Mesh node BalconyInnerWindows__FrameGrey.003
+14:10:43 | INFO: Blender create Mesh node BalconyInnerWindows__Glass0.003
+14:10:43 | INFO: Blender create Mesh node BalconyInnerWindows__Glass1.003
+14:10:43 | INFO: Blender create Mesh node BalconyInnerWindows__Glass2.003
+14:10:43 | INFO: Blender create Mesh node BalconyInnerWindows__Glass3.003
+14:10:43 | INFO: Blender create Mesh node BalconyInnerWindows__Glass4.003
+14:10:43 | INFO: Blender create Mesh node BalconyInnerWindows__Glass5.003
+14:10:43 | INFO: Blender create Mesh node RoomPockets__Interior.003
+14:10:43 | INFO: Blender create Mesh node Roof__Roof.003
+14:10:43 | INFO: Blender create Mesh node SillRunoff.005
+14:10:43 | INFO: glTF import finished in 0.62s
+00:20.015  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\WorkersDormitory\Previews\Dormitory_GLB_Verified.png'
+00:42.750  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\WorkersDormitory\Previews\Dormitory_Hero.png'
+FBX version: 7400
+RENDER_COMPLETE Hero
+01:01.937  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\WorkersDormitory\Previews\Dormitory_Front.png'
+RENDER_COMPLETE Front
+01:20.828  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\WorkersDormitory\Previews\Dormitory_Rear.png'
+RENDER_COMPLETE Rear
+01:51.187  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\WorkersDormitory\Previews\Dormitory_Detail.png'
+RENDER_COMPLETE Detail
+02:20.859  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\WorkersDormitory\Previews\Dormitory_Entrance.png'
+RENDER_COMPLETE Entrance
+VERIFY_COMPLETE {"glb": {"mesh_count": 14, "triangles": 106599, "dimensions_m": [32.71, 11.725, 10.825], "all_meshes_have_uv": true, "all_meshes_have_materials": true, "unwanted_objects": []}, "fbx": {"mesh_count": 14, "triangles": 106599, "dimensions_m": [32.71, 11.725, 10.825], "all_meshes_have_uv": true, "all_meshes_have_materials": true, "unwanted_objects": []}}
+
+Blender quit

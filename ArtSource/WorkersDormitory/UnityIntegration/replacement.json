@@ -1,0 +1,696 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "isDirty": false,
+  "backup": "ArtSource/WorkersDormitory/UnityIntegration/BeforeReplacement",
+  "go": {
+    "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory",
+    "scene": "Assets/Scenes/Main Game Scene.unity",
+    "active": true,
+    "position": [
+      -2220.4397,
+      -454.68,
+      -1711.8595
+    ],
+    "rotation": [
+      0.0,
+      227.127625,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "worldScale": [
+      1.00000048,
+      1.0,
+      1.00000048
+    ],
+    "components": [
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_BuffBrick | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_BuffBrick | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_BuffBrick | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_BuffBrick | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Concrete | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Concrete | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Concrete | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Concrete | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameBrown | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameBrown | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameBrown | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameBrown | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGreen | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGreen | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGreen | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGreen | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGrey | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGrey | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGrey | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGrey | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass0 | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass0 | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass0 | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass0 | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass1 | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass1 | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass1 | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass1 | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass2 | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass2 | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass2 | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass2 | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass3 | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass3 | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass3 | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass3 | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass4 | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass4 | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass4 | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass4 | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass5 | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass5 | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass5 | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass5 | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Interior | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Interior | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Interior | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Interior | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Roof | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Roof | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Roof | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Roof | UnityEngine.MeshCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_SillRunoff.002 | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_SillRunoff.002 | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_SillRunoff.002 | UnityEngine.MeshRenderer",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/SlopeFoundation | UnityEngine.Transform",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/SlopeFoundation | UnityEngine.MeshFilter",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/SlopeFoundation | UnityEngine.BoxCollider",
+      "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/SlopeFoundation | UnityEngine.MeshRenderer"
+    ],
+    "renderers": [
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_BuffBrick",
+        "center": [
+          -2220.4397,
+          -449.169983,
+          -1711.8595
+        ],
+        "size": [
+          29.3443527,
+          10.18,
+          30.5204353
+        ],
+        "localCenter": [
+          0.0,
+          5.51,
+          0.0
+        ],
+        "localSize": [
+          32.38,
+          10.18,
+          9.98
+        ],
+        "materials": [
+          "Dorm_BuffBrick | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Concrete",
+        "center": [
+          -2220.95825,
+          -449.2675,
+          -1712.34082
+        ],
+        "size": [
+          30.8477345,
+          10.825,
+          31.949522
+        ],
+        "localCenter": [
+          0.0,
+          5.4125,
+          0.7075
+        ],
+        "localSize": [
+          32.71,
+          10.825,
+          11.725
+        ],
+        "materials": [
+          "Dorm_Concrete | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameBrown",
+        "center": [
+          -2221.03687,
+          -449.822479,
+          -1712.414
+        ],
+        "size": [
+          29.8676453,
+          8.835,
+          30.9581451
+        ],
+        "localCenter": [
+          0.0,
+          4.8575,
+          0.815000057
+        ],
+        "localSize": [
+          31.905,
+          8.835,
+          11.135
+        ],
+        "materials": [
+          "Dorm_FrameBrown | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGreen",
+        "center": [
+          -2221.03687,
+          -449.9275,
+          -1712.414
+        ],
+        "size": [
+          29.8676453,
+          8.585,
+          30.9581451
+        ],
+        "localCenter": [
+          0.0,
+          4.7525,
+          0.815000057
+        ],
+        "localSize": [
+          31.905,
+          8.585,
+          11.135
+        ],
+        "materials": [
+          "Dorm_FrameGreen | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGrey",
+        "center": [
+          -2221.03687,
+          -449.61,
+          -1712.414
+        ],
+        "size": [
+          29.8676453,
+          9.7,
+          30.9581451
+        ],
+        "localCenter": [
+          0.0,
+          5.06999969,
+          0.815000057
+        ],
+        "localSize": [
+          31.905,
+          9.7,
+          11.135
+        ],
+        "materials": [
+          "Dorm_FrameGrey | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass0",
+        "center": [
+          -2221.03687,
+          -449.435,
+          -1712.414
+        ],
+        "size": [
+          29.66555,
+          7.89999962,
+          30.756052
+        ],
+        "localCenter": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass0 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass1",
+        "center": [
+          -2221.03687,
+          -449.387482,
+          -1712.414
+        ],
+        "size": [
+          29.66555,
+          7.805,
+          30.756052
+        ],
+        "localCenter": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.805,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass1 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass2",
+        "center": [
+          -2221.03687,
+          -449.435,
+          -1712.414
+        ],
+        "size": [
+          29.66555,
+          7.89999962,
+          30.756052
+        ],
+        "localCenter": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass2 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass3",
+        "center": [
+          -2221.03687,
+          -449.387482,
+          -1712.414
+        ],
+        "size": [
+          29.66555,
+          7.805,
+          30.756052
+        ],
+        "localCenter": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.805,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass3 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass4",
+        "center": [
+          -2221.03687,
+          -449.435,
+          -1712.414
+        ],
+        "size": [
+          29.66555,
+          7.89999962,
+          30.756052
+        ],
+        "localCenter": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass4 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass5",
+        "center": [
+          -2221.03687,
+          -449.387482,
+          -1712.414
+        ],
+        "size": [
+          29.66555,
+          7.805,
+          30.756052
+        ],
+        "localCenter": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.805,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass5 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Interior",
+        "center": [
+          -2220.4397,
+          -449.0975,
+          -1711.8595
+        ],
+        "size": [
+          28.9486427,
+          10.2149992,
+          30.1247253
+        ],
+        "localCenter": [
+          0.0,
+          5.5824995,
+          0.0
+        ],
+        "localSize": [
+          32.1,
+          10.2149992,
+          9.7
+        ],
+        "materials": [
+          "Dorm_Interior | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Roof",
+        "center": [
+          -2220.4397,
+          -445.16,
+          -1711.8595
+        ],
+        "size": [
+          29.0925961,
+          0.1600008,
+          30.2634277
+        ],
+        "localCenter": [
+          0.0,
+          9.52,
+          0.0
+        ],
+        "localSize": [
+          32.15,
+          0.1600008,
+          9.85
+        ],
+        "materials": [
+          "Dorm_Roof | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_SillRunoff.002",
+        "center": [
+          -2224.63477,
+          -450.629639,
+          -1715.75391
+        ],
+        "size": [
+          22.5355854,
+          6.839315,
+          24.11542
+        ],
+        "localCenter": [
+          0.0,
+          4.050342,
+          5.724
+        ],
+        "localSize": [
+          31.55,
+          6.839315,
+          1.46
+        ],
+        "materials": [
+          "Dorm_SillRunoff.002 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/SlopeFoundation",
+        "center": [
+          -2220.4397,
+          -455.47,
+          -1711.8595
+        ],
+        "size": [
+          29.1946468,
+          1.6,
+          30.3733559
+        ],
+        "localCenter": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "localSize": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "Dorm_Concrete | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      }
+    ],
+    "mesh": [
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_BuffBrick",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.51,
+          0.0
+        ],
+        "size": [
+          32.38,
+          10.18,
+          9.98
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Concrete",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.4125,
+          0.7075
+        ],
+        "size": [
+          32.71,
+          10.825,
+          11.725
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameBrown",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          4.8575,
+          0.815000057
+        ],
+        "size": [
+          31.905,
+          8.835,
+          11.135
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGreen",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          4.7525,
+          0.815000057
+        ],
+        "size": [
+          31.905,
+          8.585,
+          11.135
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_FrameGrey",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.06999969,
+          0.815000057
+        ],
+        "size": [
+          31.905,
+          9.7,
+          11.135
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass0",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass1",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.805,
+          10.9920006
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass2",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass3",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.805,
+          10.9920006
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass4",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Glass5",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.805,
+          10.9920006
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Interior",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.5824995,
+          0.0
+        ],
+        "size": [
+          32.1,
+          10.2149992,
+          9.7
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Roof",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          9.52,
+          0.0
+        ],
+        "size": [
+          32.15,
+          0.1600008,
+          9.85
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_SillRunoff.002",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          4.050342,
+          5.724
+        ],
+        "size": [
+          31.55,
+          6.839315,
+          1.46
+        ]
+      },
+      {
+        "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/SlopeFoundation",
+        "asset": "Library/unity default resources",
+        "center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ]
+  }
+}

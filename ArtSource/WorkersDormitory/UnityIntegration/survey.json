@@ -1,0 +1,496 @@
+{
+  "references": [],
+  "parent": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房",
+  "parentScale": [
+    1.00000012,
+    1.0,
+    1.00000012
+  ],
+  "tag": "Untagged",
+  "layer": 0,
+  "staticFlags": "0",
+  "right": [
+    0.68036747,
+    0.0,
+    -0.732871234
+  ],
+  "up": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "forward": [
+    0.732871234,
+    0.0,
+    0.68036747
+  ],
+  "bounds": {
+    "center": [
+      -2218.04785,
+      -415.417633,
+      -1707.86169
+    ],
+    "size": [
+      67.18164,
+      37.5209351,
+      62.7492676
+    ]
+  },
+  "nearby": [
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_748_1468/SM_AbandonedFactoryBuilding_Wall_LOD0",
+      "center": [
+        -2233.112,
+        -430.204834,
+        -1692.32129
+      ],
+      "size": [
+        1.76986563,
+        3.658434,
+        1.82852018
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_748_1468/SM_AbandonedFactoryBuilding_Wall_LOD1",
+      "center": [
+        -2232.913,
+        -430.1614,
+        -1691.71448
+      ],
+      "size": [
+        3.00960541,
+        4.933381,
+        3.042056
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_748_1468/SM_AbandonedFactoryBuilding_Wall_LOD2",
+      "center": [
+        -2233.302,
+        -430.4,
+        -1692.322
+      ],
+      "size": [
+        3.177899,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_748_1468/SM_AbandonedFactoryBuilding_Wall_LOD3",
+      "center": [
+        -2233.302,
+        -430.4,
+        -1692.322
+      ],
+      "size": [
+        3.177899,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_746_1466/SM_AbandonedFactoryBuilding_Wall_LOD0",
+      "center": [
+        -2231.88721,
+        -430.204834,
+        -1693.6405
+      ],
+      "size": [
+        1.76986563,
+        3.658434,
+        1.82852018
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_746_1466/SM_AbandonedFactoryBuilding_Wall_LOD1",
+      "center": [
+        -2231.68823,
+        -430.1614,
+        -1693.03369
+      ],
+      "size": [
+        3.00960541,
+        4.933381,
+        3.042056
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_746_1466/SM_AbandonedFactoryBuilding_Wall_LOD2",
+      "center": [
+        -2232.07715,
+        -430.4,
+        -1693.64124
+      ],
+      "size": [
+        3.177899,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_746_1466/SM_AbandonedFactoryBuilding_Wall_LOD3",
+      "center": [
+        -2232.07715,
+        -430.4,
+        -1693.64124
+      ],
+      "size": [
+        3.177899,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_123_843/SM_AbandonedFactoryBuilding_Wall_LOD0",
+      "center": [
+        -2217.772,
+        -430.204834,
+        -1678.1051
+      ],
+      "size": [
+        1.76986539,
+        3.658434,
+        1.8285203
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_123_843/SM_AbandonedFactoryBuilding_Wall_LOD1",
+      "center": [
+        -2217.971,
+        -430.1614,
+        -1678.71191
+      ],
+      "size": [
+        3.00960517,
+        4.933381,
+        3.042056
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_123_843/SM_AbandonedFactoryBuilding_Wall_LOD2",
+      "center": [
+        -2217.582,
+        -430.4,
+        -1678.10437
+      ],
+      "size": [
+        3.17789865,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_123_843/SM_AbandonedFactoryBuilding_Wall_LOD3",
+      "center": [
+        -2217.582,
+        -430.4,
+        -1678.10437
+      ],
+      "size": [
+        3.17789865,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_119_839/SM_AbandonedFactoryBuilding_Wall_LOD0",
+      "center": [
+        -2215.32275,
+        -430.904816,
+        -1680.74341
+      ],
+      "size": [
+        1.76986539,
+        3.658434,
+        1.8285203
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_119_839/SM_AbandonedFactoryBuilding_Wall_LOD1",
+      "center": [
+        -2215.52173,
+        -430.8614,
+        -1681.35022
+      ],
+      "size": [
+        3.00960517,
+        4.933381,
+        3.042056
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_119_839/SM_AbandonedFactoryBuilding_Wall_LOD2",
+      "center": [
+        -2215.13281,
+        -431.099976,
+        -1680.74268
+      ],
+      "size": [
+        3.17789865,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_119_839/SM_AbandonedFactoryBuilding_Wall_LOD3",
+      "center": [
+        -2215.13281,
+        -431.099976,
+        -1680.74268
+      ],
+      "size": [
+        3.17789865,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_113_833/SM_AbandonedFactoryBuilding_Wall_LOD0",
+      "center": [
+        -2216.54736,
+        -430.204834,
+        -1679.42432
+      ],
+      "size": [
+        1.76986539,
+        3.658434,
+        1.8285203
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_113_833/SM_AbandonedFactoryBuilding_Wall_LOD1",
+      "center": [
+        -2216.74634,
+        -430.1614,
+        -1680.03113
+      ],
+      "size": [
+        3.00960517,
+        4.933381,
+        3.042056
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_113_833/SM_AbandonedFactoryBuilding_Wall_LOD2",
+      "center": [
+        -2216.35742,
+        -430.4,
+        -1679.42358
+      ],
+      "size": [
+        3.17789865,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_113_833/SM_AbandonedFactoryBuilding_Wall_LOD3",
+      "center": [
+        -2216.35742,
+        -430.4,
+        -1679.42358
+      ],
+      "size": [
+        3.17789865,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_112_832/SM_AbandonedFactoryBuilding_Wall_LOD0",
+      "center": [
+        -2220.75977,
+        -430.204834,
+        -1680.0918
+      ],
+      "size": [
+        1.8285203,
+        3.658434,
+        1.76986575
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_112_832/SM_AbandonedFactoryBuilding_Wall_LOD1",
+      "center": [
+        -2221.3667,
+        -430.1614,
+        -1679.8927
+      ],
+      "size": [
+        3.04205656,
+        4.933381,
+        3.009606
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_112_832/SM_AbandonedFactoryBuilding_Wall_LOD2",
+      "center": [
+        -2220.759,
+        -430.4,
+        -1680.28174
+      ],
+      "size": [
+        3.234858,
+        4.456235,
+        3.17789936
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_112_832/SM_AbandonedFactoryBuilding_Wall_LOD3",
+      "center": [
+        -2220.759,
+        -430.4,
+        -1680.28174
+      ],
+      "size": [
+        3.234858,
+        4.456235,
+        3.17789936
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_102_822/SM_AbandonedFactoryBuilding_Wall_LOD0",
+      "center": [
+        -2219.256,
+        -430.204834,
+        -1678.6958
+      ],
+      "size": [
+        2.19767666,
+        3.658434,
+        2.11257529
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_102_822/SM_AbandonedFactoryBuilding_Wall_LOD1",
+      "center": [
+        -2219.92529,
+        -430.1614,
+        -1678.55444
+      ],
+      "size": [
+        3.53584862,
+        4.933381,
+        3.46802235
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_102_822/SM_AbandonedFactoryBuilding_Wall_LOD2",
+      "center": [
+        -2219.28125,
+        -430.4,
+        -1678.90967
+      ],
+      "size": [
+        3.801436,
+        4.456235,
+        3.703887
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_102_822/SM_AbandonedFactoryBuilding_Wall_LOD3",
+      "center": [
+        -2219.28125,
+        -430.4,
+        -1678.90967
+      ],
+      "size": [
+        3.801436,
+        4.456235,
+        3.703887
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_93_813/SM_AbandonedFactoryBuilding_Wall_LOD0",
+      "center": [
+        -2210.458,
+        -431.754822,
+        -1685.9834
+      ],
+      "size": [
+        1.76986539,
+        3.658434,
+        1.8285203
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_93_813/SM_AbandonedFactoryBuilding_Wall_LOD1",
+      "center": [
+        -2210.657,
+        -431.7114,
+        -1686.59021
+      ],
+      "size": [
+        3.00960517,
+        4.933381,
+        3.042056
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_93_813/SM_AbandonedFactoryBuilding_Wall_LOD2",
+      "center": [
+        -2210.268,
+        -431.949982,
+        -1685.98267
+      ],
+      "size": [
+        3.17789865,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_93_813/SM_AbandonedFactoryBuilding_Wall_LOD3",
+      "center": [
+        -2210.268,
+        -431.949982,
+        -1685.98267
+      ],
+      "size": [
+        3.17789865,
+        4.456235,
+        3.23485756
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_90_810/SM_AbandonedFactoryBuilding_Wall_LOD0",
+      "center": [
+        -2211.68262,
+        -431.754822,
+        -1684.66431
+      ],
+      "size": [
+        1.76986539,
+        3.658434,
+        1.8285203
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_90_810/SM_AbandonedFactoryBuilding_Wall_LOD1",
+      "center": [
+        -2211.88159,
+        -431.7114,
+        -1685.27112
+      ],
+      "size": [
+        3.00960517,
+        4.933381,
+        3.042056
+      ]
+    },
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/SM_AbandonedFactoryBuilding_Pack__C_1/01 墙体/局部高度 32 至 36 米/SM_AbandonedFactoryBuilding_Pack__C_1_SM_AbandonedFactoryBuilding_Wall_90_810/SM_AbandonedFactoryBuilding_Wall_LOD2",
+      "center": [
+        -2211.49268,
+        -431.949982,
+        -1684.66357
+      ],
+      "size": [
+        3.17789865,
+        4.456235,
+        3.23485756
+      ]
+    }
+  ]
+}

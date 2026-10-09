@@ -1,0 +1,27 @@
+{
+  "building_dimensions_m": [
+    32.71,
+    11.725,
+    10.825
+  ],
+  "mesh_objects": 137,
+  "materials": 14,
+  "source_triangles": 19815,
+  "storeys": 3,
+  "entrances": 3,
+  "balcony_stacks": 4,
+  "balconies": 12,
+  "interior": "Light blocking pockets only; exterior asset",
+  "texture_source": "Existing project Industrial_Harbour textures, recolored brick derivative",
+  "unity_status": "Not placed or runtime tested",
+  "export_mesh_objects": 14,
+  "export_triangles": 106599,
+  "export_materials": 14,
+  "normal_format": "Reconstructed tangent XYZ from source RG channels",
+  "source_mesh_objects": 137,
+  "main_entrance": {
+    "opening_width_m": 2.98,
+    "opening_height_m": 2.65,
+    "type": "Double leaf glazed steel entrance with concrete surround, canopy and steps"
+  }
+}

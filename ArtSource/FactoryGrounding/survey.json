@@ -1,0 +1,738 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "thresholdMetres": 0.3,
+  "sampling": "Oriented building bounds sampled at <=2m spacing on loaded Main Terrain; base 2cm below minimum sampled ground",
+  "buildings": [
+    {
+      "name": "WorkersDormitory",
+      "instanceId": -2168626,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-15723268729779483388-967215102",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory",
+      "x": -2234.322,
+      "y": -432.561768,
+      "z": -1735.52783,
+      "rotation": [
+        0.0,
+        -0.9166155,
+        0.0,
+        0.3997703
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -434.151733,
+      "groundMin": -453.1905,
+      "groundMax": -451.403442,
+      "range": 1.78704834,
+      "samples": 126,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_9",
+      "instanceId": 82384,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-243569006-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_9",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.448761,
+      "groundMin": -436.093048,
+      "groundMax": -432.992,
+      "range": 3.1010437,
+      "samples": 160,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_7",
+      "instanceId": 104780,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-1307042723-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_7",
+      "x": -1867.39453,
+      "y": -467.761749,
+      "z": -2091.4248,
+      "rotation": [
+        0.0,
+        0.5156602,
+        0.0,
+        0.8567932
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.795135,
+      "groundMin": -400.499146,
+      "groundMax": -390.336853,
+      "range": 10.1622925,
+      "samples": 160,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_4",
+      "instanceId": 105706,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-1628702457-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_4",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.798767,
+      "groundMin": -452.8391,
+      "groundMax": -449.81955,
+      "range": 3.01956177,
+      "samples": 160,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_2",
+      "instanceId": 82762,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-355662410-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_2",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.6341,
+      "groundMin": -451.076569,
+      "groundMax": -448.546173,
+      "range": 2.53039551,
+      "samples": 160,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_14",
+      "instanceId": 82248,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-192482090-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_14",
+      "x": -2696.06421,
+      "y": -467.761749,
+      "z": -1893.56812,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.848755,
+      "groundMin": -449.53772,
+      "groundMax": -446.567963,
+      "range": 2.969757,
+      "samples": 160,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_13",
+      "instanceId": 104432,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-1189955150-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_13",
+      "x": -2606.604,
+      "y": -467.761749,
+      "z": -1968.895,
+      "rotation": [
+        0.0,
+        0.951985061,
+        0.0,
+        -0.306144655
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.848755,
+      "groundMin": -445.789276,
+      "groundMax": -437.6531,
+      "range": 8.136169,
+      "samples": 160,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_12",
+      "instanceId": 106336,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-1869837353-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_12",
+      "x": -2675.11182,
+      "y": -454.661743,
+      "z": -1897.40137,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -415.748749,
+      "groundMin": -449.305878,
+      "groundMax": -439.325439,
+      "range": 9.980438,
+      "samples": 160,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_10",
+      "instanceId": 105540,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-1568171450-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_10",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.448761,
+      "groundMin": -433.551056,
+      "groundMax": -431.346252,
+      "range": 2.20480347,
+      "samples": 160,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_1",
+      "instanceId": 83802,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-754726053-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_1",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.411743,
+      "groundMin": -447.444,
+      "groundMax": -443.829926,
+      "range": 3.61407471,
+      "samples": 160,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_0",
+      "instanceId": 82770,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-364347393-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_0",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.802734,
+      "groundMin": -437.931946,
+      "groundMax": -434.41748,
+      "range": 3.51446533,
+      "samples": 160,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_5",
+      "instanceId": 83088,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-484821903-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_5",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.8782,
+      "groundMin": -445.861023,
+      "groundMax": -440.9932,
+      "range": 4.86782837,
+      "samples": 112,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_2_C_4",
+      "instanceId": 83954,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-808987041-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_2_C_4",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.903656,
+      "groundMin": -448.780762,
+      "groundMax": -446.538422,
+      "range": 2.24234,
+      "samples": 112,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_1_C_2",
+      "instanceId": 84380,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-986735686-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_1_C_2",
+      "x": -2675.1123,
+      "y": -469.101746,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -429.9718,
+      "groundMin": -432.664124,
+      "groundMax": -420.26947,
+      "range": 12.3946533,
+      "samples": 112,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "SM_ConcreteHouse_Pack_1_C_1",
+      "instanceId": 106752,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-2014597668-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/混凝土厂房/SM_ConcreteHouse_Pack_1_C_1",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -428.993683,
+      "groundMin": -443.436859,
+      "groundMax": -438.940552,
+      "range": 4.49630737,
+      "samples": 112,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_2_C_0",
+      "instanceId": 106732,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-2005163496-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_2_C_0",
+      "x": -2744.69336,
+      "y": -468.761749,
+      "z": -1902.45313,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -430.443939,
+      "groundMin": -430.615845,
+      "groundMax": -426.57666,
+      "range": 4.03918457,
+      "samples": 182,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_2_C_0 (1)",
+      "instanceId": 105786,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-1654781603-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_2_C_0 (1)",
+      "x": -2401.62256,
+      "y": -468.761749,
+      "z": -2287.79248,
+      "rotation": [
+        0.0,
+        0.948022068,
+        0.0,
+        0.31820482
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -430.443939,
+      "groundMin": -425.7977,
+      "groundMax": -412.175873,
+      "range": 13.6218262,
+      "samples": 182,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_1_C_1",
+      "instanceId": 104218,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-1114720647-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_1_C_1",
+      "x": -2703.62036,
+      "y": -469.121765,
+      "z": -1880.79932,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -433.404755,
+      "groundMin": -430.360718,
+      "groundMax": -427.247253,
+      "range": 3.11346436,
+      "samples": 195,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_1_C",
+      "instanceId": 107072,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-2130117815-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_1_C",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -429.3923,
+      "groundMin": -436.0607,
+      "groundMax": -425.553223,
+      "range": 10.5074768,
+      "samples": 195,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_2_C_9",
+      "instanceId": 106028,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-1764274855-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_2_C_9",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -429.262054,
+      "groundMin": -443.890167,
+      "groundMax": -440.162231,
+      "range": 3.72793579,
+      "samples": 182,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_2_C_5",
+      "instanceId": 104164,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-1103228165-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_2_C_5",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -429.453674,
+      "groundMin": -449.987061,
+      "groundMax": -447.389954,
+      "range": 2.597107,
+      "samples": 182,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_2_C_3",
+      "instanceId": 107104,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-2137919010-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_2_C_3",
+      "x": -2675.1123,
+      "y": -468.821747,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -430.304077,
+      "groundMin": -439.7859,
+      "groundMax": -435.156464,
+      "range": 4.629425,
+      "samples": 182,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_2_C_1",
+      "instanceId": 106050,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-1777770048-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_2_C_1",
+      "x": -2675.1123,
+      "y": -468.821747,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -430.304077,
+      "groundMin": -441.5643,
+      "groundMax": -435.14386,
+      "range": 6.42044067,
+      "samples": 182,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_2_C_2",
+      "instanceId": 83330,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-582455466-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_2_C_2",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -429.262054,
+      "groundMin": -445.71756,
+      "groundMax": -441.936371,
+      "range": 3.781189,
+      "samples": 182,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_2_C_11",
+      "instanceId": 81920,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-66418316-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_2_C_11",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -429.262054,
+      "groundMin": -439.938843,
+      "groundMax": -435.4665,
+      "range": 4.472351,
+      "samples": 182,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    },
+    {
+      "name": "BP_BrickHouse_2_C_10",
+      "instanceId": 106804,
+      "globalId": "GlobalObjectId_V1-2-517edee587ba9854a9a690eeadfc7048-2025379111-0",
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/砖砌厂房/BP_BrickHouse_2_C_10",
+      "x": -2675.1123,
+      "y": -467.761749,
+      "z": -1854.18567,
+      "rotation": [
+        0.0,
+        0.917170167,
+        0.0,
+        -0.398495942
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bottom": -429.262054,
+      "groundMin": -442.021118,
+      "groundMax": -438.0658,
+      "range": 3.95532227,
+      "samples": 182,
+      "missing": 0,
+      "eligible": false,
+      "deltaY": 0.0
+    }
+  ],
+  "roadInstanceId": 106552,
+  "roadChildren": 25,
+  "roadRenderers": 100
+}

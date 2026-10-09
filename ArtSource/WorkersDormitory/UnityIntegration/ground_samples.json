@@ -1,0 +1,128 @@
+[
+  {
+    "x": -16.35,
+    "z": -5.0,
+    "hits": [
+      {
+        "path": "Terrain/MapMagic/Tile 0,-1/Main Terrain",
+        "point": [
+          -2235.228,
+          -454.613,
+          -1703.27893
+        ]
+      }
+    ]
+  },
+  {
+    "x": -16.35,
+    "z": 0.0,
+    "hits": [
+      {
+        "path": "Terrain/MapMagic/Tile 0,-1/Main Terrain",
+        "point": [
+          -2231.56372,
+          -455.26413,
+          -1699.87708
+        ]
+      }
+    ]
+  },
+  {
+    "x": -16.35,
+    "z": 6.57,
+    "hits": [
+      {
+        "path": "Terrain/MapMagic/Tile 0,-1/Main Terrain",
+        "point": [
+          -2226.74878,
+          -456.068024,
+          -1695.407
+        ]
+      }
+    ]
+  },
+  {
+    "x": 0.0,
+    "z": -5.0,
+    "hits": [
+      {
+        "path": "Terrain/MapMagic/Tile 0,-1/Main Terrain",
+        "point": [
+          -2224.104,
+          -454.646881,
+          -1715.26135
+        ]
+      }
+    ]
+  },
+  {
+    "x": 0.0,
+    "z": 0.0,
+    "hits": [
+      {
+        "path": "Terrain/MapMagic/Tile 0,-1/Main Terrain",
+        "point": [
+          -2220.4397,
+          -455.0812,
+          -1711.8595
+        ]
+      }
+    ]
+  },
+  {
+    "x": 0.0,
+    "z": 6.57,
+    "hits": [
+      {
+        "path": "Terrain/MapMagic/Tile 0,-1/Main Terrain",
+        "point": [
+          -2215.62476,
+          -455.6418,
+          -1707.38953
+        ]
+      }
+    ]
+  },
+  {
+    "x": 16.35,
+    "z": -5.0,
+    "hits": [
+      {
+        "path": "Terrain/MapMagic/Tile 0,-1/Main Terrain",
+        "point": [
+          -2212.98,
+          -454.4619,
+          -1727.24377
+        ]
+      }
+    ]
+  },
+  {
+    "x": 16.35,
+    "z": 0.0,
+    "hits": [
+      {
+        "path": "Terrain/MapMagic/Tile 0,-1/Main Terrain",
+        "point": [
+          -2209.31567,
+          -455.089722,
+          -1723.84192
+        ]
+      }
+    ]
+  },
+  {
+    "x": 16.35,
+    "z": 6.57,
+    "hits": [
+      {
+        "path": "Terrain/MapMagic/Tile 0,-1/Main Terrain",
+        "point": [
+          -2204.50073,
+          -456.0558,
+          -1719.372
+        ]
+      }
+    ]
+  }
+]

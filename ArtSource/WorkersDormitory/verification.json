@@ -1,0 +1,26 @@
+{
+  "glb": {
+    "mesh_count": 14,
+    "triangles": 106599,
+    "dimensions_m": [
+      32.71,
+      11.725,
+      10.825
+    ],
+    "all_meshes_have_uv": true,
+    "all_meshes_have_materials": true,
+    "unwanted_objects": []
+  },
+  "fbx": {
+    "mesh_count": 14,
+    "triangles": 106599,
+    "dimensions_m": [
+      32.71,
+      11.725,
+      10.825
+    ],
+    "all_meshes_have_uv": true,
+    "all_meshes_have_materials": true,
+    "unwanted_objects": []
+  }
+}
