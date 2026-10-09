@@ -1,0 +1,148 @@
+00:00.047  reports          | WARNING Unable to open 'C:\Users\Guanhao\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+00:00.390  blend            | Read blend: "D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\WorkersDormitory\WorkersDormitory.blend"
+00:00.469  render           | Rendering single frame
+00:00.469  render           | Rendering frame 1
+00:00.469  render           | Start rendering: WorkersDormitory, ViewLayer
+00:00.469  render           | Engine: Cycles
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | BalconyInnerWindows__FrameBrown
+Scene switch for render: 'WorkersDormitory' in file: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\WorkersDormitory\WorkersDormitory.blend'
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | BalconyInnerWindows__Glass3
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | BalconyInnerWindows__FrameGrey
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | BalconyInnerWindows__Glass5
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Windows__Glass0
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Windows__Glass1
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Windows__Glass3
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Windows__FrameGreen
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Windows__Glass4
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Windows__FrameGrey
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | FrontMasonry__BuffBrick
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | RearMasonry__BuffBrick
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | LeftMasonry__BuffBrick
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | RightMasonry__BuffBrick
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Foundation__Concrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | FloorSlabs__Concrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Roof__Roof
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Parapet__BuffBrick
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Coping__Concrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_1__Concrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_1__Glass1
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_1__Glass5
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_1__Glass0
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_1__FrameBrown
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | LocalWeathering__SpalledConcrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | LocalWeathering__Runoff
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_3__Concrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_3__FrameBrown
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_3__Glass3
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_3__Glass4
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_3__Glass5
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_3__Glass0
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_3__Glass1
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_1_Floor_3__Glass2
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | BalconyRoof__Concrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_1__Concrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_1__FrameGreen
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_1__Glass4
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_1__Glass5
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_1__Glass0
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_1__Glass1
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_1__Glass2
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_1__Glass3
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_1__FrameBrown
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_2__Concrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_2__FrameGrey
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_2__Glass5
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_2__Glass0
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_2__Glass1
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_2__Glass2
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_2__Glass3
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_2__Glass4
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_3__FrameBrown
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_3__Glass1
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_3__Glass3
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_2_Floor_3__Glass4
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_3_Floor_1__Glass1
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_3_Floor_1__Glass3
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_3_Floor_1__Glass4
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_3_Floor_1__Glass5
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_3_Floor_1__FrameBrown
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_3_Floor_2__Concrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_3_Floor_2__Glass2
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_3_Floor_2__Glass4
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_3_Floor_2__Glass0
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_3_Floor_2__Glass1
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_1__Concrete
+00:00.484  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_1__FrameBrown
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_2__Concrete
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_2__FrameGrey
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_2__Glass5
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_2__Glass0
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_2__Glass2
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_2__Glass4
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_2__FrameBrown
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Dorm_Daylight
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_3__Glass0
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_3__Glass3
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Balcony_4_Floor_3__Glass4
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | PreviewGround
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | EntranceSurround__Concrete
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | Doors__FrameGreen
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | DoorPanels__FrameBrown
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | RoofVents__Concrete
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | DoorPanels__Glass1
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | DoorHardware__FrameGrey
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | RainPipes__FrameGrey
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | PipeClamps__FrameBrown
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | RoofVents__BuffBrick
+00:00.500  render           | Fra: 1 | Mem: 0M | Synchronizing object | RoofVents__Interior
+00:00.500  render           | Fra: 1 | Mem: 0M | Initializing
+00:00.500  render           | Fra: 1 | Mem: 0M | Updating Images | Loading Dorm_Concrete_Normal.png.002
+00:00.500  render           | Fra: 1 | Mem: 0M | Updating Images | Loading Dorm_Concrete_Normal.png.001
+00:00.500  render           | Fra: 1 | Mem: 0M | Updating Images | Loading Dorm_BuffBrick_ORM.png
+00:00.500  render           | Fra: 1 | Mem: 0M | Updating Images | Loading Dorm_BuffBrick_BaseColor.png
+00:00.640  render           | Fra: 1 | Mem: 0M | Waiting for render to start
+00:00.640  render           | Fra: 1 | Mem: 0M | Updating Scene
+00:00.640  render           | Fra: 1 | Mem: 0M | Updating Shaders
+00:00.640  render           | Fra: 1 | Mem: 0M | Loading render kernels (may take a few minutes the first time)
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Procedurals
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Background
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Scene Attribute
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Camera
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Meshes Flags
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Objects
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Objects | Copying Transformations to device
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Particle Systems
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Particle Systems | Copying Particles to device
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Meshes
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Objects | Applying Static Transformations
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Scene BVH | Building
+00:00.640  render           | Fra: 1 | Mem: 1M | Updating Scene BVH | Building BVH
+00:00.640  render           | Fra: 1 | Mem: 4M | Updating Scene BVH | Building BVH 0%
+00:00.640  render           | Fra: 1 | Mem: 8M | Updating Scene BVH | Copying BVH to device
+00:00.640  render           | Fra: 1 | Mem: 8M | Updating Mesh | Computing attributes
+00:00.640  render           | Fra: 1 | Mem: 8M | Updating Mesh | Copying Attributes to device
+00:00.640  render           | Fra: 1 | Mem: 12M | Updating Mesh | Computing normals
+00:00.640  render           | Fra: 1 | Mem: 12M | Updating Mesh | Copying Mesh to device
+00:00.640  render           | Fra: 1 | Mem: 13M | Updating Objects Flags
+00:00.640  render           | Fra: 1 | Mem: 13M | Updating Primitive Offsets
+00:00.640  render           | Fra: 1 | Mem: 13M | Updating Images
+00:00.640  render           | Fra: 1 | Mem: 125M | Updating Volume
+00:00.640  render           | Fra: 1 | Mem: 125M | Updating Camera Volume
+00:00.640  render           | Fra: 1 | Mem: 125M | Updating Lookup Tables
+00:00.640  render           | Fra: 1 | Mem: 125M | Updating Lights
+00:00.640  render           | Fra: 1 | Mem: 125M | Updating Lights | Computing tree
+00:00.640  render           | Fra: 1 | Mem: 126M | Updating Integrator
+00:00.640  render           | Fra: 1 | Mem: 126M | Updating Film
+00:00.640  render           | Fra: 1 | Mem: 125M | Updating Lookup Tables
+00:00.640  render           | Fra: 1 | Mem: 126M | Updating Baking
+00:00.640  render           | Fra: 1 | Mem: 126M | Updating Device | Writing constant memory
+00:00.640  render           | Fra: 1 | Mem: 126M | Loading denoising kernels (may take a few minutes the first time)
+00:00.640  render           | Fra: 1 | Mem: 126M | Sample 0/48
+00:01.015  render           | Fra: 1 | Remaining: 00:17.43 | Mem: 272M | Sample 1/48
+00:21.234  render           | Fra: 1 | Mem: 272M | Sample 48/48
+00:21.234  render           | Fra: 1 | Mem: 272M | Finished
+00:21.640  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\WorkersDormitory\Previews\Dormitory_Hero.png0001.png'
+00:21.640  render           | Time: 00:21.18 (Saving: 00:00.28)
+
+Blender quit

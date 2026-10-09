@@ -1,0 +1,1189 @@
+{
+  "asset": {
+    "path": "WorkersDormitory",
+    "scene": null,
+    "active": true,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "worldScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "components": [
+      "WorkersDormitory | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_BuffBrick | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_BuffBrick | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_BuffBrick | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_Concrete | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_Concrete | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_Concrete | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_FrameBrown | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_FrameBrown | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_FrameBrown | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_FrameGreen | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_FrameGreen | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_FrameGreen | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_FrameGrey | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_FrameGrey | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_FrameGrey | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_Glass0 | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_Glass0 | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_Glass0 | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_Glass1 | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_Glass1 | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_Glass1 | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_Glass2 | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_Glass2 | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_Glass2 | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_Glass3 | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_Glass3 | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_Glass3 | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_Glass4 | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_Glass4 | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_Glass4 | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_Glass5 | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_Glass5 | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_Glass5 | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_Interior | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_Interior | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_Interior | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_Roof | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_Roof | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_Roof | UnityEngine.MeshRenderer",
+      "WorkersDormitory/Dorm_SillRunoff.002 | UnityEngine.Transform",
+      "WorkersDormitory/Dorm_SillRunoff.002 | UnityEngine.MeshFilter",
+      "WorkersDormitory/Dorm_SillRunoff.002 | UnityEngine.MeshRenderer"
+    ],
+    "renderers": [
+      {
+        "path": "WorkersDormitory/Dorm_BuffBrick",
+        "center": [
+          0.0,
+          5.51,
+          0.0
+        ],
+        "size": [
+          32.38,
+          10.18,
+          9.98
+        ],
+        "localCenter": [
+          0.0,
+          5.51,
+          0.0
+        ],
+        "localSize": [
+          32.38,
+          10.18,
+          9.98
+        ],
+        "materials": [
+          "Dorm_BuffBrick | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Concrete",
+        "center": [
+          0.0,
+          5.4125,
+          0.7075
+        ],
+        "size": [
+          32.71,
+          10.825,
+          11.725
+        ],
+        "localCenter": [
+          0.0,
+          5.4125,
+          0.7075
+        ],
+        "localSize": [
+          32.71,
+          10.825,
+          11.725
+        ],
+        "materials": [
+          "Dorm_Concrete | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_FrameBrown",
+        "center": [
+          0.0,
+          4.8575,
+          0.815000057
+        ],
+        "size": [
+          31.905,
+          8.835,
+          11.135
+        ],
+        "localCenter": [
+          0.0,
+          4.8575,
+          0.815000057
+        ],
+        "localSize": [
+          31.905,
+          8.835,
+          11.135
+        ],
+        "materials": [
+          "Dorm_FrameBrown | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_FrameGreen",
+        "center": [
+          0.0,
+          4.7525,
+          0.815000057
+        ],
+        "size": [
+          31.905,
+          8.585,
+          11.135
+        ],
+        "localCenter": [
+          0.0,
+          4.7525,
+          0.815000057
+        ],
+        "localSize": [
+          31.905,
+          8.585,
+          11.135
+        ],
+        "materials": [
+          "Dorm_FrameGreen | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_FrameGrey",
+        "center": [
+          0.0,
+          5.06999969,
+          0.815000057
+        ],
+        "size": [
+          31.905,
+          9.7,
+          11.135
+        ],
+        "localCenter": [
+          0.0,
+          5.06999969,
+          0.815000057
+        ],
+        "localSize": [
+          31.905,
+          9.7,
+          11.135
+        ],
+        "materials": [
+          "Dorm_FrameGrey | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass0",
+        "center": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ],
+        "localCenter": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass0 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass1",
+        "center": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.805,
+          10.9920006
+        ],
+        "localCenter": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.805,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass1 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass2",
+        "center": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ],
+        "localCenter": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass2 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass3",
+        "center": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.805,
+          10.9920006
+        ],
+        "localCenter": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.805,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass3 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass4",
+        "center": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ],
+        "localCenter": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass4 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass5",
+        "center": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.805,
+          10.9920006
+        ],
+        "localCenter": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "localSize": [
+          31.762,
+          7.805,
+          10.9920006
+        ],
+        "materials": [
+          "Dorm_Glass5 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Interior",
+        "center": [
+          0.0,
+          5.5824995,
+          0.0
+        ],
+        "size": [
+          32.1,
+          10.2149992,
+          9.7
+        ],
+        "localCenter": [
+          0.0,
+          5.5824995,
+          0.0
+        ],
+        "localSize": [
+          32.1,
+          10.2149992,
+          9.7
+        ],
+        "materials": [
+          "Dorm_Interior | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Roof",
+        "center": [
+          0.0,
+          9.52,
+          0.0
+        ],
+        "size": [
+          32.15,
+          0.1600008,
+          9.85
+        ],
+        "localCenter": [
+          0.0,
+          9.52,
+          0.0
+        ],
+        "localSize": [
+          32.15,
+          0.1600008,
+          9.85
+        ],
+        "materials": [
+          "Dorm_Roof | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_SillRunoff.002",
+        "center": [
+          0.0,
+          4.050342,
+          5.724
+        ],
+        "size": [
+          31.55,
+          6.839315,
+          1.46
+        ],
+        "localCenter": [
+          0.0,
+          4.050342,
+          5.724
+        ],
+        "localSize": [
+          31.55,
+          6.839315,
+          1.46
+        ],
+        "materials": [
+          "Dorm_SillRunoff.002 | Shader Graphs/glTF-pbrMetallicRoughness"
+        ]
+      }
+    ],
+    "mesh": [
+      {
+        "path": "WorkersDormitory/Dorm_BuffBrick",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.51,
+          0.0
+        ],
+        "size": [
+          32.38,
+          10.18,
+          9.98
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Concrete",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.4125,
+          0.7075
+        ],
+        "size": [
+          32.71,
+          10.825,
+          11.725
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_FrameBrown",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          4.8575,
+          0.815000057
+        ],
+        "size": [
+          31.905,
+          8.835,
+          11.135
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_FrameGreen",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          4.7525,
+          0.815000057
+        ],
+        "size": [
+          31.905,
+          8.585,
+          11.135
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_FrameGrey",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.06999969,
+          0.815000057
+        ],
+        "size": [
+          31.905,
+          9.7,
+          11.135
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass0",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass1",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.805,
+          10.9920006
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass2",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass3",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.805,
+          10.9920006
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass4",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.245,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.89999962,
+          10.9920006
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Glass5",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.2925,
+          0.815000057
+        ],
+        "size": [
+          31.762,
+          7.805,
+          10.9920006
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Interior",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          5.5824995,
+          0.0
+        ],
+        "size": [
+          32.1,
+          10.2149992,
+          9.7
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_Roof",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          9.52,
+          0.0
+        ],
+        "size": [
+          32.15,
+          0.1600008,
+          9.85
+        ]
+      },
+      {
+        "path": "WorkersDormitory/Dorm_SillRunoff.002",
+        "asset": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+        "center": [
+          0.0,
+          4.050342,
+          5.724
+        ],
+        "size": [
+          31.55,
+          6.839315,
+          1.46
+        ]
+      }
+    ]
+  },
+  "localBounds": {
+    "center": [
+      -274.3891,
+      52.64115,
+      -280.484741
+    ],
+    "size": [
+      47.71399,
+      36.92688,
+      51.9554443
+    ]
+  },
+  "baseCenter": [
+    -2220.4397,
+    -433.584045,
+    -1711.8595
+  ],
+  "ground": [
+    {
+      "path": "Terrain/MapMagic/Tile 0,-1/Main Terrain",
+      "point": [
+        -2220.4397,
+        -455.0812,
+        -1711.8595
+      ],
+      "normal": [
+        0.09330121,
+        0.995152056,
+        0.0311004017
+      ]
+    }
+  ],
+  "terrain": [
+    {
+      "name": "Main Terrain",
+      "position": [
+        -2924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -418.567078
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -4924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -226.846741
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        -3924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -319.80896
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -3924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -342.545929
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -2924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -538.4676
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -924.0005,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -562.682434
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -3924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -330.307648
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        75.99951,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -604.006
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        75.99951,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -625.0644
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        -4924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -228.952576
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        75.99951,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -606.2949
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -924.0005,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -629.3371
+    },
+    {
+      "name": "Vanilla Terrain",
+      "position": [
+        0.000122070313,
+        0.0,
+        0.000366210938
+      ],
+      "size": [
+        1000.0,
+        600.0,
+        1000.0
+      ],
+      "height": 0.0
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        -4924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -182.4715
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        75.99951,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -666.1741
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -924.0005,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -660.8637
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -924.0005,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -590.4248
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -3924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -365.162567
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        -4924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -193.489014
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -2924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -447.4657
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        -1924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -468.713318
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -1924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -512.997
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -1924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -496.821716
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        75.99951,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -615.4202
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        -924.0005,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -527.951538
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        -4924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -131.259827
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -1924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -476.221069
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        -2924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -389.9441
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -2924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -455.0812
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        75.99951,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -613.043945
+    },
+    {
+      "name": "Draft Terrain",
+      "position": [
+        -4924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -148.547852
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -1924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -585.907959
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -3924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -279.218079
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -2924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -515.8217
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -924.0005,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -559.356
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -3924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -435.630219
+    },
+    {
+      "name": "Main Terrain",
+      "position": [
+        -1924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "height": -470.4519
+    }
+  ],
+  "triggers": 0
+}

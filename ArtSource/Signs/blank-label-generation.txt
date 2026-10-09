@@ -1,0 +1,5 @@
+Background-only edit using the built-in imagegen tool.
+Saved to Assets/Art Resources/Environment/Signs/T_HeightLimit_Blank_BaseColor.png.
+All height-limit lettering is rendered separately using the user-provided FZBiaoYTJW.TTF.
+
+Edit this exact Unity UV albedo atlas. Remove ONLY ALL FOUR red Chinese height restriction text lines including all Chinese characters, numerals and decimal dots from the four adjacent off-white strips in the lower-right. Inpaint the former letters with the same aged off-white painted metal, preserving scratches, grime, subtle wear. The four label faces must be completely blank, with NO letters, no numbers and no residual ghost characters. Preserve the atlas dimensions/aspect, exact UV island coordinates, every island boundary, all yellow-black diagonal hazard stripes, all rusty metal regions, the black empty gaps, and the two yellow WARNING labels at the top. Do not rearrange, shift, resize, rotate, crop or redesign anything. Flat texture atlas only, no perspective or lighting changes. Match input resolution exactly if possible.

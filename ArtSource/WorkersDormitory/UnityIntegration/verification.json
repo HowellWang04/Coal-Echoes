@@ -1,0 +1,174 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "isDirty": false,
+  "source": "Assets/Art Resources/Environment/WorkersDormitory/WorkersDormitory.glb",
+  "position": [
+    -2220.4397,
+    -454.68,
+    -1711.8595
+  ],
+  "rotation": [
+    0.0,
+    227.127625,
+    0.0
+  ],
+  "scale": [
+    1.00000048,
+    1.0,
+    1.00000048
+  ],
+  "oldCount": 0,
+  "rendererCount": 15,
+  "colliderCount": 14,
+  "missingScripts": 0,
+  "materials": [
+    {
+      "name": "Dorm_BuffBrick",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "baseColorTexture",
+          "name": "Dorm_BuffBrick_BaseColor",
+          "width": 2048
+        },
+        {
+          "property": "normalTexture",
+          "name": "Dorm_BuffBrick_Normal",
+          "width": 2048
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "name": "Dorm_BuffBrick_ORM",
+          "width": 2048
+        }
+      ]
+    },
+    {
+      "name": "Dorm_Concrete",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "baseColorTexture",
+          "name": "Dorm_Concrete_BaseColor",
+          "width": 2048
+        },
+        {
+          "property": "normalTexture",
+          "name": "Dorm_Concrete_Normal",
+          "width": 2048
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "name": "Dorm_Concrete_ORM",
+          "width": 2048
+        }
+      ]
+    },
+    {
+      "name": "Dorm_FrameBrown",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": []
+    },
+    {
+      "name": "Dorm_FrameGreen",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": []
+    },
+    {
+      "name": "Dorm_FrameGrey",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": []
+    },
+    {
+      "name": "Dorm_Glass0",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": []
+    },
+    {
+      "name": "Dorm_Glass1",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": []
+    },
+    {
+      "name": "Dorm_Glass2",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": []
+    },
+    {
+      "name": "Dorm_Glass3",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": []
+    },
+    {
+      "name": "Dorm_Glass4",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": []
+    },
+    {
+      "name": "Dorm_Glass5",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": []
+    },
+    {
+      "name": "Dorm_Interior",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": []
+    },
+    {
+      "name": "Dorm_Roof",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "baseColorTexture",
+          "name": "Dorm_Concrete_BaseColor",
+          "width": 2048
+        },
+        {
+          "property": "normalTexture",
+          "name": "Dorm_Concrete_Normal",
+          "width": 2048
+        },
+        {
+          "property": "metallicRoughnessTexture",
+          "name": "Dorm_Concrete_ORM",
+          "width": 2048
+        }
+      ]
+    },
+    {
+      "name": "Dorm_SillRunoff.002",
+      "shader": "Shader Graphs/glTF-pbrMetallicRoughness",
+      "supported": true,
+      "textures": [
+        {
+          "property": "baseColorTexture",
+          "name": "Dorm_Runoff_BaseColor",
+          "width": 256
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "path": "Assets/Scenes/Main Game Scene.unity",
+      "isDirty": false
+    },
+    {
+      "path": "Assets/SmokePortalTest/SmokePortal_Test.unity",
+      "isDirty": true
+    }
+  ]
+}

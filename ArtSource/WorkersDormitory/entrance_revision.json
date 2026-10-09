@@ -1,0 +1,29 @@
+{
+  "changed_existing_meshes": [
+    "Sills__Concrete",
+    "Lintels__Concrete",
+    "RoomPockets__Interior",
+    "Windows__FrameBrown",
+    "Windows__Glass0",
+    "Windows__Glass1",
+    "Windows__Glass3",
+    "Windows__FrameGreen",
+    "Windows__Glass4",
+    "Windows__Glass5",
+    "EntranceSteps__Concrete",
+    "EntranceSurround__Concrete",
+    "Canopies__Concrete",
+    "Doors__FrameGreen",
+    "DoorPanels__FrameBrown",
+    "DoorPanels__Glass1",
+    "DoorHardware__FrameGrey",
+    "FrontMasonry__BuffBrick"
+  ],
+  "unchanged_existing_mesh_count": 109,
+  "door_opening_width_m": 2.98,
+  "door_opening_height_m": 2.65,
+  "removed_ground_floor_window_centers_x_m": [
+    -1.25,
+    1.25
+  ]
+}

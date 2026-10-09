@@ -1,0 +1,99 @@
+{
+  "entranceRayHits": [
+    {
+      "path": "In-scene Objects/工厂建筑群/01 建筑与构筑物/大型厂房/WorkersDormitory/Dorm_Interior",
+      "distance": 4.549759,
+      "point": [
+        -2223.701,
+        -453.080017,
+        -1714.88708
+      ]
+    }
+  ],
+  "colliders": [
+    {
+      "name": "Dorm_BuffBrick",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_Concrete",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_FrameBrown",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_FrameGreen",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_FrameGrey",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_Glass0",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_Glass1",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_Glass2",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_Glass3",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_Glass4",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_Glass5",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_Interior",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "Dorm_Roof",
+      "enabled": true,
+      "type": "MeshCollider",
+      "isTrigger": false
+    },
+    {
+      "name": "SlopeFoundation",
+      "enabled": true,
+      "type": "BoxCollider",
+      "isTrigger": false
+    }
+  ]
+}
