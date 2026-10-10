@@ -1,0 +1,58 @@
+{
+  "nodeId": 7422313716441415683,
+  "assetPath": "Assets/TerrainData/SheepRangeDEM/SheepRange_WholeMap_800m_delta.asset",
+  "terrains": [
+    {
+      "name": "Tile_1_1_Draft",
+      "changedSamples": 14992
+    },
+    {
+      "name": "Tile_1_1_Main",
+      "changedSamples": 950824
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "changedSamples": 15651
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "changedSamples": 990285
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "changedSamples": 3225
+    },
+    {
+      "name": "Tile_0_1_Draft",
+      "changedSamples": 1772
+    },
+    {
+      "name": "Tile_0_1_Main",
+      "changedSamples": 109977
+    },
+    {
+      "name": "Tile_0_2_Draft",
+      "changedSamples": 2746
+    },
+    {
+      "name": "Tile_0_2_Main",
+      "changedSamples": 171999
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "changedSamples": 12551
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "changedSamples": 793940
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "changedSamples": 6743
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "changedSamples": 426018
+    }
+  ]
+}

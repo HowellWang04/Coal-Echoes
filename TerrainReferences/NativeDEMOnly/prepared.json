@@ -1,0 +1,756 @@
+[
+  {
+    "name": "Tile_0_-2_Main",
+    "changed": 416752,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 418871,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_-2_Draft",
+    "changed": 16392,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_-1_Main",
+    "changed": 0,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 0,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_-1_Draft",
+    "changed": 13863,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_-2_Main",
+    "changed": 934441,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 936857,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_-2_Draft",
+    "changed": 16520,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_-1_Main",
+    "changed": 680346,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 683049,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_-1_Draft",
+    "changed": 15446,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_0_Main",
+    "changed": 841964,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 844871,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_0_Draft",
+    "changed": 16539,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_-2_Main",
+    "changed": 1050625,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1050625,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_-2_Draft",
+    "changed": 16641,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_-1_Main",
+    "changed": 693897,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1050625,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_-1_Draft",
+    "changed": 11050,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_0_Main",
+    "changed": 1023753,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1050625,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_0_Draft",
+    "changed": 16227,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_3_0_Draft",
+    "changed": 16099,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_1_Draft",
+    "changed": 16634,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_1_Main",
+    "changed": 1048742,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1049268,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_1_Draft",
+    "changed": 16574,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_1_Main",
+    "changed": 1045711,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1050625,
+    "native_edges_above_85": 21,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_3_1_Draft",
+    "changed": 16587,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_-2_Main",
+    "changed": 395219,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 399101,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_-2_Draft",
+    "changed": 16444,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_-1_Main",
+    "changed": 0,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 0,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_-1_Draft",
+    "changed": 16316,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_0_Main",
+    "changed": 0,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 0,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_0_Draft",
+    "changed": 16327,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_-3_Draft",
+    "changed": 16132,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_-3_Draft",
+    "changed": 15405,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_-3_Draft",
+    "changed": 16641,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_3_-1_Draft",
+    "changed": 14291,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_-3_Draft",
+    "changed": 16638,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-2_1_Draft",
+    "changed": 13009,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-2_0_Draft",
+    "changed": 10330,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-2_-1_Draft",
+    "changed": 9307,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-2_-2_Draft",
+    "changed": 12709,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-2_-3_Draft",
+    "changed": 16637,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_1_Draft",
+    "changed": 16271,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_1_Main",
+    "changed": 400763,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 403984,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_1_Draft",
+    "changed": 16442,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_1_Main",
+    "changed": 167602,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 169356,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_3_-2_Draft",
+    "changed": 16641,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_3_-3_Draft",
+    "changed": 16641,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_0_Main",
+    "changed": 0,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 0,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_0_Draft",
+    "changed": 16303,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-2_2_Draft",
+    "changed": 16641,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-2_2_Main",
+    "changed": 1050558,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1050625,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_2_Draft",
+    "changed": 16640,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_-1_2_Main",
+    "changed": 1050518,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1050625,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_2_Draft",
+    "changed": 16641,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_2_Main",
+    "changed": 1050624,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1050625,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_2_Draft",
+    "changed": 16621,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_2_Main",
+    "changed": 1050449,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1050625,
+    "native_edges_above_85": 23,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_2_Draft",
+    "changed": 16641,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_2_Main",
+    "changed": 1050619,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1050625,
+    "native_edges_above_85": 316,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_3_2_Draft",
+    "changed": 16641,
+    "height_rect": [
+      0,
+      0,
+      129,
+      129
+    ],
+    "paint_pixels": 16641,
+    "native_edges_above_85": 0,
+    "transition_edges_above_85": 0
+  },
+  {
+    "name": "Tile_3_2_Main",
+    "changed": 1050625,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      1025
+    ],
+    "paint_pixels": 1050625,
+    "native_edges_above_85": 41,
+    "transition_edges_above_85": 0
+  }
+]

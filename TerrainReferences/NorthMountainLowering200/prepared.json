@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Tile_1_1_Draft",
+    "changed": 14992,
+    "sample_error_m": 0.00022099226082428203,
+    "delta_min_m": -200.00006103515625,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      0,
+      2,
+      129,
+      129
+    ],
+    "paint_pixels": 15534,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_1_Main",
+    "changed": 950824,
+    "sample_error_m": 0.00025573744341644833,
+    "delta_min_m": -200.00015258789062,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      0,
+      15,
+      1025,
+      1025
+    ],
+    "paint_pixels": 958927,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_1_Draft",
+    "changed": 15651,
+    "sample_error_m": 0.00019279529242521853,
+    "delta_min_m": -200.0000457763672,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      0,
+      2,
+      129,
+      129
+    ],
+    "paint_pixels": 16077,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_1_Main",
+    "changed": 990285,
+    "sample_error_m": 0.0003109975986181901,
+    "delta_min_m": -200.00010681152344,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      0,
+      15,
+      1025,
+      1025
+    ],
+    "paint_pixels": 997950,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_3_1_Draft",
+    "changed": 3225,
+    "sample_error_m": 7.16894865107116e-06,
+    "delta_min_m": -1.6276557445526123,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      0,
+      2,
+      44,
+      104
+    ],
+    "paint_pixels": 3843,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_1_Draft",
+    "changed": 1772,
+    "sample_error_m": 3.217193298007612e-05,
+    "delta_min_m": -19.843786239624023,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      81,
+      60,
+      129,
+      129
+    ],
+    "paint_pixels": 2039,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_1_Main",
+    "changed": 109977,
+    "sample_error_m": 4.5825490093548416e-05,
+    "delta_min_m": -19.865140914916992,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      642,
+      478,
+      1025,
+      1025
+    ],
+    "paint_pixels": 114060,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_2_Draft",
+    "changed": 2746,
+    "sample_error_m": 0.00011887652777084479,
+    "delta_min_m": -29.63052749633789,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      59,
+      0,
+      129,
+      86
+    ],
+    "paint_pixels": 3424,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_0_2_Main",
+    "changed": 171999,
+    "sample_error_m": 0.00016964884404224723,
+    "delta_min_m": -29.744043350219727,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      466,
+      0,
+      1025,
+      688
+    ],
+    "paint_pixels": 181443,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_2_Draft",
+    "changed": 12551,
+    "sample_error_m": 0.00029676539761713805,
+    "delta_min_m": -200.00009155273438,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      0,
+      0,
+      129,
+      104
+    ],
+    "paint_pixels": 12979,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_1_2_Main",
+    "changed": 793940,
+    "sample_error_m": 0.0003032649694145739,
+    "delta_min_m": -200.00015258789062,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      826
+    ],
+    "paint_pixels": 799322,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_2_Draft",
+    "changed": 6743,
+    "sample_error_m": 0.00038423406016618866,
+    "delta_min_m": -200.00009155273438,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      0,
+      0,
+      98,
+      98
+    ],
+    "paint_pixels": 7193,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  },
+  {
+    "name": "Tile_2_2_Main",
+    "changed": 426018,
+    "sample_error_m": 0.00038423406016618866,
+    "delta_min_m": -200.00018310546875,
+    "delta_max_m": 0.0,
+    "height_rect": [
+      0,
+      0,
+      780,
+      779
+    ],
+    "paint_pixels": 431891,
+    "old_edges_above_85": 0,
+    "new_edges_above_85": 0
+  }
+]

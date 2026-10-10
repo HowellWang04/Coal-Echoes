@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Tile_0_-1_Main",
+    "error_m": 0.0,
+    "unchangedDifferences": 0,
+    "min": 0.184401616,
+    "max": 0.5055329
+  },
+  {
+    "name": "Tile_1_-1_Main",
+    "error_m": 1.49011612E-05,
+    "unchangedDifferences": 0,
+    "min": 0.159255,
+    "max": 0.3314204
+  },
+  {
+    "name": "Tile_1_-1_Draft",
+    "error_m": 1.49011612E-05,
+    "unchangedDifferences": 0,
+    "min": 0.160338372,
+    "max": 0.3312668
+  },
+  {
+    "name": "Tile_2_1_Draft",
+    "error_m": 2.98023224E-05,
+    "unchangedDifferences": 0,
+    "min": 0.17313005,
+    "max": 0.7666687
+  },
+  {
+    "name": "Tile_2_1_Main",
+    "error_m": 2.98023224E-05,
+    "unchangedDifferences": 0,
+    "min": 0.17439878,
+    "max": 0.7661207
+  },
+  {
+    "name": "Tile_-1_-2_Main",
+    "error_m": 0.0,
+    "unchangedDifferences": 0,
+    "min": 0.2823516,
+    "max": 0.6208165
+  },
+  {
+    "name": "Tile_-1_-2_Draft",
+    "error_m": 0.0,
+    "unchangedDifferences": 0,
+    "min": 0.282436967,
+    "max": 0.6199568
+  },
+  {
+    "name": "Tile_1_2_Draft",
+    "error_m": 2.98023224E-05,
+    "unchangedDifferences": 0,
+    "min": 0.042326875,
+    "max": 0.818057537
+  },
+  {
+    "name": "Tile_1_2_Main",
+    "error_m": 2.98023224E-05,
+    "unchangedDifferences": 0,
+    "min": 0.0383269,
+    "max": 0.8184176
+  },
+  {
+    "name": "Tile_2_2_Draft",
+    "error_m": 2.98023224E-05,
+    "unchangedDifferences": 0,
+    "min": 0.0508304052,
+    "max": 0.7914436
+  },
+  {
+    "name": "Tile_2_2_Main",
+    "error_m": 2.98023224E-05,
+    "unchangedDifferences": 0,
+    "min": 0.0486633256,
+    "max": 0.7917716
+  }
+]

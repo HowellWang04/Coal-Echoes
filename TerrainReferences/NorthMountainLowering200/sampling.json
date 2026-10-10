@@ -1,0 +1,292 @@
+[
+  {
+    "name": "Tile_0_-2_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_-2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_-1_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_-1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_-2_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_-2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_-1_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_-1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_0_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_0_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_-2_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_-2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_-1_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_-1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_0_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_0_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_3_0_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_1_Draft",
+    "min": -0.200000063,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_1_Main",
+    "min": -0.200000152,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_1_Draft",
+    "min": -0.200000048,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_1_Main",
+    "min": -0.2000001,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_3_1_Draft",
+    "min": -0.0016276557,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_-2_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_-2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_-1_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_-1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_0_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_0_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_-3_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_-3_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_-3_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_3_-1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_-3_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_0_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_-1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_-2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_-3_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_1_Draft",
+    "min": -0.019843787,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_1_Main",
+    "min": -0.01986514,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_1_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_3_-2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_3_-3_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_0_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_0_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_2_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_2_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_2_Draft",
+    "min": -0.0296305269,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_2_Main",
+    "min": -0.0297440439,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_2_Draft",
+    "min": -0.200000092,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_2_Main",
+    "min": -0.200000152,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_2_Draft",
+    "min": -0.200000092,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_2_2_Main",
+    "min": -0.200000182,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_3_2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_3_2_Main",
+    "min": 0.0,
+    "max": 0.0
+  }
+]

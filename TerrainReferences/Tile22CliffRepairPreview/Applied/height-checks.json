@@ -1,0 +1,128 @@
+{
+  "original_points": [
+    {
+      "axis": "Z",
+      "before_m": 44.22268271446228,
+      "after_m": 0.3052055835723877
+    },
+    {
+      "axis": "X",
+      "before_m": 48.37331175804138,
+      "after_m": 0.18312036991119385
+    }
+  ],
+  "tile22_edges_above_85_degrees": 0,
+  "max_lod_correction_mismatch_m": 0.030517578125,
+  "lod": [
+    {
+      "main": "Tile_0_-2_Main",
+      "draft": "Tile_0_-2_Draft",
+      "correction_mismatch_m": 0.0
+    },
+    {
+      "main": "Tile_0_-1_Main",
+      "draft": "Tile_0_-1_Draft",
+      "correction_mismatch_m": 0.0
+    },
+    {
+      "main": "Tile_1_-2_Main",
+      "draft": "Tile_1_-2_Draft",
+      "correction_mismatch_m": 0.0
+    },
+    {
+      "main": "Tile_1_-1_Main",
+      "draft": "Tile_1_-1_Draft",
+      "correction_mismatch_m": 0.030517578125
+    },
+    {
+      "main": "Tile_1_0_Main",
+      "draft": "Tile_1_0_Draft",
+      "correction_mismatch_m": 0.030517578125
+    },
+    {
+      "main": "Tile_2_-2_Main",
+      "draft": "Tile_2_-2_Draft",
+      "correction_mismatch_m": 0.0
+    },
+    {
+      "main": "Tile_2_-1_Main",
+      "draft": "Tile_2_-1_Draft",
+      "correction_mismatch_m": 2.9802322387695312e-05
+    },
+    {
+      "main": "Tile_2_0_Main",
+      "draft": "Tile_2_0_Draft",
+      "correction_mismatch_m": 2.9802322387695312e-05
+    },
+    {
+      "main": "Tile_1_1_Main",
+      "draft": "Tile_1_1_Draft",
+      "correction_mismatch_m": 0.030517578125
+    },
+    {
+      "main": "Tile_2_1_Main",
+      "draft": "Tile_2_1_Draft",
+      "correction_mismatch_m": 5.9604644775390625e-05
+    },
+    {
+      "main": "Tile_-1_-2_Main",
+      "draft": "Tile_-1_-2_Draft",
+      "correction_mismatch_m": 0.0
+    },
+    {
+      "main": "Tile_-1_-1_Main",
+      "draft": "Tile_-1_-1_Draft",
+      "correction_mismatch_m": 0.0
+    },
+    {
+      "main": "Tile_-1_0_Main",
+      "draft": "Tile_-1_0_Draft",
+      "correction_mismatch_m": 0.0
+    },
+    {
+      "main": "Tile_0_1_Main",
+      "draft": "Tile_0_1_Draft",
+      "correction_mismatch_m": 0.030517578125
+    },
+    {
+      "main": "Tile_-1_1_Main",
+      "draft": "Tile_-1_1_Draft",
+      "correction_mismatch_m": 0.0
+    },
+    {
+      "main": "Tile_0_0_Main",
+      "draft": "Tile_0_0_Draft",
+      "correction_mismatch_m": 0.0
+    },
+    {
+      "main": "Tile_-2_2_Main",
+      "draft": "Tile_-2_2_Draft",
+      "correction_mismatch_m": 0.0
+    },
+    {
+      "main": "Tile_-1_2_Main",
+      "draft": "Tile_-1_2_Draft",
+      "correction_mismatch_m": 1.4901161193847656e-05
+    },
+    {
+      "main": "Tile_0_2_Main",
+      "draft": "Tile_0_2_Draft",
+      "correction_mismatch_m": 0.030517578125
+    },
+    {
+      "main": "Tile_1_2_Main",
+      "draft": "Tile_1_2_Draft",
+      "correction_mismatch_m": 0.030517578125
+    },
+    {
+      "main": "Tile_2_2_Main",
+      "draft": "Tile_2_2_Draft",
+      "correction_mismatch_m": 0.030502676963806152
+    },
+    {
+      "main": "Tile_3_2_Main",
+      "draft": "Tile_3_2_Draft",
+      "correction_mismatch_m": 0.030517578125
+    }
+  ]
+}

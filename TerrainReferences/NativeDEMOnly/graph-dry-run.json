@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Tile_0_-2_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_0_-2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_0_-1_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_0_-1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_-2_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_-2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_-1_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_-1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_0_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_0_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_-2_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_-2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_-1_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_-1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_0_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_0_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_3_0_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_1_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_1_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_3_1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_-2_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_-2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_-1_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_-1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_0_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_0_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_0_-3_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_-3_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_-3_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_3_-1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_-3_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-2_1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-2_0_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-2_-1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-2_-2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-2_-3_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_0_1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_0_1_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_1_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_1_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_3_-2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_3_-3_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_0_0_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_0_0_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-2_2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-2_2_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_-1_2_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_0_2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_0_2_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_1_2_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_2_2_Main",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_3_2_Draft",
+    "error_m": 0.0
+  },
+  {
+    "name": "Tile_3_2_Main",
+    "error_m": 0.0
+  }
+]
