@@ -1,0 +1,294 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "dirty": true,
+  "terrains": [
+    {
+      "name": "Tile_0_-2_Main",
+      "p": [
+        -2924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Main.asset",
+      "sha256": "9c693e01d7990a84c79454e0694113ecb6161f72bc0aaa88ec797dd03cc748d5"
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "p": [
+        -2924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Draft.asset",
+      "sha256": "e8ad62622e9c540d2ce6d1e341452ae823c2168152b0223141b7fc453f9eeecd"
+    },
+    {
+      "name": "Tile_0_-1_Main",
+      "p": [
+        -2924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Main.asset",
+      "sha256": "f7559e5c82c70576a21889fc0168da6459e967173c809dc3b5ede1d1dd034aac"
+    },
+    {
+      "name": "Tile_0_-1_Draft",
+      "p": [
+        -2924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Draft.asset",
+      "sha256": "7d076f7154f34935803c8c0c465f2edda2df29faccc6e570a036f16d15c8f824"
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "p": [
+        -1924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Main.asset",
+      "sha256": "099bcbba6a5263639632908d89282c55dc6733f27a443144e831bbe4e4c643fe"
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "p": [
+        -1924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Draft.asset",
+      "sha256": "3a28d6cdacc5c04d4e9396a4c1dccb3baddcb715449f7d1961b8810f921aa997"
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "p": [
+        -1924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Main.asset",
+      "sha256": "482ef40e53d57aa728e29da2e30b8b9ad7ec22ed026cc096d300ebf27640b574"
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "p": [
+        -1924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Draft.asset",
+      "sha256": "9a1318a9d1fe83b470f750243c06de23e39e88ed19e3f41861e059979356a552"
+    },
+    {
+      "name": "Tile_-1_-2_Main",
+      "p": [
+        -3924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-2_Main.asset",
+      "sha256": "5cb262543749ea77d58f30ecd9bafde1192afa7b7803d0f6643094e714584763"
+    },
+    {
+      "name": "Tile_-1_-2_Draft",
+      "p": [
+        -3924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-2_Draft.asset",
+      "sha256": "1ce74cac18261805f2f3b5663f733427c5b21642e86b84aa3d7c115bd1d6c725"
+    },
+    {
+      "name": "Tile_-1_-1_Main",
+      "p": [
+        -3924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-1_Main.asset",
+      "sha256": "659a9e08245dcf2c11488ef8f99ba360874494c43ed4ba87e00ab2114ee04f9b"
+    },
+    {
+      "name": "Tile_-1_-1_Draft",
+      "p": [
+        -3924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-1_Draft.asset",
+      "sha256": "cf3a03cc7fc100d6266ef606029a8dcaba2955c1a6d42f6de8b72c5111dd236a"
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "p": [
+        -2924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-3_Draft.asset",
+      "sha256": "0bca688c21d106c519a0c3fc5185b7687d0a56775fd691dceb17133cf3c7bb85"
+    },
+    {
+      "name": "Tile_1_-3_Draft",
+      "p": [
+        -1924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-3_Draft.asset",
+      "sha256": "8a64c3b8897442b49c9a07043909cfe78c5e55aef850244429f7c2b29391dac2"
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "p": [
+        -3924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-3_Draft.asset",
+      "sha256": "68b8be8547d215ae04b46a6400a563c7abac4e6413aa1ec9923581dac6901300"
+    },
+    {
+      "name": "Tile_-2_-1_Draft",
+      "p": [
+        -4924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-1_Draft.asset",
+      "sha256": "46c93d594b64334bd4757d18dc4a3ee113283cc87399ea52eb553561b14d2b82"
+    },
+    {
+      "name": "Tile_-2_-2_Draft",
+      "p": [
+        -4924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-2_Draft.asset",
+      "sha256": "826e64b6bd9b43403404034266c8399a0c65dc9ac136d707eff7212d6d46341c"
+    },
+    {
+      "name": "Tile_-2_-3_Draft",
+      "p": [
+        -4924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-3_Draft.asset",
+      "sha256": "3534b0da7e60337202f8f3f4b6d27d0da7471b2b1e275e3eaf5747aa12097876"
+    }
+  ]
+}

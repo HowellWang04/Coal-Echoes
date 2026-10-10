@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Tile_-1_-2_Main",
+    "alteredAlpha": 195055,
+    "unchangedHeightSamplesDrifted": 0,
+    "maxDriftM": 0.0,
+    "unchangedAlphaChannelsDrifted": 0
+  },
+  {
+    "name": "Tile_-1_-2_Draft",
+    "alteredAlpha": 3074,
+    "unchangedHeightSamplesDrifted": 0,
+    "maxDriftM": 0.0,
+    "unchangedAlphaChannelsDrifted": 0
+  },
+  {
+    "name": "Tile_0_-3_Draft",
+    "alteredAlpha": 16641,
+    "unchangedHeightSamplesDrifted": 0,
+    "maxDriftM": 0.0,
+    "unchangedAlphaChannelsDrifted": 0
+  },
+  {
+    "name": "Tile_1_-3_Draft",
+    "alteredAlpha": 16235,
+    "unchangedHeightSamplesDrifted": 0,
+    "maxDriftM": 0.0,
+    "unchangedAlphaChannelsDrifted": 0
+  }
+]

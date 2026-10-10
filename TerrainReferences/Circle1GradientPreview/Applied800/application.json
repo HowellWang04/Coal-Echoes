@@ -1,0 +1,38 @@
+{
+  "nodeId": 5672710341184716803,
+  "assetPath": "Assets/TerrainData/SheepRangeDEM/SheepRange_Circle1_800m_delta.asset",
+  "terrains": [
+    {
+      "name": "Tile_0_-2_Main",
+      "painted": 228015
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "painted": 3843
+    },
+    {
+      "name": "Tile_-1_-2_Main",
+      "painted": 418020
+    },
+    {
+      "name": "Tile_-1_-2_Draft",
+      "painted": 6947
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "painted": 5349
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "painted": 12081
+    },
+    {
+      "name": "Tile_-2_-2_Draft",
+      "painted": 1278
+    },
+    {
+      "name": "Tile_-2_-3_Draft",
+      "painted": 1423
+    }
+  ]
+}

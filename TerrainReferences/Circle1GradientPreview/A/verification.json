@@ -1,0 +1,56 @@
+{
+  "width_m": 450.0,
+  "refinement": "Conjugate gradient on identical author shader Poisson equation, float64 CPU refinement after unchanged upstream GPU solve",
+  "refinement_iterations": 1575,
+  "refinement_seconds": 5.466969800181687,
+  "equation_update_residual_max_m": 5.215413517722922e-07,
+  "equation_update_residual_rms_m": 9.52331043247538e-08,
+  "author_to_refined_max_change_m": 19.698683730003165,
+  "protected_samples": 364945,
+  "protected_max_change_m": 0.0,
+  "fixed_samples": 638435,
+  "fixed_max_change_m": 0.0,
+  "changed_samples": 412189,
+  "change_range_m": [
+    -110.12954711914062,
+    229.54843139648438
+  ],
+  "world_height_range_m": [
+    -644.5006713867188,
+    -89.18846130371094
+  ],
+  "free_region_slope_p95_deg": 39.667463194443584,
+  "artificial_steep_sample_count": 9255,
+  "current_artificial_steep_sample_count": 68073,
+  "inner_detail_rms_original_m": 0.6651703244737968,
+  "inner_detail_rms_candidate_m": 0.6142214991636372,
+  "probes": [
+    {
+      "x": -3355.86035,
+      "z": -2789.02783,
+      "current_height_m": -307.2688640215815,
+      "candidate_height_m": -333.5821701691093,
+      "original_slope_deg": 34.45010810915019,
+      "current_slope_deg": 59.09013037802785,
+      "candidate_slope_deg": 38.49619887016979
+    },
+    {
+      "x": -3092.81421,
+      "z": -2643.80225,
+      "current_height_m": -264.6467563863894,
+      "candidate_height_m": -243.4201690353084,
+      "original_slope_deg": 42.5549031034087,
+      "current_slope_deg": 65.10771233509314,
+      "candidate_slope_deg": 50.77361736192448
+    }
+  ],
+  "png_encoding": {
+    "world_y_min": -710,
+    "world_y_max": 290,
+    "row_zero": "north",
+    "quantization_step_m": 0.015259021896696421,
+    "note": "For inspection only. Float files are authoritative; whole-PNG terrain import would quantize protected heights."
+  },
+  "first_free_boundary_ring_change_p95_m": 0.6754013299942017,
+  "first_free_boundary_ring_change_max_m": 1.083099365234375
+}

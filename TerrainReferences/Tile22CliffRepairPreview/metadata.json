@@ -1,0 +1,140 @@
+{
+  "resolution": 3073,
+  "spacing_m": 2.0,
+  "extent_xz": [
+    -4996.00049,
+    1147.9995099999996,
+    -3986.0,
+    2158.0
+  ],
+  "protected_polygon": [
+    [
+      -4400,
+      -2300
+    ],
+    [
+      -4220,
+      650
+    ],
+    [
+      -3660,
+      940
+    ],
+    [
+      -2750,
+      870
+    ],
+    [
+      -2070,
+      520
+    ],
+    [
+      -1660,
+      -650
+    ],
+    [
+      -1560,
+      -1810
+    ],
+    [
+      -1880,
+      -2440
+    ],
+    [
+      -2920,
+      -2540
+    ],
+    [
+      -3830,
+      -2490
+    ]
+  ],
+  "width_m": 800,
+  "guard_m": 24,
+  "free_samples": 3988899,
+  "core_samples": 2091630,
+  "accepted_samples": 412789,
+  "crest_anchors": [
+    {
+      "piece": "A",
+      "peak_m": -109.20960998535156,
+      "anchor_samples": 94800
+    },
+    {
+      "piece": "B",
+      "peak_m": -290.26837158203125,
+      "anchor_samples": 48544
+    },
+    {
+      "piece": "C",
+      "peak_m": 108.36212921142578,
+      "anchor_samples": 36971
+    }
+  ],
+  "row_zero": "south",
+  "height_units": "Unity world Y metres",
+  "pieces": [
+    {
+      "id": "A",
+      "source": "407",
+      "source_center": [
+        8200,
+        3600
+      ],
+      "center": [
+        -430,
+        -680
+      ],
+      "scale": 0.7,
+      "angle": 0,
+      "radius": [
+        1390,
+        2250
+      ],
+      "offset": -1580
+    },
+    {
+      "id": "B",
+      "source": "408",
+      "source_center": [
+        6500,
+        1550
+      ],
+      "center": [
+        -2530,
+        -3210
+      ],
+      "scale": 0.65,
+      "angle": 90,
+      "radius": [
+        2100,
+        920
+      ],
+      "offset": -1560
+    },
+    {
+      "id": "C",
+      "source": "407",
+      "source_center": [
+        8300,
+        7700
+      ],
+      "center": [
+        -1820,
+        1410
+      ],
+      "scale": 0.7,
+      "angle": 70,
+      "radius": [
+        1970,
+        1000
+      ],
+      "offset": -1520
+    }
+  ],
+  "native_guidance_world_range_m": [
+    -764.7759160100709,
+    82.97387949975564
+  ],
+  "native_validity": "TIFF NoData checked across every bilinear footprint with nonzero coverage; no Unity height cutoff"
+}

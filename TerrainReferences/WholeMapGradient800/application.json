@@ -1,0 +1,178 @@
+{
+  "nodeId": 7422313716441415683,
+  "assetPath": "Assets/TerrainData/SheepRangeDEM/SheepRange_WholeMap_800m_delta.asset",
+  "terrains": [
+    {
+      "name": "Tile_0_-2_Main",
+      "changedSamples": 196363
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "changedSamples": 3114
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "changedSamples": 931062
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "changedSamples": 14724
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "changedSamples": 682901
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "changedSamples": 10799
+    },
+    {
+      "name": "Tile_1_0_Main",
+      "changedSamples": 844500
+    },
+    {
+      "name": "Tile_1_0_Draft",
+      "changedSamples": 13344
+    },
+    {
+      "name": "Tile_2_-2_Main",
+      "changedSamples": 1012907
+    },
+    {
+      "name": "Tile_2_-2_Draft",
+      "changedSamples": 16046
+    },
+    {
+      "name": "Tile_2_-1_Main",
+      "changedSamples": 691109
+    },
+    {
+      "name": "Tile_2_-1_Draft",
+      "changedSamples": 10966
+    },
+    {
+      "name": "Tile_2_0_Main",
+      "changedSamples": 1024015
+    },
+    {
+      "name": "Tile_2_0_Draft",
+      "changedSamples": 16190
+    },
+    {
+      "name": "Tile_3_0_Draft",
+      "changedSamples": 11611
+    },
+    {
+      "name": "Tile_1_1_Draft",
+      "changedSamples": 15097
+    },
+    {
+      "name": "Tile_1_1_Main",
+      "changedSamples": 954533
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "changedSamples": 16338
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "changedSamples": 1032770
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "changedSamples": 11901
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "changedSamples": 9126
+    },
+    {
+      "name": "Tile_1_-3_Draft",
+      "changedSamples": 11852
+    },
+    {
+      "name": "Tile_2_-3_Draft",
+      "changedSamples": 10393
+    },
+    {
+      "name": "Tile_3_-1_Draft",
+      "changedSamples": 9004
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "changedSamples": 2613
+    },
+    {
+      "name": "Tile_0_1_Draft",
+      "changedSamples": 6417
+    },
+    {
+      "name": "Tile_0_1_Main",
+      "changedSamples": 403317
+    },
+    {
+      "name": "Tile_-1_1_Draft",
+      "changedSamples": 2232
+    },
+    {
+      "name": "Tile_-1_1_Main",
+      "changedSamples": 139261
+    },
+    {
+      "name": "Tile_3_-2_Draft",
+      "changedSamples": 9271
+    },
+    {
+      "name": "Tile_3_-3_Draft",
+      "changedSamples": 286
+    },
+    {
+      "name": "Tile_-2_2_Draft",
+      "changedSamples": 449
+    },
+    {
+      "name": "Tile_-2_2_Main",
+      "changedSamples": 26956
+    },
+    {
+      "name": "Tile_-1_2_Draft",
+      "changedSamples": 15783
+    },
+    {
+      "name": "Tile_-1_2_Main",
+      "changedSamples": 1004152
+    },
+    {
+      "name": "Tile_0_2_Draft",
+      "changedSamples": 16125
+    },
+    {
+      "name": "Tile_0_2_Main",
+      "changedSamples": 1025000
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "changedSamples": 13769
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "changedSamples": 876479
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "changedSamples": 14195
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "changedSamples": 902977
+    },
+    {
+      "name": "Tile_3_2_Draft",
+      "changedSamples": 3671
+    },
+    {
+      "name": "Tile_3_2_Main",
+      "changedSamples": 230841
+    }
+  ]
+}

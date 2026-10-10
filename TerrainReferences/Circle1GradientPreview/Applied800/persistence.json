@@ -1,0 +1,11 @@
+{
+  "graphSerializationValid": true,
+  "sceneSaved": true,
+  "graph": "Assets/MapMagic Graph.asset",
+  "delta": "Assets/TerrainData/SheepRangeDEM/SheepRange_Circle1_800m_delta.asset",
+  "deltaLength": 1050625,
+  "source": "New",
+  "nodes": 17,
+  "sceneDirtyImmediatelyAfterSave": false,
+  "sceneFileSha256": "fed3cdf43634eb0a08498014d0ee42dd569859ff2948a884e759f084a8a593b9"
+}

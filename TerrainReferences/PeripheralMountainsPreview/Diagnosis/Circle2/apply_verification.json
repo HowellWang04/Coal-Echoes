@@ -1,0 +1,40 @@
+{
+  "tiles": [
+    {
+      "name": "Tile_0_-2_Main",
+      "heightUnchanged": true
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "heightUnchanged": true
+    },
+    {
+      "name": "Tile_0_-1_Main",
+      "heightUnchanged": true
+    },
+    {
+      "name": "Tile_0_-1_Draft",
+      "heightUnchanged": true
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "heightUnchanged": true
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "heightUnchanged": true
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "heightUnchanged": true
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "heightUnchanged": true
+    }
+  ],
+  "allTerrainHeightHashesUnchanged": true,
+  "transformsUnchanged": true,
+  "transformCount": 21193,
+  "lockState": "[{\"locked\":false,\"guiName\":\"Factory transition\",\"relativeHeight\":false,\"worldRadius\":197.0,\"worldTransition\":30.0,\"p\":[1582.0,710.0,-190.000061]},{\"locked\":false,\"guiName\":\"Cableway branch ridge\",\"relativeHeight\":false,\"worldRadius\":280.0,\"worldTransition\":30.0,\"p\":[1059.0,710.0,-233.38678]},{\"locked\":false,\"guiName\":\"Cableway upper ridge\",\"relativeHeight\":false,\"worldRadius\":365.0,\"worldTransition\":30.0,\"p\":[652.0,710.0,-673.000061]},{\"locked\":false,\"guiName\":\"Cableway footing 02\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1356.84558,710.0,-198.257141]},{\"locked\":false,\"guiName\":\"Cableway footing 03\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1276.41589,710.0,-213.7597]},{\"locked\":false,\"guiName\":\"Cableway footing 04\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1155.41479,710.0,-236.377991]},{\"locked\":false,\"guiName\":\"Cableway footing 05\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1072.47339,710.0,-233.9234]},{\"locked\":false,\"guiName\":\"Cableway footing 06\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[825.8965,710.0,-263.1629]},{\"locked\":false,\"guiName\":\"Cableway footing 07\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[821.4392,710.0,-410.043518]},{\"locked\":false,\"guiName\":\"Cableway footing 08\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[729.7014,710.0,-547.150452]},{\"locked\":false,\"guiName\":\"Cableway footing 09\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[697.2793,710.0,-720.293762]},{\"locked\":false,\"guiName\":\"Cableway footing 10\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[647.162354,710.0,-875.992737]},{\"locked\":false,\"guiName\":\"Sheep Range factory\",\"relativeHeight\":false,\"worldRadius\":335.0,\"worldTransition\":40.0,\"p\":[2212.5,710.0,-1205.0]},{\"locked\":false,\"guiName\":\"Sheep Range footing 03\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1771.62964,710.0,-1047.47241]},{\"locked\":false,\"guiName\":\"Sheep Range footing 04\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1578.44446,710.0,-995.708557]},{\"locked\":false,\"guiName\":\"Sheep Range footing 05\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1385.25928,710.0,-943.944763]},{\"locked\":false,\"guiName\":\"Sheep Range footing 06\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1192.07422,710.0,-892.180969]},{\"locked\":false,\"guiName\":\"Sheep Range footing 07\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[998.889038,710.0,-840.4172]},{\"locked\":false,\"guiName\":\"Sheep Range footing 08\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[805.703857,710.0,-788.6534]},{\"locked\":false,\"guiName\":\"Sheep Range footing 09\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[612.518555,710.0,-736.8896]},{\"locked\":false,\"guiName\":\"Sheep Range footing 10\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[419.3335,710.0,-685.1257]},{\"locked\":true,\"guiName\":\"Ridge factory\",\"relativeHeight\":false,\"worldRadius\":335.0,\"worldTransition\":40.0,\"p\":[-2000.0,-474.361755,-1650.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_01\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2426.041,710.0,-1941.99292]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_10\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2750.0,710.0,-915.000061]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_02\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2452.73975,710.0,-1856.044]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_09\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2700.0,710.0,-1019.99982]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_03\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2481.59814,710.0,-1763.14111]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_08\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2670.0,710.0,-1120.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_04\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2504.668,710.0,-1599.12524]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_05\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2520.0,710.0,-1480.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_06\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2615.0,710.0,-1360.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_07\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2670.0,710.0,-1240.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_11\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2768.246,710.0,-815.962952]}]"
+}

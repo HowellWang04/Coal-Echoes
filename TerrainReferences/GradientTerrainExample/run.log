@@ -1,0 +1,12 @@
+# of resolutions 7
+Read program
+loading program '../shader/mgstepfloat.glsl'...
+Compute shader loaded!
+GPU buffers size en bytes 7030860
+level 0 120 iterations
+level 1 110 iterations
+level 2 100 iterations
+level 3 90 iterations
+level 4 80 iterations
+level 5 70 iterations
+level 6 60 iterations

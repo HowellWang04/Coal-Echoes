@@ -1,0 +1,36 @@
+{
+  "upstream_commit": "68da08b1b75a1e2b5650b5045a62a435072e5874",
+  "run": {
+    "exitCode": 0,
+    "elapsedSeconds": 1.092928,
+    "utc": "2026-10-10T02:30:07.1944251Z"
+  },
+  "resolution": [
+    513,
+    513
+  ],
+  "pixel_count": 263169,
+  "pixel_difference_count": 0,
+  "pixel_difference_max": 0,
+  "pixel_difference_rmse": 0.0,
+  "diagnostic_output_matches_original": true,
+  "float_values_finite": true,
+  "float_height_range": [
+    -0.003338575828820467,
+    1.2021459341049194
+  ],
+  "fixed_constraint_count": 17103,
+  "fixed_constraint_max_error": 0.0,
+  "weighted_equation_residual_rms": 2.0700810894500735e-05,
+  "weighted_equation_residual_max": 0.00016421079635620117,
+  "weighted_equation_residual_p99": 8.320808410644531e-05,
+  "archive_file_count": 37,
+  "all_upstream_files_unchanged": true,
+  "output_raw_byte_hashes": {
+    "reference_pgm": "bc82a237bbcb5222df2c7dff77a460ff53f26f10c516693de4df53c125020ba9",
+    "local_pgm": "d638bb4e693d0139569c8827fcf527965b0b5ec22005bcc995031e743f72b756",
+    "diagnostic_pgm": "d638bb4e693d0139569c8827fcf527965b0b5ec22005bcc995031e743f72b756"
+  },
+  "scope": "Original upstream example only. No Project Coal terrain or Unity scene edited.",
+  "residual_note": "Residual of the author shader update in normalized float units. Default finite iterations are retained, without a new convergence threshold."
+}

@@ -1,0 +1,298 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "isDirty": false,
+  "playing": false,
+  "generating": false,
+  "terrains": [
+    {
+      "name": "Tile_0_-2_Main",
+      "hash": "292902b1d97ca93360dfe3669a841fa8adf258f757b9956d9b0417ef89efca2c",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "hash": "bf311a6c27b9366c1c4a6e3d101ee7cc62e722337a9e41d4322fa71eeceb1b92",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_0_-1_Main",
+      "hash": "f7559e5c82c70576a21889fc0168da6459e967173c809dc3b5ede1d1dd034aac",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_0_-1_Draft",
+      "hash": "7d076f7154f34935803c8c0c465f2edda2df29faccc6e570a036f16d15c8f824",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "hash": "919157b09aedb7123c88907f213e37580b91722988a89cd2a3843c284ccec938",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "hash": "37ff694aeaf2b43f261eea597956a749c60411bb97e8233af3576671da124578",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "hash": "69392915ba8d7afc4a4fd3df3adc004a1829a244c5c1627b9165448036090305",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "hash": "f7b33b448aa78138ac3c952ea63a48c9662b8f86ba37e576bec161eff71dcf49",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_0_Main",
+      "hash": "c6946325dda318471940e342a5e46a241d204c4ab4e8cce8d9411130716574e1",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_0_Draft",
+      "hash": "800a9d12429f35b9b99caa1edb83f20a36e2d503bb556565b15b68aa8346a490",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_-2_Main",
+      "hash": "d10e8d2df9b2a8e0d163f1fb7cb1fd8e88fe8fab0a1cfc9c8de6a4006e77da7c",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_-2_Draft",
+      "hash": "0567e35b59a12e0a1927e0ca65b5e975fee92482a7754d1ad137fff36d42326b",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_-1_Main",
+      "hash": "1b13259744ad25bbaee1fb4e1e7001f47ae0ed0293a4cd1dc855c48514ef0283",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_-1_Draft",
+      "hash": "aef9dbc7b28d1f2d614079ae836a4f5c7c0a6b65fde4422d37cd5df5fb9a7837",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_0_Main",
+      "hash": "6c8455bf26a7ae8ad62aaef08db8cd87669833719048ca386693ccc5bccbcdc6",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_0_Draft",
+      "hash": "e603c01d41f6400c4ad28d78c1ed376bd81c71eaf98a54eb070dc2124283c0f7",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_3_0_Draft",
+      "hash": "a1243fb6bda513f65623efb75ed4aaea119e46900fc3d2da20db9961e57872b6",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_1_Draft",
+      "hash": "0520f017084fe508ad5517db9562f76aa75e264176f273b302c649c68dd9a138",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_1_Main",
+      "hash": "ceb962267c2a4e3d285880e2796e8cdef8ed13f47c86493d84d150bbd451e3af",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "hash": "d75b3634dc7227c7484e2e824465b1cd32ff2400c0382f346cbc8d7b66574b61",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "hash": "a9343201f801e10aff6162c82a820d406ab5943cbbd02d087ca6d0b9077825cb",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "hash": "299789ac47a2821b5bb69510452790556ef4a10e3773c12d6de91e9caa2b20e3",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_-2_Main",
+      "hash": "ed98279ef2731938e7b8e29db6d6dc97595bbeaf8fba44cadedb9b25d29d11c8",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_-2_Draft",
+      "hash": "8f72aaad681f18119095ed52d28c51033877660bbac31424490a9c7a40d8815f",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_-1_Main",
+      "hash": "659a9e08245dcf2c11488ef8f99ba360874494c43ed4ba87e00ab2114ee04f9b",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_-1_Draft",
+      "hash": "cf3a03cc7fc100d6266ef606029a8dcaba2955c1a6d42f6de8b72c5111dd236a",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_0_Main",
+      "hash": "5e504aae371a3a9006f1ef26117c20855639edf2a9aeb8119b89c6b2a0a85fc7",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_0_Draft",
+      "hash": "aa551ea2a1607fc2cbaffbc2c7957467e6c7f395b9ff68d49398b0352ebe7bba",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "hash": "ed0027cb288fa28c820006f5a2e391c20b29f0f78588f6ae22bc662270b122d9",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_-3_Draft",
+      "hash": "1e519630c295fb8ec91cc124f55198edc925ee61a754203e24b8ec7b89fe68b0",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_-3_Draft",
+      "hash": "99965897e1e079afcf9935850b5c78b3a4bcd40d4c6c3c8ee148adbb36fa3d39",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_3_-1_Draft",
+      "hash": "f63ef6d90a3d887b47b6bdbf5c9efb577a190ac87b13c46aa0a4fb55591df786",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "hash": "7985be05e7bcbb8a72033d2590282b5f3518d94c98ce944b57ed8e1720a1d3d4",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-2_1_Draft",
+      "hash": "eecc0bf70e507b2abfd2a5651ef8adf4e54f5aaef52824ae385ab728db29b84e",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-2_0_Draft",
+      "hash": "d462163007218763a2762d70b97120459d17e3b74cd2c2456e90deec83cb9ba7",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-2_-1_Draft",
+      "hash": "46c93d594b64334bd4757d18dc4a3ee113283cc87399ea52eb553561b14d2b82",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-2_-2_Draft",
+      "hash": "8f8c1e5f76b04f7036cbadcff2b58d62f628258dbe06932417a4b04227aafec0",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-2_-3_Draft",
+      "hash": "c10455353014e2680c49c969a80ffcf64a460420bd906bba60b8a9080616eecb",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_0_1_Draft",
+      "hash": "005a9765bbf789def006be0b7d35766c59dd7e8c33fa7c85d31bf66c91ac575c",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_0_1_Main",
+      "hash": "21a3012f0dab5b5d040202fac94457163e9157b7ebb7e25992f2db945b8910f2",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_1_Draft",
+      "hash": "19ca5ecbaff721784a3b76ee167df64ced72ba0f0771cfea2abf08d4ae21a3fc",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_1_Main",
+      "hash": "4652055ad4c0652fa9a9bcf9e83a9916806b98ca62bb8bea7dc377d2e5a7b624",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_3_-2_Draft",
+      "hash": "aa25a596ced2179e61e76b1cb2231bc32e31d6625e62e880f872f743f8dc0032",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_3_-3_Draft",
+      "hash": "6da2aa034952bf4b60c2bd804c3d66f0a98bee7336d7df7ea9ceb17409b57c16",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_0_0_Main",
+      "hash": "d3f4672fdb842065812a0e98568bb74eebc75a52c33ee2caec5d539c0931b06e",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_0_0_Draft",
+      "hash": "0dd80132ffc05266bc41ff434485c29539a16bade69e8c73e4cd808c9917a2fc",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-2_2_Draft",
+      "hash": "f392e28d8d9f1a768d60aa83c1ca5756f8f815e94572dae4124ff68c8e115ef2",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-2_2_Main",
+      "hash": "fa6e3c8cbc58cce6ebd30802f3c3e57b11c545e717853a654325fc19cef2fe7d",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_2_Draft",
+      "hash": "857bbc99e418d3bae9c73bcf10c6865c8def6bcc85523c476947cd0fb9a3f397",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_-1_2_Main",
+      "hash": "b595d75c613bb157de5c3da4c59129d398b217785a02f3955faf8f7282eac134",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_0_2_Draft",
+      "hash": "eb612fc1637848895042b58bd1c65129ddbdd959ddb5a078ad48169ecc945972",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_0_2_Main",
+      "hash": "b6080f048378c5e3f000e1ba78f75c615f68387b0f74a713f87fa3d7e907ac8a",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "hash": "770ee7ae5455ab60fd7b47b92f08028afc5c3f1912f40cf97f86563b7172db07",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "hash": "ffeba5d13e6e86c047b5ae986d24e5138136edf035851eee285c84c1278233e2",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "hash": "0d26e3428804ecc639e6e448017049558b3f868e0ac082702a0a5e74e6620a12",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "hash": "43851f2753c107839bd82b6e8d5bae14cb73801ca9cba684d2b1ac7e1c01fe16",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_3_2_Draft",
+      "hash": "1cac33af669d97c94d499fd3c6aef5bf471bd11386bd9f32e307a48d375d77c7",
+      "matchesPrevious": true
+    },
+    {
+      "name": "Tile_3_2_Main",
+      "hash": "eaae18b124fce72d7b3cf90e4c3461ac9bc1288d9d363de91fd76920212deb5f",
+      "matchesPrevious": true
+    }
+  ]
+}

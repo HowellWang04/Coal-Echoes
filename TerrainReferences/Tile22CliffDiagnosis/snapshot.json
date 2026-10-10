@@ -1,0 +1,267 @@
+{
+  "terrains": [
+    {
+      "name": "Tile_1_1_Main",
+      "p": [
+        -1924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "active": true,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "ceb962267c2a4e3d285880e2796e8cdef8ed13f47c86493d84d150bbd451e3af"
+    },
+    {
+      "name": "Tile_1_1_Draft",
+      "p": [
+        -1924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "active": false,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "0520f017084fe508ad5517db9562f76aa75e264176f273b302c649c68dd9a138"
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "p": [
+        -924.0005,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "active": true,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "a9343201f801e10aff6162c82a820d406ab5943cbbd02d087ca6d0b9077825cb"
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "p": [
+        -924.0005,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "active": false,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "d75b3634dc7227c7484e2e824465b1cd32ff2400c0382f346cbc8d7b66574b61"
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "p": [
+        75.99951,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "active": true,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "299789ac47a2821b5bb69510452790556ef4a10e3773c12d6de91e9caa2b20e3"
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "p": [
+        -1924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "active": true,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "ffeba5d13e6e86c047b5ae986d24e5138136edf035851eee285c84c1278233e2"
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "p": [
+        -1924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "active": false,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "770ee7ae5455ab60fd7b47b92f08028afc5c3f1912f40cf97f86563b7172db07"
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "p": [
+        -924.0005,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "active": true,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "43851f2753c107839bd82b6e8d5bae14cb73801ca9cba684d2b1ac7e1c01fe16"
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "p": [
+        -924.0005,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "active": false,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "0d26e3428804ecc639e6e448017049558b3f868e0ac082702a0a5e74e6620a12"
+    },
+    {
+      "name": "Tile_3_2_Main",
+      "p": [
+        75.99951,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 1025,
+      "active": true,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "eaae18b124fce72d7b3cf90e4c3461ac9bc1288d9d363de91fd76920212deb5f"
+    },
+    {
+      "name": "Tile_3_2_Draft",
+      "p": [
+        75.99951,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "res": 129,
+      "active": false,
+      "enabled": true,
+      "applyReady": true,
+      "hash": "1cac33af669d97c94d499fd3c6aef5bf471bd11386bd9f32e307a48d375d77c7"
+    }
+  ],
+  "hits": [
+    {
+      "uv": [
+        0.25,
+        0.3
+      ],
+      "ok": true,
+      "p": [
+        -721.1289,
+        -587.442566,
+        2062.04346
+      ]
+    },
+    {
+      "uv": [
+        0.4,
+        0.5
+      ],
+      "ok": true,
+      "p": [
+        -659.0465,
+        -527.6288,
+        1832.31519
+      ]
+    },
+    {
+      "uv": [
+        0.5,
+        0.7
+      ],
+      "ok": true,
+      "p": [
+        -575.595459,
+        -415.434448,
+        1615.2467
+      ]
+    },
+    {
+      "uv": [
+        0.65,
+        0.8
+      ],
+      "ok": true,
+      "p": [
+        -741.4948,
+        -269.048523,
+        1554.24414
+      ]
+    }
+  ],
+  "camera": {
+    "p": [
+      -1060.68237,
+      -64.41817,
+      1977.15491
+    ],
+    "q": [
+      -0.184277967,
+      -0.814957738,
+      0.3683057,
+      -0.407721
+    ],
+    "fov": 80.0,
+    "aspect": 1.19970417
+  }
+}

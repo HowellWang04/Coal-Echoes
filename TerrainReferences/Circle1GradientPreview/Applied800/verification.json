@@ -1,0 +1,573 @@
+{
+  "terrain_count": 58,
+  "changed_terrain_count": 8,
+  "unchanged_terrain_count": 50,
+  "transforms_unchanged": true,
+  "transform_count": 21193,
+  "locks_unchanged": true,
+  "core_height_changes": 0,
+  "outside_delta_changes": 0,
+  "alpha_outside_mask_changes": 0,
+  "max_height_quantization_error_m": 0.015273690223693848,
+  "rows": [
+    {
+      "name": "Tile_0_-2_Main",
+      "height_changed": 211936,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.015273690223693848,
+      "alpha_changed": 204651,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "height_changed": 3367,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0152587890625,
+      "alpha_changed": 3454,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_0_-1_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0,
+      "alpha_changed": 0,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_0_-1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0,
+      "alpha_changed": 0,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_1_0_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_1_0_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_-2_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_-2_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_-1_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_-1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_0_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_0_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_3_0_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_1_1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_1_1_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-1_-2_Main",
+      "height_changed": 398312,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0152587890625,
+      "alpha_changed": 378340,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_-1_-2_Draft",
+      "height_changed": 6324,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0152587890625,
+      "alpha_changed": 6404,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_-1_-1_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0,
+      "alpha_changed": 0,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_-1_-1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0,
+      "alpha_changed": 0,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_-1_0_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-1_0_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "height_changed": 5128,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.015273690223693848,
+      "alpha_changed": 5172,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_1_-3_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_-3_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_3_-1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "height_changed": 11113,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0152587890625,
+      "alpha_changed": 11328,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_-2_1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-2_0_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-2_-1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0,
+      "alpha_changed": 0,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_-2_-2_Draft",
+      "height_changed": 736,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.015228986740112305,
+      "alpha_changed": 871,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_-2_-3_Draft",
+      "height_changed": 885,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0152587890625,
+      "alpha_changed": 1020,
+      "alpha_outside_mask_max": 0.0,
+      "alpha_outside_mask_changes": 0
+    },
+    {
+      "name": "Tile_0_1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_0_1_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-1_1_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-1_1_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_3_-2_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_3_-3_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_0_0_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_0_0_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-2_2_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-2_2_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-1_2_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_-1_2_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_0_2_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_0_2_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_3_2_Draft",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    },
+    {
+      "name": "Tile_3_2_Main",
+      "height_changed": 0,
+      "core_height_changes": 0,
+      "outside_delta_changes": 0,
+      "height_quantization_error_m": 0.0
+    }
+  ],
+  "seams": [
+    {
+      "a": "Tile_0_-2_Main",
+      "b": "Tile_0_-1_Main",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_0_-2_Main",
+      "b": "Tile_1_-2_Main",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_0_-2_Main",
+      "b": "Tile_-1_-2_Main",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_0_-2_Draft",
+      "b": "Tile_0_-1_Draft",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_0_-2_Draft",
+      "b": "Tile_1_-2_Draft",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_0_-2_Draft",
+      "b": "Tile_-1_-2_Draft",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_0_-2_Draft",
+      "b": "Tile_0_-3_Draft",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_-1_-2_Main",
+      "b": "Tile_-1_-1_Main",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_-1_-2_Draft",
+      "b": "Tile_-1_-1_Draft",
+      "before_max_m": 2.3194849491119385,
+      "after_max_m": 2.3194849491119385,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_-1_-2_Draft",
+      "b": "Tile_-1_-3_Draft",
+      "before_max_m": 1.464933156967163,
+      "after_max_m": 1.464933156967163,
+      "gap_change_max_m": 0.030510127544403076
+    },
+    {
+      "a": "Tile_-1_-2_Draft",
+      "b": "Tile_-2_-2_Draft",
+      "before_max_m": 3.418177366256714,
+      "after_max_m": 3.418177366256714,
+      "gap_change_max_m": 5.9604644775390625e-05
+    },
+    {
+      "a": "Tile_0_-3_Draft",
+      "b": "Tile_1_-3_Draft",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_0_-3_Draft",
+      "b": "Tile_-1_-3_Draft",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_-1_-3_Draft",
+      "b": "Tile_-2_-3_Draft",
+      "before_max_m": 0.274658203125,
+      "after_max_m": 0.274658203125,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_-2_-1_Draft",
+      "b": "Tile_-2_-2_Draft",
+      "before_max_m": 0.0,
+      "after_max_m": 0.0,
+      "gap_change_max_m": 0.0
+    },
+    {
+      "a": "Tile_-2_-2_Draft",
+      "b": "Tile_-2_-3_Draft",
+      "before_max_m": 28.840877532958984,
+      "after_max_m": 28.840877532958984,
+      "gap_change_max_m": 0.0
+    }
+  ]
+}

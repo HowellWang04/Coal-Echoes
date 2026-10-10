@@ -1,0 +1,681 @@
+{
+  "protected_samples": 7669426,
+  "protected_changed": 0,
+  "protected_max_delta_m": 0,
+  "seams": [
+    {
+      "a": "Tile_0_-2_Main",
+      "b": "Tile_0_-1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_-2_Main",
+      "b": "Tile_1_-2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_-2_Draft",
+      "b": "Tile_0_-1_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_-2_Draft",
+      "b": "Tile_1_-2_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_-1_Main",
+      "b": "Tile_1_-1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_-1_Main",
+      "b": "Tile_0_0_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_-1_Draft",
+      "b": "Tile_1_-1_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_-1_Draft",
+      "b": "Tile_0_0_Draft",
+      "before": 0.5493462085723877,
+      "after": 0.5493462085723877
+    },
+    {
+      "a": "Tile_1_-2_Main",
+      "b": "Tile_1_-1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_-2_Main",
+      "b": "Tile_2_-2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_-2_Draft",
+      "b": "Tile_1_-1_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_-2_Draft",
+      "b": "Tile_2_-2_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_-1_Main",
+      "b": "Tile_1_0_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_-1_Main",
+      "b": "Tile_2_-1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_-1_Draft",
+      "b": "Tile_1_0_Draft",
+      "before": 0.4883110523223877,
+      "after": 0.4883110523223877
+    },
+    {
+      "a": "Tile_1_-1_Draft",
+      "b": "Tile_2_-1_Draft",
+      "before": 0.27468055486679077,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_0_Main",
+      "b": "Tile_2_0_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_0_Main",
+      "b": "Tile_1_1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_0_Draft",
+      "b": "Tile_2_0_Draft",
+      "before": 0.09156018495559692,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_0_Draft",
+      "b": "Tile_1_1_Draft",
+      "before": 0.4577934741973877,
+      "after": 0.4577934741973877
+    },
+    {
+      "a": "Tile_2_-2_Main",
+      "b": "Tile_2_-1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_2_-2_Draft",
+      "b": "Tile_2_-1_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_2_-2_Draft",
+      "b": "Tile_3_-2_Draft",
+      "before": 1.8311665058135986,
+      "after": 1.678571105003357
+    },
+    {
+      "a": "Tile_2_-1_Main",
+      "b": "Tile_2_0_Main",
+      "before": 0.0,
+      "after": 0.030517578125
+    },
+    {
+      "a": "Tile_2_-1_Draft",
+      "b": "Tile_2_0_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_2_-1_Draft",
+      "b": "Tile_3_-1_Draft",
+      "before": 2.5025978088378906,
+      "after": 0.30517578125
+    },
+    {
+      "a": "Tile_2_0_Main",
+      "b": "Tile_2_1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_2_0_Draft",
+      "b": "Tile_3_0_Draft",
+      "before": 1.8616840839385986,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_2_0_Draft",
+      "b": "Tile_2_1_Draft",
+      "before": 0.06103515625,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_3_0_Draft",
+      "b": "Tile_3_1_Draft",
+      "before": 0.030517578125,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_1_Draft",
+      "b": "Tile_2_1_Draft",
+      "before": 0.12207776308059692,
+      "after": 0.03057718276977539
+    },
+    {
+      "a": "Tile_1_1_Draft",
+      "b": "Tile_1_2_Draft",
+      "before": 0.30519813299179077,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_1_Main",
+      "b": "Tile_2_1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_1_Main",
+      "b": "Tile_1_2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_2_1_Draft",
+      "b": "Tile_3_1_Draft",
+      "before": 1.373373031616211,
+      "after": 0.5798786878585815
+    },
+    {
+      "a": "Tile_2_1_Draft",
+      "b": "Tile_2_2_Draft",
+      "before": 0.18311664462089539,
+      "after": 0.1220703125
+    },
+    {
+      "a": "Tile_2_1_Main",
+      "b": "Tile_2_2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_3_1_Draft",
+      "b": "Tile_3_2_Draft",
+      "before": 2.5636329650878906,
+      "after": 2.5636329650878906
+    },
+    {
+      "a": "Tile_-1_-2_Main",
+      "b": "Tile_0_-2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_-2_Main",
+      "b": "Tile_-1_-1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_-2_Draft",
+      "b": "Tile_0_-2_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_-2_Draft",
+      "b": "Tile_-1_-1_Draft",
+      "before": 2.3194849491119385,
+      "after": 2.3194849491119385
+    },
+    {
+      "a": "Tile_-1_-1_Main",
+      "b": "Tile_0_-1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_-1_Main",
+      "b": "Tile_-1_0_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_-1_Draft",
+      "b": "Tile_0_-1_Draft",
+      "before": 0.3052055835723877,
+      "after": 0.3052055835723877
+    },
+    {
+      "a": "Tile_-1_-1_Draft",
+      "b": "Tile_-1_0_Draft",
+      "before": 3.5097599029541016,
+      "after": 3.5097599029541016
+    },
+    {
+      "a": "Tile_-1_0_Main",
+      "b": "Tile_-1_1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_0_Main",
+      "b": "Tile_0_0_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_0_Draft",
+      "b": "Tile_-1_1_Draft",
+      "before": 0.7019639015197754,
+      "after": 0.7019639015197754
+    },
+    {
+      "a": "Tile_-1_0_Draft",
+      "b": "Tile_0_0_Draft",
+      "before": 0.7324814796447754,
+      "after": 0.7324814796447754
+    },
+    {
+      "a": "Tile_0_-3_Draft",
+      "b": "Tile_0_-2_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_-3_Draft",
+      "b": "Tile_1_-3_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_-3_Draft",
+      "b": "Tile_1_-2_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_-3_Draft",
+      "b": "Tile_2_-3_Draft",
+      "before": 0.06103515625,
+      "after": 0.030517578125
+    },
+    {
+      "a": "Tile_2_-3_Draft",
+      "b": "Tile_2_-2_Draft",
+      "before": 0.9766221046447754,
+      "after": 0.9155720472335815
+    },
+    {
+      "a": "Tile_2_-3_Draft",
+      "b": "Tile_3_-3_Draft",
+      "before": 0.8545517921447754,
+      "after": 0.8545517921447754
+    },
+    {
+      "a": "Tile_3_-1_Draft",
+      "b": "Tile_3_0_Draft",
+      "before": 0.06103515625,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_-3_Draft",
+      "b": "Tile_-1_-2_Draft",
+      "before": 1.464933156967163,
+      "after": 1.464933156967163
+    },
+    {
+      "a": "Tile_-1_-3_Draft",
+      "b": "Tile_0_-3_Draft",
+      "before": 0.091552734375,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-2_1_Draft",
+      "b": "Tile_-1_1_Draft",
+      "before": 3.5707950592041016,
+      "after": 3.5707950592041016
+    },
+    {
+      "a": "Tile_-2_1_Draft",
+      "b": "Tile_-2_2_Draft",
+      "before": 1.373380422592163,
+      "after": 1.373380422592163
+    },
+    {
+      "a": "Tile_-2_0_Draft",
+      "b": "Tile_-1_0_Draft",
+      "before": 1.5259981155395508,
+      "after": 1.5259981155395508
+    },
+    {
+      "a": "Tile_-2_0_Draft",
+      "b": "Tile_-2_1_Draft",
+      "before": 0.2442002296447754,
+      "after": 0.2442002296447754
+    },
+    {
+      "a": "Tile_-2_-1_Draft",
+      "b": "Tile_-1_-1_Draft",
+      "before": 1.2512803077697754,
+      "after": 1.2512803077697754
+    },
+    {
+      "a": "Tile_-2_-1_Draft",
+      "b": "Tile_-2_0_Draft",
+      "before": 0.06103515625,
+      "after": 0.06103515625
+    },
+    {
+      "a": "Tile_-2_-2_Draft",
+      "b": "Tile_-1_-2_Draft",
+      "before": 3.418177366256714,
+      "after": 3.418177366256714
+    },
+    {
+      "a": "Tile_-2_-2_Draft",
+      "b": "Tile_-2_-1_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-2_-3_Draft",
+      "b": "Tile_-1_-3_Draft",
+      "before": 0.274658203125,
+      "after": 0.274658203125
+    },
+    {
+      "a": "Tile_-2_-3_Draft",
+      "b": "Tile_-2_-2_Draft",
+      "before": 28.840877532958984,
+      "after": 28.840877532958984
+    },
+    {
+      "a": "Tile_0_1_Draft",
+      "b": "Tile_1_1_Draft",
+      "before": 0.21363794803619385,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_1_Draft",
+      "b": "Tile_0_2_Draft",
+      "before": 0.0915825366973877,
+      "after": 0.030517578125
+    },
+    {
+      "a": "Tile_0_1_Main",
+      "b": "Tile_1_1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_1_Main",
+      "b": "Tile_0_2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_1_Draft",
+      "b": "Tile_0_1_Draft",
+      "before": 0.5493462085723877,
+      "after": 0.5493462085723877
+    },
+    {
+      "a": "Tile_-1_1_Draft",
+      "b": "Tile_-1_2_Draft",
+      "before": 1.220792531967163,
+      "after": 1.220792531967163
+    },
+    {
+      "a": "Tile_-1_1_Main",
+      "b": "Tile_0_1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_1_Main",
+      "b": "Tile_-1_2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_3_-2_Draft",
+      "b": "Tile_3_-1_Draft",
+      "before": 0.21363794803619385,
+      "after": 0.21363794803619385
+    },
+    {
+      "a": "Tile_3_-3_Draft",
+      "b": "Tile_3_-2_Draft",
+      "before": 0.9766221046447754,
+      "after": 0.9766221046447754
+    },
+    {
+      "a": "Tile_0_0_Main",
+      "b": "Tile_1_0_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_0_Main",
+      "b": "Tile_0_1_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_0_Draft",
+      "b": "Tile_1_0_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_0_Draft",
+      "b": "Tile_0_1_Draft",
+      "before": 0.5798637866973877,
+      "after": 0.5798637866973877
+    },
+    {
+      "a": "Tile_-2_2_Draft",
+      "b": "Tile_-1_2_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-2_2_Main",
+      "b": "Tile_-1_2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_2_Draft",
+      "b": "Tile_0_2_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_-1_2_Main",
+      "b": "Tile_0_2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_2_Draft",
+      "b": "Tile_1_2_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_0_2_Main",
+      "b": "Tile_1_2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_2_Draft",
+      "b": "Tile_2_2_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_1_2_Main",
+      "b": "Tile_2_2_Main",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_2_2_Draft",
+      "b": "Tile_3_2_Draft",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "a": "Tile_2_2_Main",
+      "b": "Tile_3_2_Main",
+      "before": 0.0,
+      "after": 0.030525028705596924
+    }
+  ],
+  "lod": [
+    {
+      "tile": "Tile_0_-2_Main",
+      "before": 3.8149356842041016,
+      "after": 3.8149356842041016
+    },
+    {
+      "tile": "Tile_0_-1_Main",
+      "before": 13.886362075805664,
+      "after": 13.886362075805664
+    },
+    {
+      "tile": "Tile_1_-2_Main",
+      "before": 1.342862844467163,
+      "after": 1.342862844467163
+    },
+    {
+      "tile": "Tile_1_-1_Main",
+      "before": 4.883110523223877,
+      "after": 4.883110523223877
+    },
+    {
+      "tile": "Tile_1_0_Main",
+      "before": 5.768179893493652,
+      "after": 5.768179893493652
+    },
+    {
+      "tile": "Tile_2_-2_Main",
+      "before": 2.197399616241455,
+      "after": 2.014286756515503
+    },
+    {
+      "tile": "Tile_2_-1_Main",
+      "before": 2.5025904178619385,
+      "after": 0.30517578125
+    },
+    {
+      "tile": "Tile_2_0_Main",
+      "before": 2.4415552616119385,
+      "after": 0.0
+    },
+    {
+      "tile": "Tile_1_1_Main",
+      "before": 3.1435041427612305,
+      "after": 2.838313579559326
+    },
+    {
+      "tile": "Tile_2_1_Main",
+      "before": 3.112982988357544,
+      "after": 1.0071396827697754
+    },
+    {
+      "tile": "Tile_-1_-2_Main",
+      "before": 4.577934741973877,
+      "after": 4.577934741973877
+    },
+    {
+      "tile": "Tile_-1_-1_Main",
+      "before": 4.059076309204102,
+      "after": 4.059076309204102
+    },
+    {
+      "tile": "Tile_-1_0_Main",
+      "before": 6.317496299743652,
+      "after": 6.317496299743652
+    },
+    {
+      "tile": "Tile_0_1_Main",
+      "before": 5.127281188964844,
+      "after": 5.127281188964844
+    },
+    {
+      "tile": "Tile_-1_1_Main",
+      "before": 8.179187774658203,
+      "after": 8.179187774658203
+    },
+    {
+      "tile": "Tile_0_0_Main",
+      "before": 8.362322807312012,
+      "after": 8.362322807312012
+    },
+    {
+      "tile": "Tile_-2_2_Main",
+      "before": 4.08962345123291,
+      "after": 4.08962345123291
+    },
+    {
+      "tile": "Tile_-1_2_Main",
+      "before": 6.439596176147461,
+      "after": 5.218833923339844
+    },
+    {
+      "tile": "Tile_0_2_Main",
+      "before": 4.120111465454102,
+      "after": 3.6623330116271973
+    },
+    {
+      "tile": "Tile_1_2_Main",
+      "before": 3.9370059967041016,
+      "after": 3.8759708404541016
+    },
+    {
+      "tile": "Tile_2_2_Main",
+      "before": 4.272721767425537,
+      "after": 4.272721767425537
+    },
+    {
+      "tile": "Tile_3_2_Main",
+      "before": 3.8149282932281494,
+      "after": 3.8149282932281494
+    }
+  ],
+  "max_seam_before_m": 28.840877532958984,
+  "max_seam_after_m": 28.840877532958984,
+  "max_lod_before_m": 13.886362075805664,
+  "max_lod_after_m": 13.886362075805664
+}

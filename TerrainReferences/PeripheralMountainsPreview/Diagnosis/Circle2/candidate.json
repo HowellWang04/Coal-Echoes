@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Tile_0_-2_Main",
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Main.asset",
+    "ar": 1025,
+    "n": 1025,
+    "p": [
+      -2924.00049,
+      -710.0,
+      -2914.0
+    ],
+    "candidatePixels": 47248,
+    "fullyRecomputedPixels": 36061,
+    "oldRockMeanAbsoluteError": 0.24669847728936919
+  },
+  {
+    "name": "Tile_0_-2_Draft",
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Draft.asset",
+    "ar": 129,
+    "n": 129,
+    "p": [
+      -2924.00049,
+      -710.0,
+      -2914.0
+    ],
+    "candidatePixels": 748,
+    "fullyRecomputedPixels": 573,
+    "oldRockMeanAbsoluteError": 0.24677889918937734
+  },
+  {
+    "name": "Tile_0_-1_Main",
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Main.asset",
+    "ar": 1025,
+    "n": 1025,
+    "p": [
+      -2924.00049,
+      -710.0,
+      -1914.0
+    ],
+    "candidatePixels": 272117,
+    "fullyRecomputedPixels": 245823,
+    "oldRockMeanAbsoluteError": 0.23136088855907949
+  },
+  {
+    "name": "Tile_0_-1_Draft",
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Draft.asset",
+    "ar": 129,
+    "n": 129,
+    "p": [
+      -2924.00049,
+      -710.0,
+      -1914.0
+    ],
+    "candidatePixels": 4309,
+    "fullyRecomputedPixels": 3893,
+    "oldRockMeanAbsoluteError": 0.23666370858110958
+  },
+  {
+    "name": "Tile_1_-2_Main",
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Main.asset",
+    "ar": 1025,
+    "n": 1025,
+    "p": [
+      -1924.00049,
+      -710.0,
+      -2914.0
+    ],
+    "candidatePixels": 14190,
+    "fullyRecomputedPixels": 8875,
+    "oldRockMeanAbsoluteError": 0.078572492081776885
+  },
+  {
+    "name": "Tile_1_-2_Draft",
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Draft.asset",
+    "ar": 129,
+    "n": 129,
+    "p": [
+      -1924.00049,
+      -710.0,
+      -2914.0
+    ],
+    "candidatePixels": 225,
+    "fullyRecomputedPixels": 141,
+    "oldRockMeanAbsoluteError": 0.0860859774489035
+  },
+  {
+    "name": "Tile_1_-1_Main",
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Main.asset",
+    "ar": 1025,
+    "n": 1025,
+    "p": [
+      -1924.00049,
+      -710.0,
+      -1914.0
+    ],
+    "candidatePixels": 164794,
+    "fullyRecomputedPixels": 141267,
+    "oldRockMeanAbsoluteError": 0.1922591436025636
+  },
+  {
+    "name": "Tile_1_-1_Draft",
+    "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Draft.asset",
+    "ar": 129,
+    "n": 129,
+    "p": [
+      -1924.00049,
+      -710.0,
+      -1914.0
+    ],
+    "candidatePixels": 2609,
+    "fullyRecomputedPixels": 2237,
+    "oldRockMeanAbsoluteError": 0.20208625686892648
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "saved": true,
+  "isDirty": false,
+  "graphSerializationValid": true,
+  "sandstormActive": false,
+  "heatActive": false,
+  "graphNodes": 18,
+  "deltaId": "7422313716441415683",
+  "deltaSource": "Assets/TerrainData/SheepRangeDEM/SheepRange_WholeMap_800m_delta.asset",
+  "deltaResolution": 3073,
+  "sceneFileSha256": "ffad22de9041e81efa3f4d91f027d440be1f74c2d01fb48710f857a776d65806"
+}

@@ -58,6 +58,13 @@ ArtSource/Cableway/FoothillStationPlacement/RestoredFactory_Height.raw
 TerrainReferences/**/RestoreTowerPads_Before/
 TerrainReferences/**/*.npy
 TerrainReferences/**/*.raw
+TerrainReferences/**/*.f32
+TerrainReferences/**/*.u8
+TerrainReferences/**/Backup/
+TerrainReferences/**/Before/
+TerrainReferences/**/bin/
+TerrainReferences/**/plot-cache/
+TerrainReferences/**/__pycache__/
 
 # Large third-party packs kept only on the local machine (too big for LFS quota)
 /Assets/Art Resources/ThirdPartyPacks/RocksGobi/
