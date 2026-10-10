@@ -1,40 +1,34 @@
-# 0101-WGH Unity Project
+# AGENTS.md
 
-USC 游戏设计硕士申请作品集项目。叙事探索游戏，主人公前往废弃选煤厂完成爷爷的遗愿。厂区采用煤炭洗选工艺，人物日常称为洗煤厂。
+项目介绍、目录结构和文档列表见 [README](README.md)，术语见 [CONTEXT](CONTEXT.md)。
 
-## 文档索引
+## 工作方式
 
-### 设计
-- [项目术语](CONTEXT.md) — 选煤厂、洗煤厂与矿区的空间归属
-- [游戏设计](Assets/For%20AI%20Agent/Design/game-design.md) — 故事、玩法机制、回响系统、物品分类、世界观
-- [关卡设计](Assets/For%20AI%20Agent/Design/level-design.md) — 第一关及后续关卡设计
-- [关卡物品清单](Assets/For%20AI%20Agent/Design/level-items.md) — 三大关卡 × 三类物品 × 叙事帮助 × 美术状态整合表
+- 个人作品集项目，代码以清晰可读为先，不过度工程化。
+- 场景、机制、叙事耦合紧，改动时注意影响范围。
+- 动手前想清楚，有歧义就问；只写需要的代码；只改必须改的地方，保持现有风格。
+- AI 负责代码和文档；需要改场景、Inspector 或资源引用时可以通过 Unity MCP 直接改，改完说明改了什么。
+- 不用 Windows GUI 自动化操作 Unity，除非用户在当前对话里明确允许。
+- Play Mode 测试和最终效果由用户确认，不为常规验证跑命令行编译。
+- 改 git 前先问用户；提交说明用英文，推送前给用户过目。
+- 完成一项工作后在[开发日志](Docs/development-log.md)里记一两句：做了什么、为什么、还差什么。做完的事从[待办](Docs/todolist.md)里删掉。
 
-### 叙事
-- [故事走向](Assets/For%20AI%20Agent/Narrative/story-flow.md) — 叙事框架、Echo 文字、爷爷日记内容
-- [爷爷日记内容数据](Assets/For%20AI%20Agent/Narrative/grandpa-diary-content.json) — 游戏内爷爷日记 JSON 数据
+## 注意事项
 
-### 技术
-- [代码结构](Assets/For%20AI%20Agent/Technical/code-structure.md) — 系统分类、源码入口和详细文档门户
-- [代码详解](Assets/For%20AI%20Agent/Technical/code-details.md) — 每个项目源码文件的职责、主要流程和协作关系
-- [开发说明](Assets/For%20AI%20Agent/Technical/dev-guidelines.md) — 项目约束与代码风格
-
-### 制作管理
-- [美术资源列表](Assets/For%20AI%20Agent/Production/art-assets.md) — 美术/音频资源清单与制作状态
-- [Todo List](Assets/For%20AI%20Agent/Production/todolist.md) — 按日期记录的待办事项
-- [开发日志](Assets/For%20AI%20Agent/Production/development-log.md) — 按日期记录完成内容、设计决定、测试结果和下一步
-
-## AI 协作原则
-
-1. **动手前先想清楚**：有歧义时明确说出来，不默默选一种实现。有更简单方案时主动提出。
-2. **最小实现**：只写任务要求的代码，不加没要求的功能、抽象或灵活性。
-3. **外科手术式修改**：只改必须改的地方，不顺手重构周边代码，保持现有风格。
-4. **目标驱动**：开始前明确验收标准，多步任务先列计划再执行。
-
-## Unity 编辑器协作分工
-
-1. AI 负责修改代码和项目文档，并在交付前完成必要的静态检查。
-2. 需要 Unity Inspector、Hierarchy、场景对象或资源引用配置时，AI 可以通过 Unity MCP 直接修改场景和资源，完成后说明改了什么。
-3. 用户负责 Play Mode 运行测试和最终效果确认，并向 AI 反馈结果或截图。
-4. AI 可以主动通过 Unity MCP 控制 Unity 编辑器，包括读取 Console、截图和修改场景；不主动使用 Windows GUI 自动化操作 Unity，除非用户在当前对话中明确授权。
-5. Unity 运行验证以用户在编辑器中的 Console 和 Play Mode 结果为准，不为了常规验证运行完整解决方案的命令行编译。
+- 脚本文件名必须和类名一致。移动或改名资源时 .meta 要一起移动，否则场景引用会丢。
+- `Assets/Narrative/grandpa-diary-content.json` 由主场景直接引用。日记便签的 `slotId` 是存档键，定下后不要改。
+- 输入改 `PlayerControls.inputactions`，`PlayerControls.cs` 是自动生成的，不要手改。
+- UI 管理脚本挂在它控制的 UI 根对象上（依赖面板的开关时机），没有画面的系统放在 `Gameplay Root/Managers` 下。
+- 相机后期分三份 Volume：取景器第 10 层，全屏拍照第 11 层，手持对焦第 12 层；Main Camera 的 Volume Mask 为 6145，CameraPreview 为 1025。HDRP 的光圈属于相机，不能按 Volume 混合。
+- 相机调节 UI 只写取景器和全屏两份 Profile，不要改全局 Volume。
+- 沙尘参数在材质上调，不在雾盒组件上调；Shader Graph 的 Time 节点在雾体积里无效，位移由 `SandstormTimeDriver` 累加。
+- 改了地形或沙尘范围后，运行 `Tools > Project Coal > Refresh Factory Heat Haze` 并保存场景。
+- 索道路线点存在场景里，改了绳索形状要重新生成。
+- 改地形只改局部，不要整体重新生成 MapMagic。
+- 尺度：DEM 1:1，玩家胶囊 1.8 米，眼高约 1.68 米，Main Camera 竖直 FOV 80。
+- 存档都在 `Application.persistentDataPath` 下的 `CapturedPhotos/`、`ScrapBook/`、`Echo/`、`GrandpaDiary/`。
+- RocksGobi、Lands、RockyDesert 三个素材包（约 10GB）不进 git，只在本机，新克隆的仓库里会显示丢失。
+- `Assets/TerrainData/SheepRangeGenerated` 的地形走 Git LFS；其他二进制 .asset 会被 `*.asset text` 规则改坏，新增时要先加 LFS 规则。
+- Industrial Harbour 素材重新导入时 58 个碰撞网格会提示缺法线，可以忽略。
+- Blender 后台脚本可能在项目根目录留下乱码名的空文件夹，可以直接删。
+- 构建场景列表还是 `SampleScene`，打包前要改。
