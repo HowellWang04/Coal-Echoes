@@ -1,0 +1,856 @@
+[
+  {
+    "id": -5302,
+    "name": "SM_Antena3",
+    "matches": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": -0.133972168
+      }
+    ]
+  },
+  {
+    "id": -95868,
+    "name": "SM_Antena2",
+    "matches": [
+      {
+        "id": 102584,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": -0.002746582
+      },
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 0.102111816
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 0.0122070313
+      }
+    ]
+  },
+  {
+    "id": -82820,
+    "name": "SM_Antena",
+    "matches": [
+      {
+        "id": -155402,
+        "name": "WorkersDormitory",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 12.5299072
+      },
+      {
+        "id": 102584,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 7.17688
+      },
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 7.012207
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 7.1918335
+      }
+    ]
+  },
+  {
+    "id": 83582,
+    "name": "BP_Ventilation_System_Pack_C_7",
+    "matches": [
+      {
+        "id": 85124,
+        "name": "SM_ConcreteHouse_Pack_1_C_2",
+        "down": 1.34765613,
+        "side": "Infinity",
+        "baseDifference": 9.265137
+      },
+      {
+        "id": 103982,
+        "name": "BP_BrickHouse_1_C",
+        "down": "Infinity",
+        "side": 17.2360954,
+        "baseDifference": 8.1651
+      }
+    ]
+  },
+  {
+    "id": 85012,
+    "name": "BP_VentilationPack_2_C_0",
+    "matches": [
+      {
+        "id": 102584,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": -0.0946960747,
+        "side": 0.777379155,
+        "baseDifference": 6.401428
+      },
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 6.23675537
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": 4.31181145,
+        "baseDifference": 6.416382
+      }
+    ]
+  },
+  {
+    "id": 102454,
+    "name": "BP_VentilationPack_2_C_7",
+    "matches": [
+      {
+        "id": 83712,
+        "name": "SM_ConcreteHouse_Pack_2_C_5",
+        "down": "Infinity",
+        "side": 15.2127914,
+        "baseDifference": 6.323242
+      },
+      {
+        "id": 103644,
+        "name": "SM_ConcreteHouse_Pack_1_C_1",
+        "down": -0.0388489068,
+        "side": 0.230903074,
+        "baseDifference": 6.4387207
+      },
+      {
+        "id": 102936,
+        "name": "BP_BrickHouse_2_C_1",
+        "down": "Infinity",
+        "side": 18.9303055,
+        "baseDifference": 7.109192
+      }
+    ]
+  },
+  {
+    "id": 103092,
+    "name": "BP_Ventilation_System_Pack_C_8",
+    "matches": [
+      {
+        "id": 82986,
+        "name": "SM_ConcreteHouse_Pack_2_C_9",
+        "down": 0.00881958,
+        "side": "Infinity",
+        "baseDifference": 7.99206543
+      },
+      {
+        "id": 102408,
+        "name": "SM_ConcreteHouse_Pack_2_C_10",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 12.9021
+      },
+      {
+        "id": 83382,
+        "name": "SM_ConcreteHouse_Pack_2_C_0",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 8.346069
+      }
+    ]
+  },
+  {
+    "id": 104024,
+    "name": "BP_VentilationPack_2_C_5",
+    "matches": [
+      {
+        "id": 83382,
+        "name": "SM_ConcreteHouse_Pack_2_C_0",
+        "down": 0.00170892477,
+        "side": 0.618366659,
+        "baseDifference": 6.49780273
+      },
+      {
+        "id": 104014,
+        "name": "BP_BrickHouse_2_C_3",
+        "down": "Infinity",
+        "side": 14.463623,
+        "baseDifference": 7.359192
+      }
+    ]
+  },
+  {
+    "id": 83878,
+    "name": "BP_VentilationPack_2_C_4",
+    "matches": [
+      {
+        "id": 82986,
+        "name": "SM_ConcreteHouse_Pack_2_C_9",
+        "down": "Infinity",
+        "side": 18.0090446,
+        "baseDifference": 6.143799
+      },
+      {
+        "id": 83382,
+        "name": "SM_ConcreteHouse_Pack_2_C_0",
+        "down": 0.00170892477,
+        "side": 0.6184892,
+        "baseDifference": 6.49780273
+      },
+      {
+        "id": 103982,
+        "name": "BP_BrickHouse_1_C",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 6.5668335
+      },
+      {
+        "id": 104014,
+        "name": "BP_BrickHouse_2_C_3",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 7.359192
+      }
+    ]
+  },
+  {
+    "id": 103052,
+    "name": "BP_VentilationPack_2_C_2",
+    "matches": [
+      {
+        "id": 82986,
+        "name": "SM_ConcreteHouse_Pack_2_C_9",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 7.592102
+      },
+      {
+        "id": 83382,
+        "name": "SM_ConcreteHouse_Pack_2_C_0",
+        "down": -0.147766113,
+        "side": "Infinity",
+        "baseDifference": 7.946106
+      },
+      {
+        "id": 104014,
+        "name": "BP_BrickHouse_2_C_3",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 8.807495
+      }
+    ]
+  },
+  {
+    "id": 84468,
+    "name": "BP_VentilationPack_2_C_3",
+    "matches": [
+      {
+        "id": 102584,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": -0.0946960747,
+        "side": 0.686633348,
+        "baseDifference": 6.401428
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": 8.069176,
+        "baseDifference": 6.416382
+      }
+    ]
+  },
+  {
+    "id": 101964,
+    "name": "BP_Ventilation_System_Pack_C_5",
+    "matches": [
+      {
+        "id": 84464,
+        "name": "SM_ConcreteHouse_Pack_2_C_1",
+        "down": -0.0549010932,
+        "side": "Infinity",
+        "baseDifference": 7.97338867
+      }
+    ]
+  },
+  {
+    "id": 102392,
+    "name": "BP_Ventilation_System_Pack_C_1",
+    "matches": [
+      {
+        "id": 83712,
+        "name": "SM_ConcreteHouse_Pack_2_C_5",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 7.795532
+      },
+      {
+        "id": 103644,
+        "name": "SM_ConcreteHouse_Pack_1_C_1",
+        "down": -0.07312012,
+        "side": "Infinity",
+        "baseDifference": 7.91101074
+      },
+      {
+        "id": 102936,
+        "name": "BP_BrickHouse_2_C_1",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 8.581482
+      }
+    ]
+  },
+  {
+    "id": 83674,
+    "name": "BP_Ventilation_System_Pack_C_4",
+    "matches": [
+      {
+        "id": -155402,
+        "name": "WorkersDormitory",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 13.5096436
+      },
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "down": -0.0363769531,
+        "side": "Infinity",
+        "baseDifference": 7.99194336
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": 17.330162,
+        "baseDifference": 8.17157
+      }
+    ]
+  },
+  {
+    "id": 101990,
+    "name": "BP_Ventilation_System_Pack_C_3",
+    "matches": [
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": -0.000579834,
+        "side": "Infinity",
+        "baseDifference": 7.91687
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": 15.3597374,
+        "baseDifference": 7.82696533
+      }
+    ]
+  },
+  {
+    "id": 102718,
+    "name": "BP_VentilationPack_2_C_2",
+    "matches": [
+      {
+        "id": 84464,
+        "name": "SM_ConcreteHouse_Pack_2_C_1",
+        "down": "Infinity",
+        "side": 24.5785656,
+        "baseDifference": 5.949707
+      },
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": -0.192565918,
+        "side": 0.5466504,
+        "baseDifference": 6.44158936
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": 8.689558,
+        "baseDifference": 6.35168457
+      }
+    ]
+  },
+  {
+    "id": 84538,
+    "name": "BP_VentilationPack_2_C_1",
+    "matches": [
+      {
+        "id": 84464,
+        "name": "SM_ConcreteHouse_Pack_2_C_1",
+        "down": -0.0735168159,
+        "side": "Infinity",
+        "baseDifference": 7.954773
+      }
+    ]
+  },
+  {
+    "id": -47080,
+    "name": "SM_AirConditioning17",
+    "matches": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "down": "Infinity",
+        "side": 12.0958481,
+        "baseDifference": 5.438965
+      },
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": "Infinity",
+        "side": 8.388045,
+        "baseDifference": 5.708496
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": 0.100952089,
+        "side": 0.2579895,
+        "baseDifference": 5.61859131
+      }
+    ]
+  },
+  {
+    "id": -70216,
+    "name": "SM_AirConditioning8",
+    "matches": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "down": -0.0297546387,
+        "side": 0.11844077,
+        "baseDifference": 5.071411
+      },
+      {
+        "id": 84464,
+        "name": "SM_ConcreteHouse_Pack_2_C_1",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 4.84906
+      }
+    ]
+  },
+  {
+    "id": -62448,
+    "name": "SM_AirConditioning7",
+    "matches": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "down": -0.0297546387,
+        "side": 0.00529209757,
+        "baseDifference": 5.071411
+      },
+      {
+        "id": 84464,
+        "name": "SM_ConcreteHouse_Pack_2_C_1",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 4.84906
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 5.2510376
+      }
+    ]
+  },
+  {
+    "id": -75904,
+    "name": "SM_AirConditioning6",
+    "matches": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "down": -0.0297546387,
+        "side": 0.187775925,
+        "baseDifference": 5.071411
+      },
+      {
+        "id": 84464,
+        "name": "SM_ConcreteHouse_Pack_2_C_1",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 4.84906
+      }
+    ]
+  },
+  {
+    "id": -128816,
+    "name": "SM_AirConditioning5",
+    "matches": [
+      {
+        "id": 103644,
+        "name": "SM_ConcreteHouse_Pack_1_C_1",
+        "down": "Infinity",
+        "side": 8.337636,
+        "baseDifference": 6.23144531
+      },
+      {
+        "id": 104014,
+        "name": "BP_BrickHouse_2_C_3",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 6.9019165
+      },
+      {
+        "id": 102936,
+        "name": "BP_BrickHouse_2_C_1",
+        "down": -0.473999023,
+        "side": 0.556045949,
+        "baseDifference": 6.9019165
+      }
+    ]
+  },
+  {
+    "id": -96482,
+    "name": "SM_AirConditioning4",
+    "matches": [
+      {
+        "id": 103644,
+        "name": "SM_ConcreteHouse_Pack_1_C_1",
+        "down": "Infinity",
+        "side": 14.7353249,
+        "baseDifference": 6.23144531
+      },
+      {
+        "id": 104014,
+        "name": "BP_BrickHouse_2_C_3",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 6.9019165
+      },
+      {
+        "id": 102936,
+        "name": "BP_BrickHouse_2_C_1",
+        "down": -0.473999,
+        "side": 0.556077242,
+        "baseDifference": 6.9019165
+      }
+    ]
+  },
+  {
+    "id": -10326,
+    "name": "SM_AirConditioning3",
+    "matches": [
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": 0.109375,
+        "side": 0.13992776,
+        "baseDifference": 5.234131
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": 14.7703,
+        "baseDifference": 5.144226
+      },
+      {
+        "id": 83974,
+        "name": "BP_BrickHouse_2_C_2",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 4.95257568
+      }
+    ]
+  },
+  {
+    "id": -69116,
+    "name": "SM_AirConditioning2",
+    "matches": [
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": 0.109375,
+        "side": 0.0185686778,
+        "baseDifference": 5.234131
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": 14.7706633,
+        "baseDifference": 5.144226
+      }
+    ]
+  },
+  {
+    "id": -113864,
+    "name": "SM_AirConditioning",
+    "matches": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 5.139221
+      },
+      {
+        "id": 84464,
+        "name": "SM_ConcreteHouse_Pack_2_C_1",
+        "down": -0.08312991,
+        "side": 0.059322,
+        "baseDifference": 4.91687
+      },
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 5.40875244
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": 20.9180126,
+        "baseDifference": 5.31884766
+      }
+    ]
+  },
+  {
+    "id": -157008,
+    "name": "AirConditioning3",
+    "matches": [
+      {
+        "id": 84464,
+        "name": "SM_ConcreteHouse_Pack_2_C_1",
+        "down": "Infinity",
+        "side": 19.8158169,
+        "baseDifference": 4.5324707
+      },
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": -0.199646,
+        "side": 0.266217351,
+        "baseDifference": 5.024353
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": "Infinity",
+        "side": 13.2999935,
+        "baseDifference": 4.93444824
+      }
+    ]
+  },
+  {
+    "id": -140814,
+    "name": "SM_AirConditioning16",
+    "matches": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "down": "Infinity",
+        "side": 8.72756,
+        "baseDifference": 5.438965
+      },
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "down": "Infinity",
+        "side": 12.34383,
+        "baseDifference": 5.708496
+      },
+      {
+        "id": 100982,
+        "name": "BP_BrickHouse_2_C_5",
+        "down": 0.100952148,
+        "side": 0.258327246,
+        "baseDifference": 5.61859131
+      }
+    ]
+  },
+  {
+    "id": -70582,
+    "name": "SM_AirConditioning15",
+    "matches": [
+      {
+        "id": 83382,
+        "name": "SM_ConcreteHouse_Pack_2_C_0",
+        "down": "Infinity",
+        "side": 13.7979536,
+        "baseDifference": 5.95953369
+      },
+      {
+        "id": 104014,
+        "name": "BP_BrickHouse_2_C_3",
+        "down": 1.30334473,
+        "side": 0.06508952,
+        "baseDifference": 6.820923
+      },
+      {
+        "id": 102936,
+        "name": "BP_BrickHouse_2_C_1",
+        "down": "Infinity",
+        "side": 12.4275618,
+        "baseDifference": 6.820923
+      }
+    ]
+  },
+  {
+    "id": -60780,
+    "name": "SM_AirConditioning14",
+    "matches": [
+      {
+        "id": 83382,
+        "name": "SM_ConcreteHouse_Pack_2_C_0",
+        "down": -0.0190735161,
+        "side": 0.318885475,
+        "baseDifference": 4.982849
+      },
+      {
+        "id": 104014,
+        "name": "BP_BrickHouse_2_C_3",
+        "down": "Infinity",
+        "side": 4.775373,
+        "baseDifference": 5.84423828
+      }
+    ]
+  },
+  {
+    "id": -133534,
+    "name": "SM_AirConditioning13",
+    "matches": [
+      {
+        "id": 85124,
+        "name": "SM_ConcreteHouse_Pack_1_C_2",
+        "down": "Infinity",
+        "side": 19.0932941,
+        "baseDifference": 6.897766
+      },
+      {
+        "id": 103982,
+        "name": "BP_BrickHouse_1_C",
+        "down": 0.197869658,
+        "side": 0.248437479,
+        "baseDifference": 5.79772949
+      }
+    ]
+  },
+  {
+    "id": -107640,
+    "name": "SM_AirConditioning12",
+    "matches": [
+      {
+        "id": 103982,
+        "name": "BP_BrickHouse_1_C",
+        "down": "Infinity",
+        "side": 20.3444843,
+        "baseDifference": 5.86578369
+      },
+      {
+        "id": 82478,
+        "name": "BP_BrickHouse_2_C_11",
+        "down": 0.09851074,
+        "side": 0.251600534,
+        "baseDifference": 5.616089
+      },
+      {
+        "id": 103698,
+        "name": "BP_BrickHouse_2_C_10",
+        "down": "Infinity",
+        "side": 12.9423485,
+        "baseDifference": 5.616089
+      }
+    ]
+  },
+  {
+    "id": -119382,
+    "name": "SM_AirConditioning11",
+    "matches": [
+      {
+        "id": 102914,
+        "name": "BP_BrickHouse_2_C_9",
+        "down": "Infinity",
+        "side": 10.4599161,
+        "baseDifference": 5.616089
+      },
+      {
+        "id": 102936,
+        "name": "BP_BrickHouse_2_C_1",
+        "down": "Infinity",
+        "side": "Infinity",
+        "baseDifference": 6.658142
+      },
+      {
+        "id": 82478,
+        "name": "BP_BrickHouse_2_C_11",
+        "down": "Infinity",
+        "side": 13.2105846,
+        "baseDifference": 5.616089
+      },
+      {
+        "id": 103698,
+        "name": "BP_BrickHouse_2_C_10",
+        "down": 0.09851074,
+        "side": 0.2514404,
+        "baseDifference": 5.616089
+      }
+    ]
+  },
+  {
+    "id": -49204,
+    "name": "SM_AirConditioning10",
+    "matches": [
+      {
+        "id": 102914,
+        "name": "BP_BrickHouse_2_C_9",
+        "down": "Infinity",
+        "side": 9.845104,
+        "baseDifference": 5.616089
+      },
+      {
+        "id": 83974,
+        "name": "BP_BrickHouse_2_C_2",
+        "down": 0.09851074,
+        "side": 0.2518062,
+        "baseDifference": 5.616089
+      }
+    ]
+  },
+  {
+    "id": -13044,
+    "name": "SM_AirConditioning9",
+    "matches": [
+      {
+        "id": 102914,
+        "name": "BP_BrickHouse_2_C_9",
+        "down": "Infinity",
+        "side": 13.2134333,
+        "baseDifference": 5.616089
+      },
+      {
+        "id": 83974,
+        "name": "BP_BrickHouse_2_C_2",
+        "down": 0.09851074,
+        "side": 0.251887232,
+        "baseDifference": 5.616089
+      }
+    ]
+  }
+]

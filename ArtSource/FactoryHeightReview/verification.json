@@ -1,0 +1,17 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "objects": 819,
+  "buildingCount": 26,
+  "beforeTransforms": 21193,
+  "afterTransforms": 21193,
+  "changedTransforms": 833,
+  "expectedTransforms": 833,
+  "unexpectedChanges": [],
+  "terrainSamples": 28149,
+  "maxTerrainHeightChange": 1.52587891E-05,
+  "maxPlacementError": 2.0980835E-05,
+  "dirtyTerrainAssets": 0,
+  "compilationFailed": false,
+  "playModeTested": false,
+  "sceneSaved": true
+}
