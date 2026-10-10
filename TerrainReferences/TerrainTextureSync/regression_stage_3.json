@@ -1,0 +1,30 @@
+{
+  "stage": 3,
+  "passed": true,
+  "results": [
+    {
+      "terrain": "TextureSyncRegression_0",
+      "wrongHeights": 0,
+      "outsideRock": 1.0,
+      "centerRock": 0.0,
+      "repeatedWriteCount": 0,
+      "passed": true
+    },
+    {
+      "terrain": "TextureSyncRegression_1",
+      "wrongHeights": 0,
+      "outsideRock": 1.0,
+      "centerRock": 0.0,
+      "repeatedWriteCount": 0,
+      "passed": true
+    },
+    {
+      "terrain": "TextureSyncRegression_2",
+      "wrongHeights": 0,
+      "outsideRock": 1.0,
+      "centerRock": 0.0,
+      "repeatedWriteCount": 0,
+      "passed": true
+    }
+  ]
+}

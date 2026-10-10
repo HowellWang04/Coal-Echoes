@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "tiles": [
+    {
+      "tile": "Tile_0_-2_Main",
+      "mean_error": 0.0009191880817525089,
+      "max_error": 0.0019607245922088623,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_0_-2_Draft",
+      "mean_error": 0.0009438120760023594,
+      "max_error": 0.0019556283950805664,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_0_-1_Main",
+      "mean_error": 0.0008990438655018806,
+      "max_error": 0.0019608736038208008,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_0_-1_Draft",
+      "mean_error": 0.0009637666516937315,
+      "max_error": 0.00196075439453125,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_1_-2_Main",
+      "mean_error": 0.000983108184300363,
+      "max_error": 0.0019606947898864746,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_1_-2_Draft",
+      "mean_error": 0.0010039650369435549,
+      "max_error": 0.0019471868872642517,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_1_-1_Main",
+      "mean_error": 0.0009356992086395621,
+      "max_error": 0.0019608736038208008,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_1_-1_Draft",
+      "mean_error": 0.0009400031412951648,
+      "max_error": 0.0019608736038208008,
+      "outside_changed_channels": 0,
+      "pass": true
+    }
+  ]
+}

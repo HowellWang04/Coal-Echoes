@@ -1,0 +1,18 @@
+GL_VENDOR NVIDIA Corporation
+GL_RENDERER NVIDIA GeForce RTX 5070 Ti/PCIe/SSE2
+GL_VERSION 4.1.0 NVIDIA 596.21
+# of resolutions 7
+Read program
+loading program '../shader/mgstepfloat.glsl'...
+Compute shader loaded!
+GPU buffers size en bytes 7030860
+GL_ERROR_InitGL 0
+level 0 120 iterations
+level 1 110 iterations
+level 2 100 iterations
+level 3 90 iterations
+level 4 80 iterations
+level 5 70 iterations
+level 6 60 iterations
+GL_ERROR_Solve 0
+GL_ERROR_GetResult 0

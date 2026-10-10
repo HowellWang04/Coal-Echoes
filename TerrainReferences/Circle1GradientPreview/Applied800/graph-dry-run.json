@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Tile_0_-1_Main",
+    "error_m": 0.0,
+    "unchangedDifferences": 0,
+    "min": 0.184401616,
+    "max": 0.5055329
+  },
+  {
+    "name": "Tile_-1_-2_Main",
+    "error_m": 2.98023224E-05,
+    "unchangedDifferences": 0,
+    "min": 0.2823516,
+    "max": 0.6208165
+  },
+  {
+    "name": "Tile_-1_-2_Draft",
+    "error_m": 2.98023224E-05,
+    "unchangedDifferences": 0,
+    "min": 0.282436967,
+    "max": 0.6199568
+  }
+]

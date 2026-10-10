@@ -1,0 +1,369 @@
+{
+  "resolution": 6144,
+  "origin": [
+    -4924.00049,
+    -3914
+  ],
+  "size": 6000,
+  "source_sample_m": 1,
+  "import_row_order": "south to north",
+  "edge_transition_m": {
+    "west": 450,
+    "east": 550,
+    "south": 450,
+    "north": 950
+  },
+  "peak_compression_world_y_start": 110,
+  "peak_compression_asymptote": 280,
+  "protected_guard_m": 4,
+  "tiles": [
+    {
+      "name": "Tile_0_-2_Main",
+      "changed_samples": 438823,
+      "max_change_m": 283.2347717285156,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "changed_samples": 6960,
+      "max_change_m": 283.0661926269531,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_0_-1_Main",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_0_-1_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "changed_samples": 756462,
+      "max_change_m": 229.26239013671875,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "changed_samples": 11995,
+      "max_change_m": 229.37867736816406,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "changed_samples": 702769,
+      "max_change_m": 290.9628601074219,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "changed_samples": 11112,
+      "max_change_m": 290.2438659667969,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_0_Main",
+      "changed_samples": 841643,
+      "max_change_m": 261.968017578125,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_0_Draft",
+      "changed_samples": 13294,
+      "max_change_m": 261.99853515625,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_-2_Main",
+      "changed_samples": 1045443,
+      "max_change_m": 411.5326232910156,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_-2_Draft",
+      "changed_samples": 16547,
+      "max_change_m": 411.5163879394531,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_-1_Main",
+      "changed_samples": 1050625,
+      "max_change_m": 496.4031677246094,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_-1_Draft",
+      "changed_samples": 16641,
+      "max_change_m": 494.0664367675781,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_0_Main",
+      "changed_samples": 1050625,
+      "max_change_m": 449.0392761230469,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_0_Draft",
+      "changed_samples": 16641,
+      "max_change_m": 448.34619140625,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_3_0_Draft",
+      "changed_samples": 9030,
+      "max_change_m": 454.6098327636719,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_1_Draft",
+      "changed_samples": 15109,
+      "max_change_m": 748.5049438476562,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_1_Main",
+      "changed_samples": 954667,
+      "max_change_m": 748.9535522460938,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "changed_samples": 16641,
+      "max_change_m": 709.7753295898438,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "changed_samples": 1050625,
+      "max_change_m": 709.9967041015625,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "changed_samples": 8928,
+      "max_change_m": 464.9629821777344,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_-2_Main",
+      "changed_samples": 194816,
+      "max_change_m": 308.5784606933594,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_-2_Draft",
+      "changed_samples": 3072,
+      "max_change_m": 308.7920227050781,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_-1_Main",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_-1_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_0_Main",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_0_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "changed_samples": 16512,
+      "max_change_m": 278.5887756347656,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_-3_Draft",
+      "changed_samples": 16116,
+      "max_change_m": 227.81080627441406,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_-3_Draft",
+      "changed_samples": 6026,
+      "max_change_m": 110.89131164550781,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_3_-1_Draft",
+      "changed_samples": 9030,
+      "max_change_m": 517.4835815429688,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "changed_samples": 7936,
+      "max_change_m": 308.5784606933594,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-2_1_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-2_0_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-2_-1_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-2_-2_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-2_-3_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_0_1_Draft",
+      "changed_samples": 6541,
+      "max_change_m": 520.6325073242188,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_0_1_Main",
+      "changed_samples": 412013,
+      "max_change_m": 520.3231811523438,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_1_Draft",
+      "changed_samples": 1870,
+      "max_change_m": 124.60916900634766,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_1_Main",
+      "changed_samples": 116500,
+      "max_change_m": 124.5919189453125,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_3_-2_Draft",
+      "changed_samples": 5473,
+      "max_change_m": 317.1463928222656,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_3_-3_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_0_0_Main",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_0_0_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-2_2_Draft",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-2_2_Main",
+      "changed_samples": 0,
+      "max_change_m": 0.0,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_2_Draft",
+      "changed_samples": 12881,
+      "max_change_m": 254.11581420898438,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_-1_2_Main",
+      "changed_samples": 817369,
+      "max_change_m": 252.521484375,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_0_2_Draft",
+      "changed_samples": 16641,
+      "max_change_m": 502.6894836425781,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_0_2_Main",
+      "changed_samples": 1050625,
+      "max_change_m": 502.7505187988281,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "changed_samples": 16641,
+      "max_change_m": 772.6677856445312,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "changed_samples": 1050625,
+      "max_change_m": 772.8023071289062,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "changed_samples": 12037,
+      "max_change_m": 742.4574584960938,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "changed_samples": 761814,
+      "max_change_m": 743.6209106445312,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_3_2_Draft",
+      "changed_samples": 1387,
+      "max_change_m": 85.89720916748047,
+      "outside_mask_unchanged": true
+    },
+    {
+      "name": "Tile_3_2_Main",
+      "changed_samples": 86197,
+      "max_change_m": 85.80606079101562,
+      "outside_mask_unchanged": true
+    }
+  ]
+}

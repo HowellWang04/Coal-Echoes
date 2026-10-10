@@ -1,0 +1,128 @@
+{
+  "protected_samples": 523602,
+  "protected_max_delta_m": 0.0,
+  "resolution_m": 4,
+  "source_fragment_resolution_m": 10,
+  "extent_xz": [
+    -4924,
+    1076,
+    -3914,
+    2086
+  ],
+  "height_units": "Unity world Y meters",
+  "pieces": [
+    {
+      "id": "A",
+      "source": "407",
+      "source_center": [
+        8200,
+        3600
+      ],
+      "center": [
+        -430,
+        -680
+      ],
+      "scale": 0.7,
+      "angle": 0,
+      "radius": [
+        1390,
+        2250
+      ],
+      "offset": -1580
+    },
+    {
+      "id": "B",
+      "source": "408",
+      "source_center": [
+        6500,
+        1550
+      ],
+      "center": [
+        -2530,
+        -3210
+      ],
+      "scale": 0.65,
+      "angle": 90,
+      "radius": [
+        2100,
+        920
+      ],
+      "offset": -1560
+    },
+    {
+      "id": "C",
+      "source": "407",
+      "source_center": [
+        8300,
+        7700
+      ],
+      "center": [
+        -1820,
+        1410
+      ],
+      "scale": 0.7,
+      "angle": 70,
+      "radius": [
+        1970,
+        1000
+      ],
+      "offset": -1520
+    }
+  ],
+  "protected_polygon": [
+    [
+      -4400,
+      -2300
+    ],
+    [
+      -4220,
+      650
+    ],
+    [
+      -3660,
+      940
+    ],
+    [
+      -2750,
+      870
+    ],
+    [
+      -2070,
+      520
+    ],
+    [
+      -1660,
+      -650
+    ],
+    [
+      -1560,
+      -1810
+    ],
+    [
+      -1880,
+      -2440
+    ],
+    [
+      -2920,
+      -2540
+    ],
+    [
+      -3830,
+      -2490
+    ]
+  ],
+  "scene_snapshot": "Assets/Scenes/Main Game Scene.unity",
+  "scene_dirty_at_snapshot": true,
+  "stations": 2,
+  "towers": 10,
+  "buildings": 26,
+  "max_raise_m": 1000.9965779525548,
+  "max_lower_m": -306.54494971307395,
+  "height_png_encoding": {
+    "min_world_y": -705.0,
+    "max_world_y": 362.0,
+    "row_zero": "north +Z",
+    "note": "preview quantization only; use float32 npy for exact core preservation"
+  },
+  "all_survey_points_and_building_bounds_protected": true
+}

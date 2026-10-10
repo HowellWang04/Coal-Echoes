@@ -1,0 +1,95 @@
+{
+  "isDirty": false,
+  "actualTerrainApplied": false,
+  "graphFinalized": false,
+  "trials": [
+    {
+      "resolution": 129,
+      "tileX": 0,
+      "tileZ": -1,
+      "probes": [
+        {
+          "x": -2342.946,
+          "z": -1796.813,
+          "height": -442.8922,
+          "generatedSlopeWeight": 0.0198901985
+        },
+        {
+          "x": -2504.668,
+          "z": -1599.125,
+          "height": -328.08078,
+          "generatedSlopeWeight": 0.5856467
+        },
+        {
+          "x": -2452.74,
+          "z": -1856.044,
+          "height": -409.578857,
+          "generatedSlopeWeight": 0.9465807
+        }
+      ]
+    },
+    {
+      "resolution": 129,
+      "tileX": 1,
+      "tileZ": -1,
+      "probes": [
+        {
+          "x": -1659.352,
+          "z": -1511.656,
+          "height": -507.163818,
+          "generatedSlopeWeight": 0.0131470617
+        },
+        {
+          "x": -1639.821,
+          "z": -1494.078,
+          "height": -508.745667,
+          "generatedSlopeWeight": 0.02773557
+        }
+      ]
+    },
+    {
+      "resolution": 1025,
+      "tileX": 0,
+      "tileZ": -1,
+      "probes": [
+        {
+          "x": -2342.946,
+          "z": -1796.813,
+          "height": -442.713135,
+          "generatedSlopeWeight": 0.223161131
+        },
+        {
+          "x": -2504.668,
+          "z": -1599.125,
+          "height": -327.014465,
+          "generatedSlopeWeight": 0.645540059
+        },
+        {
+          "x": -2452.74,
+          "z": -1856.044,
+          "height": -408.782227,
+          "generatedSlopeWeight": 1.0
+        }
+      ]
+    },
+    {
+      "resolution": 1025,
+      "tileX": 1,
+      "tileZ": -1,
+      "probes": [
+        {
+          "x": -1659.352,
+          "z": -1511.656,
+          "height": -507.1724,
+          "generatedSlopeWeight": 0.04219202
+        },
+        {
+          "x": -1639.821,
+          "z": -1494.078,
+          "height": -508.738617,
+          "generatedSlopeWeight": 0.051969178
+        }
+      ]
+    }
+  ]
+}

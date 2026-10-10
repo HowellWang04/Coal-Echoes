@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "tiles": [
+    {
+      "tile": "Tile_0_-2_Main",
+      "mean_error": 0.0,
+      "max_error": 0.0,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_0_-2_Draft",
+      "mean_error": 0.0,
+      "max_error": 0.0,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_0_-1_Main",
+      "mean_error": 0.0,
+      "max_error": 0.0,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_0_-1_Draft",
+      "mean_error": 0.0,
+      "max_error": 0.0,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_1_-2_Main",
+      "mean_error": 0.0,
+      "max_error": 0.0,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_1_-2_Draft",
+      "mean_error": 0.0,
+      "max_error": 0.0,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_1_-1_Main",
+      "mean_error": 0.0,
+      "max_error": 0.0,
+      "outside_changed_channels": 0,
+      "pass": true
+    },
+    {
+      "tile": "Tile_1_-1_Draft",
+      "mean_error": 0.0,
+      "max_error": 0.0,
+      "outside_changed_channels": 0,
+      "pass": true
+    }
+  ]
+}

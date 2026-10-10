@@ -1,0 +1,17 @@
+GPU NVIDIA GeForce RTX 5070 Ti/PCIe/SSE2
+# of resolutions 10
+Read program
+loading program '../shader/mgstepfloat.glsl'...
+Compute shader loaded!
+GPU buffers size en bytes 251903720
+level 0 150 iterations
+level 1 140 iterations
+level 2 130 iterations
+level 3 120 iterations
+level 4 110 iterations
+level 5 100 iterations
+level 6 90 iterations
+level 7 80 iterations
+level 8 70 iterations
+level 9 60 iterations
+GL_ERROR 0

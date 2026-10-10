@@ -1,0 +1,187 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "b86255be1bc9e56b866b2a0a4798702771839ba7b4c4c9da1b195864ab6d2842",
+    "unchanged": true
+  },
+  {
+    "path": "EG2022.png",
+    "sha256": "05cee31b5219bfadb059eac0455a5e31e92db05396d054d5d9fdafe505ece921",
+    "unchanged": true
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "9cf7e51370ed6c3940e63d266f28e4d64e13acecef55b3f4aa8c175456d09510",
+    "unchanged": true
+  },
+  {
+    "path": "README.md",
+    "sha256": "e8b3733c5b7a270170496618fa597271de4b72d919659c7d5a358a36a777fbb6",
+    "unchanged": true
+  },
+  {
+    "path": "code\\src\\basics.h",
+    "sha256": "d6604f5e5cd9d67ee80d61050d733defd6756ee1009d6a28d0ac11999c7ba711",
+    "unchanged": true
+  },
+  {
+    "path": "code\\src\\diffusionterrain.cpp",
+    "sha256": "1c1862d04a3b2329b53cada6ecae8b00eaa05dc53ace0e28f3d1fe1226af37f3",
+    "unchanged": true
+  },
+  {
+    "path": "code\\src\\diffusionterrain.h",
+    "sha256": "10c563bb565befc0f208f109e29e9c191d6d2d7e533714de32b7eb6e879409f4",
+    "unchanged": true
+  },
+  {
+    "path": "code\\src\\gpu-shader.cpp",
+    "sha256": "ceca509ebf37e74ac3ec37ce8f2777f88806e1f88e637b901d86f7988196a327",
+    "unchanged": true
+  },
+  {
+    "path": "code\\src\\gpu-shader.h",
+    "sha256": "5f72ac2b6b54b0828f052615474b2cd41dfa132c44e20faf1660b186f854765e",
+    "unchanged": true
+  },
+  {
+    "path": "code\\src\\main.cpp",
+    "sha256": "df054689cd709f4a776cdde0dba69ef350c0c76046e7d3837e2ae1f24af04d24",
+    "unchanged": true
+  },
+  {
+    "path": "code\\src\\vec.h",
+    "sha256": "83774f54e1927564302ee09ee19129ab396dee5f913d1f159bedf57ad95de2ef",
+    "unchanged": true
+  },
+  {
+    "path": "data\\004_alt.pgm",
+    "sha256": "f6d923b582d22d24a4c062272b2892f056ed116de4da0f27b21ec0165794156f",
+    "unchanged": true
+  },
+  {
+    "path": "data\\004_alt.png",
+    "sha256": "672b30adb2064f5d9d96e1a6e89d36288977eba50eb07acf3ed3f7cb93d11a59",
+    "unchanged": true
+  },
+  {
+    "path": "data\\004_lap.pgm",
+    "sha256": "f56959a7f77728344bf35669b159c304a3e9ce6c60dd336855a8e04148fc6554",
+    "unchanged": true
+  },
+  {
+    "path": "data\\004_lap.png",
+    "sha256": "b3985fd5957c3826c0d0cae71ec20414b4219dcf75bdc60c9b91284482da07d9",
+    "unchanged": true
+  },
+  {
+    "path": "data\\004_mask.pgm",
+    "sha256": "e11c71167910cb735595ba31317ddb3d29e3b838c6cafd70e5dc4612d6074b7c",
+    "unchanged": true
+  },
+  {
+    "path": "data\\004_mask.png",
+    "sha256": "9aacaa00826fae72be3ff016b5ec36c04a5936f544a5b506695190c984df8ff1",
+    "unchanged": true
+  },
+  {
+    "path": "dependency\\dll\\glew32.dll",
+    "sha256": "eabb3dfec3a95f0282f10f5ba4b633e681aa5aff19995cad069e6e954a9cea12",
+    "unchanged": true
+  },
+  {
+    "path": "dependency\\dll\\glfw3.dll",
+    "sha256": "9cb30db306514f4a7c2ae5d8d065d4ec8543edbae96b5ae5b4140e75b985938a",
+    "unchanged": true
+  },
+  {
+    "path": "dependency\\include\\GL\\glew.h",
+    "sha256": "2c8857e4383b47ee5537212c31dccf3e08aa0b061e20791837aa082e45fe20bb",
+    "unchanged": true
+  },
+  {
+    "path": "dependency\\include\\GLFW\\glfw3.h",
+    "sha256": "e80daf5acdac54bd2da5f4fb88cedf546532b85fe0bdd81069810f7aba61c87b",
+    "unchanged": true
+  },
+  {
+    "path": "dependency\\include\\GLFW\\glfw3native.h",
+    "sha256": "504d352883480b83c35b8e2ce248219ceac46a43eb58579e9f46e1f9da794308",
+    "unchanged": true
+  },
+  {
+    "path": "dependency\\lib\\glew32.lib",
+    "sha256": "ad08e791f7320385fd00ad4889199280b26d2d1d91d625f4d1d930c9924e7d8f",
+    "unchanged": true
+  },
+  {
+    "path": "dependency\\lib\\glfw3.lib",
+    "sha256": "1f7b4f3d887473fe8d28c1a078ec02a6df297e23cca6227041eb3ba82f5b7b78",
+    "unchanged": true
+  },
+  {
+    "path": "dependency\\lib\\glfw3dll.lib",
+    "sha256": "c5368d580ae9ed6cfcfdf2dd79dc004ded8fa8a73958d25f8b11cdb39b2abb4c",
+    "unchanged": true
+  },
+  {
+    "path": "linux\\Makefile",
+    "sha256": "2456c026e1b4feba1cbf32aaec44b3d389feffdc40793b12751cd9d9ac057373",
+    "unchanged": true
+  },
+  {
+    "path": "linux\\README.md",
+    "sha256": "9798690d64bf6c4b88a89ea0c98e2a53f404d79fa0abde44c230822a2243c65d",
+    "unchanged": true
+  },
+  {
+    "path": "results\\result.pgm",
+    "sha256": "bc82a237bbcb5222df2c7dff77a460ff53f26f10c516693de4df53c125020ba9",
+    "unchanged": true
+  },
+  {
+    "path": "shader\\mgstepfloat.glsl",
+    "sha256": "e51d2a585f19fa7162c8e72979db479ba869f2d6907ffe629cadfe2f44eca18f",
+    "unchanged": true
+  },
+  {
+    "path": "visual\\Gradient.sln",
+    "sha256": "33cb16620d03e12d935cc046daec096915ff26d51871ac9f3ff04f7df73db58d",
+    "unchanged": true
+  },
+  {
+    "path": "visual\\Gradient.vcxproj",
+    "sha256": "436ef8158b4caa5885ff507f32f204c11a566d4b5a62098d4dfbd7507bc6df04",
+    "unchanged": true
+  },
+  {
+    "path": "visual\\Gradient.vcxproj.filters",
+    "sha256": "a02b925a5d9e0cbb461f8e7347995aa652479e228383c9dcd59c548011807fb8",
+    "unchanged": true
+  },
+  {
+    "path": "visual\\Gradient.vcxproj.user",
+    "sha256": "c65b2b1a71dcd26333d8dc209ffeb90a906ddd8bbab6d45dada8e3bc84c30226",
+    "unchanged": true
+  },
+  {
+    "path": "visual\\x64\\Debug\\glew32.dll",
+    "sha256": "eabb3dfec3a95f0282f10f5ba4b633e681aa5aff19995cad069e6e954a9cea12",
+    "unchanged": true
+  },
+  {
+    "path": "visual\\x64\\Debug\\glfw3.dll",
+    "sha256": "9cb30db306514f4a7c2ae5d8d065d4ec8543edbae96b5ae5b4140e75b985938a",
+    "unchanged": true
+  },
+  {
+    "path": "visual\\x64\\Release\\glew32.dll",
+    "sha256": "eabb3dfec3a95f0282f10f5ba4b633e681aa5aff19995cad069e6e954a9cea12",
+    "unchanged": true
+  },
+  {
+    "path": "visual\\x64\\Release\\glfw3.dll",
+    "sha256": "9cb30db306514f4a7c2ae5d8d065d4ec8543edbae96b5ae5b4140e75b985938a",
+    "unchanged": true
+  }
+]

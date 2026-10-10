@@ -1,0 +1,39 @@
+{
+  "raw_dem_range_m": [
+    1348.3861957700806,
+    1380.1265576511842
+  ],
+  "threshold_world_y_m": -710,
+  "saved_input_match_max_m": 3.0513855108438293e-05,
+  "cut_crossing_edges": 175,
+  "max_crossing_jump_before_m": 120.63747470855719,
+  "max_crossing_jump_without_cut_m": 0.5903012791141009,
+  "horizontal_spacing_m": 2,
+  "example": {
+    "world_xz": [
+      -692.0004900000004,
+      2016.0
+    ],
+    "raw_dem_m": [
+      1363.6910775375366,
+      1363.4491658238526
+    ],
+    "native_world_y_m": [
+      -709.9085318374634,
+      -710.1504435511474
+    ],
+    "weight": [
+      1.0,
+      0.0
+    ],
+    "current_guidance": [
+      -709.9085318374634,
+      -589.2710571289062
+    ],
+    "guidance_without_cut": [
+      -709.9085318374634,
+      -710.1504435511474
+    ]
+  },
+  "probe_only": true
+}

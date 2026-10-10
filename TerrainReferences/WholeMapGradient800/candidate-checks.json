@@ -1,0 +1,9 @@
+{
+  "core_changed": 0,
+  "accepted_changed": 0,
+  "artificial_steep_screen_before": 672816,
+  "artificial_steep_screen_after": 389688,
+  "first_free_row_delta_max_m": 6.529169082641602,
+  "slope_free_p99_before": 66.53199768066406,
+  "slope_free_p99_after": 62.65442657470703
+}

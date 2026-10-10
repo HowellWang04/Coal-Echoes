@@ -1,0 +1,87 @@
+{
+  "resolution": 1025,
+  "spacing_m": 2.0,
+  "extent_xz": [
+    -4148.0,
+    -2100.0,
+    -3834.0,
+    -1786.0
+  ],
+  "row_zero": "south",
+  "height_units": "Unity world Y metres",
+  "source_B_placement": {
+    "id": "B",
+    "source": "408",
+    "source_center": [
+      6500,
+      1550
+    ],
+    "center": [
+      -2530,
+      -3210
+    ],
+    "scale": 0.65,
+    "angle": 90,
+    "radius": [
+      2100,
+      920
+    ],
+    "offset": -1560
+  },
+  "protected_polygon": [
+    [
+      -4400,
+      -2300
+    ],
+    [
+      -4220,
+      650
+    ],
+    [
+      -3660,
+      940
+    ],
+    [
+      -2750,
+      870
+    ],
+    [
+      -2070,
+      520
+    ],
+    [
+      -1660,
+      -650
+    ],
+    [
+      -1560,
+      -1810
+    ],
+    [
+      -1880,
+      -2440
+    ],
+    [
+      -2920,
+      -2540
+    ],
+    [
+      -3830,
+      -2490
+    ]
+  ],
+  "inner_fixed_guard_m": 24,
+  "solve_region_ellipse": {
+    "center": [
+      -3210,
+      -2940
+    ],
+    "radius": [
+      880,
+      710
+    ]
+  },
+  "context": "Current live Main heights where available, otherwise live Draft heights",
+  "guide": "Native 1m USGS source resampled to 2m. Current outer source B placement retained for controlled width comparison.",
+  "current_core_vs_before_max_m": 0.0
+}

@@ -1,0 +1,1053 @@
+{
+  "terrains": [
+    {
+      "name": "Tile_0_-2_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -2924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "0ae0be0658500eb31cd42a9c87330fb2083b18d6a2f5734fe16f6a0acf8c0379",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -2924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "3bf88d50e39c8492e8e742b3042fee10ec1a61055e3808cd9016afe26665ddd8",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_0_-1_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -2924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "f7559e5c82c70576a21889fc0168da6459e967173c809dc3b5ede1d1dd034aac",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_0_-1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -2924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "7d076f7154f34935803c8c0c465f2edda2df29faccc6e570a036f16d15c8f824",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -1924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "099bcbba6a5263639632908d89282c55dc6733f27a443144e831bbe4e4c643fe",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -1924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "3a28d6cdacc5c04d4e9396a4c1dccb3baddcb715449f7d1961b8810f921aa997",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -1924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "482ef40e53d57aa728e29da2e30b8b9ad7ec22ed026cc096d300ebf27640b574",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -1924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "9a1318a9d1fe83b470f750243c06de23e39e88ed19e3f41861e059979356a552",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_0_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_0_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -1924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "8b8a79b4a12bedf9dc6200770cda54411180572d2ab4333edb79274315228d13",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_0_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_0_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -1924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "e426569fb47d22bf6fd8a7b2d92091e0830355bddf92398d1fd2c23e618dd3ae",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_-2_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-2_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -924.0005,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "686290336a05cb6b9b35bfb2837bc3e2721ea9686b9fae8aa60779d801b9bc8c",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_-2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -924.0005,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "3e1190f55eaf334bab629a653bedf00f130bfe49f3804a3b6768a3e8cd7461cb",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_-1_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-1_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -924.0005,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "0f1cd17ba9d415bfb90eb9b17057263e6698a8a5fe768e747ab4f822955142f7",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_-1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -924.0005,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "199a18690b432cc45d1c14768508969feccfa7d421ec19d8ee0fe1a4d504aab3",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_0_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_0_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -924.0005,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "b8a897e3d1cd90a9752bcc13de678442bf521d89ad0ff9c605a696bc7d8e9be4",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_0_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_0_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -924.0005,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "6489d8ab29e5782cb47c3c7b0f9cdab5dd1d1bd9a574afa656a80deee3f9ec02",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_3_0_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_0_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        75.99951,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "4e998f9d4852417fdaab7d2590ed675470786e766a750ed46c0f1ecff613870e",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -1924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "f247136dec066aa1cb8608620117a4ea272e9687aeb9f96cae553655c2610ab8",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_1_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_1_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -1924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "15a2fd82f1f4c0df5f2e579b49f83ca0855ef05ba31379017ed0c5e8f184fcc3",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -924.0005,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "792f82e5286b584cb660fd8cc4b8236c89b7ed4870cc6ec2d333d098faa95737",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_1_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -924.0005,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "2bdff0528712b5fd0b4f16bf60bf4576503afb88dce3165b89b05c21d545c1f1",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        75.99951,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "73b039d16e49e323ae5d14fce4d4c11e0cdf2046c50b7ea984160db65411b35f",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_-2_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-2_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -3924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "ed98279ef2731938e7b8e29db6d6dc97595bbeaf8fba44cadedb9b25d29d11c8",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_-2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -3924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "8f72aaad681f18119095ed52d28c51033877660bbac31424490a9c7a40d8815f",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_-1_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-1_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -3924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "659a9e08245dcf2c11488ef8f99ba360874494c43ed4ba87e00ab2114ee04f9b",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_-1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -3924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "cf3a03cc7fc100d6266ef606029a8dcaba2955c1a6d42f6de8b72c5111dd236a",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_0_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_0_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -3924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "5e504aae371a3a9006f1ef26117c20855639edf2a9aeb8119b89c6b2a0a85fc7",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_0_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_0_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -3924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "aa551ea2a1607fc2cbaffbc2c7957467e6c7f395b9ff68d49398b0352ebe7bba",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_-3_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -2924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "d68ac1759bf916a82d5277c25db6d9f692a3db81836ac6fb5b6648675b307af5",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_-3_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_-3_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -1924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "8a64c3b8897442b49c9a07043909cfe78c5e55aef850244429f7c2b29391dac2",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_-3_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_-3_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -924.0005,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "c9f622ddb396db49e24520870b8d1232e898e8fe54a3c8ebcdb03d4226bb527d",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_3_-1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        75.99951,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "3a72cc50a17a04e2089ca24d472a8f6c07e26051db1928aaa344e16182d4e4f7",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_-3_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -3924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "5bc4413e3e33e3c68186356f8a126de6c0923df1d71552105504e442bb3e934f",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-2_1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -4924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "eecc0bf70e507b2abfd2a5651ef8adf4e54f5aaef52824ae385ab728db29b84e",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-2_0_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_0_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -4924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "d462163007218763a2762d70b97120459d17e3b74cd2c2456e90deec83cb9ba7",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-2_-1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -4924.00049,
+        -710.0,
+        -1914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "46c93d594b64334bd4757d18dc4a3ee113283cc87399ea52eb553561b14d2b82",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-2_-2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -4924.00049,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "8f8c1e5f76b04f7036cbadcff2b58d62f628258dbe06932417a4b04227aafec0",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-2_-3_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_-3_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -4924.00049,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "c10455353014e2680c49c969a80ffcf64a460420bd906bba60b8a9080616eecb",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_0_1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -2924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "52d41df02b687b343d60152e933eb1fe36c76f13581bb67649c7f9c2496ccacf",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_0_1_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_1_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -2924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "aff97287d736abda52ab09f9a2e54f4b1b0073b937231fc9b95b8dc4801c2b97",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_1_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_1_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -3924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "a42246cabd61eb2a69a7adc4ba0edc64a4f9f3e531667ddcc765a28891d8966d",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_1_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_1_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -3924.00049,
+        -710.0,
+        86.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "3eb1eff481edaa17fabb71ef6443a02a71c8763d04a8c7e49d84bb4ffc27653f",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_3_-2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        75.99951,
+        -710.0,
+        -2914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "41f19194cd30ff5afe2aebdeb9ba540a21cfea9442a86b835699d6b863cb9a48",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_3_-3_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_-3_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        75.99951,
+        -710.0,
+        -3914.0
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "1f67a4c088e5c58bcf767ce6a106af19b4c509c396eb6d1b6192856b25f27310",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_0_0_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_0_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -2924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "d3f4672fdb842065812a0e98568bb74eebc75a52c33ee2caec5d539c0931b06e",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_0_0_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_0_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -2924.00049,
+        -710.0,
+        -913.999939
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "0dd80132ffc05266bc41ff434485c29539a16bade69e8c73e4cd808c9917a2fc",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-2_2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -4924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "a2b42520ede353b0c2d88ea3979cf2eb915d358b082ac3fb0bf46cfe55f1db22",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-2_2_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-2_2_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -4924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "b1c3631179475681b726269670abd27c145eba864cb20e758b284c7fc7738d9a",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -3924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "230e6d072d8d8c832e0e34cb2a3a192ce27ad8605177cc9034e7b67f282ad7d4",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_-1_2_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_-1_2_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -3924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "89f91183d80533e6267bea8e27bf080435b0d4128580aa34380157438b29fc1d",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_0_2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -2924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "8891392aefd51f45f7a31a2549004fb38526c7b2ad237c9d41e0930f9d09d557",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_0_2_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_0_2_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -2924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "a535851553036a156cccae7cff581b64f184991aee2d1b927ca38f6fd740d51f",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -1924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "b6009958957047dc37d7ea6a31d55e2609f108f4cb9e174458080ba170835cc3",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_1_2_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -1924.00049,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "d29bbe0256352f862d5c4f14d85c3bfc3395fe2cf0e5b55931d133bfca9fef21",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        -924.0005,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "2ae6a25d8bc80719af2c522461f134084c8a385337da576f5d0ebe66bef832ad",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_2_2_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        -924.0005,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "4ee7154ca5d44db302b98ba1213601b5aa07bfd6c694815e2a5a3d656d81be22",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_3_2_Draft",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_2_Draft.asset",
+      "res": 129,
+      "alpha": 129,
+      "p": [
+        75.99951,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "7d90ba0ed957ce2a700c853a05f40b38b4a6c538bc09a658ef51c72527f6adff",
+      "overlaps": true
+    },
+    {
+      "name": "Tile_3_2_Main",
+      "path": "Assets/TerrainData/SheepRangeGenerated/Tile_3_2_Main.asset",
+      "res": 1025,
+      "alpha": 1025,
+      "p": [
+        75.99951,
+        -710.0,
+        1086.00012
+      ],
+      "size": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "heightHash": "421d632847eed96b92b24064278ecab5600a3ad90d8a07b10a0cccb287f2f8b4",
+      "overlaps": true
+    }
+  ],
+  "graph": "Assets/MapMagic Graph.asset",
+  "transformHash": "92def47b8465f92b881d3e6f2226d8a07dbb4ec5874c7c11ebd3c5776439419a",
+  "transformCount": 21193,
+  "auto": true,
+  "locks": "[{\"locked\":false,\"guiName\":\"Factory transition\",\"relativeHeight\":false,\"worldRadius\":197.0,\"worldTransition\":30.0,\"p\":[1582.0,710.0,-190.000061]},{\"locked\":false,\"guiName\":\"Cableway branch ridge\",\"relativeHeight\":false,\"worldRadius\":280.0,\"worldTransition\":30.0,\"p\":[1059.0,710.0,-233.38678]},{\"locked\":false,\"guiName\":\"Cableway upper ridge\",\"relativeHeight\":false,\"worldRadius\":365.0,\"worldTransition\":30.0,\"p\":[652.0,710.0,-673.000061]},{\"locked\":false,\"guiName\":\"Cableway footing 02\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1356.84558,710.0,-198.257141]},{\"locked\":false,\"guiName\":\"Cableway footing 03\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1276.41589,710.0,-213.7597]},{\"locked\":false,\"guiName\":\"Cableway footing 04\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1155.41479,710.0,-236.377991]},{\"locked\":false,\"guiName\":\"Cableway footing 05\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1072.47339,710.0,-233.9234]},{\"locked\":false,\"guiName\":\"Cableway footing 06\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[825.8965,710.0,-263.1629]},{\"locked\":false,\"guiName\":\"Cableway footing 07\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[821.4392,710.0,-410.043518]},{\"locked\":false,\"guiName\":\"Cableway footing 08\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[729.7014,710.0,-547.150452]},{\"locked\":false,\"guiName\":\"Cableway footing 09\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[697.2793,710.0,-720.293762]},{\"locked\":false,\"guiName\":\"Cableway footing 10\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[647.162354,710.0,-875.992737]},{\"locked\":false,\"guiName\":\"Sheep Range factory\",\"relativeHeight\":false,\"worldRadius\":335.0,\"worldTransition\":40.0,\"p\":[2212.5,710.0,-1205.0]},{\"locked\":false,\"guiName\":\"Sheep Range footing 03\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1771.62964,710.0,-1047.47241]},{\"locked\":false,\"guiName\":\"Sheep Range footing 04\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1578.44446,710.0,-995.708557]},{\"locked\":false,\"guiName\":\"Sheep Range footing 05\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1385.25928,710.0,-943.944763]},{\"locked\":false,\"guiName\":\"Sheep Range footing 06\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1192.07422,710.0,-892.180969]},{\"locked\":false,\"guiName\":\"Sheep Range footing 07\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[998.889038,710.0,-840.4172]},{\"locked\":false,\"guiName\":\"Sheep Range footing 08\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[805.703857,710.0,-788.6534]},{\"locked\":false,\"guiName\":\"Sheep Range footing 09\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[612.518555,710.0,-736.8896]},{\"locked\":false,\"guiName\":\"Sheep Range footing 10\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[419.3335,710.0,-685.1257]},{\"locked\":true,\"guiName\":\"Ridge factory\",\"relativeHeight\":false,\"worldRadius\":335.0,\"worldTransition\":40.0,\"p\":[-2000.0,-474.361755,-1650.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_01\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2426.041,710.0,-1941.99292]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_10\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2750.0,710.0,-915.000061]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_02\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2452.73975,710.0,-1856.044]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_09\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2700.0,710.0,-1019.99982]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_03\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2481.59814,710.0,-1763.14111]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_08\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2670.0,710.0,-1120.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_04\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2504.668,710.0,-1599.12524]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_05\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2520.0,710.0,-1480.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_06\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2615.0,710.0,-1360.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_07\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2670.0,710.0,-1240.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_11\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2768.246,710.0,-815.962952]}]"
+}

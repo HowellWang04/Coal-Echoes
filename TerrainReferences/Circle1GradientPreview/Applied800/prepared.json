@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Tile_0_-2_Main",
+    "changed": 212295,
+    "delta_min_m": -11.096014022827148,
+    "delta_max_m": 188.10610961914062,
+    "sample_error_m": 1.4901161193847656e-05,
+    "core_changed": 0,
+    "height_rect": [
+      0,
+      0,
+      609,
+      402
+    ],
+    "paint_pixels": 215946
+  },
+  {
+    "name": "Tile_0_-2_Draft",
+    "changed": 3371,
+    "delta_min_m": -11.035717964172363,
+    "delta_max_m": 188.06163024902344,
+    "sample_error_m": 1.4901161193847656e-05,
+    "core_changed": 0,
+    "height_rect": [
+      0,
+      0,
+      77,
+      51
+    ],
+    "paint_pixels": 3677
+  },
+  {
+    "name": "Tile_-1_-2_Main",
+    "changed": 398598,
+    "delta_min_m": -64.65715789794922,
+    "delta_max_m": 228.1479949951172,
+    "sample_error_m": 1.4901161193847656e-05,
+    "core_changed": 0,
+    "height_rect": [
+      0,
+      0,
+      1025,
+      433
+    ],
+    "paint_pixels": 402854
+  },
+  {
+    "name": "Tile_-1_-2_Draft",
+    "changed": 6327,
+    "delta_min_m": -64.63394927978516,
+    "delta_max_m": 227.9223175048828,
+    "sample_error_m": 1.4901161193847656e-05,
+    "core_changed": 0,
+    "height_rect": [
+      0,
+      0,
+      129,
+      55
+    ],
+    "paint_pixels": 6674
+  },
+  {
+    "name": "Tile_0_-3_Draft",
+    "changed": 5135,
+    "delta_min_m": 0.0,
+    "delta_max_m": 178.41546630859375,
+    "sample_error_m": 1.4901161193847656e-05,
+    "core_changed": 0,
+    "height_rect": [
+      0,
+      39,
+      77,
+      129
+    ],
+    "paint_pixels": 5483
+  },
+  {
+    "name": "Tile_-1_-3_Draft",
+    "changed": 11123,
+    "delta_min_m": -110.24706268310547,
+    "delta_max_m": 221.79119873046875,
+    "sample_error_m": 1.4901161193847656e-05,
+    "core_changed": 0,
+    "height_rect": [
+      0,
+      34,
+      129,
+      129
+    ],
+    "paint_pixels": 11555
+  },
+  {
+    "name": "Tile_-2_-2_Draft",
+    "changed": 742,
+    "delta_min_m": -12.619280815124512,
+    "delta_max_m": 0.0,
+    "sample_error_m": 9.313225746154785e-07,
+    "core_changed": 0,
+    "height_rect": [
+      107,
+      0,
+      129,
+      50
+    ],
+    "paint_pixels": 883
+  },
+  {
+    "name": "Tile_-2_-3_Draft",
+    "changed": 886,
+    "delta_min_m": -15.527318000793457,
+    "delta_max_m": 0.0,
+    "sample_error_m": 9.313225746154785e-07,
+    "core_changed": 0,
+    "height_rect": [
+      107,
+      72,
+      129,
+      129
+    ],
+    "paint_pixels": 1039
+  }
+]
