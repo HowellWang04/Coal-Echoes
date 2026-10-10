@@ -1,0 +1,84 @@
+// The caller supplies start and take to keep each editor operation bounded.
+var entries = Newtonsoft.Json.Linq.JArray.Parse(System.IO.File.ReadAllText("ArtSource/NatureAssetSetup/rename-plan.json"));
+var changed = new System.Collections.Generic.List<string>();
+foreach (var entry in entries.Skip(start).Take(take)) {
+    var oldPath = (string)entry["oldPath"];
+    var newPath = (string)entry["newPath"];
+    var guid = (string)entry["guid"];
+    if (AssetDatabase.GUIDToAssetPath(guid) == newPath) { changed.Add("Already completed " + newPath); continue; }
+    if (AssetDatabase.GUIDToAssetPath(guid) != oldPath) throw new System.Exception("Source changed " + oldPath);
+    var segments = System.IO.Path.GetDirectoryName(newPath).Replace('\\', '/').Split('/');
+    var dir = segments[0];
+    for (var i = 1; i < segments.Length; i++) {
+        var next = dir + "/" + segments[i];
+        if (!AssetDatabase.IsValidFolder(next)) AssetDatabase.CreateFolder(dir, segments[i]);
+        dir = next;
+    }
+    var root = PrefabUtility.LoadPrefabContents(oldPath);
+    try {
+        root.name = (string)entry["name"];
+        if ((string)entry["pack"] == "RocksGobi") {
+            var highFilter = root.GetComponent<MeshFilter>();
+            var highRenderer = root.GetComponent<MeshRenderer>();
+            var renderers = new System.Collections.Generic.List<Renderer> { highRenderer };
+            var supplied = oldPath.EndsWith("yanshi01.prefab");
+            var count = supplied ? 5 : 3;
+            Mesh collisionMesh = null;
+            for (var level = 1; level <= count; level++) {
+                Mesh mesh;
+                if (supplied) {
+                    var modelPath = AssetDatabase.GetAssetPath(highFilter.sharedMesh).Replace("_LOD0.fbx", "_LOD" + level + ".fbx");
+                    mesh = AssetDatabase.LoadAssetAtPath<GameObject>(modelPath).GetComponentInChildren<MeshFilter>().sharedMesh;
+                } else {
+                    mesh = AssetDatabase.LoadAssetAtPath<Mesh>("Assets/Art Resources/ThirdPartyPacks/RocksGobi/GeneratedMeshes/" + root.name + "_LOD" + level + ".asset");
+                }
+                if (mesh == null) throw new System.Exception("Missing LOD " + root.name);
+                var child = new GameObject("LOD" + level);
+                child.transform.SetParent(root.transform, false);
+                child.AddComponent<MeshFilter>().sharedMesh = mesh;
+                var renderer = child.AddComponent<MeshRenderer>();
+                renderer.sharedMaterials = highRenderer.sharedMaterials;
+                renderer.shadowCastingMode = highRenderer.shadowCastingMode;
+                renderer.receiveShadows = highRenderer.receiveShadows;
+                renderer.lightProbeUsage = highRenderer.lightProbeUsage;
+                renderer.reflectionProbeUsage = highRenderer.reflectionProbeUsage;
+                renderers.Add(renderer);
+                if (level == 3) collisionMesh = mesh;
+            }
+            var thresholds = supplied ? new[] { .6f, .35f, .2f, .1f, .04f, 0f } : new[] { .6f, .3f, .12f, 0f };
+            var lods = new LOD[renderers.Count];
+            for (var i = 0; i < lods.Length; i++) lods[i] = new LOD(thresholds[i], new[] { renderers[i] });
+            var group = root.AddComponent<LODGroup>();
+            group.SetLODs(lods); group.RecalculateBounds();
+            var collision = new GameObject("Collision");
+            collision.transform.SetParent(root.transform, false);
+            collision.AddComponent<MeshCollider>().sharedMesh = collisionMesh;
+        } else if ((bool)entry["solid"] && root.GetComponentsInChildren<Collider>(true).Length == 0) {
+            var group = root.GetComponentInChildren<LODGroup>();
+            var levels = group.GetLODs();
+            var renderer = levels[Mathf.Min(1, levels.Length - 1)].renderers[0];
+            var source = renderer.GetComponent<MeshFilter>();
+            var collision = new GameObject("Collision");
+            // A sibling keeps the mesh transform exact and outside LOD renderer membership.
+            collision.transform.SetParent(source.transform.parent, false);
+            collision.transform.localPosition = source.transform.localPosition;
+            collision.transform.localRotation = source.transform.localRotation;
+            collision.transform.localScale = source.transform.localScale;
+            collision.AddComponent<MeshCollider>().sharedMesh = source.sharedMesh;
+        }
+        bool success;
+        PrefabUtility.SaveAsPrefabAsset(root, oldPath, out success);
+        if (!success) throw new System.Exception("Failed to save " + oldPath);
+    } finally { PrefabUtility.UnloadPrefabContents(root); }
+    var error = AssetDatabase.MoveAsset(oldPath, newPath);
+    if (!string.IsNullOrEmpty(error)) throw new System.Exception(error);
+    var asset = AssetDatabase.LoadAssetAtPath<GameObject>(newPath);
+    var labels = new System.Collections.Generic.HashSet<string>(AssetDatabase.GetLabels(asset));
+    labels.Add("Nature"); labels.Add((string)entry["pack"]); labels.Add((string)entry["category"]);
+    if ((bool)entry["solid"]) labels.Add("SolidRock");
+    AssetDatabase.SetLabels(asset, labels.ToArray());
+    AssetDatabase.SaveAssetIfDirty(asset);
+    if (AssetDatabase.AssetPathToGUID(newPath) != guid) throw new System.Exception("GUID changed " + newPath);
+    changed.Add(newPath);
+}
+return new { count = changed.Count, assets = changed };

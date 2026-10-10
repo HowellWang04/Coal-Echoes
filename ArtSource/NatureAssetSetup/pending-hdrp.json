@@ -1,0 +1,23 @@
+[
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/URP_Tree_Pack/Prefabs/Trees/Tree_TreePack_01.prefab",
+    "materials": [
+      "Assets/Art Resources/ThirdPartyPacks/URP_Tree_Pack/Models/URP_Tree_1/Materials/Trunk.mat",
+      "Assets/Art Resources/ThirdPartyPacks/URP_Tree_Pack/Models/URP_Tree_1/Materials/Leaf.mat"
+    ]
+  },
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/URP_Tree_Pack/Prefabs/Trees/Tree_TreePack_02.prefab",
+    "materials": [
+      "Assets/Art Resources/ThirdPartyPacks/URP_Tree_Pack/Models/URP_Tree_2/Materials/Trunk.mat",
+      "Assets/Art Resources/ThirdPartyPacks/URP_Tree_Pack/Models/URP_Tree_2/Materials/Leaf.mat"
+    ]
+  },
+  {
+    "path": "Assets/Art Resources/ThirdPartyPacks/URP_Tree_Pack/Prefabs/Trees/Tree_TreePack_03.prefab",
+    "materials": [
+      "Assets/Art Resources/ThirdPartyPacks/URP_Tree_Pack/Models/URP_Tree_3/Materials/Trunk.mat",
+      "Assets/Art Resources/ThirdPartyPacks/URP_Tree_Pack/Models/URP_Tree_3/Materials/Leaf.mat"
+    ]
+  }
+]

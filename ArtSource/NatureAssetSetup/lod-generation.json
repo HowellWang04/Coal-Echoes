@@ -1,0 +1,290 @@
+[
+  {
+    "name": "RockSlab_Gobi_02_LOD1",
+    "triangles": 4999,
+    "vertices": 3595,
+    "ratio": 0.5
+  },
+  {
+    "name": "RockSlab_Gobi_02_LOD2",
+    "triangles": 2000,
+    "vertices": 1776,
+    "ratio": 0.2
+  },
+  {
+    "name": "RockSlab_Gobi_02_LOD3",
+    "triangles": 600,
+    "vertices": 679,
+    "ratio": 0.06
+  },
+  {
+    "name": "RockSlab_Gobi_03_LOD1",
+    "triangles": 5018,
+    "vertices": 3126,
+    "ratio": 0.5
+  },
+  {
+    "name": "RockSlab_Gobi_03_LOD2",
+    "triangles": 2006,
+    "vertices": 1453,
+    "ratio": 0.2
+  },
+  {
+    "name": "RockSlab_Gobi_03_LOD3",
+    "triangles": 601,
+    "vertices": 530,
+    "ratio": 0.06
+  },
+  {
+    "name": "RockWall_Gobi_04_LOD1",
+    "triangles": 19855,
+    "vertices": 12325,
+    "ratio": 0.5
+  },
+  {
+    "name": "RockWall_Gobi_04_LOD2",
+    "triangles": 7942,
+    "vertices": 5653,
+    "ratio": 0.2
+  },
+  {
+    "name": "RockWall_Gobi_04_LOD3",
+    "triangles": 2382,
+    "vertices": 1997,
+    "ratio": 0.06
+  },
+  {
+    "name": "Rock_Gobi_05_LOD1",
+    "triangles": 11689,
+    "vertices": 7443,
+    "ratio": 0.5
+  },
+  {
+    "name": "Rock_Gobi_05_LOD2",
+    "triangles": 4675,
+    "vertices": 3442,
+    "ratio": 0.2
+  },
+  {
+    "name": "Rock_Gobi_05_LOD3",
+    "triangles": 1402,
+    "vertices": 1238,
+    "ratio": 0.06
+  },
+  {
+    "name": "Rock_Gobi_06_LOD1",
+    "triangles": 14151,
+    "vertices": 9185,
+    "ratio": 0.5
+  },
+  {
+    "name": "Rock_Gobi_06_LOD2",
+    "triangles": 5660,
+    "vertices": 4284,
+    "ratio": 0.2
+  },
+  {
+    "name": "Rock_Gobi_06_LOD3",
+    "triangles": 1697,
+    "vertices": 1539,
+    "ratio": 0.06
+  },
+  {
+    "name": "RockFormation_Gobi_07_LOD1",
+    "triangles": 12580,
+    "vertices": 7900,
+    "ratio": 0.5
+  },
+  {
+    "name": "RockFormation_Gobi_07_LOD2",
+    "triangles": 5031,
+    "vertices": 3647,
+    "ratio": 0.2
+  },
+  {
+    "name": "RockFormation_Gobi_07_LOD3",
+    "triangles": 1509,
+    "vertices": 1332,
+    "ratio": 0.06
+  },
+  {
+    "name": "Rock_Gobi_08_LOD1",
+    "triangles": 7447,
+    "vertices": 4781,
+    "ratio": 0.5
+  },
+  {
+    "name": "Rock_Gobi_08_LOD2",
+    "triangles": 2978,
+    "vertices": 2211,
+    "ratio": 0.2
+  },
+  {
+    "name": "Rock_Gobi_08_LOD3",
+    "triangles": 893,
+    "vertices": 784,
+    "ratio": 0.06
+  },
+  {
+    "name": "Rock_Gobi_09_LOD1",
+    "triangles": 9437,
+    "vertices": 6189,
+    "ratio": 0.5
+  },
+  {
+    "name": "Rock_Gobi_09_LOD2",
+    "triangles": 3774,
+    "vertices": 2920,
+    "ratio": 0.2
+  },
+  {
+    "name": "Rock_Gobi_09_LOD3",
+    "triangles": 1131,
+    "vertices": 1071,
+    "ratio": 0.06
+  },
+  {
+    "name": "RockSlab_Gobi_10_LOD1",
+    "triangles": 5926,
+    "vertices": 3727,
+    "ratio": 0.5
+  },
+  {
+    "name": "RockSlab_Gobi_10_LOD2",
+    "triangles": 2370,
+    "vertices": 1726,
+    "ratio": 0.2
+  },
+  {
+    "name": "RockSlab_Gobi_10_LOD3",
+    "triangles": 711,
+    "vertices": 626,
+    "ratio": 0.06
+  },
+  {
+    "name": "Rock_Gobi_11_LOD1",
+    "triangles": 6932,
+    "vertices": 4736,
+    "ratio": 0.5
+  },
+  {
+    "name": "Rock_Gobi_11_LOD2",
+    "triangles": 2772,
+    "vertices": 2274,
+    "ratio": 0.2
+  },
+  {
+    "name": "Rock_Gobi_11_LOD3",
+    "triangles": 831,
+    "vertices": 831,
+    "ratio": 0.06
+  },
+  {
+    "name": "RockFormation_Gobi_12_LOD1",
+    "triangles": 20784,
+    "vertices": 11709,
+    "ratio": 0.5
+  },
+  {
+    "name": "RockFormation_Gobi_12_LOD2",
+    "triangles": 8313,
+    "vertices": 5316,
+    "ratio": 0.2
+  },
+  {
+    "name": "RockFormation_Gobi_12_LOD3",
+    "triangles": 2494,
+    "vertices": 1915,
+    "ratio": 0.06
+  },
+  {
+    "name": "Rock_Gobi_13_LOD1",
+    "triangles": 6179,
+    "vertices": 3708,
+    "ratio": 0.5
+  },
+  {
+    "name": "Rock_Gobi_13_LOD2",
+    "triangles": 2471,
+    "vertices": 1720,
+    "ratio": 0.2
+  },
+  {
+    "name": "Rock_Gobi_13_LOD3",
+    "triangles": 741,
+    "vertices": 623,
+    "ratio": 0.06
+  },
+  {
+    "name": "Rock_Gobi_14_LOD1",
+    "triangles": 9996,
+    "vertices": 6299,
+    "ratio": 0.5
+  },
+  {
+    "name": "Rock_Gobi_14_LOD2",
+    "triangles": 3997,
+    "vertices": 2920,
+    "ratio": 0.2
+  },
+  {
+    "name": "Rock_Gobi_14_LOD3",
+    "triangles": 1199,
+    "vertices": 1048,
+    "ratio": 0.06
+  },
+  {
+    "name": "Rock_Gobi_15_LOD1",
+    "triangles": 5771,
+    "vertices": 3829,
+    "ratio": 0.5
+  },
+  {
+    "name": "Rock_Gobi_15_LOD2",
+    "triangles": 2307,
+    "vertices": 1797,
+    "ratio": 0.2
+  },
+  {
+    "name": "Rock_Gobi_15_LOD3",
+    "triangles": 691,
+    "vertices": 653,
+    "ratio": 0.06
+  },
+  {
+    "name": "RockTall_Gobi_16_LOD1",
+    "triangles": 14947,
+    "vertices": 9302,
+    "ratio": 0.5
+  },
+  {
+    "name": "RockTall_Gobi_16_LOD2",
+    "triangles": 5978,
+    "vertices": 4249,
+    "ratio": 0.2
+  },
+  {
+    "name": "RockTall_Gobi_16_LOD3",
+    "triangles": 1793,
+    "vertices": 1516,
+    "ratio": 0.06
+  },
+  {
+    "name": "Rock_Gobi_17_LOD1",
+    "triangles": 5734,
+    "vertices": 3694,
+    "ratio": 0.5
+  },
+  {
+    "name": "Rock_Gobi_17_LOD2",
+    "triangles": 2292,
+    "vertices": 1762,
+    "ratio": 0.2
+  },
+  {
+    "name": "Rock_Gobi_17_LOD3",
+    "triangles": 688,
+    "vertices": 647,
+    "ratio": 0.06
+  }
+]

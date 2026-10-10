@@ -1,0 +1,30 @@
+var entries = Newtonsoft.Json.Linq.JArray.Parse(System.IO.File.ReadAllText("ArtSource/NatureAssetSetup/rename-plan.json"));
+var fixedPaths = new System.Collections.Generic.List<string>();
+foreach (var e in entries.Where(e => (string)e["pack"] == "RockyDesert")) {
+    var path = (string)e["newPath"];
+    var asset = AssetDatabase.LoadAssetAtPath<GameObject>(path);
+    if (asset.GetComponent<LODGroup>() == null) continue;
+    var root = PrefabUtility.LoadPrefabContents(path);
+    try {
+        var group = root.GetComponent<LODGroup>();
+        var levels = group.GetLODs();
+        for (var i = 0; i < levels.Length; i++) {
+            levels[i].renderers = levels[i].renderers.Where(r => r != null).ToArray();
+            if (levels[i].renderers.Length == 0) throw new System.Exception("Empty LOD " + path);
+        }
+        if ((string)e["name"] == "RockWall_Desert_01") {
+            var thresholds = new[] { .3f, .2f, .12f, .06f, 0f };
+            for (var i = 0; i < levels.Length; i++) levels[i].screenRelativeTransitionHeight = thresholds[i];
+        } else if ((bool)e["solid"]) {
+            levels[levels.Length - 1].screenRelativeTransitionHeight = 0f;
+        } else if ((string)e["name"] == "Pebble_Desert_02") {
+            levels[levels.Length - 1].screenRelativeTransitionHeight = .005f;
+        }
+        group.SetLODs(levels);
+        group.RecalculateBounds();
+        bool success; PrefabUtility.SaveAsPrefabAsset(root, path, out success);
+        if (!success) throw new System.Exception("Save failed " + path);
+        fixedPaths.Add(path);
+    } finally { PrefabUtility.UnloadPrefabContents(root); }
+}
+return new { count = fixedPaths.Count };

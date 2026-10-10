@@ -1,0 +1,38 @@
+var names = new[] { "RockWall_Gobi_04", "RockFormation_Gobi_07", "RockFormation_Gobi_12", "RockTall_Gobi_16", "Rock_Gobi_11", "RockSlab_Gobi_03" };
+var entries = Newtonsoft.Json.Linq.JArray.Parse(System.IO.File.ReadAllText("ArtSource/NatureAssetSetup/rename-plan.json"));
+var sheet = new Texture2D(768, 384 * names.Length, TextureFormat.RGB24, false);
+for (int row = 0; row < names.Length; row++) {
+    var e = entries.First(e => (string)e["name"] == names[row]);
+    for (int col = 0; col < 2; col++) {
+        var preview = new PreviewRenderUtility();
+        try {
+            preview.BeginStaticPreview(new Rect(0, 0, 384, 384));
+            var prefab = AssetDatabase.LoadAssetAtPath<GameObject>((string)e["newPath"]);
+            var root = preview.InstantiatePrefabInScene(prefab);
+            var group = root.GetComponent<LODGroup>();
+            group.ForceLOD(col == 0 ? 0 : 3);
+            var b = root.GetComponent<Renderer>().bounds;
+            var camera = preview.camera;
+            camera.clearFlags = CameraClearFlags.Color;
+            camera.backgroundColor = new Color(.2f, .2f, .2f, 1);
+            camera.orthographic = true;
+            camera.orthographicSize = b.extents.magnitude * .85f;
+            camera.nearClipPlane = .01f; camera.farClipPlane = 1000f;
+            camera.transform.position = b.center + new Vector3(-1, .65f, 1).normalized * b.size.magnitude * 2;
+            camera.transform.LookAt(b.center);
+            preview.lights[0].intensity = 5;
+            preview.lights[0].transform.rotation = Quaternion.Euler(40, -140, 0);
+            preview.lights[1].intensity = 3;
+            preview.lights[1].transform.rotation = Quaternion.Euler(340, 40, 0);
+            preview.ambientColor = new Color(.5f, .5f, .5f, 1);
+            preview.Render(true);
+            var texture = preview.EndStaticPreview();
+            sheet.SetPixels(col * 384, (names.Length - row - 1) * 384, 384, 384, texture.GetPixels());
+            UnityEngine.Object.DestroyImmediate(texture);
+        } finally { preview.Cleanup(); }
+    }
+}
+sheet.Apply();
+System.IO.File.WriteAllBytes("ArtSource/NatureAssetSetup/lod-comparison.png", sheet.EncodeToPNG());
+UnityEngine.Object.DestroyImmediate(sheet);
+return new { rows = names, columns = new[] { "LOD0", "LOD3" } };
