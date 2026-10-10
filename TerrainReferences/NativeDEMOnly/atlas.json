@@ -1,0 +1,32 @@
+{
+  "offset": [
+    -2031.25,
+    -3031.25
+  ],
+  "size": 6062.5,
+  "base_y": -710,
+  "height_range": 1100,
+  "atlases": [
+    {
+      "lod": "Main",
+      "resolution": 6209,
+      "spacing_m": 0.9765625,
+      "world_range_m": [
+        -575.4526977539062,
+        298.5255126953125
+      ]
+    },
+    {
+      "lod": "Draft",
+      "resolution": 777,
+      "spacing_m": 7.8125,
+      "world_range_m": [
+        -573.7933959960938,
+        297.9332275390625
+      ]
+    }
+  ],
+  "terrain_count": 58,
+  "core_world_height_tolerance_m": 0.02,
+  "discarded_invalid_weight_max": 3.1340130135504296e-07
+}

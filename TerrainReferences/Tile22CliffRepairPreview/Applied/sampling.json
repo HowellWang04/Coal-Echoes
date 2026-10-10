@@ -1,0 +1,292 @@
+[
+  {
+    "name": "Tile_0_-2_Main",
+    "min": -3.02679837E-08,
+    "max": 1.86264515E-07
+  },
+  {
+    "name": "Tile_0_-2_Draft",
+    "min": -2.514571E-08,
+    "max": 1.86264515E-07
+  },
+  {
+    "name": "Tile_0_-1_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_-1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_1_-2_Main",
+    "min": 0.0,
+    "max": 1.001358E-05
+  },
+  {
+    "name": "Tile_1_-2_Draft",
+    "min": 0.0,
+    "max": 1.001358E-05
+  },
+  {
+    "name": "Tile_1_-1_Main",
+    "min": 0.0,
+    "max": 0.000174954534
+  },
+  {
+    "name": "Tile_1_-1_Draft",
+    "min": 0.0,
+    "max": 0.000174954534
+  },
+  {
+    "name": "Tile_1_0_Main",
+    "min": 0.0,
+    "max": 0.001042664
+  },
+  {
+    "name": "Tile_1_0_Draft",
+    "min": 0.0,
+    "max": 0.001042664
+  },
+  {
+    "name": "Tile_2_-2_Main",
+    "min": -1.48429535E-08,
+    "max": 9.156764E-06
+  },
+  {
+    "name": "Tile_2_-2_Draft",
+    "min": -8.210918E-09,
+    "max": 9.156764E-06
+  },
+  {
+    "name": "Tile_2_-1_Main",
+    "min": -1.49011612E-08,
+    "max": 0.000178314745
+  },
+  {
+    "name": "Tile_2_-1_Draft",
+    "min": -8.20728E-09,
+    "max": 0.000178314745
+  },
+  {
+    "name": "Tile_2_0_Main",
+    "min": 0.0,
+    "max": 0.0014393311
+  },
+  {
+    "name": "Tile_2_0_Draft",
+    "min": 0.0,
+    "max": 0.00143929385
+  },
+  {
+    "name": "Tile_3_0_Draft",
+    "min": 0.0,
+    "max": 0.000424072146
+  },
+  {
+    "name": "Tile_1_1_Draft",
+    "min": 0.0,
+    "max": 0.00153582543
+  },
+  {
+    "name": "Tile_1_1_Main",
+    "min": 0.0,
+    "max": 0.00153582543
+  },
+  {
+    "name": "Tile_2_1_Draft",
+    "min": -0.0239136331,
+    "max": 0.0165401846
+  },
+  {
+    "name": "Tile_2_1_Main",
+    "min": -0.0239136331,
+    "max": 0.0165411085
+  },
+  {
+    "name": "Tile_3_1_Draft",
+    "min": -0.05135098,
+    "max": 0.0142320618
+  },
+  {
+    "name": "Tile_-1_-2_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_-2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_-1_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_-1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_0_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-1_0_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_-3_Draft",
+    "min": -6.053597E-08,
+    "max": 1.82539225E-07
+  },
+  {
+    "name": "Tile_1_-3_Draft",
+    "min": -5.54136932E-08,
+    "max": 7.636845E-07
+  },
+  {
+    "name": "Tile_2_-3_Draft",
+    "min": 0.0,
+    "max": 7.636845E-07
+  },
+  {
+    "name": "Tile_3_-1_Draft",
+    "min": -1.071021E-08,
+    "max": 6.80983067E-06
+  },
+  {
+    "name": "Tile_-1_-3_Draft",
+    "min": -5.86733222E-08,
+    "max": 5.91389835E-08
+  },
+  {
+    "name": "Tile_-2_1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_0_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_-1_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_-2_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_-3_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_1_Draft",
+    "min": 0.0,
+    "max": 9.021163E-05
+  },
+  {
+    "name": "Tile_0_1_Main",
+    "min": 0.0,
+    "max": 9.021163E-05
+  },
+  {
+    "name": "Tile_-1_1_Draft",
+    "min": 0.0,
+    "max": 8.940697E-06
+  },
+  {
+    "name": "Tile_-1_1_Main",
+    "min": 0.0,
+    "max": 8.940697E-06
+  },
+  {
+    "name": "Tile_3_-2_Draft",
+    "min": -4.47034836E-08,
+    "max": 2.16066837E-07
+  },
+  {
+    "name": "Tile_3_-3_Draft",
+    "min": 0.0,
+    "max": 1.2665987E-07
+  },
+  {
+    "name": "Tile_0_0_Main",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_0_0_Draft",
+    "min": 0.0,
+    "max": 0.0
+  },
+  {
+    "name": "Tile_-2_2_Draft",
+    "min": 0.0,
+    "max": 2.83122063E-07
+  },
+  {
+    "name": "Tile_-2_2_Main",
+    "min": 0.0,
+    "max": 2.86847353E-07
+  },
+  {
+    "name": "Tile_-1_2_Draft",
+    "min": 0.0,
+    "max": 1.72257423E-05
+  },
+  {
+    "name": "Tile_-1_2_Main",
+    "min": 0.0,
+    "max": 1.72257423E-05
+  },
+  {
+    "name": "Tile_0_2_Draft",
+    "min": 0.0,
+    "max": 0.000233091414
+  },
+  {
+    "name": "Tile_0_2_Main",
+    "min": 0.0,
+    "max": 0.000233091414
+  },
+  {
+    "name": "Tile_1_2_Draft",
+    "min": -6.67557742E-09,
+    "max": 0.0127070621
+  },
+  {
+    "name": "Tile_1_2_Main",
+    "min": -7.388053E-09,
+    "max": 0.0127074551
+  },
+  {
+    "name": "Tile_2_2_Draft",
+    "min": -0.07023996,
+    "max": 0.0522317663
+  },
+  {
+    "name": "Tile_2_2_Main",
+    "min": -0.07154927,
+    "max": 0.053357
+  },
+  {
+    "name": "Tile_3_2_Draft",
+    "min": -0.0575134046,
+    "max": 0.015000917
+  },
+  {
+    "name": "Tile_3_2_Main",
+    "min": -0.0578569248,
+    "max": 0.0150102973
+  }
+]

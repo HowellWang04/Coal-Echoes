@@ -1,0 +1,240 @@
+{
+  "terrains": [
+    {
+      "name": "Tile_0_-2_Main",
+      "heightHash": "13cb7a9aad28d34f4b5f2262adedb2eee389590de77901d948c5cab563a268b4"
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "heightHash": "4b451b672ce957631087789f1c239d44dcb458a75775a060179f3b345017211c"
+    },
+    {
+      "name": "Tile_0_-1_Main",
+      "heightHash": "c733fd77ea2dfec8fb9ffd4d94334d7480236b93437c1275d96aa2f7a0d7f0b6"
+    },
+    {
+      "name": "Tile_0_-1_Draft",
+      "heightHash": "d652e7163ff9027e4249cc125c55daba9404c3c64c60edb988bb71a455b81652"
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "heightHash": "0b2bd90d2238ef0483d162e0cc10e7400be6bcb533437692177ba5b26b107ad8"
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "heightHash": "930e6ceeed04436e95d73bc1081de1757f1d929e2b7ed8e424a7d72121b0d28d"
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "heightHash": "57c3a147d0d1dcefed1f6df89f873cb3c363dd9d83c7569b5f45b835f003aaa0"
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "heightHash": "d3e1207ac7a91ac3dace36082132059713c6fb860c303a24de6bed5a88c60872"
+    },
+    {
+      "name": "Tile_1_0_Main",
+      "heightHash": "2e662e3e6b75d268051887203ca2df4dafc6a267d51f3aa2105a926cb14c10c3"
+    },
+    {
+      "name": "Tile_1_0_Draft",
+      "heightHash": "ae2475193087b756be4a8ca825771b288ae34b807912c07a74af4c5f257054fe"
+    },
+    {
+      "name": "Tile_2_-2_Main",
+      "heightHash": "0c2a5b1be57b51d80c87b643f1b99a8669a020ead0a38e2779693984086bbbd3"
+    },
+    {
+      "name": "Tile_2_-2_Draft",
+      "heightHash": "29f79e01e2b0709eef5a76478f87961a4ba0c6da7b825f645c270842c6cb9382"
+    },
+    {
+      "name": "Tile_2_-1_Main",
+      "heightHash": "ac3381132d8fc956e872e2cecc8664a529a5938275263de935ce11e35409d422"
+    },
+    {
+      "name": "Tile_2_-1_Draft",
+      "heightHash": "01594934adbfcc59e6e167b19a41a66099767d67103ee70e3e0579115e1bcaeb"
+    },
+    {
+      "name": "Tile_2_0_Main",
+      "heightHash": "a9e278618a49f4dd5553948f6fbcb903dee9436188f8bb28fff175d82ea37a8a"
+    },
+    {
+      "name": "Tile_2_0_Draft",
+      "heightHash": "90f8676875bfe3cd3f180b6c26ffd088a648f90d57964790641d3844974a757e"
+    },
+    {
+      "name": "Tile_3_0_Draft",
+      "heightHash": "ab43e0b51401a404d596bf2e2a2a13f4abf442693fc556066509418da4c36bce"
+    },
+    {
+      "name": "Tile_1_1_Draft",
+      "heightHash": "dccb4e7b40107250f56cc1f1b48745ace8f78f182caffcaaac97987596e0f2f4"
+    },
+    {
+      "name": "Tile_1_1_Main",
+      "heightHash": "dbf1de14b1f14cba0c1f60b3f953224fd050f25bb133090aede691c53903df84"
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "heightHash": "84e243cafd1ad268123e5202f6b71f4396303ef09cfcb77e8911104d629d7eb9"
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "heightHash": "86402e8b778ed8e17731aefff55710e7b8990499e6b9621a1fcc11eefbec1617"
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "heightHash": "526a325c617c7c4cc3c038b466871ed054755358b7d4c8bf350f5c58e8590ba8"
+    },
+    {
+      "name": "Tile_-1_-2_Main",
+      "heightHash": "0c82f2c353def7c189afd6f960c3da5ead37a978949b9494f3c9a8f52ce7210b"
+    },
+    {
+      "name": "Tile_-1_-2_Draft",
+      "heightHash": "809cf1541c5917876305bd1ce79e5bcca8a9fa508900ec14451638d9ce6c0e70"
+    },
+    {
+      "name": "Tile_-1_-1_Main",
+      "heightHash": "31e9731ddac1bbb2b582abfdf24d965b3ea9989d8c88bf627dae89c03862f97e"
+    },
+    {
+      "name": "Tile_-1_-1_Draft",
+      "heightHash": "2d78d747226f8ade80e1978063b3b3b8741ab9c961ddf216994db15f52f00ec8"
+    },
+    {
+      "name": "Tile_-1_0_Main",
+      "heightHash": "b306722a3f5f51d9b4cb867dc301e7afcce10921ddf0094df3b77003e3bd980b"
+    },
+    {
+      "name": "Tile_-1_0_Draft",
+      "heightHash": "2a0ce4044b7e34f117a8e7273a153ba7b020d46e400f6460dac151e6a7bd9b86"
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "heightHash": "44c069acbbf3c1239a07c9051104d578223625d545e9af94008bad2055d017cc"
+    },
+    {
+      "name": "Tile_1_-3_Draft",
+      "heightHash": "e2aa73d93b0f1fb784dfb9430cbc18d1934dd4f30b1a386d06e69b12a063e5f7"
+    },
+    {
+      "name": "Tile_2_-3_Draft",
+      "heightHash": "382708a3610df31b8261e045da66c9a0203e52d9e3dbc2b7f4c294e44461a13d"
+    },
+    {
+      "name": "Tile_3_-1_Draft",
+      "heightHash": "59214f286d7102c9e7bc28b813ba32a73d61cd4ca6b9a39ff8b8fb30b94a23e2"
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "heightHash": "be1dc6640c696cee60e563acb23f0e875929ff628d18cacfb902e1262143e46e"
+    },
+    {
+      "name": "Tile_-2_1_Draft",
+      "heightHash": "1c9c251cfd7b294852b778d2e15a15c418f48b9d47cec4233453276a43b3f6e8"
+    },
+    {
+      "name": "Tile_-2_0_Draft",
+      "heightHash": "3892ac180f15f55eb919763ebdd866d1a7a268c1717cfe416667d3a466a9f479"
+    },
+    {
+      "name": "Tile_-2_-1_Draft",
+      "heightHash": "c97645182100e8ff9c200bcae9653687170b5aa0012c781db8615def94c80e29"
+    },
+    {
+      "name": "Tile_-2_-2_Draft",
+      "heightHash": "6c66e51805f36cf6f91367e4ba783f36a873c31bdd9dccbb1a6bfd56d7c26183"
+    },
+    {
+      "name": "Tile_-2_-3_Draft",
+      "heightHash": "008b79f0b454904fc44a73bdcb32e33d366e602af41f82365f7e0ff63dd99a7b"
+    },
+    {
+      "name": "Tile_0_1_Draft",
+      "heightHash": "ba5d2af76df17e0e7dc7196fc5ebbd6d53019fae75ceef79dc037d39cc9acfb5"
+    },
+    {
+      "name": "Tile_0_1_Main",
+      "heightHash": "4e40435e4a234d8e1121811da799a0d5fd735463725d2885a5d9885d05e96f1c"
+    },
+    {
+      "name": "Tile_-1_1_Draft",
+      "heightHash": "3f9ee4c04cf53b540b0d295a02d411839ecf5c3727fcc25b494a8442e1b5a113"
+    },
+    {
+      "name": "Tile_-1_1_Main",
+      "heightHash": "1ace801dc3551634267b05e7bc11d8dcb80f5e70b6daca3a61d31e033e9137d6"
+    },
+    {
+      "name": "Tile_3_-2_Draft",
+      "heightHash": "c4f5b834c6d10b98c70f13e2f96cc0d80670658b817945a597ac648c7d7a3d53"
+    },
+    {
+      "name": "Tile_3_-3_Draft",
+      "heightHash": "7d344324b6837729000832614ed8b8ff12352a6e2d15f8b0012835df48562a31"
+    },
+    {
+      "name": "Tile_0_0_Main",
+      "heightHash": "72e625fb9703ef1a140176d86871f9e53e2684c610a070c8776b13a13bd03328"
+    },
+    {
+      "name": "Tile_0_0_Draft",
+      "heightHash": "730e806e2caf6fbc5fa9979f32a2050af7487825aa0ecf044ee625e341d9b4b1"
+    },
+    {
+      "name": "Tile_-2_2_Draft",
+      "heightHash": "2313b422f7be7bdcf6cb5e2f3bd69e5464a7dbbc02bec7e0d29bf8e6841bc053"
+    },
+    {
+      "name": "Tile_-2_2_Main",
+      "heightHash": "d9d1b6f5d340d422dd4088cd09ff151a185d0df5810edbf25ff9c0c4bec5069f"
+    },
+    {
+      "name": "Tile_-1_2_Draft",
+      "heightHash": "193228528abdb96f40aa415b845f5d364d51818cb1763858660bf8ecfebfe2c3"
+    },
+    {
+      "name": "Tile_-1_2_Main",
+      "heightHash": "29d5c17e61998c03c2a3b78daafd70bcccd34c5c79c9f93b1baecf1da7763b13"
+    },
+    {
+      "name": "Tile_0_2_Draft",
+      "heightHash": "2d200b867d0a470182092bd6ae1cdd729e3a377629434271f831b1a30e50d182"
+    },
+    {
+      "name": "Tile_0_2_Main",
+      "heightHash": "44f444f48b2275fb2053b1fa9d039dde70c19cf63c6a2d8f4629f90430b1b308"
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "heightHash": "ee192d4ce749abfe7ab26ef94cf9c8d0def1957eaddeb739267083c441fbc821"
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "heightHash": "47ac402cab6a8b6c7d2100d4c6b9798ab820ddf9952fa3f8cf821dc6210afe8e"
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "heightHash": "b7ccf57ae275116b4139d6386c4b61158ef3c2aaad532ddb50ff00ab2770e1c7"
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "heightHash": "611468c82249f2a850da84894d6ca1811f17c85c174994c9bb38b4d088cb0cd0"
+    },
+    {
+      "name": "Tile_3_2_Draft",
+      "heightHash": "832bb1d5131480b962fd81b2b70f4d8302c642889fc93ebd5aa371e378bea38b"
+    },
+    {
+      "name": "Tile_3_2_Main",
+      "heightHash": "0c31ba34f4f884b536e62d986d675e669258e5eb19dd929532d43e937d307985"
+    }
+  ],
+  "transformsUnchanged": true,
+  "locks": "[{\"locked\":false,\"guiName\":\"Factory transition\",\"relativeHeight\":false,\"worldRadius\":197.0,\"worldTransition\":30.0,\"p\":[1582.0,710.0,-190.000061]},{\"locked\":false,\"guiName\":\"Cableway branch ridge\",\"relativeHeight\":false,\"worldRadius\":280.0,\"worldTransition\":30.0,\"p\":[1059.0,710.0,-233.38678]},{\"locked\":false,\"guiName\":\"Cableway upper ridge\",\"relativeHeight\":false,\"worldRadius\":365.0,\"worldTransition\":30.0,\"p\":[652.0,710.0,-673.000061]},{\"locked\":false,\"guiName\":\"Cableway footing 02\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1356.84558,710.0,-198.257141]},{\"locked\":false,\"guiName\":\"Cableway footing 03\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1276.41589,710.0,-213.7597]},{\"locked\":false,\"guiName\":\"Cableway footing 04\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1155.41479,710.0,-236.377991]},{\"locked\":false,\"guiName\":\"Cableway footing 05\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[1072.47339,710.0,-233.9234]},{\"locked\":false,\"guiName\":\"Cableway footing 06\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[825.8965,710.0,-263.1629]},{\"locked\":false,\"guiName\":\"Cableway footing 07\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[821.4392,710.0,-410.043518]},{\"locked\":false,\"guiName\":\"Cableway footing 08\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[729.7014,710.0,-547.150452]},{\"locked\":false,\"guiName\":\"Cableway footing 09\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[697.2793,710.0,-720.293762]},{\"locked\":false,\"guiName\":\"Cableway footing 10\",\"relativeHeight\":false,\"worldRadius\":18.0,\"worldTransition\":30.0,\"p\":[647.162354,710.0,-875.992737]},{\"locked\":false,\"guiName\":\"Sheep Range factory\",\"relativeHeight\":false,\"worldRadius\":335.0,\"worldTransition\":40.0,\"p\":[2212.5,710.0,-1205.0]},{\"locked\":false,\"guiName\":\"Sheep Range footing 03\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1771.62964,710.0,-1047.47241]},{\"locked\":false,\"guiName\":\"Sheep Range footing 04\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1578.44446,710.0,-995.708557]},{\"locked\":false,\"guiName\":\"Sheep Range footing 05\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1385.25928,710.0,-943.944763]},{\"locked\":false,\"guiName\":\"Sheep Range footing 06\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[1192.07422,710.0,-892.180969]},{\"locked\":false,\"guiName\":\"Sheep Range footing 07\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[998.889038,710.0,-840.4172]},{\"locked\":false,\"guiName\":\"Sheep Range footing 08\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[805.703857,710.0,-788.6534]},{\"locked\":false,\"guiName\":\"Sheep Range footing 09\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[612.518555,710.0,-736.8896]},{\"locked\":false,\"guiName\":\"Sheep Range footing 10\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[419.3335,710.0,-685.1257]},{\"locked\":true,\"guiName\":\"Ridge factory\",\"relativeHeight\":false,\"worldRadius\":335.0,\"worldTransition\":40.0,\"p\":[-2000.0,-474.361755,-1650.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_01\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2426.041,710.0,-1941.99292]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_10\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2750.0,710.0,-915.000061]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_02\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2452.73975,710.0,-1856.044]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_09\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2700.0,710.0,-1019.99982]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_03\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2481.59814,710.0,-1763.14111]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_08\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2670.0,710.0,-1120.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_04\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2504.668,710.0,-1599.12524]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_05\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2520.0,710.0,-1480.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_06\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2615.0,710.0,-1360.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_07\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2670.0,710.0,-1240.0]},{\"locked\":false,\"guiName\":\"CablewayTowerFooting_11\",\"relativeHeight\":false,\"worldRadius\":14.0,\"worldTransition\":22.0,\"p\":[-2768.246,710.0,-815.962952]}]",
+  "auto": true,
+  "generating": false
+}

@@ -1,0 +1,361 @@
+{
+  "phase": "Prepared",
+  "terrains": 58,
+  "main_core_error_max_m": 5.9604644775390625e-05,
+  "draft_core_realign_max_m": 13.886383175849915,
+  "height_quantization_error_max_m": 0.0,
+  "seam_pairs": 93,
+  "seam_gap_max_m": 0.0,
+  "lod_pairs": 22,
+  "lod_common_sample_gap_max_m": 0.0,
+  "rows": [
+    {
+      "name": "Tile_0_-2_Main",
+      "core_error_m": 2.9802322387695312e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 416752
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "core_error_m": 3.8149356842041016,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16392
+    },
+    {
+      "name": "Tile_0_-1_Main",
+      "core_error_m": 4.32133674621582e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 0
+    },
+    {
+      "name": "Tile_0_-1_Draft",
+      "core_error_m": 13.886383175849915,
+      "quantization_error_m": 0.0,
+      "changed_samples": 13863
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "core_error_m": 4.32133674621582e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 934441
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "core_error_m": 1.129220426082611,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16520
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "core_error_m": 4.470348358154297e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 680346
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "core_error_m": 4.883085191249847,
+      "quantization_error_m": 0.0,
+      "changed_samples": 15446
+    },
+    {
+      "name": "Tile_1_0_Main",
+      "core_error_m": 4.470348358154297e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 841964
+    },
+    {
+      "name": "Tile_1_0_Draft",
+      "core_error_m": 5.7681456208229065,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16539
+    },
+    {
+      "name": "Tile_2_-2_Main",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 1050625
+    },
+    {
+      "name": "Tile_2_-2_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16641
+    },
+    {
+      "name": "Tile_2_-1_Main",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 693899
+    },
+    {
+      "name": "Tile_2_-1_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 11050
+    },
+    {
+      "name": "Tile_2_0_Main",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 1023753
+    },
+    {
+      "name": "Tile_2_0_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16227
+    },
+    {
+      "name": "Tile_3_0_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16099
+    },
+    {
+      "name": "Tile_1_1_Draft",
+      "core_error_m": 0.4578098654747009,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16634
+    },
+    {
+      "name": "Tile_1_1_Main",
+      "core_error_m": 1.9371509552001953e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 1048742
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16574
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 1045710
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16587
+    },
+    {
+      "name": "Tile_-1_-2_Main",
+      "core_error_m": 5.9604644775390625e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 395217
+    },
+    {
+      "name": "Tile_-1_-2_Draft",
+      "core_error_m": 4.577937722206116,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16444
+    },
+    {
+      "name": "Tile_-1_-1_Main",
+      "core_error_m": 5.9604644775390625e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 0
+    },
+    {
+      "name": "Tile_-1_-1_Draft",
+      "core_error_m": 4.0590643882751465,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16316
+    },
+    {
+      "name": "Tile_-1_0_Main",
+      "core_error_m": 5.9604644775390625e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 0
+    },
+    {
+      "name": "Tile_-1_0_Draft",
+      "core_error_m": 6.317499279975891,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16327
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16132
+    },
+    {
+      "name": "Tile_1_-3_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 15405
+    },
+    {
+      "name": "Tile_2_-3_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16641
+    },
+    {
+      "name": "Tile_3_-1_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 14291
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16638
+    },
+    {
+      "name": "Tile_-2_1_Draft",
+      "core_error_m": 3.6928892135620117,
+      "quantization_error_m": 0.0,
+      "changed_samples": 13009
+    },
+    {
+      "name": "Tile_-2_0_Draft",
+      "core_error_m": 0.8545577526092529,
+      "quantization_error_m": 0.0,
+      "changed_samples": 10330
+    },
+    {
+      "name": "Tile_-2_-1_Draft",
+      "core_error_m": 0.762939453125,
+      "quantization_error_m": 0.0,
+      "changed_samples": 9307
+    },
+    {
+      "name": "Tile_-2_-2_Draft",
+      "core_error_m": 1.647999882698059,
+      "quantization_error_m": 0.0,
+      "changed_samples": 12709
+    },
+    {
+      "name": "Tile_-2_-3_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16637
+    },
+    {
+      "name": "Tile_0_1_Draft",
+      "core_error_m": 5.12726902961731,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16271
+    },
+    {
+      "name": "Tile_0_1_Main",
+      "core_error_m": 4.470348358154297e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 400764
+    },
+    {
+      "name": "Tile_-1_1_Draft",
+      "core_error_m": 8.179163932800293,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16442
+    },
+    {
+      "name": "Tile_-1_1_Main",
+      "core_error_m": 5.9604644775390625e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 167602
+    },
+    {
+      "name": "Tile_3_-2_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16641
+    },
+    {
+      "name": "Tile_3_-3_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16641
+    },
+    {
+      "name": "Tile_0_0_Main",
+      "core_error_m": 5.9604644775390625e-05,
+      "quantization_error_m": 0.0,
+      "changed_samples": 0
+    },
+    {
+      "name": "Tile_0_0_Draft",
+      "core_error_m": 8.362320065498352,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16303
+    },
+    {
+      "name": "Tile_-2_2_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16641
+    },
+    {
+      "name": "Tile_-2_2_Main",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 1050558
+    },
+    {
+      "name": "Tile_-1_2_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16640
+    },
+    {
+      "name": "Tile_-1_2_Main",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 1050518
+    },
+    {
+      "name": "Tile_0_2_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16641
+    },
+    {
+      "name": "Tile_0_2_Main",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 1050624
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16621
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 1050449
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16641
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 1050619
+    },
+    {
+      "name": "Tile_3_2_Draft",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 16641
+    },
+    {
+      "name": "Tile_3_2_Main",
+      "core_error_m": 0.0,
+      "quantization_error_m": 0.0,
+      "changed_samples": 1050625
+    }
+  ]
+}

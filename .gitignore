@@ -65,6 +65,16 @@ TerrainReferences/**/Before/
 TerrainReferences/**/bin/
 TerrainReferences/**/plot-cache/
 TerrainReferences/**/__pycache__/
+TerrainReferences/**/transforms-*.json
+TerrainReferences/**/scene-view*.json
+TerrainReferences/**/view-before-comparison.json
+TerrainReferences/**/paint_*.json
+TerrainReferences/**/verification.log
+TerrainReferences/**/preparation.log
+TerrainReferences/NativeDEMOnly/unity_after.png
+TerrainReferences/NativeDEMOnly/unity_overview.png
+TerrainReferences/NorthMountainLowering200/unity_*.png
+TerrainReferences/NorthMountainLowering200/north_fixed_camera_after.png
 
 # Large third-party packs kept only on the local machine (too big for LFS quota)
 /Assets/Art Resources/ThirdPartyPacks/RocksGobi/
