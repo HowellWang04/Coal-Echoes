@@ -22,11 +22,9 @@
 
 ## 场景与美术
 
-* [ ] 确认并局部应用 Tile 2,2 的离线断层修复候选，同步局部材质、Main 与 Draft 缓存及热浪，再重做北侧降山候选，见 `TerrainReferences/Tile22CliffRepairPreview/README.md`
-
 * [ ] 清理同批 11 个旧塔脚的纯沙土圆形材质残留，只按现有高度更新局部材质及 Main、Draft 缓存，见 `TerrainReferences/PeripheralMountainsPreview/Diagnosis/Circle2/README.md`
 
-* [ ] 在 Play Mode 验收已应用的全图外围 800 米过渡，检查北侧、东侧和南侧山脚、贴图及 LOD 切换，并单独处理原有 Draft 接缝，见 `TerrainReferences/WholeMapGradient800/README.md`
+* [ ] 在 Play Mode 验收实测高度图覆盖至地图边界后的山形、北侧降山、800 米接合带、材质及 LOD 切换，见 `TerrainReferences/NativeDEMOnly/README.md`
 
 - [ ] 按[第一关美术配置](art-assets.md)补齐铁链、断线钳及回响取景提示，核对大门、围墙、门卫室和街道照片的配置
 - [ ] 山脚站棚局部埋进坡里，需要整平
@@ -38,8 +36,6 @@
 ## 等用户在 Play Mode 里确认
 
 * [ ] 圈 2 旧厂区矩形材质印迹的修复效果与 Main、Draft 切换，见 `TerrainReferences/PeripheralMountainsPreview/Diagnosis/Circle2/README.md`
-
-* [ ] 外围山体围合、预留出山通道遮挡及 Main 与 Draft 切换观感，留意原有 Draft 接缝差异，见 `TerrainReferences/PeripheralMountainsPreview/Applied/README.md`
 
 - [ ] 厂区建筑和物品贴地效果，高坡侧埋入后的门窗遮挡与通行
 - [ ] 索道吊斗运行、山顶终点站

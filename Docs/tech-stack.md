@@ -17,16 +17,16 @@
 
 ## 地形与场景
 
-* MapMagic 生成地形。USGS Sheep Range 1 米 DEM 按实际尺度导入。
+* MapMagic 管理固定地块与 LOD。高度读取 USGS Sheep Range DEM 拼接结果，禁用噪声、侵蚀高度分支及无限扩展。
 * Gradient Terrain Authoring 重建过渡。C++ 与 OpenGL 执行离线求解，Python 处理数据、精化求解并验证结果。
-* C# 节点 `TerrainHeightDelta` 将高度差接入 MapMagic。地形输出与坡度材质使用同一高度源。
+* C# 节点 `TerrainHeightSource` 读取实测高度与 800 米过渡的离线结果。地形输出与坡度材质使用同一高度源。
 * `MapMagicTerrainTextureSync` 在编辑器内按最终高度同步局部材质。
 * Terrain Tools 5.3.2 用于地形编辑。
 * 场景素材采用 Industrial Harbour、RocksGobi、Lands、RockyDesert。
 
 仅允许局部修改地形。高度修改后，必须同步 Main 与 Draft 的材质及边缘缓存，刷新热浪并保存场景。
 
-接入与操作见[地形应用记录](../TerrainReferences/WholeMapGradient800/README.md)和[材质同步说明](../TerrainReferences/TerrainTextureSync/README.md)。
+接入与操作见[实测地形应用记录](../TerrainReferences/NativeDEMOnly/README.md)和[材质同步说明](../TerrainReferences/TerrainTextureSync/README.md)。
 
 ## 美术工具
 
