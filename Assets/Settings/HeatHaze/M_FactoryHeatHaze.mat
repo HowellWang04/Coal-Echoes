@@ -37,6 +37,6 @@ Material:
     - _Speed: 1.749
     - _StartDistance: 20
     m_Colors:
-    - _Area: {r: -2294.4412, g: -1828.7979, b: 360, a: 350}
+    - _Area: {r: -2294.4412, g: -1828.7979, b: 400, a: 350}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

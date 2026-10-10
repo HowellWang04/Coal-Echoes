@@ -1,0 +1,8918 @@
+[
+  {
+    "id": -155402,
+    "name": "WorkersDormitory",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": 82986,
+    "name": "SM_ConcreteHouse_Pack_2_C_9",
+    "supports": [
+      {
+        "id": 102408,
+        "name": "SM_ConcreteHouse_Pack_2_C_10",
+        "hits": 1,
+        "gap": -0.07871705
+      }
+    ],
+    "nearbyBuildings": [
+      102408,
+      83382
+    ]
+  },
+  {
+    "id": 101652,
+    "name": "SM_ConcreteHouse_Pack_2_C_7",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 102584,
+    "name": "SM_ConcreteHouse_Pack_2_C_4",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": 83374,
+    "name": "SM_ConcreteHouse_Pack_2_C_2",
+    "supports": [],
+    "nearbyBuildings": [
+      -155402
+    ]
+  },
+  {
+    "id": 82842,
+    "name": "SM_ConcreteHouse_Pack_2_C_14",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 101270,
+    "name": "SM_ConcreteHouse_Pack_2_C_13",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 103222,
+    "name": "SM_ConcreteHouse_Pack_2_C_12",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 102408,
+    "name": "SM_ConcreteHouse_Pack_2_C_10",
+    "supports": [],
+    "nearbyBuildings": [
+      82986
+    ]
+  },
+  {
+    "id": 84464,
+    "name": "SM_ConcreteHouse_Pack_2_C_1",
+    "supports": [
+      {
+        "id": -110310,
+        "name": "SM_Border14",
+        "hits": 1,
+        "gap": 0.08543733
+      },
+      {
+        "id": -43026,
+        "name": "SM_Border22",
+        "hits": 2,
+        "gap": 0.026538074
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 83382,
+    "name": "SM_ConcreteHouse_Pack_2_C_0",
+    "supports": [
+      {
+        "id": -3146,
+        "name": "SM_Ground1260",
+        "hits": 1,
+        "gap": -0.0413940549
+      },
+      {
+        "id": -114274,
+        "name": "SM_Ground1259",
+        "hits": 1,
+        "gap": -0.0413940549
+      }
+    ],
+    "nearbyBuildings": [
+      82986,
+      104014
+    ]
+  },
+  {
+    "id": 83712,
+    "name": "SM_ConcreteHouse_Pack_2_C_5",
+    "supports": [],
+    "nearbyBuildings": [
+      103644
+    ]
+  },
+  {
+    "id": 84618,
+    "name": "SM_ConcreteHouse_Pack_2_C_4",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": 85124,
+    "name": "SM_ConcreteHouse_Pack_1_C_2",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": 103644,
+    "name": "SM_ConcreteHouse_Pack_1_C_1",
+    "supports": [],
+    "nearbyBuildings": [
+      83712,
+      102936
+    ]
+  },
+  {
+    "id": 103624,
+    "name": "BP_BrickHouse_2_C_0",
+    "supports": [],
+    "nearbyBuildings": [
+      101036
+    ]
+  },
+  {
+    "id": 102664,
+    "name": "BP_BrickHouse_2_C_0 (1)",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 101036,
+    "name": "BP_BrickHouse_1_C_1",
+    "supports": [],
+    "nearbyBuildings": [
+      103624
+    ]
+  },
+  {
+    "id": 103982,
+    "name": "BP_BrickHouse_1_C",
+    "supports": [],
+    "nearbyBuildings": [
+      85124,
+      82478
+    ]
+  },
+  {
+    "id": 102914,
+    "name": "BP_BrickHouse_2_C_9",
+    "supports": [],
+    "nearbyBuildings": [
+      83974,
+      82478,
+      103698
+    ]
+  },
+  {
+    "id": 100982,
+    "name": "BP_BrickHouse_2_C_5",
+    "supports": [
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "hits": 1,
+        "gap": 0.109484851
+      }
+    ],
+    "nearbyBuildings": [
+      102584,
+      84618
+    ]
+  },
+  {
+    "id": 104014,
+    "name": "BP_BrickHouse_2_C_3",
+    "supports": [],
+    "nearbyBuildings": [
+      83382,
+      102936
+    ]
+  },
+  {
+    "id": 102936,
+    "name": "BP_BrickHouse_2_C_1",
+    "supports": [],
+    "nearbyBuildings": [
+      103644,
+      104014
+    ]
+  },
+  {
+    "id": 83974,
+    "name": "BP_BrickHouse_2_C_2",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 7,
+        "gap": 0.00985803548
+      },
+      {
+        "id": -130444,
+        "name": "SM_Border8",
+        "hits": 3,
+        "gap": -0.07251022
+      }
+    ],
+    "nearbyBuildings": [
+      102914,
+      103698
+    ]
+  },
+  {
+    "id": 82478,
+    "name": "BP_BrickHouse_2_C_11",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 12,
+        "gap": -0.126484677
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 12,
+        "gap": -0.126484677
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      102914,
+      103698
+    ]
+  },
+  {
+    "id": 103698,
+    "name": "BP_BrickHouse_2_C_10",
+    "supports": [],
+    "nearbyBuildings": [
+      102914,
+      83974,
+      82478
+    ]
+  },
+  {
+    "id": 102388,
+    "name": "BP_SteelPillarPack_C_6",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 11,
+        "gap": 0.0261163954
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 82500,
+    "name": "BP_SteelPillarPack_C_0",
+    "supports": [],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": 83266,
+    "name": "BP_SteelPillarPack_C_4",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": 83958,
+    "name": "BP_SteelPillarPack_C_3",
+    "supports": [
+      {
+        "id": 84508,
+        "name": "BP_SteelPillarPack_C_2",
+        "hits": 10,
+        "gap": 0.0592803136
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 84508,
+    "name": "BP_SteelPillarPack_C_2",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 83052,
+    "name": "BP_SteelPillarPack_C_1",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 1,
+        "gap": 0.347674668
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -79966,
+    "name": "SM_SteelPillar",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -143154,
+    "name": "SM_ConcretePillar2",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -30072,
+    "name": "SM_ConcretePillar",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -147770,
+    "name": "SM_ConcretePillar8",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -8826,
+    "name": "SM_ConcretePillar7",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -94018,
+    "name": "SM_ConcretePillar6",
+    "supports": [
+      {
+        "id": -58338,
+        "name": "SM_ConcretePillar5",
+        "hits": 35,
+        "gap": -0.016474843
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -58338,
+    "name": "SM_ConcretePillar5",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -155824,
+    "name": "SM_ConcretePillar4",
+    "supports": [
+      {
+        "id": -118332,
+        "name": "SM_ConcretePillar3",
+        "hits": 2,
+        "gap": 0.158207119
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -118332,
+    "name": "SM_ConcretePillar3",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 6,
+        "gap": -0.047604382
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -121914,
+    "name": "SM_Entrance4",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 35,
+        "gap": 0.239195824
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 35,
+        "gap": 0.239195824
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -120000,
+    "name": "SM_Entrance3",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 34,
+        "gap": 0.239977047
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 34,
+        "gap": 0.239977047
+      },
+      {
+        "id": 84458,
+        "name": "BP_ConcreteBagOnPallet_C_9",
+        "hits": 7,
+        "gap": -0.184931919
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -110394,
+    "name": "SM_Entrance2",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -139190,
+    "name": "SM_Entrance",
+    "supports": [
+      {
+        "id": 83974,
+        "name": "BP_BrickHouse_2_C_2",
+        "hits": 3,
+        "gap": 0.08813271
+      },
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 19,
+        "gap": -0.0125517314
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -2262,
+    "name": "SM_Conus30",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 22,
+        "gap": 0.00932716951
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -6808,
+    "name": "SM_Barrier21",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -152898,
+    "name": "SM_Barrier20",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -32206,
+    "name": "SM_PlasticFences46",
+    "supports": [],
+    "nearbyBuildings": [
+      103644
+    ]
+  },
+  {
+    "id": -35100,
+    "name": "SM_PlasticFences45",
+    "supports": [],
+    "nearbyBuildings": [
+      103644
+    ]
+  },
+  {
+    "id": -148014,
+    "name": "SM_Barrier19",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 34,
+        "gap": -0.0147190019
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -126698,
+    "name": "SM_Barrier18",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -58052,
+    "name": "SM_PlasticFences44",
+    "supports": [],
+    "nearbyBuildings": [
+      102914,
+      83974
+    ]
+  },
+  {
+    "id": -39770,
+    "name": "SM_Conus29",
+    "supports": [
+      {
+        "id": -78530,
+        "name": "SM_FenceChain",
+        "hits": 3,
+        "gap": 0.296040475
+      }
+    ],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -49586,
+    "name": "SM_Conus27",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -32158,
+    "name": "SM_Conus26",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -54534,
+    "name": "SM_PlasticFences43",
+    "supports": [],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": -61218,
+    "name": "SM_PlasticFences42",
+    "supports": [
+      {
+        "id": -20456,
+        "name": "SM_Border43",
+        "hits": 2,
+        "gap": 0.0437042266
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -53894,
+    "name": "SM_PlasticFences41",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -17268,
+    "name": "SM_PlasticFences40",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -143798,
+    "name": "SM_PlasticFences39",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -49384,
+    "name": "SM_PlasticFences38",
+    "supports": [],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": -45692,
+    "name": "SM_PlasticFences37",
+    "supports": [],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": -70408,
+    "name": "SM_Conus25",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -82482,
+    "name": "SM_Conus24",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -64960,
+    "name": "SM_Barrier17",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -114524,
+    "name": "SM_PlasticFences36",
+    "supports": [],
+    "nearbyBuildings": [
+      104014,
+      102936
+    ]
+  },
+  {
+    "id": -129426,
+    "name": "SM_PlasticFences35",
+    "supports": [],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -4378,
+    "name": "SM_PlasticFences34",
+    "supports": [],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -42556,
+    "name": "SM_PlasticFences33",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -54734,
+    "name": "SM_PlasticFences32",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -109438,
+    "name": "SM_PlasticFences31",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -42908,
+    "name": "SM_PlasticFences30",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -83310,
+    "name": "SM_PlasticFences29",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -86276,
+    "name": "SM_Barrier16",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 25,
+        "gap": 0.116503917
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -147328,
+    "name": "SM_Barrier15",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 26,
+        "gap": 0.114480361
+      }
+    ],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -119162,
+    "name": "SM_Barrier10",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 22,
+        "gap": -0.0231889375
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -92584,
+    "name": "SM_Conus23",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 25,
+        "gap": 0.0191747937
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -98940,
+    "name": "SM_Conus22",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 23,
+        "gap": 0.020644201
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -144506,
+    "name": "SM_PlasticFences25",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -130912,
+    "name": "SM_PlasticFences24",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -14752,
+    "name": "SM_PlasticFences23",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -31632,
+    "name": "SM_PlasticFences22",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -72202,
+    "name": "SM_PlasticFences21",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -47202,
+    "name": "SM_PlasticFences20",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -20644,
+    "name": "SM_PlasticFences19",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -73924,
+    "name": "SM_PlasticFences18",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 29,
+        "gap": -0.00209796
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -54262,
+    "name": "SM_PlasticFences28",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -48734,
+    "name": "SM_PlasticFences27",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -15636,
+    "name": "SM_PlasticFences26",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -5392,
+    "name": "SM_PlasticFences15",
+    "supports": [],
+    "nearbyBuildings": [
+      84618,
+      100982
+    ]
+  },
+  {
+    "id": -72704,
+    "name": "SM_PlasticFences14",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -39400,
+    "name": "SM_PlasticFences13",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -81582,
+    "name": "SM_PlasticFences12",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -149096,
+    "name": "SM_PlasticFences11",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -61756,
+    "name": "SM_PlasticFences4",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -81534,
+    "name": "SM_PlasticFences3",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -114724,
+    "name": "SM_PlasticFences10",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 9,
+        "gap": 0.00116779411
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -132414,
+    "name": "SM_PlasticFences9",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -95446,
+    "name": "SM_PlasticFences8",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -156180,
+    "name": "SM_PlasticFences7",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -66624,
+    "name": "SM_PlasticFences6",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -152736,
+    "name": "SM_PlasticFences5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -91120,
+    "name": "SM_PlasticFences2",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 28,
+        "gap": 0.00111366378
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -134696,
+    "name": "SM_PlasticFences",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 29,
+        "gap": 0.002004051
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -33932,
+    "name": "SM_PlasticFences16",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -36218,
+    "name": "SM_Conus6",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -39132,
+    "name": "SM_Conus5",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -27330,
+    "name": "SM_Conus4",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -100138,
+    "name": "SM_Conus3",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -38380,
+    "name": "SM_Conus2",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -86476,
+    "name": "SM_Conus",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -80398,
+    "name": "SM_Conus14",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -52276,
+    "name": "SM_Conus13",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 10,
+        "gap": 0.218783528
+      },
+      {
+        "id": -125018,
+        "name": "SM_Border6",
+        "hits": 10,
+        "gap": 0.0869820938
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -32632,
+    "name": "SM_Conus12",
+    "supports": [
+      {
+        "id": -125018,
+        "name": "SM_Border6",
+        "hits": 9,
+        "gap": 0.036900524
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -66924,
+    "name": "SM_Conus11",
+    "supports": [
+      {
+        "id": -18298,
+        "name": "SM_Conus10",
+        "hits": 19,
+        "gap": 0.08763955
+      },
+      {
+        "id": -151500,
+        "name": "SM_Conus9",
+        "hits": 19,
+        "gap": 0.189296454
+      },
+      {
+        "id": -125018,
+        "name": "SM_Border6",
+        "hits": 3,
+        "gap": 0.23004365
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -18298,
+    "name": "SM_Conus10",
+    "supports": [
+      {
+        "id": -151500,
+        "name": "SM_Conus9",
+        "hits": 17,
+        "gap": 0.09668315
+      },
+      {
+        "id": -125018,
+        "name": "SM_Border6",
+        "hits": 5,
+        "gap": 0.11766398
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -151500,
+    "name": "SM_Conus9",
+    "supports": [
+      {
+        "id": -125018,
+        "name": "SM_Border6",
+        "hits": 3,
+        "gap": 0.00545042753
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -25868,
+    "name": "SM_Conus8",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 23,
+        "gap": 0.016394265
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -41794,
+    "name": "SM_Conus7",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 23,
+        "gap": 0.0190771576
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -77824,
+    "name": "SM_Conus20",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -13614,
+    "name": "SM_Conus21",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -11000,
+    "name": "SM_Conus19",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -51258,
+    "name": "SM_Conus18",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -101068,
+    "name": "SM_Conus17",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -113200,
+    "name": "SM_Conus16",
+    "supports": [
+      {
+        "id": -118824,
+        "name": "SM_Border10",
+        "hits": 2,
+        "gap": -0.01499486
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -125094,
+    "name": "SM_Conus15",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -22866,
+    "name": "SM_Barrier13",
+    "supports": [],
+    "nearbyBuildings": [
+      102584,
+      100982
+    ]
+  },
+  {
+    "id": -21432,
+    "name": "SM_Barrier12",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -127472,
+    "name": "SM_Barrier11",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -3440,
+    "name": "SM_Barrier8",
+    "supports": [
+      {
+        "id": 83974,
+        "name": "BP_BrickHouse_2_C_2",
+        "hits": 2,
+        "gap": 0.08293454
+      },
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 24,
+        "gap": -0.0254982058
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -147536,
+    "name": "SM_Barrier7",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 24,
+        "gap": -0.0239558015
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -56072,
+    "name": "SM_Barrier6",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 25,
+        "gap": -0.0257629566
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -70534,
+    "name": "SM_Barrier5",
+    "supports": [],
+    "nearbyBuildings": [
+      102914,
+      83974
+    ]
+  },
+  {
+    "id": -129840,
+    "name": "SM_Barrier4",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -62570,
+    "name": "SM_Barrier3",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -56584,
+    "name": "SM_Barrier2",
+    "supports": [],
+    "nearbyBuildings": [
+      83374,
+      100982
+    ]
+  },
+  {
+    "id": -118106,
+    "name": "SM_Barrier",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -110114,
+    "name": "SM_Barrier9",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -141892,
+    "name": "SM_Barrier14",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -92970,
+    "name": "SM_Border36",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -48896,
+    "name": "SM_Border35",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -138784,
+    "name": "SM_Border34",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -65994,
+    "name": "SM_Border33",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -3146,
+    "name": "SM_Ground1260",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -114274,
+    "name": "SM_Ground1259",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -21876,
+    "name": "SM_Border2",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -119626,
+    "name": "SM_Border",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -20456,
+    "name": "SM_Border43",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -57252,
+    "name": "SM_Border42",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -47758,
+    "name": "SM_ModulFloor4",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -69238,
+    "name": "SM_Border41",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -25476,
+    "name": "SM_Border40",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -145140,
+    "name": "SM_Border39",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -54896,
+    "name": "SM_Border38",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -63902,
+    "name": "SM_Border37",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 2,
+        "gap": -0.172497556
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 2,
+        "gap": -0.172497556
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -29778,
+    "name": "SM_ModulFloor3",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -52616,
+    "name": "SM_Border32",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 1,
+        "gap": -0.12455444
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -116146,
+    "name": "SM_Border31",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 4,
+        "gap": -0.12455444
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -107398,
+    "name": "SM_ModulFloor2",
+    "supports": [],
+    "nearbyBuildings": [
+      104014,
+      102936
+    ]
+  },
+  {
+    "id": -113074,
+    "name": "SM_ModulFloor",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -69614,
+    "name": "SM_Border7",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -125018,
+    "name": "SM_Border6",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 2,
+        "gap": -0.2595032
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -148348,
+    "name": "SM_Border5",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 2,
+        "gap": -0.2595032
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -88730,
+    "name": "SM_Border4",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -145618,
+    "name": "SM_Border21",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -118824,
+    "name": "SM_Border10",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -35370,
+    "name": "SM_Border3",
+    "supports": [
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "hits": 2,
+        "gap": 0.0113098025
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -130444,
+    "name": "SM_Border8",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 2,
+        "gap": -0.157879651
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -128634,
+    "name": "SM_Border20",
+    "supports": [],
+    "nearbyBuildings": [
+      104014,
+      102936
+    ]
+  },
+  {
+    "id": -137186,
+    "name": "SM_Border19",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 2,
+        "gap": -0.009503186
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -129544,
+    "name": "SM_Border18",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 4,
+        "gap": -0.009503171
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -61880,
+    "name": "SM_Border17",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 2,
+        "gap": -0.009503156
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -136414,
+    "name": "SM_Border16",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -49548,
+    "name": "SM_Border15",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -110310,
+    "name": "SM_Border14",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -37512,
+    "name": "SM_Border12",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -154998,
+    "name": "SM_Border11",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -21362,
+    "name": "SM_Border30",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -80004,
+    "name": "SM_Border29",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -26502,
+    "name": "SM_Border28",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -47434,
+    "name": "SM_Border27",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -14714,
+    "name": "SM_Border26",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -88248,
+    "name": "SM_Border25",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -29056,
+    "name": "SM_Border24",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -73604,
+    "name": "SM_Border23",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -43026,
+    "name": "SM_Border22",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -51570,
+    "name": "SM_Fence_Mesh_2m83",
+    "supports": [],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -131526,
+    "name": "SM_Fence_Mesh_2m82",
+    "supports": [],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -1996,
+    "name": "SM_Fence_Mesh_2m81",
+    "supports": [],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -125446,
+    "name": "SM_Fence_Mesh_2m80",
+    "supports": [],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -149500,
+    "name": "SM_Fence_Mesh_2m79",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -105250,
+    "name": "SM_Fence_Mesh_2m78",
+    "supports": [],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -140860,
+    "name": "SM_Fence_Mesh_2m77",
+    "supports": [],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -19192,
+    "name": "SM_Fence_Mesh_2m76",
+    "supports": [],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -28652,
+    "name": "SM_Fence_Mesh_2m75",
+    "supports": [],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -155678,
+    "name": "SM_Fence_Mesh_2m74",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -8354,
+    "name": "SM_Fence_Mesh_2m73",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -48582,
+    "name": "SM_Fence_Mesh_2m72",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -93092,
+    "name": "SM_Fence_Mesh_2m71",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -56972,
+    "name": "SM_Fence_Mesh_2m29",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -107024,
+    "name": "SM_Fence_Mesh_2m28",
+    "supports": [],
+    "nearbyBuildings": [
+      102914,
+      83974
+    ]
+  },
+  {
+    "id": -51106,
+    "name": "SM_Fence_Mesh_2m95",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 10,
+        "gap": -0.180096433
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 10,
+        "gap": -0.180096433
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -98294,
+    "name": "SM_Fence_Mesh_2m94",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 11,
+        "gap": -0.255458176
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 11,
+        "gap": -0.255458176
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -47720,
+    "name": "SM_Fence_Mesh_2m93",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 4,
+        "gap": -0.257428
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 4,
+        "gap": -0.257428
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -11048,
+    "name": "SM_Fence_Mesh_2m70",
+    "supports": [],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": -81040,
+    "name": "SM_Fence_Mesh_2m69",
+    "supports": [],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": -2680,
+    "name": "SM_Fence_Mesh_2m68",
+    "supports": [],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": -71706,
+    "name": "SM_Fence_Mesh_2m67",
+    "supports": [],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": -8238,
+    "name": "SM_Fence_Mesh_2m66",
+    "supports": [],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": -65862,
+    "name": "SM_Fence_Mesh_2m65",
+    "supports": [],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": -120292,
+    "name": "SM_Fence_Mesh_2m64",
+    "supports": [],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": -58760,
+    "name": "SM_Fence_Mesh_2m63",
+    "supports": [],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -63282,
+    "name": "SM_Fence_Mesh_2m62",
+    "supports": [],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -95408,
+    "name": "SM_Fence_Mesh_2m61",
+    "supports": [],
+    "nearbyBuildings": [
+      103644
+    ]
+  },
+  {
+    "id": -8132,
+    "name": "SM_Fence_Mesh_2m60",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 8,
+        "gap": -0.00793153048
+      }
+    ],
+    "nearbyBuildings": [
+      103644
+    ]
+  },
+  {
+    "id": -157162,
+    "name": "SM_Fence_Mesh_2m59",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 10,
+        "gap": -0.01990662
+      }
+    ],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -62828,
+    "name": "SM_Fence_Mesh_2m40",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 12,
+        "gap": -0.008333347
+      }
+    ],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -134310,
+    "name": "SM_Fence_Mesh_2m39",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 13,
+        "gap": -0.01714197
+      }
+    ],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -23312,
+    "name": "SM_Fence_Mesh_2m122",
+    "supports": [],
+    "nearbyBuildings": [
+      102408
+    ]
+  },
+  {
+    "id": -94416,
+    "name": "SM_Fence_Mesh_2m118",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -143846,
+    "name": "SM_Fence_Mesh_2m117",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -40376,
+    "name": "SM_Fence_Mesh_2m116",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -134348,
+    "name": "SM_Fence_Mesh_2m92",
+    "supports": [],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -60950,
+    "name": "SM_Fence_Mesh_2m91",
+    "supports": [],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -122448,
+    "name": "SM_Fence_Mesh_2m90",
+    "supports": [],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -11960,
+    "name": "SM_Fence_Mesh_2m89",
+    "supports": [],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -82706,
+    "name": "SM_Fence_Mesh_2m88",
+    "supports": [],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -96932,
+    "name": "SM_Fence_Mesh_2m87",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -144144,
+    "name": "SM_Fence_Mesh_2m86",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -150748,
+    "name": "SM_Fence_Mesh_2m85",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -156816,
+    "name": "SM_Fence_Mesh_2m84",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -109806,
+    "name": "SM_Fence_Mesh_2m113",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -13154,
+    "name": "SM_Fence_Mesh_2m112",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -75950,
+    "name": "SM_Fence_Mesh_2m111",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -146224,
+    "name": "SM_Fence_Mesh_2m110",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -80322,
+    "name": "SM_Fence_Mesh_2m109",
+    "supports": [],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": -148940,
+    "name": "SM_Fence_Mesh_2m108",
+    "supports": [],
+    "nearbyBuildings": [
+      -155402,
+      83374
+    ]
+  },
+  {
+    "id": -55280,
+    "name": "SM_Fence_Mesh_2m107",
+    "supports": [],
+    "nearbyBuildings": [
+      -155402
+    ]
+  },
+  {
+    "id": -80244,
+    "name": "SM_Fence_Mesh_2m106",
+    "supports": [
+      {
+        "id": -155402,
+        "name": "WorkersDormitory",
+        "hits": 4,
+        "gap": 0.2411224
+      }
+    ],
+    "nearbyBuildings": [
+      -155402
+    ]
+  },
+  {
+    "id": -126038,
+    "name": "SM_Fence_Mesh_2m105",
+    "supports": [
+      {
+        "id": -155402,
+        "name": "WorkersDormitory",
+        "hits": 11,
+        "gap": 0.263901025
+      }
+    ],
+    "nearbyBuildings": [
+      -155402
+    ]
+  },
+  {
+    "id": -148618,
+    "name": "SM_Fence_Mesh_2m104",
+    "supports": [
+      {
+        "id": -155402,
+        "name": "WorkersDormitory",
+        "hits": 10,
+        "gap": 0.162844852
+      }
+    ],
+    "nearbyBuildings": [
+      -155402
+    ]
+  },
+  {
+    "id": -86600,
+    "name": "SM_Fence_Mesh_2m103",
+    "supports": [
+      {
+        "id": -155402,
+        "name": "WorkersDormitory",
+        "hits": 10,
+        "gap": 0.271911651
+      }
+    ],
+    "nearbyBuildings": [
+      -155402
+    ]
+  },
+  {
+    "id": -143666,
+    "name": "SM_Fence_Mesh_2m102",
+    "supports": [
+      {
+        "id": -155402,
+        "name": "WorkersDormitory",
+        "hits": 12,
+        "gap": 0.2553055
+      }
+    ],
+    "nearbyBuildings": [
+      -155402
+    ]
+  },
+  {
+    "id": -104148,
+    "name": "SM_Fence_Mesh_2m101",
+    "supports": [
+      {
+        "id": -155402,
+        "name": "WorkersDormitory",
+        "hits": 9,
+        "gap": 0.259539843
+      }
+    ],
+    "nearbyBuildings": [
+      -155402
+    ]
+  },
+  {
+    "id": -158636,
+    "name": "SM_Fence_Mesh_2m100",
+    "supports": [],
+    "nearbyBuildings": [
+      -155402,
+      102584
+    ]
+  },
+  {
+    "id": -146540,
+    "name": "SM_Fence_Mesh_2m98",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -93354,
+    "name": "SM_Fence_Mesh_2m97",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -91982,
+    "name": "SM_Fence_Mesh_2m96",
+    "supports": [],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": -156274,
+    "name": "SM_Fence_Mesh_2m114",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -125142,
+    "name": "SM_FenceChain6",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -108694,
+    "name": "SM_FenceChain5",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -58184,
+    "name": "SM_Fence_Mesh_2m58",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -152784,
+    "name": "SM_Fence_Mesh_2m57",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -98364,
+    "name": "SM_Fence_Mesh_2m56",
+    "supports": [],
+    "nearbyBuildings": [
+      102584,
+      100982
+    ]
+  },
+  {
+    "id": -131716,
+    "name": "SM_Fence_Mesh_2m54",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -70712,
+    "name": "SM_Fence_Mesh_2m51",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -114896,
+    "name": "SM_Fence_Mesh_2m50",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -142628,
+    "name": "SM_Fence_Mesh_2m49",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -144398,
+    "name": "SM_Fence_Mesh_2m48",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -5188,
+    "name": "SM_Fence_Mesh_2m47",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -81820,
+    "name": "SM_Fence_Mesh_2m46",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -65778,
+    "name": "SM_Fence_Mesh_2m44",
+    "supports": [],
+    "nearbyBuildings": [
+      104014,
+      102936
+    ]
+  },
+  {
+    "id": -66972,
+    "name": "SM_Fence_Mesh_2m43",
+    "supports": [],
+    "nearbyBuildings": [
+      104014,
+      102936
+    ]
+  },
+  {
+    "id": -63972,
+    "name": "SM_Fence_Mesh_2m42",
+    "supports": [],
+    "nearbyBuildings": [
+      104014,
+      102936
+    ]
+  },
+  {
+    "id": -40132,
+    "name": "SM_Fence_Mesh_2m41",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 2,
+        "gap": -0.2510956
+      }
+    ],
+    "nearbyBuildings": [
+      104014,
+      102936
+    ]
+  },
+  {
+    "id": -44482,
+    "name": "SM_Fence_Mesh_2m38",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 9,
+        "gap": -0.0168138426
+      }
+    ],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -33472,
+    "name": "SM_Fence_Mesh_2m37",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 2,
+        "gap": -0.029553242
+      }
+    ],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -11846,
+    "name": "SM_Fence_Mesh_2m36",
+    "supports": [],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -111142,
+    "name": "SM_Fence_Mesh_2m35",
+    "supports": [],
+    "nearbyBuildings": [
+      103644
+    ]
+  },
+  {
+    "id": -114648,
+    "name": "SM_Fence_Mesh_2m34",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -6248,
+    "name": "SM_Fence_Mesh_2m33",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -5040,
+    "name": "SM_Fence_Mesh_2m32",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -63522,
+    "name": "SM_Fence_Mesh_2m31",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -33174,
+    "name": "SM_Fence_Mesh_2m30",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -149204,
+    "name": "SM_Fence_Mesh_2m19",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -84544,
+    "name": "SM_Fence_Mesh_2m18",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -84058,
+    "name": "SM_Fence_Mesh_2m11",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -61842,
+    "name": "SM_Fence_Mesh_2m10",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -60334,
+    "name": "SM_Fence_Mesh_2m13",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -33824,
+    "name": "SM_Fence_Mesh_2m12",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -62532,
+    "name": "SM_Fence_Mesh_2m27",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -38088,
+    "name": "SM_Fence_Mesh_2m26",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -16058,
+    "name": "SM_FenceChain4",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -141812,
+    "name": "SM_FenceChain3",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 25,
+        "gap": 0.0307482909
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -87590,
+    "name": "SM_FenceChain2",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 25,
+        "gap": 0.118875682
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -78530,
+    "name": "SM_FenceChain",
+    "supports": [],
+    "nearbyBuildings": [
+      83374,
+      100982
+    ]
+  },
+  {
+    "id": -65122,
+    "name": "SM_Fence_Mesh_2m9",
+    "supports": [],
+    "nearbyBuildings": [
+      83374,
+      100982
+    ]
+  },
+  {
+    "id": -89038,
+    "name": "SM_Fence_Mesh_2m8",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -61918,
+    "name": "SM_Fence_Mesh_2m7",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -49652,
+    "name": "SM_Fence_Mesh_2m6",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -115138,
+    "name": "SM_Fence_Mesh_2m5",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -129802,
+    "name": "SM_Fence_Mesh_2m4",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -55658,
+    "name": "SM_Fence_Mesh_2m3",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -125820,
+    "name": "SM_Fence_Mesh_2m2",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 12,
+        "gap": 0.0376769863
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -79744,
+    "name": "SM_Fence_Mesh_2m",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 11,
+        "gap": -0.0374349356
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -93524,
+    "name": "SM_Fence_Mesh_2m120",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -92932,
+    "name": "SM_Fence_Mesh_2m119",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -5302,
+    "name": "SM_Antena3",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -95868,
+    "name": "SM_Antena2",
+    "supports": [],
+    "nearbyBuildings": [
+      84618,
+      100982
+    ]
+  },
+  {
+    "id": -82820,
+    "name": "SM_Antena",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": 101872,
+    "name": "BP_HugeSiloConstruction_2_C_1",
+    "supports": [],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": 101250,
+    "name": "BP_HugeSiloConstruction_2_C_7",
+    "supports": [],
+    "nearbyBuildings": [
+      82986,
+      102408,
+      83382
+    ]
+  },
+  {
+    "id": 83758,
+    "name": "BP_HugeSiloConstruction_2_C_6",
+    "supports": [],
+    "nearbyBuildings": [
+      101270
+    ]
+  },
+  {
+    "id": 101092,
+    "name": "BP_HugeSiloConstruction_2_C_5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 84594,
+    "name": "BP_HugeSiloConstruction_2_C_4",
+    "supports": [],
+    "nearbyBuildings": [
+      82842,
+      84464
+    ]
+  },
+  {
+    "id": 83370,
+    "name": "BP_HugeSiloConstruction_2_C_3",
+    "supports": [],
+    "nearbyBuildings": [
+      83712,
+      103644
+    ]
+  },
+  {
+    "id": 100844,
+    "name": "BP_HugeSiloConstruction_2_C_2",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 101614,
+    "name": "BP_HugeSiloConstruction_2_C_1",
+    "supports": [],
+    "nearbyBuildings": [
+      -155402,
+      102584
+    ]
+  },
+  {
+    "id": -146070,
+    "name": "BP_HugeSiloConstruction_3_C_2_SM_HugeSiloBase_4_3898",
+    "supports": [],
+    "nearbyBuildings": [
+      82986,
+      83382
+    ]
+  },
+  {
+    "id": 83080,
+    "name": "BP_HugeSiloConstruction_C_9",
+    "supports": [],
+    "nearbyBuildings": [
+      85124
+    ]
+  },
+  {
+    "id": -55604,
+    "name": "SM_FuelTank11",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -153880,
+    "name": "SM_FuelTank10",
+    "supports": [],
+    "nearbyBuildings": [
+      85124,
+      103982
+    ]
+  },
+  {
+    "id": -89512,
+    "name": "SM_FuelTank2",
+    "supports": [],
+    "nearbyBuildings": [
+      82478,
+      103698
+    ]
+  },
+  {
+    "id": -76664,
+    "name": "SM_SiloLittle_5",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -38264,
+    "name": "SM_SiloLittle_4",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -106902,
+    "name": "SM_FuelTank8",
+    "supports": [],
+    "nearbyBuildings": [
+      102584,
+      83374,
+      100982
+    ]
+  },
+  {
+    "id": -153688,
+    "name": "SM_FuelTank7",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 9,
+        "gap": 0.00632865541
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -111974,
+    "name": "SM_FuelTank6",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -149446,
+    "name": "SM_FuelTank5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -16004,
+    "name": "SM_FuelTank4",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -61626,
+    "name": "SM_FuelTank3",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": 101016,
+    "name": "BP_PipePack_C_2",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 83702,
+    "name": "BP_PipePack_C_1",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 101876,
+    "name": "BP_PipePack_C_0",
+    "supports": [],
+    "nearbyBuildings": [
+      83712,
+      103644
+    ]
+  },
+  {
+    "id": 83582,
+    "name": "BP_Ventilation_System_Pack_C_7",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 85012,
+    "name": "BP_VentilationPack_2_C_0",
+    "supports": [
+      {
+        "id": 102584,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "hits": 36,
+        "gap": -0.09724882
+      }
+    ],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": 102454,
+    "name": "BP_VentilationPack_2_C_7",
+    "supports": [
+      {
+        "id": 103644,
+        "name": "SM_ConcreteHouse_Pack_1_C_1",
+        "hits": 34,
+        "gap": -0.0301007517
+      }
+    ],
+    "nearbyBuildings": [
+      103644
+    ]
+  },
+  {
+    "id": 103092,
+    "name": "BP_Ventilation_System_Pack_C_8",
+    "supports": [
+      {
+        "id": 82986,
+        "name": "SM_ConcreteHouse_Pack_2_C_9",
+        "hits": 30,
+        "gap": 0.0134785892
+      }
+    ],
+    "nearbyBuildings": [
+      82986
+    ]
+  },
+  {
+    "id": 104024,
+    "name": "BP_VentilationPack_2_C_5",
+    "supports": [
+      {
+        "id": 83382,
+        "name": "SM_ConcreteHouse_Pack_2_C_0",
+        "hits": 20,
+        "gap": 0.011500529
+      }
+    ],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": 83878,
+    "name": "BP_VentilationPack_2_C_4",
+    "supports": [
+      {
+        "id": 83382,
+        "name": "SM_ConcreteHouse_Pack_2_C_0",
+        "hits": 21,
+        "gap": 9.38510639E-05
+      }
+    ],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": 103052,
+    "name": "BP_VentilationPack_2_C_2",
+    "supports": [
+      {
+        "id": 83382,
+        "name": "SM_ConcreteHouse_Pack_2_C_0",
+        "hits": 32,
+        "gap": -0.03197267
+      }
+    ],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": 84468,
+    "name": "BP_VentilationPack_2_C_3",
+    "supports": [
+      {
+        "id": 102584,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "hits": 19,
+        "gap": -0.08870112
+      }
+    ],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": 101964,
+    "name": "BP_Ventilation_System_Pack_C_5",
+    "supports": [
+      {
+        "id": 84464,
+        "name": "SM_ConcreteHouse_Pack_2_C_1",
+        "hits": 33,
+        "gap": -0.00343020586
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": 102392,
+    "name": "BP_Ventilation_System_Pack_C_1",
+    "supports": [
+      {
+        "id": 103644,
+        "name": "SM_ConcreteHouse_Pack_1_C_1",
+        "hits": 32,
+        "gap": -0.000439465977
+      }
+    ],
+    "nearbyBuildings": [
+      103644
+    ]
+  },
+  {
+    "id": 83674,
+    "name": "BP_Ventilation_System_Pack_C_4",
+    "supports": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "hits": 31,
+        "gap": 0.0166238118
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": 101990,
+    "name": "BP_Ventilation_System_Pack_C_3",
+    "supports": [
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "hits": 29,
+        "gap": 0.005261002
+      }
+    ],
+    "nearbyBuildings": [
+      84618,
+      100982
+    ]
+  },
+  {
+    "id": 102718,
+    "name": "BP_VentilationPack_2_C_2",
+    "supports": [
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "hits": 36,
+        "gap": -0.0253468975
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": 84538,
+    "name": "BP_VentilationPack_2_C_1",
+    "supports": [
+      {
+        "id": 84464,
+        "name": "SM_ConcreteHouse_Pack_2_C_1",
+        "hits": 19,
+        "gap": -0.0225117058
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -47080,
+    "name": "SM_AirConditioning17",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -70216,
+    "name": "SM_AirConditioning8",
+    "supports": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "hits": 5,
+        "gap": -0.02972414
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -62448,
+    "name": "SM_AirConditioning7",
+    "supports": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "hits": 6,
+        "gap": -0.0297312587
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -75904,
+    "name": "SM_AirConditioning6",
+    "supports": [
+      {
+        "id": 83374,
+        "name": "SM_ConcreteHouse_Pack_2_C_2",
+        "hits": 5,
+        "gap": -0.02972414
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -128816,
+    "name": "SM_AirConditioning5",
+    "supports": [],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -96482,
+    "name": "SM_AirConditioning4",
+    "supports": [],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -10326,
+    "name": "SM_AirConditioning3",
+    "supports": [
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "hits": 5,
+        "gap": 0.10938108
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -69116,
+    "name": "SM_AirConditioning2",
+    "supports": [
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "hits": 4,
+        "gap": 0.109385654
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -113864,
+    "name": "SM_AirConditioning",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -157008,
+    "name": "AirConditioning3",
+    "supports": [
+      {
+        "id": 84618,
+        "name": "SM_ConcreteHouse_Pack_2_C_4",
+        "hits": 4,
+        "gap": -0.199658215
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -99534,
+    "name": "SM_PlasticCanister25",
+    "supports": [
+      {
+        "id": -157392,
+        "name": "SM_PalletConus_SM_Pallet6",
+        "hits": 14,
+        "gap": 0.00616692659
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -63674,
+    "name": "SM_PlasticGasTank15",
+    "supports": [
+      {
+        "id": -61880,
+        "name": "SM_Border17",
+        "hits": 2,
+        "gap": 0.0013820976
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -116956,
+    "name": "SM_PlasticCanister23",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 14,
+        "gap": 0.0100318193
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -7168,
+    "name": "SM_PlasticGasTank14",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -71364,
+    "name": "SM_Plastic_Barrel18",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -19230,
+    "name": "SM_PlasticCanister24",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -141978,
+    "name": "SM_PlasticGasTank13",
+    "supports": [
+      {
+        "id": -52324,
+        "name": "SM_MetalFlatbed",
+        "hits": 3,
+        "gap": 0.0176975429
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -108034,
+    "name": "SM_Plastic_Barrel17",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -85448,
+    "name": "SM_PlasticGasTank12",
+    "supports": [
+      {
+        "id": -5478,
+        "name": "SM_PalletConus_SM_Pallet10",
+        "hits": 3,
+        "gap": -0.00613691425
+      },
+      {
+        "id": -93788,
+        "name": "SM_PalletConus_SM_Pallet9",
+        "hits": 3,
+        "gap": 0.193335429
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -128430,
+    "name": "SM_PlasticCanister22",
+    "supports": [
+      {
+        "id": -109914,
+        "name": "SM_WoodCrate11",
+        "hits": 16,
+        "gap": 0.0171593633
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -104374,
+    "name": "SM_Plastic_Barrel16",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -127710,
+    "name": "SM_plastic_barrel14",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -78946,
+    "name": "SM_PlasticCanister21",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 32,
+        "gap": 0.0102788853
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -92346,
+    "name": "SM_PlasticGasTank7",
+    "supports": [
+      {
+        "id": -154840,
+        "name": "SM_ReelWood_SM_WoodBox10",
+        "hits": 7,
+        "gap": 0.0193701684
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -111852,
+    "name": "SM_PlasticGasTank6",
+    "supports": [
+      {
+        "id": -7320,
+        "name": "SM_WoodCrate3",
+        "hits": 6,
+        "gap": -0.0114645464
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -55742,
+    "name": "SM_PlasticGasTank5",
+    "supports": [
+      {
+        "id": -87550,
+        "name": "SM_ReelWood_SM_WoodBox13",
+        "hits": 4,
+        "gap": 0.0145831257
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -39848,
+    "name": "SM_PlasticGasTank4",
+    "supports": [
+      {
+        "id": 103668,
+        "name": "BP_ConcreteBagOnPallet_C_3",
+        "hits": 4,
+        "gap": 0.006444715
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -87366,
+    "name": "SM_PlasticGasTank3",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 6,
+        "gap": 0.00016578038
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -131304,
+    "name": "SM_PlasticGasTank8",
+    "supports": [
+      {
+        "id": 82338,
+        "name": "BP_BarrelPack_C_2",
+        "hits": 8,
+        "gap": 0.00870299
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -124446,
+    "name": "SM_PlasticGasTank2",
+    "supports": [
+      {
+        "id": -120834,
+        "name": "SM_plastic_barrel3",
+        "hits": 5,
+        "gap": 0.003233534
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -121868,
+    "name": "SM_PlasticGasTank",
+    "supports": [
+      {
+        "id": -30432,
+        "name": "SM_PalletConus_SM_Pallet4",
+        "hits": 4,
+        "gap": 0.01645539
+      },
+      {
+        "id": -70994,
+        "name": "SM_PalletConus_SM_Pallet3",
+        "hits": 4,
+        "gap": 0.216114268
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -30246,
+    "name": "SM_PlasticGasTank11",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 6,
+        "gap": -0.129484519
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -122630,
+    "name": "SM_PlasticGasTank10",
+    "supports": [
+      {
+        "id": -61178,
+        "name": "SM_ReelWood_SM_WoodBox16",
+        "hits": 6,
+        "gap": 0.01922518
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -77910,
+    "name": "SM_PlasticGasTank9",
+    "supports": [
+      {
+        "id": -85916,
+        "name": "SM_Pallet32",
+        "hits": 3,
+        "gap": -0.00751784444
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -127758,
+    "name": "SM_Plastic_Barrel13",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -25142,
+    "name": "SM_Plastic_Barrel12",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -156600,
+    "name": "SM_Plastic_Barrel11",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -140766,
+    "name": "SM_plastic_barrel10",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -2556,
+    "name": "SM_plastic_barrel9",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -3794,
+    "name": "SM_plastic_barrel8",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -72320,
+    "name": "SM_plastic_barrel5",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -130314,
+    "name": "SM_plastic_barrel4",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -120834,
+    "name": "SM_plastic_barrel3",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -42012,
+    "name": "SM_plastic_barrel2",
+    "supports": [
+      {
+        "id": -64058,
+        "name": "SM_MetalFlatbed2",
+        "hits": 5,
+        "gap": 0.0195738487
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -118494,
+    "name": "SM_plastic_barrel",
+    "supports": [
+      {
+        "id": -64058,
+        "name": "SM_MetalFlatbed2",
+        "hits": 5,
+        "gap": -0.08028256
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -30602,
+    "name": "SM_PlasticCanister19",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -135696,
+    "name": "SM_PlasticCanister11",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -140320,
+    "name": "SM_PlasticCanister18",
+    "supports": [
+      {
+        "id": -61880,
+        "name": "SM_Border17",
+        "hits": 11,
+        "gap": 0.00668959459
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -67840,
+    "name": "SM_PlasticCanister17",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -29234,
+    "name": "SM_PlasticCanister16",
+    "supports": [
+      {
+        "id": -137610,
+        "name": "SM_WoodCrate2",
+        "hits": 31,
+        "gap": 0.0123708714
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -10778,
+    "name": "SM_PlasticCanister7",
+    "supports": [
+      {
+        "id": -5918,
+        "name": "SM_Pallet10",
+        "hits": 22,
+        "gap": -0.0008230399
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -88530,
+    "name": "SM_PlasticCanister6",
+    "supports": [
+      {
+        "id": -5918,
+        "name": "SM_Pallet10",
+        "hits": 13,
+        "gap": 0.0182032082
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -142024,
+    "name": "SM_Plastic_Barrel15",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -66244,
+    "name": "SM_PlasticCanister20",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 17,
+        "gap": 0.0402548425
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -103180,
+    "name": "SM_PlasticCanister15",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 9,
+        "gap": 0.006324308
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -147084,
+    "name": "SM_PlasticCanister14",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 7,
+        "gap": 0.04869795
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -84388,
+    "name": "SM_PlasticCanister13",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 9,
+        "gap": 0.02703362
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -150654,
+    "name": "SM_PlasticCanister12",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 6,
+        "gap": 0.0301521625
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -65648,
+    "name": "SM_PlasticCanister10",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 15,
+        "gap": 0.027277559
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -155520,
+    "name": "SM_PlasticCanister9",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 13,
+        "gap": 0.01153987
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -4240,
+    "name": "SM_PlasticCanister8",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 15,
+        "gap": 0.005310583
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -9386,
+    "name": "SM_PlasticCanister5",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 10,
+        "gap": 0.0204511285
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -9708,
+    "name": "SM_PlasticCanister4",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 8,
+        "gap": 0.00395611674
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -70628,
+    "name": "SM_PlasticCanister3",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 13,
+        "gap": 0.0241724476
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -94752,
+    "name": "SM_PlasticCanister2",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 9,
+        "gap": 0.026505433
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -133266,
+    "name": "SM_PlasticCanister",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 14,
+        "gap": 0.0129926633
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -16526,
+    "name": "SM_plastic_barrel7",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -96604,
+    "name": "SM_plastic_barrel6",
+    "supports": [
+      {
+        "id": -73738,
+        "name": "SM_PalletConus_SM_Pallet7",
+        "hits": 22,
+        "gap": 0.00490899244
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -24452,
+    "name": "SM_PlasticGasTank13 (1)",
+    "supports": [
+      {
+        "id": -96604,
+        "name": "SM_plastic_barrel6",
+        "hits": 5,
+        "gap": 0.00544635672
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -24736,
+    "name": "SM_PlasticCanister12 (1)",
+    "supports": [
+      {
+        "id": 103878,
+        "name": "BP_ConcreteBagOnPallet_C_1",
+        "hits": 32,
+        "gap": -0.0387245528
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -117414,
+    "name": "SM_IBC6",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -129156,
+    "name": "SM_IBC5",
+    "supports": [],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -5832,
+    "name": "SM_IBC4",
+    "supports": [],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -137756,
+    "name": "SN_IBC2",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -128476,
+    "name": "SN_IBC",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -145534,
+    "name": "SM_IBC3",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -47282,
+    "name": "SM_IBC2",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -53982,
+    "name": "SM_IBC",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -146616,
+    "name": "SM_GasCilinder43",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -27894,
+    "name": "SM_GasCilinder42",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -139378,
+    "name": "SM_GasCilinder12",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -132368,
+    "name": "SM_GasCilinder41",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -64834,
+    "name": "SM_GasCilinder40",
+    "supports": [
+      {
+        "id": -52324,
+        "name": "SM_MetalFlatbed",
+        "hits": 3,
+        "gap": 0.0008422633
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -147180,
+    "name": "SM_GasCilinder39",
+    "supports": [
+      {
+        "id": -52324,
+        "name": "SM_MetalFlatbed",
+        "hits": 9,
+        "gap": 0.07336179
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -113910,
+    "name": "SM_GasCilinder38",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -51646,
+    "name": "SM_GasCilinder37",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -36946,
+    "name": "SM_GasCilinder36",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -120686,
+    "name": "SM_GasCilinder35",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -106658,
+    "name": "SM_GasCilinder34",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -80918,
+    "name": "SM_GasCilinder33",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -48374,
+    "name": "SM_GasCilinder32",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -75444,
+    "name": "SM_GasCilinder31",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -81660,
+    "name": "SM_GasCilinder14",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 12,
+        "gap": 0.004850214
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -132180,
+    "name": "SM_GasCilinder13",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -135932,
+    "name": "SM_GasCilinder11",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -135650,
+    "name": "SM_GasCilinder10",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -99800,
+    "name": "SM_GasCilinder9",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -100338,
+    "name": "SM_GasCilinder8",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -54820,
+    "name": "SM_GasCilinder7",
+    "supports": [
+      {
+        "id": -26454,
+        "name": "SM_Pallet31",
+        "hits": 9,
+        "gap": 0.06341677
+      },
+      {
+        "id": -82350,
+        "name": "SM_Pallet30",
+        "hits": 8,
+        "gap": 0.2497644
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -9800,
+    "name": "SM_GasCilinder6",
+    "supports": [
+      {
+        "id": -26454,
+        "name": "SM_Pallet31",
+        "hits": 13,
+        "gap": 0.0379389
+      },
+      {
+        "id": -82350,
+        "name": "SM_Pallet30",
+        "hits": 13,
+        "gap": 0.2379511
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -38992,
+    "name": "SM_GasCilinder5",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 5,
+        "gap": 0.0413818434
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -77258,
+    "name": "SM_GasCilinder4",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -76902,
+    "name": "SM_GasCilinder3",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -41842,
+    "name": "SM_GasCilinder2",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -67216,
+    "name": "SM_GasCilinder",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -93276,
+    "name": "SM_GasCilinder15",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -80446,
+    "name": "SM_GasCilinder30",
+    "supports": [
+      {
+        "id": 83266,
+        "name": "BP_SteelPillarPack_C_4",
+        "hits": 7,
+        "gap": -0.00224437029
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -147846,
+    "name": "SM_GasCilinder29",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 13,
+        "gap": -0.000507542747
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -6140,
+    "name": "SM_GasCilinder28",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -109562,
+    "name": "SM_GasCilinder27",
+    "supports": [],
+    "nearbyBuildings": [
+      84618,
+      100982
+    ]
+  },
+  {
+    "id": -105288,
+    "name": "SM_GasCilinder26",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -17794,
+    "name": "SM_GasCilinder25",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -122402,
+    "name": "SM_GasCilinder24",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -34406,
+    "name": "SM_GasCilinder23",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -63628,
+    "name": "SM_GasCilinder22",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -56202,
+    "name": "SM_GasCilinder21",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -152984,
+    "name": "SM_GasCilinder20",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 12,
+        "gap": -0.00217388081
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -19664,
+    "name": "SM_GasCilinder19",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 16,
+        "gap": 0.0427066647
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -71412,
+    "name": "SM_GasCilinder18",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 10,
+        "gap": 0.002835098
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -103602,
+    "name": "SM_GasCilinder17",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 13,
+        "gap": 0.0004385297
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -13942,
+    "name": "SM_GasCilinder16",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": 84284,
+    "name": "BP_BarrelPack_C_8",
+    "supports": [],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": 102146,
+    "name": "BP_BarrelPack_C_0",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 30,
+        "gap": 0.0798115954
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 30,
+        "gap": 0.0798115954
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": 101562,
+    "name": "BP_BarrelPack_C_5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 101950,
+    "name": "BP_BarrelPack_C_4",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 103726,
+    "name": "BP_BarrelPack_C_3",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": 82338,
+    "name": "BP_BarrelPack_C_2",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": 84770,
+    "name": "BP_BarrelPack_C_1",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -77414,
+    "name": "SM_Barrel23",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -157270,
+    "name": "SM_Barrel22",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -157650,
+    "name": "barrelGasBag_SM_Barrel14",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 27,
+        "gap": 0.009163401
+      },
+      {
+        "id": -63902,
+        "name": "SM_Border37",
+        "hits": 4,
+        "gap": -0.191143811
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 27,
+        "gap": 0.009163401
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -99050,
+    "name": "barrelGasBag_SM_Barrel13",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 28,
+        "gap": 0.0168127846
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 28,
+        "gap": 0.0168127846
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -125370,
+    "name": "barrelGasBag_SM_Barrel12",
+    "supports": [],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -3520,
+    "name": "barrelGasBag_SM_Barrel11",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 16,
+        "gap": 0.009534063
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 16,
+        "gap": 0.009534063
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -114478,
+    "name": "SM_Barrel21",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -111310,
+    "name": "SM_Barrel20",
+    "supports": [],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -140604,
+    "name": "SM_Barrel19",
+    "supports": [],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -97152,
+    "name": "SM_Barrel18",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 23,
+        "gap": -0.006154242
+      }
+    ],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": -124972,
+    "name": "SM_Barrel10",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -45740,
+    "name": "SM_Barrel9",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -28804,
+    "name": "SM_Barrel8",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -151650,
+    "name": "SM_Barrel6",
+    "supports": [
+      {
+        "id": -157392,
+        "name": "SM_PalletConus_SM_Pallet6",
+        "hits": 33,
+        "gap": 0.06154771
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -103764,
+    "name": "SM_Barrel5",
+    "supports": [
+      {
+        "id": -157392,
+        "name": "SM_PalletConus_SM_Pallet6",
+        "hits": 28,
+        "gap": 0.05493346
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -150570,
+    "name": "SM_Barrel4",
+    "supports": [
+      {
+        "id": -157392,
+        "name": "SM_PalletConus_SM_Pallet6",
+        "hits": 24,
+        "gap": 0.0700504556
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -58138,
+    "name": "SM_Barrel7",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -121822,
+    "name": "SM_Barrel13",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -151344,
+    "name": "SM_Barrel12",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -81410,
+    "name": "SM_Barrel16",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -68252,
+    "name": "SM_Barrel15",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -149694,
+    "name": "SM_Barrel14",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -40170,
+    "name": "SM_Barrel3",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -133058,
+    "name": "SM_Barrel17",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -128136,
+    "name": "SM_Barrel2",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -43534,
+    "name": "SM_Barrel",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 27,
+        "gap": 0.0134064732
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -110348,
+    "name": "SM_Barrel11",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -86826,
+    "name": "barrelGasBag_SM_Barrel9",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -142956,
+    "name": "barrelGasBag_SM_Barrel8",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -143998,
+    "name": "barrelGasBag_SM_Barrel7",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -146432,
+    "name": "barrelGasBag_SM_Barrel6",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -121310,
+    "name": "barrelGasBag_SM_Barrel5",
+    "supports": [
+      {
+        "id": -156504,
+        "name": "SM_Pallet46",
+        "hits": 26,
+        "gap": 0.03496969
+      },
+      {
+        "id": -5678,
+        "name": "SM_Pallet44",
+        "hits": 21,
+        "gap": 0.226069659
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -143582,
+    "name": "barrelGasBag_SM_Barrel3",
+    "supports": [
+      {
+        "id": -146384,
+        "name": "SM_Pallet47",
+        "hits": 5,
+        "gap": 0.0595219024
+      },
+      {
+        "id": -156504,
+        "name": "SM_Pallet46",
+        "hits": 8,
+        "gap": 0.0568985641
+      },
+      {
+        "id": -156018,
+        "name": "SM_Pallet45",
+        "hits": 15,
+        "gap": 0.251283616
+      },
+      {
+        "id": -5678,
+        "name": "SM_Pallet44",
+        "hits": 6,
+        "gap": 0.248513147
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 85300,
+    "name": "barrelGasBag_SM_Barrel2",
+    "supports": [
+      {
+        "id": -146384,
+        "name": "SM_Pallet47",
+        "hits": 20,
+        "gap": -0.00565422466
+      },
+      {
+        "id": -156018,
+        "name": "SM_Pallet45",
+        "hits": 15,
+        "gap": 0.190223247
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -65732,
+    "name": "barrelGasBag_SM_Barrel",
+    "supports": [
+      {
+        "id": -61880,
+        "name": "SM_Border17",
+        "hits": 11,
+        "gap": 0.0342865
+      },
+      {
+        "id": -146384,
+        "name": "SM_Pallet47",
+        "hits": 4,
+        "gap": 0.03643731
+      },
+      {
+        "id": -156018,
+        "name": "SM_Pallet45",
+        "hits": 3,
+        "gap": 0.241132215
+      },
+      {
+        "id": -5678,
+        "name": "SM_Pallet44",
+        "hits": 2,
+        "gap": 0.26132372
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -122356,
+    "name": "barrelGasBag_SM_Barrel10",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -16650,
+    "name": "barrelGasBag_SM_Barrel4",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 84582,
+    "name": "BP_GarbageContainer_C_2",
+    "supports": [],
+    "nearbyBuildings": [
+      103644,
+      102936
+    ]
+  },
+  {
+    "id": 83160,
+    "name": "BP_GarbageContainer_C_1",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -85618,
+    "name": "TrashDumbster3",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 6,
+        "gap": 0.09167787
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 6,
+        "gap": 0.09167787
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -113586,
+    "name": "SM_GarbageContainer2",
+    "supports": [],
+    "nearbyBuildings": [
+      85124,
+      103982
+    ]
+  },
+  {
+    "id": -140404,
+    "name": "SM_TrashDumbster5",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -77368,
+    "name": "SM_TrashDumbster4",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -96652,
+    "name": "TrashDumbster2",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -84012,
+    "name": "SM_TrashDumbster3",
+    "supports": [],
+    "nearbyBuildings": [
+      102914,
+      83974
+    ]
+  },
+  {
+    "id": -90714,
+    "name": "SM_TrashDumbster2",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -136984,
+    "name": "SM_TrashDumbster",
+    "supports": [],
+    "nearbyBuildings": [
+      84618,
+      100982
+    ]
+  },
+  {
+    "id": -124818,
+    "name": "SM_Pallet48",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -146384,
+    "name": "SM_Pallet47",
+    "supports": [
+      {
+        "id": -156018,
+        "name": "SM_Pallet45",
+        "hits": 18,
+        "gap": 0.0368247442
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -156504,
+    "name": "SM_Pallet46",
+    "supports": [
+      {
+        "id": -146432,
+        "name": "barrelGasBag_SM_Barrel6",
+        "hits": 2,
+        "gap": -0.2691679
+      },
+      {
+        "id": -156018,
+        "name": "SM_Pallet45",
+        "hits": 1,
+        "gap": 0.0305785835
+      },
+      {
+        "id": -5678,
+        "name": "SM_Pallet44",
+        "hits": 13,
+        "gap": 0.02738684
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -156018,
+    "name": "SM_Pallet45",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -5678,
+    "name": "SM_Pallet44",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -133142,
+    "name": "SM_Pallet43",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -5478,
+    "name": "SM_PalletConus_SM_Pallet10",
+    "supports": [
+      {
+        "id": -93788,
+        "name": "SM_PalletConus_SM_Pallet9",
+        "hits": 19,
+        "gap": 0.0339056551
+      },
+      {
+        "id": -120570,
+        "name": "SM_PalletConus_SM_Pallet8",
+        "hits": 15,
+        "gap": 0.222672254
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -93788,
+    "name": "SM_PalletConus_SM_Pallet9",
+    "supports": [
+      {
+        "id": -120570,
+        "name": "SM_PalletConus_SM_Pallet8",
+        "hits": 19,
+        "gap": 0.04023652
+      },
+      {
+        "id": -82132,
+        "name": "SM_PalletConus_SM_Pallet5",
+        "hits": 14,
+        "gap": 0.223419413
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -120570,
+    "name": "SM_PalletConus_SM_Pallet8",
+    "supports": [
+      {
+        "id": -82132,
+        "name": "SM_PalletConus_SM_Pallet5",
+        "hits": 17,
+        "gap": 0.03599775
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -82132,
+    "name": "SM_PalletConus_SM_Pallet5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -73690,
+    "name": "SM_Pallet42",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -151734,
+    "name": "SM_Pallet41",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -17316,
+    "name": "SM_Pallet40",
+    "supports": [
+      {
+        "id": -25018,
+        "name": "SM_Pallet38",
+        "hits": 8,
+        "gap": 0.05309173
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -56466,
+    "name": "SM_Pallet39",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -25018,
+    "name": "SM_Pallet38",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -105334,
+    "name": "SM_Pallet37",
+    "supports": [
+      {
+        "id": -85570,
+        "name": "SM_Pallet36",
+        "hits": 12,
+        "gap": 0.044655025
+      },
+      {
+        "id": -43102,
+        "name": "SM_Pallet12",
+        "hits": 15,
+        "gap": 0.299687684
+      }
+    ],
+    "nearbyBuildings": [
+      83374,
+      84464
+    ]
+  },
+  {
+    "id": -85570,
+    "name": "SM_Pallet36",
+    "supports": [
+      {
+        "id": -43102,
+        "name": "SM_Pallet12",
+        "hits": 15,
+        "gap": 0.09270719
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -85916,
+    "name": "SM_Pallet32",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -113114,
+    "name": "SM_Pallet35",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -143750,
+    "name": "SM_Pallet33",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -26454,
+    "name": "SM_Pallet31",
+    "supports": [
+      {
+        "id": -56466,
+        "name": "SM_Pallet39",
+        "hits": 3,
+        "gap": -0.232907474
+      },
+      {
+        "id": -82350,
+        "name": "SM_Pallet30",
+        "hits": 27,
+        "gap": 0.0733479
+      },
+      {
+        "id": -124248,
+        "name": "SM_Pallet29",
+        "hits": 10,
+        "gap": 0.269462675
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -82350,
+    "name": "SM_Pallet30",
+    "supports": [
+      {
+        "id": -124248,
+        "name": "SM_Pallet29",
+        "hits": 11,
+        "gap": 0.0830477253
+      },
+      {
+        "id": -156552,
+        "name": "SM_Pallet28",
+        "hits": 16,
+        "gap": 0.269643247
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -124248,
+    "name": "SM_Pallet29",
+    "supports": [
+      {
+        "id": -156552,
+        "name": "SM_Pallet28",
+        "hits": 12,
+        "gap": 0.032548476
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -156552,
+    "name": "SM_Pallet28",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -78992,
+    "name": "SM_Pallet27",
+    "supports": [
+      {
+        "id": -8276,
+        "name": "SM_Pallet26",
+        "hits": 22,
+        "gap": 0.0568927079
+      },
+      {
+        "id": -93702,
+        "name": "SM_Pallet25",
+        "hits": 20,
+        "gap": 0.226919249
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -8276,
+    "name": "SM_Pallet26",
+    "supports": [
+      {
+        "id": -93702,
+        "name": "SM_Pallet25",
+        "hits": 21,
+        "gap": 0.0339193381
+      },
+      {
+        "id": -22710,
+        "name": "SM_Pallet24",
+        "hits": 10,
+        "gap": 0.214180663
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -93702,
+    "name": "SM_Pallet25",
+    "supports": [
+      {
+        "id": -22710,
+        "name": "SM_Pallet24",
+        "hits": 11,
+        "gap": 0.0209876057
+      },
+      {
+        "id": -77956,
+        "name": "SM_Pallet23",
+        "hits": 12,
+        "gap": 0.218643978
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -22710,
+    "name": "SM_Pallet24",
+    "supports": [
+      {
+        "id": -77956,
+        "name": "SM_Pallet23",
+        "hits": 16,
+        "gap": 0.0308619868
+      },
+      {
+        "id": -64010,
+        "name": "SM_Pallet22",
+        "hits": 11,
+        "gap": 0.2131725
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -77956,
+    "name": "SM_Pallet23",
+    "supports": [
+      {
+        "id": -64010,
+        "name": "SM_Pallet22",
+        "hits": 12,
+        "gap": 0.016598314
+      },
+      {
+        "id": -92708,
+        "name": "SM_Pallet21",
+        "hits": 12,
+        "gap": 0.219218954
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -64010,
+    "name": "SM_Pallet22",
+    "supports": [
+      {
+        "id": -92708,
+        "name": "SM_Pallet21",
+        "hits": 15,
+        "gap": 0.0432598926
+      },
+      {
+        "id": -54486,
+        "name": "SM_Pallet20",
+        "hits": 11,
+        "gap": 0.2151053
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -69702,
+    "name": "SM_Pallet34",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -73738,
+    "name": "SM_PalletConus_SM_Pallet7",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -157392,
+    "name": "SM_PalletConus_SM_Pallet6",
+    "supports": [
+      {
+        "id": -136414,
+        "name": "SM_Border16",
+        "hits": 2,
+        "gap": 0.02255553
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -30432,
+    "name": "SM_PalletConus_SM_Pallet4",
+    "supports": [
+      {
+        "id": -70994,
+        "name": "SM_PalletConus_SM_Pallet3",
+        "hits": 16,
+        "gap": 0.0384221673
+      },
+      {
+        "id": -113644,
+        "name": "SM_PalletConus_SM_Pallet2",
+        "hits": 14,
+        "gap": 0.228929639
+      },
+      {
+        "id": -13842,
+        "name": "SM_HugeSign",
+        "hits": 4,
+        "gap": 0.20615688
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -70994,
+    "name": "SM_PalletConus_SM_Pallet3",
+    "supports": [
+      {
+        "id": -113644,
+        "name": "SM_PalletConus_SM_Pallet2",
+        "hits": 16,
+        "gap": 0.03993749
+      },
+      {
+        "id": -123430,
+        "name": "SM_PalletConus_SM_Pallet",
+        "hits": 16,
+        "gap": 0.248896644
+      },
+      {
+        "id": -144924,
+        "name": "SM_PalleteTruck",
+        "hits": 1,
+        "gap": 0.2874328
+      },
+      {
+        "id": -13842,
+        "name": "SM_HugeSign",
+        "hits": 3,
+        "gap": -0.00738731027
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -113644,
+    "name": "SM_PalletConus_SM_Pallet2",
+    "supports": [
+      {
+        "id": -123430,
+        "name": "SM_PalletConus_SM_Pallet",
+        "hits": 15,
+        "gap": 0.04598678
+      },
+      {
+        "id": -144924,
+        "name": "SM_PalleteTruck",
+        "hits": 2,
+        "gap": 0.0884428
+      },
+      {
+        "id": -13842,
+        "name": "SM_HugeSign",
+        "hits": 3,
+        "gap": -0.206860363
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -123430,
+    "name": "SM_PalletConus_SM_Pallet",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -43102,
+    "name": "SM_Pallet12",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -110788,
+    "name": "SM_Pallet5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -92708,
+    "name": "SM_Pallet21",
+    "supports": [
+      {
+        "id": -54486,
+        "name": "SM_Pallet20",
+        "hits": 9,
+        "gap": 0.0150362216
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -54486,
+    "name": "SM_Pallet20",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -54174,
+    "name": "SM_Pallet19",
+    "supports": [
+      {
+        "id": -41450,
+        "name": "SM_Pallet18",
+        "hits": 16,
+        "gap": 0.04326802
+      },
+      {
+        "id": -51828,
+        "name": "SM_Pallet17",
+        "hits": 11,
+        "gap": 0.214732558
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -41450,
+    "name": "SM_Pallet18",
+    "supports": [
+      {
+        "id": -30602,
+        "name": "SM_PlasticCanister19",
+        "hits": 2,
+        "gap": 0.105176851
+      },
+      {
+        "id": -51828,
+        "name": "SM_Pallet17",
+        "hits": 13,
+        "gap": 0.0133520113
+      },
+      {
+        "id": -135398,
+        "name": "SM_Pallet16",
+        "hits": 13,
+        "gap": 0.213364184
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -51828,
+    "name": "SM_Pallet17",
+    "supports": [
+      {
+        "id": -135398,
+        "name": "SM_Pallet16",
+        "hits": 25,
+        "gap": 0.08162234
+      },
+      {
+        "id": -57204,
+        "name": "SM_Pallet15",
+        "hits": 13,
+        "gap": 0.21518968
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -135398,
+    "name": "SM_Pallet16",
+    "supports": [
+      {
+        "id": -57204,
+        "name": "SM_Pallet15",
+        "hits": 13,
+        "gap": 0.0151891941
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -57204,
+    "name": "SM_Pallet15",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -101436,
+    "name": "SM_Pallet14",
+    "supports": [
+      {
+        "id": -73642,
+        "name": "SM_Pallet13",
+        "hits": 9,
+        "gap": 0.0224825237
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -73642,
+    "name": "SM_Pallet13",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -83262,
+    "name": "SM_Pallet11",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -5918,
+    "name": "SM_Pallet10",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -109208,
+    "name": "SM_Pallet9",
+    "supports": [
+      {
+        "id": -31718,
+        "name": "SM_Pallet8",
+        "hits": 21,
+        "gap": 0.06354595
+      },
+      {
+        "id": -21518,
+        "name": "SM_Pallet7",
+        "hits": 14,
+        "gap": 0.2168393
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -31718,
+    "name": "SM_Pallet8",
+    "supports": [
+      {
+        "id": -49548,
+        "name": "SM_Border15",
+        "hits": 1,
+        "gap": 0.345843554
+      },
+      {
+        "id": -21518,
+        "name": "SM_Pallet7",
+        "hits": 15,
+        "gap": 0.0293567348
+      },
+      {
+        "id": -111688,
+        "name": "SM_Pallet6",
+        "hits": 10,
+        "gap": 0.2177271
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -21518,
+    "name": "SM_Pallet7",
+    "supports": [
+      {
+        "id": -49548,
+        "name": "SM_Border15",
+        "hits": 2,
+        "gap": 0.21150516
+      },
+      {
+        "id": -111688,
+        "name": "SM_Pallet6",
+        "hits": 14,
+        "gap": 0.033629708
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -111688,
+    "name": "SM_Pallet6",
+    "supports": [
+      {
+        "id": -49548,
+        "name": "SM_Border15",
+        "hits": 4,
+        "gap": -0.02799663
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -39084,
+    "name": "SM_Pallet4",
+    "supports": [
+      {
+        "id": -110740,
+        "name": "SM_Pallet3",
+        "hits": 27,
+        "gap": 0.07868342
+      },
+      {
+        "id": -154602,
+        "name": "SM_Pallet2",
+        "hits": 11,
+        "gap": 0.2659592
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -110740,
+    "name": "SM_Pallet3",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 7,
+        "gap": 0.2790456
+      },
+      {
+        "id": -154602,
+        "name": "SM_Pallet2",
+        "hits": 12,
+        "gap": 0.07871071
+      },
+      {
+        "id": -41964,
+        "name": "SM_Pallet",
+        "hits": 12,
+        "gap": 0.313918233
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -154602,
+    "name": "SM_Pallet2",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 28,
+        "gap": 0.200995579
+      },
+      {
+        "id": -41964,
+        "name": "SM_Pallet",
+        "hits": 14,
+        "gap": 0.078707315
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -41964,
+    "name": "SM_Pallet",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 28,
+        "gap": -0.0462054424
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -68964,
+    "name": "SM_WoodBox14",
+    "supports": [
+      {
+        "id": -134212,
+        "name": "SM_MetalFlatbed3",
+        "hits": 5,
+        "gap": 0.0272591766
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -32538,
+    "name": "SM_Counter3",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 9,
+        "gap": 0.266070575
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 9,
+        "gap": 0.266070575
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -9306,
+    "name": "SM_WoodBox13",
+    "supports": [
+      {
+        "id": -84434,
+        "name": "SM_WoodBox12",
+        "hits": 17,
+        "gap": 0.08149423
+      }
+    ],
+    "nearbyBuildings": [
+      83382,
+      104014
+    ]
+  },
+  {
+    "id": -84434,
+    "name": "SM_WoodBox12",
+    "supports": [],
+    "nearbyBuildings": [
+      83382,
+      104014
+    ]
+  },
+  {
+    "id": -151858,
+    "name": "SM_WoodBox11",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -104696,
+    "name": "SM_WoodCrate15",
+    "supports": [
+      {
+        "id": -94798,
+        "name": "SM_WoodCrate14",
+        "hits": 20,
+        "gap": 0.130420834
+      }
+    ],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": -94798,
+    "name": "SM_WoodCrate14",
+    "supports": [],
+    "nearbyBuildings": [
+      102584
+    ]
+  },
+  {
+    "id": -58298,
+    "name": "SM_WoodBox10",
+    "supports": [
+      {
+        "id": -82092,
+        "name": "SM_WoodBox9",
+        "hits": 10,
+        "gap": 0.0263452921
+      },
+      {
+        "id": -6100,
+        "name": "SM_WoodBox8",
+        "hits": 4,
+        "gap": 0.02475804
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -82092,
+    "name": "SM_WoodBox9",
+    "supports": [
+      {
+        "id": -127082,
+        "name": "SM_MetalFlatbed7",
+        "hits": 6,
+        "gap": 0.06853204
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -6100,
+    "name": "SM_WoodBox8",
+    "supports": [
+      {
+        "id": -127082,
+        "name": "SM_MetalFlatbed7",
+        "hits": 5,
+        "gap": 0.0551251844
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -100628,
+    "name": "SM_WoodCrate13",
+    "supports": [
+      {
+        "id": -23960,
+        "name": "SM_WoodCrate12",
+        "hits": 14,
+        "gap": 0.11522983
+      }
+    ],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -23960,
+    "name": "SM_WoodCrate12",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -111736,
+    "name": "SM_Counter2",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 6,
+        "gap": -0.2493103
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -118224,
+    "name": "SM_WoodBox7",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -109914,
+    "name": "SM_WoodCrate11",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -98172,
+    "name": "SM_WoodCrate10",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -40522,
+    "name": "SM_WoodBox6",
+    "supports": [
+      {
+        "id": -114772,
+        "name": "SM_WoodBox5",
+        "hits": 8,
+        "gap": -0.043091055
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -114772,
+    "name": "SM_WoodBox5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -92392,
+    "name": "SM_WoodCrate9",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -156426,
+    "name": "SM_WoodBox4",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -156962,
+    "name": "SM_WoodCrate8",
+    "supports": [
+      {
+        "id": -9754,
+        "name": "SM_WoodCrate7",
+        "hits": 18,
+        "gap": 0.05484287
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -9754,
+    "name": "SM_WoodCrate7",
+    "supports": [
+      {
+        "id": -37512,
+        "name": "SM_Border12",
+        "hits": 2,
+        "gap": -0.0202753842
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -24626,
+    "name": "SM_WoodBox3",
+    "supports": [
+      {
+        "id": -102322,
+        "name": "SM_WoodBox2",
+        "hits": 7,
+        "gap": -0.0157668423
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -102322,
+    "name": "SM_WoodBox2",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -148100,
+    "name": "SM_WoodBox",
+    "supports": [
+      {
+        "id": -133880,
+        "name": "SM_WoodCrate6",
+        "hits": 18,
+        "gap": -0.00612051971
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -133880,
+    "name": "SM_WoodCrate6",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -116312,
+    "name": "SM_WoodCrate5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -155036,
+    "name": "SM_WoodCrate4",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -7320,
+    "name": "SM_WoodCrate3",
+    "supports": [
+      {
+        "id": -101436,
+        "name": "SM_Pallet14",
+        "hits": 9,
+        "gap": -0.007621212
+      },
+      {
+        "id": -73642,
+        "name": "SM_Pallet13",
+        "hits": 8,
+        "gap": 0.188131988
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -137610,
+    "name": "SM_WoodCrate2",
+    "supports": [
+      {
+        "id": -156724,
+        "name": "SM_WoodCrate",
+        "hits": 29,
+        "gap": 0.0399568081
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -156724,
+    "name": "SM_WoodCrate",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 27,
+        "gap": 0.0085982345
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -87550,
+    "name": "SM_ReelWood_SM_WoodBox13",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -43730,
+    "name": "SM_ReelWood_SM_WoodBox12",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -147654,
+    "name": "SM_ReelWood_SM_WoodBox11",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -154840,
+    "name": "SM_ReelWood_SM_WoodBox10",
+    "supports": [
+      {
+        "id": -90674,
+        "name": "SM_ReelWood_SM_WoodBox9",
+        "hits": 10,
+        "gap": 0.024908606
+      },
+      {
+        "id": -41530,
+        "name": "SM_ReelWood_SM_WoodBox8",
+        "hits": 5,
+        "gap": 0.04301455
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -90674,
+    "name": "SM_ReelWood_SM_WoodBox9",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 13,
+        "gap": 0.0159226544
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -41530,
+    "name": "SM_ReelWood_SM_WoodBox8",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 18,
+        "gap": 0.0228556246
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -99426,
+    "name": "SM_ReelWood_SM_WoodBox6",
+    "supports": [
+      {
+        "id": -125018,
+        "name": "SM_Border6",
+        "hits": 1,
+        "gap": 0.132128924
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -117374,
+    "name": "SM_ReelWood_SM_WoodBox5",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -103686,
+    "name": "SM_ReelWood_SM_WoodBox4",
+    "supports": [
+      {
+        "id": -16932,
+        "name": "SM_ReelWood_SM_WoodBox3",
+        "hits": 6,
+        "gap": 0.0126192374
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -16932,
+    "name": "SM_ReelWood_SM_WoodBox3",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -93476,
+    "name": "SM_ReelWood_SM_Counter3",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -138822,
+    "name": "SM_ReelWood_SM_WoodBox2",
+    "supports": [
+      {
+        "id": -37550,
+        "name": "SM_ReelWood_SM_WoodBox",
+        "hits": 9,
+        "gap": 0.00691791065
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -37550,
+    "name": "SM_ReelWood_SM_WoodBox",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -59296,
+    "name": "SM_ReelWood_SM_Counter",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -61178,
+    "name": "SM_ReelWood_SM_WoodBox16",
+    "supports": [
+      {
+        "id": -146922,
+        "name": "SM_ReelWood_SM_WoodBox15",
+        "hits": 12,
+        "gap": 0.0234597251
+      },
+      {
+        "id": -79566,
+        "name": "SM_ReelWood_SM_WoodBox14",
+        "hits": 4,
+        "gap": 0.03900253
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -146922,
+    "name": "SM_ReelWood_SM_WoodBox15",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -79566,
+    "name": "SM_ReelWood_SM_WoodBox14",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -79306,
+    "name": "SM_Counter",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 7,
+        "gap": -0.00126343966
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": 102372,
+    "name": "BP_ConcreteBagOnPallet_C_0",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 84458,
+    "name": "BP_ConcreteBagOnPallet_C_9",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 17,
+        "gap": -0.08450462
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 17,
+        "gap": -0.08450462
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": 103746,
+    "name": "BP_ConcreteBagOnPallet_C_8",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": 84530,
+    "name": "BP_ConcreteBagOnPallet_C_6",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": 100992,
+    "name": "BP_ConcreteBagOnPallet_C_5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 103134,
+    "name": "BP_ConcreteBagOnPallet_C_4",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": 103668,
+    "name": "BP_ConcreteBagOnPallet_C_3",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 8,
+        "gap": 0.0230895914
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 102958,
+    "name": "BP_ConcreteBagOnPallet_C_2",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": 103878,
+    "name": "BP_ConcreteBagOnPallet_C_1",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -157948,
+    "name": "SM_CementBag46",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -21604,
+    "name": "SM_CementBag45",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 30,
+        "gap": 0.0283701532
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -74912,
+    "name": "SM_CementBag113",
+    "supports": [
+      {
+        "id": -126652,
+        "name": "SM_CementBag112",
+        "hits": 16,
+        "gap": 0.035713084
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -94594,
+    "name": "SM_CementBag44",
+    "supports": [
+      {
+        "id": -5478,
+        "name": "SM_PalletConus_SM_Pallet10",
+        "hits": 18,
+        "gap": 0.013563605
+      },
+      {
+        "id": -93788,
+        "name": "SM_PalletConus_SM_Pallet9",
+        "hits": 13,
+        "gap": 0.215061054
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -63320,
+    "name": "SM_CementBag43",
+    "supports": [
+      {
+        "id": -5478,
+        "name": "SM_PalletConus_SM_Pallet10",
+        "hits": 6,
+        "gap": 0.344762534
+      },
+      {
+        "id": -24580,
+        "name": "SM_CementBag42",
+        "hits": 18,
+        "gap": 0.0330415964
+      },
+      {
+        "id": -65526,
+        "name": "SM_CementBag41",
+        "hits": 12,
+        "gap": 0.0222041775
+      },
+      {
+        "id": -91898,
+        "name": "SM_CementBag40",
+        "hits": 1,
+        "gap": 0.238149881
+      },
+      {
+        "id": -64426,
+        "name": "SM_CementBag39",
+        "hits": 31,
+        "gap": 0.195803583
+      },
+      {
+        "id": -26856,
+        "name": "SM_CementBag38",
+        "hits": 2,
+        "gap": 0.312180728
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -24580,
+    "name": "SM_CementBag42",
+    "supports": [
+      {
+        "id": -5478,
+        "name": "SM_PalletConus_SM_Pallet10",
+        "hits": 19,
+        "gap": 0.17150645
+      },
+      {
+        "id": -93788,
+        "name": "SM_PalletConus_SM_Pallet9",
+        "hits": 1,
+        "gap": 0.346705973
+      },
+      {
+        "id": -64426,
+        "name": "SM_CementBag39",
+        "hits": 13,
+        "gap": -0.0226606559
+      },
+      {
+        "id": -26856,
+        "name": "SM_CementBag38",
+        "hits": 16,
+        "gap": -0.005957365
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -65526,
+    "name": "SM_CementBag41",
+    "supports": [
+      {
+        "id": -5478,
+        "name": "SM_PalletConus_SM_Pallet10",
+        "hits": 20,
+        "gap": 0.173424691
+      },
+      {
+        "id": -93788,
+        "name": "SM_PalletConus_SM_Pallet9",
+        "hits": 2,
+        "gap": 0.347076267
+      },
+      {
+        "id": -91898,
+        "name": "SM_CementBag40",
+        "hits": 17,
+        "gap": -0.0170391873
+      },
+      {
+        "id": -64426,
+        "name": "SM_CementBag39",
+        "hits": 12,
+        "gap": -0.0123687247
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -91898,
+    "name": "SM_CementBag40",
+    "supports": [
+      {
+        "id": -5478,
+        "name": "SM_PalletConus_SM_Pallet10",
+        "hits": 23,
+        "gap": 0.01773953
+      },
+      {
+        "id": -93788,
+        "name": "SM_PalletConus_SM_Pallet9",
+        "hits": 22,
+        "gap": 0.2185936
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -64426,
+    "name": "SM_CementBag39",
+    "supports": [
+      {
+        "id": -5478,
+        "name": "SM_PalletConus_SM_Pallet10",
+        "hits": 25,
+        "gap": 0.0334988
+      },
+      {
+        "id": -93788,
+        "name": "SM_PalletConus_SM_Pallet9",
+        "hits": 22,
+        "gap": 0.22017689
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -26856,
+    "name": "SM_CementBag38",
+    "supports": [
+      {
+        "id": -5478,
+        "name": "SM_PalletConus_SM_Pallet10",
+        "hits": 27,
+        "gap": 0.0213916767
+      },
+      {
+        "id": -93788,
+        "name": "SM_PalletConus_SM_Pallet9",
+        "hits": 20,
+        "gap": 0.219892412
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": 82734,
+    "name": "BP_ConcreteBagOnPallet_C_9",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 1,
+        "gap": 0.1689941
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 1,
+        "gap": 0.1689941
+      },
+      {
+        "id": 84458,
+        "name": "BP_ConcreteBagOnPallet_C_9",
+        "hits": 27,
+        "gap": 0.0303205959
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -65816,
+    "name": "SM_CementBag35",
+    "supports": [
+      {
+        "id": 84458,
+        "name": "BP_ConcreteBagOnPallet_C_9",
+        "hits": 27,
+        "gap": 0.04221367
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -119954,
+    "name": "SM_CementBag34",
+    "supports": [
+      {
+        "id": 84458,
+        "name": "BP_ConcreteBagOnPallet_C_9",
+        "hits": 15,
+        "gap": 0.0133535247
+      },
+      {
+        "id": 82734,
+        "name": "BP_ConcreteBagOnPallet_C_9",
+        "hits": 13,
+        "gap": 0.0345525
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -119580,
+    "name": "SM_CementBag23",
+    "supports": [
+      {
+        "id": 100992,
+        "name": "BP_ConcreteBagOnPallet_C_5",
+        "hits": 31,
+        "gap": 0.0325408727
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -98126,
+    "name": "SM_CementBag22",
+    "supports": [
+      {
+        "id": 100992,
+        "name": "BP_ConcreteBagOnPallet_C_5",
+        "hits": 29,
+        "gap": 0.0189677067
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -100186,
+    "name": "SM_CementBag21",
+    "supports": [
+      {
+        "id": -90322,
+        "name": "SM_MetalFlatbed5",
+        "hits": 1,
+        "gap": -0.0553776175
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -122230,
+    "name": "SM_CementBag20",
+    "supports": [
+      {
+        "id": -90322,
+        "name": "SM_MetalFlatbed5",
+        "hits": 8,
+        "gap": -0.0249759
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -115756,
+    "name": "SM_CementBag19",
+    "supports": [
+      {
+        "id": -90322,
+        "name": "SM_MetalFlatbed5",
+        "hits": 9,
+        "gap": -0.0295206234
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -27848,
+    "name": "SM_CementBag18",
+    "supports": [
+      {
+        "id": -90322,
+        "name": "SM_MetalFlatbed5",
+        "hits": 10,
+        "gap": 0.08311816
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -52038,
+    "name": "SM_CementBag17",
+    "supports": [
+      {
+        "id": -90322,
+        "name": "SM_MetalFlatbed5",
+        "hits": 9,
+        "gap": 0.06892977
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -18940,
+    "name": "SM_CementBag16",
+    "supports": [
+      {
+        "id": -90322,
+        "name": "SM_MetalFlatbed5",
+        "hits": 8,
+        "gap": -0.0227669422
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -47798,
+    "name": "SM_CementBag15",
+    "supports": [
+      {
+        "id": -110788,
+        "name": "SM_Pallet5",
+        "hits": 17,
+        "gap": 0.2154883
+      },
+      {
+        "id": -33510,
+        "name": "SM_CementBag14",
+        "hits": 12,
+        "gap": 0.03721838
+      },
+      {
+        "id": -3880,
+        "name": "SM_CementBag12",
+        "hits": 9,
+        "gap": 0.03628353
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -33510,
+    "name": "SM_CementBag14",
+    "supports": [
+      {
+        "id": -110788,
+        "name": "SM_Pallet5",
+        "hits": 24,
+        "gap": 0.0213316735
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -110246,
+    "name": "SM_CementBag13",
+    "supports": [
+      {
+        "id": -110788,
+        "name": "SM_Pallet5",
+        "hits": 16,
+        "gap": 0.0112063736
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -3880,
+    "name": "SM_CementBag12",
+    "supports": [
+      {
+        "id": -110788,
+        "name": "SM_Pallet5",
+        "hits": 17,
+        "gap": 0.0171489567
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -97378,
+    "name": "SM_CementBag11",
+    "supports": [
+      {
+        "id": -110788,
+        "name": "SM_Pallet5",
+        "hits": 19,
+        "gap": 0.015588887
+      }
+    ],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -38042,
+    "name": "SM_CementBag10",
+    "supports": [
+      {
+        "id": -51992,
+        "name": "SM_CementBag9",
+        "hits": 28,
+        "gap": -0.0100667179
+      },
+      {
+        "id": -59622,
+        "name": "SM_CementBag8",
+        "hits": 2,
+        "gap": 0.0134116411
+      }
+    ],
+    "nearbyBuildings": [
+      83374,
+      100982
+    ]
+  },
+  {
+    "id": -51992,
+    "name": "SM_CementBag9",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -59622,
+    "name": "SM_CementBag8",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -40016,
+    "name": "SM_CementBag7",
+    "supports": [
+      {
+        "id": -30432,
+        "name": "SM_PalletConus_SM_Pallet4",
+        "hits": 18,
+        "gap": 0.0235795472
+      },
+      {
+        "id": -70994,
+        "name": "SM_PalletConus_SM_Pallet3",
+        "hits": 17,
+        "gap": 0.214590475
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -114086,
+    "name": "SM_CementBag6",
+    "supports": [
+      {
+        "id": -30432,
+        "name": "SM_PalletConus_SM_Pallet4",
+        "hits": 7,
+        "gap": 0.347121239
+      },
+      {
+        "id": -149050,
+        "name": "SM_CementBag5",
+        "hits": 14,
+        "gap": 0.019219039
+      },
+      {
+        "id": -106278,
+        "name": "SM_CementBag4",
+        "hits": 11,
+        "gap": 0.0161173567
+      },
+      {
+        "id": -51418,
+        "name": "SM_CementBag3",
+        "hits": 5,
+        "gap": 0.156946078
+      },
+      {
+        "id": -32680,
+        "name": "SM_CementBag2",
+        "hits": 19,
+        "gap": 0.182253718
+      },
+      {
+        "id": -83550,
+        "name": "SM_CementBag",
+        "hits": 3,
+        "gap": 0.192398861
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -149050,
+    "name": "SM_CementBag5",
+    "supports": [
+      {
+        "id": -30432,
+        "name": "SM_PalletConus_SM_Pallet4",
+        "hits": 23,
+        "gap": 0.1883943
+      },
+      {
+        "id": -70994,
+        "name": "SM_PalletConus_SM_Pallet3",
+        "hits": 2,
+        "gap": 0.346495271
+      },
+      {
+        "id": -32680,
+        "name": "SM_CementBag2",
+        "hits": 19,
+        "gap": -0.013092652
+      },
+      {
+        "id": -83550,
+        "name": "SM_CementBag",
+        "hits": 10,
+        "gap": -0.0211923812
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -106278,
+    "name": "SM_CementBag4",
+    "supports": [
+      {
+        "id": -30432,
+        "name": "SM_PalletConus_SM_Pallet4",
+        "hits": 21,
+        "gap": 0.168277875
+      },
+      {
+        "id": -70994,
+        "name": "SM_PalletConus_SM_Pallet3",
+        "hits": 2,
+        "gap": 0.346632034
+      },
+      {
+        "id": -51418,
+        "name": "SM_CementBag3",
+        "hits": 15,
+        "gap": -0.0132338284
+      },
+      {
+        "id": -32680,
+        "name": "SM_CementBag2",
+        "hits": 16,
+        "gap": -0.00660132337
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -51418,
+    "name": "SM_CementBag3",
+    "supports": [
+      {
+        "id": -30432,
+        "name": "SM_PalletConus_SM_Pallet4",
+        "hits": 25,
+        "gap": 0.0190276224
+      },
+      {
+        "id": -70994,
+        "name": "SM_PalletConus_SM_Pallet3",
+        "hits": 27,
+        "gap": 0.220243752
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -32680,
+    "name": "SM_CementBag2",
+    "supports": [
+      {
+        "id": -30432,
+        "name": "SM_PalletConus_SM_Pallet4",
+        "hits": 18,
+        "gap": 0.0238094162
+      },
+      {
+        "id": -70994,
+        "name": "SM_PalletConus_SM_Pallet3",
+        "hits": 20,
+        "gap": 0.216007859
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -83550,
+    "name": "SM_CementBag",
+    "supports": [
+      {
+        "id": -30432,
+        "name": "SM_PalletConus_SM_Pallet4",
+        "hits": 27,
+        "gap": 0.0202314332
+      },
+      {
+        "id": -70994,
+        "name": "SM_PalletConus_SM_Pallet3",
+        "hits": 22,
+        "gap": 0.214866057
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -93008,
+    "name": "SM_CementBag33",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -109078,
+    "name": "SM_CementBag32",
+    "supports": [
+      {
+        "id": 103668,
+        "name": "BP_ConcreteBagOnPallet_C_3",
+        "hits": 29,
+        "gap": 0.0645532757
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -4882,
+    "name": "SM_CementBag31",
+    "supports": [
+      {
+        "id": 103668,
+        "name": "BP_ConcreteBagOnPallet_C_3",
+        "hits": 28,
+        "gap": 0.07545299
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -126652,
+    "name": "SM_CementBag112",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -97494,
+    "name": "SM_CementBag87",
+    "supports": [
+      {
+        "id": -78992,
+        "name": "SM_Pallet27",
+        "hits": 27,
+        "gap": 0.0198295973
+      },
+      {
+        "id": -8276,
+        "name": "SM_Pallet26",
+        "hits": 27,
+        "gap": 0.2198418
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -59992,
+    "name": "SM_CementBag49",
+    "supports": [
+      {
+        "id": -83262,
+        "name": "SM_Pallet11",
+        "hits": 20,
+        "gap": 0.0125390887
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -12232,
+    "name": "SM_CementBag48",
+    "supports": [
+      {
+        "id": -83262,
+        "name": "SM_Pallet11",
+        "hits": 22,
+        "gap": 0.026050644
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -39258,
+    "name": "SM_CementBag47",
+    "supports": [
+      {
+        "id": -83262,
+        "name": "SM_Pallet11",
+        "hits": 25,
+        "gap": 0.0193494558
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -53344,
+    "name": "SM_CementBag30",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -50054,
+    "name": "SM_CementBag29",
+    "supports": [
+      {
+        "id": -113114,
+        "name": "SM_Pallet35",
+        "hits": 17,
+        "gap": 0.08218923
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -10702,
+    "name": "SM_CementBag28",
+    "supports": [
+      {
+        "id": -113114,
+        "name": "SM_Pallet35",
+        "hits": 24,
+        "gap": 0.0462971739
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -14404,
+    "name": "SM_CementBag27",
+    "supports": [
+      {
+        "id": -113114,
+        "name": "SM_Pallet35",
+        "hits": 21,
+        "gap": 0.0270093679
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -156380,
+    "name": "SM_CementBag26",
+    "supports": [
+      {
+        "id": 103878,
+        "name": "BP_ConcreteBagOnPallet_C_1",
+        "hits": 25,
+        "gap": 0.0221362021
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -7084,
+    "name": "SM_CementBag25",
+    "supports": [
+      {
+        "id": 103878,
+        "name": "BP_ConcreteBagOnPallet_C_1",
+        "hits": 29,
+        "gap": 0.008983932
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -67094,
+    "name": "SM_CementBag24",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -4692,
+    "name": "SM_CementBag37",
+    "supports": [
+      {
+        "id": 102372,
+        "name": "BP_ConcreteBagOnPallet_C_0",
+        "hits": 25,
+        "gap": 0.039663054
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -70880,
+    "name": "SM_CementBag36",
+    "supports": [
+      {
+        "id": 102372,
+        "name": "BP_ConcreteBagOnPallet_C_0",
+        "hits": 30,
+        "gap": 0.006308331
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -143704,
+    "name": "SM_Cardboard44",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -117182,
+    "name": "SM_Cardboard43",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -82180,
+    "name": "SM_Cardboard41",
+    "supports": [
+      {
+        "id": -117182,
+        "name": "SM_Cardboard43",
+        "hits": 1,
+        "gap": -0.000800102949
+      },
+      {
+        "id": -110680,
+        "name": "SM_MetalFlatbed10",
+        "hits": 2,
+        "gap": 0.0400375724
+      }
+    ],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -147376,
+    "name": "SM_Cardboard40",
+    "supports": [
+      {
+        "id": -110680,
+        "name": "SM_MetalFlatbed10",
+        "hits": 1,
+        "gap": 0.03438124
+      }
+    ],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -36266,
+    "name": "SM_Cardboard39",
+    "supports": [
+      {
+        "id": -89842,
+        "name": "SM_Cardboard37",
+        "hits": 6,
+        "gap": -0.0217177514
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -151898,
+    "name": "SM_Cardboard38",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 12,
+        "gap": 0.00347696245
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -89842,
+    "name": "SM_Cardboard37",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -33636,
+    "name": "SM_Cardboard36",
+    "supports": [
+      {
+        "id": 82500,
+        "name": "BP_SteelPillarPack_C_0",
+        "hits": 10,
+        "gap": 0.07411188
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -113994,
+    "name": "SM_Cardboard35",
+    "supports": [
+      {
+        "id": 82500,
+        "name": "BP_SteelPillarPack_C_0",
+        "hits": 9,
+        "gap": 0.02405589
+      }
+    ],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": -24224,
+    "name": "SM_Cardboard34",
+    "supports": [
+      {
+        "id": -21278,
+        "name": "SM_Cardboard33",
+        "hits": 5,
+        "gap": -0.0295992251
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -21278,
+    "name": "SM_Cardboard33",
+    "supports": [
+      {
+        "id": -42604,
+        "name": "SM_Ledder10",
+        "hits": 1,
+        "gap": 0.0159713328
+      }
+    ],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -46716,
+    "name": "SM_Cardboard32",
+    "supports": [
+      {
+        "id": -127520,
+        "name": "SM_Cardboard31",
+        "hits": 4,
+        "gap": -0.00765571743
+      },
+      {
+        "id": -22214,
+        "name": "SM_Cardboard30",
+        "hits": 2,
+        "gap": -0.00243906677
+      }
+    ],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -127520,
+    "name": "SM_Cardboard31",
+    "supports": [
+      {
+        "id": -73690,
+        "name": "SM_Pallet42",
+        "hits": 4,
+        "gap": -0.010121353
+      }
+    ],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -22214,
+    "name": "SM_Cardboard30",
+    "supports": [
+      {
+        "id": -73690,
+        "name": "SM_Pallet42",
+        "hits": 7,
+        "gap": 0.002271699
+      }
+    ],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -109722,
+    "name": "SM_Cardboard18",
+    "supports": [
+      {
+        "id": -92392,
+        "name": "SM_WoodCrate9",
+        "hits": 13,
+        "gap": 0.0258607473
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -10056,
+    "name": "SM_Cardboard17",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -46670,
+    "name": "SM_Cardboard16",
+    "supports": [
+      {
+        "id": -122230,
+        "name": "SM_CementBag20",
+        "hits": 1,
+        "gap": 0.0370237827
+      },
+      {
+        "id": -115756,
+        "name": "SM_CementBag19",
+        "hits": 1,
+        "gap": 0.03820634
+      },
+      {
+        "id": -27848,
+        "name": "SM_CementBag18",
+        "hits": 3,
+        "gap": 0.02361534
+      },
+      {
+        "id": -90322,
+        "name": "SM_MetalFlatbed5",
+        "hits": 1,
+        "gap": 0.18132326
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -9260,
+    "name": "SM_Cardboard15",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -46338,
+    "name": "SM_Cardboard14",
+    "supports": [
+      {
+        "id": -53982,
+        "name": "SM_IBC",
+        "hits": 16,
+        "gap": 0.0402192324
+      }
+    ],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -2878,
+    "name": "SM_Cardboard13",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -31226,
+    "name": "SM_Cardboard12",
+    "supports": [
+      {
+        "id": -135530,
+        "name": "SM_Cardboard11",
+        "hits": 3,
+        "gap": -0.00443144655
+      },
+      {
+        "id": -113028,
+        "name": "SM_Cardboard10",
+        "hits": 3,
+        "gap": 0.00350298476
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -135530,
+    "name": "SM_Cardboard11",
+    "supports": [
+      {
+        "id": -143750,
+        "name": "SM_Pallet33",
+        "hits": 5,
+        "gap": -0.00325633283
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -113028,
+    "name": "SM_Cardboard10",
+    "supports": [
+      {
+        "id": -143750,
+        "name": "SM_Pallet33",
+        "hits": 5,
+        "gap": -0.003908187
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -58844,
+    "name": "SM_Cardboard9",
+    "supports": [
+      {
+        "id": -26742,
+        "name": "SM_Cardboard8",
+        "hits": 5,
+        "gap": 0.001373446
+      },
+      {
+        "id": -102200,
+        "name": "SM_Cardboard7",
+        "hits": 4,
+        "gap": 0.00535321236
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -26742,
+    "name": "SM_Cardboard8",
+    "supports": [
+      {
+        "id": -54174,
+        "name": "SM_Pallet19",
+        "hits": 7,
+        "gap": -0.003329703
+      },
+      {
+        "id": -41450,
+        "name": "SM_Pallet18",
+        "hits": 5,
+        "gap": 0.192234337
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -102200,
+    "name": "SM_Cardboard7",
+    "supports": [
+      {
+        "id": -54174,
+        "name": "SM_Pallet19",
+        "hits": 16,
+        "gap": -0.002751002
+      },
+      {
+        "id": -41450,
+        "name": "SM_Pallet18",
+        "hits": 13,
+        "gap": 0.1948898
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -105974,
+    "name": "SM_Cardboard6",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -117984,
+    "name": "SM_Cardboard5",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -64342,
+    "name": "SM_Cardboard4",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -90382,
+    "name": "SM_Cardboard3",
+    "supports": [
+      {
+        "id": -128476,
+        "name": "SN_IBC",
+        "hits": 15,
+        "gap": -0.008733586
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -77066,
+    "name": "SM_Cardboard2",
+    "supports": [
+      {
+        "id": -20906,
+        "name": "SM_Cardboard",
+        "hits": 5,
+        "gap": 0.00542556634
+      }
+    ],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -20906,
+    "name": "SM_Cardboard",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -31848,
+    "name": "SM_Cardboard22",
+    "supports": [
+      {
+        "id": -131144,
+        "name": "SM_Cardboard21",
+        "hits": 5,
+        "gap": 0.0314831324
+      },
+      {
+        "id": -135120,
+        "name": "SM_Cardboard20",
+        "hits": 1,
+        "gap": 0.04777178
+      },
+      {
+        "id": -43684,
+        "name": "SM_Cardboard19",
+        "hits": 1,
+        "gap": 0.04120952
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -131144,
+    "name": "SM_Cardboard21",
+    "supports": [
+      {
+        "id": -47328,
+        "name": "SM_MetalFlatbed6",
+        "hits": 5,
+        "gap": 0.05051608
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -135120,
+    "name": "SM_Cardboard20",
+    "supports": [
+      {
+        "id": -47328,
+        "name": "SM_MetalFlatbed6",
+        "hits": 2,
+        "gap": 0.0426971465
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -43684,
+    "name": "SM_Cardboard19",
+    "supports": [
+      {
+        "id": -47328,
+        "name": "SM_MetalFlatbed6",
+        "hits": 2,
+        "gap": 0.04108274
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -143198,
+    "name": "SM_Cardboard27",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -31310,
+    "name": "SM_Cardboard26",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 3,
+        "gap": 0.108131893
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -88822,
+    "name": "SM_Cardboard25",
+    "supports": [
+      {
+        "id": -72868,
+        "name": "SM_MetalFlatbed4",
+        "hits": 2,
+        "gap": 0.11189577
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -60728,
+    "name": "SM_Cardboard24",
+    "supports": [
+      {
+        "id": -31310,
+        "name": "SM_Cardboard26",
+        "hits": 1,
+        "gap": -0.137889624
+      },
+      {
+        "id": -72868,
+        "name": "SM_MetalFlatbed4",
+        "hits": 1,
+        "gap": 0.0343506038
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -24972,
+    "name": "SM_Cardboard23",
+    "supports": [
+      {
+        "id": -72868,
+        "name": "SM_MetalFlatbed4",
+        "hits": 2,
+        "gap": 0.03579493
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -22982,
+    "name": "SM_Cardboard29",
+    "supports": [
+      {
+        "id": -17316,
+        "name": "SM_Pallet40",
+        "hits": 4,
+        "gap": -0.0257995278
+      },
+      {
+        "id": -25018,
+        "name": "SM_Pallet38",
+        "hits": 3,
+        "gap": 0.191025734
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -36900,
+    "name": "SM_Cardboard28",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 11,
+        "gap": 0.003225424
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -110680,
+    "name": "SM_MetalFlatbed10",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -64668,
+    "name": "SM_PalleteTruck6",
+    "supports": [],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -149144,
+    "name": "SM_MetalFlatbed8",
+    "supports": [
+      {
+        "id": -47758,
+        "name": "SM_ModulFloor4",
+        "hits": 15,
+        "gap": 0.0367289074
+      },
+      {
+        "id": -29778,
+        "name": "SM_ModulFloor3",
+        "hits": 15,
+        "gap": 0.0367289074
+      }
+    ],
+    "nearbyBuildings": [
+      103982,
+      82478
+    ]
+  },
+  {
+    "id": -117580,
+    "name": "SM_PalleteTruck5",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -149394,
+    "name": "SM_PalleteTruck4",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -139256,
+    "name": "SM_PalleteTruck3",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -123224,
+    "name": "SM_PalleteTruck2",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -144924,
+    "name": "SM_PalleteTruck",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -127082,
+    "name": "SM_MetalFlatbed7",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 19,
+        "gap": 0.0008037153
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -47328,
+    "name": "SM_MetalFlatbed6",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 19,
+        "gap": -0.0002595641
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -90322,
+    "name": "SM_MetalFlatbed5",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -72868,
+    "name": "SM_MetalFlatbed4",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 18,
+        "gap": 0.005503002
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -134212,
+    "name": "SM_MetalFlatbed3",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -64058,
+    "name": "SM_MetalFlatbed2",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -52324,
+    "name": "SM_MetalFlatbed",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -72928,
+    "name": "SM_Ledder11",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -84172,
+    "name": "SM_StepLift7",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -157472,
+    "name": "SM_StepLift6",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -42604,
+    "name": "SM_Ledder10",
+    "supports": [],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -59746,
+    "name": "SM_StepLift5",
+    "supports": [],
+    "nearbyBuildings": [
+      103644
+    ]
+  },
+  {
+    "id": -57080,
+    "name": "SM_Ledder9",
+    "supports": [
+      {
+        "id": -107398,
+        "name": "SM_ModulFloor2",
+        "hits": 17,
+        "gap": 0.00772668328
+      }
+    ],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -50730,
+    "name": "SM_StepLift4",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -12430,
+    "name": "SM_StepLift3",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -41724,
+    "name": "SM_StepLift2",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -80174,
+    "name": "SM_StepLift",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -140974,
+    "name": "SM_Ledder8",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -75220,
+    "name": "SM_Ledder7",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -96266,
+    "name": "SM_Ledder6",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -156228,
+    "name": "SM_Ledder5",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -13392,
+    "name": "SM_Ledder4",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -34750,
+    "name": "SM_Ledder3",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -32586,
+    "name": "SM_Ledder2",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -118936,
+    "name": "SM_Ledder",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -137068,
+    "name": "SM_StreetLight22",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -26540,
+    "name": "SM_StreetLight21",
+    "supports": [],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -6856,
+    "name": "SM_StreetLight20",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -21028,
+    "name": "SM_StreetLight19",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -96844,
+    "name": "SM_StreetLight18",
+    "supports": [],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": -151170,
+    "name": "SM_StreetLight17",
+    "supports": [],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": -136246,
+    "name": "SM_StreetLight16",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -69652,
+    "name": "SM_StreetLight15",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -76324,
+    "name": "SM_StreetLight14",
+    "supports": [],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -18124,
+    "name": "SM_StreetLight13",
+    "supports": [],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": -55484,
+    "name": "SM_StreetLight12",
+    "supports": [],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -105094,
+    "name": "SM_StreetLight11",
+    "supports": [],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -147130,
+    "name": "SM_StreetLight10",
+    "supports": [],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -129658,
+    "name": "SM_StreetLight9",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": -111524,
+    "name": "SM_StreetLight7",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -144592,
+    "name": "SM_StreetLight6",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 19,
+        "gap": -0.0125147887
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -34700,
+    "name": "SM_StreetLight5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -87794,
+    "name": "SM_StreetLight3",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -115050,
+    "name": "SM_StreetLight2",
+    "supports": [],
+    "nearbyBuildings": [
+      102914
+    ]
+  },
+  {
+    "id": 103944,
+    "name": "BP_RoadSign_WithAllSign_C_2",
+    "supports": [],
+    "nearbyBuildings": [
+      102936
+    ]
+  },
+  {
+    "id": 101600,
+    "name": "BP_RoadSign_WithAllSign_C_1",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -30648,
+    "name": "SM_StreetSign23",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -59668,
+    "name": "SM_StreetSign22",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -49086,
+    "name": "SM_StreetSign21",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -151258,
+    "name": "SM_StreetSign20",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -37200,
+    "name": "SM_StreetSign19",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -148500,
+    "name": "SM_StreetSign18",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -17628,
+    "name": "SM_StreetSign17",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -131028,
+    "name": "SM_StreetSign16",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -62742,
+    "name": "SM_StreetSign15",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -24176,
+    "name": "SM_StreetSign14",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -94454,
+    "name": "SM_StreetSign13",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -31138,
+    "name": "SM_StreetSign12",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -71812,
+    "name": "SM_StreetSign11",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -66672,
+    "name": "SM_StreetSign10",
+    "supports": [],
+    "nearbyBuildings": [
+      83374
+    ]
+  },
+  {
+    "id": -118370,
+    "name": "SM_StreetSign9",
+    "supports": [],
+    "nearbyBuildings": [
+      102584,
+      100982
+    ]
+  },
+  {
+    "id": -17676,
+    "name": "SM_StreetSign8",
+    "supports": [
+      {
+        "id": -113074,
+        "name": "SM_ModulFloor",
+        "hits": 24,
+        "gap": -0.117334478
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -129240,
+    "name": "SM_StreetSign7",
+    "supports": [],
+    "nearbyBuildings": [
+      84618
+    ]
+  },
+  {
+    "id": -134616,
+    "name": "SM_StreetSign6",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -86716,
+    "name": "SM_StreetSign5",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -117798,
+    "name": "SM_StreetSign4",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -64912,
+    "name": "SM_StreetSign3",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -68204,
+    "name": "SM_StreetSign2",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -104246,
+    "name": "SM_StreetSign",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -39538,
+    "name": "SM_HugeSign2",
+    "supports": [
+      {
+        "id": -21362,
+        "name": "SM_Border30",
+        "hits": 2,
+        "gap": -0.1568966
+      }
+    ],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -13842,
+    "name": "SM_HugeSign",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  },
+  {
+    "id": -126020,
+    "name": "Guard Post",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": 102640,
+    "name": "Logbook",
+    "supports": [
+      {
+        "id": -76276,
+        "name": "table",
+        "hits": 18,
+        "gap": 0.279128134
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -120330,
+    "name": "FactoryGate",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -76276,
+    "name": "table",
+    "supports": [],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -126252,
+    "name": "OldPhotoFrame_StreetMarket",
+    "supports": [
+      {
+        "id": -76276,
+        "name": "table",
+        "hits": 8,
+        "gap": 0.00639267638
+      }
+    ],
+    "nearbyBuildings": []
+  },
+  {
+    "id": -140814,
+    "name": "SM_AirConditioning16",
+    "supports": [],
+    "nearbyBuildings": [
+      100982
+    ]
+  },
+  {
+    "id": -70582,
+    "name": "SM_AirConditioning15",
+    "supports": [],
+    "nearbyBuildings": [
+      104014
+    ]
+  },
+  {
+    "id": -60780,
+    "name": "SM_AirConditioning14",
+    "supports": [
+      {
+        "id": 83382,
+        "name": "SM_ConcreteHouse_Pack_2_C_0",
+        "hits": 5,
+        "gap": -0.019097805
+      }
+    ],
+    "nearbyBuildings": [
+      83382
+    ]
+  },
+  {
+    "id": -133534,
+    "name": "SM_AirConditioning13",
+    "supports": [
+      {
+        "id": 103982,
+        "name": "BP_BrickHouse_1_C",
+        "hits": 3,
+        "gap": 0.198851824
+      }
+    ],
+    "nearbyBuildings": [
+      103982
+    ]
+  },
+  {
+    "id": -107640,
+    "name": "SM_AirConditioning12",
+    "supports": [],
+    "nearbyBuildings": [
+      82478
+    ]
+  },
+  {
+    "id": -119382,
+    "name": "SM_AirConditioning11",
+    "supports": [],
+    "nearbyBuildings": [
+      103698
+    ]
+  },
+  {
+    "id": -49204,
+    "name": "SM_AirConditioning10",
+    "supports": [],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -13044,
+    "name": "SM_AirConditioning9",
+    "supports": [
+      {
+        "id": 83974,
+        "name": "BP_BrickHouse_2_C_2",
+        "hits": 1,
+        "gap": 0.114489734
+      }
+    ],
+    "nearbyBuildings": [
+      83974
+    ]
+  },
+  {
+    "id": -142142,
+    "name": "BP_HugeSiloConstruction_3_C_1_SM_HugeSiloBase_4_3890",
+    "supports": [],
+    "nearbyBuildings": [
+      84464
+    ]
+  }
+]

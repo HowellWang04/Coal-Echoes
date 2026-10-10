@@ -1,0 +1,1737 @@
+[
+  {
+    "a": 83974,
+    "b": -113074,
+    "reason": "building on modular foundation"
+  },
+  {
+    "a": 82478,
+    "b": -47758,
+    "reason": "building on modular foundation"
+  },
+  {
+    "a": -47758,
+    "b": -29778,
+    "reason": "coincident existing modular foundations"
+  },
+  {
+    "a": 83582,
+    "b": 85124,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 85012,
+    "b": 102584,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 102454,
+    "b": 103644,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 103092,
+    "b": 82986,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 104024,
+    "b": 83382,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 83878,
+    "b": 83382,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 103052,
+    "b": 83382,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 84468,
+    "b": 102584,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 101964,
+    "b": 84464,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 102392,
+    "b": 103644,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 83674,
+    "b": 83374,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 101990,
+    "b": 84618,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 102718,
+    "b": 84618,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": 84538,
+    "b": 84464,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -47080,
+    "b": 100982,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -70216,
+    "b": 83374,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -62448,
+    "b": 83374,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -75904,
+    "b": 83374,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -128816,
+    "b": 102936,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -96482,
+    "b": 102936,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -10326,
+    "b": 84618,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -69116,
+    "b": 84618,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -113864,
+    "b": 84464,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -157008,
+    "b": 84618,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -140814,
+    "b": 100982,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -70582,
+    "b": 104014,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -60780,
+    "b": 83382,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -133534,
+    "b": 103982,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -107640,
+    "b": 82478,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -119382,
+    "b": 103698,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -49204,
+    "b": 83974,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -13044,
+    "b": 83974,
+    "reason": "verified roof or wall mesh"
+  },
+  {
+    "a": -82820,
+    "b": 83374,
+    "reason": "roof antenna confirmed in Scene View"
+  },
+  {
+    "a": -76276,
+    "b": -126020,
+    "reason": "guard post furniture"
+  },
+  {
+    "a": -121914,
+    "b": 82478,
+    "reason": "entrance aligned with building foundation"
+  },
+  {
+    "a": -120000,
+    "b": 82478,
+    "reason": "entrance aligned with building foundation"
+  },
+  {
+    "a": -139190,
+    "b": 83974,
+    "reason": "entrance aligned with building foundation"
+  },
+  {
+    "a": 83958,
+    "b": 84508,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -94018,
+    "b": -58338,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -155824,
+    "b": -118332,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -39770,
+    "b": -78530,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -61218,
+    "b": -20456,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -52276,
+    "b": -125018,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -32632,
+    "b": -125018,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -66924,
+    "b": -18298,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -18298,
+    "b": -151500,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -18298,
+    "b": -125018,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -151500,
+    "b": -125018,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -113200,
+    "b": -118824,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -99534,
+    "b": -157392,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -63674,
+    "b": -61880,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -116956,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -141978,
+    "b": -52324,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -85448,
+    "b": -5478,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -128430,
+    "b": -109914,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -92346,
+    "b": -154840,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -111852,
+    "b": -7320,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -55742,
+    "b": -87550,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -39848,
+    "b": 103668,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -131304,
+    "b": 82338,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -124446,
+    "b": -120834,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -121868,
+    "b": -30432,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -122630,
+    "b": -61178,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -77910,
+    "b": -85916,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -42012,
+    "b": -64058,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -118494,
+    "b": -64058,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -140320,
+    "b": -61880,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -29234,
+    "b": -137610,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -10778,
+    "b": -5918,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -88530,
+    "b": -5918,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -103180,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -147084,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -84388,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -150654,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -65648,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -155520,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -4240,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -9386,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -9708,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -70628,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -94752,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -133266,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -96604,
+    "b": -73738,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -24452,
+    "b": -96604,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -24736,
+    "b": 103878,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -64834,
+    "b": -52324,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -147180,
+    "b": -52324,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -54820,
+    "b": -26454,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -9800,
+    "b": -26454,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -80446,
+    "b": 83266,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -151650,
+    "b": -157392,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -103764,
+    "b": -157392,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -150570,
+    "b": -157392,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -121310,
+    "b": -156504,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -143582,
+    "b": -146384,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -143582,
+    "b": -156504,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": 85300,
+    "b": -146384,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -65732,
+    "b": -61880,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -65732,
+    "b": -146384,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -146384,
+    "b": -156018,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -156504,
+    "b": -156018,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -156504,
+    "b": -5678,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -5478,
+    "b": -93788,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -93788,
+    "b": -120570,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -120570,
+    "b": -82132,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -17316,
+    "b": -25018,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -105334,
+    "b": -85570,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -85570,
+    "b": -43102,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -26454,
+    "b": -82350,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -82350,
+    "b": -124248,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -124248,
+    "b": -156552,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -78992,
+    "b": -8276,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -8276,
+    "b": -93702,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -93702,
+    "b": -22710,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -22710,
+    "b": -77956,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -77956,
+    "b": -64010,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -64010,
+    "b": -92708,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -157392,
+    "b": -136414,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -30432,
+    "b": -70994,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -70994,
+    "b": -113644,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -70994,
+    "b": -13842,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -113644,
+    "b": -123430,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -113644,
+    "b": -144924,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -92708,
+    "b": -54486,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -54174,
+    "b": -41450,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -41450,
+    "b": -51828,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -51828,
+    "b": -135398,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -135398,
+    "b": -57204,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -101436,
+    "b": -73642,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -109208,
+    "b": -31718,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -31718,
+    "b": -21518,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -21518,
+    "b": -111688,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -111688,
+    "b": -49548,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -39084,
+    "b": -110740,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -110740,
+    "b": -154602,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -154602,
+    "b": -41964,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -68964,
+    "b": -134212,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -9306,
+    "b": -84434,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -104696,
+    "b": -94798,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -58298,
+    "b": -82092,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -58298,
+    "b": -6100,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -82092,
+    "b": -127082,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -6100,
+    "b": -127082,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -100628,
+    "b": -23960,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -40522,
+    "b": -114772,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -156962,
+    "b": -9754,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -9754,
+    "b": -37512,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -24626,
+    "b": -102322,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -148100,
+    "b": -133880,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -7320,
+    "b": -101436,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -137610,
+    "b": -156724,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -154840,
+    "b": -90674,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -154840,
+    "b": -41530,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -99426,
+    "b": -125018,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -103686,
+    "b": -16932,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -138822,
+    "b": -37550,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -61178,
+    "b": -146922,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -61178,
+    "b": -79566,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -74912,
+    "b": -126652,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -94594,
+    "b": -5478,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -63320,
+    "b": -24580,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -63320,
+    "b": -65526,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -24580,
+    "b": -64426,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -24580,
+    "b": -26856,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -65526,
+    "b": -91898,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -65526,
+    "b": -64426,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -91898,
+    "b": -5478,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -64426,
+    "b": -5478,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -26856,
+    "b": -5478,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": 82734,
+    "b": 84458,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -65816,
+    "b": 84458,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -119954,
+    "b": 84458,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -119954,
+    "b": 82734,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -119580,
+    "b": 100992,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -98126,
+    "b": 100992,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -100186,
+    "b": -90322,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -122230,
+    "b": -90322,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -115756,
+    "b": -90322,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -27848,
+    "b": -90322,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -52038,
+    "b": -90322,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -18940,
+    "b": -90322,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -47798,
+    "b": -33510,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -47798,
+    "b": -3880,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -33510,
+    "b": -110788,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -110246,
+    "b": -110788,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -3880,
+    "b": -110788,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -97378,
+    "b": -110788,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -38042,
+    "b": -51992,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -38042,
+    "b": -59622,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -40016,
+    "b": -30432,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -114086,
+    "b": -149050,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -114086,
+    "b": -106278,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -149050,
+    "b": -32680,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -149050,
+    "b": -83550,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -106278,
+    "b": -51418,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -106278,
+    "b": -32680,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -51418,
+    "b": -30432,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -32680,
+    "b": -30432,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -83550,
+    "b": -30432,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -109078,
+    "b": 103668,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -4882,
+    "b": 103668,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -97494,
+    "b": -78992,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -59992,
+    "b": -83262,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -12232,
+    "b": -83262,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -39258,
+    "b": -83262,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -50054,
+    "b": -113114,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -10702,
+    "b": -113114,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -14404,
+    "b": -113114,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -156380,
+    "b": 103878,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -7084,
+    "b": 103878,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -4692,
+    "b": 102372,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -70880,
+    "b": 102372,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -82180,
+    "b": -117182,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -82180,
+    "b": -110680,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -147376,
+    "b": -110680,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -36266,
+    "b": -89842,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -33636,
+    "b": 82500,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -113994,
+    "b": 82500,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -24224,
+    "b": -21278,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -21278,
+    "b": -42604,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -46716,
+    "b": -127520,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -46716,
+    "b": -22214,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -127520,
+    "b": -73690,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -22214,
+    "b": -73690,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -109722,
+    "b": -92392,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -46670,
+    "b": -122230,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -46670,
+    "b": -115756,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -46670,
+    "b": -27848,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -46338,
+    "b": -53982,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -31226,
+    "b": -135530,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -31226,
+    "b": -113028,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -135530,
+    "b": -143750,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -113028,
+    "b": -143750,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -58844,
+    "b": -26742,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -58844,
+    "b": -102200,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -26742,
+    "b": -54174,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -102200,
+    "b": -54174,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -90382,
+    "b": -128476,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -77066,
+    "b": -20906,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -31848,
+    "b": -131144,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -31848,
+    "b": -135120,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -31848,
+    "b": -43684,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -131144,
+    "b": -47328,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -135120,
+    "b": -47328,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -43684,
+    "b": -47328,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -88822,
+    "b": -72868,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -60728,
+    "b": -72868,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -24972,
+    "b": -72868,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -22982,
+    "b": -17316,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": -39538,
+    "b": -21362,
+    "reason": "mesh support and existing stack"
+  },
+  {
+    "a": 102388,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -118332,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -2262,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -148014,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -86276,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -147328,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -119162,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -92584,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -98940,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -73924,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -114724,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -91120,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -134696,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -25868,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -41794,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -3440,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -147536,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -56072,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -63902,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -63902,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -52616,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -116146,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -125018,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -148348,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -130444,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -137186,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -129544,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -61880,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -51106,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -51106,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -98294,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -98294,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -47720,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -47720,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -8132,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -157162,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -62828,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -134310,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -40132,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -44482,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -33472,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -141812,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -87590,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -125820,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -79744,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -153688,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -78946,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -87366,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -30246,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -66244,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -81660,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -38992,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -147846,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -152984,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -19664,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -71412,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -103602,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": 102146,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": 102146,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -157650,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -157650,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -99050,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -99050,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -3520,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -3520,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -97152,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -43534,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -85618,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -85618,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -41964,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -32538,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -32538,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -111736,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -156724,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -90674,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -41530,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -79306,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": 84458,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": 84458,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": 103668,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -21604,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -151898,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -31310,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -36900,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -149144,
+    "b": -47758,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -149144,
+    "b": -29778,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -127082,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -47328,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -72868,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -57080,
+    "b": -107398,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -144592,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -17676,
+    "b": -113074,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": 102640,
+    "b": -76276,
+    "reason": "rests on structural surface"
+  },
+  {
+    "a": -126252,
+    "b": -76276,
+    "reason": "rests on structural surface"
+  }
+]
