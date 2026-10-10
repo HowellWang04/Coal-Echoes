@@ -1,0 +1,79 @@
+var entries = Newtonsoft.Json.Linq.JArray.Parse(System.IO.File.ReadAllText("ArtSource/NatureAssetSetup/rename-plan.json"));
+var before = Newtonsoft.Json.Linq.JArray.Parse(System.IO.File.ReadAllText("ArtSource/NatureAssetSetup/references-before.json"));
+var issues = new System.Collections.Generic.List<string>();
+var results = new System.Collections.Generic.List<object>();
+string ObjectKey(UnityEngine.Object obj) {
+    if (obj == null) return "null";
+    string guid; long id; AssetDatabase.TryGetGUIDAndLocalFileIdentifier(obj, out guid, out id);
+    return guid + "/" + id;
+}
+foreach (var e in entries) {
+    var path = (string)e["newPath"];
+    var guid = (string)e["guid"];
+    var a = AssetDatabase.LoadAssetAtPath<GameObject>(path);
+    if (a == null) { issues.Add("Missing prefab " + path); continue; }
+    if (AssetDatabase.AssetPathToGUID(path) != guid) issues.Add("GUID " + path);
+    if (a.name != (string)e["name"]) issues.Add("Name " + path);
+    foreach (var t in a.GetComponentsInChildren<Transform>(true))
+        if (GameObjectUtility.GetMonoBehavioursWithMissingScriptCount(t.gameObject) > 0) issues.Add("Missing script " + path);
+    var previous = before.First(x => (string)x["guid"] == guid);
+    var renderers = a.GetComponentsInChildren<Renderer>(true);
+    foreach (var old in previous["renderers"]) {
+        var meshKey = (string)old["mesh"];
+        var matched = false;
+        foreach (var r in renderers) {
+            var mf = r.GetComponent<MeshFilter>();
+            if (mf == null || ObjectKey(mf.sharedMesh) != meshKey) continue;
+            var mats = r.sharedMaterials.Select(m => ObjectKey(m)).ToArray();
+            if (!mats.SequenceEqual(old["materials"].Select(v => (string)v))) continue;
+            var b = r.bounds;
+            var values = new[] { b.center.x, b.center.y, b.center.z, b.size.x, b.size.y, b.size.z };
+            if (values.Where((v, i) => Mathf.Abs(v - (float)old["bounds"][i]) > .001f).Any()) continue;
+            matched = true; break;
+        }
+        if (!matched) issues.Add("Original renderer changed " + path + " " + (string)old["node"]);
+    }
+    var levels = new System.Collections.Generic.List<object>();
+    foreach (var g in a.GetComponentsInChildren<LODGroup>(true)) {
+        long lastTris = long.MaxValue;
+        var previousThreshold = 1.01f;
+        foreach (var l in g.GetLODs()) {
+            long tris = 0;
+            foreach (var r in l.renderers) {
+                if (r == null) { issues.Add("Null LOD renderer " + path); continue; }
+                var m = r.GetComponent<MeshFilter>().sharedMesh;
+                if (m == null) { issues.Add("Null LOD mesh " + path); continue; }
+                for (int s = 0; s < m.subMeshCount; s++) tris += (long)m.GetIndexCount(s) / 3;
+                foreach (var mat in r.sharedMaterials) if (mat == null || mat.shader == null || mat.shader.name == "Hidden/InternalErrorShader") issues.Add("Invalid material " + path);
+            }
+            if (tris > lastTris) issues.Add("LOD triangle order " + path);
+            if (l.screenRelativeTransitionHeight >= previousThreshold) issues.Add("LOD threshold order " + path);
+            lastTris = tris; previousThreshold = l.screenRelativeTransitionHeight;
+            levels.Add(new { triangles = tris, threshold = l.screenRelativeTransitionHeight });
+        }
+    }
+    var colliderCount = a.GetComponentsInChildren<Collider>(true).Length;
+    if ((bool)e["solid"] && (colliderCount == 0 || levels.Count < 2)) issues.Add("Solid setup " + path);
+    if ((string)e["category"] == "Pebbles" && colliderCount > 0) issues.Add("Pebble collision " + path);
+    var rayHits = 0;
+    if ((bool)e["solid"]) {
+        var instance = PrefabUtility.LoadPrefabContents(path);
+        try {
+            Physics.SyncTransforms();
+            foreach (var c in instance.GetComponentsInChildren<Collider>(true)) {
+                if (!c.enabled || c.isTrigger) { issues.Add("Inactive solid collider " + path); continue; }
+                var b = c.bounds;
+                foreach (var direction in new[] { Vector3.up, Vector3.down, Vector3.left, Vector3.right, Vector3.forward, Vector3.back }) {
+                    var distance = b.extents.magnitude + 1f;
+                    RaycastHit hit;
+                    if (c.Raycast(new Ray(b.center + direction * distance, -direction), out hit, distance * 2f)) rayHits++;
+                }
+            }
+        } finally { PrefabUtility.UnloadPrefabContents(instance); }
+        if (rayHits == 0) issues.Add("No collision ray hits " + path);
+    }
+    results.Add(new { path, guid, colliderCount, levels, rayHits });
+}
+var report = new { count = results.Count, issues, results, activeScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().path, sceneDirty = UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty, playing = EditorApplication.isPlaying };
+System.IO.File.WriteAllText("ArtSource/NatureAssetSetup/verification.json", Newtonsoft.Json.JsonConvert.SerializeObject(report, Newtonsoft.Json.Formatting.Indented));
+return new { count = results.Count, issues, report.sceneDirty, report.playing };

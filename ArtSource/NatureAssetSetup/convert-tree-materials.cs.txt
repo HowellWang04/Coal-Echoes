@@ -1,0 +1,38 @@
+var shader = Shader.Find("HDRP/Lit");
+if (shader == null) throw new System.Exception("HDRP/Lit unavailable");
+var changed = new System.Collections.Generic.List<object>();
+foreach (var guid in AssetDatabase.FindAssets("t:Material", new[] { "Assets/Art Resources/ThirdPartyPacks/URP_Tree_Pack/Models" })) {
+    var path = AssetDatabase.GUIDToAssetPath(guid);
+    var material = AssetDatabase.LoadAssetAtPath<Material>(path);
+    if (material.shader.name != "Universal Render Pipeline/Lit") continue;
+    var backup = "ArtSource/NatureAssetSetup/Before/" + path;
+    System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(backup));
+    System.IO.File.Copy(path, backup, false);
+    System.IO.File.Copy(path + ".meta", backup + ".meta", false);
+    var texture = material.GetTexture("_BaseMap");
+    var scale = material.GetTextureScale("_BaseMap");
+    var offset = material.GetTextureOffset("_BaseMap");
+    var color = material.GetColor("_BaseColor");
+    var metallic = material.GetFloat("_Metallic");
+    var smoothness = material.GetFloat("_Smoothness");
+    var alphaClip = material.GetFloat("_AlphaClip");
+    var cutoff = material.GetFloat("_Cutoff");
+    material.shader = shader;
+    material.SetTexture("_BaseColorMap", texture);
+    material.SetTextureScale("_BaseColorMap", scale);
+    material.SetTextureOffset("_BaseColorMap", offset);
+    material.SetColor("_BaseColor", color);
+    material.SetFloat("_Metallic", metallic);
+    material.SetFloat("_Smoothness", smoothness);
+    material.SetFloat("_SurfaceType", 0f);
+    material.SetFloat("_AlphaCutoffEnable", alphaClip);
+    material.SetFloat("_AlphaCutoff", cutoff);
+    material.SetFloat("_AlphaCutoffShadow", cutoff);
+    material.SetFloat("_DoubleSidedEnable", 0f);
+    UnityEditor.Rendering.HighDefinition.HDShaderUtils.ResetMaterialKeywords(material);
+    EditorUtility.SetDirty(material);
+    AssetDatabase.SaveAssetIfDirty(material);
+    changed.Add(new { path, guid, shader = material.shader.name, texture = AssetDatabase.GetAssetPath(texture), alphaClip, cutoff });
+}
+System.IO.File.WriteAllText("ArtSource/NatureAssetSetup/tree-materials.json", Newtonsoft.Json.JsonConvert.SerializeObject(changed, Newtonsoft.Json.Formatting.Indented));
+return new { count = changed.Count };

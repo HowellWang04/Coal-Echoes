@@ -1,0 +1,28 @@
+var folder = "Assets/Art Resources/ThirdPartyPacks/RocksGobi/GeneratedMeshes";
+if (!AssetDatabase.IsValidFolder(folder)) AssetDatabase.CreateFolder("Assets/Art Resources/ThirdPartyPacks/RocksGobi", "GeneratedMeshes");
+var files = System.IO.Directory.GetFiles("ArtSource/NatureAssetSetup/Before/Generated", "*.json");
+var imported = new System.Collections.Generic.List<string>();
+AssetDatabase.StartAssetEditing();
+try {
+    foreach (var file in files) {
+        var d = Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(file));
+        var name = (string)d["name"];
+        var path = folder + "/" + name + ".asset";
+        if (AssetDatabase.LoadAssetAtPath<Mesh>(path) != null) throw new System.Exception("Already exists " + path);
+        var vs = new System.Collections.Generic.List<Vector3>();
+        var ns = new System.Collections.Generic.List<Vector3>();
+        var us = new System.Collections.Generic.List<Vector2>();
+        var ts = new System.Collections.Generic.List<int>();
+        foreach (var v in d["vertices"]) vs.Add(new Vector3((float)v[0], (float)v[1], (float)v[2]));
+        foreach (var v in d["normals"]) ns.Add(new Vector3((float)v[0], (float)v[1], (float)v[2]));
+        foreach (var v in d["uv"]) us.Add(new Vector2((float)v[0], (float)v[1]));
+        foreach (var v in d["triangles"]) ts.Add((int)v);
+        var m = new Mesh { name = name, indexFormat = UnityEngine.Rendering.IndexFormat.UInt32 };
+        m.SetVertices(vs); m.SetNormals(ns); m.SetUVs(0, us); m.SetTriangles(ts, 0);
+        m.RecalculateBounds(); m.RecalculateTangents();
+        AssetDatabase.CreateAsset(m, path);
+        imported.Add(path);
+    }
+} finally { AssetDatabase.StopAssetEditing(); }
+foreach (var path in imported) AssetDatabase.SaveAssetIfDirty(AssetDatabase.LoadAssetAtPath<Mesh>(path));
+return new { count = imported.Count };
