@@ -107,10 +107,20 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
     public string AddPhotoFromTexture(Texture2D fullResCopy)
     {
         EnsureInitialized();
-        string fileName = CameraPhotoStorage.SavePhotoPng(fullResCopy);
-
-        fileNames.Insert(0, fileName);
-        CameraPhotoStorage.SaveManifest(fileNames);
+        string fileName;
+        try
+        {
+            fileName = CameraPhotoStorage.SavePhotoPng(fullResCopy);
+            var updated = new List<string>(fileNames);
+            updated.Insert(0, fileName);
+            CameraPhotoStorage.SaveManifest(updated);
+            fileNames = updated;
+        }
+        catch (System.Exception error) when (error is IOException || error is System.UnauthorizedAccessException)
+        {
+            Debug.LogError($"Could not save photo: {error.Message}");
+            return null;
+        }
 
         pageIndex = 0;
         Refresh();

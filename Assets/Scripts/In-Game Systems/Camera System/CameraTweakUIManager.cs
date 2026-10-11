@@ -94,6 +94,8 @@ public class CameraTweakUIManager : MonoBehaviour
 
     private void Awake()
     {
+        if (gridToggle != null) gridToggle.SetIsOnWithoutNotify(false);
+        OnGridToggleChanged(false);
         Initialize();
         ConfigureTabTransitions();
     }

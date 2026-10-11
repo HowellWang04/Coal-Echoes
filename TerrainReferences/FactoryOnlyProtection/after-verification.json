@@ -1,0 +1,422 @@
+{
+  "phase": "After",
+  "terrains": 58,
+  "factory_changed": 0,
+  "outside_changed": 0,
+  "seams_not_worsened": true,
+  "seam_pairs": 93,
+  "seam_max_m": 0.23500174283981323,
+  "lod_pairs": 22,
+  "lod_max_m": 0.0,
+  "quantization_max_m": 0.016801059246063232,
+  "rows": [
+    {
+      "name": "Tile_0_-2_Main",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_0_-1_Main",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_0_-1_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_0_Main",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_0_Draft",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_-2_Main",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_-2_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_-1_Main",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_-1_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_0_Main",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_0_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_3_0_Draft",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_1_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_1_Main",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_-2_Main",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_-2_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_-1_Main",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_-1_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_0_Main",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_0_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_-3_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_-3_Draft",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_3_-1_Draft",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-2_1_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-2_0_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-2_-1_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-2_-2_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-2_-3_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_0_1_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_0_1_Main",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_1_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_1_Main",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_3_-2_Draft",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_3_-3_Draft",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_0_0_Main",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_0_0_Draft",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-2_2_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-2_2_Main",
+      "quantization_error_m": 0.016801059246063232,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_2_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_-1_2_Main",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_0_2_Draft",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_0_2_Main",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "quantization_error_m": 0.016751885414123535,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "quantization_error_m": 0.01678466796875,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_3_2_Draft",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    },
+    {
+      "name": "Tile_3_2_Main",
+      "quantization_error_m": 0.0,
+      "factory_changed": 0,
+      "outside_changed": 0,
+      "material_outside_changed": 0
+    }
+  ],
+  "transforms_unchanged": true,
+  "locks_unchanged": true
+}

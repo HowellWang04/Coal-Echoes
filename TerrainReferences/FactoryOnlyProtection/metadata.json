@@ -1,0 +1,19 @@
+{
+  "resolution": 3073,
+  "spacing_m": 2.0,
+  "extent_xz": [
+    -4996.00049,
+    1147.9995099999996,
+    -3986.0,
+    2158.0
+  ],
+  "factory": {
+    "x": -2158.54858,
+    "z": -1787.29346,
+    "radius": 335.0,
+    "transition": 40.0
+  },
+  "boundary_slope_fade_m": 160,
+  "free_samples": 4656465,
+  "former_core_fixed": false
+}

@@ -1,0 +1,240 @@
+{
+  "terrains": [
+    {
+      "name": "Tile_0_-2_Main",
+      "heightHash": "f8221114c8af6e5c401fbbb3b32b6ce0ba847621b7da03dbad8a662c19f5607e"
+    },
+    {
+      "name": "Tile_0_-2_Draft",
+      "heightHash": "37bf7dfb36253cbfc5231a7ab8827fe87ce31f140c7a4d46e982c39fa39543cc"
+    },
+    {
+      "name": "Tile_0_-1_Main",
+      "heightHash": "a2ffb9d03337c988ba1cb8e2447ab80e7f50db8f72a87c2d264574e68fc94c19"
+    },
+    {
+      "name": "Tile_0_-1_Draft",
+      "heightHash": "1a2b5a9f5ab6b50e67545bd6b3b3e83b4e27f18c168c582940b19cd13b6eaa03"
+    },
+    {
+      "name": "Tile_1_-2_Main",
+      "heightHash": "3682ac3ca452a14dc0fdd2e6effed6c97b778dbd342596f0d9a229025a0dfdc2"
+    },
+    {
+      "name": "Tile_1_-2_Draft",
+      "heightHash": "6915795f4798e3eb733bb68a361a91baddb918eea23bbc79554c0cce686c3180"
+    },
+    {
+      "name": "Tile_1_-1_Main",
+      "heightHash": "a712443e5d539da3c37a36e97f681ea1ee9f3b71c12124d412a5f1a6643cd78c"
+    },
+    {
+      "name": "Tile_1_-1_Draft",
+      "heightHash": "fd9fa3a90cbb769fcb16fb8800a00f4cf3b339bc39fb4a53ce016dd60cee2bc6"
+    },
+    {
+      "name": "Tile_1_0_Main",
+      "heightHash": "bb2f1694cc5ed3aee8bc78a379b10f5cfefca519ee5d925c9514463fc93bda01"
+    },
+    {
+      "name": "Tile_1_0_Draft",
+      "heightHash": "e913b15302ff93b8673b8667cf7b900aa76eb4f6bc98a7b4188ad3fc6f0598b9"
+    },
+    {
+      "name": "Tile_2_-2_Main",
+      "heightHash": "9305a4f76d558c8094cd8296cec29c5472a73047044a20900a559bfd40e1160d"
+    },
+    {
+      "name": "Tile_2_-2_Draft",
+      "heightHash": "0341834a9924eef28c0384245d624e243e7870df9dfda4955bf528a65548f101"
+    },
+    {
+      "name": "Tile_2_-1_Main",
+      "heightHash": "a01fde95a39cce55ee44dcbd636b73c2d363ec0c9674095c37ce0b13c56a9bf6"
+    },
+    {
+      "name": "Tile_2_-1_Draft",
+      "heightHash": "9e319af33c35026d18574e6bb12596dac83710458eb870ccd5719f92e658bf43"
+    },
+    {
+      "name": "Tile_2_0_Main",
+      "heightHash": "f171e5bb3ce35bf02cf53d0438e5f1389bfaecc6fe4b7ebf89c011abd61130b8"
+    },
+    {
+      "name": "Tile_2_0_Draft",
+      "heightHash": "cbcfebf4fbe23cd756db7406499bd4e335dde2c9676e1f85995e2d338d34adfe"
+    },
+    {
+      "name": "Tile_3_0_Draft",
+      "heightHash": "ab43e0b51401a404d596bf2e2a2a13f4abf442693fc556066509418da4c36bce"
+    },
+    {
+      "name": "Tile_1_1_Draft",
+      "heightHash": "94d75bf78856b5bb2a85b199c7333029de6fa43e793fa838383f6608932a1bda"
+    },
+    {
+      "name": "Tile_1_1_Main",
+      "heightHash": "cf99ff7a85c6d6698f0c40bc3fa1f6f1bb3d1df5033aeb8242af082795f70a81"
+    },
+    {
+      "name": "Tile_2_1_Draft",
+      "heightHash": "84e243cafd1ad268123e5202f6b71f4396303ef09cfcb77e8911104d629d7eb9"
+    },
+    {
+      "name": "Tile_2_1_Main",
+      "heightHash": "86402e8b778ed8e17731aefff55710e7b8990499e6b9621a1fcc11eefbec1617"
+    },
+    {
+      "name": "Tile_3_1_Draft",
+      "heightHash": "526a325c617c7c4cc3c038b466871ed054755358b7d4c8bf350f5c58e8590ba8"
+    },
+    {
+      "name": "Tile_-1_-2_Main",
+      "heightHash": "01dcea6fd33212bd8f0adc0d9f39ddf91f96af7ffa0f7adb4939b2c46693d022"
+    },
+    {
+      "name": "Tile_-1_-2_Draft",
+      "heightHash": "1a13cacb6cb232ece21c19a1ee97af7f76fc5b1552ebeb6e2027d5e5adab40df"
+    },
+    {
+      "name": "Tile_-1_-1_Main",
+      "heightHash": "c5a5214c0ad8c3d28da0d923e8230cc9e40ceef81d0e792b3397a13fa2cd5b47"
+    },
+    {
+      "name": "Tile_-1_-1_Draft",
+      "heightHash": "210c415be776544beacbb7de17915b76c168ac40253903cb2aad46b89e84d4ec"
+    },
+    {
+      "name": "Tile_-1_0_Main",
+      "heightHash": "9daa85bcafe782a63afbcf974a18c4c0e271e504066f9d81fc9270ed412474d2"
+    },
+    {
+      "name": "Tile_-1_0_Draft",
+      "heightHash": "e9a95cea74210a7c6511fad63e636570344d0329e1e746c45746fffda58d7f07"
+    },
+    {
+      "name": "Tile_0_-3_Draft",
+      "heightHash": "7374a46d00877b964fc77062e37ddec865a702806f699b9a9179827e681f739f"
+    },
+    {
+      "name": "Tile_1_-3_Draft",
+      "heightHash": "c4e2b86c004594e8e970b5f065e0564b8b7c710210a07ca61a30cb27f80aedfc"
+    },
+    {
+      "name": "Tile_2_-3_Draft",
+      "heightHash": "382708a3610df31b8261e045da66c9a0203e52d9e3dbc2b7f4c294e44461a13d"
+    },
+    {
+      "name": "Tile_3_-1_Draft",
+      "heightHash": "9fb584c644bff0ad6aa615d5af254db79c3f03f7c16025582ad5348fa265adb2"
+    },
+    {
+      "name": "Tile_-1_-3_Draft",
+      "heightHash": "6d9467606540db0348738e906ef08acb20cd66646e96ef7178086599e252d197"
+    },
+    {
+      "name": "Tile_-2_1_Draft",
+      "heightHash": "6a65fb57d4400afe5f00a6fe6fd6b027612ffabd053fe6f41536d40caf02b06b"
+    },
+    {
+      "name": "Tile_-2_0_Draft",
+      "heightHash": "7b3f9605b15b9dba518e97c1dd77111f4843daeb8c35bc06a72c9d9e07bb6755"
+    },
+    {
+      "name": "Tile_-2_-1_Draft",
+      "heightHash": "055e8018c422e08c98d8c08e1d5a6ceadde911ab0bf52381e83c6e2911d60406"
+    },
+    {
+      "name": "Tile_-2_-2_Draft",
+      "heightHash": "9bed71321f397bc439855f6f2e8d409ddf278e5ee16eda791bddf20efe2e994a"
+    },
+    {
+      "name": "Tile_-2_-3_Draft",
+      "heightHash": "5ed80c4a608f3f87ff581e572ad09bb522116344b7ba0513e883f6fbf6629f90"
+    },
+    {
+      "name": "Tile_0_1_Draft",
+      "heightHash": "a9246f555fe8b321c2b874474275cba61a4ec529317994ce1bf1ac44d69074e9"
+    },
+    {
+      "name": "Tile_0_1_Main",
+      "heightHash": "6b539ae493ab49e0c1e12cf0ba3001f7cb756c43eb4b3516754b8bab0cd4cf6d"
+    },
+    {
+      "name": "Tile_-1_1_Draft",
+      "heightHash": "6c82edb209f59157dbb0e7f5c34d1d132c8f1c30288f7c403ea87db77da6945d"
+    },
+    {
+      "name": "Tile_-1_1_Main",
+      "heightHash": "c1470c05bf895769e0264c7325491bb7cb2854c28f43010a815ccef928a2ab26"
+    },
+    {
+      "name": "Tile_3_-2_Draft",
+      "heightHash": "e321ea6d9acc194061fc198248fe6aa968f4544a02a89bd66a3182ec3d2da4b0"
+    },
+    {
+      "name": "Tile_3_-3_Draft",
+      "heightHash": "7d344324b6837729000832614ed8b8ff12352a6e2d15f8b0012835df48562a31"
+    },
+    {
+      "name": "Tile_0_0_Main",
+      "heightHash": "5e84e106b4e5205c00d9c8ad4a401dba969707936a63d6e8727ed5612059e05a"
+    },
+    {
+      "name": "Tile_0_0_Draft",
+      "heightHash": "8b78027f0d7b02e314074d6385e9ab923c4cde9565073d0bbd61a446be8fa6c9"
+    },
+    {
+      "name": "Tile_-2_2_Draft",
+      "heightHash": "2bc14c3176cf826f2a06f226d372dedd3d9450ec3e728506dd83591ad0d4249c"
+    },
+    {
+      "name": "Tile_-2_2_Main",
+      "heightHash": "193ab8c210a63f15eac96afbddd2d1bfe4b4c84e471c2c47e83be6eab45b7753"
+    },
+    {
+      "name": "Tile_-1_2_Draft",
+      "heightHash": "f9a0a8a9274b080bdb2b8b2e95bc3ff2d37e097a4b7bf0d58a9722707454444e"
+    },
+    {
+      "name": "Tile_-1_2_Main",
+      "heightHash": "b6a8d0d23a4cdbac4afd5301e5f5af7a4510a521d69b2ed2b649c062f562812c"
+    },
+    {
+      "name": "Tile_0_2_Draft",
+      "heightHash": "aa42dd14cab63e2b9cd545fbbf9fba061eed2b63c29f12646fabffe480975c2a"
+    },
+    {
+      "name": "Tile_0_2_Main",
+      "heightHash": "0d6c9d98aa8a5eebd83446dcb7fbba9a1d79c0b420bcdfb55029348e50864d6d"
+    },
+    {
+      "name": "Tile_1_2_Draft",
+      "heightHash": "085ba39e87fd206e41b2615b1df9700dda0f23354230bfea707416e84e2e8827"
+    },
+    {
+      "name": "Tile_1_2_Main",
+      "heightHash": "92baff1a1a4a4aadd67b9be4cd6d50ab70937ddc713e02bedb90e3ae9b91d333"
+    },
+    {
+      "name": "Tile_2_2_Draft",
+      "heightHash": "b7ccf57ae275116b4139d6386c4b61158ef3c2aaad532ddb50ff00ab2770e1c7"
+    },
+    {
+      "name": "Tile_2_2_Main",
+      "heightHash": "611468c82249f2a850da84894d6ca1811f17c85c174994c9bb38b4d088cb0cd0"
+    },
+    {
+      "name": "Tile_3_2_Draft",
+      "heightHash": "832bb1d5131480b962fd81b2b70f4d8302c642889fc93ebd5aa371e378bea38b"
+    },
+    {
+      "name": "Tile_3_2_Main",
+      "heightHash": "0c31ba34f4f884b536e62d986d675e669258e5eb19dd929532d43e937d307985"
+    }
+  ],
+  "transformsUnchanged": true,
+  "locks": "[{\"locked\":true,\"guiName\":\"Ridge factory\",\"relativeHeight\":false,\"worldRadius\":335.0,\"worldTransition\":40.0,\"p\":[765.4519,710.0,-873.2935]}]",
+  "auto": true,
+  "generating": false
+}

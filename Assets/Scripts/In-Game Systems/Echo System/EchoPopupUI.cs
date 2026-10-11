@@ -6,7 +6,7 @@ public class EchoPopupUI : MonoBehaviour
 {
     [SerializeField] private GameObject popupRoot;
     [SerializeField] private TMP_Text contentText;
-    [SerializeField] private string popupMessage = "New echo captured!";
+    [SerializeField] private string popupMessage = "New Echo Discovered";
     [SerializeField] private float displayDuration = 2f;
 
     private Coroutine hideRoutine;

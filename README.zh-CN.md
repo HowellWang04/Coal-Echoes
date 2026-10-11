@@ -36,6 +36,7 @@ Project Coal/
 ## 文档
 
 - [游戏设计](Docs/game-design.md)：玩法、回响系统、关卡与物品
+- [开场与第一关流程 Spec](Docs/opening-level-one-spec.md)，开场演出、日记获取、关卡进度与探索记录
 - [故事](Docs/story-flow.md)：叙事分层、已定稿文字
 - [技术栈](Docs/tech-stack.md)
 - [美术资源](Docs/art-assets.md)

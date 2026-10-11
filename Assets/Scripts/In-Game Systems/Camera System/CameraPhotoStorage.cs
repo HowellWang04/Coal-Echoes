@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-// Use System.Threading.Tasks for asynchronous file writing when saving photos to avoid blocking the main thread
-using System.Threading.Tasks;
 using UnityEngine;
 
 [Serializable]
@@ -52,7 +50,7 @@ public static class CameraPhotoStorage
         string fileName = $"CapturedPhoto_{DateTime.Now:yyyyMMdd_HHmmss_fff}.png";
         string path = Path.Combine(PhotosDir, fileName);
         byte[] bytes = tex.EncodeToPNG();
-        Task.Run(() => File.WriteAllBytes(path, bytes));
+        File.WriteAllBytes(path, bytes);
         return fileName;
     }
 

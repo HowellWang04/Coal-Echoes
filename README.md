@@ -36,6 +36,7 @@ Project Coal/
 ## Docs (Chinese)
 
 - [Game design](Docs/game-design.md): gameplay, echo system, levels and items
+- [Opening and level one spec](Docs/opening-level-one-spec.md): opening sequence, diary pickup, level progress and exploration records
 - [Story](Docs/story-flow.md): narrative layers and finalized text
 - [Tech stack](Docs/tech-stack.md)
 - [Art assets](Docs/art-assets.md)

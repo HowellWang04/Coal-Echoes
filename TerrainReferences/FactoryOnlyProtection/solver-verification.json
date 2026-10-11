@@ -1,0 +1,14 @@
+{
+  "iterations": 354,
+  "seconds": 15.66587350005284,
+  "residual_max_m": 7.630092301795337e-07,
+  "max_raise_m": 30.907485961914062,
+  "max_lower_m": -34.56962585449219,
+  "range_m": [
+    -575.1898803710938,
+    298.52117919921875
+  ],
+  "fixed_changed": 0,
+  "author_refinement_max_m": 219.18286756816852,
+  "soft_height_reference_scale_m": 40
+}

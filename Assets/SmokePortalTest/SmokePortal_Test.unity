@@ -370,63 +370,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646890535}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &862978432
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1030972339, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_Name
-      value: SM_RockSide_A1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2434.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -428.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1963.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: abc00000000014669708564932170506, type: 3}
 --- !u!1001 &925603856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -438,7 +381,7 @@ PrefabInstance:
     - target: {fileID: 1360041085545177508, guid: f32e31ae308c6df459a1e3a55986e49a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2434.6
+      value: -2439.21
       objectReference: {fileID: 0}
     - target: {fileID: 1360041085545177508, guid: f32e31ae308c6df459a1e3a55986e49a,
         type: 3}
@@ -448,7 +391,7 @@ PrefabInstance:
     - target: {fileID: 1360041085545177508, guid: f32e31ae308c6df459a1e3a55986e49a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1979.79
+      value: -1963.01
       objectReference: {fileID: 0}
     - target: {fileID: 1360041085545177508, guid: f32e31ae308c6df459a1e3a55986e49a,
         type: 3}
@@ -495,63 +438,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f32e31ae308c6df459a1e3a55986e49a, type: 3}
---- !u!1001 &1228022140
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1030972339, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_Name
-      value: SM_RockSide_A1 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2444.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -424.24118
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1954.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1030972340, guid: abc00000000014669708564932170506, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: abc00000000014669708564932170506, type: 3}
 --- !u!1001 &1373040633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1142,8 +1028,6 @@ SceneRoots:
   - {fileID: 2112651165}
   - {fileID: 925603856}
   - {fileID: 1579766713}
-  - {fileID: 862978432}
   - {fileID: 1403189602}
   - {fileID: 390454162}
-  - {fileID: 1228022140}
   - {fileID: 1731256390}
