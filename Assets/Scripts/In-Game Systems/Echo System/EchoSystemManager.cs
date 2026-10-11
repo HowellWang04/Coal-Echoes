@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EchoSystemManager : MonoBehaviour
@@ -9,30 +8,28 @@ public class EchoSystemManager : MonoBehaviour
     private void OnEnable()
     {
         if (cameraSystemManager != null)
-            cameraSystemManager.OnPhotoCapturedWithEchoes += HandleConfirmedHighlights;
+        {
+            cameraSystemManager.OnNewEchoDiscovered += ShowNewEcho;
+            cameraSystemManager.OnCaptureStarted += HidePopup;
+        }
     }
 
     private void OnDisable()
     {
         if (cameraSystemManager != null)
-            cameraSystemManager.OnPhotoCapturedWithEchoes -= HandleConfirmedHighlights;
+        {
+            cameraSystemManager.OnNewEchoDiscovered -= ShowNewEcho;
+            cameraSystemManager.OnCaptureStarted -= HidePopup;
+        }
     }
 
-    private void HandleConfirmedHighlights(IReadOnlyCollection<CameraHighlightObject> capturedObjects)
+    private void ShowNewEcho()
     {
-        if (capturedObjects == null) return;
+        if (echoPopupUI != null) echoPopupUI.Show();
+    }
 
-        foreach (var obj in capturedObjects)
-        {
-            if (obj == null) continue;
-            if (!obj.TryGetComponent<EchoTrigger>(out var echo)) continue;
-
-            if (echoPopupUI != null)
-                echoPopupUI.Show();
-            else
-                Debug.LogWarning("[EchoSystem] EchoPopupUI is not assigned.");
-
-            return;
-        }
+    private void HidePopup()
+    {
+        if (echoPopupUI != null) echoPopupUI.Hide();
     }
 }

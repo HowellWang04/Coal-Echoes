@@ -1,0 +1,12 @@
+{
+  "changed_terrains": 46,
+  "max_raise_m": 30.92542266845703,
+  "max_lower_m": -34.69571304321289,
+  "factory": {
+    "x": -2158.54858,
+    "z": -1787.29346,
+    "radius": 335.0,
+    "transition": 40.0
+  },
+  "former_core_fixed": false
+}

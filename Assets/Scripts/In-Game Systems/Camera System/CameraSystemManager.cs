@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.Serialization;
+using System.IO;
 
 public sealed class CameraSystemManager : MonoBehaviour
 {
@@ -26,15 +28,18 @@ public sealed class CameraSystemManager : MonoBehaviour
     [SerializeField] private CameraPhotoCapture cameraPhotoCapture;
 
     [Header("Echo System")]
-    [SerializeField] private CameraHighlightObjectDetector highlightObjectDetector;
+    [FormerlySerializedAs("highlightObjectDetector")]
+    [SerializeField] private EchoTargetDetector echoTargetDetector;
+    [SerializeField] private EchoTargetingUI echoTargetingUI;
 
-    public event Action<IReadOnlyCollection<CameraHighlightObject>> OnPhotoCapturedWithEchoes;
+    public event Action OnNewEchoDiscovered;
+    public event Action OnCaptureStarted;
 
 
     // Initialize the state machine to manage photo mode states
     private CameraStateMachine stateMachine;
     // Expose the current state for external reference
-    public CameraModeState CurrentState => stateMachine.State;
+    public CameraModeState CurrentState => stateMachine != null ? stateMachine.State : CameraModeState.Disabled;
     public CameraViewMode CurrentViewMode { get; private set; } = CameraViewMode.Handheld;
     public bool UsesAnimatedViewTransition =>
         viewTransitionHandler != null && viewTransitionHandler.IsConfigured;
@@ -42,7 +47,7 @@ public sealed class CameraSystemManager : MonoBehaviour
         UsesAnimatedViewTransition && viewTransitionHandler.IsTransitioning;
 
     private Coroutine captureRoutine;
-    private List<CameraHighlightObject> captureSnapshot;
+    private EchoTrigger captureSnapshot;
 
 
     private void Awake()
@@ -77,6 +82,9 @@ public sealed class CameraSystemManager : MonoBehaviour
     {
         if (CurrentState != CameraModeState.Active) return false;
         if (IsViewTransitioning) return false;
+
+        echoTargetingUI.HideImmediate();
+        echoTargetDetector.ClearTarget();
 
         CameraViewMode targetMode = CurrentViewMode == CameraViewMode.Handheld
             ? CameraViewMode.Fullscreen
@@ -125,6 +133,11 @@ public sealed class CameraSystemManager : MonoBehaviour
 
     private void HandleStateChanged(CameraModeState prev, CameraModeState next)
     {
+        if (next != CameraModeState.Active)
+        {
+            echoTargetingUI.HideImmediate();
+            echoTargetDetector.ClearTarget();
+        }
         switch (next)
         {
             case CameraModeState.Disabled:
@@ -156,15 +169,11 @@ public sealed class CameraSystemManager : MonoBehaviour
     public void Capture()
     {
         if (IsViewTransitioning) return;
+        if (CurrentState != CameraModeState.Active) return;
+        captureSnapshot = echoTargetDetector.CaptureTarget();
         if (!stateMachine.RequestCapture()) return;
 
-        if (highlightObjectDetector != null)
-        {
-            var raw = new List<CameraHighlightObject>(highlightObjectDetector.HighlightedObjects);
-            captureSnapshot = highlightObjectDetector.FilterConfirmedObjects(raw);
-        }
-        else
-            captureSnapshot = null;
+        OnCaptureStarted?.Invoke();
 
         if (cameraPhotoCapture == null) { stateMachine.FinishCaptureToActive(); return; }
 
@@ -206,25 +215,27 @@ public sealed class CameraSystemManager : MonoBehaviour
         string fileName = null;
         if (cameraPhotoAlbumUIManager != null) fileName = cameraPhotoAlbumUIManager.AddPhotoFromTexture(captured);
 
-        // Bind the captured Echo texts to this photo's fileName for later scrapbook display.
+        // Only a saved photo can discover the one target shown by the yellow frame.
         if (!string.IsNullOrEmpty(fileName) && captureSnapshot != null)
         {
-            var scrapbookContents = new List<string>();
-            foreach (var obj in captureSnapshot)
-                if (obj.TryGetComponent<EchoTrigger>(out var echo))
-                {
-                    scrapbookContents.Add(echo.scrapbookContent);
-
-                    if (!string.IsNullOrEmpty(echo.stickyNoteSlotId))
-                        GrandpaDiaryStickyNoteStorage.Unlock(echo.stickyNoteSlotId);
-                }
-
-            EchoPhotoStorage.Save(fileName, scrapbookContents);
+            try
+            {
+                EchoPhotoStorage.Save(fileName, new List<string> { captureSnapshot.scrapbookContent });
+                bool wasDiscovered = EchoDiscoveryStorage.IsDiscovered(captureSnapshot);
+                if (!string.IsNullOrEmpty(captureSnapshot.stickyNoteSlotId))
+                    GrandpaDiaryStickyNoteStorage.Unlock(captureSnapshot.stickyNoteSlotId);
+                EchoDiscoveryStorage.Record(captureSnapshot);
+                if (!wasDiscovered) OnNewEchoDiscovered?.Invoke();
+            }
+            catch (Exception error) when (error is IOException || error is UnauthorizedAccessException)
+            {
+                Debug.LogError($"Could not save the captured echo: {error.Message}");
+            }
         }
 
         if (cameraPhotoAlbumUIManager != null) cameraPhotoAlbumUIManager.Refresh();
 
-        OnPhotoCapturedWithEchoes?.Invoke(captureSnapshot);
+        captureSnapshot = null;
 
         stateMachine.FinishCaptureToReviewing();
         captureRoutine = null;

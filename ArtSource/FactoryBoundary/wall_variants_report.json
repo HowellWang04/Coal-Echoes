@@ -1,0 +1,80 @@
+[
+  {
+    "name": "FactoryWall_9m_01",
+    "triangles": 15876,
+    "geometry_hash": "aa5528a682a8b646dc010234b8f671812348384888d94edf2eec93c8ad6a9f89",
+    "color_hash": "823328844de4e3c344321404544f0ca540e190566d0fa82e86b6abc1044076fb",
+    "brick_colors": {
+      "pale_neutral": 426,
+      "grey_brown": 379,
+      "dusty_brown": 162,
+      "orange_red": 165,
+      "orange_red_fraction": 0.14575971731448764
+    }
+  },
+  {
+    "name": "FactoryWall_9m_02",
+    "triangles": 15876,
+    "geometry_hash": "aa5528a682a8b646dc010234b8f671812348384888d94edf2eec93c8ad6a9f89",
+    "color_hash": "01fd9fe52799f64ec4492a33bd63a2d865cc0bb0636255c0c6323302bcabe8ca",
+    "brick_colors": {
+      "pale_neutral": 445,
+      "grey_brown": 363,
+      "dusty_brown": 166,
+      "orange_red": 158,
+      "orange_red_fraction": 0.13957597173144876
+    }
+  },
+  {
+    "name": "FactoryWall_9m_03",
+    "triangles": 15876,
+    "geometry_hash": "aa5528a682a8b646dc010234b8f671812348384888d94edf2eec93c8ad6a9f89",
+    "color_hash": "614130425b7296ca6a5fdba8e83e748a7023540ac475ab356e0fa60f4aa5d59e",
+    "brick_colors": {
+      "pale_neutral": 427,
+      "grey_brown": 408,
+      "dusty_brown": 142,
+      "orange_red": 155,
+      "orange_red_fraction": 0.13692579505300354
+    }
+  },
+  {
+    "name": "FactoryWall_9m_04",
+    "triangles": 15876,
+    "geometry_hash": "aa5528a682a8b646dc010234b8f671812348384888d94edf2eec93c8ad6a9f89",
+    "color_hash": "e121c619ecb306619bca0b78a1dc2a61c928c0b607d1e51219377e8e5b68711c",
+    "brick_colors": {
+      "pale_neutral": 435,
+      "grey_brown": 410,
+      "dusty_brown": 151,
+      "orange_red": 136,
+      "orange_red_fraction": 0.12014134275618374
+    }
+  },
+  {
+    "name": "FactoryWall_9m_05",
+    "triangles": 15876,
+    "geometry_hash": "aa5528a682a8b646dc010234b8f671812348384888d94edf2eec93c8ad6a9f89",
+    "color_hash": "fc9de9c5ee1f7f88f0fe4c230eba491b1d5c8b114aecbb46dfa960776f3b2183",
+    "brick_colors": {
+      "pale_neutral": 416,
+      "grey_brown": 389,
+      "dusty_brown": 164,
+      "orange_red": 163,
+      "orange_red_fraction": 0.1439929328621908
+    }
+  },
+  {
+    "name": "FactoryWall_9m_06",
+    "triangles": 15876,
+    "geometry_hash": "aa5528a682a8b646dc010234b8f671812348384888d94edf2eec93c8ad6a9f89",
+    "color_hash": "ca257f4e1842c3f6df16d719ac2c5fae013d17a69f294adaaf8b900f760a24e2",
+    "brick_colors": {
+      "pale_neutral": 438,
+      "grey_brown": 358,
+      "dusty_brown": 161,
+      "orange_red": 175,
+      "orange_red_fraction": 0.15459363957597172
+    }
+  }
+]
