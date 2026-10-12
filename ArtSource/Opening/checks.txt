@@ -1,0 +1,28 @@
+PASS Normal typing is 32 characters per second
+PASS Typing click accelerates without advancing
+PASS Accelerated typing is 128 characters per second
+PASS Repeated clicks do not stack speed
+PASS Completion waits and shows arrow
+PASS Outside click cannot advance
+PASS Right click cannot advance
+PASS Arrow click advances completed text
+PASS Next paragraph clears acceleration and advance
+PASS Clicks during transition are ignored
+PASS Outside click cannot accelerate
+PASS New paragraph resumes normal speed
+PASS Sequence starts with camera motion
+PASS Sequence proceeds to first text fade
+PASS Camera relocates while facing sky
+PASS Paragraph 1 waits for a separate click
+PASS Paragraph 1 click releases its wait
+PASS Paragraph 2 waits for a separate click
+PASS Paragraph 2 click releases its wait
+PASS Paragraph 3 waits for a separate click
+PASS Paragraph 3 click releases its wait
+PASS Paragraph 4 waits for a separate click
+PASS Paragraph 4 click releases its wait
+PASS Control handoff waits for lowering camera
+PASS Sequence completes after four paragraphs
+PASS Final camera pose matches player
+PASS Final field of view matches player
+PASS Disabling cancels sequence state

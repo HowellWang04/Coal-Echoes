@@ -1,4 +1,4 @@
-# Project Coal
+# 煤火回声 Coal Echoes
 
 [English](README.md) | 中文
 
@@ -9,7 +9,7 @@ USC 游戏设计硕士申请作品集。第一人称叙事探索游戏。主人�
 ## 项目结构
 
 ```
-Project Coal/
+./
 ├── Assets/
 │   ├── Scenes/                    主场景
 │   ├── Scripts/

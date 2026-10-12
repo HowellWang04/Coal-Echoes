@@ -1,4 +1,4 @@
-Shader "Project Coal/Heat Haze"
+Shader "Coal Echoes/Heat Haze"
 {
     Properties
     {

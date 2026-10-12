@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+[DefaultExecutionOrder(-1)]
 public class ScrapBookCanvas : MonoBehaviour
 {
     private const float AlbumPhotoAspect = 16f / 9f;

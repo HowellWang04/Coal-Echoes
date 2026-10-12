@@ -1,0 +1,65 @@
+{
+  "fonts": [
+    [
+      "Bitter",
+      "Regular"
+    ],
+    [
+      "Source Han Serif SC",
+      "Medium"
+    ]
+  ],
+  "exports": [
+    {
+      "name": "coal-echoes-bilingual-coal.png",
+      "size": [
+        2400,
+        1760
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "coal-echoes-bilingual-paper.png",
+      "size": [
+        2400,
+        1760
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "coal-echoes-english-coal.png",
+      "size": [
+        2400,
+        1500
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "coal-echoes-english-paper.png",
+      "size": [
+        2400,
+        1500
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "coal-echoes-small-paper-240.png",
+      "size": [
+        240,
+        98
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "coal-echoes-small-paper.png",
+      "size": [
+        2400,
+        1500
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "english": "COAL ECHOES",
+  "chinese": "煤火回声",
+  "svg_text": "Outlined from original fonts; no font installation needed."
+}

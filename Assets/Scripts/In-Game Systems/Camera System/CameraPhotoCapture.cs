@@ -16,8 +16,10 @@ public sealed class CameraPhotoCapture : MonoBehaviour
         // 在Start阶段就创建CaptureBuffer，后续拍照流程中如果尺寸不变则复用这个Buffer，避免首次拍照时此流程造成的卡顿
         buffer = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
 
+        var prev = RenderTexture.active;
         var rt = RenderTexture.GetTemporary(captureWidth, captureHeight, 0, RenderTextureFormat.Default);
         Graphics.Blit(buffer, rt);
+        RenderTexture.active = prev;
         RenderTexture.ReleaseTemporary(rt);
     }
 
@@ -35,11 +37,11 @@ public sealed class CameraPhotoCapture : MonoBehaviour
         buffer.ReadPixels(region, 0, 0, false);
         buffer.Apply(false);
 
+        var prev = RenderTexture.active;
         var rt = RenderTexture.GetTemporary(captureWidth, captureHeight, 0, RenderTextureFormat.Default);
         Graphics.Blit(buffer, rt);
 
         var copy = new Texture2D(captureWidth, captureHeight, TextureFormat.RGB24, false);
-        var prev = RenderTexture.active;
         RenderTexture.active = rt;
         copy.ReadPixels(new Rect(0, 0, captureWidth, captureHeight), 0, 0, false);
         copy.Apply(false);

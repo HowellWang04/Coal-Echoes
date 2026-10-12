@@ -1,0 +1,1616 @@
+{
+  "asphalt": {
+    "directory": "Assets/Art Resources/Environment/FactoryRoads/Asphalt02",
+    "tile_metres": 3,
+    "source": "https://polyhaven.com/a/asphalt_02",
+    "license": "CC0"
+  },
+  "decals": [
+    {
+      "name": "Crack - Medium 1",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Crack - Medium 1",
+      "width": 1.5,
+      "length": 1.5,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Crack - Medium 2",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Crack - Medium 2",
+      "width": 1.5,
+      "length": 1.5,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Crack - Medium 3",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Crack - Medium 3",
+      "width": 1.5,
+      "length": 1.5,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Crack - Small 1",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Crack - Small 1",
+      "width": 1.75,
+      "length": 1.75,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Crack - Small 2",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Crack - Small 2",
+      "width": 1.25,
+      "length": 1.25,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Crack - Small 3",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Crack - Small 3",
+      "width": 1.5,
+      "length": 1.5,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Crack - Small 4",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Crack - Small 4",
+      "width": 1.25,
+      "length": 1.25,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Crack - Small 5",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Crack - Small 5",
+      "width": 1.5,
+      "length": 1.5,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Cracks - XL",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Cracks - XL",
+      "width": 8,
+      "length": 4,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "name": "Damage - Large 1",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Damage - Large 1",
+      "width": 5,
+      "length": 5,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Damage - Large 2",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Damage - Large 2",
+      "width": 3,
+      "length": 3,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Damage - Large 3",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Damage - Large 3",
+      "width": 2,
+      "length": 2,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Damage - Large 4",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Damage - Large 4",
+      "width": 1.5,
+      "length": 1.5,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Damage - Large 5",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Damage - Large 5",
+      "width": 2.5,
+      "length": 2.5,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Damage - XL",
+      "pack": "SullyCracksDamage",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/SullyCracksDamage/CustomDecals/RoadAssets/Damage - XL",
+      "width": 12,
+      "length": 6,
+      "smoothness": 0,
+      "drawOrder": 25,
+      "normal": true,
+      "mask": true,
+      "size": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Joint Irregular Thin 1m A",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Irregular Thin 1m A",
+      "width": 0.2,
+      "length": 1,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "G87 Joint Irregular Thin 1m B",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Irregular Thin 1m B",
+      "width": 0.2,
+      "length": 1,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "G87 Joint Irregular Thin 3m A",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Irregular Thin 3m A",
+      "width": 0.2,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Joint Irregular Thin 3m B",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Irregular Thin 3m B",
+      "width": 0.2,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Joint Irregular Thin 6m A",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Irregular Thin 6m A",
+      "width": 0.2,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Irregular Thin 6m B",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Irregular Thin 6m B",
+      "width": 0.2,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Thick 10m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Thick 10m",
+      "width": 0.4,
+      "length": 10,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Thick 1m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Thick 1m",
+      "width": 0.4,
+      "length": 1,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "G87 Joint Thick 3m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Thick 3m",
+      "width": 0.4,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Joint Thick 6m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Thick 6m",
+      "width": 0.4,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Thick 8m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Thick 8m",
+      "width": 0.4,
+      "length": 8,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Thin 10m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Thin 10m",
+      "width": 0.2,
+      "length": 10,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Thin 1m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Thin 1m",
+      "width": 0.2,
+      "length": 1,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "G87 Joint Thin 3m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Thin 3m",
+      "width": 0.2,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Joint Thin 6m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Thin 6m",
+      "width": 0.2,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Thin 8m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Thin 8m",
+      "width": 0.2,
+      "length": 8,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Very Thick 10m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Very Thick 10m",
+      "width": 1,
+      "length": 10,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Very Thick 1m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Very Thick 1m",
+      "width": 1,
+      "length": 1,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "G87 Joint Very Thick 3m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Very Thick 3m",
+      "width": 1,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Joint Very Thick 6m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Very Thick 6m",
+      "width": 1,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Very Thick 8m",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Very Thick 8m",
+      "width": 1,
+      "length": 8,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Weed Long",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Weed Long",
+      "width": 0.4,
+      "length": 6,
+      "smoothness": 0,
+      "drawOrder": 32,
+      "normal": false,
+      "mask": false,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Weed Long Irregular",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Weed Long Irregular",
+      "width": 0.4,
+      "length": 6,
+      "smoothness": 0,
+      "drawOrder": 32,
+      "normal": false,
+      "mask": false,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Weed Medium",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Weed Medium",
+      "width": 0.4,
+      "length": 3,
+      "smoothness": 0,
+      "drawOrder": 32,
+      "normal": false,
+      "mask": false,
+      "size": [
+        128,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Joint Weed Medium Irregular",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Weed Medium Irregular",
+      "width": 0.4,
+      "length": 3,
+      "smoothness": 0,
+      "drawOrder": 32,
+      "normal": false,
+      "mask": false,
+      "size": [
+        128,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Joint Weed Short",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Weed Short",
+      "width": 0.4,
+      "length": 1.5,
+      "smoothness": 0,
+      "drawOrder": 32,
+      "normal": false,
+      "mask": false,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "G87 Joint Weed Short Irregular",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Joint Weed Short Irregular",
+      "width": 0.4,
+      "length": 1.5,
+      "smoothness": 0,
+      "drawOrder": 32,
+      "normal": false,
+      "mask": false,
+      "size": [
+        128,
+        512
+      ]
+    },
+    {
+      "name": "G87 Mark Paint 01",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Mark Paint 01",
+      "width": 0.5,
+      "length": 0.5,
+      "smoothness": 0.8,
+      "drawOrder": 9,
+      "normal": false,
+      "mask": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "G87 Mark Paint 02",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Mark Paint 02",
+      "width": 0.5,
+      "length": 0.5,
+      "smoothness": 0.8,
+      "drawOrder": 9,
+      "normal": false,
+      "mask": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x1",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x1",
+      "width": 2,
+      "length": 1,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x1 Irregular",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x1 Irregular",
+      "width": 2,
+      "length": 1,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x1 New",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x1 New",
+      "width": 2,
+      "length": 1,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x1 New Cut",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x1 New Cut",
+      "width": 2,
+      "length": 1,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x2",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x2",
+      "width": 2,
+      "length": 2,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x2 Irregular",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x2 Irregular",
+      "width": 2,
+      "length": 2,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x2 New",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x2 New",
+      "width": 2,
+      "length": 2,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x2 New Cut",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x2 New Cut",
+      "width": 2,
+      "length": 2,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x3",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x3",
+      "width": 3,
+      "length": 2,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x3 New",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x3 New",
+      "width": 3,
+      "length": 2,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x3 New Cut",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x3 New Cut",
+      "width": 3,
+      "length": 2,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x4",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x4",
+      "width": 4,
+      "length": 2,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x4 Irregular",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x4 Irregular",
+      "width": 4,
+      "length": 2,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x4 New",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x4 New",
+      "width": 4,
+      "length": 2,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 2x4 New Cut",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 2x4 New Cut",
+      "width": 4,
+      "length": 2,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x1",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x1",
+      "width": 3,
+      "length": 1,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        1024,
+        256
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x1 Irregular",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x1 Irregular",
+      "width": 3,
+      "length": 1,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        1024,
+        256
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x1 New",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x1 New",
+      "width": 3,
+      "length": 1,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        256
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x1 New Cut",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x1 New Cut",
+      "width": 3,
+      "length": 1,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        256
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x3",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x3",
+      "width": 3,
+      "length": 3,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x3 New",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x3 New",
+      "width": 3,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x3 New Cut",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x3 New Cut",
+      "width": 3,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x4",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x4",
+      "width": 4,
+      "length": 3,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x4 New",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x4 New",
+      "width": 4,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x4 New Cut",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x4 New Cut",
+      "width": 4,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x6",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x6",
+      "width": 6,
+      "length": 3,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x6 New",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x6 New",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 3x6 New Cut",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 3x6 New Cut",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 6x6",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 6x6",
+      "width": 6,
+      "length": 6,
+      "smoothness": 0,
+      "drawOrder": 11,
+      "normal": true,
+      "mask": false,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 6x6 New",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 6x6 New",
+      "width": 6,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Patch Asphalt 6x6 New Cut",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Patch Asphalt 6x6 New Cut",
+      "width": 6,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 13,
+      "normal": true,
+      "mask": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Fat 01",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Fat 01",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Fat 02",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Fat 02",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Fat 03",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Fat 03",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Fat 04",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Fat 04",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Fat 05",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Fat 05",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Fat 06",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Fat 06",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Fat 07",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Fat 07",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Fat 08",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Fat 08",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Fat 09",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Fat 09",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Fat 10",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Fat 10",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 00",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 00",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 01",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 01",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 02",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 02",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 03",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 03",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 04",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 04",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 05",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 05",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 06",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 06",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 07",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 07",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 08",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 08",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 09",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 09",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Repaired Cracks Thin 10",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Repaired Cracks Thin 10",
+      "width": 6,
+      "length": 3,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "G87 Traffic Detector 01",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Traffic Detector 01",
+      "width": 3,
+      "length": 6,
+      "smoothness": 0.8,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Traffic Detector 02",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Traffic Detector 02",
+      "width": 3,
+      "length": 6,
+      "smoothness": 0.8,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Traffic Detector 03",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Traffic Detector 03",
+      "width": 3,
+      "length": 6,
+      "smoothness": 0.8,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    {
+      "name": "G87 Traffic Detector Hidden Cable",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomDecals/RoadAssets/G87 Traffic Detector Hidden Cable",
+      "width": 0.75,
+      "length": 0.75,
+      "smoothness": 0.8,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "G87 Joint Thick",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomNetlanes/Roadway/G87 Joint Thick",
+      "width": 0.4,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Thick Moss",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomNetlanes/Roadway/G87 Joint Thick Moss",
+      "width": 0.4,
+      "length": 6,
+      "smoothness": 0,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": false,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Thick Old",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomNetlanes/Roadway/G87 Joint Thick Old",
+      "width": 0.4,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Thick Weed Moss",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomNetlanes/Roadway/G87 Joint Thick Weed Moss",
+      "width": 0.4,
+      "length": 6,
+      "smoothness": 0,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": false,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Thin",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomNetlanes/Roadway/G87 Joint Thin",
+      "width": 0.2,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": true,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Very Thick",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomNetlanes/Roadway/G87 Joint Very Thick",
+      "width": 1,
+      "length": 6,
+      "smoothness": 1,
+      "drawOrder": 10,
+      "normal": false,
+      "mask": true,
+      "size": [
+        128,
+        2048
+      ]
+    },
+    {
+      "name": "G87 Joint Weed",
+      "pack": "G87RoadRepair",
+      "directory": "Assets/Art Resources/Environment/FactoryRoads/G87RoadRepair/CustomNetlanes/Roadway/G87 Joint Weed",
+      "width": 0.4,
+      "length": 6,
+      "smoothness": 0,
+      "drawOrder": 32,
+      "normal": false,
+      "mask": false,
+      "size": [
+        128,
+        2048
+      ]
+    }
+  ],
+  "license_notes": "Both mod archives contain no license file. Imported for local evaluation; permission to reuse outside CS2 remains unverified. No mod binaries imported."
+}

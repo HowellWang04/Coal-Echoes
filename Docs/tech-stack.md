@@ -1,5 +1,13 @@
 # 技术栈
 
+## 项目名称与存档
+
+英文名为 Coal Echoes，中文名为《煤火回声》。Unity Product Name 使用 Coal Echoes，游戏内标题使用英文。
+
+Windows 当前存档位于 `%USERPROFILE%/AppData/LocalLow/DefaultCompany/Coal Echoes/`。产品改名前位于同级的 `0101-WGH/`，2026 年 10 月 11 日已将本机的 `CapturedPhotos`、`ScrapBook`、`Echo`、`GrandpaDiary` 四个目录复制到新位置，15 个文件逐一通过 SHA256 校验，原目录保留。其他机器若要沿用旧存档，也需要在首次运行新名称版本前复制这四个目录。
+
+项目文件夹与 Git 仓库沿用原有名称。已有编辑器偏好键和 SessionState 键保留 `ProjectCoal` 前缀，以继续读取原有设置；Unity Cloud 关联名称仍为 `0101-WGH`，需在云端单独改名。
+
 ## 引擎与渲染
 
 - Unity 6000.4.6f1

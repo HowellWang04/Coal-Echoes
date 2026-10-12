@@ -1,0 +1,30 @@
+{
+  "checked_date": "2026-10-11",
+  "project_pipeline": "HDRP 17.4.0 verified in Packages/manifest.json",
+  "verdict": "Technically reusable PNG texture data; suitable for road decals or terrain-following strip meshes after material setup. No Unity import or runtime verification performed.",
+  "preferred_assets": {
+    "G87 Road Dirt 02": "Subtle compacted gray-brown road",
+    "G87 Road Dirt 11": "Gray road with strong wheel ruts",
+    "G87 Road Dirt 15": "Brown road with strong wheel ruts",
+    "G87 Road Dirt 18": "Dry ochre road with softer wheel tracks"
+  },
+  "texture_sets": {
+    "roads": 27,
+    "paths": 30,
+    "transition_decals": 26,
+    "maps_per_set": [
+      "BaseColor",
+      "Normal",
+      "Mask"
+    ],
+    "height_maps": 0
+  },
+  "resolution_limit": "Most road base maps are 1024 by 2048. At configured 12 m by 24 m footprint this is 85.33 pixels per metre, approximately 1.17 cm per pixel. First-person sharpness requires evaluation and potentially a detail layer.",
+  "alpha": "All 83 base maps have varying alpha; preserve transparent shoulders. These are road-shaped overlays, not ordinary terrain textures intended to tile across both axes.",
+  "mask_status": "Not verified against the CS2 decal shader. Sample dirt masks contain nonzero red, variable green, and low blue. Do not assume the original mask is ready for HDRP. Local HDRP Decal shader uses R metallic, G AO, A smoothness, with B contributing to mask opacity. HDRP Lit uses B as detail mask instead.",
+  "proposed_setup": "BaseColor as sRGB with alpha retained; Normal as Normal Map; data maps linear. Start with explicit nonmetallic dry-surface settings. Confirm normal orientation and Mask semantics before enabling those data channels. Road strips require UV repeat along the road and ground conformity.",
+  "license_status": "No license, readme, copyright or credits file exists in the downloaded archive. Mod page reviewed earlier did not state permission for reuse in another game. Cross-game permission remains unverified.",
+  "binary_handling": "Only original PNG and JSON files were extracted. Mod DLL, native libraries and debug binaries remain in the downloaded ZIP and were not executed.",
+  "checks": "All 83 complete PNG map sets were decoded with Pillow. Original ZIP SHA256 and exact archive manifest are recorded in inventory.json. Source files were not edited.",
+  "hdrp_documentation": "https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.0/manual/Mask-Map-and-Detail-Map.html"
+}

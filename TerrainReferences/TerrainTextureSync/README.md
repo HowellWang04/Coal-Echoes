@@ -4,13 +4,13 @@
 
 ## 自动与手动使用
 
-自动开关默认开启，位于 `Tools > Project Coal > Auto Align Terrain Textures`。捕获 Unity 高度变化后合并改动区域，等待至少半秒、鼠标操作结束、MapMagic 生成和地形协程结束，再逐块处理。延迟 GPU 高度会先同步到 CPU，材质按当前实际高度计算，沿用现有 Slope、Cavity 和三层 Textures 配置，不改高度或触发 MapMagic Generate。
+自动开关默认开启，位于 `Tools > Coal Echoes > Auto Align Terrain Textures`。捕获 Unity 高度变化后合并改动区域，等待至少半秒、鼠标操作结束、MapMagic 生成和地形协程结束，再逐块处理。延迟 GPU 高度会先同步到 CPU，材质按当前实际高度计算，沿用现有 Slope、Cavity 和三层 Textures 配置，不改高度或触发 MapMagic Generate。
 
 同时处理相同世界区域的 Main、Draft 与受影响邻块，各自匹配自己的现有高度。更新实际 Alphamap 和材质边缘缓存，修改区域之外的 Alpha 不写入。每通道相差约一个 8 位量化单位以内视为已对齐，不重复写入。矩阵计算使用完整块和邻块边缘采样，实际贴图只写局部区域。
 
 工具会标记地形资源和缓存所属场景待保存，不自动保存其他工作。代码编辑器可调用 `QueueRegion(Terrain, RectInt)` 请求更新高度像素范围，或调用 `RefreshTerrain(Terrain, Rect, bool)` 立即对齐指定世界 XZ 矩形。后者只对传入 Terrain 生效；自动队列会包含对应 LOD 与邻块。
 
-选中具体 Terrain 对象后，`Tools > Project Coal > Align Selected Terrain Textures` 对齐该地形覆盖范围内的 Main、Draft 材质。它比单点局部修复范围大，使用前注意选中的地形。自动开关关闭时仍可以手动执行。
+选中具体 Terrain 对象后，`Tools > Coal Echoes > Align Selected Terrain Textures` 对齐该地形覆盖范围内的 Main、Draft 材质。它比单点局部修复范围大，使用前注意选中的地形。自动开关关闭时仍可以手动执行。
 
 此工具只管理现有三层自然地表。人工绘制与坡度规则不同的地面时关闭自动开关。Play Mode 不运行此自动对齐。历史印迹不会仅因安装脚本就全图重刷，11 个旧塔脚目前仍在待办。
 

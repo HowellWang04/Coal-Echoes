@@ -28,6 +28,7 @@ public class ScrapBookCanvasData
     public List<ScrapBookElementData> elements = new();
 }
 
+[DefaultExecutionOrder(-2)]
 public class ScrapBookDataManager : MonoBehaviour
 {
     public static ScrapBookDataManager Instance { get; private set; }

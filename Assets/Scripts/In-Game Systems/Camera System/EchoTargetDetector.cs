@@ -25,7 +25,7 @@ public class EchoTargetDetector : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (!IsTakingAim) { ClearTarget(); return; }
+        if (!IsTakingAim || !GrandpaDiaryProgress.HasDiary) { ClearTarget(); return; }
 
         EchoTrigger best = null;
         float bestScore = float.PositiveInfinity;
@@ -45,7 +45,7 @@ public class EchoTargetDetector : MonoBehaviour
     public void ClearTarget() => CurrentTarget = null;
 
     // The shutter uses the same target that produced the last displayed yellow frame.
-    public EchoTrigger CaptureTarget() => IsTakingAim ? CurrentTarget : null;
+    public EchoTrigger CaptureTarget() => IsTakingAim && GrandpaDiaryProgress.HasDiary ? CurrentTarget : null;
 
     public bool Qualifies(EchoTrigger target, bool retaining, out float score)
     {
