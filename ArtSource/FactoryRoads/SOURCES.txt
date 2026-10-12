@@ -1,0 +1,21 @@
+Factory road import 2026-10-11
+
+Poly Haven Asphalt 02
+https://polyhaven.com/a/asphalt_02
+https://polyhaven.com/license
+CC0, 4K PNG diffuse, OpenGL normal, ARM and displacement.
+HDRP Mask channels are ARM blue, ARM red, constant 255, and 255 minus ARM green.
+
+Sully Cracks and Damage
+https://mods.paradoxplaza.com/mods/80583/Windows
+15 decal sets.
+
+G87 Road Repair
+https://mods.paradoxplaza.com/mods/92004/Windows
+85 decals and 7 netlane texture sets, all imported as projector decals. No spline implementation.
+
+Neither mod archive contains a license file. Cross-game reuse permission remains unverified. Local evaluation only. No mod DLLs or runtime code imported.
+
+All 253 textures have mipmaps, anisotropy 8, high quality compression and maximum size 4096. Only base colors use sRGB. Decals clamp and asphalt repeats.
+108 materials and 107 prefabs created with HDRP APIs and shader validation.
+Preview samples from left to right are Asphalt 02, Sully Cracks XL and G87 Patch Asphalt 2x2 Irregular. Decals resized only for the isolated preview. This is not a factory scene or Play Mode acceptance.

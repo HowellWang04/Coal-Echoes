@@ -1,0 +1,11 @@
+{
+  "width": 6.0,
+  "length": 48.0,
+  "repeatV": 4.0,
+  "materialValid": true,
+  "baseTexture": true,
+  "colliders": 1,
+  "scene": "Assets/SmokePortalTest/SmokePortal_Test.unity",
+  "sceneDirty": false,
+  "playMode": false
+}

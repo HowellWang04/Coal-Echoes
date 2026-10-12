@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InspectSystemManager : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class InspectSystemManager : MonoBehaviour
     [SerializeField] private RectTransform promptRect;
     [SerializeField] private Image inspectIcon;
     [SerializeField] private Image dotIcon;
+    [SerializeField] private TMP_Text promptText;
+    [SerializeField] private EchoPopupUI diaryAddedPopup;
     [SerializeField] private float promptHeightOffset = 0.1f;
     [SerializeField] private Vector2 promptScreenOffset = Vector2.zero;
 
@@ -46,6 +49,7 @@ public class InspectSystemManager : MonoBehaviour
     private void Awake()
     {
         if (dotIcon != null) dotRect = dotIcon.GetComponent<RectTransform>();
+        HidePrompt();
     }
 
     private void Start()
@@ -67,6 +71,8 @@ public class InspectSystemManager : MonoBehaviour
             HidePrompt();
             return;
         }
+
+        if (TryShowDiaryPickup()) return;
 
         InspectableItem best    = null;
         Collider        bestCol = null;
@@ -120,6 +126,27 @@ public class InspectSystemManager : MonoBehaviour
         }
     }
 
+    private bool TryShowDiaryPickup()
+    {
+        Ray ray = playerCamera.ViewportPointToRay(new Vector3(.5f, .5f, 0f));
+        if (!Physics.Raycast(ray, out RaycastHit hit, maxDistance, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore))
+            return false;
+
+        var pickup = hit.collider.GetComponentInParent<GrandpaDiaryPickup>();
+        if (pickup == null || !pickup.IsAvailable) return false;
+
+        promptWorldPos = pickup.PromptPosition;
+        ShowPrompt(true, true);
+        promptText.text = "Get Grandpa's Diary";
+        if (inputProvider.Controls.Gameplay.Interact.WasPressedThisFrame() && pickup.Collect())
+        {
+            HidePrompt();
+            playerPanel.RefreshGrandpaDiaryAvailability();
+            diaryAddedPopup.Show();
+        }
+        return true;
+    }
+
     private bool IsInViewport(Vector3 worldPos)
     {
         Vector3 vp = playerCamera.WorldToViewportPoint(worldPos);
@@ -128,6 +155,7 @@ public class InspectSystemManager : MonoBehaviour
 
     private bool CanDetect()
     {
+        if (!inputProvider.Controls.Gameplay.enabled) return false;
         if (cameraSystemManager != null && cameraSystemManager.CurrentState != CameraModeState.Disabled) return false;
         if (playerPanel != null && playerPanel.IsOpen) return false;
         if (inspectUI != null && inspectUI.IsInspecting) return false;
@@ -150,8 +178,9 @@ public class InspectSystemManager : MonoBehaviour
         }
     }
 
-    private void ShowPrompt(bool inInspectRange)
+    private void ShowPrompt(bool inInspectRange, bool showDiaryText = false)
     {
+        if (promptText != null) promptText.gameObject.SetActive(showDiaryText);
         if (promptUI != null) promptUI.SetActive(true);
         if (inspectIcon != null) inspectIcon.gameObject.SetActive(inInspectRange);
         if (dotIcon != null)    dotIcon.gameObject.SetActive(!inInspectRange);
@@ -160,6 +189,7 @@ public class InspectSystemManager : MonoBehaviour
 
     private void HidePrompt()
     {
+        if (promptText != null) promptText.gameObject.SetActive(false);
         if (promptUI != null) promptUI.SetActive(false);
         if (dotRect != null) dotRect.localScale = Vector3.one;
         showingDot  = false;

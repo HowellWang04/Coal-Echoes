@@ -5,7 +5,7 @@ using MapMagic.Products;
 using UnityEngine;
 
 [System.Serializable]
-[GeneratorMenu(menu = "Map/Project Coal", name = "Terrain Height Delta", disengageable = true)]
+[GeneratorMenu(menu = "Map/Coal Echoes", name = "Terrain Height Delta", disengageable = true)]
 public class TerrainHeightDelta : Generator, IInlet<MatrixWorld>, IOutlet<MatrixWorld>
 {
     public MatrixAsset delta;

@@ -3,7 +3,7 @@ using UnityEngine;
 
 [CreateAssetMenu(
     fileName = "GrandpaDiaryStickyNoteStyleSet",
-    menuName = "Project Coal/Grandpa Diary/Sticky Note Style Set")]
+    menuName = "Coal Echoes/Grandpa Diary/Sticky Note Style Set")]
 public class GrandpaDiaryStickyNoteStyleSet : ScriptableObject
 {
     [Serializable]

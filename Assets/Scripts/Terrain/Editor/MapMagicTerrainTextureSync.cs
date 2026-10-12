@@ -12,8 +12,8 @@ using UnityEngine;
 [InitializeOnLoad]
 public static class MapMagicTerrainTextureSync
 {
-    private const string AutoMenu = "Tools/Project Coal/Auto Align Terrain Textures";
-    private const string RefreshMenu = "Tools/Project Coal/Align Selected Terrain Textures";
+    private const string AutoMenu = "Tools/Coal Echoes/Auto Align Terrain Textures";
+    private const string RefreshMenu = "Tools/Coal Echoes/Align Selected Terrain Textures";
     private const string Preference = "ProjectCoal.AutoAlignTerrainTextures";
     private const double Delay = 0.5;
     private const float Tolerance = 1.01f / 255;

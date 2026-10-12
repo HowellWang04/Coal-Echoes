@@ -1,0 +1,13 @@
+{
+  "width": 6.0,
+  "length": 48.0,
+  "uvChannels": 2,
+  "decals": 20,
+  "colliders": 2,
+  "layers": 3.0,
+  "issues": [],
+  "currentScene": "Assets/SmokePortalTest/SmokePortal_Test.unity",
+  "sceneDirty": false,
+  "playMode": false,
+  "repairDecals": 0
+}

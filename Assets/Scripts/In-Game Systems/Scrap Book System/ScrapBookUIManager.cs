@@ -214,10 +214,10 @@ public class ScrapBookUIManager : MonoBehaviour
         int tw = Mathf.Max(1, Mathf.RoundToInt(w * scale));
         int th = Mathf.Max(1, Mathf.RoundToInt(h * scale));
 
+        RenderTexture prev = RenderTexture.active;
         RenderTexture rt = RenderTexture.GetTemporary(tw, th, 0);
         Graphics.Blit(src, rt);
 
-        RenderTexture prev = RenderTexture.active;
         RenderTexture.active = rt;
 
         Texture2D dst = new Texture2D(tw, th, TextureFormat.RGB24, false);

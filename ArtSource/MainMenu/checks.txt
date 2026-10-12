@@ -1,0 +1,21 @@
+PASS Reference menuCanvas
+PASS Reference menuGroup
+PASS Reference menuCamera
+PASS Reference playerCamera
+PASS Reference gameplayUI
+PASS Reference inputProvider
+PASS Reference playerMovement
+PASS Start menu enabled at launch
+PASS Overlay canvas above HUD
+PASS Existing height based scaling
+PASS Three menu buttons
+PASS Continue awaits save restore
+PASS Start awaits intro
+PASS Quit handler
+PASS Existing button feedback
+PASS Existing font
+PASS No missing scripts
+PASS Player position unchanged
+PASS Gameplay cameras intact
+PASS Menu camera disabled while editing
+PASS Not in Play Mode

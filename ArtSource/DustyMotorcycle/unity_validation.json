@@ -1,0 +1,14 @@
+{
+  "position": "(-2424.7690, -422.8889, -1983.0390)",
+  "rotation": "(0.0000, 329.9942, 345.7085)",
+  "shader": "HDRP/Lit",
+  "baseColor": "Assets/Art Resources/Environment/Gate Area/DustyMotorcycle/Textures/Motorcycle_BaseColor.png",
+  "normal": "Assets/Art Resources/Environment/Gate Area/DustyMotorcycle/Textures/Motorcycle_Normal.png",
+  "mask": "Assets/Art Resources/Environment/Gate Area/DustyMotorcycle/Textures/Motorcycle_HDRPMask.png",
+  "colliderCount": 5,
+  "nonTerrainPenetrations": [],
+  "playerPosition": "(-2422.0900, -423.6100, -1983.2000)",
+  "playerRotation": "(0.0000, 300.0000, 0.0000)",
+  "playing": false,
+  "triangles": 180384
+}

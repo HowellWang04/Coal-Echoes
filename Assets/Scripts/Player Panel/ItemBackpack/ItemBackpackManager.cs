@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+[DefaultExecutionOrder(-2)]
 public class ItemBackpackManager : MonoBehaviour
 {
     public static ItemBackpackManager Instance { get; private set; }

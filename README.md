@@ -1,15 +1,15 @@
-# Project Coal
+# Coal Echoes
 
 English | [中文](README.zh-CN.md)
 
-A first-person narrative exploration game, made as a portfolio piece for a USC game design graduate application. With his grandfather's old diary and a photo of him with his coworkers, the protagonist returns to an abandoned coal washing plant in northwest China. His grandfather and a coworker had always wanted to see the plant's lights from the mountain, but work schedules and restrictions on nighttime access kept postponing their trip until the plant closed. Taking photos and keeping a scrapbook along the way, the protagonist follows the old coal ropeway uphill. At night, he photographs the now largely dark plant from the ridge and places the new photograph in his scrapbook, answering their unfulfilled wish.
+Coal Echoes (煤火回声) is a first-person narrative exploration game, made as a portfolio piece for a USC game design graduate application. With his grandfather's old diary and a photo of him with his coworkers, the protagonist returns to an abandoned coal washing plant in northwest China. His grandfather and a coworker had always wanted to see the plant's lights from the mountain, but work schedules and restrictions on nighttime access kept postponing their trip until the plant closed. Taking photos and keeping a scrapbook along the way, the protagonist follows the old coal ropeway uphill. At night, he photographs the now largely dark plant from the ridge and places the new photograph in his scrapbook, answering their unfulfilled wish.
 
 Open with Unity 6000.4.6f1. The main scene is `Assets/Scenes/Main Game Scene.unity`.
 
 ## Project structure
 
 ```
-Project Coal/
+./
 ├── Assets/
 │   ├── Scenes/                    Main scene
 │   ├── Scripts/

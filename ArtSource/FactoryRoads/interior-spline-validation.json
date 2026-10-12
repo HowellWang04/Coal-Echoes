@@ -1,0 +1,15 @@
+{
+  "length": 104.417267,
+  "width": 8.0,
+  "knots": 8,
+  "vertices": 5523,
+  "triangles": 10480,
+  "minGroundClearance": 0.0267333984,
+  "maxGroundClearance": 0.08892822,
+  "buriedTriangleCenters": 0,
+  "rebuildStable": true,
+  "upNormals": 5523,
+  "endAlpha": 0.0,
+  "centerlineObstacles": {},
+  "playModeTested": false
+}

@@ -224,3 +224,13 @@
 Assets/TerrainData/SheepRangeDEM/*.raw filter=lfs diff=lfs merge=lfs -text
 Assets/TerrainData/SheepRangeDEM/SheepRange_*.asset filter=lfs diff=lfs merge=lfs -text
 /Assets/TerrainData/SheepRangeGenerated/*.asset filter=lfs diff=lfs merge=lfs -text
+
+# Coal Echoes branding, motorcycle and road source assets
+/ArtSource/Branding/Fonts/**/*.otf filter=lfs diff=lfs merge=lfs -text
+/ArtSource/Branding/Fonts/**/*.ttf filter=lfs diff=lfs merge=lfs -text
+/ArtSource/DustyMotorcycle/**/*.glb filter=lfs diff=lfs merge=lfs -text
+/ArtSource/FactoryRoads/**/*.png filter=lfs diff=lfs merge=lfs -text
+/ArtSource/G87DirtyRoads/**/*.png filter=lfs diff=lfs merge=lfs -text
+/Assets/Art[[:space:]]Resources/Environment/FactoryRoads/**/*.png filter=lfs diff=lfs merge=lfs -text
+/Assets/Art[[:space:]]Resources/Environment/Gate[[:space:]]Area/DustyMotorcycle/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+/Assets/Art[[:space:]]Resources/Environment/Gate[[:space:]]Area/DustyMotorcycle/**/*.png filter=lfs diff=lfs merge=lfs -text

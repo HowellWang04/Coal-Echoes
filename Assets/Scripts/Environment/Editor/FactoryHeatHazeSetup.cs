@@ -6,7 +6,7 @@ using UnityEngine.Rendering.HighDefinition;
 // Re-bake after changing the factory terrain or moving the sandstorm area.
 public static class FactoryHeatHazeSetup
 {
-    [MenuItem("Tools/Project Coal/Refresh Factory Heat Haze")]
+    [MenuItem("Tools/Coal Echoes/Refresh Factory Heat Haze")]
     public static void Refresh()
     {
         GameObject sandstorm = GameObject.Find("Factory Sandstorm");
@@ -72,7 +72,7 @@ public static class FactoryHeatHazeSetup
         Material material = AssetDatabase.LoadAssetAtPath<Material>(materialPath);
         if (material == null)
         {
-            material = new Material(Shader.Find("Project Coal/Heat Haze"));
+            material = new Material(Shader.Find("Coal Echoes/Heat Haze"));
             AssetDatabase.CreateAsset(material, materialPath);
         }
         material.SetVector("_Area", new Vector4(center.x, center.z, size.x, size.z));

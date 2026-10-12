@@ -6,6 +6,8 @@ using UnityEngine.Serialization;
 using UnityEngine.UI;
 using Controller.FinalCharacterController;
 
+// Let child UI initialize before this manager hides the panel in Awake.
+[DefaultExecutionOrder(10)]
 public sealed class PlayerPanelUIManager : MonoBehaviour
 {
     [Header("Root UI Ref")]
@@ -67,6 +69,7 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
 
     private void Awake()
     {
+        RefreshGrandpaDiaryAvailability();
         LoadGrandpaDiaryJson();
         CreateGrandpaDiaryPageViews();
         ConfigureGrandpaDiaryPageTurnTransition();
@@ -92,6 +95,7 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
     public void SetOpen(bool open)
     {
         if (open == IsOpen) return;
+        if (open) RefreshGrandpaDiaryAvailability();
         IsOpen = open;
         ApplyOpenState();
     }
@@ -167,8 +171,16 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
 
     public void ShowGrandpaDiary()
     {
+        if (!GrandpaDiaryProgress.HasDiary) return;
         SwitchTab(grandpaDiaryTabTransition, grandpaDiaryButton);
         ShowGrandpaDiaryPage(currentGrandpaDiaryPageIndex);
+    }
+
+    public void RefreshGrandpaDiaryAvailability()
+    {
+        bool available = GrandpaDiaryProgress.HasDiary;
+        grandpaDiaryButton.gameObject.SetActive(available);
+        if (!available) GrandpaDiaryTab.SetActive(false);
     }
 
     public void ShowGrandpaDiary(string content)

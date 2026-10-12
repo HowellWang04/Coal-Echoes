@@ -22,7 +22,7 @@
 - 相机后期分三份 Volume：取景器第 10 层，全屏拍照第 11 层，手持对焦第 12 层；Main Camera 的 Volume Mask 为 6145，CameraPreview 为 1025。HDRP 的光圈属于相机，不能按 Volume 混合。
 - 相机调节 UI 只写取景器和全屏两份 Profile，不要改全局 Volume。
 - 沙尘参数在材质上调，不在雾盒组件上调；Shader Graph 的 Time 节点在雾体积里无效，位移由 `SandstormTimeDriver` 累加。
-- 改了地形或沙尘范围后，运行 `Tools > Project Coal > Refresh Factory Heat Haze` 并保存场景。
+- 改了地形或沙尘范围后，运行 `Tools > Coal Echoes > Refresh Factory Heat Haze` 并保存场景。
 - 索道路线点存在场景里，改了绳索形状要重新生成。
 - 改地形只改局部，不要整体重新生成 MapMagic。
 - 尺度：DEM 1:1，玩家胶囊 1.8 米，眼高约 1.68 米，Main Camera 竖直 FOV 80。

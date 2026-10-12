@@ -1,0 +1,12 @@
+{
+  "source": "Original procedural geometry and materials; no third-party model or image used.",
+  "triangles": 181220,
+  "vertices": 92224,
+  "size_xyz_metres": [
+    2.344660997390747,
+    0.7884284257888794,
+    1.4129999876022339
+  ],
+  "texture_resolution": 4096,
+  "blender": "5.2.2 LTS"
+}

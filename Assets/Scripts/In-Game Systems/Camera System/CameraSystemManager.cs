@@ -6,6 +6,8 @@ using UnityEngine.Rendering;
 using UnityEngine.Serialization;
 using System.IO;
 
+// Camera controls and photo preview must initialize before their roots are hidden.
+[DefaultExecutionOrder(10)]
 public sealed class CameraSystemManager : MonoBehaviour
 {
 
@@ -216,7 +218,7 @@ public sealed class CameraSystemManager : MonoBehaviour
         if (cameraPhotoAlbumUIManager != null) fileName = cameraPhotoAlbumUIManager.AddPhotoFromTexture(captured);
 
         // Only a saved photo can discover the one target shown by the yellow frame.
-        if (!string.IsNullOrEmpty(fileName) && captureSnapshot != null)
+        if (!string.IsNullOrEmpty(fileName) && captureSnapshot != null && GrandpaDiaryProgress.HasDiary)
         {
             try
             {
