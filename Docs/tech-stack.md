@@ -11,7 +11,7 @@ Windows 当前存档位于 `%USERPROFILE%/AppData/LocalLow/DefaultCompany/Coal E
 ## 引擎与渲染
 
 - Unity 6000.4.6f1
-- HDRP 17.4.0（2026 年 9 月从 URP 迁移）
+- HDRP 17.4.0
 - Shader Graph、VFX Graph
 - HDRP Local Volumetric Fog 用于沙尘，Custom Pass 用于热浪
 
