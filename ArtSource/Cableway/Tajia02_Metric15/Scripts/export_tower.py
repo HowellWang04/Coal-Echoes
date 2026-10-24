@@ -4,7 +4,7 @@ import bmesh
 import json
 from pathlib import Path
 
-ROOT = Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia02_Metric15')
+ROOT = Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia02_Metric15')
 NAME = globals().get('EXPORT_NAME', 'CablewayTower_Metric15')
 scene = bpy.data.scenes[globals().get('BAKE_SCENE', 'Tajia02_Tower_Metric15')]
 bpy.context.window.scene = scene

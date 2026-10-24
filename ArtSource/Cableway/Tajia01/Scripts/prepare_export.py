@@ -4,7 +4,7 @@ import math
 import os
 import json
 
-ROOT = r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01'
+ROOT = r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01'
 scene=bpy.context.scene
 source=bpy.data.collections['Tower_Fabricated_Parts']
 export=bpy.data.collections.new('Tower_Export')

@@ -10,7 +10,7 @@ import bpy
 import numpy as np
 from pathlib import Path
 
-ROOT = Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia02_Metric15')
+ROOT = Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia02_Metric15')
 SIZE = 2048
 PIER_DEPTH = 3.5
 

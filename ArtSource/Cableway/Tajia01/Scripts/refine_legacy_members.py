@@ -4,7 +4,7 @@ import numpy as np
 import json
 from pathlib import Path
 
-ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01')
+ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01')
 SIZE=globals().get('REFINE_SIZE',4096)
 scene=bpy.data.scenes['Tajia01_Tower_Rebuilt'];bpy.context.window.scene=scene
 tower=bpy.data.objects['Tajia01_Tower'];mesh=tower.data;portable=mesh.materials[0]

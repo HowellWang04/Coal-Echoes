@@ -32,8 +32,10 @@ gate.builder(wall, 'Concrete').box(((x0+x1)/2, 0, .14),
                                  (x1-x0, .62, .28), 1/4.5, .008, offset=(.5, 0))
 gate.brickwork(wall, x0, x1, -.25, .25, .28, 3.46, False)
 for (name, mat), (mesh, parent) in list(gate.groups.items()):
-    mesh.object(f'{name}_{mat}', mat, parent,
-                {'Brick': 0, 'BrickWeathered': 0, 'Concrete': .012, 'Mortar': .001}[mat], 1)
+    obj = mesh.object(f'{name}_{mat}', mat, parent,
+                      {'Brick': 0, 'BrickWeathered': 0, 'Concrete': .012, 'Mortar': .001}[mat], 1)
+    if mat == 'Concrete':
+        gate.concrete_uv(obj)
 for obj in collection.objects:
     if obj.type != 'MESH':
         continue

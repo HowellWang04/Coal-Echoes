@@ -91,17 +91,17 @@
       "metallicRoughness": true
     }
   ],
-  "glb_bytes": 82410632,
+  "glb_bytes": 91854344,
   "all_gltf_primitives_have_tangents": true,
   "weathered_brick_texture_is_distinct": true,
   "glb": {
     "size_xyz_blender": [
-      8.516261100769043,
+      15.027640342712402,
       1.0063493847846985,
       4.39099351502955
     ],
-    "triangles": 72331,
-    "mesh_objects": 28,
+    "triangles": 94127,
+    "mesh_objects": 23,
     "missing_uv": [],
     "bad_vertex_normals": [],
     "missing_image_files": [],
@@ -109,19 +109,19 @@
       "tested_hole_centers": 16,
       "clear_through_hole_centers": 16,
       "solid_sheet_control_rays_hit": true,
-      "raised_paint_vertices": 13039
+      "raised_paint_vertices": 23896
     },
     "dimensions_match": true,
     "triangle_count_matches": true
   },
   "fbx": {
     "size_xyz_blender": [
-      8.516261100769043,
+      15.027640342712402,
       1.0063501000404358,
       4.390993596054614
     ],
-    "triangles": 72331,
-    "mesh_objects": 28,
+    "triangles": 94127,
+    "mesh_objects": 23,
     "missing_uv": [],
     "bad_vertex_normals": [],
     "missing_image_files": [],
@@ -129,12 +129,12 @@
       "tested_hole_centers": 16,
       "clear_through_hole_centers": 16,
       "solid_sheet_control_rays_hit": true,
-      "raised_paint_vertices": 2716
+      "raised_paint_vertices": 5436
     },
     "dimensions_match": true,
     "triangle_count_matches": true
   },
-  "source_vs_glb_render_mean_absolute_difference": 0.0002309755509486422,
+  "source_vs_glb_render_mean_absolute_difference": 6.123759521869943e-05,
   "glb_roundtrip_render": "Previews/Gate_GLB_Roundtrip.png",
   "unity_editor_verified": false
 }

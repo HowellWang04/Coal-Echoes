@@ -169,15 +169,18 @@ public static class MapMagicTerrainTextureSync
         var textures = mapMagic.graph.generators.OfType<TexturesOutput200>().SingleOrDefault();
         var td = terrain.terrainData;
         // This tool owns the project's existing sand / slope rock / cavity rock layer stack.
+        // Hand-painted layers after those three (factory ground) keep their weight.
         if (slopeNode == null || cavityNode == null || textures == null || textures.layers.Length != 3 ||
-            !td.terrainLayers.SequenceEqual(textures.layers.Select(l => l.prototype)))
+            td.terrainLayers.Length < 3 ||
+            !td.terrainLayers.Take(3).SequenceEqual(textures.layers.Select(l => l.prototype)))
             return 0;
 
         refreshing = true;
         try
         {
             var terrains = mapMagic.GetComponentsInChildren<Terrain>(true)
-                .OrderByDescending(t => t.terrainData.heightmapResolution).ToArray();
+                .OrderBy(t => t.terrainData.heightmapResolution == td.heightmapResolution ? 0 : 1)
+                .ThenByDescending(t => t.terrainData.heightmapResolution).ToArray();
             foreach (var t in terrains)
                 t.terrainData.SyncHeightmap();
 
@@ -217,16 +220,21 @@ public static class MapMagicTerrainTextureSync
             for (int z = z0; z < z1; z++)
                 for (int x = x0; x < x1; x++)
                 {
-                    float px = margin + (x + .5f) * (n - 1) / ar;
-                    float pz = margin + (z + .5f) * (n - 1) / ar;
+                    // Terrain shader UVs place the shared tile edge on the outer pixel centers.
+                    float px = margin + x * (n - 1f) / (ar - 1);
+                    float pz = margin + z * (n - 1f) / (ar - 1);
+                    float extra = 0;
+                    for (int l = 3; l < td.alphamapLayers; l++)
+                        extra += alpha[z - z0, x - x0, l];
+                    float natural = Mathf.Clamp01(1 - extra);
                     bool different = false;
                     for (int l = 0; l < 3; l++)
-                        different |= Mathf.Abs(alpha[z - z0, x - x0, l] - layers[l].GetInterpolated(px, pz)) > Tolerance;
+                        different |= Mathf.Abs(alpha[z - z0, x - x0, l] - layers[l].GetInterpolated(px, pz) * natural) > Tolerance;
                     if (!different)
                         continue;
                     changed++;
                     for (int l = 0; l < 3; l++)
-                        alpha[z - z0, x - x0, l] = layers[l].GetInterpolated(px, pz);
+                        alpha[z - z0, x - x0, l] = layers[l].GetInterpolated(px, pz) * natural;
                 }
             if (changed == 0)
                 return 0;

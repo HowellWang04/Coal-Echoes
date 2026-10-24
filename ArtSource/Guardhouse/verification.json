@@ -1,0 +1,47 @@
+{
+  "source_meshes": 168,
+  "triangles": 26984,
+  "nonmanifold_meshes": [],
+  "door_sweep": [
+    {
+      "degrees": 0,
+      "intersections": 0
+    },
+    {
+      "degrees": -15,
+      "intersections": 0
+    },
+    {
+      "degrees": -45,
+      "intersections": 0
+    },
+    {
+      "degrees": -85,
+      "intersections": 0
+    },
+    {
+      "degrees": -100,
+      "intersections": 0
+    }
+  ],
+  "keyhole_rays": [
+    {
+      "sample": "round_hole",
+      "hit": "MortiseLock_DarkInterior",
+      "y": -2.355
+    },
+    {
+      "sample": "stem",
+      "hit": "MortiseLock_DarkInterior",
+      "y": -2.355
+    },
+    {
+      "sample": "cylinder_face",
+      "hit": "MortiseLock_InsetCylinder",
+      "y": -2.3945
+    }
+  ],
+  "keyhole_depth_metres": 0.0395,
+  "export_meshes": 3,
+  "export_bytes": 24474828
+}

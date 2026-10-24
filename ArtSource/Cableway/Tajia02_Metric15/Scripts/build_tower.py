@@ -10,7 +10,7 @@ import bpy
 import math
 from mathutils import Matrix, Vector
 
-ROOT = r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia02_Metric15'
+ROOT = r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia02_Metric15'
 
 # ---------------------------------------------------------------- parameters
 # Defaults build the 15 m line tower. Set TOWER_PARAMS before exec to override any of them,

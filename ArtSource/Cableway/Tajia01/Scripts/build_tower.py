@@ -5,7 +5,7 @@ import random
 from mathutils import Vector
 
 random.seed(19)
-ROOT = r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01'
+ROOT = r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01'
 scene = bpy.data.scenes.new('Tajia01_Tower_Rebuilt')
 bpy.context.window.scene = scene
 parts = bpy.data.collections.new('Tower_Fabricated_Parts')

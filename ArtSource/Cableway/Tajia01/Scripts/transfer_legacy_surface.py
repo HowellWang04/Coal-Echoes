@@ -9,7 +9,7 @@ from mathutils import Vector
 from mathutils.bvhtree import BVHTree
 from mathutils.geometry import barycentric_transform
 
-ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01')
+ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01')
 SIZE=globals().get('TRANSFER_SIZE',1024)
 status=ROOT/'Blender'/'legacy_transfer_status.txt'
 status.write_text('preparing '+str(SIZE))
@@ -35,7 +35,7 @@ source_hi=np.array([max(v[i] for v in verts) for i in range(3)])
 target_lo=np.array([-3.1800000668,-1.3837999105,0])
 target_hi=np.array([3.1800000668,1.2934999466,10.3149995804])
 
-legacy=bpy.data.images.load(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\Assets\Art Resources\Environment\Cableway\texture\texture_pbr_20250901.002 1.png',check_existing=True)
+legacy=bpy.data.images.load(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\Assets\Art Resources\Environment\Cableway\texture\texture_pbr_20250901.002 1.png',check_existing=True)
 pixels=np.empty(len(legacy.pixels),np.float32)
 legacy.pixels.foreach_get(pixels)
 texture=pixels.reshape(legacy.size[1],legacy.size[0],4)

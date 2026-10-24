@@ -12,7 +12,7 @@ import bmesh
 import json
 from pathlib import Path
 
-EXT_ROOT = Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia02_Metric15')
+EXT_ROOT = Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia02_Metric15')
 DATA = json.loads((EXT_ROOT / 'leg_extensions.json').read_text(encoding='utf-8-sig'))
 # Towers built with this body geometry; the entry tower has its own body and is built in a separate pass.
 DATA = [t for t in DATA if t['name'] in globals().get('EXT_NAMES', [t['name'] for t in DATA])]

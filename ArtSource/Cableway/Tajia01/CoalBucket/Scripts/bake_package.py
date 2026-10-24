@@ -3,7 +3,7 @@ import bpy
 import runpy
 from pathlib import Path
 
-ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01\CoalBucket')
+ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01\CoalBucket')
 status=ROOT/'Blender'/'pipeline_status.txt'
 status.write_text('preparing mesh and UV',encoding='utf-8')
 runpy.run_path(str(ROOT/'Scripts'/'prepare_export.py'))

@@ -9,8 +9,8 @@ import bpy
 import numpy as np
 from pathlib import Path
 
-ROOT = Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia02_Metric15')
-LEGACY = Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\Assets\Art Resources\Environment\Cableway\texture\texture_pbr_20250901.002 1.png')
+ROOT = Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia02_Metric15')
+LEGACY = Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\Assets\Art Resources\Environment\Cableway\texture\texture_pbr_20250901.002 1.png')
 SIZE = globals().get('BAKE_SIZE', 4096)
 OBJ = globals().get('BAKE_OBJECT', 'Tajia02_Tower')
 PREFIX = globals().get('BAKE_PREFIX', 'Tower')

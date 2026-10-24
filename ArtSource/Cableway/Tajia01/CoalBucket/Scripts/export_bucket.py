@@ -6,7 +6,7 @@ import struct
 from pathlib import Path
 from mathutils import Matrix,Vector
 
-ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01\CoalBucket')
+ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01\CoalBucket')
 scene=bpy.data.scenes['Tajia01_CoalBucket_Rebuilt'];bpy.context.window.scene=scene
 bucket=bpy.data.objects['Tajia01_CoalBucket']
 factor=scene['authoring_to_export_scale'];pivot=Vector(scene['attachment_pivot_authoring'])
