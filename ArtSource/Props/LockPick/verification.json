@@ -1,0 +1,109 @@
+{
+  "asset": "LockPick",
+  "blender_version": "5.2.2 LTS",
+  "source": {
+    "mesh_count": 4,
+    "dimensions_xyz_m": [
+      0.11475059390068054,
+      0.015547744929790497,
+      0.004248298238962889
+    ],
+    "min_z_m": 0.0,
+    "objects": [
+      {
+        "name": "HookPick",
+        "triangles": 964,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "TensionWrench",
+        "triangles": 500,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "GripTape",
+        "triangles": 4720,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "RubberBand",
+        "triangles": 584,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      }
+    ],
+    "triangles": 6768
+  },
+  "settle_angle_degrees": 0.9181212152738516,
+  "unity_verified": false,
+  "method": "Independent background Blender process",
+  "packed_source_images": 8,
+  "all_source_images_packed": true,
+  "fbx_roundtrip": {
+    "mesh_count": 4,
+    "triangles": 6768,
+    "dimensions_xyz_m": [
+      0.11475059390068054,
+      0.015547744929790497,
+      0.004248299971148728
+    ],
+    "all_meshes_have_uvs": true,
+    "triangles_match": true,
+    "dimensions_match": true,
+    "mesh_count_matches": true,
+    "materials": [
+      "Grip_FrictionTape.001",
+      "RubberBand_Aged.001",
+      "Steel_WornLockPick.001"
+    ],
+    "missing_texture_nodes": []
+  },
+  "glb_roundtrip": {
+    "mesh_count": 4,
+    "triangles": 6768,
+    "dimensions_xyz_m": [
+      0.11475059390068054,
+      0.015547744929790497,
+      0.004248298238962889
+    ],
+    "all_meshes_have_uvs": true,
+    "triangles_match": true,
+    "dimensions_match": true,
+    "mesh_count_matches": true,
+    "materials": [
+      "Grip_FrictionTape.002",
+      "RubberBand_Aged.002",
+      "Steel_WornLockPick.002"
+    ],
+    "missing_texture_nodes": []
+  },
+  "glb_extensions": [],
+  "glb_images_embedded": true,
+  "delivery_sha256": {
+    "Blender\\LockPick.blend": "c886b184873ea0e15e3e10abc2a5a31f3d68f8fc6d1ab9dc5c886739bef18f16",
+    "Exports\\LockPick.fbx": "a17ec8f93c502c72c0d3993cb9586df4720209f87b95ef30c71d8d8e8a731ee4",
+    "Exports\\LockPick.glb": "0679ee619f1f651bb5bb53cf738378a95032389f0c57af25d8599e923d9470a2",
+    "Textures\\Rubber_BaseColor.png": "b5d8aec5e8c0a4caae85f52817f7fc0dcef3153107bc336e657feec74e868284",
+    "Textures\\Steel_BaseColor.png": "f4032cc2f3b87b583d89692ab90a9e99af1680ded661419e011454183dc0264a",
+    "Textures\\Steel_HDRP_Mask.png": "d1757e667ad2dfc8d318c5cd5da24d681b146c3680846650ffdfdf397dba62bd",
+    "Textures\\Steel_Metallic.png": "1f3a3d8a5d64762cd9c6534a414e8a7e557f87f233ec2a18318e07063e1ca83c",
+    "Textures\\Steel_Normal.png": "7dde63036471f597cb62e816147994bb8b9e614b97ffd31908a72869be6b221a",
+    "Textures\\Steel_Roughness.png": "50726d84e2b0e94980b79f510323da7199d5839761c30296c7052942e414992d",
+    "Textures\\Tape_BaseColor.png": "4e071caebce5309a8787c4b4bc68b1641ee594df26c44979dae1c08401bd78e5",
+    "Textures\\Tape_HDRP_Mask.png": "a5240e262b7f6aedcc39c7b1365904d453737f0352617cc7b2fa5ccb5fd26ded",
+    "Textures\\Tape_Normal.png": "020c6449433d6b754699ec8cf3e17f94e748e9601f6b602c3773447f0ceab51c",
+    "Textures\\Tape_Roughness.png": "f4917f02ccea29e4ec2d23427e2ad6498290c3297f46a2cf99b604974a8c77fa",
+    "Previews\\LockPick_GLB_Roundtrip.png": "91d33df4bbef0aa2329afc5643037a440db361f26a6e54ec0005c8f121bef249",
+    "Previews\\LockPick_HookDetail.png": "57c6c4b908ac1fe6a1071a5349c1524b6fbaea4e1e70c50097387a9ecd6eeeaa",
+    "Previews\\LockPick_Icon.png": "21b84dd5c937b26aedd213cd88bff40ae5341e03721e10b11ed4f21330682633",
+    "Previews\\LockPick_Overall.png": "8a63639027f11bfa1a8ed407ca336a7cc1123442c64b2867254c6272c61af25f",
+    "Previews\\LockPick_Top.png": "4cf1a5dd412b56b6141fbf5c579ffd2521f48e9e12d674c193d3966bcb9bb54c"
+  }
+}

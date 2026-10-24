@@ -1,0 +1,19 @@
+{
+  "asset": "DeskLamp",
+  "blender_version": "5.2.2 LTS",
+  "texture_size": 1024,
+  "dimensions_xyz_m": [
+    0.402,
+    0.5697,
+    0.3443
+  ],
+  "min_z_m": -0.001,
+  "max_z_m": 0.3433,
+  "triangles": 4848,
+  "zero_area_faces": 0,
+  "uv_layers": [
+    "UVMap"
+  ],
+  "unity_verified": false,
+  "method": "Independent background Blender process, procedural surfaces baked in Cycles"
+}

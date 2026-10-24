@@ -12,7 +12,7 @@ from mathutils import Vector, Matrix
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT = ROOT.parents[2]
-SOURCE = PROJECT / 'ArtSource/HistoricalPhotos/StreetMarket/StreetMarket_Original.png'
+SOURCE = PROJECT / 'ArtSource/Props/OldPhotoFrame/References/StreetMarket_Original.png'
 for folder in ['Blender', 'Exports', 'Textures', 'Previews']:
     (ROOT / folder).mkdir(parents=True, exist_ok=True)
 random.seed(928)
