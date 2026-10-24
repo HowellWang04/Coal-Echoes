@@ -1,0 +1,77 @@
+{
+  "hints": [
+    {
+      "hintId": "T1",
+      "heading": "",
+      "tasks": [
+        {
+          "taskId": "T1_storage_box",
+          "text": "Collect the items below from the Motorcycle's storage box",
+          "subtasks": [
+            { "taskId": "T1_grandpa_diary", "text": "Grandpa's Diary" },
+            { "taskId": "T1_group_photo", "text": "Group Photo, new workers at the factory gate holding a banner that reads “Shitanjing Coal Washing Plant, New Workers of 1980”" },
+            { "taskId": "T1_lock_pick", "text": "Lock Pick" }
+          ]
+        }
+      ]
+    },
+    {
+      "hintId": "T2",
+      "heading": "",
+      "tasks": [
+        { "taskId": "T2_open_panel", "text": "Press “Tab” to open the Player's Panel and get ready to look at what you just collected" }
+      ]
+    },
+    {
+      "hintId": "T3",
+      "heading": "",
+      "tasks": [
+        {
+          "taskId": "T3_group_photo",
+          "text": "Look at the Group Photo and arrange it",
+          "subtasks": [
+            { "taskId": "T3_diary_first_page", "text": "Switch to the Grandpa's Diary tab and read the first page of Grandpa's Diary" },
+            { "taskId": "T3_add_to_scrapbook", "text": "Switch to the Photo Album tab and add the Group Photo from the Photo Album to the Scrapbook" },
+            { "taskId": "T3_place_in_scrapbook", "text": "Switch to the Scrapbook tab, move the Group Photo into the Scrapbook and arrange your Scrapbook freely" }
+          ]
+        }
+      ]
+    },
+    {
+      "hintId": "T4",
+      "heading": "",
+      "tasks": [
+        {
+          "taskId": "T4_retake_photo",
+          "text": "Retake the Group Photo at the factory gate",
+          "subtasks": [
+            { "taskId": "T4_close_panel", "text": "Press “Tab” to close the Player's Panel" },
+            { "taskId": "T4_raise_camera", "text": "Press “1” to raise the Camera" },
+            { "taskId": "T4_match_photo", "text": "Step into the glowing circle in front of the factory gate and take a photo from the same angle as the Group Photo" }
+          ]
+        }
+      ]
+    },
+    {
+      "hintId": "T5",
+      "heading": "",
+      "tasks": [
+        { "taskId": "T5_view_lock_pick", "text": "Press “Tab” to open the Player's Panel and check the Lock Pick in the Backpack tab" }
+      ]
+    },
+    {
+      "hintId": "T6",
+      "heading": "",
+      "tasks": [
+        { "taskId": "T6_open_guardhouse", "text": "Use the Lock Pick to open the guardhouse" }
+      ]
+    },
+    {
+      "hintId": "T8",
+      "heading": "",
+      "tasks": [
+        { "taskId": "T8_cut_gate_chain", "text": "Pick up the Bolt Cutter and cut the chain on the Factory Gate" }
+      ]
+    }
+  ]
+}

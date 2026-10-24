@@ -15,9 +15,10 @@ public class InspectSystemManager : MonoBehaviour
     [SerializeField] private GameObject promptUI;
     [SerializeField] private RectTransform promptRect;
     [SerializeField] private Image inspectIcon;
+    [SerializeField] private Sprite interactKeyIcon;   // F
+    [SerializeField] private Sprite inspectKeyIcon;    // E
     [SerializeField] private Image dotIcon;
     [SerializeField] private TMP_Text promptText;
-    [SerializeField] private EchoPopupUI diaryAddedPopup;
     [SerializeField] private float promptHeightOffset = 0.1f;
     [SerializeField] private Vector2 promptScreenOffset = Vector2.zero;
 
@@ -72,7 +73,7 @@ public class InspectSystemManager : MonoBehaviour
             return;
         }
 
-        if (TryShowDiaryPickup()) return;
+        if (TryShowLookInteraction()) return;
 
         InspectableItem best    = null;
         Collider        bestCol = null;
@@ -90,6 +91,7 @@ public class InspectSystemManager : MonoBehaviour
 
             Vector3 checkPos = entries[i].col != null ? entries[i].col.bounds.center : entries[i].item.transform.position;
             if (!IsInViewport(checkPos)) continue;
+            if (IsBlocked(camPos, checkPos, entries[i].item)) continue;
 
             if (dist < bestDist)
             {
@@ -107,16 +109,22 @@ public class InspectSystemManager : MonoBehaviour
                 : best.transform.position + Vector3.up * promptHeightOffset;
 
             bool inInspectRange = bestDist <= maxDistance;
-            ShowPrompt(inInspectRange);
+            // Tools are picked up with F; items that stay where they are are looked at with E.
+            bool pickUp = best.backpackItem != null;
+            ShowPrompt(inInspectRange, false, !pickUp);
+            var gameplay = inputProvider.Controls.Gameplay;
 
             if (inInspectRange
-                && inputProvider != null
-                && inputProvider.Controls.Gameplay.Interact.WasPressedThisFrame())
+                && (pickUp ? gameplay.Interact : gameplay.Inspect).WasPressedThisFrame())
             {
                 HidePrompt();
                 inspectUI.StartInspect(best, playerCamera);
-                // Add to backpack using ItemBackpackManager
-                ItemBackpackManager.Instance.AddItem(best);
+                // Tools go into the backpack; other inspectables stay where they are.
+                if (pickUp)
+                {
+                    ItemBackpackManager.Instance.AddItem(best.backpackItem);
+                    best.gameObject.SetActive(false);
+                }
             }
         }
         else
@@ -126,25 +134,49 @@ public class InspectSystemManager : MonoBehaviour
         }
     }
 
-    private bool TryShowDiaryPickup()
+    // F interactions found by looking straight at them: the diary pickup and tool use points.
+    private bool TryShowLookInteraction()
     {
         Ray ray = playerCamera.ViewportPointToRay(new Vector3(.5f, .5f, 0f));
         if (!Physics.Raycast(ray, out RaycastHit hit, maxDistance, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore))
             return false;
 
         var pickup = hit.collider.GetComponentInParent<GrandpaDiaryPickup>();
-        if (pickup == null || !pickup.IsAvailable) return false;
-
-        promptWorldPos = pickup.PromptPosition;
-        ShowPrompt(true, true);
-        promptText.text = "Get Grandpa's Diary";
-        if (inputProvider.Controls.Gameplay.Interact.WasPressedThisFrame() && pickup.Collect())
+        if (pickup != null && pickup.IsAvailable)
         {
-            HidePrompt();
-            playerPanel.RefreshGrandpaDiaryAvailability();
-            diaryAddedPopup.Show();
+            promptWorldPos = pickup.PromptPosition;
+            ShowPrompt(true, true);
+            promptText.text = "Get Grandpa's things";
+            if (inputProvider.Controls.Gameplay.Interact.WasPressedThisFrame() && pickup.Collect())
+            {
+                HidePrompt();
+                playerPanel.RefreshGrandpaDiaryAvailability();
+            }
+            return true;
         }
-        return true;
+
+        var usePoint = hit.collider.GetComponentInParent<ItemUsePoint>();
+        if (usePoint != null && usePoint.IsAvailable)
+        {
+            promptWorldPos = usePoint.PromptPosition;
+            ShowPrompt(true, true);
+            promptText.text = usePoint.PromptText;
+            if (inputProvider.Controls.Gameplay.Interact.WasPressedThisFrame())
+            {
+                HidePrompt();
+                usePoint.Use();
+            }
+            return true;
+        }
+
+        return false;
+    }
+
+    // Walls and closed doors hide what is behind them, such as the Bolt Cutter in the locked guardhouse.
+    private bool IsBlocked(Vector3 from, Vector3 to, InspectableItem item)
+    {
+        return Physics.Linecast(from, to, out RaycastHit hit, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore)
+            && !hit.transform.IsChildOf(item.transform);
     }
 
     private bool IsInViewport(Vector3 worldPos)
@@ -158,7 +190,7 @@ public class InspectSystemManager : MonoBehaviour
         if (!inputProvider.Controls.Gameplay.enabled) return false;
         if (cameraSystemManager != null && cameraSystemManager.CurrentState != CameraModeState.Disabled) return false;
         if (playerPanel != null && playerPanel.IsOpen) return false;
-        if (inspectUI != null && inspectUI.IsInspecting) return false;
+        if (inspectUI != null && (inspectUI.IsInspecting || inspectUI.StoppedThisFrame)) return false;
         return true;
     }
 
@@ -178,11 +210,15 @@ public class InspectSystemManager : MonoBehaviour
         }
     }
 
-    private void ShowPrompt(bool inInspectRange, bool showDiaryText = false)
+    private void ShowPrompt(bool inInspectRange, bool showText = false, bool inspectKey = false)
     {
-        if (promptText != null) promptText.gameObject.SetActive(showDiaryText);
+        if (promptText != null) promptText.gameObject.SetActive(showText);
         if (promptUI != null) promptUI.SetActive(true);
-        if (inspectIcon != null) inspectIcon.gameObject.SetActive(inInspectRange);
+        if (inspectIcon != null)
+        {
+            inspectIcon.gameObject.SetActive(inInspectRange);
+            inspectIcon.sprite = inspectKey ? inspectKeyIcon : interactKeyIcon;
+        }
         if (dotIcon != null)    dotIcon.gameObject.SetActive(!inInspectRange);
         showingDot = !inInspectRange;
     }

@@ -59,11 +59,14 @@ public class EchoTargetDetector : MonoBehaviour
         float distanceLimit = target.MaxDistanceOverride > 0f ? target.MaxDistanceOverride : maxDistance;
         if (toCamera.sqrMagnitude > distanceLimit * distanceLimit * slack * slack) return false;
         if (target.FrontOnly && Vector3.Dot(target.transform.forward, toCamera) <= 0f) return false;
+        if (!target.IsStandingIn(camera.transform)) return false;
 
         Vector3 viewportCenter = camera.WorldToViewportPoint(center);
         if (viewportCenter.z <= camera.nearClipPlane) return false;
         Vector2 offset = new Vector2(viewportCenter.x - .5f, viewportCenter.y - .5f);
-        if (Mathf.Abs(offset.x) > centerTolerance * slack || Mathf.Abs(offset.y) > centerTolerance * slack)
+        // A stand point already fixes the aim, so its target need not sit in the middle.
+        if (!target.HasStandPoint
+            && (Mathf.Abs(offset.x) > centerTolerance * slack || Mathf.Abs(offset.y) > centerTolerance * slack))
             return false;
 
         Vector2 min = new Vector2(float.PositiveInfinity, float.PositiveInfinity);

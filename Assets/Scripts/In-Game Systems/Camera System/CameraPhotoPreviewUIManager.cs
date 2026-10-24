@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,10 +9,6 @@ public sealed class CameraPhotoPreviewUIManager : MonoBehaviour
     [SerializeField] private Image photoDisplayArea;
     [SerializeField] private GameObject photoFrame;
     [SerializeField] private Button photoClickArea; 
-
-    [Header("Flash UI")]
-    [SerializeField] private GameObject cameraFlash;
-    [SerializeField] private float flashDuration = 0.8f;
 
     [Header("Animation")]
     [SerializeField] private Animator photoFadingAnimation;
@@ -34,7 +29,6 @@ public sealed class CameraPhotoPreviewUIManager : MonoBehaviour
         ApplyTexture(texture);
         SetPreviewVisible(true);
 
-        if (cameraFlash != null) StartCoroutine(Flash());
         if (photoFadingAnimation != null && !string.IsNullOrEmpty(fadeAnimStateName))
             photoFadingAnimation.Play(fadeAnimStateName);
     }
@@ -80,12 +74,5 @@ public sealed class CameraPhotoPreviewUIManager : MonoBehaviour
     {
         gameObject.SetActive(on);
         if (photoFrame != null) photoFrame.SetActive(on);
-    }
-
-    private IEnumerator Flash()
-    {
-        cameraFlash.SetActive(true);
-        yield return new WaitForSeconds(flashDuration);
-        cameraFlash.SetActive(false);
     }
 }

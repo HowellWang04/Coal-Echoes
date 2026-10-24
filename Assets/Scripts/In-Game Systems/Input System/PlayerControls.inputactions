@@ -43,6 +43,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "FlashToggle",
+                    "type": "Button",
+                    "id": "3b0f6c2e-8d4a-4f51-9c7e-2a6d1e5b9f13",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "PhotoShutter",
                     "type": "Button",
                     "id": "a91d2e42-6de9-42cc-87f1-61de60d6a098",
@@ -73,6 +82,15 @@
                     "name": "Interact",
                     "type": "Button",
                     "id": "5f7f163f-a946-414b-83b9-3372503476f3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Inspect",
+                    "type": "Button",
+                    "id": "d88fe704-523a-4da3-a740-ff304e7bd6f6",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -197,6 +215,17 @@
                 },
                 {
                     "name": "",
+                    "id": "c4e2a9d7-51b3-4e8f-a0d6-7f3b2c8e1a54",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FlashToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "6f5764d9-9ff0-4f5a-b2a6-9747c9792cc8",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
@@ -236,6 +265,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c49beda-faa1-45b0-b2e4-5741f8506f93",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inspect",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

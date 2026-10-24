@@ -9,7 +9,6 @@ public class GrandpaDiaryPageData
     public int pageIndex;
     public string pageTitle;
     public List<GrandpaDiaryTextBlockData> textBlocks = new();
-    public List<GrandpaDiaryStickyNoteSlotData> stickyNoteSlots = new();
 }
 
 [Serializable]
@@ -19,26 +18,4 @@ public class GrandpaDiaryTextBlockData
 
     [TextArea(3, 8)]
     public string content;
-}
-
-[Serializable]
-public class GrandpaDiaryStickyNoteSlotData
-{
-    public string slotId;
-    public string markerId;
-    public string triggerId;
-    public string pageSide;
-
-    [TextArea(2, 6)]
-    public string noteContent;
-
-    public bool unlockedByDefault;
-}
-
-[Serializable]
-public class GrandpaDiaryStickyNotePositionOverride
-{
-    public string pageId;
-    public GrandpaDiaryPageSide pageSide;
-    public Vector2 anchoredPosition;
 }

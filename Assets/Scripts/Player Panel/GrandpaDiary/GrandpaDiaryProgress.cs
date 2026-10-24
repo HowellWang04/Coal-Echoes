@@ -18,7 +18,7 @@ public static class GrandpaDiaryProgress
 #endif
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
-    private static void ResetCache()
+    public static void ResetCache()
     {
         acquired = null;
 #if UNITY_EDITOR
@@ -52,8 +52,7 @@ public static class GrandpaDiaryProgress
             return JsonUtility.FromJson<SaveData>(File.ReadAllText(path)).acquired;
 
         // Existing saves predate diary pickup. Persist fresh false before ordinary photos can be taken.
-        bool legacySave = File.Exists(Path.Combine(root, "GrandpaDiary", "UnlockedStickyNotes.json"))
-            || File.Exists(Path.Combine(root, "Echo", "DiscoveredEchoes.json"))
+        bool legacySave = File.Exists(Path.Combine(root, "Echo", "DiscoveredEchoes.json"))
             || File.Exists(Path.Combine(root, "CapturedPhotos", "CapturedPhotosManifest.json"))
             || File.Exists(Path.Combine(root, "ScrapBook", "RegisteredPhotos.json"))
             || File.Exists(Path.Combine(root, "ScrapBook", "CanvasLayout.json"));

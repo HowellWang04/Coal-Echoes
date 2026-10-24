@@ -129,6 +129,15 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
+                    ""name"": ""FlashToggle"",
+                    ""type"": ""Button"",
+                    ""id"": ""3b0f6c2e-8d4a-4f51-9c7e-2a6d1e5b9f13"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
                     ""name"": ""PhotoShutter"",
                     ""type"": ""Button"",
                     ""id"": ""a91d2e42-6de9-42cc-87f1-61de60d6a098"",
@@ -159,6 +168,15 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""name"": ""Interact"",
                     ""type"": ""Button"",
                     ""id"": ""5f7f163f-a946-414b-83b9-3372503476f3"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Inspect"",
+                    ""type"": ""Button"",
+                    ""id"": ""d88fe704-523a-4da3-a740-ff304e7bd6f6"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -283,6 +301,17 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""c4e2a9d7-51b3-4e8f-a0d6-7f3b2c8e1a54"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FlashToggle"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""6f5764d9-9ff0-4f5a-b2a6-9747c9792cc8"",
                     ""path"": ""<Mouse>/leftButton"",
                     ""interactions"": """",
@@ -322,6 +351,17 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Interact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5c49beda-faa1-45b0-b2e4-5741f8506f93"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inspect"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -380,10 +420,12 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Gameplay_Look = m_Gameplay.FindAction("Look", throwIfNotFound: true);
         m_Gameplay_CameraModeToggle = m_Gameplay.FindAction("CameraModeToggle", throwIfNotFound: true);
         m_Gameplay_CameraViewToggle = m_Gameplay.FindAction("CameraViewToggle", throwIfNotFound: true);
+        m_Gameplay_FlashToggle = m_Gameplay.FindAction("FlashToggle", throwIfNotFound: true);
         m_Gameplay_PhotoShutter = m_Gameplay.FindAction("PhotoShutter", throwIfNotFound: true);
         m_Gameplay_PlayerPanelToggle = m_Gameplay.FindAction("PlayerPanelToggle", throwIfNotFound: true);
         m_Gameplay_CursorToggle = m_Gameplay.FindAction("CursorToggle", throwIfNotFound: true);
         m_Gameplay_Interact = m_Gameplay.FindAction("Interact", throwIfNotFound: true);
+        m_Gameplay_Inspect = m_Gameplay.FindAction("Inspect", throwIfNotFound: true);
         m_Gameplay_Cancel = m_Gameplay.FindAction("Cancel", throwIfNotFound: true);
         m_Gameplay_InspectRotate = m_Gameplay.FindAction("InspectRotate", throwIfNotFound: true);
         m_Gameplay_InspectZoom = m_Gameplay.FindAction("InspectZoom", throwIfNotFound: true);
@@ -471,10 +513,12 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Gameplay_Look;
     private readonly InputAction m_Gameplay_CameraModeToggle;
     private readonly InputAction m_Gameplay_CameraViewToggle;
+    private readonly InputAction m_Gameplay_FlashToggle;
     private readonly InputAction m_Gameplay_PhotoShutter;
     private readonly InputAction m_Gameplay_PlayerPanelToggle;
     private readonly InputAction m_Gameplay_CursorToggle;
     private readonly InputAction m_Gameplay_Interact;
+    private readonly InputAction m_Gameplay_Inspect;
     private readonly InputAction m_Gameplay_Cancel;
     private readonly InputAction m_Gameplay_InspectRotate;
     private readonly InputAction m_Gameplay_InspectZoom;
@@ -506,6 +550,10 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @CameraViewToggle => m_Wrapper.m_Gameplay_CameraViewToggle;
         /// <summary>
+        /// Provides access to the underlying input action "Gameplay/FlashToggle".
+        /// </summary>
+        public InputAction @FlashToggle => m_Wrapper.m_Gameplay_FlashToggle;
+        /// <summary>
         /// Provides access to the underlying input action "Gameplay/PhotoShutter".
         /// </summary>
         public InputAction @PhotoShutter => m_Wrapper.m_Gameplay_PhotoShutter;
@@ -521,6 +569,10 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Gameplay/Interact".
         /// </summary>
         public InputAction @Interact => m_Wrapper.m_Gameplay_Interact;
+        /// <summary>
+        /// Provides access to the underlying input action "Gameplay/Inspect".
+        /// </summary>
+        public InputAction @Inspect => m_Wrapper.m_Gameplay_Inspect;
         /// <summary>
         /// Provides access to the underlying input action "Gameplay/Cancel".
         /// </summary>
@@ -571,6 +623,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @CameraViewToggle.started += instance.OnCameraViewToggle;
             @CameraViewToggle.performed += instance.OnCameraViewToggle;
             @CameraViewToggle.canceled += instance.OnCameraViewToggle;
+            @FlashToggle.started += instance.OnFlashToggle;
+            @FlashToggle.performed += instance.OnFlashToggle;
+            @FlashToggle.canceled += instance.OnFlashToggle;
             @PhotoShutter.started += instance.OnPhotoShutter;
             @PhotoShutter.performed += instance.OnPhotoShutter;
             @PhotoShutter.canceled += instance.OnPhotoShutter;
@@ -583,6 +638,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Interact.started += instance.OnInteract;
             @Interact.performed += instance.OnInteract;
             @Interact.canceled += instance.OnInteract;
+            @Inspect.started += instance.OnInspect;
+            @Inspect.performed += instance.OnInspect;
+            @Inspect.canceled += instance.OnInspect;
             @Cancel.started += instance.OnCancel;
             @Cancel.performed += instance.OnCancel;
             @Cancel.canceled += instance.OnCancel;
@@ -615,6 +673,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @CameraViewToggle.started -= instance.OnCameraViewToggle;
             @CameraViewToggle.performed -= instance.OnCameraViewToggle;
             @CameraViewToggle.canceled -= instance.OnCameraViewToggle;
+            @FlashToggle.started -= instance.OnFlashToggle;
+            @FlashToggle.performed -= instance.OnFlashToggle;
+            @FlashToggle.canceled -= instance.OnFlashToggle;
             @PhotoShutter.started -= instance.OnPhotoShutter;
             @PhotoShutter.performed -= instance.OnPhotoShutter;
             @PhotoShutter.canceled -= instance.OnPhotoShutter;
@@ -627,6 +688,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Interact.started -= instance.OnInteract;
             @Interact.performed -= instance.OnInteract;
             @Interact.canceled -= instance.OnInteract;
+            @Inspect.started -= instance.OnInspect;
+            @Inspect.performed -= instance.OnInspect;
+            @Inspect.canceled -= instance.OnInspect;
             @Cancel.started -= instance.OnCancel;
             @Cancel.performed -= instance.OnCancel;
             @Cancel.canceled -= instance.OnCancel;
@@ -705,6 +769,13 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnCameraViewToggle(InputAction.CallbackContext context);
         /// <summary>
+        /// Method invoked when associated input action "FlashToggle" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnFlashToggle(InputAction.CallbackContext context);
+        /// <summary>
         /// Method invoked when associated input action "PhotoShutter" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
@@ -732,6 +803,13 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnInteract(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Inspect" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnInspect(InputAction.CallbackContext context);
         /// <summary>
         /// Method invoked when associated input action "Cancel" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>

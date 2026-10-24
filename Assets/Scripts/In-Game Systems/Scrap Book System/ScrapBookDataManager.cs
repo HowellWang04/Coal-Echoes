@@ -13,6 +13,7 @@ public class ScrapBookElementData
     public float rotation;   // Z axis angle
     public float scale;      // uniform scale
     public string text;      // textbox only, empty otherwise
+    public int page;         // 0-based page; saves from before paging load as page 0
 }
 
 // Wrapper for JsonUtility (it can't serialize a bare List).
@@ -59,6 +60,18 @@ public class ScrapBookDataManager : MonoBehaviour
         Instance = this;
 
         LoadPhotos();
+        GameSaveManager.SavesCleared += HandleSavesCleared;
+    }
+
+    private void OnDestroy()
+    {
+        GameSaveManager.SavesCleared -= HandleSavesCleared;
+    }
+
+    private void HandleSavesCleared()
+    {
+        photos.Clear();
+        OnPhotosChanged?.Invoke();
     }
 
     // Add a photo to ScrapBook by file name (consistent with CameraPhotoStorage).

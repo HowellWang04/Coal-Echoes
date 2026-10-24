@@ -16,14 +16,18 @@ public class InspectRotator : MonoBehaviour
     private Camera cam;
     private PlayerInputProvider inputProvider;
     private float currentDistance;
+    private float farthestDistance;   // zooming out stops before walls or furniture get in the way
     private Vector3 originPosition;
     private bool active = false;
 
-    public void Activate(Camera camera, float startDistance, PlayerInputProvider provider)
+    public float MaxDistance => maxDistance;
+
+    public void Activate(Camera camera, float startDistance, float farthest, PlayerInputProvider provider)
     {
         cam = camera;
         inputProvider = provider;
         currentDistance = startDistance;
+        farthestDistance = farthest;
         originPosition = transform.position;
         active = true;
     }
@@ -62,7 +66,7 @@ public class InspectRotator : MonoBehaviour
         scroll = scroll / ScrollDeltaPerStep * LegacyMouseAxisSensitivity;
 
         currentDistance -= scroll * zoomSpeed;
-        currentDistance = Mathf.Clamp(currentDistance, minDistance, maxDistance);
+        currentDistance = Mathf.Clamp(currentDistance, minDistance, Mathf.Min(maxDistance, farthestDistance));
 
         Vector3 newPos = cam.transform.position + cam.transform.forward * currentDistance;
         transform.position = newPos;

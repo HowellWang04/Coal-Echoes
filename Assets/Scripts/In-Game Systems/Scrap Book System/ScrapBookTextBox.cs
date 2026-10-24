@@ -7,8 +7,14 @@ public class ScrapBookTextBox : MonoBehaviour, IPointerClickHandler
     [SerializeField] private TMP_InputField inputField;
     [SerializeField] private TMP_Text displayText;
 
-    public string Text => displayText != null ? displayText.text : "";
+    [Header("Placeholder")]
+    // Shown faded while the box is empty; cleared when editing starts and never saved.
+    [SerializeField] private string placeholderText = "Feel free to write something here";
+    [SerializeField] private float placeholderAlpha = 0.5f;
 
+    public string Text => displayText == null || showingPlaceholder ? "" : displayText.text;
+
+    private bool showingPlaceholder;
     private bool isEditing;
     private int clickCount;
     private float lastClickTime;
@@ -20,6 +26,7 @@ public class ScrapBookTextBox : MonoBehaviour, IPointerClickHandler
         {
             inputField.gameObject.SetActive(false);
             inputField.onEndEdit.AddListener(OnEndEdit);
+            inputField.onValidateInput = KeepInsideTextArea;
         }
     }
 
@@ -35,13 +42,23 @@ public class ScrapBookTextBox : MonoBehaviour, IPointerClickHandler
         {
             inputField.gameObject.SetActive(false);
             inputField.onEndEdit.AddListener(OnEndEdit);
+            inputField.onValidateInput = KeepInsideTextArea;
         }
     }
 
-    public void Init(string defaultText = "Text")
+    public void Init(string text = "")
     {
-        if (displayText != null) displayText.text = defaultText;
-        if (inputField != null) inputField.text = defaultText;
+        SetDisplayText(text);
+        if (inputField != null) inputField.text = text;
+    }
+
+    private void SetDisplayText(string text)
+    {
+        showingPlaceholder = string.IsNullOrEmpty(text);
+        if (displayText == null) return;
+
+        displayText.text = showingPlaceholder ? placeholderText : text;
+        displayText.alpha = showingPlaceholder ? placeholderAlpha : 1f;
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -63,7 +80,7 @@ public class ScrapBookTextBox : MonoBehaviour, IPointerClickHandler
 
         if (inputField != null)
         {
-            inputField.text = displayText != null ? displayText.text : "";
+            inputField.text = Text; // empty while the placeholder shows
             inputField.gameObject.SetActive(true);
             inputField.ActivateInputField();
         }
@@ -71,15 +88,22 @@ public class ScrapBookTextBox : MonoBehaviour, IPointerClickHandler
         if (displayText != null) displayText.gameObject.SetActive(false);
     }
 
+    // Runs before each typed or pasted character is inserted (TMP has already removed any selection from text).
+    // Lays out the text as it would be with the character added; returns '\0' to drop it if that overflows the text area.
+    private char KeepInsideTextArea(string text, int charIndex, char addedChar)
+    {
+        TMP_Text field = inputField.textComponent;
+        Rect area = field.rectTransform.rect;
+        string candidate = text.Insert(charIndex, addedChar.ToString());
+        return field.GetPreferredValues(candidate, area.width, 0f).y <= area.height ? addedChar : '\0';
+    }
+
     private void OnEndEdit(string text)
     {
         isEditing = false;
 
-        if (displayText != null)
-        {
-            displayText.text = text;
-            displayText.gameObject.SetActive(true);
-        }
+        SetDisplayText(text);
+        if (displayText != null) displayText.gameObject.SetActive(true);
 
         if (inputField != null) inputField.gameObject.SetActive(false);
     }

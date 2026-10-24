@@ -42,12 +42,13 @@ public static class CameraPhotoStorage
         File.WriteAllText(ManifestPath, json);
     }
 
-    // Saves the Texture2D as a PNG file into the CapturedPhotos directory and returns the file name
-    public static string SavePhotoPng(Texture2D tex)
+    // Saves the Texture2D as a PNG file into the CapturedPhotos directory and returns the file name.
+    // Captured photos get a timestamped name; story photos such as the Group Photo pass a fixed one.
+    public static string SavePhotoPng(Texture2D tex, string fileName = null)
     {
         EnsureDirs();
 
-        string fileName = $"CapturedPhoto_{DateTime.Now:yyyyMMdd_HHmmss_fff}.png";
+        fileName ??= $"CapturedPhoto_{DateTime.Now:yyyyMMdd_HHmmss_fff}.png";
         string path = Path.Combine(PhotosDir, fileName);
         byte[] bytes = tex.EncodeToPNG();
         File.WriteAllBytes(path, bytes);

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.Rendering.HighDefinition;
 using UnityEngine.Serialization;
 using System.IO;
 
@@ -28,6 +29,15 @@ public sealed class CameraSystemManager : MonoBehaviour
 
     [Header("Photo Capture Function Provider")]
     [SerializeField] private CameraPhotoCapture cameraPhotoCapture;
+    // Capture reads the whole screen, so every in-game HUD (hints included) is hidden while it runs.
+    [SerializeField] private Canvas inGameUICanvas;
+    // Frames to wait after hiding the handheld model or turning on the flash, so TAA rebuilds its history before the screen is read.
+    [FormerlySerializedAs("handheldCaptureSettleFrames")]
+    [SerializeField] private int captureSettleFrames = 8;
+
+    [Header("Flash")]
+    // Light under Main Camera; lit for the settle frames and the capture, so the photo includes it.
+    [SerializeField] private GameObject cameraFlash;
 
     [Header("Echo System")]
     [FormerlySerializedAs("highlightObjectDetector")]
@@ -47,6 +57,7 @@ public sealed class CameraSystemManager : MonoBehaviour
         viewTransitionHandler != null && viewTransitionHandler.IsConfigured;
     public bool IsViewTransitioning =>
         UsesAnimatedViewTransition && viewTransitionHandler.IsTransitioning;
+    public bool FlashEnabled { get; private set; }
 
     private Coroutine captureRoutine;
     private EchoTrigger captureSnapshot;
@@ -168,6 +179,11 @@ public sealed class CameraSystemManager : MonoBehaviour
         }
     }
 
+    public void ToggleFlash()
+    {
+        FlashEnabled = !FlashEnabled;
+    }
+
     public void Capture()
     {
         if (IsViewTransitioning) return;
@@ -187,16 +203,29 @@ public sealed class CameraSystemManager : MonoBehaviour
     {
         bool capturingFromHandheld =
             CurrentViewMode == CameraViewMode.Handheld && UsesAnimatedViewTransition;
+        bool useFlash = FlashEnabled && cameraFlash != null;
         if (capturingFromHandheld)
         {
             viewTransitionHandler.SetCameraModelVisibleImmediate(false);
             SetFullscreenPhotoVolume(true);
         }
+        if (useFlash) cameraFlash.SetActive(true);
 
         if (cameraTweakingUIManager != null) CameraUIRoot.SetActive(false);
+        if (inGameUICanvas != null) inGameUICanvas.enabled = false;
+
+        if (capturingFromHandheld || useFlash)
+        {
+            // TAA history still holds the frame before the model was hidden or the flash lit.
+            HDCamera.GetOrCreate(Camera.main).Reset();
+            for (int i = 0; i < captureSettleFrames; i++)
+                yield return null;
+        }
 
         Texture2D captured = null;
         yield return cameraPhotoCapture.Capture(tex => captured = tex);
+
+        if (useFlash) cameraFlash.SetActive(false);
 
         if (capturingFromHandheld)
         {
@@ -205,6 +234,7 @@ public sealed class CameraSystemManager : MonoBehaviour
         }
 
         if (cameraTweakingUIManager != null) CameraUIRoot.SetActive(true);
+        if (inGameUICanvas != null) inGameUICanvas.enabled = true;
 
         if (captured == null)
         {
@@ -222,10 +252,8 @@ public sealed class CameraSystemManager : MonoBehaviour
         {
             try
             {
-                EchoPhotoStorage.Save(fileName, new List<string> { captureSnapshot.scrapbookContent });
+                EchoPhotoStorage.Save(fileName, new List<string> { captureSnapshot.scrapbookContent }, captureSnapshot.noteLayout);
                 bool wasDiscovered = EchoDiscoveryStorage.IsDiscovered(captureSnapshot);
-                if (!string.IsNullOrEmpty(captureSnapshot.stickyNoteSlotId))
-                    GrandpaDiaryStickyNoteStorage.Unlock(captureSnapshot.stickyNoteSlotId);
                 EchoDiscoveryStorage.Record(captureSnapshot);
                 if (!wasDiscovered) OnNewEchoDiscovered?.Invoke();
             }
@@ -233,6 +261,7 @@ public sealed class CameraSystemManager : MonoBehaviour
             {
                 Debug.LogError($"Could not save the captured echo: {error.Message}");
             }
+            captureSnapshot.NotifyCaptured();
         }
 
         if (cameraPhotoAlbumUIManager != null) cameraPhotoAlbumUIManager.Refresh();
