@@ -1,0 +1,47 @@
+{
+  "saved": true,
+  "report": {
+    "showOnStart": true,
+    "missingScripts": 0,
+    "buttons": [
+      {
+        "name": "StartGameButton",
+        "interactable": true,
+        "raycast": true,
+        "bindings": [
+          {
+            "method": "StartGame",
+            "correctManager": true
+          }
+        ]
+      },
+      {
+        "name": "ContinueButton",
+        "interactable": false,
+        "raycast": true,
+        "bindings": []
+      },
+      {
+        "name": "QuitButton",
+        "interactable": true,
+        "raycast": true,
+        "bindings": [
+          {
+            "method": "QuitGame",
+            "correctManager": true
+          }
+        ]
+      }
+    ],
+    "eventSystems": 1,
+    "raycaster": true,
+    "captureDisabledInEditMode": true,
+    "remainingRuntimeMaterials": 0,
+    "temporaryCameras": 0,
+    "activeTweens": 0,
+    "oldBendScriptExists": false,
+    "cameraStillTargetsScreen": true,
+    "openingAssigned": true,
+    "shaderErrors": []
+  }
+}

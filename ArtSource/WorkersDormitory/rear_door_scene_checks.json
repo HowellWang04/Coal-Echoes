@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "angle": 0.0,
+      "blocked": [
+        {
+          "z": -4.8,
+          "hits": [
+            "Dorm_RearDoorLeaf"
+          ]
+        },
+        {
+          "z": -4.60000038,
+          "hits": [
+            "Dorm_RearDoorLeaf"
+          ]
+        },
+        {
+          "z": -4.4,
+          "hits": [
+            "Dorm_RearDoorLeaf"
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 95.0,
+      "blocked": []
+    }
+  ],
+  "materialPairs": 7,
+  "connected": "Connected",
+  "saved": true,
+  "defaultClosed": true
+}

@@ -1,0 +1,12 @@
+{
+  "unchanged_source_meshes": 135,
+  "changed_existing_meshes": [
+    "RearMasonry__BuffBrick",
+    "RoomPockets__Interior"
+  ],
+  "door_clear_width_m": 1.205,
+  "door_clear_height_m": 2.415,
+  "default_closed": true,
+  "doorway_floor_height_m": 0.52,
+  "interior_scope": "Rear vestibule only; existing interior is not playable"
+}

@@ -2,6 +2,7 @@ using Controller.FinalCharacterController;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 [DefaultExecutionOrder(100)]
 public sealed class MainMenuUIManager : MonoBehaviour
@@ -15,6 +16,10 @@ public sealed class MainMenuUIManager : MonoBehaviour
     [SerializeField] private PlayerInputProvider inputProvider;
     [SerializeField] private PlayerMovementManager playerMovement;
     [SerializeField] private OpeningSequenceUI openingSequence;
+    [SerializeField] private GameObject openingSceneToggle;
+    [SerializeField] private NewspaperMenuUI newspaper;
+    [SerializeField] private OpeningSceneState sceneState;
+    [SerializeField] private Button continueButton;
 
     private Tween fadeTween;
     private bool isShowing;
@@ -37,6 +42,10 @@ public sealed class MainMenuUIManager : MonoBehaviour
             return;
         }
 
+        // The menu objects may be switched off while editing; the menu itself must always come up.
+        menuGroup.gameObject.SetActive(true);
+        newspaper.gameObject.SetActive(true);
+
         previousCameraEnabled = playerCamera.enabled;
         previousAllowControl = playerMovement.AllowControl;
         previousGameplayEnabled = inputProvider.Controls.Gameplay.enabled;
@@ -55,9 +64,12 @@ public sealed class MainMenuUIManager : MonoBehaviour
         playerCamera.enabled = false;
         menuCamera.enabled = true;
         menuCanvas.enabled = true;
+        newspaper.Show(menuCamera);
+        sceneState.Prepare();
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         EventSystem.current.SetSelectedGameObject(null);
+        continueButton.interactable = GameSaveManager.HasSave;
 
         menuGroup.alpha = 0f;
         fadeTween = menuGroup.DOFade(1f, 0.6f).SetEase(Ease.OutQuad).SetUpdate(true);
@@ -67,12 +79,33 @@ public sealed class MainMenuUIManager : MonoBehaviour
     {
         if (!isShowing || openingStarted) return;
 
+        // An old save is cleared in place; every system that loaded it resets itself.
+        if (GameSaveManager.HasSave) GameSaveManager.ClearSaves();
+        PlayOpening();
+    }
+
+    // Picks up the save where it is, without the opening.
+    public void ContinueGame()
+    {
+        if (!isShowing || openingStarted) return;
+        gameObject.SetActive(false);
+    }
+
+    private void PlayOpening()
+    {
+        if (!openingSceneToggle.activeSelf)
+        {
+            gameObject.SetActive(false);
+            return;
+        }
+
         openingStarted = true;
         menuGroup.interactable = false;
         menuGroup.blocksRaycasts = false;
         EventSystem.current.SetSelectedGameObject(null);
+        fadeTween?.Complete();
         fadeTween?.Kill();
-        fadeTween = menuGroup.DOFade(0f, 0.3f).SetUpdate(true).OnComplete(() =>
+        newspaper.EnterPhoto(() =>
         {
             menuGroup.gameObject.SetActive(false);
             openingSequence.Play(() => gameObject.SetActive(false));

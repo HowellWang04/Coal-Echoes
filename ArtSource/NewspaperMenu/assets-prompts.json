@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "assets": [
+    {
+      "path": "Assets/Art Resources/UI/NewspaperMenu/Newsprint.png",
+      "transparent_background": true,
+      "generated_file": "exec-44699227-724a-41ff-a45e-ef02db753a29.png",
+      "prompt": "Game UI texture asset, a single BLANK sheet of inexpensive 1980s Chinese newsprint. Orthographic front view perfectly facing camera, upright portrait rectangle about 4:5 aspect ratio, almost rectangular naturally imperfect very slightly frayed edges, tiny folded upper-right corner but 95 percent flat so editable UI text can be overlaid later. Gray ivory neutral newsprint, restrained realistic paper fiber, small gray speckles, subtle middle horizontal fold and faint vertical crease, slightly darker worn edges but no burnt dark border, no brown parchment, no large rips. NO text, NO letters, NO graphics, NO printed marks, NO photo, NO logo, NO layout lines. Entire paper visible with very small transparent margin on all sides, sheet occupies most of image. Genuinely transparent background outside the page. Even flat lighting with restrained fold shading, no cast shadow outside paper. High resolution detailed material appropriate for a sober industrial memory game UI."
+    },
+    {
+      "path": "Assets/Art Resources/UI/NewspaperMenu/LoadingYard.png",
+      "transparent_background": false,
+      "generated_file": "exec-ac8bcdef-cc60-4945-b219-b442ee893558.png",
+      "prompt": "Create a rectangular monochrome photograph printed in a local Chinese factory newspaper in the 1980s. A working coal loading yard in arid northern Chinese foothills, small utilitarian brick coal processing buildings, intact conveyors and cableway buckets, ordinary rail coal wagons, a few workers in plain work jackets and simple helmets at a safe distance. Modest everyday industrial work, equipment maintained and in use, not abandoned, no ruin, no modern screens. Black ink halftone on neutral gray ivory newsprint, photojournalistic distance, coarse authentic offset dots, moderate contrast and ink irregularity. Landscape aspect ratio 3:2. IMAGE ONLY from edge to edge, no paper border, no lettering, no slogans, no flags, no logos, no captions, no date, no politics or symbolism. This is a fictional in-world illustration for a game newspaper, understated candid composition."
+    }
+  ]
+}
