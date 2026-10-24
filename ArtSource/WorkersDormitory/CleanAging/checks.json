@@ -1,0 +1,13 @@
+{
+  "changedRenderers": 8,
+  "temporaryMaterials": 7,
+  "finished": true,
+  "interrupted": true,
+  "repeated": true,
+  "cleanDifference": 2.9940715277777779,
+  "middleDifference": 1.2461430555555555,
+  "endpointDifference": 0.048468055555555556,
+  "nearEndDifference": 0.15543657407407407,
+  "playing": false,
+  "interruptionScope": "OnDisable invoked explicitly in Edit Mode. Actual Play lifecycle remains user verification."
+}

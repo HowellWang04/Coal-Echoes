@@ -1,0 +1,13 @@
+[
+  {
+    "sourceCamera": "MainMenuCamera",
+    "position": "(-2180.00, -440.00, -1690.00)",
+    "rotation": "(357.29, 211.72, 0.00)",
+    "resolution": "1920x1080",
+    "circleDensity": 48.0,
+    "fineCircleDensity": 90,
+    "maxBypassDifference": 0,
+    "shaderErrors": [],
+    "playing": false
+  }
+]

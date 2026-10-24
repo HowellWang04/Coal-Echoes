@@ -1,0 +1,13 @@
+{
+  "scene": "Assets/Scenes/Main Game Scene.unity",
+  "components": 1,
+  "pairs": 7,
+  "progress": 1.0,
+  "originalMaterials": true,
+  "missingScripts": 0,
+  "shaderErrors": [],
+  "activeTweens": 0,
+  "temporaryTextures": 0,
+  "temporaryMaterials": 0,
+  "play": false
+}

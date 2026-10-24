@@ -25,3 +25,9 @@ verification.json 记录重新导入检查，asset_report.json 记录规格。�
 
 正面中央的普通门已改为双扇钢框入口大门，门洞宽 2.98 米、高 2.65 米，配套加宽混凝土门套、4.05 米宽雨棚和 3.8 米宽台阶。原门两侧的两扇底层小窗并入入口区域，上层窗户和其他入口保留。Previews 中新增 Dormitory_Entrance.png 入口近景。entrance_revision.json 记录修改范围及 109 个原有网格的几何未变检查。
 
+后门修订
+
+后墙中央增加净宽约 1.2 米的灰绿钢框后门，带玻璃上窗、把手、混凝土门套、紧凑台阶及小雨棚。门扇有独立门轴，默认关闭并向内开启，适应与相邻厂房之间的窄巷。门后仅清出入口空间，完整可游玩室内和开门交互尚未制作。
+
+add_rear_door.py 在未添加后门的源模型上执行一次，保留原有材质和导出标识；apply-rear-door.cs 通过 Unity CLI 更新碰撞并验证开关状态，结果见 rear_door_scene_checks.json。GLB、FBX、Blender 源文件和主场景均已更新。
+

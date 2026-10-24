@@ -24,11 +24,18 @@ public sealed class OpeningSequenceUI : MonoBehaviour, IPointerClickHandler
     [SerializeField] private TMP_Text bodyText;
     [SerializeField] private RectTransform continueArrow;
     [SerializeField] private UnityEngine.UI.Image backdrop;
+    [SerializeField] private RectTransform topBar;
+    [SerializeField] private RectTransform bottomBar;
+    [SerializeField] private CanvasGroup chapterTitle;
+    [SerializeField] private OpeningSceneState sceneState;
 
     private const float NormalSpeed = 32f;
     private const float AcceleratedSpeed = 128f;
     private const float CameraDuration = 1.5f;
     private const float TextFadeDuration = 0.35f;
+    private const float CinemaAspect = 2.39f;
+    private const float ChapterTitleHold = 2f;
+    private const float ChapterTitleFadeOut = 1f;
 
     private Phase phase;
     private float visibleCharacters;
@@ -40,6 +47,8 @@ public sealed class OpeningSequenceUI : MonoBehaviour, IPointerClickHandler
     private Tween textTween;
     private Tween backdropTween;
     private Tween arrowTween;
+    private Tween letterboxTween;
+    private Tween chapterTitleTween;
 
     public void Play(Action completed)
     {
@@ -55,18 +64,26 @@ public sealed class OpeningSequenceUI : MonoBehaviour, IPointerClickHandler
         var color = backdrop.color;
         color.a = 0f;
         backdrop.color = color;
+        SetLetterboxHeight(0f);
+        chapterTitle.alpha = 0f;
         StartCoroutine(PlayOpening());
     }
 
     private IEnumerator PlayOpening()
     {
+        // The frame narrows to a cinema ratio while the camera tilts up, and widens again as control returns.
+        var screen = ((RectTransform)transform).rect;
+        float barHeight = Mathf.Max(0f, (screen.height - screen.width / CinemaAspect) * .5f);
+        letterboxTween = TweenLetterbox(barHeight);
         var skyRotation = new Vector3(-85f, openingCamera.transform.eulerAngles.y, 0f);
         cameraTween = openingCamera.transform.DORotate(skyRotation, CameraDuration)
             .SetEase(Ease.InOutSine).SetUpdate(true);
         yield return cameraTween.WaitForCompletion(true);
 
-        // Move between the separate menu and player locations while only sky is visible.
+        // Move between the separate menu and player locations while only sky is visible,
+        // and bring back the present: the motorcycle, the closed gate and its chain.
         openingCamera.transform.position = playerCamera.transform.position;
+        sceneState.Restore();
         backdropTween = backdrop.DOFade(0.45f, TextFadeDuration).SetUpdate(true);
         var content = JsonUtility.FromJson<OpeningContent>(narration.text);
         for (int paragraphIndex = 0; paragraphIndex < content.paragraphs.Length; paragraphIndex++)
@@ -93,13 +110,33 @@ public sealed class OpeningSequenceUI : MonoBehaviour, IPointerClickHandler
                 .SetEase(Ease.InOutSine))
             .Join(openingCamera.DOFieldOfView(playerCamera.fieldOfView, CameraDuration)
                 .SetEase(Ease.InOutSine))
+            .Join(TweenLetterbox(0f))
+            .Join(chapterTitle.DOFade(1f, CameraDuration).SetEase(Ease.InOutSine))
             .SetUpdate(true);
         yield return cameraTween.WaitForCompletion(true);
+
+        // The chapter title fades in with the widening frame, holds, then fades before control returns.
+        yield return new WaitForSecondsRealtime(ChapterTitleHold);
+        chapterTitleTween = chapterTitle.DOFade(0f, ChapterTitleFadeOut).SetEase(Ease.InOutSine).SetUpdate(true);
+        yield return chapterTitleTween.WaitForCompletion(true);
 
         phase = Phase.Idle;
         var completed = onComplete;
         onComplete = null;
         completed?.Invoke();
+    }
+
+    private Tween TweenLetterbox(float height)
+    {
+        letterboxTween?.Kill();
+        return DOTween.To(() => topBar.sizeDelta.y, SetLetterboxHeight, height, CameraDuration)
+            .SetEase(Ease.InOutSine).SetUpdate(true);
+    }
+
+    private void SetLetterboxHeight(float height)
+    {
+        topBar.sizeDelta = new Vector2(0f, height);
+        bottomBar.sizeDelta = new Vector2(0f, height);
     }
 
     private void PrepareParagraph(string paragraph)
@@ -153,6 +190,8 @@ public sealed class OpeningSequenceUI : MonoBehaviour, IPointerClickHandler
         textTween?.Kill();
         backdropTween?.Kill();
         arrowTween?.Kill();
+        letterboxTween?.Kill();
+        chapterTitleTween?.Kill();
         phase = Phase.Idle;
         onComplete = null;
     }

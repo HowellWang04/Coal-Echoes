@@ -1,0 +1,13 @@
+Built-in imagegen edits, 2026-10-12
+
+Brick
+Input ArtSource/WorkersDormitory/Textures/Dorm_BuffBrick_BaseColor.png
+Output Assets/Art Resources/Environment/WorkersDormitory/Clean/Dorm_BuffBrick_Clean_BaseColor.png
+
+Edit the supplied game PBR base color texture into the clean maintained early-life version of EXACTLY the same buff brick wall. Square flat orthographic seamless repeating albedo texture only. Preserve EVERY mortar joint, each brick outline, stagger pattern, brick sizes and positions with pixel-level registration to source, same full crop. Keep subdued warm grey-yellow buff brick and grey lime mortar. Remove dark dirt streaks, grime deposits, soot, chips and discoloration from years of neglect. Keep fine clay grain and restrained natural brick-to-brick variation; no plastic smoothness. Slightly fresher and more uniform but no white paint and no new wall style. No directional lighting, cast shadows, border, text or perspective. Original geometry/UV layout must remain aligned for material blending.
+
+Concrete
+Input ArtSource/WorkersDormitory/Textures/Dorm_Concrete_BaseColor.png
+Output Assets/Art Resources/Environment/WorkersDormitory/Clean/Dorm_Concrete_Clean_BaseColor.png
+
+Edit the supplied square game concrete PBR base color texture into a clean maintained early-life version. Seamless repeating flat orthographic albedo texture. Remove all cracking, flaking, patchy white efflorescence, dirty dark blotches, water streaks and weathering. Replace with uniform natural warm neutral light grey cement, retain subtle tiny aggregate pores and fine concrete grain with only very faint broad tonal variation. Slightly brighter than source, NOT white painted plaster, NOT polished or glossy, not perfectly flat color. No lighting gradient, no objects, no border, no text or perspective. Keep full square crop. This is a texture for the concrete balconies, canopies and roof of a maintained 1980s Chinese workers dormitory, to fade into the supplied aged texture.

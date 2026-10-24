@@ -1,0 +1,19 @@
+[
+  {
+    "saved": true,
+    "prefab": "Assets/Art Resources/UI/NewspaperMenu/SpreadPreview/NewspaperSpreadPreview.prefab",
+    "textCount": 39,
+    "overflowing": [],
+    "missingGlyphs": [],
+    "sourceCamera": "MainMenuCamera",
+    "sourcePosition": "(-2180.00, -440.00, -1690.00)",
+    "photoAspect": 1.77777779,
+    "maxBypassDifference": 0,
+    "paperCoordinatesShared": true,
+    "shaderMessages": [],
+    "wasDirty": true,
+    "sceneDirty": true,
+    "playing": false,
+    "runtimeIntegrated": false
+  }
+]

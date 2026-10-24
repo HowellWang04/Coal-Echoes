@@ -1,0 +1,18 @@
+{
+  "playing": false,
+  "sweepAngle": 120.0,
+  "angles": [
+    240.0,
+    257.5736,
+    300.0,
+    342.426422,
+    0.0
+  ],
+  "changedSkyPixels": 235780,
+  "maximumEndDifference": 6,
+  "meanEndDifference": 0.083203125,
+  "finishedCleanly": true,
+  "interruptedCleanly": true,
+  "sourceFileUnchanged": true,
+  "temporalScope": "Manual GPU samples in Edit Mode. Continuous Play Mode motion and interruption remain unverified."
+}

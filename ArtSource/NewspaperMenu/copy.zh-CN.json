@@ -1,0 +1,36 @@
+{
+  "status": "draft",
+  "period": "1980s",
+  "issueDate": "",
+  "issueNumber": "",
+  "masthead": "煤火回声",
+  "englishTitle": "COAL ECHOES",
+  "sections": [
+    {
+      "heading": "索道检修完成",
+      "subheading": "运输班恢复日常运煤",
+      "body": "运输班近日完成索道例行检修，对吊斗、托轮及装卸设备逐项检查。恢复运行后，各班按规定做好巡查与交接，发现异响应及时报告，确保运煤作业安全有序。"
+    },
+    {
+      "heading": "夜班饭菜保温供应",
+      "subheading": "职工食堂增设夜间窗口",
+      "body": "为方便夜班职工就餐，食堂增设夜间供应窗口，备有热饭、面条和开水。各班可提前报送用餐人数。职工对饭菜品种及供应时间的意见，可交食堂值班人员登记。"
+    },
+    {
+      "heading": "礼堂放映通知",
+      "subheading": "本周六晚七时开映",
+      "body": "本周六晚七时，厂礼堂安排电影放映，欢迎职工及家属观看。请提前入场，按序就座，照看好随行儿童。放映期间请勿吸烟，散场时依次离场。"
+    }
+  ],
+  "photoCaption": "装煤站作业现场",
+  "smallNotice": {
+    "heading": "失物招领",
+    "body": "食堂拾到蓝色搪瓷饭盒一只，请失主到窗口认领。"
+  },
+  "footer": "厂区简讯　职工生活　放映安排",
+  "menu": {
+    "start": "Start Game",
+    "continue": "Continue",
+    "quit": "Quit"
+  }
+}
