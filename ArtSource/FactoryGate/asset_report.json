@@ -2,12 +2,12 @@
   "blender": "5.2.2 LTS",
   "units": "metres",
   "size_xyz_blender": [
-    7.9536402225494385,
+    15.027640342712402,
     1.0063493847846985,
     4.39099351502955
   ],
-  "triangles": 61551,
-  "vertices": 37854,
+  "triangles": 94127,
+  "vertices": 56768,
   "mesh_objects": 23,
   "materials": [
     "GatePaint",
@@ -26,54 +26,6 @@
       "vertices": 5342,
       "materials": [
         "Whitewash"
-      ]
-    },
-    {
-      "name": "Left_GateLeaf_Iron",
-      "triangles": 1616,
-      "vertices": 1128,
-      "materials": [
-        "Iron"
-      ]
-    },
-    {
-      "name": "Left_GateLeaf_GatePaint",
-      "triangles": 12728,
-      "vertices": 6950,
-      "materials": [
-        "GatePaint"
-      ]
-    },
-    {
-      "name": "Left_GateLeaf_FramePaint",
-      "triangles": 2052,
-      "vertices": 1064,
-      "materials": [
-        "FramePaint"
-      ]
-    },
-    {
-      "name": "Right_GateLeaf_Iron",
-      "triangles": 1616,
-      "vertices": 1128,
-      "materials": [
-        "Iron"
-      ]
-    },
-    {
-      "name": "Right_GateLeaf_GatePaint",
-      "triangles": 12080,
-      "vertices": 6548,
-      "materials": [
-        "GatePaint"
-      ]
-    },
-    {
-      "name": "Right_GateLeaf_FramePaint",
-      "triangles": 2052,
-      "vertices": 1064,
-      "materials": [
-        "FramePaint"
       ]
     },
     {
@@ -203,10 +155,58 @@
       "materials": [
         "Iron"
       ]
+    },
+    {
+      "name": "Left_GateLeaf_Iron",
+      "triangles": 2176,
+      "vertices": 1800,
+      "materials": [
+        "Iron"
+      ]
+    },
+    {
+      "name": "Left_GateLeaf_GatePaint",
+      "triangles": 27478,
+      "vertices": 15366,
+      "materials": [
+        "GatePaint"
+      ]
+    },
+    {
+      "name": "Left_GateLeaf_FramePaint",
+      "triangles": 3888,
+      "vertices": 2016,
+      "materials": [
+        "FramePaint"
+      ]
+    },
+    {
+      "name": "Right_GateLeaf_Iron",
+      "triangles": 2176,
+      "vertices": 1800,
+      "materials": [
+        "Iron"
+      ]
+    },
+    {
+      "name": "Right_GateLeaf_GatePaint",
+      "triangles": 25114,
+      "vertices": 13798,
+      "materials": [
+        "GatePaint"
+      ]
+    },
+    {
+      "name": "Right_GateLeaf_FramePaint",
+      "triangles": 3888,
+      "vertices": 2016,
+      "materials": [
+        "FramePaint"
+      ]
     }
   ],
   "unity_runtime_verified": false,
   "through_corrosion_openings": 16,
-  "raised_paint_flakes": 561,
+  "raised_paint_flakes": 3975,
   "source_model_unchanged_sha256": "cac1155ea9b3f065127da5fd1386ac712bc32f1028cbd1d6b20c72571586414c"
 }

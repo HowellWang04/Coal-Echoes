@@ -5,7 +5,7 @@ import numpy as np
 from pathlib import Path
 from mathutils import Vector
 
-ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01')
+ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01')
 report=json.loads((ROOT/'verification.json').read_text(encoding='utf-8'))
 source=bpy.data.scenes['Tajia01_Tower_Rebuilt']
 for extension in ('fbx','glb'):

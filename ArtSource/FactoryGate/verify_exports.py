@@ -26,7 +26,8 @@ def inspect_corrosion():
         obj=next(o for o in bpy.context.scene.objects if o.type=='MESH' and o.name.startswith(label+'_GateLeaf_GatePaint'))
         inv=obj.matrix_world.inverted()
         direction=(inv.to_3x3() @ Vector((0,1,0))).normalized()
-        x0,x1=(-2.65,-.068) if side<0 else (.068,2.65)
+        edge=.068+texture_maps.SHEET_WIDTH
+        x0,x1=(-edge,-.068) if side<0 else (.068,edge)
         def blocked(u,v):
             origin=inv @ Vector((x0+u*(x1-x0),-1,.23+v*2.815))
             return obj.ray_cast(origin,direction)[0]
@@ -36,7 +37,7 @@ def inspect_corrosion():
         for vert in obj.data.vertices:
             co=obj.matrix_world @ vert.co
             u,v=(co.x-x0)/(x1-x0),(co.z-.23)/2.815
-            sheet_y=-.008+.0025*math.sin(u*14)*math.sin(v*11)
+            sheet_y=-.008+.0025*math.sin(u*14*texture_maps.STRETCH)*math.sin(v*11)
             raised_vertices+=co.y<sheet_y-.001
     return {'tested_hole_centers':len(openings),'clear_through_hole_centers':sum(openings),
             'solid_sheet_control_rays_hit':all(solid_controls),'raised_paint_vertices':raised_vertices}

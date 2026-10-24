@@ -1,4 +1,4 @@
-"""Deterministic PBR textures for the Project Coal entrance gate.
+"""Deterministic PBR textures for the Coal Echoes entrance gate.
 
 Run through build_gate.py in Blender. Color maps contain reflectance only;
 lighting is supplied by Blender / Unity. Normals use the OpenGL convention.
@@ -10,12 +10,19 @@ import gc
 import bpy
 import numpy as np
 
+# Steel sheet width of one leaf in metres. The damage layout was tuned on a
+# 2.582 m sheet; STRETCH keeps rust, chips and holes at their physical size.
+SHEET_WIDTH = 6.119
+STRETCH = SHEET_WIDTH / 2.582
+SHEET_PIXELS = (3328, 1536)
 
-def noise(size, cells, seed, cells_y=None):
+
+def noise(size, cells, seed, cells_y=None, width=None):
     rng = np.random.default_rng(seed)
     cy = cells_y or cells
+    width = width or size
     grid = rng.random((cy, cells), dtype=np.float32)
-    x = np.arange(size, dtype=np.float32) * cells / size
+    x = np.arange(width, dtype=np.float32) * cells / width
     y = np.arange(size, dtype=np.float32) * cy / size
     ix, iy = x.astype(int), y.astype(int)
     fx, fy = x - ix, y - iy
@@ -27,10 +34,11 @@ def noise(size, cells, seed, cells_y=None):
     return (a * (1 - fx) + b * fx) * (1 - fy[:, None]) + (c * (1 - fx) + d * fx) * fy[:, None]
 
 
-def fbm(size, seed, base=4):
-    out = np.zeros((size, size), dtype=np.float32)
+def fbm(size, seed, base=4, width=None, stretch=1.0):
+    out = np.zeros((size, width or size), dtype=np.float32)
     for i, weight in enumerate((0.48, 0.25, 0.14, 0.08, 0.05)):
-        out += noise(size, base * 2 ** i, seed + i) * weight
+        cells = base * 2 ** i
+        out += noise(size, round(cells * stretch), seed + i, cells, width) * weight
     return out
 
 
@@ -89,39 +97,40 @@ def surface_noise(u,v,scale,seed):
 
 def damage_field(u,v,seed,small_chips=True):
     # Shared by color maps and lifted paint geometry in normalized leaf space.
-    wave=(surface_noise(u,v,23,seed)-.5)*.16
-    wave+=(surface_noise(u,v,71,seed+1)-.5)*.085
-    wave+=(surface_noise(u,v,191,seed+2)-.5)*.035
-    wave+=(surface_noise(u,v,487,seed+3)-.5)*.012
-    bottom=.087+(surface_noise(u,0,11,seed+4)-.5)*.085
+    us=np.asarray(u)*STRETCH
+    wave=(surface_noise(us,v,23,seed)-.5)*.16
+    wave+=(surface_noise(us,v,71,seed+1)-.5)*.085
+    wave+=(surface_noise(us,v,191,seed+2)-.5)*.035
+    wave+=(surface_noise(us,v,487,seed+3)-.5)*.012
+    bottom=.087+(surface_noise(us,0,11,seed+4)-.5)*.085
     field=(bottom-v)*2.0+wave
     patches=[(.19,.92,.125,.13),(.29,.78,.065,.09),(.89,.56,.085,.06),(.08,.10,.09,.12)] if seed==104 else [(.19,.57,.065,.06),(.79,.49,.045,.05),(.94,.11,.075,.13)]
     for x,z,rx,rz in patches:
-        field=np.maximum(field,(1-((u-x)/rx)**2-((v-z)/rz)**2)*.13+wave)
-    edges=.009-np.minimum(u,1-u)+wave*.16
+        field=np.maximum(field,(1-((u-x)*STRETCH/rx)**2-((v-z)/rz)**2)*.13+wave)
+    edges=.009-np.minimum(u,1-u)*STRETCH+wave*.16
     top=(v-.985)*1.6+wave*.4
     field=np.maximum(np.maximum(field,edges),top)
     if small_chips:
-        flecks=(surface_noise(u,v,140,seed+5)-.94)*.30+(surface_noise(u,v,13,seed+6)-.6)*.08
+        flecks=(surface_noise(us,v,140,seed+5)-.94)*.30+(surface_noise(us,v,13,seed+6)-.6)*.08
         field=np.maximum(field,flecks)
     return field
 
 
 def corrosion_holes(seed):
     rng=np.random.default_rng(seed+802)
-    return [(float(u),float(rng.uniform(.014,.036)),float(rng.uniform(.006,.020)),float(rng.uniform(.003,.012)),int(rng.integers(10000)))
+    return [(float(u),float(rng.uniform(.014,.036)),float(rng.uniform(.006,.020))/STRETCH,float(rng.uniform(.003,.012)),int(rng.integers(10000)))
             for u in (.08,.105,.22,.46,.52,.77,.85,.89)]
 
 
 def steel_panel(seed):
-    n = 2048
+    nx, n = SHEET_PIXELS
     rng = np.random.default_rng(seed)
-    u = np.arange(n, dtype=np.float32)[None, :] / n
+    u = np.arange(nx, dtype=np.float32)[None, :] / nx
     v = np.arange(n, dtype=np.float32)[:, None] / n
-    broad = fbm(n, seed+43, 7)
-    medium = fbm(n, seed+78, 35)
-    fine = noise(n, 650, seed+210)
-    grain = rng.random((n, n), dtype=np.float32)
+    broad = fbm(n, seed+43, 7, nx, STRETCH)
+    medium = fbm(n, seed+78, 35, nx, STRETCH)
+    fine = noise(n, round(650*STRETCH), seed+210, 650, nx)
+    grain = rng.random((n, nx), dtype=np.float32)
     field = damage_field(u,v,seed)+(fine-.5)*.009
     rust = smoothstep(-.003,.003,field)
     primer = np.clip(smoothstep(-.012,-.004,field)-rust,0,1)
@@ -129,17 +138,17 @@ def steel_panel(seed):
     for cx,cz,rx,rz,_ in corrosion_holes(seed):
         rust=np.maximum(rust,1-smoothstep(1.05,1.8,((u-cx)/rx)**2+((v-cz)/rz)**2))
     # Narrow trails run down from the top seam and selected old paint chips.
-    drips = np.zeros((n, n), dtype=np.float32)
-    for _ in range(110):
+    drips = np.zeros((n, nx), dtype=np.float32)
+    for _ in range(round(110*STRETCH)):
         cx, top = rng.uniform(0, 1), rng.uniform(0.28, 1)
         if rng.random() < 0.58:
             top = 1.0 if rng.random()<.65 else .414
-        length, width = rng.uniform(0.025, 0.27), rng.uniform(0.0004, 0.0035)
-        dx = (u - cx - 0.0008 * np.sin(v * 30 + cx * 20)) / width
+        length, width = rng.uniform(0.025, 0.27), rng.uniform(0.0004, 0.0035) / STRETCH
+        dx = (u - cx - 0.0008 / STRETCH * np.sin(v * 30 + cx * 20)) / width
         trail = np.exp(-dx * dx) * np.clip((v - (top - length)) / length, 0, 1)
         trail *= (v < top)
         drips = np.maximum(drips, trail * rng.uniform(0.25, 0.70))
-    paint = np.zeros((n, n, 3), dtype=np.float32) + (0.255, 0.30, 0.325)
+    paint = np.zeros((n, nx, 3), dtype=np.float32) + (0.255, 0.30, 0.325)
     paint *= (0.91 + broad[..., None] * 0.16 + (fine[..., None] - 0.5) * 0.045)
     rust_rgb = np.zeros_like(paint) + (0.20, 0.09, 0.042)
     rust_rgb *= (0.38 + medium[..., None] * 1.3 + (fine[...,None]-.5)*.45)
@@ -151,11 +160,11 @@ def steel_panel(seed):
     dust = (1 - smoothstep(0, 0.19, v)) * (0.04 + medium * 0.1)
     rgb = blend(rgb, np.array((0.24, 0.22, 0.19), dtype=np.float32), dust)
     # Small angular scrapes: metal substrate, distinct from dielectric paint/rust.
-    scratch = np.zeros((n, n), dtype=np.float32)
-    for _ in range(60):
+    scratch = np.zeros((n, nx), dtype=np.float32)
+    for _ in range(round(60*STRETCH)):
         cx, cz = rng.uniform(0.04, 0.96, 2)
-        half_len = rng.uniform(0.002, 0.012)
-        slope = rng.uniform(-1, 1)
+        half_len = rng.uniform(0.002, 0.012) / STRETCH
+        slope = rng.uniform(-1, 1) * STRETCH
         stripe = np.abs(v - cz - (u - cx) * slope) < rng.uniform(0.00014, 0.00045)
         stripe &= (np.abs(u - cx) < half_len)
         scratch[stripe] = rng.uniform(0.12, 0.42)
@@ -172,7 +181,7 @@ def steel_panel(seed):
 def steel_panels(folder):
     left,right=steel_panel(104),steel_panel(682)
     combined=[np.concatenate((a,b),axis=1) for a,b in zip(left,right)]
-    maps(folder,'GatePaint',*combined,(5.08,2.78))
+    maps(folder,'GatePaint',*combined,(2*SHEET_WIDTH,2.815))
 
 
 def mineral(folder, name, color, seed, span, n=1024):

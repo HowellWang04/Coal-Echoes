@@ -8,6 +8,9 @@ Shader "Project Coal/Dirt Road Spline Decal"
         _NormalMap("NormalMap", 2D) = "bump" {}     // Tangent space normal map
         _MaskMap("MaskMap", 2D) = "white" {}
         _DecalBlend("_DecalBlend", Range(0.0, 1.0)) = 0.5
+        _RoadEdgeWidth("Road Edge Blend Width (m)", Range(0.0, 1.5)) = 0.65
+        _RoadEdgeBreakup("Road Edge Irregularity (m)", Range(0.0, 0.8)) = 0.3
+        _RoadUvWidth("Texture Repeats Across Road", Float) = 1
         _NormalBlendSrc("_NormalBlendSrc", Float) = 0.0
         _MaskBlendSrc("_MaskBlendSrc", Float) = 1.0
         [Enum(Depth Bias, 0, View Bias, 1)] _DecalMeshBiasType("_DecalMeshBiasType", Int) = 0
@@ -150,8 +153,45 @@ Shader "Project Coal/Dirt Road Spline Decal"
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Decal/DecalProperties.hlsl"
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Decal/Decal.hlsl"
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Decal/ShaderPass/DecalSharePass.hlsl"
-            // The spline supplies a smooth endpoint fade through vertex alpha.
-            #define _DecalBlend (_DecalBlend * input.color.a)
+            float _RoadEdgeWidth;
+            float _RoadEdgeBreakup;
+            float _RoadUvWidth;
+
+            float RoadEdgeHash(float2 p)
+            {
+                float3 h = frac(float3(p.xyx) * 0.1031);
+                h += dot(h, h.yzx + 33.33);
+                return frac((h.x + h.y) * h.z);
+            }
+
+            float RoadEdgeNoise(float2 p)
+            {
+                float2 cell = floor(p);
+                float2 f = frac(p);
+                f = f * f * (3.0 - 2.0 * f);
+                return lerp(lerp(RoadEdgeHash(cell), RoadEdgeHash(cell + float2(1, 0)), f.x),
+                    lerp(RoadEdgeHash(cell + float2(0, 1)), RoadEdgeHash(cell + 1), f.x), f.y);
+            }
+
+            float RoadShoulderBlend(FragInputs input)
+            {
+                if (_RoadEdgeWidth <= 0.0) return 1.0;
+                float2 ground = GetAbsolutePositionWS(input.positionRWS).xz;
+                float across = input.texCoord0.x / _RoadUvWidth;
+                float edgeDistance = min(across, 1.0 - across) * input.color.r;
+                float broad = RoadEdgeNoise(ground * 0.7);
+                float patches = RoadEdgeNoise(ground * 3.0);
+                float grains = RoadEdgeNoise(ground * 18.0);
+                float width = _RoadEdgeWidth + _RoadEdgeBreakup * (broad * 0.7 + patches * 0.3);
+                float edge = saturate(edgeDistance / width);
+                // Break up the shoulder without disturbing the fully covered road centre.
+                float breakup = ((patches - 0.5) * 0.8 + (grains - 0.5) * 0.35)
+                    * (4.0 * edge * (1.0 - edge));
+                return smoothstep(0.0, 1.0, edge + breakup);
+            }
+
+            // One coverage mask reveals the terrain colour, normal and roughness together.
+            #define _DecalBlend (_DecalBlend * input.color.a * RoadShoulderBlend(input))
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/Decal/DecalData.hlsl"
             #undef _DecalBlend
             #include "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/ShaderPass/ShaderPassDecal.hlsl"

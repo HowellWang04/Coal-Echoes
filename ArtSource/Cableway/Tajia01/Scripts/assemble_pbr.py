@@ -4,7 +4,7 @@ import numpy as np
 from pathlib import Path
 from io_scene_gltf2.blender.com.material_helpers import create_settings_group
 
-ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01')
+ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01')
 SIZE=4096
 def read_red(name):
     pixels=np.empty(SIZE*SIZE*4,dtype=np.float32)

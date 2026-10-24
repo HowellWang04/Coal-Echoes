@@ -78,6 +78,8 @@ Material:
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _NormalBlendSrc: 0
+    - _RoadEdgeBreakup: 0.5
+    - _RoadEdgeWidth: 1.1
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 0.22
     - _SmoothnessRemapMin: 0

@@ -8,8 +8,10 @@ using UnityEngine.Splines;
 public sealed class FactoryDirtRoadSpline : MonoBehaviour
 {
     [Min(1f)] public float width = 8f;
+    public AnimationCurve widthMultiplier = AnimationCurve.Constant(0f, 1f, 1f);
     [Min(1f)] public float textureLength = 16f;
     public float textureOffset = 25.35f;
+    [Min(0.5f)] public float endFade = 7f;
 
     private Mesh roadMesh;
     private bool rebuildPending;
@@ -74,13 +76,14 @@ public sealed class FactoryDirtRoadSpline : MonoBehaviour
             Vector3 center = container.EvaluatePosition(t);
             Vector3 tangent = container.EvaluateTangent(t);
             Vector3 right = Vector3.Cross(Vector3.up, tangent).normalized;
+            float rowWidth = width * widthMultiplier.Evaluate(t);
             distance += Vector3.Distance(previous, center);
             previous = center;
 
             for (int column = 0; column < columns; column++)
             {
                 float u = column / (float)(columns - 1);
-                Vector3 point = center + right * ((u - 0.5f) * width);
+                Vector3 point = center + right * ((u - 0.5f) * rowWidth);
                 var ray = new Ray(point + Vector3.up * 100f, Vector3.down);
                 bool grounded = false;
                 foreach (var terrain in terrainColliders)
@@ -98,8 +101,10 @@ public sealed class FactoryDirtRoadSpline : MonoBehaviour
                 }
                 vertices.Add(transform.InverseTransformPoint(point));
                 uv.Add(new Vector2(u, (textureOffset + distance) / textureLength));
-                float fade = Mathf.SmoothStep(0f, 1f, (length - distance) / 7f);
-                colors.Add(new Color(1f, 1f, 1f, fade));
+                float fade = Mathf.SmoothStep(0f, 1f, distance / endFade)
+                    * Mathf.SmoothStep(0f, 1f, (length - distance) / endFade);
+                // Red carries the local width so the shader blends road shoulders in metres.
+                colors.Add(new Color(rowWidth, 1f, 1f, fade));
 
                 if (row == 0 || column == 0)
                     continue;

@@ -24,6 +24,9 @@ PREVIEWS = SOURCE / 'Previews'
 sys.path.insert(0, str(SOURCE))
 import texture_maps
 
+# Leaf hinge axis from the gate centre; the leaves span the widened Unity entrance.
+HINGE_X = .118 + texture_maps.SHEET_WIDTH
+
 rng = random.Random(1973)
 groups = {}
 materials = {}
@@ -282,7 +285,7 @@ def wall_whitewash(group, x0, x1, front):
 
 def steel_sheet(group, x0, x1):
     m = Mesh()
-    nx, nz = 40, 44
+    nx, nz = round(40*texture_maps.STRETCH), 44
     atlas_offset=0 if x0<0 else .5
     z0,z1 = .23,3.045
     for j in range(nz+1):
@@ -292,7 +295,7 @@ def steel_sheet(group, x0, x1):
             if j == 0:
                 z += rng.uniform(-.022,.003)
             # A very slight sheet imperfection, never a swollen or soft panel.
-            y = -.008 + .0025*math.sin(u*14)*math.sin(v*11)
+            y = -.008 + .0025*math.sin(u*14*texture_maps.STRETCH)*math.sin(v*11)
             m.vertices.append((x,y,z))
     for j in range(nz):
         for i in range(nx):
@@ -352,7 +355,7 @@ def lifted_paint(group,x0,x1,seed):
     local=random.Random(seed+128)
     m=Mesh()
     count=0
-    for _ in range(14000):
+    for _ in range(round(14000*texture_maps.STRETCH)):
         u,v=local.uniform(.025,.975),local.uniform(.025,.975)
         field=float(texture_maps.damage_field(u,v,seed,False))
         if not -.013<field<.006 or abs(v-.414)<.03:
@@ -361,7 +364,7 @@ def lifted_paint(group,x0,x1,seed):
         dz=float(texture_maps.damage_field(u,v+.001,seed,False)-texture_maps.damage_field(u,v-.001,seed,False))
         direction=Vector((dx,0,dz)).normalized()
         across=Vector((-direction.z,0,direction.x))
-        surface_y=-.008+.0025*math.sin(u*14)*math.sin(v*11)
+        surface_y=-.008+.0025*math.sin(u*14*texture_maps.STRETCH)*math.sin(v*11)
         center=Vector((x0+u*(x1-x0),surface_y-.0002,.23+v*2.815))
         length=local.uniform(.008,.034)
         width=length*local.uniform(.5,1.2)
@@ -384,7 +387,7 @@ def lifted_paint(group,x0,x1,seed):
         pu,pv=.55,.62
         m.uv.append([((0 if seed==104 else .5)+pu*.5+(p.x-center.x)*.008,pv+(p.z-center.z)*.008) for p in points])
         count+=1
-        if count>=300:
+        if count>=round(300*texture_maps.STRETCH):
             break
     obj=m.object('Lifted paint flakes','GatePaint',group)
     solid=obj.modifiers.new('Thin paint shell','SOLIDIFY')
@@ -475,38 +478,47 @@ def chip_concrete(obj,parent):
     bm.to_mesh(obj.data)
     bm.free()
     obj.data.update()
+    concrete_uv(obj)
+
+def concrete_uv(obj):
+    # Concrete grime follows wall height from V 0; horizontal faces use the clean middle instead.
     for face in obj.data.polygons:
         axes=(0,1) if abs(face.normal.z)>.7 else ((1,2) if abs(face.normal.x)>.7 else (0,2))
         for loop in face.loop_indices:
             co=obj.data.vertices[obj.data.loops[loop].vertex_index].co
-            obj.data.uv_layers.active.data[loop].uv=(co[axes[0]]/4.5+.5,co[axes[1]]/4.5)
+            obj.data.uv_layers.active.data[loop].uv=(co[axes[0]]/4.5+.5,co[axes[1]]/4.5+(.5 if axes==(0,1) else 0))
 
 def gate_leaf(group, side):
-    x0,x1=(-2.70,-.018) if side<0 else (.018,2.70)
+    x0,x1=(-HINGE_X,-.018) if side<0 else (.018,HINGE_X)
     center=(x0+x1)/2
     frames=builder(group,'FramePaint')
-    for x in (x0+.045,x1-.045):
+    # A middle stile stiffens the wide leaf and splits bars and braces into two bays.
+    for x in (x0+.045,center,x1-.045):
         frames.box((x,0,2.07),(.09,.105,3.86),1.0)
     for z in (.185,1.39,3.05,3.955):
         frames.box((center,0,z),(x1-x0,.115,.085 if z!=1.39 else .065),1.0)
-    for i in range(1,11):
-        x=x0+(x1-x0)*i/11
+    bays=2*round((x1-x0)/.244/2)
+    for i in range(1,bays):
+        if i==bays//2:
+            continue
+        x=x0+(x1-x0)*i/bays
         frames.box((x,0,3.51),(.027,.035,.81),1.0)
         # Restrained visible weld beads at the ends of each vertical bar.
         for z in (3.092,3.912):
             tube(group,'Rail weld',[(x-.017,-.023,z),(x+.017,-.023,z)],.003,'Iron')
     steel_sheet(group,x0+.05,x1-.05)
     # Back face diagonal flat-steel braces, kept behind the sheet.
-    for za,zb in ((.24,1.34),(1.43,3.0)):
-        if side>0:
-            za,zb=zb,za
-        p1,p2=Vector((x0+.12,.069,za)),Vector((x1-.12,.069,zb))
-        obj=box(group,'Rear diagonal brace',(p1+p2)/2,(.055,.025,(p2-p1).length),'FramePaint',.002)
-        obj.rotation_euler=(p2-p1).to_track_quat('Z','Y').to_euler()
-        # Box was built in world coordinates; rotate around its own center.
-        for v in obj.data.vertices:
-            v.co -= (p1+p2)/2
-        obj.location=(p1+p2)/2
+    for a,b in ((x0,center),(center,x1)):
+        for za,zb in ((.24,1.34),(1.43,3.0)):
+            if side>0:
+                za,zb=zb,za
+            p1,p2=Vector((a+.12,.069,za)),Vector((b-.12,.069,zb))
+            obj=box(group,'Rear diagonal brace',(p1+p2)/2,(.055,.025,(p2-p1).length),'FramePaint',.002)
+            obj.rotation_euler=(p2-p1).to_track_quat('Z','Y').to_euler()
+            # Box was built in world coordinates; rotate around its own center.
+            for v in obj.data.vertices:
+                v.co -= (p1+p2)/2
+            obj.location=(p1+p2)/2
     hinge_x = x0-.025 if side<0 else x1+.025
     for z in (.68,2.05,3.52):
         cylinder(group,'Hinge barrel',(hinge_x,.0,z),.043,.22)
@@ -528,7 +540,9 @@ def build_geometry():
     root['units']='metres; Blender Z up; game export Y up'
     root['reference']='Approved straight-top industrial gate concept, 2026-09-23'
     for side,label in ((-1,'Left'),(1,'Right')):
+        # Masonry keeps its mesh coordinates; transforms move it out to the hinges.
         pier=empty(f'{label}_Pier',root)
+        pier.location.x=side*(HINGE_X-2.70)
         px=side*3.17
         concrete=builder(pier,'Concrete')
         concrete.box((px,0,.19),(.96,.95,.38),1/4.5,.009,offset=(.5,0))
@@ -536,6 +550,7 @@ def build_geometry():
         concrete.box((px,0,4.155),(.86,.86,.09),1/4.5,.004,offset=(.5,0))
         concrete.box((px,0,4.29),(1.05,.99,.18),1/4.5,.010,offset=(.5,0))
         wing=empty(f'{label}_WingWall',root)
+        wing.location.x=side*(HINGE_X-2.70)
         x0,x1=(-4.245,-3.56) if side<0 else (3.56,4.245)
         builder(wing,'Concrete').box(((x0+x1)/2,0,.14),(x1-x0,.62,.28),1/4.5,.008,offset=(.5,0))
         brickwork(wing,x0,x1,-.25,.25,.28,3.46,False)
@@ -554,16 +569,27 @@ def build_geometry():
     cylinder(lock,'Keyhole surround',(0,-.355,1.34),.019,.007,'Iron','Y')
     # Dark recessed key slit is real geometry in the presentation mesh.
     box(lock,'Key slit',(0,-.360,1.33),(.006,.004,.025),'Iron',.0007)
+    finish_parts(root,[o for o in asset_collection.objects if o.type=='EMPTY' and o!=root])
+    # Only the guard-post side wing belongs to the modular gate asset.
+    outer_wing=bpy.data.objects.get('Right_WingWall')
+    if outer_wing:
+        for obj in list(outer_wing.children_recursive)+[outer_wing]:
+            bpy.data.objects.remove(obj,do_unlink=True)
+    return root
+
+
+def finish_parts(root,parents):
     for (name,mat),(mesh,parent) in groups.items():
         bevel={'Brick':0,'BrickWeathered':0,'Concrete':.012,'Mortar':.001,'FramePaint':.003,'Iron':.003}[mat]
         obj=mesh.object(f'{name}_{mat}',mat,parent,bevel,1 if mat in ('Brick','Concrete') else 2,mat in ('FramePaint','Iron'))
         if mat=='Concrete':
             chip_concrete(obj,parent)
+    groups.clear()
     root['through_corrosion_openings']=sum(o.get('through_holes',0) for o in asset_collection.objects)
     root['raised_paint_flakes']=sum(o.get('raised_paint_flakes',0) for o in asset_collection.objects)
     # Apply construction modifiers and merge each component by its material.
     # Leaves remain separate, with origins positioned at their hinge axes.
-    for obj in list(asset_collection.objects):
+    for obj in [o for o in asset_collection.objects if o.parent in parents]:
         if obj.type not in ('MESH','CURVE'):
             continue
         bpy.ops.object.select_all(action='DESELECT')
@@ -574,7 +600,7 @@ def build_geometry():
         for modifier in list(obj.modifiers):
             bpy.ops.object.modifier_apply(modifier=modifier.name)
         bpy.ops.object.transform_apply(location=False,rotation=True,scale=True)
-    for parent in [o for o in asset_collection.objects if o.type=='EMPTY' and o!=root]:
+    for parent in parents:
         for mat in materials.values():
             children=[o for o in list(asset_collection.objects) if o.parent==parent and o.type=='MESH']
             subset=[o for o in children if o.data.materials and o.data.materials[0]==mat]
@@ -588,35 +614,31 @@ def build_geometry():
                 bpy.ops.object.join()
             bpy.context.object.name=f'{parent.name}_{mat.name}'
         if 'GateLeaf' in parent.name:
-            pivot=Vector((-2.70,0,0) if parent.name.startswith('Left') else (2.70,0,0))
+            pivot=Vector((-HINGE_X if parent.name.startswith('Left') else HINGE_X,0,0))
             for child in parent.children:
                 child.location -= pivot
             parent.location=pivot
-    for obj in [o for o in asset_collection.objects if o.type=='MESH']:
+    for obj in [o for o in asset_collection.objects if o.type=='MESH' and o.parent in parents]:
         bpy.ops.object.select_all(action='DESELECT')
         obj.select_set(True)
         bpy.context.view_layer.objects.active=obj
         mod=obj.modifiers.new('Stable export triangulation','TRIANGULATE')
         mod.quad_method='FIXED'
         bpy.ops.object.modifier_apply(modifier=mod.name)
-        if obj.data.materials[0].name in ('Concrete','Whitewash'):
-            # Clipped boundaries can leave microscopic slivers.
+        if obj.data.materials[0].name in ('Concrete','Whitewash','GatePaint'):
+            # Clipped boundaries and corrosion cuts can leave microscopic slivers.
             # Remove those before glTF splits flat-shaded vertices for export.
             import bmesh
             bm=bmesh.new()
             bm.from_mesh(obj.data)
-            bmesh.ops.delete(bm,geom=[f for f in bm.faces if f.calc_area()<1e-7],context='FACES')
+            # Corrosion cuts leave needle triangles up to about 0.5 square millimetres.
+            limit=1e-6 if obj.data.materials[0].name=='GatePaint' else 1e-7
+            bmesh.ops.delete(bm,geom=[f for f in bm.faces if f.calc_area()<limit],context='FACES')
             bmesh.ops.delete(bm,geom=[v for v in bm.verts if not v.link_faces],context='VERTS')
             bm.normal_update()
             bm.to_mesh(obj.data)
             bm.free()
             obj.data.update()
-    # Only the guard-post side wing belongs to the modular gate asset.
-    outer_wing=bpy.data.objects.get('Right_WingWall')
-    if outer_wing:
-        for obj in list(outer_wing.children_recursive)+[outer_wing]:
-            bpy.data.objects.remove(obj,do_unlink=True)
-    return root
 
 
 def export_asset(root):
@@ -705,16 +727,17 @@ def setup_stage():
         stage_collection.objects.link(obj)
         obj.location=pos
         obj.rotation_euler=(Vector((0,0,2))-obj.location).to_track_quat('-Z','Y').to_euler()
+    d=HINGE_X-2.70
     return [
-        (camera('Hero',(2.2,-26,7.0),(0,0,2.1),9.7),'Gate_Hero.png',(1800,1200)),
-        (camera('Front',(0,-25,4.5),(0,0,2.1),9.5),'Gate_Front.png',(1800,1150)),
+        (camera('Hero',(2.2,-26,7.0),(0,0,2.1),9.7+2*d),'Gate_Hero.png',(1800,1200)),
+        (camera('Front',(0,-25,4.5),(0,0,2.1),9.5+2*d),'Gate_Front.png',(1800,1150)),
         (camera('Lock Detail',(1.1,-4,2.4),(0,-.1,1.58),1.60),'Gate_Lock_Detail.png',(1400,1200)),
         (camera('Lock Top',(.75,-1.2,2.75),(0,-.19,1.59),1.0),'Gate_Lock_Top.png',(1400,1400)),
-        (camera('Masonry Detail',(-5,-6,5.8),(-3.15,0,3.1),2.9),'Gate_Masonry_Detail.png',(1300,1400)),
-        (camera('Rear',(-7,24,8.5),(0,0,2.1),10.3),'Gate_Rear.png',(1800,1200)),
+        (camera('Masonry Detail',(-5-d,-6,5.8),(-3.15-d,0,3.1),2.9),'Gate_Masonry_Detail.png',(1300,1400)),
+        (camera('Rear',(-7,24,8.5),(0,0,2.1),10.3+2*d),'Gate_Rear.png',(1800,1200)),
         (camera('Paint Detail',(-2.9,-3.7,3.0),(-1.98,0,2.60),1.15),'Gate_Paint_Detail.png',(1600,1200)),
         (camera('Corrosion Detail',(1.8,-4,1.0),(1.45,0,.42),1.60),'Gate_Corrosion_Detail.png',(1600,1050)),
-        (camera('Whitewash Detail',(-5,-5,2.8),(-3.75,0,1.35),2.0),'Gate_Whitewash_Detail.png',(1300,1400)),
+        (camera('Whitewash Detail',(-5-d,-5,2.8),(-3.75-d,0,1.35),2.0),'Gate_Whitewash_Detail.png',(1300,1400)),
     ]
 
 
@@ -732,10 +755,35 @@ def prepare_source_view():
             space.shading.use_scene_lights=False
             space.region_3d.view_location=Vector((0,0,2.1))
             space.region_3d.view_rotation=bpy.context.scene.camera.rotation_euler.to_quaternion()
-            space.region_3d.view_distance=12
+            space.region_3d.view_distance=12+2*(HINGE_X-2.70)
             space.region_3d.view_perspective='ORTHO'
     if bpy.context.window:
         bpy.context.window.workspace=bpy.data.workspaces['Layout']
+
+
+def save_and_render(skip_render):
+    views=setup_stage()
+    bpy.context.scene.camera=views[0][0]
+    bpy.context.scene.render.resolution_x,bpy.context.scene.render.resolution_y=views[0][2]
+    bpy.context.scene.render.filepath=str(PREVIEWS/views[0][1])
+    # Pack while texture paths are still absolute in a new unsaved scene.
+    prepare_source_view()
+    # Relative texture paths keep unpacking within the project.
+    import os
+    for image in bpy.data.images:
+        if image.source=='FILE' and image.filepath:
+            image.filepath='//'+Path(os.path.relpath(bpy.path.abspath(image.filepath),SOURCE)).as_posix()
+    bpy.context.preferences.filepaths.save_version=0
+    bpy.ops.wm.save_as_mainfile(filepath=str(SOURCE/'FactoryGate_Rebuilt.blend'))
+    if not skip_render:
+        for cam,filename,resolution in views:
+            scene=bpy.context.scene
+            scene.camera=cam
+            scene.render.resolution_x,scene.render.resolution_y=resolution
+            scene.render.filepath=str(PREVIEWS/filename)
+            bpy.ops.render.render(write_still=True)
+            print('RENDER_COMPLETE',filename,flush=True)
+    print('FACTORY_GATE_BUILD_COMPLETE',flush=True)
 
 
 if __name__=='__main__':
@@ -759,25 +807,5 @@ if __name__=='__main__':
     root=build_geometry()
     texture_maps.tint_individual_bricks(asset_collection)
     export_asset(root)
-    views=setup_stage()
-    bpy.context.scene.camera=views[0][0]
-    bpy.context.scene.render.resolution_x,bpy.context.scene.render.resolution_y=views[0][2]
-    bpy.context.scene.render.filepath=str(PREVIEWS/views[0][1])
-    # Pack while texture paths are still absolute in a new unsaved scene.
-    prepare_source_view()
-    # Relative texture paths keep unpacking within the project.
-    import os
-    for image in bpy.data.images:
-        if image.source=='FILE' and image.filepath:
-            image.filepath='//'+Path(os.path.relpath(bpy.path.abspath(image.filepath),SOURCE)).as_posix()
-    bpy.context.preferences.filepaths.save_version=0
-    bpy.ops.wm.save_as_mainfile(filepath=str(SOURCE/'FactoryGate_Rebuilt.blend'))
-    if not args.skip_render:
-        for cam,filename,resolution in views:
-            scene=bpy.context.scene
-            scene.camera=cam
-            scene.render.resolution_x,scene.render.resolution_y=resolution
-            scene.render.filepath=str(PREVIEWS/filename)
-            bpy.ops.render.render(write_still=True)
-            print('RENDER_COMPLETE',filename,flush=True)
-    print('FACTORY_GATE_BUILD_COMPLETE',flush=True)
+    save_and_render(args.skip_render)
+

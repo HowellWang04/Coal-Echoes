@@ -45,7 +45,7 @@ Tile 2,2 的 X 与 Z 相邻采样方向中，坡度超过 85 度的边从合计 
 
 Push-Location 'TerrainReferences/Circle1GradientPreview/bin'
 try {
-    & './terrain-solver.exe' 'D:/Development/Game Dev/Project/Grad App Project/Project Coal/TerrainReferences/Tile22CliffRepairPreview/Solver' 3073
+    & './terrain-solver.exe' 'D:/Development/Game Dev/Project/Grad App Project/Coal Echoes/TerrainReferences/Tile22CliffRepairPreview/Solver' 3073
 } finally {
     Pop-Location
 }

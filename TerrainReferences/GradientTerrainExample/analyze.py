@@ -80,7 +80,7 @@ report = {
         'reference_pgm': UPSTREAM / 'results/result.pgm',
         'local_pgm': ROOT / 'run/results/result.pgm',
         'diagnostic_pgm': ROOT / 'run/results/result_diagnostic.pgm'}.items()},
-    'scope': 'Original upstream example only. No Project Coal terrain or Unity scene edited.',
+    'scope': 'Original upstream example only. No Coal Echoes terrain or Unity scene edited.',
     'residual_note': 'Residual of the author shader update in normalized float units. Default finite iterations are retained, without a new convergence threshold.',
 }
 (ROOT / 'verification.json').write_text(json.dumps(report, indent=2))

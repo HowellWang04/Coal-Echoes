@@ -5,7 +5,7 @@ import math
 from mathutils import Vector
 from pathlib import Path
 
-ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01\CoalBucket')
+ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01\CoalBucket')
 scene=bpy.data.scenes.new('Tajia01_CoalBucket_Rebuilt')
 bpy.context.window.scene=scene
 parts=bpy.data.collections.new('CoalBucket_Fabricated_Parts');scene.collection.children.link(parts)

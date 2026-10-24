@@ -6,7 +6,7 @@ import hashlib
 import numpy as np
 from pathlib import Path
 
-ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01')
+ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01')
 scene=bpy.data.scenes['Tajia01_Tower_Rebuilt']
 bpy.context.window.scene=scene
 tower=bpy.data.objects['Tajia01_Tower']

@@ -3,7 +3,7 @@ import bpy
 from pathlib import Path
 import traceback
 
-ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01')
+ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01')
 
 def bake_channel(channel):
     scene=bpy.context.scene

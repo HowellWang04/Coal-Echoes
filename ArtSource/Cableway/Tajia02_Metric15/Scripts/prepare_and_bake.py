@@ -9,7 +9,7 @@ import os
 import traceback
 from pathlib import Path
 
-ROOT = Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia02_Metric15')
+ROOT = Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia02_Metric15')
 SIZE = globals().get('BAKE_SIZE', 4096)
 OBJ = globals().get('BAKE_OBJECT', 'Tajia02_Tower')
 PREFIX = globals().get('BAKE_PREFIX', 'Tower')

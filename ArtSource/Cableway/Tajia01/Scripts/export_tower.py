@@ -6,7 +6,7 @@ import struct
 from pathlib import Path
 from mathutils import Matrix
 
-ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Project Coal\ArtSource\Cableway\Tajia01')
+ROOT=Path(r'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Cableway\Tajia01')
 scene=bpy.context.scene
 tower=bpy.data.objects['Tajia01_Tower']
 original=bpy.data.objects['material']
