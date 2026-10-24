@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,15 +19,17 @@ public class ScrapBookUIManager : MonoBehaviour
     [Header("ScrapBook Canvas")]
     [SerializeField] private ScrapBookCanvas scrapBookCanvas;
 
+    [Header("Page Turning")]
+    [SerializeField] private Button prevPageBtn;
+    [SerializeField] private Button nextPageBtn;
+    [SerializeField] private TMP_Text pageText;
+    [SerializeField] private int pageCount = 10;
+
     [Header("Decoration Presets")]
     [SerializeField] private ScrapBookDecoPreset[] decoPresets;
 
     [Header("Thumbnail Settings")]
-    [SerializeField] private int thumbMaxSize = 128;
-
-    [Header("Echo Indicator")]
-    [SerializeField] private Color echoGlowColor = new Color(1f, 0.85f, 0.3f, 1f); // warm glow on echo photos
-    [SerializeField] private float echoGlowThickness = 3f;
+    [SerializeField] private int thumbMaxSize = 512; // covers the 142-unit top bar photo at 4K (canvas scale 2)
 
     private enum Category { Photo, Decoration }
     private Category currentCategory = Category.Photo;
@@ -36,6 +39,25 @@ public class ScrapBookUIManager : MonoBehaviour
 
     private bool canvasRestored = false;
 
+    private void Awake()
+    {
+        GameSaveManager.SavesCleared += HandleSavesCleared;
+    }
+
+    private void OnDestroy()
+    {
+        GameSaveManager.SavesCleared -= HandleSavesCleared;
+    }
+
+    // Drops a restored layout so the next open reads the now empty save.
+    private void HandleSavesCleared()
+    {
+        if (canvasRestored && scrapBookCanvas != null) scrapBookCanvas.ClearElements();
+        canvasRestored = false;
+        foreach (var texture in thumbCache.Values) Destroy(texture);
+        thumbCache.Clear();
+    }
+
     private void OnEnable()
     {
         if (scrapBookCanvas != null)
@@ -43,6 +65,8 @@ public class ScrapBookUIManager : MonoBehaviour
 
         if (photoCategoryBtn != null) photoCategoryBtn.onClick.AddListener(() => SwitchCategory(Category.Photo));
         if (decoCategoryBtn != null) decoCategoryBtn.onClick.AddListener(() => SwitchCategory(Category.Decoration));
+        if (prevPageBtn != null) prevPageBtn.onClick.AddListener(() => TurnPage(-1));
+        if (nextPageBtn != null) nextPageBtn.onClick.AddListener(() => TurnPage(1));
 
         if (ScrapBookDataManager.Instance != null)
         {
@@ -57,13 +81,17 @@ public class ScrapBookUIManager : MonoBehaviour
         {
             RestoreCanvas();
             canvasRestored = true;
+            if (scrapBookCanvas != null) scrapBookCanvas.ShowPage(0);
         }
+        RefreshPageUI();
     }
 
     private void OnDisable()
     {
         if (photoCategoryBtn != null) photoCategoryBtn.onClick.RemoveAllListeners();
         if (decoCategoryBtn != null) decoCategoryBtn.onClick.RemoveAllListeners();
+        if (prevPageBtn != null) prevPageBtn.onClick.RemoveAllListeners();
+        if (nextPageBtn != null) nextPageBtn.onClick.RemoveAllListeners();
 
         if (ScrapBookDataManager.Instance != null)
         {
@@ -84,6 +112,24 @@ public class ScrapBookUIManager : MonoBehaviour
             ScrapBookDecoPreset preset = data.type == "photo" ? null : FindPreset(data.id);
             scrapBookCanvas.RebuildElement(data, preset);
         }
+    }
+
+    private void TurnPage(int delta)
+    {
+        if (scrapBookCanvas == null) return;
+
+        scrapBookCanvas.ShowPage(Mathf.Clamp(scrapBookCanvas.CurrentPage + delta, 0, pageCount - 1));
+        RefreshPageUI();
+    }
+
+    private void RefreshPageUI()
+    {
+        if (scrapBookCanvas == null) return;
+
+        int page = scrapBookCanvas.CurrentPage;
+        if (pageText != null) pageText.text = $"{page + 1} / {pageCount}";
+        if (prevPageBtn != null) prevPageBtn.interactable = page > 0;
+        if (nextPageBtn != null) nextPageBtn.interactable = page < pageCount - 1;
     }
 
     private ScrapBookDecoPreset FindPreset(string presetName)
@@ -135,16 +181,11 @@ public class ScrapBookUIManager : MonoBehaviour
             le.preferredWidth = elementSize.x;
             le.preferredHeight = elementSize.y;
 
-            // Glow outline if this photo carries Echo content.
             if (EchoPhotoStorage.Load(fileName).Count > 0)
-            {
-                var outline = go.AddComponent<Outline>();
-                outline.effectColor = echoGlowColor;
-                outline.effectDistance = new Vector2(echoGlowThickness, echoGlowThickness);
-            }
+                go.GetComponent<EchoPhotoMark>().Show();
 
             var draggable = go.AddComponent<ScrapBookDraggable>();
-            draggable.SetupPhoto(fileName, thumb, photoElementPrefab, scrapBookCanvas);
+            draggable.SetupPhoto(fileName, thumb, scrapBookCanvas);
 
             spawnedElements.Add(go);
         }
@@ -215,8 +256,26 @@ public class ScrapBookUIManager : MonoBehaviour
         int th = Mathf.Max(1, Mathf.RoundToInt(h * scale));
 
         RenderTexture prev = RenderTexture.active;
+
+        // Halve in steps: each bilinear pass then averages 2x2 pixels. One big jump skips most pixels and looks jagged.
+        Texture current = src;
+        RenderTexture step = null;
+        int cw = w, ch = h;
+        while (cw / 2 >= tw && ch / 2 >= th)
+        {
+            cw /= 2;
+            ch /= 2;
+            RenderTexture next = RenderTexture.GetTemporary(cw, ch, 0);
+            next.filterMode = FilterMode.Bilinear;
+            Graphics.Blit(current, next);
+            if (step != null) RenderTexture.ReleaseTemporary(step);
+            step = next;
+            current = next;
+        }
+
         RenderTexture rt = RenderTexture.GetTemporary(tw, th, 0);
-        Graphics.Blit(src, rt);
+        Graphics.Blit(current, rt);
+        if (step != null) RenderTexture.ReleaseTemporary(step);
 
         RenderTexture.active = rt;
 

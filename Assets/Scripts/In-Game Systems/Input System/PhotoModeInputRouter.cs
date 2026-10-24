@@ -14,6 +14,7 @@ public sealed class PhotoModeInputRouter : MonoBehaviour
     private InputAction cameraToggle;
     private InputAction cameraViewToggle;
     private InputAction shutter;
+    private InputAction flashToggle;
     private InputAction cursorToggle;
 
     private bool cursorMode = false;
@@ -30,10 +31,12 @@ public sealed class PhotoModeInputRouter : MonoBehaviour
         cameraToggle = map.CameraModeToggle;
         cameraViewToggle = map.CameraViewToggle;
         shutter = map.PhotoShutter;
+        flashToggle = map.FlashToggle;
         cursorToggle = map.CursorToggle;
         cameraToggle.performed += OnCameraTogglePerformed;
         cameraViewToggle.performed += OnCameraViewTogglePerformed;
         shutter.performed += OnShutterPerformed;
+        flashToggle.performed += OnFlashTogglePerformed;
         cursorToggle.performed += OnCursorToggle;
         shutter.Disable();
     }
@@ -43,6 +46,7 @@ public sealed class PhotoModeInputRouter : MonoBehaviour
         if (cameraToggle != null) cameraToggle.performed -= OnCameraTogglePerformed;
         if (cameraViewToggle != null) cameraViewToggle.performed -= OnCameraViewTogglePerformed;
         if (shutter != null) shutter.performed -= OnShutterPerformed;
+        if (flashToggle != null) flashToggle.performed -= OnFlashTogglePerformed;
         if (cursorToggle != null)
             cursorToggle.performed -= OnCursorToggle;
     }
@@ -113,6 +117,14 @@ public sealed class PhotoModeInputRouter : MonoBehaviour
         {
             cameraSystemManager.Capture();
         }
+    }
+
+    private void OnFlashTogglePerformed(InputAction.CallbackContext ctx)
+    {
+        if (playerPanel.IsOpen) return;
+        if (cameraSystemManager.CurrentState != CameraModeState.Active) return;
+
+        cameraSystemManager.ToggleFlash();
     }
 
     private void OnCursorToggle(InputAction.CallbackContext ctx)

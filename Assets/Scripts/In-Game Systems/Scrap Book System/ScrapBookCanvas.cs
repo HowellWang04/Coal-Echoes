@@ -14,19 +14,57 @@ public class ScrapBookCanvas : MonoBehaviour
     [Header("Default Element Size")]
     [SerializeField] private Vector2 defaultPhotoSize = new Vector2(120, 120);
 
-    [Header("Echo Label")]
-    [SerializeField] private float echoLabelGap = 8f;       // distance from photo edge
-    [SerializeField] private float echoLabelWidth = 0f;     // 0 = match photo width
-    [SerializeField] private float echoLabelFontSize = 14f;
-    [SerializeField] private Color echoLabelColor = Color.black;
+    [Header("Echo Note")]
+    [SerializeField] private Sprite echoNotePaper;
+    [SerializeField] private Sprite echoNoteTape;
+    [SerializeField] private TMP_FontAsset echoNoteFont;
+    [SerializeField] private float echoNoteWidth = 130f;
+    [SerializeField] private Vector4 echoNotePadding = new Vector4(9, 9, 8, 13); // left, right, top, bottom; bottom leaves room for the torn edge
+    [SerializeField] private float echoNoteOverlap = 6f; // how far the note tucks under the photo edge
+    [SerializeField] private Vector2 echoTapeSize = new Vector2(46f, 13f);
+    [SerializeField] private float echoNoteFontSize = 12f;
+    [SerializeField] private Color echoNoteTextColor = new Color(0.361f, 0.282f, 0.196f);
+    [SerializeField] private Color echoTagColor = new Color(0.659f, 0.263f, 0.173f); // same red ink as the ECHO stamp
+
+    [Header("Text Box")]
+    // Keeps text inside the TextArea frame lines; ScrapBookTextBox blocks input that would overflow this area.
+    [SerializeField] private Vector2 textBoxPadding = new Vector2(16, 12);
+    [SerializeField] private Color textBoxTextColor = new Color(0.361f, 0.282f, 0.196f); // matches the task hint text
+    [SerializeField] private float textBoxFontSize = 14f;
+
+    [Header("Context Menu")]
+    [SerializeField] private ScrapBookElementContextMenu elementContextMenu;
 
     private RectTransform rect;
 
     private GameObject photoElementPrefab;
 
+    // Every page's elements live under this canvas; only the current page's are active.
+    public int CurrentPage { get; private set; }
+
     private void Awake()
     {
         rect = GetComponent<RectTransform>();
+    }
+
+    public void ShowPage(int page)
+    {
+        CurrentPage = page;
+        if (elementContextMenu != null) elementContextMenu.Hide();
+
+        foreach (Transform child in transform)
+        {
+            var meta = child.GetComponent<ScrapBookElementMeta>();
+            if (meta != null) child.gameObject.SetActive(meta.page == page);
+        }
+    }
+
+    public void ClearElements()
+    {
+        if (elementContextMenu != null) elementContextMenu.Hide();
+        foreach (Transform child in transform)
+            if (child.GetComponent<ScrapBookElementMeta>() != null) Destroy(child.gameObject);
+        CurrentPage = 0;
     }
 
     public void SetPhotoElementPrefab(GameObject prefab)
@@ -36,70 +74,139 @@ public class ScrapBookCanvas : MonoBehaviour
 
     public GameObject AddPhotoElement(Texture2D tex, Vector2 localPos, string fileName)
     {
-        GameObject go = Instantiate(photoElementPrefab, transform);
+        GameObject go = CreatePhotoVisual(tex, fileName, transform);
         go.name = "ScrapElement";
+        go.GetComponent<RectTransform>().anchoredPosition = localPos;
+
+        var element = go.GetComponent<ScrapBookElement>();
+        if (element == null) element = go.AddComponent<ScrapBookElement>();
+        element.Init(rect, elementContextMenu);
+
+        var meta = go.AddComponent<ScrapBookElementMeta>();
+        meta.type = "photo";
+        meta.id = fileName;
+        meta.page = CurrentPage;
+
+        return go;
+    }
+
+    // The photo as it looks on the canvas, with its Echo mark and note, at scale 1.
+    // AddPhotoElement and the top bar's drag ghost both build from this, so the ghost matches what gets placed.
+    public GameObject CreatePhotoVisual(Texture tex, string fileName, Transform parent)
+    {
+        GameObject go = Instantiate(photoElementPrefab, parent);
 
         var elRect = go.GetComponent<RectTransform>();
         elRect.anchorMin = new Vector2(0.5f, 0.5f);
         elRect.anchorMax = new Vector2(0.5f, 0.5f);
         elRect.pivot = new Vector2(0.5f, 0.5f);
-        elRect.anchoredPosition = localPos;
+        elRect.anchoredPosition = Vector2.zero;
         Vector2 photoSize = new Vector2(defaultPhotoSize.x, defaultPhotoSize.x / AlbumPhotoAspect);
         ScrapBookPhotoVisual.Configure(go, tex, photoSize);
 
-        var element = go.GetComponent<ScrapBookElement>();
-        if (element == null) element = go.AddComponent<ScrapBookElement>();
-        element.Init(rect);
+        // A canvas photo is not a button. If its Button stays, UIAnimationScope can give it the album's hover zoom
+        // (it scans all Buttons when it wakes, which can happen after a restore), and that zoom fights ScrapBookElement's scale.
+        DestroyImmediate(go.GetComponent<Button>());
 
-        var meta = go.AddComponent<ScrapBookElementMeta>();
-        meta.type = "photo";
-        meta.id = fileName;
-
-        AddEchoLabel(go, fileName);
+        var echo = EchoPhotoStorage.Find(fileName);
+        if (echo != null)
+        {
+            go.GetComponent<EchoPhotoMark>().Show();
+            AddEchoNote(go, echo);
+        }
 
         return go;
     }
 
-    // Read-only Echo text block, child of the photo, derived from EchoPhotoStorage.
-    // Placed on the side away from the canvas edge; height grows from the photo outward.
-    private void AddEchoLabel(GameObject photoGo, string fileName)
+    // Read-only handwritten note taped to the photo, one entry per Echo text, placed by the Echo's saved layout.
+    private void AddEchoNote(GameObject photoGo, EchoPhotoEntry echo)
     {
-        var texts = EchoPhotoStorage.Load(fileName);
-        if (texts == null || texts.Count == 0) return;
+        GameObject noteGo = new GameObject("EchoNote", typeof(RectTransform));
+        noteGo.transform.SetParent(photoGo.transform, false);
+        noteGo.transform.SetSiblingIndex(photoGo.GetComponent<EchoPhotoMark>().Stamp.GetSiblingIndex()); // stamp stays on top
+        var noteRect = (RectTransform)noteGo.transform;
+        noteRect.sizeDelta = new Vector2(echoNoteWidth, 0f);
 
-        var photoRect = photoGo.GetComponent<RectTransform>();
-        float photoW = photoRect.sizeDelta.x;
-        float photoH = photoRect.sizeDelta.y;
+        // The paper takes raycasts so pressing on the note drags, rotates or deletes the photo (events bubble to its ScrapBookElement).
+        var paper = noteGo.AddComponent<Image>();
+        paper.sprite = echoNotePaper;
+        paper.type = Image.Type.Sliced;
 
-        GameObject labelGo = new GameObject("EchoLabel");
-        labelGo.transform.SetParent(photoGo.transform, false);
+        var shadow = noteGo.AddComponent<Shadow>();
+        shadow.effectColor = new Color(0.24f, 0.16f, 0.08f, 0.3f);
+        shadow.effectDistance = new Vector2(1.5f, -2f);
 
-        var rt = labelGo.AddComponent<RectTransform>();
-        rt.sizeDelta = new Vector2(echoLabelWidth > 0f ? echoLabelWidth : photoW, 0f);
+        var layout = noteGo.AddComponent<VerticalLayoutGroup>();
+        layout.padding = new RectOffset(
+            (int)echoNotePadding.x, (int)echoNotePadding.y, (int)echoNotePadding.z, (int)echoNotePadding.w);
+        layout.childControlWidth = true;
+        layout.childControlHeight = true;
+        layout.childForceExpandHeight = false;
 
-        // Photo in lower half -> place above; otherwise below. Pivot pins the near edge to the photo.
-        bool placeAbove = photoRect.anchoredPosition.y < 0f;
-        if (placeAbove)
-        {
-            rt.pivot = new Vector2(0.5f, 0f);
-            rt.anchoredPosition = new Vector2(0f, photoH * 0.5f + echoLabelGap);
-        }
-        else
-        {
-            rt.pivot = new Vector2(0.5f, 1f);
-            rt.anchoredPosition = new Vector2(0f, -(photoH * 0.5f + echoLabelGap));
-        }
-
-        var tmp = labelGo.AddComponent<TextMeshProUGUI>();
-        tmp.text = string.Join("\n\n", texts);
-        tmp.fontSize = echoLabelFontSize;
-        tmp.color = echoLabelColor;
-        tmp.alignment = TextAlignmentOptions.Top;
-        tmp.textWrappingMode = TextWrappingModes.Normal;
-        tmp.raycastTarget = false; // visual only; the photo handles all interaction
-
-        var fitter = labelGo.AddComponent<ContentSizeFitter>();
+        var fitter = noteGo.AddComponent<ContentSizeFitter>();
         fitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
+
+        GameObject textGo = new GameObject("Text", typeof(RectTransform));
+        textGo.transform.SetParent(noteGo.transform, false);
+
+        string tag = $"<size=70%><cspace=0.15em><color=#{ColorUtility.ToHtmlStringRGB(echoTagColor)}>ECHO</color></cspace></size>";
+        string separator = $"\n<size=60%><color=#{ColorUtility.ToHtmlStringRGB(echoNoteTextColor)}59>- - - - - - - - - - - -</color></size>\n";
+        var entries = new List<string>();
+        foreach (string text in echo.scrapbookContents) entries.Add(tag + "\n" + text.Trim());
+
+        var tmp = textGo.AddComponent<TextMeshProUGUI>();
+        tmp.text = string.Join(separator, entries);
+        if (echoNoteFont != null) tmp.font = echoNoteFont;
+        tmp.fontSize = echoNoteFontSize;
+        tmp.color = echoNoteTextColor;
+        tmp.alignment = TextAlignmentOptions.TopLeft;
+        tmp.textWrappingMode = TextWrappingModes.Normal;
+        tmp.raycastTarget = false;
+
+        GameObject tapeGo = new GameObject("Tape", typeof(RectTransform));
+        tapeGo.transform.SetParent(noteGo.transform, false);
+        var tapeRect = (RectTransform)tapeGo.transform;
+        tapeRect.sizeDelta = echoTapeSize;
+        tapeGo.AddComponent<LayoutElement>().ignoreLayout = true;
+        var tape = tapeGo.AddComponent<Image>();
+        tape.sprite = echoNoteTape;
+        tape.raycastTarget = false;
+
+        PlaceEchoNote(noteRect, tapeRect, ((RectTransform)photoGo.transform).sizeDelta, echo.noteLayout);
+
+        // Size the note now, so bounds checks in the same frame (drag ghost, canvas clamp) already include it.
+        LayoutRebuilder.ForceRebuildLayoutImmediate(noteRect);
+    }
+
+    // The note's pivot is the middle of its edge that touches the photo; that edge tucks a little under the photo.
+    private void PlaceEchoNote(RectTransform noteRect, RectTransform tapeRect, Vector2 photoSize, EchoNoteLayout layout)
+    {
+        Vector2 half = photoSize * 0.5f;
+        switch (layout.side)
+        {
+            case EchoNoteSide.Below:
+                noteRect.pivot = new Vector2(0.5f, 1f);
+                noteRect.anchoredPosition = new Vector2(layout.shift * photoSize.x, -(half.y - echoNoteOverlap));
+                break;
+            case EchoNoteSide.Above:
+                noteRect.pivot = new Vector2(0.5f, 0f);
+                noteRect.anchoredPosition = new Vector2(layout.shift * photoSize.x, half.y - echoNoteOverlap);
+                break;
+            case EchoNoteSide.Left:
+                noteRect.pivot = new Vector2(1f, 0.5f);
+                noteRect.anchoredPosition = new Vector2(-(half.x - echoNoteOverlap), layout.shift * photoSize.y);
+                break;
+            case EchoNoteSide.Right:
+                noteRect.pivot = new Vector2(0f, 0.5f);
+                noteRect.anchoredPosition = new Vector2(half.x - echoNoteOverlap, layout.shift * photoSize.y);
+                break;
+        }
+        noteRect.localRotation = Quaternion.Euler(0f, 0f, layout.angle);
+
+        // Tape across that same edge, tilted against the note.
+        tapeRect.anchorMin = tapeRect.anchorMax = noteRect.pivot;
+        tapeRect.anchoredPosition = Vector2.zero;
+        tapeRect.localRotation = Quaternion.Euler(0f, 0f, layout.angle < 0f ? 12f : -12f);
     }
 
     public void AddDecoElement(ScrapBookDecoPreset preset, Vector2 localPos)
@@ -124,6 +231,7 @@ public class ScrapBookCanvas : MonoBehaviour
         var meta = go.AddComponent<ScrapBookElementMeta>();
         meta.type = "sticker";
         meta.id = preset.presetName;
+        meta.page = CurrentPage;
 
         return go;
     }
@@ -154,14 +262,15 @@ public class ScrapBookCanvas : MonoBehaviour
 
         var element = go.GetComponent<ScrapBookElement>();
         if (element == null) element = go.AddComponent<ScrapBookElement>();
-        element.Init(rect);
+        element.Init(rect, elementContextMenu);
 
         var textBox = go.GetComponent<ScrapBookTextBox>();
-        if (textBox != null) textBox.Init("Text");
+        if (textBox != null) textBox.Init(); // starts on the placeholder
 
         var meta = go.AddComponent<ScrapBookElementMeta>();
         meta.type = "textbox";
         meta.id = preset.presetName;
+        meta.page = CurrentPage;
 
         return go;
     }
@@ -185,13 +294,13 @@ public class ScrapBookCanvas : MonoBehaviour
         var textRect = textGo.AddComponent<RectTransform>();
         textRect.anchorMin = Vector2.zero;
         textRect.anchorMax = Vector2.one;
-        textRect.offsetMin = new Vector2(8, 4);
-        textRect.offsetMax = new Vector2(-8, -4);
+        textRect.offsetMin = textBoxPadding;
+        textRect.offsetMax = -textBoxPadding;
 
         var tmp = textGo.AddComponent<TextMeshProUGUI>();
         tmp.text = "Text";
-        tmp.fontSize = 18;
-        tmp.color = Color.black;
+        tmp.fontSize = textBoxFontSize;
+        tmp.color = textBoxTextColor;
         tmp.alignment = TextAlignmentOptions.Center;
         tmp.textWrappingMode = TextWrappingModes.Normal;
 
@@ -201,8 +310,8 @@ public class ScrapBookCanvas : MonoBehaviour
         var inputRect = inputGo.AddComponent<RectTransform>();
         inputRect.anchorMin = Vector2.zero;
         inputRect.anchorMax = Vector2.one;
-        inputRect.offsetMin = new Vector2(8, 4);
-        inputRect.offsetMax = new Vector2(-8, -4);
+        inputRect.offsetMin = textBoxPadding;
+        inputRect.offsetMax = -textBoxPadding;
 
         // TextArea child for TMP_InputField
         GameObject textAreaGo = new GameObject("TextArea");
@@ -212,7 +321,8 @@ public class ScrapBookCanvas : MonoBehaviour
         textAreaRect.anchorMax = Vector2.one;
         textAreaRect.offsetMin = Vector2.zero;
         textAreaRect.offsetMax = Vector2.zero;
-        textAreaGo.AddComponent<RectMask2D>();
+        // No RectMask2D: it clips axis-aligned and cuts the text once the box is rotated.
+        // ScrapBookTextBox already keeps text inside this area.
 
         GameObject inputTextGo = new GameObject("Text");
         inputTextGo.transform.SetParent(textAreaGo.transform, false);
@@ -223,13 +333,15 @@ public class ScrapBookCanvas : MonoBehaviour
         inputTextRect.offsetMax = Vector2.zero;
 
         var inputTmp = inputTextGo.AddComponent<TextMeshProUGUI>();
-        inputTmp.fontSize = 18;
-        inputTmp.color = Color.black;
+        inputTmp.fontSize = textBoxFontSize;
+        inputTmp.color = textBoxTextColor;
         inputTmp.alignment = TextAlignmentOptions.Center;
+        inputTmp.textWrappingMode = TextWrappingModes.Normal;
 
         var inputField = inputGo.AddComponent<TMP_InputField>();
         inputField.textComponent = inputTmp;
         inputField.textViewport = textAreaRect;
+        inputField.lineType = TMP_InputField.LineType.MultiLineNewline; // Enter adds a line break instead of ending the edit
 
         inputGo.SetActive(false);
 
@@ -253,7 +365,7 @@ public class ScrapBookCanvas : MonoBehaviour
         elRect.sizeDelta = defaultPhotoSize;
 
         var element = go.AddComponent<ScrapBookElement>();
-        element.Init(rect);
+        element.Init(rect, elementContextMenu);
 
         return go;
     }
@@ -278,7 +390,8 @@ public class ScrapBookCanvas : MonoBehaviour
                 position = childRect.anchoredPosition,
                 rotation = childRect.localEulerAngles.z,
                 scale = childRect.localScale.x,
-                text = ""
+                text = "",
+                page = meta.page
             };
 
             if (meta.type == "textbox")
@@ -324,5 +437,7 @@ public class ScrapBookCanvas : MonoBehaviour
 
         var element = go.GetComponent<ScrapBookElement>();
         if (element != null) element.SetScale(data.scale);
+
+        go.GetComponent<ScrapBookElementMeta>().page = data.page;
     }
 }

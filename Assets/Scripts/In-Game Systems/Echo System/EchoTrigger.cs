@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Serialization;
 using System.Collections.Generic;
 
@@ -9,12 +10,20 @@ public class EchoTrigger : MonoBehaviour
     [SerializeField] private string echoId;
     [SerializeField, Min(0f)] private float maxDistanceOverride;
     [SerializeField] private bool frontOnly;
+    // A scene recreated from an old photo, such as the Group Photo at the gate, only counts
+    // while the camera stands within this radius of the marked spot and looks within this angle
+    // of its forward. That aim replaces keeping the target in the middle of the frame.
+    [SerializeField] private Transform standPoint;
+    [SerializeField, Min(0f)] private float standRadius = 1.2f;
+    [SerializeField, Range(0f, 90f)] private float standAngle = 10f;
+    // Raised for every saved photo of this echo, not only the first; main-story echoes advance the level here.
+    [SerializeField] private UnityEvent onCaptured;
 
     [TextArea(3, 6)]
     [FormerlySerializedAs("diaryContent")]
     public string scrapbookContent;
 
-    public string stickyNoteSlotId;
+    public EchoNoteLayout noteLayout = new();
 
     public string EchoId => echoId;
     public float MaxDistanceOverride => maxDistanceOverride;
@@ -46,6 +55,19 @@ public class EchoTrigger : MonoBehaviour
     }
 
     private void OnDisable() => Active.Remove(this);
+
+    public bool HasStandPoint => standPoint != null;
+
+    public bool IsStandingIn(Transform view)
+    {
+        if (standPoint == null) return true;
+        Vector3 offset = view.position - standPoint.position;
+        offset.y = 0f;
+        return offset.sqrMagnitude <= standRadius * standRadius
+            && Vector3.Angle(view.forward, standPoint.forward) <= standAngle;
+    }
+
+    public void NotifyCaptured() => onCaptured.Invoke();
 
     // Combine the object's own geometry in its local space, not a world-axis box.
     public bool TryGetBounds(out Bounds bounds)

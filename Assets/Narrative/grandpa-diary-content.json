@@ -7,69 +7,7 @@
       "textBlocks": [
         {
           "markerId": "p01_body_01",
-          "content": "March 12, 1981\n\nToday's wind came down from the North Mountain Pass, carrying the smell of mine dust.\n\nI turned through the duty logbook again. Some of the words on the page about the northern mountain road had been blurred by the rain."
-        },
-        {
-          "markerId": "p01_body_02",
-          "content": "March 18, 1981\n\nThe light on the mountaintop turned on once during the night.\n\nIt was not an inspection light, and it did not look like a truck light either. It stayed on the ridge, as if waiting for someone to look back."
-        }
-      ],
-      "stickyNoteSlots": [
-        {
-          "slotId": "p01_note_watchlog",
-          "markerId": "p01_note_watchlog",
-          "triggerId": "watch_log",
-          "pageSide": "left",
-          "noteContent": "The north mountain road was not just a shortcut. Someone once ran toward the mountain from here, and Grandpa kept writing about that same ridge years later.",
-          "unlockedByDefault": false
-        }
-      ]
-    },
-    {
-      "pageId": "p02",
-      "pageIndex": 1,
-      "pageTitle": "Old Office",
-      "textBlocks": [
-        {
-          "markerId": "p02_body_01",
-          "content": "April 2, 1981\n\nThe office window was cracked, and an old employee badge was still pressed under the corner of the desk.\n\nI remember them saying not to keep investigating, but some things make more noise at night the more they are covered up."
-        },
-        {
-          "markerId": "p02_body_02",
-          "content": "April 9, 1981\n\nIf someone reads this, go find the blue-covered record book first.\n\nThe record book itself is not important. What matters is the paper tucked inside the last page."
-        }
-      ],
-      "stickyNoteSlots": [
-        {
-          "slotId": "p02_note_office_card",
-          "markerId": "p02_note_office_card",
-          "triggerId": "office_card",
-          "noteContent": "Sticky note test: This spot can later hold a response related to the old employee badge or the office clue.",
-          "unlockedByDefault": false
-        }
-      ]
-    },
-    {
-      "pageId": "p03",
-      "pageIndex": 2,
-      "pageTitle": "Northern Mountain Road",
-      "textBlocks": [
-        {
-          "markerId": "p03_body_01",
-          "content": "April 17, 1981\n\nThe road north of the factory is narrow. After the rain, the mud sticks to the soles of your shoes, and each step feels heavier than the last.\n\nThey all say there is nothing worth seeing up there, but I always feel that when a person stands higher, the heart can loosen a little."
-        },
-        {
-          "markerId": "p03_body_02",
-          "content": "April 23, 1981\n\nFrom the mountaintop, the whole mill can be seen at once. At dusk, the lights turn on one by one, as if someone has left the unfinished words of the day inside the night.\n\nIf I have another chance, I want to go up there and see it again."
-        }
-      ],
-      "stickyNoteSlots": [
-        {
-          "slotId": "p03_note_mountain_path",
-          "markerId": "p03_note_mountain_path",
-          "triggerId": "mountain_path_clue",
-          "noteContent": "Sticky note test: This spot can later hold a response related to the northern road and the mountaintop light.",
-          "unlockedByDefault": false
+          "content": "October 3, 1980\n\nFive years of drilling blast holes underground with Tunneling Team 4. Today I was transferred to the coal washing plant at the foot of the mountain.\n\nTwelve of us started at the plant today. Before we went in, they lined us up at the gate under a red banner for a photo.\n\nI was given Room 207 in the workers' dormitory, second floor, the second door past the stairs. Four beds, one table, one stove. From the window I can see the cableway climbing the mountain.\n\nA new job deserves a new diary. This is the first page."
         }
       ]
     }

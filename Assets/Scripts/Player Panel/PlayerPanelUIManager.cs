@@ -1,10 +1,23 @@
 using System;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 using Controller.FinalCharacterController;
+
+// Sidebar tabs, as flags so the level flow can unlock several at once.
+[Flags]
+public enum PlayerPanelTabs
+{
+    None = 0,
+    Album = 1,
+    ScrapBook = 2,
+    GrandpaDiary = 4,
+    Backpack = 8,
+    All = Album | ScrapBook | GrandpaDiary | Backpack
+}
 
 // Let child UI initialize before this manager hides the panel in Awake.
 [DefaultExecutionOrder(10)]
@@ -25,17 +38,10 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
     [SerializeField] private GameObject BackpackTab;
 
     [Header("Grandpa's Diary")]
-    [FormerlySerializedAs("grandpaNotesText")]
-    [SerializeField] private TMP_Text grandpaDiaryText;
     [FormerlySerializedAs("grandpaDiaryMarkdown")]
     [SerializeField] private TextAsset grandpaDiaryJson;
-    [SerializeField] private GrandpaDiaryPageData[] grandpaDiaryPages;
     [SerializeField] private GrandpaDiaryPageView grandpaDiaryPagePrefab;
     [SerializeField] private RectTransform grandpaDiaryPagesRoot;
-    [SerializeField] private GrandpaDiaryPageView[] grandpaDiaryPageViews;
-
-    [Header("Grandpa Diary Sticky Note Positions")]
-    [SerializeField] private GrandpaDiaryStickyNotePositionOverride[] grandpaDiaryStickyNotePositionOverrides;
 
     [FormerlySerializedAs("grandpaNotesPrevPageButton")]
     [SerializeField] private Button grandpaDiaryPrevPageButton;
@@ -50,14 +56,25 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
     [FormerlySerializedAs("grandpaNotesButton")]
     [SerializeField] private Button grandpaDiaryButton;
     [SerializeField] private Button backpackButton;
+
+    [Header("Tab Guidance")]
+    [SerializeField, Range(0f, 1f)] private float lockedTabAlpha = .35f;
+    [SerializeField] private float guidePulseScale = 1.15f;
     
 
     public bool IsOpen { get; private set; }
+    public bool IsGrandpaDiaryTabActive => activeTabTransition != null && activeTabTransition == grandpaDiaryTabTransition;
+    public bool IsBackpackTabActive => activeTabTransition != null && activeTabTransition == backpackTabTransition;
+    public int CurrentGrandpaDiaryPageIndex => currentGrandpaDiaryPageIndex;
+    // The level flow keeps the panel shut until the player has been handed something to look at.
+    public bool OpenAllowed { get; set; } = true;
 
     private CursorLockMode prevLockState;
     private bool prevCursorVisible;
     private bool cachedCursor;
     private int currentGrandpaDiaryPageIndex;
+    private GrandpaDiaryPageData[] grandpaDiaryPages;
+    private GrandpaDiaryPageView[] grandpaDiaryPageViews;
     private UITabTransition albumTabTransition;
     private UITabTransition scrapBookTabTransition;
     private UITabTransition grandpaDiaryTabTransition;
@@ -66,6 +83,9 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
     private UIPanelSlideTransition panelTransition;
     private Canvas grandpaDiaryCanvas;
     private GrandpaDiaryPageTurnTransition grandpaDiaryPageTurnTransition;
+    private PlayerPanelTabs unlockedTabs = PlayerPanelTabs.All;
+    private PlayerPanelTabs guideTab = PlayerPanelTabs.None;
+    private Tween guidePulse;
 
     private void Awake()
     {
@@ -85,6 +105,8 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
         ConfigureGrandpaDiarySorting();
         ConfigureTabTransitions();
         ShowInitialAlbum();
+        ConfigureTabLocks();
+        ApplyTabAccess();
     }
 
 
@@ -95,7 +117,12 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
     public void SetOpen(bool open)
     {
         if (open == IsOpen) return;
-        if (open) RefreshGrandpaDiaryAvailability();
+        if (open && !OpenAllowed) return;
+        if (open)
+        {
+            RefreshGrandpaDiaryAvailability();
+            if (!IsUnlocked(ActiveTab)) ShowTabImmediate(FallbackTab());
+        }
         IsOpen = open;
         ApplyOpenState();
     }
@@ -178,15 +205,9 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
 
     public void RefreshGrandpaDiaryAvailability()
     {
-        bool available = GrandpaDiaryProgress.HasDiary;
-        grandpaDiaryButton.gameObject.SetActive(available);
-        if (!available) GrandpaDiaryTab.SetActive(false);
-    }
-
-    public void ShowGrandpaDiary(string content)
-    {
-        if (grandpaDiaryText != null) grandpaDiaryText.text = content;
-        ShowGrandpaDiary();
+        // The button stays in the sidebar; without the diary it is simply locked.
+        if (!GrandpaDiaryProgress.HasDiary) GrandpaDiaryTab.SetActive(false);
+        ApplyTabAccess();
     }
 
     public void ShowGrandpaDiaryPage(int pageIndex)
@@ -194,7 +215,6 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
         int pageCount = GetGrandpaDiaryPageCount();
         if (pageCount <= 0)
         {
-            if (grandpaDiaryText != null) grandpaDiaryText.text = "";
             if (grandpaDiaryPageText != null) grandpaDiaryPageText.text = "0 / 0";
             SetGrandpaDiaryPageButtons(false, false);
             HideAllGrandpaDiaryPageViews();
@@ -204,8 +224,7 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
         currentGrandpaDiaryPageIndex = Mathf.Clamp(pageIndex, 0, pageCount - 1);
         var pageData = grandpaDiaryPages[currentGrandpaDiaryPageIndex];
 
-        if (!ShowGrandpaDiaryPageView(pageData, currentGrandpaDiaryPageIndex))
-            ShowGrandpaDiaryFallbackText(pageData);
+        ShowGrandpaDiaryPageView(pageData, currentGrandpaDiaryPageIndex);
 
         if (grandpaDiaryPageText != null)
             grandpaDiaryPageText.text = $"{currentGrandpaDiaryPageIndex + 1} / {pageCount}";
@@ -272,6 +291,134 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
         nextTab.Show();
         activeTabTransition = nextTab;
         SetActiveSidebarButton(activeButton);
+        RefreshGuidePulse();
+    }
+
+    // The level flow decides which sidebar tabs can be opened and which one the player should open next.
+    // Locked buttons stay in place, faded and unclickable; the guided one pulses until it is opened.
+    public void SetTabAccess(PlayerPanelTabs unlocked, PlayerPanelTabs guide)
+    {
+        if (unlocked == unlockedTabs && guide == guideTab) return;
+        unlockedTabs = unlocked;
+        guideTab = guide;
+        ApplyTabAccess();
+        if (IsOpen && !IsUnlocked(ActiveTab)) ShowTab(FallbackTab());
+    }
+
+    private static readonly PlayerPanelTabs[] SidebarOrder =
+        { PlayerPanelTabs.Album, PlayerPanelTabs.ScrapBook, PlayerPanelTabs.GrandpaDiary, PlayerPanelTabs.Backpack };
+
+    private bool IsUnlocked(PlayerPanelTabs tab)
+    {
+        if (tab == PlayerPanelTabs.GrandpaDiary && !GrandpaDiaryProgress.HasDiary) return false;
+        return (unlockedTabs & tab) != 0;
+    }
+
+    private PlayerPanelTabs ActiveTab =>
+        activeTabTransition == null ? PlayerPanelTabs.None
+        : activeTabTransition == albumTabTransition ? PlayerPanelTabs.Album
+        : activeTabTransition == scrapBookTabTransition ? PlayerPanelTabs.ScrapBook
+        : activeTabTransition == grandpaDiaryTabTransition ? PlayerPanelTabs.GrandpaDiary
+        : PlayerPanelTabs.Backpack;
+
+    private PlayerPanelTabs FallbackTab()
+    {
+        if (guideTab != PlayerPanelTabs.None && IsUnlocked(guideTab)) return guideTab;
+        foreach (var tab in SidebarOrder)
+            if (IsUnlocked(tab)) return tab;
+        return ActiveTab;
+    }
+
+    private Button ButtonFor(PlayerPanelTabs tab) => tab switch
+    {
+        PlayerPanelTabs.Album => albumButton,
+        PlayerPanelTabs.ScrapBook => scrapBookButton,
+        PlayerPanelTabs.GrandpaDiary => grandpaDiaryButton,
+        PlayerPanelTabs.Backpack => backpackButton,
+        _ => null
+    };
+
+    private UITabTransition TransitionFor(PlayerPanelTabs tab) => tab switch
+    {
+        PlayerPanelTabs.Album => albumTabTransition,
+        PlayerPanelTabs.ScrapBook => scrapBookTabTransition,
+        PlayerPanelTabs.GrandpaDiary => grandpaDiaryTabTransition,
+        PlayerPanelTabs.Backpack => backpackTabTransition,
+        _ => null
+    };
+
+    private void ShowTab(PlayerPanelTabs tab)
+    {
+        if (tab == PlayerPanelTabs.Album) ShowAlbum();
+        else if (tab == PlayerPanelTabs.ScrapBook) ShowScrapBook();
+        else if (tab == PlayerPanelTabs.GrandpaDiary) ShowGrandpaDiary();
+        else if (tab == PlayerPanelTabs.Backpack) ShowBackpack();
+    }
+
+    // Used while the panel is closed, where tab animations would run on inactive objects.
+    private void ShowTabImmediate(PlayerPanelTabs tab)
+    {
+        var next = TransitionFor(tab);
+        if (next == null || next == activeTabTransition) return;
+        activeTabTransition?.HideImmediate();
+        next.ShowImmediate();
+        activeTabTransition = next;
+        SetActiveSidebarButton(ButtonFor(tab));
+        if (tab == PlayerPanelTabs.GrandpaDiary) ShowGrandpaDiaryPage(currentGrandpaDiaryPageIndex);
+        RefreshGuidePulse();
+    }
+
+    private void ConfigureTabLocks()
+    {
+        foreach (var tab in SidebarOrder)
+        {
+            var button = ButtonFor(tab);
+            var relay = button.GetComponent<SidebarLockedClick>();
+            if (relay == null) relay = button.gameObject.AddComponent<SidebarLockedClick>();
+            relay.Clicked += () => ShakeLockedButton(button);
+        }
+    }
+
+    private void ApplyTabAccess()
+    {
+        foreach (var tab in SidebarOrder)
+        {
+            var button = ButtonFor(tab);
+            if (button == null) continue;
+            bool unlocked = IsUnlocked(tab);
+            button.interactable = unlocked;
+            var group = button.GetComponent<CanvasGroup>();
+            if (group == null) group = button.gameObject.AddComponent<CanvasGroup>();
+            group.alpha = unlocked ? 1f : lockedTabAlpha;
+        }
+        RefreshGuidePulse();
+    }
+
+    private void RefreshGuidePulse()
+    {
+        guidePulse?.Kill();
+        guidePulse = null;
+        foreach (var tab in SidebarOrder)
+        {
+            var icon = ButtonFor(tab)?.transform.Find("Icon");
+            if (icon != null) icon.localScale = Vector3.one;
+        }
+
+        if (guideTab == PlayerPanelTabs.None || guideTab == ActiveTab || !IsUnlocked(guideTab)) return;
+        var guideIcon = ButtonFor(guideTab).transform.Find("Icon");
+        if (guideIcon == null) return;
+        guidePulse = guideIcon.DOScale(guidePulseScale, .55f)
+            .SetEase(Ease.InOutSine)
+            .SetLoops(-1, LoopType.Yoyo)
+            .SetUpdate(true);
+    }
+
+    private static void ShakeLockedButton(Button button)
+    {
+        var icon = button.transform.Find("Icon");
+        if (icon == null) return;
+        icon.DOComplete();
+        icon.DOPunchPosition(new Vector3(8f, 0f, 0f), .35f, 12, .6f).SetUpdate(true);
     }
 
     private void CompleteTabTransitionState()
@@ -375,13 +522,12 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
             var pageView = Instantiate(grandpaDiaryPagePrefab, grandpaDiaryPagesRoot, false);
             pageView.name = $"DiaryPage_Runtime_{pageData.pageId}";
             pageView.SetPageId(pageData.pageId);
-            pageView.SetStickyNotePositionOverrides(grandpaDiaryStickyNotePositionOverrides);
             pageView.Hide();
             grandpaDiaryPageViews[index] = pageView;
         }
     }
 
-    private bool ShowGrandpaDiaryPageView(GrandpaDiaryPageData pageData, int pageIndex)
+    private void ShowGrandpaDiaryPageView(GrandpaDiaryPageData pageData, int pageIndex)
     {
         HideAllGrandpaDiaryPageViews();
 
@@ -389,11 +535,10 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
         if (pageView == null)
         {
             Debug.LogWarning($"[GrandpaDiary] Cannot find page view for page '{pageData?.pageId}' at index {pageIndex}.");
-            return false;
+            return;
         }
 
         pageView.Show(pageData);
-        return true;
     }
 
     private void TurnGrandpaDiaryPage(int pageIndex)
@@ -470,27 +615,6 @@ public sealed class PlayerPanelUIManager : MonoBehaviour
         foreach (var pageView in grandpaDiaryPageViews)
             if (pageView != null)
                 pageView.Hide();
-    }
-
-    private void ShowGrandpaDiaryFallbackText(GrandpaDiaryPageData pageData)
-    {
-        if (grandpaDiaryText == null) return;
-
-        if (pageData == null || pageData.textBlocks == null || pageData.textBlocks.Count == 0)
-        {
-            grandpaDiaryText.text = "";
-            return;
-        }
-
-        var content = "";
-        foreach (var block in pageData.textBlocks)
-        {
-            if (block == null || string.IsNullOrEmpty(block.content)) continue;
-            if (!string.IsNullOrEmpty(content)) content += "\n\n";
-            content += block.content;
-        }
-
-        grandpaDiaryText.text = content;
     }
 
     private void SetGrandpaDiaryPageButtons(bool canGoPrevious, bool canGoNext)

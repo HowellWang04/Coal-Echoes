@@ -25,7 +25,7 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
     [SerializeField] private int pageSize = 32;
 
     [Header("Thumbnail Settings")]
-    [SerializeField] private int thumbMaxSize = 256;
+    [SerializeField] private int thumbMaxSize = 512; // covers the 216-unit photo slot at 4K (canvas scale 2)
 
     private List<string> fileNames;
     private readonly List<GameObject> spawned = new();
@@ -71,6 +71,23 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
         uiAnimationScope = GetComponentInParent<UIAnimationScope>();
         EnsureInitialized();
         Refresh();
+        GameSaveManager.SavesCleared += HandleSavesCleared;
+    }
+
+    private void OnDestroy()
+    {
+        GameSaveManager.SavesCleared -= HandleSavesCleared;
+    }
+
+    // A new game starts with an empty album.
+    private void HandleSavesCleared()
+    {
+        foreach (var texture in thumbCache.Values) Destroy(texture);
+        thumbCache.Clear();
+        fileNames = new List<string>();
+        selectedForDeletion.Clear();
+        pageIndex = 0;
+        Refresh();
     }
 
     private void Start()
@@ -104,13 +121,21 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
         }
     }
 
-    public string AddPhotoFromTexture(Texture2D fullResCopy)
+    public bool HasPhoto(string fileName)
     {
         EnsureInitialized();
-        string fileName;
+        return fileNames.Contains(fileName);
+    }
+
+    // fileName is null for camera shots. Story photos pass a fixed name so they are added once;
+    // their texture must have Read/Write enabled.
+    public string AddPhotoFromTexture(Texture2D fullResCopy, string fileName = null)
+    {
+        EnsureInitialized();
+        if (fileName != null && fileNames.Contains(fileName)) return null;
         try
         {
-            fileName = CameraPhotoStorage.SavePhotoPng(fullResCopy);
+            fileName = CameraPhotoStorage.SavePhotoPng(fullResCopy, fileName);
             var updated = new List<string>(fileNames);
             updated.Insert(0, fileName);
             CameraPhotoStorage.SaveManifest(updated);
@@ -201,6 +226,9 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
                     item.SetDeleteMode(false);
                 }
             }
+
+            if (EchoPhotoStorage.Load(fileName).Count > 0)
+                go.GetComponent<EchoPhotoMark>().Show();
         }
 
         pageText.text = $"{pageIndex + 1} / {TotalPages}";
@@ -291,8 +319,26 @@ public class CameraPhotoAlbumUIManager : MonoBehaviour
         int th = Mathf.Max(1, Mathf.RoundToInt(h * scale));
 
         RenderTexture prev = RenderTexture.active;
+
+        // Halve in steps: each bilinear pass then averages 2x2 pixels. One big jump skips most pixels and looks jagged.
+        Texture current = src;
+        RenderTexture step = null;
+        int cw = w, ch = h;
+        while (cw / 2 >= tw && ch / 2 >= th)
+        {
+            cw /= 2;
+            ch /= 2;
+            RenderTexture next = RenderTexture.GetTemporary(cw, ch, 0);
+            next.filterMode = FilterMode.Bilinear;
+            Graphics.Blit(current, next);
+            if (step != null) RenderTexture.ReleaseTemporary(step);
+            step = next;
+            current = next;
+        }
+
         RenderTexture rt = RenderTexture.GetTemporary(tw, th, 0);
-        Graphics.Blit(src, rt);
+        Graphics.Blit(current, rt);
+        if (step != null) RenderTexture.ReleaseTemporary(step);
 
         RenderTexture.active = rt;
 

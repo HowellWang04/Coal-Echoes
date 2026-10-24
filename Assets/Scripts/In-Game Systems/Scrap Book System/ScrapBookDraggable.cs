@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -6,20 +7,24 @@ public class ScrapBookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler
 {
     private string photoFileName;
     private Texture2D photoThumb;
-    private GameObject photoElementPrefab;
     private ScrapBookDecoPreset decoPreset;
 
     private GameObject dragGhost;
+    private RectTransform ghostContent; // the element as it would be placed, checked against the page
+    private CanvasGroup ghostGroup;
+    private bool ghostFits;
     private RectTransform canvasRect;
     private Canvas rootCanvas;
     private ScrapBookCanvas scrapBookCanvas;
 
+    // A photo was dropped onto the ScrapBook page by the player.
+    public static event Action OnPhotoPlaced;
+
     // Setup for photo elements: thumb for ghost preview, fileName for loading full res on drop
-    public void SetupPhoto(string fileName, Texture2D thumb, GameObject prefab, ScrapBookCanvas canvas)
+    public void SetupPhoto(string fileName, Texture2D thumb, ScrapBookCanvas canvas)
     {
         photoFileName = fileName;
         photoThumb = thumb;
-        photoElementPrefab = prefab;
         decoPreset = null;
         scrapBookCanvas = canvas;
         CacheRefs();
@@ -31,7 +36,6 @@ public class ScrapBookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler
         decoPreset = preset;
         photoFileName = null;
         photoThumb = null;
-        photoElementPrefab = null;
         scrapBookCanvas = canvas;
         CacheRefs();
     }
@@ -55,63 +59,64 @@ public class ScrapBookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler
     public void OnBeginDrag(PointerEventData eventData)
     {
         CacheRefs();
-        if (rootCanvas == null) return;
+        if (rootCanvas == null || canvasRect == null) return;
 
-        dragGhost = new GameObject("DragGhost");
+        dragGhost = new GameObject("DragGhost", typeof(RectTransform));
         dragGhost.transform.SetParent(rootCanvas.transform, false);
 
-        var rt = dragGhost.AddComponent<RectTransform>();
+        var rt = (RectTransform)dragGhost.transform;
         rt.anchorMin = new Vector2(0.5f, 0.5f);
         rt.anchorMax = new Vector2(0.5f, 0.5f);
         rt.pivot = new Vector2(0.5f, 0.5f);
 
-        // Build ghost visual
+        // Build the ghost exactly as the element will be placed (an Echo photo with its note), at its placed on-screen size.
         if (photoThumb != null)
         {
-            rt.sizeDelta = (transform as RectTransform).rect.size;
+            ghostContent = (RectTransform)scrapBookCanvas.CreatePhotoVisual(photoThumb, photoFileName, dragGhost.transform).transform;
 
-            GameObject photoVisual = Instantiate(photoElementPrefab, dragGhost.transform);
-            var photoVisualRect = photoVisual.GetComponent<RectTransform>();
-            photoVisualRect.anchorMin = new Vector2(0.5f, 0.5f);
-            photoVisualRect.anchorMax = new Vector2(0.5f, 0.5f);
-            photoVisualRect.pivot = new Vector2(0.5f, 0.5f);
-            photoVisualRect.anchoredPosition = Vector2.zero;
-            ScrapBookPhotoVisual.Configure(photoVisual, photoThumb, rt.sizeDelta);
+            // Placed photos start at the top bar's on-screen width (see OnEndDrag)
+            float topBarWidth = ((RectTransform)transform).rect.width * transform.lossyScale.x;
+            ghostContent.localScale = Vector3.one * (topBarWidth / (ghostContent.rect.width * rt.lossyScale.x));
         }
         else if (decoPreset != null && decoPreset.icon != null)
         {
-            rt.sizeDelta = new Vector2(80, 80);
-            var img = dragGhost.AddComponent<Image>();
+            ghostContent = (RectTransform)new GameObject("Deco", typeof(RectTransform)).transform;
+            ghostContent.SetParent(dragGhost.transform, false);
+            ghostContent.sizeDelta = decoPreset.defaultSize;
+
+            var img = ghostContent.gameObject.AddComponent<Image>();
             img.sprite = decoPreset.icon;
-            img.preserveAspect = true;
+            if (decoPreset.decoType == DecoType.TextBox) img.type = Image.Type.Sliced;
+            else img.preserveAspect = true;
             img.raycastTarget = false;
+
+            // Decorations are placed at scale 1 on the page
+            ghostContent.localScale = Vector3.one * (canvasRect.lossyScale.x / rt.lossyScale.x);
         }
 
-        var cg = dragGhost.AddComponent<CanvasGroup>();
-        cg.alpha = 0.7f;
-        cg.blocksRaycasts = false;
+        ghostGroup = dragGhost.AddComponent<CanvasGroup>();
+        ghostGroup.blocksRaycasts = false;
 
-        UpdateGhostPosition(eventData);
+        UpdateGhost(eventData);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        UpdateGhostPosition(eventData);
+        UpdateGhost(eventData);
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (dragGhost != null)
-        {
-            Destroy(dragGhost);
-            dragGhost = null;
-        }
+        if (dragGhost == null) return;
 
-        if (scrapBookCanvas == null || canvasRect == null) return;
+        UpdateGhost(eventData);
+        bool fits = ghostFits;
+        Destroy(dragGhost);
+        dragGhost = null;
+        ghostContent = null;
 
-        // Check if drop position is inside ScrapBookCanvas
-        if (!RectTransformUtility.RectangleContainsScreenPoint(canvasRect, eventData.position, eventData.pressEventCamera))
-            return;
+        // Any part outside the page (an Echo photo's note included): nothing is placed, the element stays in the top bar.
+        if (!fits) return;
 
         // Convert screen position to local position inside ScrapBookCanvas
         RectTransformUtility.ScreenPointToLocalPointInRectangle(
@@ -122,14 +127,24 @@ public class ScrapBookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler
         {
             Texture2D fullTex = CameraPhotoStorage.LoadTexture(photoFileName);
             if (fullTex != null)
-                scrapBookCanvas.AddPhotoElement(fullTex, localPos, photoFileName);
+            {
+                GameObject placed = scrapBookCanvas.AddPhotoElement(fullTex, localPos, photoFileName);
+
+                // Start at the same on-screen size it had in the top bar (saved as the element's scale)
+                float topBarWidth = ((RectTransform)transform).rect.width * transform.lossyScale.x;
+                float placedWidth = ((RectTransform)placed.transform).rect.width * placed.transform.lossyScale.x;
+                placed.GetComponent<ScrapBookElement>().SetScale(topBarWidth / placedWidth);
+
+                OnPhotoPlaced?.Invoke();
+            }
             return;
         }
         if (decoPreset != null)
             scrapBookCanvas.AddDecoElement(decoPreset, localPos);
     }
 
-    private void UpdateGhostPosition(PointerEventData eventData)
+    // Follow the pointer, and fade the ghost further while it would not fit on the page.
+    private void UpdateGhost(PointerEventData eventData)
     {
         if (dragGhost == null || rootCanvas == null) return;
 
@@ -137,5 +152,8 @@ public class ScrapBookDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler
             rootCanvas.transform as RectTransform, eventData.position, eventData.pressEventCamera, out Vector2 pos);
 
         dragGhost.GetComponent<RectTransform>().anchoredPosition = pos;
+
+        ghostFits = ghostContent != null && ScrapBookElement.FitsInside(canvasRect, ghostContent);
+        ghostGroup.alpha = ghostFits ? 0.7f : 0.35f;
     }
 }
