@@ -13,32 +13,32 @@ Open with Unity 6000.4.6f1. The main scene is `Assets/Scenes/Main Game Scene.uni
 ├── Assets/
 │   ├── Scenes/                    Main scene
 │   ├── Scripts/
+│   │   ├── MainMenu/              Main menu, newspaper photo transition, opening sequence
 │   │   ├── In-Game Systems/       Camera and photos, movement, input, inspection, echoes, scrapbook
 │   │   ├── Player Panel/          Player panel: album, scrapbook, grandpa's diary, backpack
 │   │   ├── UI Animation/          DOTween button, tab and panel motion
 │   │   ├── Environment/           Cableway movement, sandstorm, heat haze
-│   │   └── Terrain/               MapMagic terrain seam fix
+│   │   └── Terrain/               MapMagic terrain height source and seam fix
 │   ├── Narrative/                 Grandpa's diary JSON (read directly by the main scene)
 │   ├── Art Resources/             Models, materials, UI, third-party packs
 │   ├── Prefabs/                   UI prefabs and scrapbook decoration presets
-│   ├── Settings/                  HDRP volumes, heat haze material
+│   ├── Settings/                  HDRP volumes, heat haze and sandstorm assets
 │   ├── TerrainData/               Terrain data (Git LFS)
-│   ├── SmokePortalTest/           Sandstorm assets and test scene
 │   └── Plugins/                   DOTween, MapMagic, TextMesh Pro
 ├── ArtSource/                     Art source files, mainly Blender projects (.blend) and Python modeling scripts, plus export backups and notes; not imported by Unity
 ├── TerrainReferences/             Real-world heightmaps and import notes
-├── Docs/                          Project docs (Chinese)
-├── AGENTS.md                      Working rules for AI assistants
+├── Docs/                          Design doc, specs, tech stack, dev log (Chinese)
+├── AGENTS.md                      Working rules for AI assistants (read by Codex)
+├── CLAUDE.md                      Imports AGENTS.md for Claude Code
 ├── CONTEXT.md                     Project glossary
 └── README.zh-CN.md                Chinese README
 ```
 
 ## Docs (Chinese)
 
-- [Game design](Docs/game-design.md): gameplay, echo system, levels and items
-- [Opening and level one spec](Docs/opening-level-one-spec.md): opening sequence, diary pickup, level progress and exploration records
-- [Story](Docs/story-flow.md): narrative layers and finalized text
-- [Tech stack](Docs/tech-stack.md)
-- [Art assets](Docs/art-assets.md)
-- [Todo](Docs/todolist.md)
+- [Design doc](Docs/design.md): levels, controls, systems, level flow and missing art
+- [Opening and level one spec](Docs/Specs/Levels/opening-level-one-spec.md): implementation checklist for the opening and level one against the design document
+- [Echo targeting spec](Docs/Specs/Systems/echo-targeting-spec.md): echo viewfinder prompts and detection rules
+- [Grandpa diary content](Docs/json-grandpa-diary.md): editable diary text, synced to the JSON
+- [Tech stack](Docs/tech-stack.en.md)
 - [Dev log](Docs/development-log.md)
