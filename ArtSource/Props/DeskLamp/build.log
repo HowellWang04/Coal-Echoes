@@ -1,0 +1,32 @@
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\DeskLamp\Scripts\build_desklamp.py:68: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\DeskLamp\Scripts\build_desklamp.py:333: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  final.use_nodes = True
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+
+FBX export starting... 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Coal Echoes\\ArtSource\\Props\\DeskLamp\\Exports\\DeskLamp.fbx'
+export finished in 0.0179 sec.
+INFO Draco is available, use library at D:\Application\Steam\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Application\Steam\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+11:35:58 | INFO: Starting glTF 2.0 export
+11:35:58 | INFO: Extracting primitive: DeskLamp_Mesh
+11:35:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:35:58 | INFO: Primitives created: 1
+11:35:58 | INFO: Finished glTF 2.0 export in 0.07251214981079102 s
+
+ASSET_SAVED {"asset": "DeskLamp", "blender_version": "5.2.2 LTS", "texture_size": 1024, "dimensions_xyz_m": [0.402, 0.5697, 0.3443], "min_z_m": -0.001, "max_z_m": 0.3433, "triangles": 4848, "zero_area_faces": 0, "uv_layers": ["UVMap"], "unity_verified": false, "method": "Independent background Blender process, procedural surfaces baked in Cycles"}
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\DeskLamp\Scripts\build_desklamp.py:378: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  desk_mat = bpy.data.materials.new('Studio_DustyDesk'); desk_mat.use_nodes = True
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\DeskLamp\Scripts\build_desklamp.py:382: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world = bpy.data.worlds.new('SoftStudio'); world.use_nodes = True; scene.world = world
+00:07.250  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\DeskLamp\Previews\DeskLamp_Overall.png'
+00:10.094  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\DeskLamp\Previews\DeskLamp_Side.png'
+00:13.234  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\DeskLamp\Previews\DeskLamp_ShadeInside.png'
+Info: Saved as "DeskLamp.blend"
+BUILD_COMPLETE
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

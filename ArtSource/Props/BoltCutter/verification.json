@@ -1,0 +1,178 @@
+{
+  "asset": "BoltCutter",
+  "blender_version": "5.2.2 LTS",
+  "source": {
+    "mesh_count": 13,
+    "dimensions_xyz_m": [
+      0.7677720785140991,
+      0.11893871426582336,
+      0.03308899700641632
+    ],
+    "min_z_m": 0.0,
+    "objects": [
+      {
+        "name": "Jaw_Upper",
+        "triangles": 640,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Jaw_Lower",
+        "triangles": 640,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "HandleHead_Upper",
+        "triangles": 692,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "HandleHead_Lower",
+        "triangles": 692,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "HeadPlate_Top",
+        "triangles": 864,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "HeadPlate_Bottom",
+        "triangles": 864,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Bolts",
+        "triangles": 1020,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "HandleTube_Upper",
+        "triangles": 2400,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Ferrule_Upper",
+        "triangles": 480,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Grip_Upper",
+        "triangles": 9984,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "HandleTube_Lower",
+        "triangles": 2400,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Ferrule_Lower",
+        "triangles": 480,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      },
+      {
+        "name": "Grip_Lower",
+        "triangles": 9984,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "uv_layers": 1
+      }
+    ],
+    "triangles": 31140
+  },
+  "settle_angle_degrees": 0.2969971290198777,
+  "jaw_opening_capacity_note": "Sized as a 30 inch cutter for the 10 mm gate chain wire",
+  "unity_verified": false,
+  "method": "Independent background Blender process",
+  "packed_source_images": 12,
+  "all_source_images_packed": true,
+  "fbx_roundtrip": {
+    "mesh_count": 13,
+    "triangles": 31140,
+    "dimensions_xyz_m": [
+      0.7677720785140991,
+      0.11893871799111366,
+      0.03308901414578447
+    ],
+    "all_meshes_have_uvs": true,
+    "triangles_match": true,
+    "dimensions_match": true,
+    "mesh_count_matches": true,
+    "materials": [
+      "Forged_BlackSteel.001",
+      "Grip_DriedRubber.001",
+      "Handle_FadedRedPaint.001"
+    ],
+    "missing_texture_nodes": []
+  },
+  "glb_roundtrip": {
+    "mesh_count": 13,
+    "triangles": 31140,
+    "dimensions_xyz_m": [
+      0.7677720785140991,
+      0.11893871426582336,
+      0.03308899700641632
+    ],
+    "all_meshes_have_uvs": true,
+    "triangles_match": true,
+    "dimensions_match": true,
+    "mesh_count_matches": true,
+    "materials": [
+      "Forged_BlackSteel.002",
+      "Grip_DriedRubber.002",
+      "Handle_FadedRedPaint.002"
+    ],
+    "missing_texture_nodes": []
+  },
+  "glb_extensions": [],
+  "glb_images_embedded": true,
+  "delivery_sha256": {
+    "Blender\\BoltCutter.blend": "a723e038767a9d07722caf511268bb9fe142335e1d6b0baa522e4a004aafe5ae",
+    "Exports\\BoltCutter.fbx": "6051478cd5e0f6e0db49dfa183975ecb6d3237e6824c4bd86ea526c89877e188",
+    "Exports\\BoltCutter.glb": "638a87956331892f3b0ed537dbf591ff6b758353253b2cefcd9a88ee01d4f481",
+    "Textures\\Forged_BaseColor.png": "ab31f83b34b2fdd1cf2d1ae622d658b315ce54f4afc390716d29ec039fbb6b27",
+    "Textures\\Forged_HDRP_Mask.png": "4c1a42c80b77968de926c8cda30a4e70614159869698f6f31c49acafe9a63c4b",
+    "Textures\\Forged_Metallic.png": "8596c8487498d72a18ad357a5de59af209361e55d46685f50c4c14cbe3bd97aa",
+    "Textures\\Forged_Normal.png": "d653a155ae6a4ed5da0e0b4c0b7b8b1f716032ee15bed681d56b7e69ab3dcb23",
+    "Textures\\Forged_Roughness.png": "c084b8a51dd1a5f0f4d38d5d463c91138d42848bab22a27a526f990b85a78bf8",
+    "Textures\\Paint_BaseColor.png": "3d842aaa57d6e56a01140e3ab03e57a44053d7e69df069f3382c10316ec90c51",
+    "Textures\\Paint_HDRP_Mask.png": "1cf6e9aee2c2c782d2dff4c7c851795abfa66c801cb2c885fcfdb54ecfda30c3",
+    "Textures\\Paint_Metallic.png": "cc1099206d2d19cdf4afa165e88c96e935900d9de67c83496d7fa514cbc49dec",
+    "Textures\\Paint_Normal.png": "71a9b0523cbe27082f2de5af390bd9e2f0c6b3518272dab5669adfb976e7bc6a",
+    "Textures\\Paint_Roughness.png": "e30ce4b66056ff14df5f17e0f345c520113848f59d0b5270989cb2dc15056f8b",
+    "Textures\\Rubber_BaseColor.png": "99fde32f21da5928d6ded7830d86aa578783ed7fde05f098b0353a5b0448e179",
+    "Textures\\Rubber_HDRP_Mask.png": "62b80d895d6910edea39080c537aedf32b1f4ad473746e5dc9401ee5d4c78162",
+    "Textures\\Rubber_Metallic.png": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704",
+    "Textures\\Rubber_Normal.png": "4f37df73a3c6f90de2cbd1ca3460e1dcc83447ac239c0a661e01fb1041f295de",
+    "Textures\\Rubber_Roughness.png": "a8dbfe351638f063450887b7d8c4e214b94f32142be9bf65cc75ba3c9b058b2f",
+    "Previews\\BoltCutter_GLB_Roundtrip.png": "3d160ffe23d8695159e542740562205b972f1cbc88c7cafd8e2af086f22fd700",
+    "Previews\\BoltCutter_Icon.png": "6d83cd26fc0a917b088f8fe7fbf28de10ab66d317aa42a0f707d5d680f35be58",
+    "Previews\\BoltCutter_JawDetail.png": "c8f7ca5677b6b250e05da42e92a0431151f78878e92ac68c0c5566a7784a594f",
+    "Previews\\BoltCutter_Overall.png": "bd1f44bd9b0c9125806a9a60010b74b451d31020cc1e707e169afb56af6c78e6",
+    "Previews\\BoltCutter_Top.png": "4220c2010f6cd3fe1abbf3dc09f3ab9c8d3dd7d4721eed584c1ebd30e880c67a"
+  }
+}

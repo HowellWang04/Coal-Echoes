@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9275f23e48a69d246ac4bf41e5c96733, type: 3}
+  m_Name: LockPick_BackpackItem
+  m_EditorClassIdentifier: Assembly-CSharp::BackpackItemDefinition
+  itemId: lock_pick
+  displayName: Lock Pick
+  usage: Grandpa's old lock pick. It can still open a simple door lock.
+  icon: {fileID: 21300000, guid: d610332aa27c96349a5d0e13cd2f1dcd, type: 3}
+  inspectPrefab: {fileID: 3931998125616948927, guid: fac5b691e47706049832bbbab478cc8c,
+    type: 3}
+  inspectDistance: 0.25
+  inspectScale: 1
+  inspectRotationOffset: {x: 0, y: 0, z: 0}

@@ -1,0 +1,46 @@
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\GuardhouseFurniture\Scripts\build_furniture.py:69: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\GuardhouseFurniture\Scripts\build_furniture.py:394: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  final.use_nodes = True
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+
+FBX export starting... 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Coal Echoes\\ArtSource\\Props\\GuardhouseFurniture\\Exports\\GuardDesk.fbx'
+export finished in 0.0149 sec.
+INFO Draco is available, use library at D:\Application\Steam\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Application\Steam\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+11:08:03 | INFO: Starting glTF 2.0 export
+11:08:03 | INFO: Extracting primitive: GuardDesk_Mesh
+11:08:03 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:08:03 | INFO: Primitives created: 1
+11:08:03 | INFO: Finished glTF 2.0 export in 0.3231697082519531 s
+
+
+FBX export starting... 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Coal Echoes\\ArtSource\\Props\\GuardhouseFurniture\\Exports\\GuardChair.fbx'
+export finished in 0.0124 sec.
+11:08:03 | INFO: Starting glTF 2.0 export
+11:08:03 | INFO: Extracting primitive: GuardChair_Mesh
+11:08:03 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:08:03 | INFO: Primitives created: 1
+11:08:03 | INFO: Finished glTF 2.0 export in 0.2125706672668457 s
+
+ASSET_SAVED {"assets": [{"name": "GuardDesk", "dimensions_xyz_m": [1.2, 0.6195, 0.78], "min_z_m": 0.0, "triangles": 3916, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": ["UVMap"]}, {"name": "GuardChair", "dimensions_xyz_m": [0.42, 0.4596, 0.9], "min_z_m": 0.0, "triangles": 1732, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": ["UVMap"]}], "blender_version": "5.2.2 LTS", "texture_size": 2048, "method": "Independent background Blender process, procedural paint baked in Cycles", "unity_verified": false}
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\GuardhouseFurniture\Scripts\build_furniture.py:451: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  floor_mat = bpy.data.materials.new('Studio_Concrete'); floor_mat.use_nodes = True
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\GuardhouseFurniture\Scripts\build_furniture.py:457: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world = bpy.data.worlds.new('SoftStudio'); world.use_nodes = True; scene.world = world
+00:19.328  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\GuardhouseFurniture\Previews\GuardhouseFurniture_Overall.png'
+00:23.141  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\GuardhouseFurniture\Previews\GuardhouseFurniture_DeskFront.png'
+00:26.953  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\GuardhouseFurniture\Previews\GuardhouseFurniture_Chair.png'
+Info: Saved as "GuardhouseFurniture.blend"
+Info: Saved as "GuardhouseFurniture.blend"
+BUILD_COMPLETE
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

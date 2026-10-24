@@ -1,0 +1,24 @@
+00:00.375  blend            | Read blend: "D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\BoltCutter\Blender\BoltCutter.blend"
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\BoltCutter\Scripts\verify_boltcutter.py:43: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if mat and mat.use_nodes:
+FBX version: 7400
+18:56:53 | INFO: Data are loaded, start creating Blender stuff
+18:56:53 | INFO: Blender create Mesh node Bolts_Mesh
+18:56:53 | INFO: Blender create Mesh node Ferrule_Lower_Mesh
+18:56:53 | INFO: Blender create Mesh node Ferrule_Upper_Mesh
+18:56:53 | INFO: Blender create Mesh node Grip_Lower_Mesh
+18:56:53 | INFO: Blender create Mesh node Grip_Upper_Mesh
+18:56:53 | INFO: Blender create Mesh node HandleHead_Lower_Mesh
+18:56:53 | INFO: Blender create Mesh node HandleHead_Upper_Mesh
+18:56:54 | INFO: Blender create Mesh node HandleTube_Lower_Mesh
+18:56:54 | INFO: Blender create Mesh node HandleTube_Upper_Mesh
+18:56:54 | INFO: Blender create Mesh node HeadPlate_Bottom_Mesh
+18:56:54 | INFO: Blender create Mesh node HeadPlate_Top_Mesh
+18:56:54 | INFO: Blender create Mesh node Jaw_Lower_Mesh
+18:56:54 | INFO: Blender create Mesh node Jaw_Upper_Mesh
+18:56:54 | INFO: glTF import finished in 0.05s
+00:04.766  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\BoltCutter\Previews\BoltCutter_GLB_Roundtrip.png'
+ROUNDTRIP_CHECKS_PASSED {"fbx_roundtrip": {"mesh_count": 13, "triangles": 31140, "dimensions_xyz_m": [0.7677720785140991, 0.11893871799111366, 0.03308901414578447], "all_meshes_have_uvs": true, "triangles_match": true, "dimensions_match": true, "mesh_count_matches": true, "materials": ["Forged_BlackSteel.001", "Grip_DriedRubber.001", "Handle_FadedRedPaint.001"], "missing_texture_nodes": []}, "glb_roundtrip": {"mesh_count": 13, "triangles": 31140, "dimensions_xyz_m": [0.7677720785140991, 0.11893871426582336, 0.03308899700641632], "all_meshes_have_uvs": true, "triangles_match": true, "dimensions_match": true, "mesh_count_matches": true, "materials": ["Forged_BlackSteel.002", "Grip_DriedRubber.002", "Handle_FadedRedPaint.002"], "missing_texture_nodes": []}, "glb_extensions": [], "all_source_images_packed": true}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

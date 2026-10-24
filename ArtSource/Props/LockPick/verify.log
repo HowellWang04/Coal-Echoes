@@ -1,0 +1,15 @@
+00:00.360  blend            | Read blend: "D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\LockPick\Blender\LockPick.blend"
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\LockPick\Scripts\verify_lockpick.py:43: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if mat and mat.use_nodes:
+FBX version: 7400
+18:50:45 | INFO: Data are loaded, start creating Blender stuff
+18:50:45 | INFO: Blender create Mesh node GripTape_Mesh
+18:50:45 | INFO: Blender create Mesh node HookPick_Mesh
+18:50:45 | INFO: Blender create Mesh node RubberBand_Mesh
+18:50:45 | INFO: Blender create Mesh node TensionWrench_Mesh
+18:50:45 | INFO: glTF import finished in 0.01s
+00:03.844  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\LockPick\Previews\LockPick_GLB_Roundtrip.png'
+ROUNDTRIP_CHECKS_PASSED {"fbx_roundtrip": {"mesh_count": 4, "triangles": 6768, "dimensions_xyz_m": [0.11475059390068054, 0.015547744929790497, 0.004248299971148728], "all_meshes_have_uvs": true, "triangles_match": true, "dimensions_match": true, "mesh_count_matches": true, "materials": ["Grip_FrictionTape.001", "RubberBand_Aged.001", "Steel_WornLockPick.001"], "missing_texture_nodes": []}, "glb_roundtrip": {"mesh_count": 4, "triangles": 6768, "dimensions_xyz_m": [0.11475059390068054, 0.015547744929790497, 0.004248298238962889], "all_meshes_have_uvs": true, "triangles_match": true, "dimensions_match": true, "mesh_count_matches": true, "materials": ["Grip_FrictionTape.002", "RubberBand_Aged.002", "Steel_WornLockPick.002"], "missing_texture_nodes": []}, "glb_extensions": [], "all_source_images_packed": true}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

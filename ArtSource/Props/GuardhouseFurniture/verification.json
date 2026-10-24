@@ -1,0 +1,38 @@
+{
+  "assets": [
+    {
+      "name": "GuardDesk",
+      "dimensions_xyz_m": [
+        1.2,
+        0.6195,
+        0.78
+      ],
+      "min_z_m": 0.0,
+      "triangles": 3916,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ]
+    },
+    {
+      "name": "GuardChair",
+      "dimensions_xyz_m": [
+        0.42,
+        0.4596,
+        0.9
+      ],
+      "min_z_m": 0.0,
+      "triangles": 1732,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ]
+    }
+  ],
+  "blender_version": "5.2.2 LTS",
+  "texture_size": 2048,
+  "method": "Independent background Blender process, procedural paint baked in Cycles",
+  "unity_verified": false
+}

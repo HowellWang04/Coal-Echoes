@@ -1,0 +1,31 @@
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\LockPick\Scripts\build_lockpick.py:62: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.use_nodes=True
+D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\LockPick\Scripts\build_lockpick.py:327: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('SoftStudio');world.use_nodes=True;scene.world=world
+
+FBX export starting... 'D:\\Development\\Game Dev\\Project\\Grad App Project\\Coal Echoes\\ArtSource\\Props\\LockPick\\Exports\\LockPick.fbx'
+export finished in 0.0193 sec.
+INFO Draco is available, use library at D:\Application\Steam\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Application\Steam\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+18:50:19 | INFO: Starting glTF 2.0 export
+18:50:19 | INFO: Extracting primitive: GripTape_Mesh
+18:50:19 | INFO: Primitives created: 1
+18:50:19 | INFO: Extracting primitive: HookPick_Mesh
+18:50:19 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+18:50:19 | INFO: Primitives created: 1
+18:50:19 | INFO: Extracting primitive: RubberBand_Mesh
+18:50:19 | INFO: Primitives created: 1
+18:50:19 | INFO: Extracting primitive: TensionWrench_Mesh
+18:50:19 | INFO: Primitives created: 1
+18:50:19 | INFO: Finished glTF 2.0 export in 0.19057679176330566 s
+
+Info: Saved as "LockPick.blend"
+ASSET_SAVED {"asset": "LockPick", "blender_version": "5.2.2 LTS", "source": {"mesh_count": 4, "dimensions_xyz_m": [0.11475059390068054, 0.015547744929790497, 0.004248298238962889], "min_z_m": 0.0, "objects": [{"name": "HookPick", "triangles": 964, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "TensionWrench", "triangles": 500, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "GripTape", "triangles": 4720, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}, {"name": "RubberBand", "triangles": 584, "nonmanifold_edges": 0, "zero_area_faces": 0, "uv_layers": 1}], "triangles": 6768}, "settle_angle_degrees": 0.9181212152738516, "unity_verified": false, "method": "Independent background Blender process"}
+00:04.891  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\LockPick\Previews\LockPick_Overall.png'
+00:08.172  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\LockPick\Previews\LockPick_Top.png'
+00:11.344  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\LockPick\Previews\LockPick_HookDetail.png'
+00:12.578  render           | Saved: 'D:\Development\Game Dev\Project\Grad App Project\Coal Echoes\ArtSource\Props\LockPick\Previews\LockPick_Icon.png'
+BUILD_COMPLETE
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit
