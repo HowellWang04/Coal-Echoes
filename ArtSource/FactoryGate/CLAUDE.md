@@ -18,8 +18,9 @@
 - Unity 资源在 `Assets/Art Resources/Environment/Gate Area/FactoryGate_Rebuilt/`：GLB、FBX 和 `Textures/`。场景实例 `In-Scene Objects/工厂大门/FactoryGate` 直接引用 GLB，缩放 1，用 GLB 导入材质，8 个砖网格带顶点颜色。同目录的旧 `FactoryGate.glb` 不在重建输出范围内。
 - 门卫室是同级的 `Guard Post/Guardhouse_Rebuilt`，门卫室旁短墙和围墙模块见 `../FactoryBoundary/`。
 - 铁链线径 10 毫米，第一关用 `../Props/BoltCutter/` 剪断。
-- 场景里两扇门扇各挂一个 `SwingDoor`，`Chain_And_Padlock` 挂 BoxCollider 和 `ItemUsePoint`（要求 `bolt_cutter`，F 提示位置是子物体 `CutPromptAnchor`），T8 出现前由 `Level1HintFlowManager` 锁着，不出提示。用后两扇门向厂内转开、勾 T8、播 M7，最后隐藏锁链挂锁，事件接在 Inspector 里。saveId 是 `gate_chain`，读档时 onRestored 让两扇门直接停在开着的位置并隐藏锁链挂锁。
-- `FactoryGate` 根上挂 `EchoTrigger`（`group_photo_retake`），是重拍合照的 A 类回响，站位点是门前的 `Group Photo Retake View`（脚下是泛光圆圈 `Group Photo Retake Circle`），拍成勾 T4、播 M4；场景里保存为禁用，由 `Level1HintFlowManager` 在 T4 打开。合照制作见 `../Props/GroupPhoto/`。
+- 场景里两扇门扇各挂一个 `SwingDoor`，`Chain_And_Padlock` 挂 BoxCollider 和 `ItemUsePoint`（要求 `bolt_cutter`，F 提示位置是子物体 `CutPromptAnchor`），T1.9 出现前由 `Level1HintFlowManager` 锁着，不出提示。用后两扇门向厂内转开、勾 T1.9、播 M1.8，最后隐藏锁链挂锁，事件接在 Inspector 里。saveId 是 `gate_chain`，读档时 onRestored 让两扇门直接停在开着的位置并隐藏锁链挂锁；它也是第一关完成的记录，`Level1HintFlowManager.LevelComplete` 按它判断，改 saveId 要同步代码里的 `GateChainSaveId`。
+- `FactoryGate` 根上挂 `EchoTrigger`（`group_photo_retake`），是重拍合照的 A 类回响，站位点是门前的 `Group Photo Retake View`（脚下是泛光圆圈 `Group Photo Retake Circle`），拍成勾 T1.5、播 M1.5；场景里保存为禁用，由 `Level1HintFlowManager` 在 T1.5 打开。合照制作见 `../Props/GroupPhoto/`。
+- `FactoryGate` 的子物体 `Level 2 Entry Zone` 是第二关的进门判定，一个勾了 Is Trigger、没有渲染器的 BoxCollider，在厂内一侧横跨大门；`Level2HintFlowManager` 每帧看玩家在不在盒内，第一关完成后走进去就开始第二关。
 
 ## 注意
 

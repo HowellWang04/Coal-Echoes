@@ -14,7 +14,7 @@
 ## 与其他部分的关系
 
 - 主路是 `In-Scene Objects/工厂道路向内` 和 `工厂道路向外` 两条 8.5 米车道，中心相距 6.25 米，沿同一条中线左右偏移；厂门到两栋砖房之间的控制点保留，以西换新控制点。
-- 支路在 `In-Scene Objects/工厂支路` 下五条，宽 5.5 米，从主路中线起步，在门前两三米处渐隐：`支路 至 ConcreteHouse_Pack_2_C_9`（西南厂房北面的门）、`至 ConcreteHouse_Pack_2_C_0`（南面厂房门前水泥坪）、`至 ConcreteHouse_Pack_1_C_2`（北面小厂房南面的门）、`至 BrickHouse_1_C`（北面砖房南墙下）、`至料仓`（西端料仓群和西端厂房北侧）。
+- 改线的支路在 `In-Scene Objects/工厂支路` 下五条（同组另两条通索道站的见 `../StationRoad/`），宽 5.5 米，从主路中线起步，在门前两三米处渐隐：`支路 至 ConcreteHouse_Pack_2_C_9`（西南厂房北面的门）、`至 ConcreteHouse_Pack_2_C_0`（南面厂房门前水泥坪）、`至 ConcreteHouse_Pack_1_C_2`（北面小厂房南面的门）、`至 BrickHouse_1_C`（北面砖房南墙下）、`至料仓`（西端料仓群和西端厂房北侧）。
 - 支路材质 `Assets/Art Resources/Environment/FactoryRoads/DirtPath05/DirtPathSpline.mat`，和主路同一个 shader，贴图是 G87 Path Dirt 05，比主路略深偏棕、没有车辙；Render Queue 比主路低，交叉处主路在上。
 - `Assets/Scripts/Environment/FactoryDirtRoadSpline.cs` 的 `endFade` 是首尾渐隐长度，主路 7 米、支路 4 米。
 - 同次移动的对象：`In-Scene Objects/环路内枯树` 下 7 棵枯树移到路边，路灯 `SM_StreetLight13`、`15`、`16` 移到主路中线上，`17`、`20`、`22` 移到支路尽头旁，路牌 `SM_StreetSign21`、`22` 改到新路边并转向。

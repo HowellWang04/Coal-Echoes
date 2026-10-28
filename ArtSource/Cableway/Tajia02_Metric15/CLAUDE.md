@@ -26,7 +26,7 @@
 ## 与其他部分的关系
 
 - Unity 资源在 `Assets/Art Resources/Environment/Cableway/CablewayTower_Metric15/`，预制体 `CablewayTower_Metric15`、`CablewayEntryTower`、`CablewayReturnTerminal`。
-- 主场景 `In-Scene Objects/索道群/塔架/CablewayTower_01` 是进站支架，`_02` 至 `_10` 是标准塔，实例下各有 `LegExtensions` 和 `Piers` 子对象。原 11 号塔已换成山顶终点站，见 `../SummitStation/`。
+- 主场景 `In-Scene Objects/索道群/塔架/CablewayTower_01` 是进站支架，`_02` 至 `_08` 是标准塔，实例下各有 `LegExtensions` 和 `Piers` 子对象。原 9 至 11 号塔已拆，山顶终点站在原 9 号塔旁，见 `../SummitStation/`。
 - 山脚站内设备在 `索道群/站房/CablewayFoothillStation` 下，见 `../FoothillStationPlacement/`。
 - 缆线网格是 `Assets/TerrainData/SheepRangeDEM/Cable_0.asset` 和 `Cable_1.asset`，经两站回转轮连成一圈，垂度约为跨距的 2.2%。吊斗沿缆线运动见 `../Movement/`，塔顶轮组方向的修正见 `../SheaveAlignment/`。
 - 墩顶高度取墩中心地面以上 0.4 米与墩内最高点以上 0.05 米中较高者。
@@ -36,5 +36,5 @@
 - 线距由 `CROSSHEAD_HALF` 决定，现在是 2 米即线距 4 米，站房、缆线和终点站都按这个线距做，改它要连带改。
 - 塔移动位置后要重新计算 `leg_extensions.json`，再重跑第 5 步。
 - FBX 导到 Unity 后，Blender 坐标 (x, y, z) 对应 Unity 本地坐标 (-x, z, -y)。
-- 山脚站棚所在地面有坡，局部埋入地面，待整平。
+- 山脚站棚所在地面有坡，局部埋入地面，不整平；山脚站的回转站比建模基准低 1.5 米，见 `../FoothillLowering/`。
 - 装卸煤还没做，Play Mode 没有验证过。

@@ -12,7 +12,7 @@
 - `build-road-sample.cs`、`refine-road-sample.cs`、`render-road-sample.cs`、`road48m-*`：48 米柏油路样段的制作和渲染；`build-dirt-sample.cs`、`render-dirt-sample.cs`、`dirt48m-*`：48 米土路样段。
 - `place-gate-road.cs`、`gate-road-*`：厂门连接路的摆放和检查。`widen-gate.cs`、`gate-wide-*`、`apply-entrance-wall.cs`、`crop-entrance-wall.py`：拓宽门洞并裁短另一侧接墙。`align-gate-approach.cs`、`check-gate-alignment.cs`、`clear-approach-shoulders.cs`、`gate-aligned-*`：连接路线形和门洞对齐。`grade-widened-approach.cs`、`smooth-gate-road-bump.cs`、`smooth-gate-road-crest.cs`：连接路的局部路基整平。
 - `spline-survey.png`、`unity-preview.png`：早期样条和预览截图。
-- `Highway/`：厂外公路和连接路的说明。`MainRoadReroute/`：厂区西端主路改线和五条支路。各见其 CLAUDE.md。
+- `Highway/`：厂外公路和连接路的说明。`MainRoadReroute/`：厂区西端主路改线和五条支路。`StationRoad/`：主路西端到索道山脚站两座站棚的土路和上坡路基整平。各见其 CLAUDE.md。
 
 ## 与其他部分的关系
 

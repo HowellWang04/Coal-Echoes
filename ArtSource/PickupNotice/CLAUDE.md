@@ -16,7 +16,7 @@
 
 - `PickupIcon_Hand.png` 复制到 `Assets/Art Resources/UI/Pickup Notice/`，导入为 Single Sprite 并开了 mipmap（游戏里只显示 30 像素左右，不开会锯齿）；改了图要重新运行脚本并再复制一次。
 - 场景对象是 `In-game UI Root/PickupNoticeUIRoot`，排在 PlayerPanelUIRoot 前面，面板打开时被盖住。控制脚本 `Assets/Scripts/In-Game Systems/Pickup Notice System/PickupNoticeUI.cs`，行模板是 `Rows/RowTemplate`（暗带 `Band`、`Icon`、`Label`），运行时复制出每一行。
-- 文字材质 `Assets/Art Resources/UI/Fonts/Imprima 400 SDF - Pickup Underlay.mat` 是煤灰黑柔影，参数照独白的 Underlay 材质；物品查看界面、手持相机按键提示和 F 交互提示的文字也用它，改参数会一起变；暗带复用 `Assets/Art Resources/UI/Inner Monologue/MonologueBand.png`，染成煤灰黑。
+- 文字材质 `Assets/Art Resources/UI/Fonts/Imprima 400 SDF - Pickup Underlay.mat` 是煤灰黑柔影，参数照独白的 Underlay 材质；物品查看界面、手持相机按键提示、F 交互提示和中下方使用提示的文字也用它，改参数会一起变；暗带复用 `Assets/Art Resources/UI/Inner Monologue/MonologueBand.png`，染成煤灰黑。
 - 背包物品经 `ItemBackpackManager.OnItemAdded` 出提示，摩托车的日记和合照由 `GrandpaDiaryPickup` 调 `PickupNoticeUI.Show`。行为要求见 `Docs/Specs/Levels/opening-level-one-spec.md` 的“右下角拾取提示”一节，文字汇总在 `Docs/game-text.md`。
 
 ## 注意

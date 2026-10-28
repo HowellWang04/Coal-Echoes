@@ -20,7 +20,7 @@
 ## 与其他部分的关系
 
 - Unity 资源在 `Assets/Art Resources/Environment/Cableway/CablewayTower_Rebuilt/`：`CablewayTower_v01.fbx`、`CoalBucket_v01.fbx`、`CablewayTower_Rebuilt.prefab`、`Materials/CablewayTower.mat` 和 `CoalBucket.mat`，颜色贴图开 sRGB，法线和遮罩关 sRGB。
-- 主场景 `In-Scene Objects/索道群/塔架/CablewayTower_01` 至 `_10` 现在都是 `../Tajia02_Metric15/` 的预制体，不引用这个预制体。
+- 主场景 `In-Scene Objects/索道群/塔架/CablewayTower_01` 至 `_08` 现在都是 `../Tajia02_Metric15/` 的预制体，不引用这个预制体。
 - 表面纹理取自旧塔架 tajia03 的颜色图 `Assets/Art Resources/Environment/Cableway/texture/texture_pbr_20250901.002 1.png`。
 
 ## 注意

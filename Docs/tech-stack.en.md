@@ -13,7 +13,7 @@
 ## Terrain and Scene
 
 - MapMagic manages terrain tiles and LOD, with heights from the USGS Sheep Range 1 m DEM
-- Gradient Terrain Authoring solves terrain transitions offline (C++, OpenGL, Python). Paper: Guérin et al., “Gradient Terrain Authoring”, Computer Graphics Forum 41(2), Eurographics 2022; code from the authors' repository eric-guerin/gradient-terrains, MIT license
+- Gradient Terrain Authoring solves terrain transitions offline (C++, OpenGL, Python). Paper: Guérin et al., [“Gradient Terrain Authoring”](https://hal.science/hal-03577171/document), Computer Graphics Forum 41(2), Eurographics 2022; code from the authors' repository [eric-guerin/gradient-terrains](https://github.com/eric-guerin/gradient-terrains), MIT license
 - Terrain Tools 5.3.2
 - Splines 2.9.1 for the factory dirt road routes
 - Opening sand accumulation: runtime copy of TerrainData for height animation

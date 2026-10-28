@@ -13,7 +13,7 @@
 ## 地形与场景
 
 - MapMagic 管理地块与 LOD，高度来自 USGS Sheep Range 1 米 DEM
-- Gradient Terrain Authoring 离线求解地形过渡（C++、OpenGL、Python）。论文 Guérin et al., “Gradient Terrain Authoring”, Computer Graphics Forum 41(2), Eurographics 2022；代码来自作者仓库 eric-guerin/gradient-terrains，MIT 许可
+- Gradient Terrain Authoring 离线求解地形过渡（C++、OpenGL、Python）。论文 Guérin et al., [“Gradient Terrain Authoring”](https://hal.science/hal-03577171/document), Computer Graphics Forum 41(2), Eurographics 2022；代码来自作者仓库 [eric-guerin/gradient-terrains](https://github.com/eric-guerin/gradient-terrains)，MIT 许可
 - Terrain Tools 5.3.2
 - Splines 2.9.1 做厂区土路路线
 - 开场积沙：运行时复制 TerrainData 做高度动画
