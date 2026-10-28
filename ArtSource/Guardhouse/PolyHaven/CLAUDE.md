@@ -8,7 +8,7 @@
 
 - `concrete_wall_007/`：Concrete Wall 007（polyhaven.com/a/concrete_wall_007），灰色旧水泥抹灰墙，一张对应实物 2.16 米。2k JPG 的颜色、OpenGL 法线、粗糙度三张。
 - `concrete_floor_worn_001/`：Concrete Floor Worn 001（polyhaven.com/a/concrete_floor_worn_001），室内旧水泥地，一张对应实物 3 米。同样三张。
-- `Scripts/break_tiling.py`：把一张扫描随机切块、翻转后拼成 4096 的新无缝贴图，重复间隔拉长到墙面 6.48 米、地面 6 米，长过门卫室任何一面墙；大块颜色起伏先压掉两成，免得同一块污渍被认出来。颜色、法线、粗糙度用同一套切块，法线随翻转改符号。用法 `python break_tiling.py <扫描名> <原图实物米数> <倍数>`，墙面 `concrete_wall_007 2.16 3`，地面 `concrete_floor_worn_001 3.0 2`。跑墙面时会调用 `wall_eras.py`。
+- `Scripts/break_tiling.py`：把一张扫描随机切块、翻转后拼成 4096 的新无缝贴图，重复间隔拉长到墙面 6.48 米、地面 6 米，长过门卫室任何一面墙；大块颜色起伏先压掉两成，免得同一块污渍被认出来。颜色、法线、粗糙度用同一套切块，法线随翻转改符号。用法 `python break_tiling.py <扫描名> <原图实物米数> <倍数>`，墙面 `concrete_wall_007 2.16 3`，地面 `concrete_floor_worn_001 3.0 2`。跑墙面时会调用 `wall_eras.py`。末尾再给输出目录和文件名前缀时，贴图写到那里、不做门卫室的年代处理，山顶终点站基础就是这样生成的，见 `../../Cableway/SummitStation/FoundationConcrete/`。
 - `Scripts/wall_eras.py`：把拼好的墙面颜色分成两个年代。2026 版给游戏：扫描污渍加深、加水渍，再按高度画墙根返潮和溅泥带、檐下积灰和往下的流挂。1980 版给合照：污渍减到三分之一、略提亮，留抹灰纹理，存 2048 PNG。
 
 ## 与其他部分的关系

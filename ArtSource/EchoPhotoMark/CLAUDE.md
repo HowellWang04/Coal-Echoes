@@ -11,7 +11,7 @@
 
 ## 与其他部分的关系
 
-- `Echo_Stamp.png` 放在 `Assets/Art Resources/UI/Player Panel/Photo Album/`，是 `Assets/Prefabs/Photo_Thumbnail_Prefab.prefab` 里 `EchoStamp` 的图，默认隐藏，由 `EchoPhotoMark.Show` 打开并把相框改成略暖的颜色。
+- `Echo_Stamp.png` 放在 `Assets/Art Resources/UI/Player Panel/Photo Album/`，是 `Assets/Prefabs/Photo_Thumbnail_Prefab.prefab` 里 `EchoStamp` 的图，默认隐藏，由 `EchoPhotoMark.Show` 打开并把相框改成略暖的颜色。同一张图也是右上角首次发现通知 `In-game UI Root/EchoUIRoot/EchoPopupUI/Stamp` 的印章，由 `EchoPopupUI` 做盖章动画。
 - `Echo_Note_Paper.png`、`Echo_Note_Tape.png` 放在 `Assets/Art Resources/UI/Player Panel/Scrapbook/`，由场景里 `ScrapbookCanvas` 上 `ScrapBookCanvas` 的 Echo Note 字段引用，便签字体是 `NothingYouCouldDo-Regular SDF`。
 - 便签贴在照片哪一侧由每个回响的 `EchoTrigger.noteLayout` 决定，拍照时随文字存进 `Echo/EchoPhotos.json`。
 
